@@ -2,22 +2,12 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<main class="ui page grid">
+  <div class="row">
+    <div class="center aligned starter column">
+      <h1 class="ui header">Semantic UI starter template</h1>
+      <p>Use this document as a way to quickly start any new project.</p>
+      <p>All you get is this text and a mostly barebones HTML document.</p>
+    </div>
+  </div>
+</main>
