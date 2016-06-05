@@ -6,9 +6,15 @@ The template for building an ICS Portfolio.
 
 * Get a GitHub account
 
-* Create your username.github.io repository and clone to your local computer.
+* Fork the ics-portfolios/template repo to your account, rename it to username.github.io.
+
+* (Will gh-pages be the default branch?)
+
+* Edit _config.yml and interior pages.
 
 * Set ics-portfolios/template as upstream master, merge changes.
+
+* 
 
 * Install Jekyll locally, run it.
 
