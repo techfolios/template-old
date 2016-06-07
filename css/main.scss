@@ -1,0 +1,22 @@
+---
+# Provide front matter so Jekyll processes this file as SASS.
+---
+@charset "utf-8";
+
+// Variables
+// Green colors from about.me: rgb(52, 115, 26), rgb(144, 181, 78)
+$home-background-start: gray;
+$home-background-end: white;
+
+body {
+  background-color: #DADADA;
+}
+
+body > .grid {
+  height: 100%;
+}
+
+body {
+  // background: linear-gradient(to bottom right, $background-start, $background-end);
+  background: radial-gradient(circle, $home-background-end, $home-background-start);
+}
