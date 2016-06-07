@@ -12,11 +12,7 @@ body {
   background-color: #DADADA;
 }
 
-body > .grid {
-  height: 100%;
-}
-
-body {
+.radial-background {
   // background: linear-gradient(to bottom right, $background-start, $background-end);
   background: radial-gradient(circle, $home-background-end, $home-background-start);
 }
