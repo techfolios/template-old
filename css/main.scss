@@ -3,23 +3,37 @@
 ---
 @charset "utf-8";
 
-// Variables
-// Green colors from about.me: rgb(52, 115, 26), rgb(144, 181, 78)
-$background-start: lighten(gray, 40%);
-$background-end: white;
 
+// Set the color scheme
+// Provide your two colors below
+$background-start: lighten(silver, 10%);
+$background-end: lighten(beige, 10%);
 
-// Don't change stuff below here unless you know what you're doing.
-
+// Now set the background color(s) for each page.
 body {
-  background-color: $background-start;
-
-}
-
-.radial-gradient-background {
-  background: radial-gradient(circle, $background-end, $background-start);
-}
-
-.linear-gradient-background {
+  // Make two colors blend from top left to bottom right
   background: linear-gradient(to bottom right, $background-start, $background-end);
+
+  // Provide a single background color
+  // background-color: $background-start;
+
+  // Make two colors blend from the center to the edges.
+  // background: radial-gradient(circle, $background-end, $background-start);
 }
+
+// Set the color for the navbar.
+.ui.menu {
+  background: $background-start;
+}
+
+// Set the color for the home page icons
+.icon-color {
+  color: darken(silver, 30%);
+}
+
+
+// Misc tweaks
+
+// Add some space between list items
+ul li { padding: 5px 0px; }
+ol li { padding: 5px 0px; }
