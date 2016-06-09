@@ -1,9 +1,0 @@
----
-# this ensures Jekyll reads the file to be transformed into CSS later
-# only Main files contain this front matter, not partials.
----
-@import 'semantic-ui/globals/all';
-@import 'semantic-ui/elements/all';
-@import 'semantic-ui/collections/all';
-@import 'semantic-ui/views/all';
-@import 'semantic-ui/modules/all';
