@@ -149,6 +149,7 @@
   "publications": [
     {
       "name": "Is an athletic approach the future of software engineering?",
+      "author": "E. Hill, P. Johnson, D. Port",
       "publisher": "IEEE Software",
       "releaseDate": "January, 2016",
       "website": "http://csdl.ics.hawaii.edu/techreports/2015/15-03/15-03.pdf",
@@ -156,6 +157,7 @@
     },
     {
       "name": "Three principals for the design of energy feedback visualizations",
+      "author": " R.Brewer, Y. Xu, G. Lee, M. Katchuck, C. Moore, P. Johnson",
       "publisher": "International Journal on Advances in Intelligent Systems",
       "releaseDate": "December, 2013",
       "website": "",
