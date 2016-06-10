@@ -157,14 +157,6 @@
       ]
     }
   ],
-//  "awards": [
-//    {
-//      "title": "Award",
-//      "date": "2014-11-01",
-//      "awarder": "Company",
-//      "summary": "There is no spoon."
-//    }
-//  ],
   "publications": [
     {
       "name": "Is an athletic approach the future of software engineering?",
@@ -181,23 +173,23 @@
       "summary": ""
     }
   ],
-//  "skills": [
-//    {
-//      "name": "Web Development",
-//      "level": "Master",
-//      "keywords": [
-//        "HTML",
-//        "CSS",
-//        "Javascript"
-//      ]
-//    }
-//  ],
-//  "languages": [
-//    {
-//      "name": "English",
-//      "level": "Native speaker"
-//    }
-//  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "Native speaker"
+    }
+  ],
   "interests": [
     {
       "name": "Software Engineering",
@@ -218,11 +210,5 @@
         "Energy data collection, analysis, and visualization"
       ]
     }
-  ],
-//  "references": [
-//    {
-//      "name": "Jane Doe",
-//      "reference": "Reference..."
-//    }
-//  ]
+  ]
 }
