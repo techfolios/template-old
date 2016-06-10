@@ -35,5 +35,31 @@ body {
 // Misc tweaks
 
 // Add some space between list items
-ul li { padding: 5px 0px; }
-ol li { padding: 5px 0px; }
+
+.list-padding {
+  ul li { padding: 5px 0px; }
+  ol li { padding: 5px 0px; }
+}
+.no-bottom {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+
+// For printing:
+
+@media print {
+  #resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0px 0px;
+    border: 0px;
+    background: #fff;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  a {
+    color: black;
+  }
+}
