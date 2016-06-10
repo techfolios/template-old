@@ -1,93 +1,228 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
-    "picture": "",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://johndoe.com",
-    "summary": "A summary of John Doe...",
+    "name": "Philip Johnson",
+    "label": "Professor",
+    "picture": "https://ics-portfolios.github.io/template/images/PhilipJohnsonHeadShot.jpg",
+    "email": "johnson@hawaii.edu",
+    "phone": "808-956-3489",
+    "website": "http://philipmjohnson.github.io",
+    "summary": "I am a Professor of Information and Computer Sciences at the University of Hawaii with interests in software engineering, renewable energy, gamification, and education.  I direct the [Collaborative Software Development Laboratory](http://csdl.ics.hawaii.edu) and the [Open Power Quality Project](http://openpowerquality.org).",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "1680 East-West Rd, POST 307",
+      "postalCode": "96822",
+      "city": "Honolulu",
+      "countryCode": "USA",
+      "region": "Hawaii"
     },
-    "profiles": [{
-      "network": "Twitter",
-      "username": "john",
-      "url": "http://twitter.com/john"
-    }]
+    "profiles": [
+      {
+        "network": "linkedin",
+        "username": "philipmjohnson",
+        "url": "http://linkedin.com/in/philipmjohnson"
+      },
+      {
+        "network": "github",
+        "username": "philipmjohnson",
+        "url": "http://github.com/philipmjohnson"
+      },
+      {
+        "network": "facebook",
+        "username": "philipmjohnson",
+        "url": "http://facebook.com/philipmjohnson"
+      },
+      {
+        "network": "twitter",
+        "username": "philipmjohnson",
+        "url": "http://twitter.com/philipmjohnson"
+      }
+    ]
   },
-  "work": [{
-    "company": "Company",
-    "position": "President",
-    "website": "http://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description...",
-    "highlights": [
-      "Started the company"
-    ]
-  }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "website": "http://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description...",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "University",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "gpa": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "website": "http://publication.com",
-    "summary": "Description..."
-  }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "Javascript"
-    ]
-  }],
-  "languages": [{
-    "name": "English",
-    "level": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference..."
-  }]
+  "work": [
+    {
+      "company": "Dept. Information and Computer Sciences, University of Hawaii",
+      "position": "Professor",
+      "website": "http://www.ics.hawaii.edu/",
+      "startDate": "1990-08-01",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Professor, 2001-present",
+        "Associate Chair, 2010-2016",
+        "Director, Collaborative Software Development Laboratory, 1990-present",
+        "Associate Professor, 1995-2001",
+        "Assistant Professor, 1990-1995"
+      ]
+    },
+    {
+      "company": "Open Power Quality",
+      "position": "CEO",
+      "website": "https://openpowerquality.com/",
+      "startDate": "2013-01-01",
+      "endDate": "Present",
+      "summary": "Co-founder and leader of technical development",
+      "highlights": [
+      ]
+    },
+    {
+      "company": "School of Engineering, Blekinge Institute of Technology",
+      "position": "Visiting Professor",
+      "website": "https://www.bth.se/eng/",
+      "startDate": "2006-08-01",
+      //"endDate": "",
+      "summary": "",
+      "highlights": [
+      ]
+    },
+    {
+      "company": "Distributed Systems Technology Centre, University of Queensland",
+      "position": "Senior Research Fellow",
+      "website": "https://www.bth.se/eng/",
+      "startDate": "2006-05-01",
+      //"endDate": "",
+      "summary": "",
+      "highlights": [
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "",
+      "position": "Editorial Board",
+      //"website": "",
+      //"startDate": "",
+      //"endDate": "",
+      "summary": "",
+      "highlights": [
+        "Journal of Empirical Software Engineering, 2004-2008",
+        "IEEE Transactions on Software Engineering, 2000-2004",
+        "International Journal of Computer Supported Cooperative Work, 1997-2004"
+      ]
+    },
+    {
+      "organization": "",
+      "position": "Program Chair/Co-Chair",
+      //"website": "",
+      //"startDate": "",
+      //"endDate": "",
+      "summary": "",
+      "highlights": [
+        "International Workshop on In-Process Software Engineering Measurement and Analysis, 2007",
+        "International Workshop on Software Engineering for High Performance Computing System Applications, 2004, 2005",
+        "International Software Engineering Research Network Annual Meeting, 2000",
+        "Software Architectures for Cooperative Systems Workshop, ACM Conference on Computer Supported Cooperative Work, 1994",
+        "CSCW Tools and Technologies Workshop, European Conference on Computer Supported Cooperative Work, 1993",
+        "CSCW Tools and Technologies Workshop, ACM Conference on Computer Supported Cooperative Work, 1992"
+      ]
+    },
+    {
+      "organization": "International Software Engineering Research Network (ISERN)",
+      "position": "Member",
+      "website": "http://isern.iese.de/Portal/",
+      "startDate": "1996-05-01",
+      "endDate": "2010-06-01",
+      "summary": "Collaborated on software metrics and software development behavioral research.",
+      "highlights": [
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Massachusetts, Amherst, MA",
+      "area": "Computer Science",
+      "studyType": "Ph.D.",
+      //"startDate": "",
+      "endDate": "1990-08-01",
+      "gpa": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "University of Massachusetts, Amherst, MA",
+      "area": "Computer Science",
+      "studyType": "M.S.",
+      //"startDate": "",
+      "endDate": "1985-06-01",
+      "gpa": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "University of Michigan, Ann Arbor, MI",
+      "area": "Biology, Computer Science",
+      "studyType": "B.S. Biology, B.S. Computer Science",
+      //"startDate": "",
+      "endDate": "1980-05-01",
+      "gpa": "",
+      "courses": [
+      ]
+    }
+  ],
+//  "awards": [
+//    {
+//      "title": "Award",
+//      "date": "2014-11-01",
+//      "awarder": "Company",
+//      "summary": "There is no spoon."
+//    }
+//  ],
+  "publications": [
+    {
+      "name": "Is an athletic approach the future of software engineering?",
+      "publisher": "IEEE Software",
+      "releaseDate": "January, 2016",
+      "website": "http://csdl.ics.hawaii.edu/techreports/2015/15-03/15-03.pdf",
+      "summary": ""
+    },
+    {
+      "name": "Three principals for the design of energy feedback visualizations",
+      "publisher": "International Journal on Advances in Intelligent Systems",
+      "releaseDate": "December, 2013",
+      "website": "",
+      "summary": ""
+    }
+  ],
+//  "skills": [
+//    {
+//      "name": "Web Development",
+//      "level": "Master",
+//      "keywords": [
+//        "HTML",
+//        "CSS",
+//        "Javascript"
+//      ]
+//    }
+//  ],
+//  "languages": [
+//    {
+//      "name": "English",
+//      "level": "Native speaker"
+//    }
+//  ],
+  "interests": [
+    {
+      "name": "Software Engineering",
+      "keywords": [
+        "Software Metrics",
+        "Full stack application development"
+      ]
+    },
+    {
+      "name": "Serious Games",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Renewable Energy",
+      "keywords": [
+        "Power quality",
+        "Energy data collection, analysis, and visualization"
+      ]
+    }
+  ],
+//  "references": [
+//    {
+//      "name": "Jane Doe",
+//      "reference": "Reference..."
+//    }
+//  ]
 }
