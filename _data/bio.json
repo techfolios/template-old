@@ -68,7 +68,6 @@
       "position": "Visiting Professor",
       "website": "https://www.bth.se/eng/",
       "startDate": "2006-08-01",
-      //"endDate": "",
       "summary": "",
       "highlights": [
       ]
@@ -78,7 +77,6 @@
       "position": "Senior Research Fellow",
       "website": "https://www.bth.se/eng/",
       "startDate": "2006-05-01",
-      //"endDate": "",
       "summary": "",
       "highlights": [
       ]
@@ -88,9 +86,6 @@
     {
       "organization": "",
       "position": "Editorial Board",
-      //"website": "",
-      //"startDate": "",
-      //"endDate": "",
       "summary": "",
       "highlights": [
         "Journal of Empirical Software Engineering, 2004-2008",
@@ -101,9 +96,6 @@
     {
       "organization": "",
       "position": "Program Chair/Co-Chair",
-      //"website": "",
-      //"startDate": "",
-      //"endDate": "",
       "summary": "",
       "highlights": [
         "International Workshop on In-Process Software Engineering Measurement and Analysis, 2007",
@@ -130,7 +122,6 @@
       "institution": "University of Massachusetts, Amherst, MA",
       "area": "Computer Science",
       "studyType": "Ph.D.",
-      //"startDate": "",
       "endDate": "1990-08-01",
       "gpa": "",
       "courses": [
@@ -140,7 +131,6 @@
       "institution": "University of Massachusetts, Amherst, MA",
       "area": "Computer Science",
       "studyType": "M.S.",
-      //"startDate": "",
       "endDate": "1985-06-01",
       "gpa": "",
       "courses": [
@@ -150,7 +140,6 @@
       "institution": "University of Michigan, Ann Arbor, MI",
       "area": "Biology, Computer Science",
       "studyType": "B.S. Biology, B.S. Computer Science",
-      //"startDate": "",
       "endDate": "1980-05-01",
       "gpa": "",
       "courses": [

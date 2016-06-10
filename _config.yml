@@ -19,4 +19,5 @@ github_username:  philipmjohnson
 
 # Build settings
 markdown: kramdown
+include: [_data]
 
