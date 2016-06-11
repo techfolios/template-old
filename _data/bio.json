@@ -2,7 +2,7 @@
   "basics": {
     "name": "Philip Johnson",
     "label": "Professor",
-    "picture": "https://ics-portfolios.github.io/template/images/PhilipJohnsonHeadShot.jpg",
+    "picture": "https://techfolios.github.io/template/images/PhilipJohnsonHeadShot.jpg",
     "email": "johnson@hawaii.edu",
     "phone": "808-956-3489",
     "website": "https://philipmjohnson.github.io",
@@ -39,12 +39,12 @@
   },
   "work": [
     {
-      "company": "Dept. Information and Computer Sciences, University of Hawaii",
+      "company": "University of Hawaii",
       "position": "Professor",
       "website": "http://www.ics.hawaii.edu/",
       "startDate": "1990-08-01",
       "endDate": "Present",
-      "summary": "",
+      "summary": "Department of Information and Computer Sciences",
       "highlights": [
         "Professor, 2001-present",
         "Associate Chair, 2010-2016",
@@ -64,20 +64,20 @@
       ]
     },
     {
-      "company": "School of Engineering, Blekinge Institute of Technology",
+      "company": "Blekinge Institute of Technology",
       "position": "Visiting Professor",
       "website": "https://www.bth.se/eng/",
       "startDate": "2006-08-01",
-      "summary": "",
+      "summary": "School of Engineering",
       "highlights": [
       ]
     },
     {
-      "company": "Distributed Systems Technology Centre, University of Queensland",
+      "company": "University of Queensland",
       "position": "Senior Research Fellow",
       "website": "https://www.bth.se/eng/",
       "startDate": "2006-05-01",
-      "summary": "",
+      "summary": "Distributed Systems Technology Centre",
       "highlights": [
       ]
     }
