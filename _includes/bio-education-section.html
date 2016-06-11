@@ -1,0 +1,32 @@
+<div class="sixteen wide column no-bottom">
+  <h3 class="ui left aligned header no-bottom">Education</h3>
+  <hr style="margin: 0px;">
+</div>
+
+{% for degreeprogram in site.data.bio.education %}
+  <div class="twelve wide column no-bottom">
+    <p class="ui no-bottom"><b>{{ degreeprogram.institution }}</b></p>
+    <p class="ui no-bottom">{{ degreeprogram.studyType }}, {{ degreeprogram.area }}</p>
+    {% if degreeprogram.courses %}
+      <ul style="margin: 0px;">
+        {% for course in degreeprogram.courses %}
+          <li>{{ course }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+  <div class="four wide right aligned column no-bottom">
+    <p class="ui no-bottom"><b>
+      {% if degreeprogram.startDate %}
+        {{ degreeprogram.startDate | slice: 0,4 }}
+      {% endif %}
+      {% if degreeprogram.startDate and degreeprogram.endDate %}
+        -
+      {% endif %}
+      {% if degreeprogram.endDate %}
+      {{ degreeprogram.endDate | slice: 0,4 }}
+      {% endif %}
+    </b></p>
+  </div>
+{% endfor %}
+

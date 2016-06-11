@@ -5,7 +5,7 @@
     "picture": "https://ics-portfolios.github.io/template/images/PhilipJohnsonHeadShot.jpg",
     "email": "johnson@hawaii.edu",
     "phone": "808-956-3489",
-    "website": "http://philipmjohnson.github.io",
+    "website": "https://philipmjohnson.github.io",
     "summary": "I am a Professor of Information and Computer Sciences at the University of Hawaii, Director of the Collaborative Software Development Laboratory, and CEO of OpenPowerQuality.com.",
     "location": {
       "address": "1680 East-West Rd, POST 307",
@@ -27,8 +27,8 @@
       },
       {
         "network": "facebook",
-        "username": "philipmjohnson",
-        "url": "http://facebook.com/philipmjohnson"
+        "username": "philipmeadowsjohnson",
+        "url": "http://facebook.com/philipmeadowsjohnson"
       },
       {
         "network": "twitter",
@@ -139,7 +139,7 @@
     {
       "institution": "University of Michigan, Ann Arbor, MI",
       "area": "Biology, Computer Science",
-      "studyType": "B.S. Biology, B.S. Computer Science",
+      "studyType": "B.S.",
       "endDate": "1980-05-01",
       "gpa": "",
       "courses": [

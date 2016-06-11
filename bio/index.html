@@ -5,51 +5,22 @@ layout: bio
 <div style="margin-top: 10px" class="ui grid container">
 
   <div class="sixteen wide column no-bottom">
-    <h2 class="ui center aligned header no-bottom">Philip Johnson</h2>
+    <h2 class="ui center aligned header no-bottom">{{ site.data.bio.basics.name }}</h2>
   </div>
 
   <div class="eight wide left aligned column">
-    <p class="ui no-bottom"><a href="http://philipmjohnson.github.io"> <i class="large home icon "></i>
-      philipmjohnson.github.io</a></p>
-    <p class="ui no-bottom"><a href="mailto:johnson@hawaii.edu"> <i class="large mail square icon "></i>
-      johnson@hawaii.edu</a></p>
-    <p class="ui no-bottom"><a href="http://github.com/philipmjohnson"> <i
-        class="large github square icon"></i> philipmjohnson</a></p>
-    <p class="ui no-bottom"><a href="https://www.linkedin.com/in/philipmjohnson"> <i
-        class="large linkedin square icon"></i> philipmjohnson</a></p>
+    {% include bio-network-links.html %}
   </div>
 
   <div class="eight wide right aligned column">
-    <p class="ui no-bottom">1680 East-West Rd.</p>
-    <p class="ui no-bottom">Honolulu, HI USA</p>
-    <p class="ui no-bottom">+1 808-956-3489</p>
+    {% include bio-address-section.html %}
   </div>
 
 
   <!-- Start education section. -->
 
-  <div class="sixteen wide column no-bottom">
-    <h3 class="ui left aligned header no-bottom">Education</h3>
-    <hr style="margin: 0px;">
-  </div>
+  {% include bio-education-section.html %}
 
-  <div class="twelve wide column no-bottom">
-    <p class="ui no-bottom"><b>University of Massachusetts, Amherst, MA</b></p>
-    <p class="ui no-bottom"><a href="http://www.ics.hawaii.edu">www.ics.umass.edu</a></p>
-    <p class="ui no-bottom">Ph.D., Computer Science</p>
-  </div>
-  <div class="four wide right aligned column no-bottom">
-    <p class="ui no-bottom"><b>1983-1990</b></p>
-  </div>
-
-  <div class="twelve wide column no-bottom">
-    <p class="ui no-bottom"><b>University of Michigan, Ann Arbor, MI</b></p>
-    <p class="ui no-bottom"><a href="http://www.ics.hawaii.edu">www.cs.umich.edu</a></p>
-    <p class="ui no-bottom">B.S. Biology, B.S. Computer Science</p>
-  </div>
-  <div class="four wide right aligned column no-bottom">
-    <p class="ui no-bottom"><b>1976-1980</b></p>
-  </div>
 
   <!-- Start experience section. -->
 
