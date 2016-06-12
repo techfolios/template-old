@@ -3,9 +3,9 @@ layout: writings
 ---
 
 
-<div style="padding-top: 20px" class="ui padded grid container ">
+<div style="padding-top: 20px" class="ui container ">
 
-  <div class="ui stackable four cards">
+  <div class="ui stackable centered four cards">
     {% assign sorted_pages = site.pages | where:"type", "writing" | sort: "date" | reverse %}
     {% for page in sorted_pages %}
         {% include writing-card.html page=page %}
