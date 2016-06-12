@@ -16,14 +16,14 @@
     },
     "profiles": [
       {
-        "network": "linkedin",
-        "username": "philipmjohnson",
-        "url": "http://linkedin.com/in/philipmjohnson"
-      },
-      {
         "network": "github",
         "username": "philipmjohnson",
         "url": "http://github.com/philipmjohnson"
+      },
+      {
+        "network": "linkedin",
+        "username": "philipmjohnson",
+        "url": "http://linkedin.com/in/philipmjohnson"
       },
       {
         "network": "facebook",

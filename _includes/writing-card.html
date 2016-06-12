@@ -1,17 +1,12 @@
 <div class="card">
-  {% if include.page.image %}
-    <div class="image">
-      <img src="{{ site.baseurl }}/{{ include.page.image }}">
-    </div>
-  {% endif %}
   <div class="content">
     <span class="header">{{ include.page.title }}</span>
     <div class="meta">
-      <span class="date">{{ include.page.date }}</span>
+      <span class="date">{{ include.page.date | date_to_string }}</span>
     </div>
 
     <div class="description">
-      {{ include.page.summary }}
+      {{ include.page.content | strip_html | truncatewords: 20 }}
     </div>
   </div>
 
@@ -23,10 +18,6 @@
     </div>
   </div>
   <div class="ui bottom attached button">
-    {% if page.projecturl %}
-      <a href="{{ page.projecturl }}">Read More</a>
-    {% else %}
       <a href="{{ site.baseurl}}{{ include.page.url }}">Read More</a>
-    {% endif %}
   </div>
 </div>

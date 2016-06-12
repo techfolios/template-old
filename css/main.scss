@@ -8,11 +8,13 @@
 // Provide your two colors below
 $background-start: lighten(silver, 10%);
 $background-end: lighten(beige, 10%);
+$background-light: #f2f2f2;
 
 // Now set the background color(s) for each page.
 body {
+  background-color: $background-light;
   // Make two colors blend from top left to bottom right
-  background: linear-gradient(to bottom right, $background-start, $background-end);
+  // background: linear-gradient(to bottom right, $background-start, $background-end);
 
   // Provide a single background color
   // background-color: $background-start;
