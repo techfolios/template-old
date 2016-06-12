@@ -1,11 +1,15 @@
 <div class="sixteen wide column no-bottom">
-  <h3 class="ui left aligned header no-bottom">Professional Experience</h3>
+  <h3 class="ui left aligned header no-bottom">Professional Activities</h3>
   <hr style="margin: 0px;">
 </div>
 
-{% for entry in site.data.bio.work %}
+{% for entry in site.data.bio.volunteer %}
   <div class="twelve wide column no-bottom">
-    <p class="ui no-bottom"><b>{{ entry.position }}, {{ entry.company }}</b></p>
+    <p class="ui no-bottom">
+      <b>
+      {{ entry.position }}{% if entry.organization and (entry.organization != "") %}, {{ entry.organization }}{% endif %}
+      </b>
+    </p>
     <p class="ui no-bottom"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
   </div>
   <div class="four wide right aligned column no-bottom">

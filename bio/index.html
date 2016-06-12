@@ -2,7 +2,7 @@
 layout: bio
 ---
 
-<div style="margin-top: 10px" class="ui grid container">
+<div style="margin-top: 10px; margin-bottom: 20px" class="ui grid container">
 
   <div class="sixteen wide column no-bottom">
     <h2 class="ui center aligned header no-bottom">{{ site.data.bio.basics.name }}</h2>
@@ -16,17 +16,9 @@ layout: bio
     {% include bio-address-section.html %}
   </div>
 
-
-  <!-- Start education section. -->
-
   {% include bio-education-section.html %}
-
-
-  <!-- Start experience section. -->
-
   {% include bio-work-section.html %}
-
- 
-
-
+  {% include bio-volunteer-section.html %}
+  {% include bio-publications-section.html %}
+  {% include bio-awards-section.html %}
 </div>

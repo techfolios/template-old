@@ -3,13 +3,13 @@
   <hr style="margin: 0px;">
 </div>
 
-{% for degreeprogram in site.data.bio.education %}
+{% for entry in site.data.bio.education %}
   <div class="twelve wide column no-bottom">
-    <p class="ui no-bottom"><b>{{ degreeprogram.institution }}</b></p>
-    <p class="ui no-bottom">{{ degreeprogram.studyType }}, {{ degreeprogram.area }}</p>
-    {% if degreeprogram.courses %}
+    <p class="ui no-bottom"><b>{{ entry.institution }}</b></p>
+    <p class="ui no-bottom">{{ entry.studyType }}, {{ entry.area }}</p>
+    {% if entry.courses %}
       <ul style="margin: 0px;">
-        {% for course in degreeprogram.courses %}
+        {% for course in entry.courses %}
           <li>{{ course }}</li>
         {% endfor %}
       </ul>
@@ -17,14 +17,14 @@
   </div>
   <div class="four wide right aligned column no-bottom">
     <p class="ui no-bottom"><b>
-      {% if degreeprogram.startDate %}
-        {{ degreeprogram.startDate | slice: 0,4 }}
+      {% if entry.startDate %}
+        {{ entry.startDate | slice: 0,4 }}
       {% endif %}
-      {% if degreeprogram.startDate and degreeprogram.endDate %}
+      {% if entry.startDate and entry.endDate %}
         -
       {% endif %}
-      {% if degreeprogram.endDate %}
-      {{ degreeprogram.endDate | slice: 0,4 }}
+      {% if entry.endDate %}
+      {{ entry.endDate | slice: 0,4 }}
       {% endif %}
     </b></p>
   </div>

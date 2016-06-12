@@ -2,6 +2,6 @@
   <p class="ui no-bottom"><a href="{{ site.data.bio.basics.website }}"> <i class="large home icon "></i>{{ site.data.bio.basics.website | remove: "http://" | remove: "https://" }}</a></p>
 {% endif %}
 
-{% for profile in site.data.bio.basics.profiles %}
-     <p class="ui no-bottom"><a href="{{ profile.url }}"> <i class="large {{ profile.network | downcase }} icon "></i>{{ profile.username }}</a></p>
+{% for entry in site.data.bio.basics.profiles %}
+     <p class="ui no-bottom"><a href="{{ entry.url }}"> <i class="large {{ entry.network | downcase }} icon "></i>{{ entry.username }}</a></p>
 {% endfor %}
