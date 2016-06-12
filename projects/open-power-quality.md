@@ -10,9 +10,8 @@ labels:
   - Raspberry PI
   - Meteor
 summary: Open source hardware, software, and data for low cost, crowd-sourced power quality monitoring, storage, and analysis.
+projecturl: http://openpowerquality.org
 ---
-
-# Open Power Quality
 
 <img class="ui medium right floated rounded image" src="{{ site.baseurl }}/images/opqbox-2.5.jpg">
 

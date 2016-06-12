@@ -21,6 +21,10 @@
     </div>
   </div>
   <div class="ui bottom attached button">
-    <a href="{{ site.baseurl}}{{ include.page.url }}">Read More</a>
+    {% if page.projecturl %}
+      <a href="{{ page.projecturl }}">Read More</a>
+    {% else %}
+      <a href="{{ site.baseurl}}{{ include.page.url }}">Read More</a>
+    {% endif %}
   </div>
 </div>
