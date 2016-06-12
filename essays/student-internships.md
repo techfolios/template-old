@@ -1,6 +1,6 @@
 ---
-layout: writing
-type: writing
+layout: essay
+type: essay
 published: true
 title: How to guarantee that you will not be considered for a student internship
 date: 2008-10-11

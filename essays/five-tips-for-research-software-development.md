@@ -1,6 +1,6 @@
 ---
-layout: writing
-type: writing
+layout: essay
+type: essay
 published: true
 title: Five tips for bootstrapping a research software development team
 date: 2014-09-29

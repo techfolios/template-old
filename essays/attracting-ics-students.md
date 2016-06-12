@@ -1,6 +1,6 @@
 ---
-layout: writing
-type: writing
+layout: essay
+type: essay
 published: true
 title: How to attract good students from the ICS department
 date: 2010-02-09

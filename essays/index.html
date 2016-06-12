@@ -1,14 +1,14 @@
 ---
-layout: writings
+layout: essays
 ---
 
 
 <div style="padding-top: 20px" class="ui container ">
 
   <div class="ui stackable centered four cards">
-    {% assign sorted_pages = site.pages | where:"type", "writing" | sort: "date" | reverse %}
+    {% assign sorted_pages = site.pages | where:"type", "essay" | sort: "date" | reverse %}
     {% for page in sorted_pages %}
-        {% include writing-card.html page=page %}
+        {% include essay-card.html page=page %}
     {% endfor %}
   </div>
 </div>
