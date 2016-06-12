@@ -3,106 +3,13 @@ layout: projects
 ---
 
 
-<div class="ui three column padded grid container ">
+<div style="padding-top: 20px" class="ui padded grid container ">
 
-
-  <div class="ui stackable three cards">
-
-    <div class="card">
-      <div class="image">
-        <img src="{{ site.baseurl }}/images/opqbox-2.5.jpg">
-      </div>
-      <div class="content">
-        <span class="header">Open Power Quality</span>
-        <div class="meta">
-          <span class="date">2013 - present</span>
-        </div>
-
-        <div class="description">
-          The Open Power Quality project explores open source hardware, software, and data for low cost, crowd-sourced power quality monitoring, storage, and analysis.
-        </div>
-
-
-      </div>
-      <div class="extra content">
-        Technologies: Raspberry PI, Play Framework
-      </div>
-      <div class="ui bottom attached button">
-        <a href="{{ site.baseurl }}/projects/open-power-quality.html">Read More</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="image">
-        <img src="{{ site.baseurl }}/images/wattdepot.png">
-      </div>
-      <div class="content">
-        <span class="header">WattDepot</span>
-        <div class="meta">
-          <span class="date">2009 - present</span>
-        </div>
-
-        <div class="description">
-          WattDepot is an open source, RESTful web service that collects electricity data (such as current power utilization or cumulative power utilization) from meters and stores it in a database. The data can then be retrieved by other tools for visualization and analysis.
-        </div>
-
-
-      </div>
-      <div class="extra content">
-        Technologies: Java, Maven, Restlet
-      </div>
-      <div class="ui bottom attached button">
-        <a href="{{ site.baseurl }}/projects/wattdepot.html">Read More</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="image">
-        <img src="{{ site.baseurl }}/images/morea-framework.png">
-      </div>
-      <div class="content">
-        <span class="header">Morea Framework</span>
-        <div class="meta">
-          <span class="date">2013 - present</span>
-        </div>
-
-        <div class="description">
-          The Morea Framework provides a new way to generate educational websites organized by Modules, Outcomes, Readings, Experiences, and Assessments.
-        </div>
-
-
-      </div>
-      <div class="extra content">
-        Technologies: Jekyll, GitHub Pages, Ruby
-      </div>
-      <div class="ui bottom attached button">
-        <a href="{{ site.baseurl }}/projects/morea-framework.html">Read More</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="image">
-        <img src="{{ site.baseurl }}/images/kukuicup.jpg">
-      </div>
-      <div class="content">
-        <span class="header">Kukui Cup</span>
-        <div class="meta">
-          <span class="date">2009 - present</span>
-        </div>
-
-        <div class="description">
-          The Kukui Cup Project explores novel ways to utilize concepts from information technology, community-based social marketing, serious games, and educational pedagogy to support sustained change in sustainability-related behaviors.
-        </div>
-
-
-      </div>
-      <div class="extra content">
-        Technologies: Jekyll, GitHub Pages, Ruby
-      </div>
-      <div class="ui bottom attached button">
-        <a href="{{ site.baseurl }}/projects/kukuicup.html">Read More</a>
-      </div>
-    </div>
-
+  <div class="ui stackable four cards">
+    {% for page in site.pages %}
+      {% if page.type == "project"  %}
+        {% include project-card.html page=page %}
+      {% endif %}
+    {% endfor %}
   </div>
 </div>

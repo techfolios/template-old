@@ -3,8 +3,8 @@
     <a href="{{ site.baseurl}}/" class="brand item">
       <img class="ui avatar image" src="{{ site.data.bio.basics.picture }}"><span>{{ site.data.bio.basics.name }}</span>
     </a>
-    <a href="{{ site.baseurl }}/projects" class="item">Projects</a>
-    <a href="{{ site.baseurl }}/writings" class="item">Writings</a>
-    <a href="{{ site.baseurl }}/bio" class=" active item">Resume</a>
+    <a href="{{ site.baseurl }}/projects" class=" {% if include.active == "projects" %} active {% endif %}item">Projects</a>
+    <a href="{{ site.baseurl }}/writings" class=" {% if include.active == "writings" %} active {% endif %} item">Writings</a>
+    <a href="{{ site.baseurl }}/bio" class=" {% if include.active == "bio" %} active {% endif %} item">Resume</a>
   </nav>
 </div>

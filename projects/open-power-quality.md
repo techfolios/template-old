@@ -1,5 +1,15 @@
 ---
 layout: project
+type: project
+published: true
+image: images/opqbox-2.5.jpg
+title: Open Power Quality
+permalink: projects/openpowerquality
+date: 2013-present
+labels:
+  - Raspberry PI
+  - Meteor
+summary: Open source hardware, software, and data for low cost, crowd-sourced power quality monitoring, storage, and analysis.
 ---
 
 # Open Power Quality
