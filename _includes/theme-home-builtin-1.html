@@ -22,7 +22,7 @@
         <div class="description">
           Interests:
           {% for interest in site.data.bio.interests %}
-          {{ interest.name }}{% if forloop.last != true %}, {% endif %}
+            {{ interest.name }}{% if forloop.last != true %}, {% endif %}
           {% endfor %}
 
         </div>
