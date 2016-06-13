@@ -1,15 +1,13 @@
-<!-- Used by theme-projects-builtin-2 -->
+<!-- Used by theme-essays-builtin-2 -->
+
 <div class="row">
   <div style="text-align: center" class="three wide column">
-    {% if include.page.image %}
-    <img class="ui middle aligned medium circular image" src="{{ site.baseurl }}/{{ include.page.image }}">
-    {% endif %}
+    <p style="margin-top: 10px" class="ui red label">{{ include.page.date | date_to_string }}</p>
   </div>
 
-  <div class="six wide column">
-    <h2 class="header no-bottom">{{ include.page.title }}</h2>
-    <p class="">{{ include.page.date }}</p>
-    <p>{{ include.page.summary }}</p>
+  <div class="ten wide column">
+    <h2 class="header">{{ include.page.title }}</h2>
+    <p>{{ include.page.content | strip_html | truncatewords: 40 }}</p>
 
     <p>
     <div style="text-align: center" class="ui mini labels">
@@ -21,11 +19,7 @@
 
     <div style="text-align: center">
       <div class="ui basic button">
-        {% if page.projecturl %}
-        <a href="{{ page.projecturl }}">Read More</a>
-        {% else %}
         <a href="{{ site.baseurl}}{{ include.page.url }}">Read More</a>
-        {% endif %}
       </div>
     </div>
     <hr style="margin-top: 20px">

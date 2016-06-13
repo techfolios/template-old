@@ -12,7 +12,7 @@ bio-page-label: Resume
 # You might want to change the theme associated with one or more sections of the site.
 theme-home: theme-home-builtin-2.html
 theme-projects: theme-projects-builtin-2.html
-theme-essays: theme-essays-builtin-1.html
+theme-essays: theme-essays-builtin-2.html
 theme-bio: theme-bio-builtin-1.html
 
 # PROBABLY NEVER CHANGED
