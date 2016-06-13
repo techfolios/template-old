@@ -2,14 +2,4 @@
 layout: projects
 ---
 
-
-<div style="padding-top: 20px" class="ui container ">
-
-  <div class="ui stackable centered four cards">
-    {% for page in site.pages %}
-      {% if page.type == "project"  %}
-        {% include project-card.html page=page %}
-      {% endif %}
-    {% endfor %}
-  </div>
-</div>
+{% include {{ site.theme-projects }} %}

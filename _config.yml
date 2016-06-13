@@ -1,11 +1,22 @@
-# Site-specific settings
-#  Edit next line with your name.
+# Site settings
+
+# MANDATORY CHANGES
+# Edit next line, providing your own name.
 title: Philip Johnson | Professional Portfolio
-# Edit next line with your github username
+# Edit next line, replacing 'techfolios' with your github username
 url: "https://techfolios.github.io"
 
-# The following lines contain global defaults you don't normally need to change.
-baseurl: "/template" # change this to "/<repo>" if your portfolio is the <username>.github.io repo.
+# OPTIONAL CHANGES
+# You might want to change the bio page label to CV
+bio-page-label: Resume
+# You might want to change the theme associated with one or more sections of the site.
+theme-home: theme-home-builtin-2.html
+theme-projects: theme-projects-builtin-1.html
+theme-essays: theme-essays-builtin-1.html
+theme-bio: theme-bio-builtin-1.html
+
+# PROBABLY NEVER CHANGED
+baseurl: "/template" # change this to "/<repo>" if you're not using <username>.github.io.
 markdown: kramdown
 include: [_data]
 

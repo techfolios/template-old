@@ -2,23 +2,4 @@
 layout: bio
 ---
 
-<div style="margin-top: 10px; margin-bottom: 20px" class="ui grid container">
-
-  <div class="sixteen wide column no-bottom">
-    <h2 class="ui center aligned header no-bottom">{{ site.data.bio.basics.name }}</h2>
-  </div>
-
-  <div class="eight wide left aligned column">
-    {% include bio-network-links.html %}
-  </div>
-
-  <div class="eight wide right aligned column">
-    {% include bio-address-section.html %}
-  </div>
-
-  {% include bio-education-section.html %}
-  {% include bio-work-section.html %}
-  {% include bio-volunteer-section.html %}
-  {% include bio-publications-section.html %}
-  {% include bio-awards-section.html %}
-</div>
+{% include {{ site.theme-bio }} %}
