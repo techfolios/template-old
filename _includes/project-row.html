@@ -1,0 +1,32 @@
+<div class="row">
+  <div style="text-align: center" class="three wide column">
+    {% if include.page.image %}
+    <img class="ui middle aligned medium circular image" src="{{ site.baseurl }}/{{ include.page.image }}">
+    {% endif %}
+  </div>
+
+  <div class="six wide column">
+    <h2 class="header no-bottom">{{ include.page.title }}</h2>
+    <p class="">{{ include.page.date }}</p>
+    <p>{{ include.page.summary }}</p>
+
+    <p>
+    <div style="text-align: center" class="ui mini labels">
+      {% for label in include.page.labels %}
+      <div class="ui basic label">{{ label }}</div>
+      {% endfor %}
+    </div>
+    </p>
+
+    <div style="text-align: center">
+      <div class="ui basic button">
+        {% if page.projecturl %}
+        <a href="{{ page.projecturl }}">Read More</a>
+        {% else %}
+        <a href="{{ site.baseurl}}{{ include.page.url }}">Read More</a>
+        {% endif %}
+      </div>
+    </div>
+    <hr style="margin-top: 20px">
+  </div>
+</div>
