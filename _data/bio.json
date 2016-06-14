@@ -185,30 +185,49 @@
       "summary": ""
     }
   ],
-
-  "awards": [{
-    "type": "grant",
-    "title": "Human centered information integration for the smart grid",
-    "date": "",
-    "awarder": "National Science Foundation",
-    "summary": "P. Johnson, Principal Investigator. $413,467. 2010-2014"
-  },
+  "awards": [
+    {
+      "type": "grant",
+      "title": "Human centered information integration for the smart grid",
+      "date": "",
+      "awarder": "National Science Foundation",
+      "summary": "P. Johnson, Principal Investigator. $413,467. 2010-2014"
+    },
     {
       "type": "",
       "title": "Coach of the Year",
       "date": "2005-08-01",
       "awarder": "Kailua AYSO",
       "summary": ""
-    }],
-
+    }
+  ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Languages and Frameworks",
+      "level": "",
       "keywords": [
+        "Java",
+        "Javascript",
+        "C",
+        "C++",
+        "Assembly",
+        "Meteor",
         "HTML",
         "CSS",
-        "Javascript"
+        "Semantic UI",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "level": "",
+      "keywords": [
+        "MacOS",
+        "Windows",
+        "Ubuntu",
+        "Git/GitHub",
+        "g++",
+        "Emacs"
       ]
     }
   ],
@@ -222,8 +241,8 @@
     {
       "name": "Software Engineering",
       "keywords": [
-        "Software Metrics",
-        "Full stack application development"
+        "software metrics",
+        "full stack application development"
       ]
     },
     {
@@ -234,8 +253,8 @@
     {
       "name": "Renewable Energy",
       "keywords": [
-        "Power quality",
-        "Energy data collection, analysis, and visualization"
+        "power quality",
+        "energy data collection, analysis, and visualization"
       ]
     }
   ]
