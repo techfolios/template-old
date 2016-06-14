@@ -1,4 +1,4 @@
-<div style="margin-top: 10px; margin-bottom: 20px" class="ui grid container">
+<div style="margin-top: 10px; " class="ui grid container">
 
   <div class="sixteen wide column no-bottom">
     <h2 class="ui center aligned header no-bottom">{{ site.data.bio.basics.name }}</h2>
@@ -11,10 +11,12 @@
   <div class="eight wide right aligned column">
     {% include bio-address-section.html %}
   </div>
+</div>
 
-  {% include bio-education-section.html %}
-  {% include bio-work-section.html %}
-  {% include bio-volunteer-section.html %}
-  {% include bio-publications-section.html %}
-  {% include bio-awards-section.html %}
+<div style="margin-bottom: 20px" class="ui stackable grid container">
+  {% include bio-education-section-1.html %}
+  {% include bio-work-section-1.html %}
+  {% include bio-volunteer-section-1.html %}
+  {% include bio-publications-section-1.html %}
+  {% include bio-awards-section-1.html %}
 </div>
