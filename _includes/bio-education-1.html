@@ -30,7 +30,11 @@
         -
         {% endif %}
         {% if entry.endDate %}
-        {{ entry.endDate | slice: 0,4 }}
+          {% if entry.endDate != "Present" %}
+            {{ entry.endDate | slice: 0,4 }}
+          {% else %}
+            {{ entry.endDate }}
+          {% endif %}
         {% endif %}
       </b></p>
     </div>

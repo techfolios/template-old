@@ -1,5 +1,6 @@
 <!-- Used by theme-bio-builtin-1 -->
 
+{% if site.data.bio.volunteer %}
 <div class="row">
   <div class="two wide column">
     <h3 class="ui left aligned header no-bottom">Activities</h3>
@@ -34,7 +35,11 @@
           -
           {% endif %}
           {% if entry.endDate %}
-          {{ entry.endDate | slice: 0,4 }}
+            {% if entry.endDate != "Present" %}
+              {{ entry.endDate | slice: 0,4 }}
+            {% else %}
+              {{ entry.endDate }}
+            {% endif %}
           {% endif %}
         </b></p>
       </div>
@@ -43,3 +48,4 @@
     {% endfor %}
   </div>
 </div>
+{% endif %}

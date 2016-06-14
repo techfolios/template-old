@@ -2,7 +2,7 @@
 
 # REQUIRED CHANGES
 # Edit next line, providing your own name.
-title: Philip Johnson | Professional Portfolio
+title: Molly Maluhia | Professional Portfolio
 # Edit next line, replacing 'techfolios' with your github username
 url: "https://techfolios.github.io"
 
@@ -11,7 +11,7 @@ url: "https://techfolios.github.io"
 bio-page-label: Resume
 # You might want to change the theme associated with one or more sections of the site.
 # Defining your own custom theme variations is easy. See the documentation.
-theme-home: theme-home-builtin-2.html
+theme-home: theme-home-builtin-1.html
 theme-projects: theme-projects-builtin-2.html
 theme-essays: theme-essays-builtin-2.html
 theme-bio: theme-bio-builtin-1.html

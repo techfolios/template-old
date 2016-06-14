@@ -1,14 +1,14 @@
 {
   "basics": {
-    "name": "Philip Johnson",
-    "label": "Professor",
-    "picture": "https://techfolios.github.io/template/images/PhilipJohnsonHeadShot.jpg",
-    "email": "johnson@hawaii.edu",
-    "phone": "808-956-3489",
-    "website": "https://philipmjohnson.github.io",
-    "summary": "I am a Professor of Information and Computer Sciences at the University of Hawaii, Director of the Collaborative Software Development Laboratory, and CEO of OpenPowerQuality.com.",
+    "name": "Molly Maluhia",
+    "label": "Student",
+    "picture": "https://techfolios.github.io/template/images/molly.png",
+    "email": "molly@hawaii.edu",
+    "phone": "808-333-4444",
+    "website": "https://mmaluhia.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2018.",
     "location": {
-      "address": "1680 East-West Rd, POST 307",
+      "address": "",
       "postalCode": "96822",
       "city": "Honolulu",
       "countryCode": "USA",
@@ -17,188 +17,43 @@
     "profiles": [
       {
         "network": "github",
-        "username": "philipmjohnson",
-        "url": "http://github.com/philipmjohnson"
+        "username": "mmaluhia",
+        "url": "http://github.com/mmaluhia"
       },
       {
         "network": "linkedin",
-        "username": "philipmjohnson",
+        "username": "mollymaluhia",
         "url": "http://linkedin.com/in/philipmjohnson"
       },
       {
-        "network": "facebook",
-        "username": "philipmeadowsjohnson",
-        "url": "http://facebook.com/philipmeadowsjohnson"
+        "network": "twitter",
+        "username": "mollymal",
+        "url": "http://twitter.com/mollymal"
       },
       {
-        "network": "twitter",
-        "username": "philipmjohnson",
-        "url": "http://twitter.com/philipmjohnson"
+        "network": "instagram",
+        "username": "molly",
+        "url": "http://instagram.com/molly"
       }
     ]
   },
-  "work": [
+  "interests": [
     {
-      "company": "University of Hawaii",
-      "position": "Professor",
-      "website": "http://www.ics.hawaii.edu/",
-      "startDate": "1990-08-01",
-      "endDate": "Present",
-      "summary": "Department of Information and Computer Sciences",
-      "highlights": [
-        "Professor, 2001-present",
-        "Associate Chair, 2010-2016",
-        "Director, Collaborative Software Development Laboratory, 1990-present",
-        "Associate Professor, 1995-2001",
-        "Assistant Professor, 1990-1995"
+      "name": "internet of things",
+      "keywords": [
+        "Arduino",
+        "TI MSP430"
       ]
     },
     {
-      "company": "Open Power Quality",
-      "position": "CEO",
-      "website": "https://openpowerquality.com/",
-      "startDate": "2013-01-01",
-      "endDate": "Present",
-      "summary": "Co-founder and leader of technical development",
-      "highlights": [
+      "name": "data mining",
+      "keywords": [
       ]
     },
     {
-      "company": "Blekinge Institute of Technology",
-      "position": "Visiting Professor",
-      "website": "https://www.bth.se/eng/",
-      "startDate": "2006-08-01",
-      "summary": "School of Engineering",
-      "highlights": [
+      "name": "artificial intelligence",
+      "keywords": [
       ]
-    },
-    {
-      "company": "University of Queensland",
-      "position": "Senior Research Fellow",
-      "website": "https://www.bth.se/eng/",
-      "startDate": "2006-05-01",
-      "summary": "Distributed Systems Technology Centre",
-      "highlights": [
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "",
-      "position": "Editorial Board",
-      "summary": "",
-      "highlights": [
-        "Journal of Empirical Software Engineering, 2004-2008",
-        "IEEE Transactions on Software Engineering, 2000-2004",
-        "International Journal of Computer Supported Cooperative Work, 1997-2004"
-      ]
-    },
-    {
-      "organization": "",
-      "position": "Program Chair/Co-Chair",
-      "summary": "",
-      "highlights": [
-        "International Workshop on In-Process Software Engineering Measurement and Analysis, 2007",
-        "International Workshop on Software Engineering for High Performance Computing System Applications, 2004, 2005",
-        "International Software Engineering Research Network Annual Meeting, 2000",
-        "Software Architectures for Cooperative Systems Workshop, ACM Conference on Computer Supported Cooperative Work, 1994",
-        "CSCW Tools and Technologies Workshop, European Conference on Computer Supported Cooperative Work, 1993",
-        "CSCW Tools and Technologies Workshop, ACM Conference on Computer Supported Cooperative Work, 1992"
-      ]
-    },
-    {
-      "organization": "International Software Engineering Research Network (ISERN)",
-      "position": "Member",
-      "website": "http://isern.iese.de/Portal/",
-      "startDate": "1996-05-01",
-      "endDate": "2010-06-01",
-      "summary": "",
-      "highlights": [
-        "Collaborated on software metrics and software development behavioral research."
-      ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Massachusetts, Amherst, MA",
-      "area": "Computer Science",
-      "studyType": "Ph.D.",
-      "endDate": "1990-08-01",
-      "gpa": "",
-      "courses": [
-      ]
-    },
-    {
-      "institution": "University of Massachusetts, Amherst, MA",
-      "area": "Computer Science",
-      "studyType": "M.S.",
-      "endDate": "1985-06-01",
-      "gpa": "",
-      "courses": [
-      ]
-    },
-    {
-      "institution": "University of Michigan, Ann Arbor, MI",
-      "area": "Biology, Computer Science",
-      "studyType": "B.S.",
-      "endDate": "1980-05-01",
-      "gpa": "",
-      "courses": [
-      ]
-    }
-  ],
-  "publications": [
-    {
-      "name": "Is an athletic approach the future of software engineering?",
-      "type": "journal",
-      "author": "E. Hill, P. Johnson, D. Port",
-      "publisher": "IEEE Software",
-      "releaseDate": "January, 2016",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2015/15-03/15-03.pdf",
-      "summary": ""
-    },
-    {
-      "name": "Three principals for the design of energy feedback visualizations",
-      "author": "R.Brewer, Y. Xu, G. Lee, M. Katchuck, C. Moore, P. Johnson",
-      "type": "journal",
-      "publisher": "International Journal on Advances in Intelligent Systems",
-      "releaseDate": "December, 2013",
-      "website": "",
-      "summary": ""
-    },
-    {
-      "name": "An athletic approach to software engineering education",
-      "author": "P.Johnson, D.Port, E.Hill",
-      "type": "conference",
-      "publisher": "Proceedings of the 29th IEEE Conference on Software Engineering Education and Training",
-      "releaseDate": "Dallas, TX, April, 2016",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2016/16-01/16-01.pdf",
-      "summary": ""
-    },
-    {
-      "name": "Lights Off. Game On. The Kukui Cup: A dorm energy competition",
-      "author": "R. Brewer, G. Lee, Y. Xu, C. Desiato, M. Katchuck, P. Johnson",
-      "type": "workshop",
-      "publisher": "Proceedings of the 2011 CHI Workshop on Gamification",
-      "releaseDate": "May, 2011",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2011/11-02/11-02.pdf",
-      "summary": ""
-    }
-  ],
-  "awards": [
-    {
-      "type": "grant",
-      "title": "Human centered information integration for the smart grid",
-      "date": "",
-      "awarder": "National Science Foundation",
-      "summary": "P. Johnson, Principal Investigator. $413,467. 2010-2014"
-    },
-    {
-      "type": "",
-      "title": "Coach of the Year",
-      "date": "2005-08-01",
-      "awarder": "Kailua AYSO",
-      "summary": ""
     }
   ],
   "skills": [
@@ -206,16 +61,12 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
-        "Java",
-        "Javascript",
         "C",
         "C++",
+        "Java",
+        "Javascript",
         "Assembly",
-        "Meteor",
-        "HTML",
-        "CSS",
-        "Semantic UI",
-        "Node.js"
+        "Common Lisp"
       ]
     },
     {
@@ -223,45 +74,91 @@
       "level": "",
       "keywords": [
         "MacOS",
-        "Windows",
         "Ubuntu",
         "Git/GitHub",
         "g++",
-        "Emacs"
+        "TI LaunchPad"
       ]
     }
   ],
-  "languages": [
+  "education": [
     {
-      "name": "English",
-      "level": "Native speaker"
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2018)",
+      "studyType": "B.S.",
+      "startDate": "2013-09-01",
+      "endDate": "Present",
+      "gpa": "",
+      "courses": [
+      ]
     }
   ],
-  "interests": [
+  "work": [
     {
-      "name": "Software Engineering",
-      "keywords": [
-        "software metrics",
-        "full stack application development"
+      "company": "UH Manoa Board of Publications",
+      "position": "Web Developer",
+      "website": "",
+      "startDate": "2015-08-01",
+      "endDate": "Present",
+      "summary": "Head of online presence for Ka Leo",
+      "highlights": [
+        "Maintain, update, and oversee official college newspaper website",
+        "Drive, design and build student-community projects for UH Manoa"
       ]
     },
     {
-      "name": "Serious Games",
-      "keywords": [
+      "company": "UH Information Technology Services",
+      "position": "Help Desk Consultant",
+      "website": "http://www.hawaii.edu/its/",
+      "startDate": "2015-01-01",
+      "endDate": "2016-03-15",
+      "summary": "",
+      "highlights": [
+        "Troubleshoot software, hardware and networking issues over the phone",
+        "Answer phone and email responses to the ITS Help Desk"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Center for Renewable Energy and Island Sustainability",
+      "website": "http://manoa.hawaii.edu/reis",
+      "position": "Software Developer",
+      "startDate": "2016-01-01",
+      "endDate": "Present",
+      "summary": "Lead developer for weather sensing project",
+      "highlights": [
+        "Design firmware for distributed weather sensor network",
+        "Maintain custom data collection and storage infrastructure"
       ]
     },
     {
-      "name": "Renewable Energy",
-      "keywords": [
-        "power quality",
-        "energy data collection, analysis, and visualization"
+      "organization": "",
+      "website": "",
+      "position": "Professional organization involvement",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Chair, ACM Manoa, 2016-Present",
+        "Member, IEEE Student Branch, 2014-Present",
+        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
       ]
+    }
+  ],
+  "awards": [
+    {
+      "type": "grant",
+      "title": "B+ Scholarship",
+      "date": "2013-Present",
+      "awarder": "State of Hawaii",
+      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
     }
   ],
   "references": [
     {
       "name": "Available upon request",
-      "referece": ""
+      "reference": ""
     }
   ]
 }

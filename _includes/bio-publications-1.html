@@ -1,5 +1,6 @@
 <!-- Used by theme-bio-builtin-1 -->
 
+{% if site.data.bio.publications %}
 <div class="row">
   <div class="two wide column">
     <h3 class="ui left aligned header no-bottom">Publications</h3>
@@ -23,3 +24,4 @@
     {% endfor %}
   </div>
 </div>
+{% endif %}
