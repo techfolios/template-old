@@ -5,6 +5,8 @@
 title: Molly Maluhia | Professional Portfolio
 # Edit next line, replacing 'techfolios' with your github username
 url: "https://techfolios.github.io"
+# Edit next line so that baseurl is "" if your repo is <username>.github.io
+baseurl: "/template"
 
 # OPTIONAL CHANGES
 # You might want to change the bio page label to something else, such as CV
@@ -16,8 +18,7 @@ theme-projects: theme-projects-builtin-1.html
 theme-essays: theme-essays-builtin-1.html
 theme-bio: theme-bio-builtin-1.html
 
-# YOU NORMALLY NEVER CHANGE THESE
-baseurl: "/template" # only change this to "/<repo>" if you're not using <username>.github.io.
+# YOU NORMALLY NEVER CHANGE THE FOLLOWING
 markdown: kramdown
 include: [_data]
 
