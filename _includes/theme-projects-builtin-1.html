@@ -1,0 +1,9 @@
+<div style="padding-top: 20px" class="ui container ">
+
+  <div class="ui stackable centered four cards">
+    {% assign project_pages = site.pages | where: "type", "project" | sort: "title" %}
+    {% for page in project_pages %}
+      {% include project-card.html page=page %}
+    {% endfor %}
+  </div>
+</div>

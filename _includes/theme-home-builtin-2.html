@@ -1,0 +1,37 @@
+<!-- Home page design with large image to left of bio info. -->
+
+<div style="height: 100%;" class="ui middle aligned two column centered stackable grid container">
+
+  <div class="column">
+    <div class="ui fluid rounded image">
+      <img src="{{ site.data.bio.basics.picture }}">
+    </div>
+  </div>
+
+  <div class="column">
+    <h2 class="header no-bottom">{{ site.data.bio.basics.name }}</h2>
+    <p class="">{{ site.data.bio.basics.label }}</p>
+    <p class="">
+      {{ site.data.bio.basics.summary }}
+    </p>
+    <p>Interests:
+      {% for interest in site.data.bio.interests %}
+        {{ interest.name }}{% if forloop.last != true %}, {% endif %}
+      {% endfor %}
+    </p>
+    <p style="text-align: center">
+      {% include home-network-links.html %}
+    </p>
+    <p style="text-align: center">
+      <a href="{{ site.baseurl}}/projects/">
+        <button class="ui basic button">Projects</button>
+      </a>
+      <a href="{{ site.baseurl}}/essays/">
+        <button class="ui basic button">Essays</button>
+      </a>
+      <a href="{{ site.baseurl}}/bio/">
+        <button class="ui basic button">{{ site.bio-page-label }}</button>
+      </a>
+    </p>
+  </div>
+</div>

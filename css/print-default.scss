@@ -1,0 +1,31 @@
+---
+# Provide front matter so Jekyll processes this file as SASS.
+---
+
+@charset "utf-8";
+
+// Used to remove menubar from page when printing.
+.nonprintable {
+  display: none;
+}
+
+// Make text smaller, remove spacing between list items when printing.
+@media print {
+
+  p, a, li {
+    font-size: 12px;
+  }
+
+  h1, h2.ui.header, h3.ui.header {
+    font-size: 14px;
+  }
+
+  a {
+    color: black;
+  }
+
+  ul li {
+    padding: 0px;
+    margin: 0px;
+  }
+}
