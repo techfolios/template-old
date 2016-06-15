@@ -24,11 +24,10 @@
       {% endfor %}
     </div>
   </div>
-  <div class="ui bottom attached button">
     {% if page.projecturl %}
-      <a href="{{ page.projecturl }}">Read More</a>
+      <a class="ui bottom attached button" href="{{ page.projecturl }}">Read More</a>
     {% else %}
-      <a href="{{ site.baseurl}}{{ include.page.url }}">Read More</a>
+      <a class="ui bottom attached button" href="{{ site.baseurl}}{{ include.page.url }}">Read More</a>
     {% endif %}
-  </div>
+
 </div>
