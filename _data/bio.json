@@ -16,7 +16,7 @@
     },
     "profiles": [
       {
-        "network": "github square",
+        "network": "github",
         "username": "mmaluhia",
         "url": "http://github.com/changeme"
       },
