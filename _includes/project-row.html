@@ -21,13 +21,11 @@
     </p>
 
     <div style="text-align: center">
-      <div class="ui basic button">
-        {% if page.projecturl %}
-        <a href="{{ page.projecturl }}">Read More</a>
-        {% else %}
-        <a href="{{ site.baseurl}}{{ include.page.url }}">Read More</a>
-        {% endif %}
-      </div>
+      {% if page.projecturl %}
+        <a class="ui basic button" href="{{ page.projecturl }}">Read More</a>
+      {% else %}
+        <a class="ui basic button" href="{{ site.baseurl}}{{ include.page.url }}">Read More</a>
+      {% endif %}
     </div>
     <hr style="margin-top: 20px">
   </div>
