@@ -11,7 +11,7 @@ layout: default
   <ul>
     {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
     {% for page in essay_pages %}
-      <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
     {% endfor %}
   </ul>
 
@@ -19,7 +19,7 @@ layout: default
   <ul>
     {% assign project_pages = site.pages | where: "type", "project" | sort: "title" %}
     {% for page in project_pages %}
-    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
     {% endfor %}
   </ul>
 
