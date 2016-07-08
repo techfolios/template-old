@@ -1,5 +1,10 @@
 <!-- Home page design with small circular image bisecting card. -->
 
+{% assign essay_pages = site.pages | where: "type", "essay"  %}
+{% assign project_pages = site.pages | where: "type", "project" %}
+{% assign num_essays = essay_pages.size %}
+{% assign num_projects = project_pages.size %}
+
 <div style="height: 100%; margin-top: -100px" class="ui middle aligned grid ">
 
   <div class="column">
@@ -34,10 +39,10 @@
       </div>
       <div class="center aligned content">
         <a href="{{ site.baseurl}}/projects/">
-          <button class="ui basic button">Projects</button>
+          <button class="ui basic button">Projects ({{ num_projects }})</button>
         </a>
         <a href="{{ site.baseurl}}/essays/">
-          <button class="ui basic button">Essays</button>
+          <button class="ui basic button">Essays ({{ num_essays }})</button>
         </a>
         <a href="{{ site.baseurl}}/bio/">
           <button class="ui basic button">{{ site.bio-page-label }}</button>
