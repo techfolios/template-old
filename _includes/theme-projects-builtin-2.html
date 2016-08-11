@@ -2,7 +2,9 @@
 
   {% assign project_pages = site.pages | where: "type", "project" | sort: "title" %}
   {% for page in project_pages %}
-    {% include project-row.html page=page %}
+    {% unless page.draft %}
+      {% include project-row.html page=page %}
+    {% endunless %}
   {% endfor %}
 
 </div>
