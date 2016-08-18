@@ -7,7 +7,7 @@
 
   <div class="ten wide column">
     <h2 class="header">{{ include.page.title }}</h2>
-    <p>{{ include.page.content | strip_html | truncatewords: 40 }}</p>
+    <p>{{ include.page.content | markdownify | strip_html | truncatewords: 40 }}</p>
 
     <p>
     <div style="text-align: center" class="ui mini labels">
