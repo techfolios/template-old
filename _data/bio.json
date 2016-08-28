@@ -1,14 +1,14 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Steven Braun",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
+    "picture": "IMG_2267.JPEG",
+    "email": "sbraun@hawaii.edu",
+    "phone": "808-346-6218",
+    "website": "https://Steven-Braun.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2018.",
     "location": {
-      "address": "",
+      "address": "2569 Dole Street",
       "postalCode": "96822",
       "city": "Honolulu",
       "countryCode": "USA",
@@ -17,13 +17,13 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "Steven-Braun",
+        "url": "http://github.com/Steven-Braun"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "Steven-Braun",
+        "url": "steven-braun-59a287124"
       },
       {
         "network": "twitter",
@@ -32,8 +32,8 @@
       },
       {
         "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "steven_braun_,
+        "url": "http://instagram.com/steven_braun_"
       }
     ]
   },
@@ -86,9 +86,9 @@
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Science (expected Spring, 2018)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2014-08-22",
       "endDate": "Present",
-      "gpa": "",
+      "gpa": "3.54",
       "courses": [
       ]
     }
