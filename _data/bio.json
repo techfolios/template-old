@@ -16,10 +16,10 @@
         "network": "linkedin",
         "url": "http://www.linkedin.com/in/matthew-schultz-0b519110a"
       },
-	  {
+      {
 	    "network": "techhui",
         "url": "http://www.techhui.com/profile/MatthewSchultz"
-	  }
+      }
     ]
   },
   "interests": [
@@ -41,7 +41,7 @@
       "keywords": [
         "autonomous vehicles"
       ]
-    }
+    },
     {
       "name": "web development",
       "keywords": [
@@ -51,27 +51,24 @@
         "user experience"
       ]
     }
-    }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "level": "",
       "keywords": [
         "Java",
         "Javascript",
         "PHP",
-        "C++",
+        "C++"
       ]
     },
     {
       "name": "Toolsets/OS",
-      "level": "",
       "keywords": [
         "MacOS",
         "Windows",
         "Git/GitHub",
-        "Wordpress",
+        "Wordpress"
       ]
     }
   ],
@@ -82,10 +79,8 @@
       "studyType": "B.S.",
       "startDate": "2016-08",
       "endDate": "Present",
-      "courses": [
-		"Software Engineering",
-      ]
-    }
+      "courses": "Software Engineering"
+    },
     {
       "institution": "Leeward Community College, Honolulu, HI",
       "area": "Liberal Arts",
@@ -93,17 +88,25 @@
       "startDate": "2012-01",
       "endDate": "2015-08",
       "courses": [
-		"Introduction to Computer Science I", "Introduction to Computer Science II", "Discrete Math for Computer Science I", "Discrete Math for Computer Science II", "Introduction to Networking",
+		"Introduction to Computer Science I", 
+		"Introduction to Computer Science II", 
+		"Discrete Math for Computer Science I", 
+		"Discrete Math for Computer Science II", 
+		"Introduction to Networking"
       ]
-    }
-	{
+    },
+    {
       "institution": "Harding University, Searcy, AR",
       "area": "Computer Science",
       "studyType": "B.A.",
       "startDate": "2009-08",
       "endDate": "2011-11",
       "courses": [
-		"Programming I", "Programming II", "Data Structures", "Internet Development", "Computer Architecture and Assembly Programming",
+		"Programming I", 
+		"Programming II", 
+		"Data Structures", 
+		"Internet Development", 
+		"Computer Architecture and Assembly Programming"
       ]
     }
   ],
@@ -132,7 +135,7 @@
       "startDate": "2007",
       "endDate": "2009",
       "summary": "General IT/IS installation and maintenance"
-    },
+    }
   ],
   "awards": [
     {
@@ -140,7 +143,7 @@
       "date": "2009-2011",
       "awarder": "Harding University",
       "summary": "Awarded to freshman applicants with a minimum high school GPA of 3.0 and an ACT composite score of 22 or higher or an SAT total score of 1020 (combined Math and Critical Reading) or higher."
-    },
+    }
   ],
   "references": [
     {
