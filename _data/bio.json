@@ -111,10 +111,16 @@
   ],
   "volunteer": [
     {
-      "name" : "Kapolei High School Mentoring",
+      "organization" : "Kapolei High School Robotics Team",
       "website" : "http://kapoleirobotics.com/Public_Relations.html",
-      "date" : "2012-2013",
-      "summary" : "The Kapolei Robitcs team goes to the neighboring elementary schools to introduce them to the fun of STEM!"
+      "position" : "Student Mentor",
+      "startDate" : "2012-12-01",
+      "endDate" : "2013-05-01",
+      "summary" : "The Kapolei Robitcs team goes to the neighboring elementary schools to introduce them to the fun of STEM!",
+      "highlights" : [
+        "Teach younger children the importance and fun of STEM",
+        "Show/Teach them how to drive the robot"
+        ]
     }
   ],
   "awards": [
