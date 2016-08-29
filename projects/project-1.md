@@ -13,8 +13,8 @@ summary: My team developed a competitive robot and made it to the semifinals!
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/2012robotDark.jpg">
   <img class="ui image" src="../images/2012team2445.jpg">
+  <img class="ui image" src="../images/2012robotDark.jpg">
   <img class="ui image" src="../images/2012robotLight.jpg">
 </div>
 
