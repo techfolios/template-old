@@ -11,7 +11,7 @@ labels:
 summary: An all about me website created in ICS 101.
 ---
 
-<img class="ui medium right floated rounded image" src=https://github.com/kylebali/kylebali.github.io/tree/master/images/website-2.png ">
+<img class="ui medium right floated rounded image" src="https://github.com/kylebali/kylebali.github.io/tree/master/images/website-2.png ">
 
 This site was the final assignment for ICS 101 (Tools for the Info World) class.  The assignment was to ensure we understood basic concepts of how HTML and CSS works, and that we could create a website to be view online.  
 
