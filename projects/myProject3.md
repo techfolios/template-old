@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/
+image: images/carseat.gif
 title: Baby Seat
 permalink: projects/baby seat
 date: 2015
@@ -12,7 +12,7 @@ summary: This is my project for ICS464 that is improve a baby car seat to preven
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/">
+  <img class="ui image" src="../images/carseat.gif">
 </div>
 
 This assignment is for ICS464 at the University of Hawaii at Manoa.  The project was assigned to think some device to prevent babies or infants from being forgatton in a car for some reasons.  This device could be used with a car seat or something portable and so forth.  With the device, I needed to descrive a concept of the car seat devicec and its conceptual model in detail.  Also, I needed to pick a metaphor for the device as most of the materials, devices or products came from not out of nowhere, but from some metaphors.  
