@@ -19,5 +19,5 @@ Address book is a project for ICS212 at the University of Hawaii at Manoa.  This
 
 I did this project by myself.  I used a linked list for this address book and for keeping all the records.  I had an addrecord function, a printrecord functino, a printall function, a modifyrecord function, deleterecord function and deleteall function.  Additionally, there were readfile and writefile function so that all the records would write on a file.  The records will keep in the file so that even the users quit the program and start again, they can continue from wherever they finished last time.
 
-You can find the code for this project from [GitHub]().
+You can find the code for this project from [GitHub](https://github.com/minakod/ICS).
 
