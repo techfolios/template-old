@@ -51,10 +51,7 @@
       "keywords": [
         "C",
         "C++",
-        "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Java"
       ]
     },
     {
@@ -62,10 +59,8 @@
       "level": "",
       "keywords": [
         "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Windows",
+        "UNIX"
       ]
     }
   ],
@@ -74,78 +69,86 @@
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Science (expected Spring, 2018)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2014-09-01",
       "endDate": "Present",
-      "gpa": "",
+      "gpa": "3.52",
       "courses": [
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "Center of Disability Studies",
+      "position": "Computer Support Assistant",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "IT Support for around 200 users",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Maintain, update, and oversee technical maintenance"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "company": "Beach Activities of Maui",
+      "position": "Recreation Specialist",
+      "website": "http://www.bamhawaii.com/",
+      "startDate": "2009-02-01",
+      "endDate": "2014-11-30",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Provide guests with excellent customer service, tend to each individualy with any concerns",
+        "Maintain a safe and healthy environment for family fun and provide personal vacation itineraries"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
+      "organization": "Hawaiian Studies UH Manoa",
+      "website": "http://manoa.hawaii.edu/hshk/",
+      "position": "Land Steward",
       "startDate": "2016-01-01",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "summary": "Doing my part to take care of that which feeds us (aina, land)",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Worked together up Manoa Stream to develop plots for a Native Hawaiian garden (mala)",
+        "Built a dam and dug an irrigation ditch (auwai) that connects back into the stream"
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "organization": "Na Kama Kai",
+      "website": "http://nakamakai.org/",
+      "position": "Ocean Volunteer",
+      "startDate": "2015-01-20",
+      "endDate": "Present",
+      "summary": "Help the children (keiki) enjoy their experience in the provided ocean clinic",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Safety and Education about the ocean and environment",
+        "Stand Up Paddleboard, Canoe Ride"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
+      "title": "Phi Theta Kappa Honor Society Membership",
       "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "awarder": "Phi Theta Kappa Honor Society (Alpha Lambda Gamma Chapter)",
+      "summary": "To be eligible for membership a student must have completed at least 12 hours of associate degree course work with a cumulative 3.5 GPA."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Na Ho'okama a Pau'ahi Scholarship",
+      "date": "2014-Present",
+      "awarder": "Kamehameha Schools",
+      "summary": "This scholarship is a gift from Bernice Pauahi, who knew that financial help for the Hawaiian people to pursue college education would be very important for the culture to move forward. This is the most sought after scholarship in terms of Native Hawaiian scholarships. Requirements for this scholarship include 50 hours of community service in which benefits the Hawaiian community, meetings with your post-high counselor, and other various assignments."
+    },
+    {
+      "title": "OHA Native Hawaiian Science & Engineering Mentorship Program Scholarship",
+      "date": "2016",
+      "awarder": "OHA (Office of Hawaiian Affairs)",
+      "summary": "This scholarship is administered through the University of Hawai'i for the top Native Hawaiian students pursuing degrees in Science, Technology, Engineering and Math (STEM)"
+    },
+    {
+      "title": "Chancellor's Scholarship",
+      "date": "2012",
+      "awarder": "Chancellor of University of Hawaii",
+      "summary": "A maximum of 80 scholarships were awarded by the Office of Admissions to high-achieving Hawaiʻi high school graduates. Requirements include a 3.5 cumulative high school grade point average as calculated by the UH Mānoa Office of Admissions. Evidence of superior academic achievement or creative endeavor"
     }
   ],
   "references": [
