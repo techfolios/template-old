@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: 
+image: images/vacay-square.png
 title: LFG
 permalink: projects/lfg
 date: 2015
