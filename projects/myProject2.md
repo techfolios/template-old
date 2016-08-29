@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/micromouse.jpg
+image: images/bibleapp.jpg
 title: Bible App
 permalink: projects/Bible App
 date: 2016
@@ -13,7 +13,7 @@ summary: I created a description of the bible app for ICS464 at the University o
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
+  <img class="ui image" src="../images/bibleapp.jpg">
   <img class="ui image" src="../images/micromouse-robot-2.jpg">
   <img class="ui image" src="../images/micromouse.jpg">
   <img class="ui image" src="../images/micromouse-circuit.png">
