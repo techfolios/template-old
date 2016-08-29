@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-publish: false
+published: false
 image: images/cotton-square.png
 title: Cotton
 permalink: projects/cotton
