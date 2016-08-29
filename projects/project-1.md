@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/Pong.png
 title: Pong
 permalink: projects/pong
 date: 2014
