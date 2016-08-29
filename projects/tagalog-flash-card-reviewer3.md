@@ -10,6 +10,12 @@ labels:
 summary: A basic Java flash card program to help review Tagalog vocabulary.
 ---
 
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/micromouse-robot.png">
+  <img class="ui image" src="../images/micromouse-robot-2.jpg">
+  <img class="ui image" src="../images/micromouse.jpg">
+  <img class="ui image" src="../images/micromouse-circuit.png">
+</div>
 
 While taking Tagalog classes, I used physical flashcards to learn vocabulary. However, keeping track of the cards, creating new cards, and organizing all the cards
 proved to be challenging at times. I decided to create a flashcard program. 
