@@ -21,5 +21,5 @@ The user interacts with the instrument by pressing keys on the computer keyboard
 
 The project is written in Java with much help from the EZ graphics library created by Dylan Kobayashi.
 
-[Here] is a demonstration of how it works. ( https://www.youtube.com/watch?v=fChNjBPrxiw).
+To see a quick demo click [here](https://www.youtube.com/watch?v=fChNjBPrxiw).
 
