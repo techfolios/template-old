@@ -12,7 +12,7 @@ summary: A playable piano developed for ICS 111.
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/piano-2.png">
+  <img class="ui image" src="https://github.com/kylebali/kylebali.github.io/tree/master/images/piano-2.png">
 </div>
 
 This was an assignment for my ICS 111 (Intro to Computer Science) Class.  The project was to make a playable musical instrument with sounds of our choosing.  I chose to make a classic piano, and included both piano and vibraphone sounds.  
