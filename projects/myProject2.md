@@ -14,7 +14,7 @@ summary: I created a description of the bible app for ICS464 at the University o
 
 <div class="ui small rounded images">
   <img class="ui image" src="../images/bibleapp.jpg">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
+  <img class="ui image" src="../images/bibleapp-book.jpg">
   <img class="ui image" src="../images/micromouse.jpg">
   <img class="ui image" src="../images/micromouse-circuit.png">
 </div>
