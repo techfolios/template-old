@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/philippines-flashcard-project-main-icon.jpg
 title: Tagalog Flash Card Reviewer3
-permalink: projects/tagalog-flash-card-reviewer3
+permalink: projects/project-1
 date: 2015-07
 labels:
   - Java
