@@ -15,8 +15,7 @@ summary: I created a description of the bible app for ICS464 at the University o
 <div class="ui small rounded images">
   <img class="ui image" src="../images/bibleapp.jpg">
   <img class="ui image" src="../images/bibleapp-book.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/bibleapp-joshua.jpg">
 </div>
 
 This project is about creating "any" things that involves any human interaction.  I did not need to make a program, but need to think the concept, a target audience, a persona, a sope which is something that the project cannot do, a scenario and testing.  This project's goal is not being able to create an app, but is being able to create a project with clear description and concept, and to think the target audience and make a persona with low-fidelity prototype. 
