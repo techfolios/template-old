@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
+image: images/Address_book.png
 title: Address Book
 permalink: projects/addressbook
 date: 2015
