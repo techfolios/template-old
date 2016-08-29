@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/ics212project1
+image: images/ics212project1.jpg
 title: ICS 212 project
 permalink: projects/project1
 date: 2015
