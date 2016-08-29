@@ -4,53 +4,56 @@
     "label": "Student",
     "picture": "/matt_techfolio_profile.jpg",
     "email": "mschultz@hawaii.edu",
+    "phone": "808-333-4444",
     "website": "https://amascut.github.io",
-    "summary": "Hi there! I'm a part time web developer and a computer science student currently studying at the University of Hawaii in Manoa. I expect to graduate in Spring, 2018.",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2018.",
+    "location": {
+      "address": "",
+      "postalCode": "96822",
+      "city": "Honolulu",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
     "profiles": [
       {
         "network": "github",
-        "username": "matthew-schultz",
-        "url": "http://github.com/matthew-schultz"
+        "username": "mmaluhia",
+        "url": "http://github.com/changeme"
       },
       {
         "network": "linkedin",
-        "url": "http://www.linkedin.com/in/matthew-schultz-0b519110a"
+        "username": "mollymaluhia",
+        "url": "http://linkedin.com/in/changeme"
       },
-	  {
-	    "network": "techhui",
-        "url": "http://www.techhui.com/profile/MatthewSchultz"
-	  }
+      {
+        "network": "twitter",
+        "username": "mollymal",
+        "url": "http://twitter.com/changeme"
+      },
+      {
+        "network": "instagram",
+        "username": "molly",
+        "url": "http://instagram.com/changeme"
+      }
     ]
   },
   "interests": [
     {
-      "name": "cyber security",
+      "name": "internet of things",
       "keywords": [
-        "encryption",
-        "hardening"
+        "Arduino",
+        "TI MSP430"
       ]
     },
     {
-      "name": "software development",
+      "name": "data mining",
       "keywords": [
-        "enterprise resource planning"
       ]
     },
     {
       "name": "artificial intelligence",
       "keywords": [
-        "autonomous vehicles"
       ]
-    }
-    {
-      "name": "web development",
-      "keywords": [
-        "user account management",
-        "web design",
-        "user interfaces",
-        "user experience"
-      ]
-    }
     }
   ],
   "skills": [
@@ -58,10 +61,12 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
+        "C",
+        "C++",
         "Java",
         "Javascript",
-        "PHP",
-        "C++",
+        "Assembly",
+        "Common Lisp"
       ]
     },
     {
@@ -69,9 +74,10 @@
       "level": "",
       "keywords": [
         "MacOS",
-        "Windows",
+        "Ubuntu",
         "Git/GitHub",
-        "Wordpress",
+        "g++",
+        "TI LaunchPad"
       ]
     }
   ],
@@ -80,67 +86,79 @@
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Science (expected Spring, 2018)",
       "studyType": "B.S.",
-      "startDate": "2016-08",
+      "startDate": "2013-09-01",
       "endDate": "Present",
+      "gpa": "",
       "courses": [
-		"Software Engineering",
-      ]
-    }
-    {
-      "institution": "Leeward Community College, Honolulu, HI",
-      "area": "Liberal Arts",
-      "studyType": "A.A.",
-      "startDate": "2012-01",
-      "endDate": "2015-08",
-      "courses": [
-		"Introduction to Computer Science I", "Introduction to Computer Science II", "Discrete Math for Computer Science I", "Discrete Math for Computer Science II", "Introduction to Networking",
-      ]
-    }
-	{
-      "institution": "Harding University, Searcy, AR",
-      "area": "Computer Science",
-      "studyType": "B.A.",
-      "startDate": "2009-08",
-      "endDate": "2011-11",
-      "courses": [
-		"Programming I", "Programming II", "Data Structures", "Internet Development", "Computer Architecture and Assembly Programming",
       ]
     }
   ],
   "work": [
     {
-      "company": "Intellectual Services",
-      "position": "Web Content Manager",
+      "company": "UH Manoa Board of Publications",
+      "position": "Web Developer",
       "website": "",
-      "startDate": "2016-02",
+      "startDate": "2015-08-01",
       "endDate": "Present",
-      "summary": "Development and maintenance of Wordpress websites and database management"
+      "summary": "Head of online presence for Ka Leo",
+      "highlights": [
+        "Maintain, update, and oversee official college newspaper website",
+        "Drive, design and build student-community projects for UH Manoa"
+      ]
     },
-	{
-      "company": "Intellectual Services",
-      "position": "Data Entry Clerk",
-      "website": "",
-      "startDate": "2015-11",
-      "endDate": "2016-02",
-      "summary": "Data entry and database management",
+    {
+      "company": "UH Information Technology Services",
+      "position": "Help Desk Consultant",
+      "website": "http://www.hawaii.edu/its/",
+      "startDate": "2015-01-01",
+      "endDate": "2016-03-15",
+      "summary": "",
+      "highlights": [
+        "Troubleshoot software, hardware and networking issues over the phone",
+        "Answer phone and email responses to the ITS Help Desk"
+      ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Hawaii Medical Center West",
-      "position": "IT/IS Volunteer",
-      "startDate": "2007",
-      "endDate": "2009",
-      "summary": "General IT/IS installation and maintenance"
+      "organization": "Center for Renewable Energy and Island Sustainability",
+      "website": "http://manoa.hawaii.edu/reis",
+      "position": "Software Developer",
+      "startDate": "2016-01-01",
+      "endDate": "Present",
+      "summary": "Lead developer for weather sensing project",
+      "highlights": [
+        "Design firmware for distributed weather sensor network",
+        "Maintain custom data collection and storage infrastructure"
+      ]
     },
+    {
+      "organization": "",
+      "website": "",
+      "position": "Professional organization involvement",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Chair, ACM Manoa, 2016-Present",
+        "Member, IEEE Student Branch, 2014-Present",
+        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+      ]
+    }
   ],
   "awards": [
     {
-      "title": "Academic Achievement Scholarship",
-      "date": "2009-2011",
-      "awarder": "Harding University",
-      "summary": "Awarded to freshman applicants with a minimum high school GPA of 3.0 and an ACT composite score of 22 or higher or an SAT total score of 1020 (combined Math and Critical Reading) or higher."
+      "title": "B+ Scholarship",
+      "date": "2013-Present",
+      "awarder": "State of Hawaii",
+      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
     },
+    {
+      "title": "First place",
+      "date": "2015",
+      "awarder": "University of Hawaii Micromouse Competition",
+      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+    }
   ],
   "references": [
     {
