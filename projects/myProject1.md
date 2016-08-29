@@ -8,7 +8,7 @@ date: 2015
 labels:
   - C++
   - address book
-summary: This is my project for ICS212 and this is address book with 
+summary: This is my project for ICS212 and this is address book with add, modify, print some records, delete amd reverse the order of the records.
 ---
 
 <div class="ui small rounded images">
@@ -18,19 +18,9 @@ summary: This is my project for ICS212 and this is address book with
   <img class="ui image" src="../images/micromouse-circuit.png">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.
-Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells,
-each 180 mm square with walls 50 mm high.  The mice are completely autonomous
-robots that must find their way from a predetermined starting position to the central
-area of the maze unaided.  The mouse will need to keep track of where it is, discover
-walls as it explores, map out the maze and detect when it has reached the center.
-having reached the center, the mouse will typically perform additional searches of 
-the maze until it has found the most optimal route from the start to the center.  
-Once the most optimal route has been determined, the mouse will run that route in 
-the shortest possible time.
+Address book is a project for ICS212 at the University of Hawaii at Manoa.  This project is done by C++. This address book contains the functions of adding new contact, modifying a contact, printing a contact or all contacts, deleting a contact, and reversing all contacts.  The information that each contact gather is its full name, address, the year of birth, and tellphone number.  If users modify and there are two or more contacts that have the same name, this program modifies all of them. It is the same thing for deleting.  There is a feedback for the each step and it confirms the users what they are doing.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+I did this project by myself.  I used a linked list for this address book and for keeping all the records.  I had an addrecord function, a printrecord functino, a printall function, a modifyrecord function, deleterecord function and deleteall function.  Additionally, there were readfile and writefile function so that all the records would write on a file.  The records will keep in the file so that even the users quit the program and start again, they can continue from wherever they finished last time.
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
-
+You can find the code for this project from [GitHub]().
 
