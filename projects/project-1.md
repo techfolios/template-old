@@ -1,29 +1,26 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
-date: 2015
+image: images/2012robot2445.jpg
+title: Rebound Rumble
+permalink: projects/2012robot
+date: 2012
 labels:
   - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Solid Works
+  - AutoCad
+summary: My team developed a competitive robot and made it to the semifinals!
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/2012team2445.jpg">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+Rebound Rumble was the competition in 2012 held by FIRST that allowed teams of students and teachers to compete in a robotic game. Each team was given 2 months to create a robot to participate in the competition. The robot had to shoot a foam basketball into the hoops on a 27' x 54 court. In the middle of the court there is a barier and the only way to cross it is through the tilting bridge. Each team can assign three people to drive their robot during the game, 2 drivers and 1 coach. You can learn about the game in full detail by watching this video (https://www.youtube.com/watch?v=nOXsdhZZSdM&list=PL926CA30C6E7D9DCF&index=18).
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+During the building season, I was a part of the design team. I had to design parts of the electronic board, chasis and the shooter. Our team used Solid Works to design our parts in 3d and print the schematics for the mechanical team to use. During the competition, I was the coach for our drive team. I had to direct the drivers and decide what type of strategy we would use. Even though we only made it to the semifinals, I am still proud of how far I went in my first year of being on the high school robotics team.
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+You can learn more at the [First Website](http://www.firstinspires.org/robotics/frc).
 
 
 
