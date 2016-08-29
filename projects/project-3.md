@@ -13,4 +13,4 @@ This was my first project in C. There are two files that handle seperate things.
 
 This was the first time I was learning C and I am really proud of this first project that I made. For this class, we were just given assignments to practice coding in C so I was learning how to code as I was taking on assignments. So for this project I did not know a lot about C but I managed my time well, and was able to turn this project in early and still get a great grade for it. 
 
-Source: <a href="https://github.com/marysantabarbara/ICS212-project-1"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+Source: <a href="https://github.com/marysantabarbara/ICS212-project-1"><i class="large github icon "></i>marysantabarbara/ICS212-project-1</a>
