@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/stopwatch.png
-title: Vacay
+title: Vacayay
 permalink: projects/vacay
 date: 2015
 labels:
