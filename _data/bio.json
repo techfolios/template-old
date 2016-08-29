@@ -2,7 +2,7 @@
   "basics": {
     "name": "Steven Braun",
     "label": "Student",
-    "picture": "IMG_2267.JPEG",
+    "picture": "https://Steven-Braun.github.io/imges/IMG_2267.JPEG",
     "email": "sbraun@hawaii.edu",
     "phone": "808-346-6218",
     "website": "https://Steven-Braun.github.io",
@@ -26,11 +26,6 @@
         "url": "steven-braun-59a287124"
       },
       {
-        "network": "",
-        "username": "",
-        "url": ""
-      },
-      {
         "network": "instagram",
         "username": "steven_braun_,
         "url": "http://instagram.com/steven_braun_"
@@ -39,19 +34,17 @@
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "Software Engineering",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Java",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Information and Computer Sciences",
       "keywords": [
       ]
     }
