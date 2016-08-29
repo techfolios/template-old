@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/philippines-flashcard-project-main-icon.jpg
 title: Project 1
 permalink: projects/project-1
 date: 2015
