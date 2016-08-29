@@ -1,24 +1,23 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
-date: 2015
+image: images/2013robot2445.jpg
+title: Ultimate Ascent
+permalink: projects/UltimateAscent
+date: 2013
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Robotics
+  - Mechanics
+  - Solid Works
+  - Autocad
+summary: The 2013 FIRST competition where we made it to the semifinals!
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui image" src="../images/2013competition2445.jpg">
+<img class="ui image" src="../images/2013competitionRobot.jpg">
+<img class="ui image" src="../images/2013team2445.jpg">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+Ultimate Ascent was the 2013 FIRST robotics competition. We were given 2 months to build a robot to compete in this competition. The goal of the competition is to gain as much points as possible. You gain points by shooting discs into the goals on the oppisite end of the field or on top of the pyramid. The teams can score additional points in the beginning autonoums period, or at the end when the robot has to hang on the pyramid. The robot can only hold up to 4 discs and can pick up discs from the ground or be loaded manually. You can learn about the game in full detail by watching this [vidoe] (https://www.youtube.com/watch?v=wa5MGEZNrf0&list=PLZT9pIgNOV6Ya-bFLZiwVFX8biV6qgUQu&index=10).
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
-
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
+The year 2013 was my senior year and I was a part of both the mechanical team and head of the design team. I was able to design and make parts for the shooter of our robot. Our robots design was to be a high shooter. We had an elevator that can be lowered to be loaded and can extend to the top of the pyramid or the highest goal. We also had a scooper mechanism that allowed us to pick up discs from the floor. I stayed back mostly every day of school until 6 at night and really enjoyed making this robot with my teammates.  Then during the competition I was chosen to be the main driver! We went all the way into the semifinals.
  
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
