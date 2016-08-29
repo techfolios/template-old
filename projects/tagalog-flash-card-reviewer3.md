@@ -8,10 +8,6 @@ date: 2015-07
 labels:
   - Java
 summary: A basic Java flash card program to help review Tagalog vocabulary.
-
-This program uses flash card objects with strings representing the text on the front and back of each flashcard taken from a .csv file. It displays the text from one side of a card and prompts the user for input matching the other 
-side of that card. After executing string comparison, the program displays if the user input matched the text. If the user answers incorrectly, the flash card is kept in the active deck 
-of cards to be reviewed in that session, while correctly answered cards are no longer used in that session.
 ---
 
 <div class="ui small rounded images">
@@ -28,7 +24,7 @@ This program has the text on the front and back of each flashcard stored in a .c
 side of that card. After executing string comparison, the program displays if the user input matched the text. If the user answers incorrectly, the flash card is kept in the active deck 
 of cards to be reviewed in that session, while correctly answered cards are longer be used in that session.
 
-View the code at https://github.com/matthew-schultz/FlashCardProgram
+Source: <a href="https://github.com/matthew-schultz/FlashCardProgram"><i class="large github icon"></i>matthew-schultz/FlashCardProgram</a>
 
 
 
