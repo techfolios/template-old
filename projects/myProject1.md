@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/addressbook-image.png
 title: Address Book
 permalink: projects/adress book
 date: 2015
@@ -12,10 +12,7 @@ summary: This is my project for ICS212 and this is address book with add, modify
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/addressbook-image.png">
 </div>
 
 Address book is a project for ICS212 at the University of Hawaii at Manoa.  This project is done by C++.  This address book contains the functions of adding new contact, modifying a contact, printing a contact or all contacts, deleting a contact, and reversing all contacts.  The information that each contact gather is its full name, address, the year of birth, and tellphone number.  If users modify and there are two or more contacts that have the same name, this program modifies all of them.  It is the same thing for deleting.  There is a feedback for the each step and it confirms the users what they are doing.
