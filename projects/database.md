@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/database.jpg
+image: images/database.png
 title: Database
 permalink: projects/database
 date: 2016
