@@ -8,5 +8,5 @@ date: 2015
 labels:
   - C
   - SSH Shell
-summary: Developed an address book using C during my time in ICS 211. 
+summary: Developed an address book using C during my time in ICS 212. 
 ---
