@@ -26,13 +26,13 @@
         "url": "https://www.linkedin.com/in/michael-yoshimura-77555b124?trk=nav_responsive_tab_profile"
       },
       {
-        //"network": "twitter",
-        //"username": "mollymal",
-        //"url": "http://twitter.com/changeme"
+        "network": "facebook",
+        "username": "Michael Yoshimura",
+        "url": "https://www.facebook.com/michael.yoshimura.3"
       },
       {
-        //"network": "instagram",
-        //"username": "molly",
+        "network": "instagram",
+        "username": "mikeyyoshi",
         //"url": "http://instagram.com/changeme"
       }
     ]
