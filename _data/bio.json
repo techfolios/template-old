@@ -39,19 +39,18 @@
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Programming",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        
       ]
     },
     {
-      "name": "data mining",
+      "name": "Gaming",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Skateboarding",
       "keywords": [
       ]
     }
@@ -66,29 +65,28 @@
         "Java",
         "Javascript",
         "Assembly",
-        "Common Lisp"
+        
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
-        "Ubuntu",
+      
         "Git/GitHub",
         "g++",
-        "TI LaunchPad"
+        
       ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Engineering (expected Fall, 2017)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "gpa": "",
+      "startDate": "2014-09-20",
+      "endDate": "2017-12-20",
+      "gpa": "3.6",
       "courses": [
       ]
     }
