@@ -2,9 +2,9 @@
 layout: project
 type: project
 image: images/micromouse.jpg
-title: Micromouse
+title: Graphene
 permalink: projects/micromouse
-date: 2015
+date: 2016
 labels:
   - Robotics
   - Arduino
