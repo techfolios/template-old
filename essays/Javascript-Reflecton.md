@@ -16,9 +16,10 @@ When I was first in my introductory class to computer science, Java was the most
 
 ## Then came C
 
-Once I started learning C, I realized Java babied me when programming. Java is still a great program but it hid a lot of the underlying concepts in programming. I had no idea what pointers, addresses or references was. I respect C for making me understand what exactly is happening in my program because if you did not understand what was happening it would not even run.
+Once I started learning C, I realized Java babied me when programming. Java is still a great program but it hid a lot of the underlying concepts in programming. I had no idea what pointers, addresses or references was. I respect C for making me understand what exactly is happening in my program because if you did not understand what was happening it would not even run. This was the fist language that actually challenged me. Some people may hate a language because of how difficult it can be but a challenge is great for a beginner programmer. 
 
 ## Now there is JavaScript
+
 I have not used too much of JavaScript to say that it is my favorite programming language but I like what I see so far. A lot of the code I have written with JavaScript is straight forward. I can assign variables without defining what specific type it is, I can add different types of variables into an array and I can create objects in an array. It feels like I am riding a wave as I write with JavaScript! In a software engineering perspective, JavaScript is great since it goes well with HTML and CSS. 
 
 ## WODs
