@@ -2,10 +2,10 @@
   "basics": {
     "name": "Minako Doi",
     "label": "Student",
-    "picture": "https://minakod.github.io/images/miakod_pic.jpg",
+    "picture": "https://minakodoi.github.io/images/miakod_pic.jpg",
     "email": "minakod@hawaii.edu",
     "phone": "",
-    "website": "https://minakod.github.io",
+    "website": "https://minakodoi.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2017.",
     "location": {
       "address": "",
@@ -17,8 +17,8 @@
     "profiles": [
       {
         "network": "github",
-        "username": "minakod",
-        "url": "http://github.com/minakod"
+        "username": "minakodoi",
+        "url": "http://github.com/minakodoi"
       },
       {
         "network": "linkedin",
