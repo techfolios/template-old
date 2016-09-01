@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/bibleapp.jpg
+image: images/bibleapp_resized.jpg
 title: Bible App
 permalink: projects/Bible App
 date: 2016-08-09
