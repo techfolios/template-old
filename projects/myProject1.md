@@ -4,7 +4,7 @@ type: project
 image: images/addressbook-image.png
 title: Address Book
 permalink: projects/adress book
-date: 2015
+date: 2015-11-23
 labels:
   - C++
 summary: This is my project of making address book which was for ICS212.
