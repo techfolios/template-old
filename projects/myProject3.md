@@ -5,7 +5,7 @@ published: true
 image: images/carseat.gif
 title: Baby Seat
 permalink: projects/baby seat
-date: 2016
+date: 2016-07-11
 labels:
   - HCI
 summary: This is my project for ICS464 that is improve a baby car seat to prevent babies or infants from being forgotton in a car.
