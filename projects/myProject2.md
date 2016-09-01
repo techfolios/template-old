@@ -5,7 +5,7 @@ published: true
 image: images/bibleapp.jpg
 title: Bible App
 permalink: projects/Bible App
-date: 2016
+date: 2016-08-09
 labels:
   - HCI
 
