@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/2013robot2445.jpg
+image: images/2013robot_home.jpg
 title: Ultimate Ascent
 permalink: projects/UltimateAscent
 date: 2013
