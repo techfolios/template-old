@@ -12,7 +12,7 @@ labels:
 summary: The 2012 FIRST robotics competition during my first year of joining the team!
 ---
 
-<div class="ui medium right floated rounded image">
+<div class="ui medium left floated rounded image">
   <img class="ui image" src="../images/2012team2445.jpg">
   <img class="ui image" src="../images/2012robotDark.jpg">
   <img class="ui image" src="../images/2012robotLight.jpg">
