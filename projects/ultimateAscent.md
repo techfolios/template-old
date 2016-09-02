@@ -13,7 +13,7 @@ labels:
 summary: The 2013 FIRST competition where we made it to the semifinals!
 ---
 
-<div class="ui small rounded images">
+<div class="ui medium right floated rounded image">
   <img class="ui image" src="../images/2013competition2445.jpg">
   <img class="ui image" src="../images/2013competitionRobot.jpg">
   <img class="ui image" src="../images/2013team2445.jpg">
