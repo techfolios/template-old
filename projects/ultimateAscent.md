@@ -18,6 +18,7 @@ summary: The 2013 FIRST competition where we made it to the semifinals!
   <img class="ui image" src="../images/2013competitionRobot.jpg">
   <img class="ui image" src="../images/2013team2445.jpg">
   <img class="ui image" src="../images/2013robot2445.jpg">
+  <img class="ui image" src="../images/2013me.jpg">
 </div>
 
 # The Game
