@@ -16,9 +16,8 @@ summary: The 2013 FIRST competition where we made it to the semifinals!
 <div class="ui medium right floated rounded image">
   <img class="ui image" src="../images/2013competition2445.jpg">
   <img class="ui image" src="../images/2013competitionRobot.jpg">
-  <img class="ui image" src="../images/2013team2445.jpg">
-  <img class="ui image" src="../images/2013robot2445.jpg">
   <img class="ui image" src="../images/2013me.jpg">
+  <img class="ui image" src="../images/2013team2445.jpg">
 </div>
 
 # The Game
@@ -32,3 +31,5 @@ The year 2013 was my senior year and I was a part of both the mechanical team an
 # My learning experience
 
 That year was really fun for me. I enjoyed the company of everyone around me. We were just a big group of friends. If you have team members that you can trust to get the job done then the experience of making a robot it really fun. I learned about the importance of team work because without multiple hands it would have been impossible to build and design such a big projct. With a great team, we can put our minds together and look at how to solve problems from many different perspectives. Also, being able to speak your ideas in a comfortable environment helps those ideas come out into the open! Teamwork and trust go hand in hand on any project.
+
+<img class="ui medium right floated rounded image" src="../images/2013team2445.jpg">
