@@ -1,24 +1,21 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
-date: 2015
+image: images/Android_robot.jpg
+title: Android App Development
+permalink: projects/Android
+date: 2016
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
+  - Java
+  - Android Studio
   - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+summary: Build an original Android Application from scratch. 
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/Android_robot.jpg">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+Android App Development is a project that teaches the students how to build their own app. We develop our own individual app, with the purpose of learning how to code and how to be creative with our ideas. 
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+We begin by learning the skills needed to build a basic app. Practice labs and miscellaneous projects are made to understand the process of building an app. Then we brainstorm and research ideas that to help create our own original app. 
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+In this project, I gain a lot of experience in working in a team, coding, and design. I learn the necessary tools that app developers use in their line of  work. 
