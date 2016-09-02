@@ -20,4 +20,4 @@ Now in terms of Javascript being good or bad for software engineering, overall I
 
 ## WOD's 
 
-This athletic style of Software Engineering is definitely a new experience.  I'm usually a slow-paced programmer, but I'm liking these WODs.  The intense pressure of coding a solution to a problem is very new to me, which in a weird way is something that I like.  It's always good to have a challenge that takes you out of your comfort zone.  
+This athletic style of Software Engineering is definitely a new experience.  I'm usually a slow-paced programmer, but I'm liking these WODs.  The intense pressure of coding a solution to a problem is very new to me, which in a weird way is something that I like.  It's always good to have a challenge that takes you out of your comfort zone.  The practice WODs are also very helpful in preparing for the official ones.
