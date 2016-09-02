@@ -93,27 +93,52 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Kaua'i Police Department",
+      "position": "Summer Intern",
       "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "startDate": "2015-06-15",
+      "endDate": "2015-07-31",
+      "summary": "Intern at the Kaua'i Police Department",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Managed online databases using Excel and other DBMS Software",
+        "Digitalize important records into new online databases"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Department of Information and Computer Sciences at University of Hawaii at Mānoa",
+      "position": "Online Learning Assistant",
+      "website": "",
+      "startDate": "2015-08-25",
+      "endDate": "2015-12-15",
+      "summary": "Undergraduate Online Learning Assistant for ICS 101",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Assisted lab teaching assistants during 75-min lab sessions twice a week",
+        "Handled teaching material to students and graded work for one week"
+      ]
+    },
+    {
+      "company": "Department of Information and Computer Sciences at University of Hawaii at Mānoa",
+      "position": "Teaching Assistant",
+      "website": "",
+      "startDate": "2016-01-12",
+      "endDate": "2016-05-13",
+      "summary": "Undergraduate Teaching Assistant for ICS 101",
+      "highlights": [
+        "Teach 75-minute labs twice a week",
+        "Grade students homework, tests and quizzes",
+      ]
+    },
+    {
+      "company": "Kaua'i Police Department",
+      "position": "Summer Intern",
+      "website": "",
+      "startDate": "2016-06-13",
+      "endDate": "2016-07-29",
+      "summary": "Intern at the Kaua'i Police Department",
+      "highlights": [
+        "Managed online databases using Excel and other DBMS Software",
+        "Digitalize new records into online databases",
+        "Assisted with Police Recruit Training"
       ]
     }
   ],
@@ -150,12 +175,6 @@
       "date": "2013-Present",
       "awarder": "State of Hawaii",
       "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
     }
   ],
   "references": [
