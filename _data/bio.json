@@ -23,7 +23,7 @@
       {
         "network": "linkedin",
         "username": "kylebali",
-        "url": "http://linkedin.com/in/kylebali"
+        "url": "http://linkedin.com/in/kylebalisacan"
       }
     ]
   },
@@ -61,10 +61,9 @@
       "keywords": [
         "C",
         "C++",
+        "HTML",
         "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Javascript"
       ]
     },
     {
@@ -73,9 +72,7 @@
       "keywords": [
         "MacOS",
         "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Git/GitHub"
       ]
     }
   ],
@@ -172,7 +169,7 @@
   "awards": [
     {
       "title": "B+ Scholarship",
-      "date": "2013-Present",
+      "date": "2012-Present",
       "awarder": "State of Hawaii",
       "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
     }
