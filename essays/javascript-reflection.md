@@ -16,8 +16,8 @@ With Javascript sharing similar syntax as other programming languages, such as C
 
 ## Javascript for Software Engineering?
 
-Javascript seems to be one of those "must knows" when it comes to Software Engineering.  Javascript is a dominanting web development technology, and is practically everywhere.  Now in terms of Javascript being good or bad for software engineering, overall I believe is it good.  The language does have its respective flaws, but it still doesn't diminish the fact that it's one of the top languages out there.  
+Now in terms of Javascript being good or bad for software engineering, overall I believe is it good.  Javascript seems to be one of those "must knows" when it comes to Software Engineering.  Javascript is a dominanting web and mobile development technology, and is practically everywhere.  The language does have its respective flaws, but it still doesn't diminish the fact that it's one of the top languages out there.  
 
 ## WOD's 
 
-This athletic style of Software Engineering is definitely a new experience.  
+This athletic style of Software Engineering is definitely a new experience.  I'm usually a slow-paced programmer, but I'm liking these WODs.  The intense pressure of coding a solution to a problem is very new to me, which in a weird way is something that I like.  It's always good to have a challenge that takes you out of your comfort zone.  
