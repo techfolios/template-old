@@ -2,7 +2,7 @@
   "basics": {
     "name": "Kyle Balisacan",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
+    "picture": "https://techfolios.github.io/template/images/headshot.jpg",
     "email": "kylebali@hawaii.edu",
     "phone": "",
     "website": "https://kylebali.github.io",
@@ -18,22 +18,12 @@
       {
         "network": "github",
         "username": "kylebali",
-        "url": "http://github.com/changeme"
+        "url": "http://github.com/kylebali"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "kylebali",
+        "url": "http://linkedin.com/in/kylebali"
       }
     ]
   },
@@ -41,8 +31,6 @@
     {
       "name": "software engineering",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
       ]
     },
     {
