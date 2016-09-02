@@ -16,7 +16,6 @@ summary: The 2012 FIRST robotics competition during my first year of joining the
   <img class="ui image" src="../images/2012team2445.jpg">
   <img class="ui image" src="../images/2012robotDark.jpg">
   <img class="ui image" src="../images/2012robotLight.jpg">
-  <img class="ui image" src="../images/2012robot2445.jpg">
 </div>
 
 # The Game
