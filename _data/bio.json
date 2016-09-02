@@ -29,17 +29,27 @@
   },
   "interests": [
     {
-      "name": "software engineering",
+      "name": "Software Engineering",
       "keywords": [
       ]
     },
     {
-      "name": "photography",
+      "name": "Video Game Development",
       "keywords": [
       ]
     },
     {
-      "name": "music",
+      "name": "Augmented/Virtual Reality",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Photography",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Music",
       "keywords": [
       ]
     }
