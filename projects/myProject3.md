@@ -23,5 +23,3 @@ My concept or idea for this device is a two-way signal pressurizes baby alert sy
 
 There are always things to improve on.  I might not need to make *new* product or material all the time, but rather need to think what I can improve stuff around me to help people.  Studying in a school and always facing a computer makes me think what I can do and think is something related to "computer."  However, it could be *anything*!  I can use the knowledge of computer languages and coding is not only for improving computer system, but also all the products out there in the world.  This project opened my eyes widely to the possibility of HCI. 
 
-
-You can find the code for this project from [GitHub](https://github.com/minakod/ICS/blob/master/ICS464_carseat.doc).
