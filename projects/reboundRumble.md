@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/2012robot2445.jpg
+image: images/2012robot_home.jpg
 title: Rebound Rumble
 permalink: projects/2012robot
 date: 2012
