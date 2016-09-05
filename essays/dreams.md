@@ -11,7 +11,7 @@ labels:
   - Ethical Design
 ---
 
-
+<img class="ui medium right floated rounded image" src="../images/laptop.png">
 I've come a long way from using html to embed animated gifs on my Neopets account. These days I embed animated gifs while developing company websites.
 
 Technology is exciting. It provides ways for people to automate work that is often tedious and allows them to focus on more engaging and personally gratifying projects. 
