@@ -1,61 +1,22 @@
 ---
 layout: project
 type: project
-published: false
-image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
-date: 2014
+image: images/boar.png
+title: Interactive Story
+permalink: projects/interactivestory
+date: 2015
 labels:
-  - Lisp
-  - GitHub
-summary: A text adventure game I developed for ICS 313.
+  - Java
+  - EZ Graphics
+  - Interactive Story
+summary: An Interactive Story group project created in ICS 111.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+<iframe width="854" height="480" src="https://www.youtube.com/embed/Med5GKesR0o" frameborder="0" allowfullscreen></iframe>
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+The basis of this project was to create a program that reads a script from a text file, to create an interactive story game.  My group decided to go with a "what if" story that has the character crash landed in a deserted isle.  We also decided to try make the game funny and challenging by adding multiple scenarios where the player ultimately loses and has to start over.  For extra credit, we added in a little mini-game where the player fights a wild boar.
 
-To give you a flavor of the game, here is an excerpt from one run:
+For the creation of this project my group members and I first created the plot of how we wanted the story to go.  Once we figured out what we were doing the project on, we then had weekly meetings to create the code necessary to run the project.  I then found the necessary pictures and sounds for each part of the story, and we then compiled everything together.  After the hard work of debugging and the last minute addition of the boar game, we received an "A" for the project.
 
-<hr>
-
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+If the embedded video doesn't work you may click here.
 
