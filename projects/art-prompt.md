@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/art_prompt.png
+image: images/easel_square.jpg
 title: Art Prompt Webpage
 permalink: projects/art-prompt
 date: 2015
