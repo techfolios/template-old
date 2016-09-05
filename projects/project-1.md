@@ -12,12 +12,6 @@ labels:
 summary: My team developed an underwater simulation to test the effectiveness of graphene detectors..
 ---
 
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
-</div>
 
 Graphene is a thin layer of pure carbon; it is a single, tightly packed layer of carbon atoms that are bonded together in a hexagonal honeycomb lattice. Graphene has many extraordinary properties. It is about 100 times stronger than the strongest steel. It conducts heat and electricity efficiently and is nearly transparent.
 
