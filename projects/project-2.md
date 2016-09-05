@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/Android_robot_cropped.jpg
+image: images/Android.jpg
 title: Android App Development
 permalink: projects/Android
 date: 2016
