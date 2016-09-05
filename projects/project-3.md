@@ -9,7 +9,7 @@ labels:
   - Java
   - EZ Graphics
   - Interactive Story
-summary: An Interactive Story group project created in ICS 111.
+summary: An Interactive Story group project created for ICS 111.
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Med5GKesR0o" frameborder="0" allowfullscreen></iframe>
