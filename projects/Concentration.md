@@ -19,4 +19,3 @@ In this project, we were put into groups, so we could see how a teammate based p
 
 Conclusively, this project was another important milestone in helping me become a better leader and a better programmer. I had to learn to be patient with people, not everyone has the same work ethic, some have other important things to do, but it’s important to find a way to have everything work out smoothly. It was a profusion of fun and learning to code with some friends and group mates and I really felt like I was getting some experience that may help me in a real world work environment some day.
 
-https://drive.google.com/a/hawaii.edu/file/d/0B4tTjTunigY9Q2FkYk5xV3BMcE0/view?usp=sharing
