@@ -8,7 +8,7 @@ date: 2015
 labels:
   - Java
   - EZ Graphics
-summary: A playable piano developed in ICS 111.  
+summary: A playable piano developed for ICS 111.  
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fChNjBPrxiw" frameborder="0" allowfullscreen></iframe>
