@@ -15,5 +15,5 @@ summary: A javascript based art prompt generator.
 
 
 This webpage uses javascript to randomly generate art prompts from a word list.
-View the code at https://github.com/matthew-schultz/artPrompt
+View the code [here](https://github.com/matthew-schultz/artPrompt).
 
