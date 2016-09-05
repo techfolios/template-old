@@ -11,7 +11,7 @@ labels:
 summary: Competed in a national robotics competition.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+<img class="ui image" src="{{ site.baseurl }}/images/first.png">
 
 I first entered FIRST my last year in high school. FIRST is a national robotics competition which high school teams compete in the sport of science and technology.
 
