@@ -12,6 +12,6 @@ labels:
 summary: A javascript based stopwatch created to test components of a "time bank" application to facilitate productivity by "storing" and "spending" time.
 ---
 
-View the code at https://github.com/matthew-schultz/javascriptTimeBank/tree/test
+View the code [here](https://github.com/matthew-schultz/javascriptTimeBank/tree/test).
 
 
