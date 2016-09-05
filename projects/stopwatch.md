@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/stopwatch.png
+image: images/stopwatch_photo.jpg
 title: Javascript Stopwatch
 permalink: projects/stopwatch
 date: 2015
