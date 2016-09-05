@@ -8,7 +8,7 @@ date: 2014
 labels:
   - HTML
   - CSS
-summary: An all about me website created in ICS 101.
+summary: An all about me website created for ICS 101.
 ---
 
 <img class="ui floated rounded image" src="../images/website-2.png">
