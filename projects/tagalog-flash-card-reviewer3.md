@@ -9,6 +9,11 @@ labels:
   - Java
 summary: A basic Java flash card program to help review Tagalog vocabulary.
 ---
+
+
+<img class="ui medium right floated rounded image" src="../images/philippines-flashcard-project-program-example.png">
+
+
 While taking Tagalog classes, I used physical flashcards to learn vocabulary. However, keeping track of the cards, creating new cards, and organizing all the cards
 proved to be challenging at times. I decided to create a flashcard program. 
 
