@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/image.png
+image: images/graphene.png
 title: Graphene
 permalink: projects/micromouse
 date: 2016
