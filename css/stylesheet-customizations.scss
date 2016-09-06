@@ -17,15 +17,15 @@ body {
 }
 
 // Customize the home page icon colors
-.icon-color {
+a, .icon-color {
   // color: silver;
   color: #226633;
 }
 
-.icon-color:hover {
+a:hover, .icon-color:hover {
   color: #227733;
 }
 
-a {
+/* a {
   color: #226633;
-}
+} */
