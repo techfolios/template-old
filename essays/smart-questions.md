@@ -55,7 +55,7 @@ makes it harder for someone to go through and understand the question.
 
 
 
-<h2>Bad Question</h2>
+<h2>Not-So-Smart Question</h2>
 ```
 Question title: "Where can I host my Node.js app, must be on a UK server".
 Question body: "My Node.js app requires logging in to a service, the service is strict and requests must come from the UK. 
