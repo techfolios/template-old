@@ -13,7 +13,7 @@ labels:
 <img class="ui medium right floated rounded image" src="../images/laptop.png">
 <h2>Introduction</h2>
 I've come a long way from using html to embed animated gifs on my Neopets account. These days I embed animated gifs while developing company websites. While progressing through that path, I have learned so much about hardware and software that modern society is overwhelmingly built on.
-
+<br /><br />
 <h2>Futurism</h2>
 Technology is an exciting field! It provides ways for people to automate work that is often tedious and allows them to focus on more engaging and personally gratifying projects. 
 The future of automobiles has me especially excited. Developments in autonomous vehicles may pave the way for a future we have less motor vehicle accidents and streamlining of traffic flows. (Rush hour traffic commuting to and from Honolulu, anyone?)
