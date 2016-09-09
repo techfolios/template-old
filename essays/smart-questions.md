@@ -8,7 +8,8 @@ labels:
   - Communication
   - Problem Solving
 ---
-<img class="ui medium right floated rounded image" src="../images/red_question_man.jpg>
+
+<img class="ui medium right floated rounded image" src="../images/red_question_man.jpg">
 <h2>Intro</h2>
 I found the essay on asking smart questions to be quite helpful.
 I tend to hesitate before asking questions, because I do not want to appear stupid and I enjoy finding out answers on my own.
