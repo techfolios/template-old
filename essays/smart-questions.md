@@ -15,6 +15,8 @@ I found the essay on asking smart questions to be quite helpful.
 I tend to hesitate before asking questions, because I do not want to appear stupid and I enjoy finding out answers on my own.
 However if finding an answer proves to be too difficult, it helps to try to consult others for solutions.
 
+
+
 <h2>Smart Question</h2>
 ```
 Question title: "Enforce utf8 encoding in call from node to Java"
@@ -50,6 +52,7 @@ give their own solutions to the problem rather than be forced to use a certain s
 
 By keeping the content of their question fairly concise, the asker further increases the usefulness of their question. Cluttering a question with useless information only
 makes it harder for someone to go through and understand the question.
+
 
 
 <h2>Bad Question</h2>
