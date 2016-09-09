@@ -60,6 +60,7 @@ makes it harder for someone to go through and understand the question.
 Question title: "Where can I host my Node.js app, must be on a UK server".
 Question body: "My Node.js app requires logging in to a service, the service is strict and requests must come from the UK. 
 Does anyone know where I can host my Node.js app. I found Evennode and liked it but its not based in the UK."
+```
 
 This question has some attributes of "smartness" but in many ways still falls short. Minor grammar errors like using "its" instead of it's give an air of carelessness.
 The overall tone of the question gives an air of laziness as well, as if the asker has only done the bare minimum amount of research. If they had mentioned ways they
@@ -69,7 +70,7 @@ question being answered, possibly even figuring out an answer on their own!).
 
 The question also seems to be not quite on topic, since it was asked on Stack Overflow, which is more geared towards questions about writing and debugging code 
 rather than where that code can be hosted. It might have been a better option for a more networking and hosting based section of Stack Exchange.
-```
+
 
 <h2>Summary</h2>
 Overall, by going over the essay on asking smart questions and analyzing questions on Stack Exchange, I feel more prepared to ask effective questions.
