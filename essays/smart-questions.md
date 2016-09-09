@@ -14,7 +14,7 @@ labels:
 I found the essay on asking smart questions to be quite helpful.
 I tend to hesitate before asking questions, because I do not want to appear stupid and I enjoy finding out answers on my own.
 However if finding an answer proves to be too difficult, it helps to try to consult others for solutions.
-
+<br /><br />
 
 
 <h2>Smart Question</h2>
