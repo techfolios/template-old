@@ -62,7 +62,7 @@ Question body: "My Node.js app requires logging in to a service, the service is 
 Does anyone know where I can host my Node.js app. I found Evennode and liked it but its not based in the UK."
 ```
 
-This question has some attributes of "smartness" but in many ways still falls short. Minor grammar errors like using "its" instead of it's give an air of carelessness.
+This question has some attributes of "smartness" but in many ways still falls short. Minor grammar errors like using "its" instead of "it's" give an air of carelessness.
 The overall tone of the question gives an air of laziness as well, as if the asker has only done the bare minimum amount of research. If they had mentioned ways they
 had researched, that would give more credence to having to ask a question on stack exchange. The essay on smart questions reiterates that the hackers who answer questions
 value their time just like other people. By putting in due diligence to try to figure a problem before asking for help, an asker gains significantly more respect (and likeliness of their
