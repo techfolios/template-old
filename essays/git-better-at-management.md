@@ -12,7 +12,7 @@ labels:
 
 ## Configuration Management 101
 
-Configuration Management is a useful tool for software engineers.  It is also something I wish I knew about earlier.  Where configuration management shines is situations where there is a large development team working on the same application.  Having an effective use of configuration management can allow for increased efficiency on managing and tracking multiple versions of these applications.  For example, team members can identify when changes are made, and their impacts on the project as a whole.
+Configuration Management is a useful tool for software engineers.  It is also something I wish I knew about earlier.  Where configuration management shines is situations where there is a large development team working on the same application.  Having an effective use of configuration management can allow for increased efficiency on managing and tracking multiple versions of these applications.  For example, team members can identify when changes are made, and their impacts on the entire project.
 
 ## Experiences
 
