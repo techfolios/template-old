@@ -23,4 +23,11 @@
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/print-default.css" media="print">
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/print-customizations.css" media="print">
 
+  <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+  {% if site.mathjax %}
+  <script type="text/javascript"
+          src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  {% endif %}
+
+
 </head>
