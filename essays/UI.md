@@ -8,7 +8,7 @@ labels:
   - HTML
   - CSS
 ---
-
+<img class="ui tiny left circular floated image" src="http://semantic-ui.com/images/logo.png">
 Unlike other development tools, Semantic UI is seen as a more difficult and time consuming framework that may be considered excess. Learning how to use Semantic UI was not easy, however, it was definitely more valuable to understand due to its wide grasp and useful features. 
 
 According to the Semantic UI website, the goal of the framework is to empower designers and developers with the tools necessary to create a professional and appropriate design. Once you get use to the framework, Semantic UI becomes an efficient tool to help build html files and other css files.
