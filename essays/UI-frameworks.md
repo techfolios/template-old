@@ -11,6 +11,8 @@ labels:
   - CSS
 ---
 
+<img class="ui fluid image" src="http://courses.ics.hawaii.edu/ics314f16/morea/ui-frameworks/experience-islandsnow.png">
+
   UI frameworks may not be that simple in nature but once you get comfortable with the elements, collections, and modules that are most commonly used, a whole new world of web development opens up to you!  At least that is how I feel about using Semantic UI after the first couple of times.  I really enjoy that they based the format of classes to be called on the natural flow of the English language.  This feature helped me to understand how to use the framework more effectively and efficiently.  The Semantic UI framework gives you a variety of building blocks to use at your discretion to create your own custom layouts and formats.
   
   
