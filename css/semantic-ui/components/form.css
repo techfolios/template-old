@@ -1,9 +1,8 @@
 /*!
- * # Semantic UI 2.1.8 - Form
+ * # Semantic UI 2.2.4 - Form
  * http://github.com/semantic-org/semantic-ui/
  *
  *
- * Copyright 2015 Contributors
  * Released under the MIT license
  * http://opensource.org/licenses/MIT
  *
@@ -46,7 +45,7 @@
 }
 .ui.form .fields .field {
   clear: both;
-  margin: 0em 0em 1em;
+  margin: 0em;
 }
 
 /*--------------------
@@ -77,6 +76,7 @@
 .ui.form input[type="tel"],
 .ui.form input[type="time"],
 .ui.form input[type="text"],
+.ui.form input[type="file"],
 .ui.form input[type="url"] {
   width: 100%;
   vertical-align: top;
@@ -97,6 +97,7 @@
 .ui.form input[type="tel"],
 .ui.form input[type="time"],
 .ui.form input[type="text"],
+.ui.form input[type="file"],
 .ui.form input[type="url"] {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   margin: 0em;
@@ -307,30 +308,30 @@
 
 /* browsers require these rules separate */
 .ui.form ::-webkit-input-placeholder {
-  color: rgba(140, 140, 140, 0.87);
+  color: rgba(191, 191, 191, 0.87);
 }
-.ui.form ::-ms-input-placeholder {
-  color: rgba(140, 140, 140, 0.87);
+.ui.form :-ms-input-placeholder {
+  color: rgba(191, 191, 191, 0.87);
 }
 .ui.form ::-moz-placeholder {
-  color: rgba(140, 140, 140, 0.87);
+  color: rgba(191, 191, 191, 0.87);
 }
 .ui.form :focus::-webkit-input-placeholder {
-  color: rgba(89, 89, 89, 0.87);
+  color: rgba(115, 115, 115, 0.87);
 }
-.ui.form :focus::-ms-input-placeholder {
-  color: rgba(89, 89, 89, 0.87);
+.ui.form :focus:-ms-input-placeholder {
+  color: rgba(115, 115, 115, 0.87);
 }
 .ui.form :focus::-moz-placeholder {
-  color: rgba(89, 89, 89, 0.87);
+  color: rgba(115, 115, 115, 0.87);
 }
 
 /* Error Placeholder */
 .ui.form .error ::-webkit-input-placeholder {
   color: #e7bdbc;
 }
-.ui.form .error ::-ms-input-placeholder {
-  color: #e7bdbc;
+.ui.form .error :-ms-input-placeholder {
+  color: #e7bdbc !important;
 }
 .ui.form .error ::-moz-placeholder {
   color: #e7bdbc;
@@ -338,8 +339,8 @@
 .ui.form .error :focus::-webkit-input-placeholder {
   color: #da9796;
 }
-.ui.form .error :focus::-ms-input-placeholder {
-  color: #da9796;
+.ui.form .error :focus:-ms-input-placeholder {
+  color: #da9796 !important;
 }
 .ui.form .error :focus::-moz-placeholder {
   color: #da9796;
@@ -359,6 +360,7 @@
 .ui.form input[type="tel"]:focus,
 .ui.form input[type="time"]:focus,
 .ui.form input[type="text"]:focus,
+.ui.form input[type="file"]:focus,
 .ui.form input[type="url"]:focus {
   color: rgba(0, 0, 0, 0.95);
   border-color: #85B7D9;
@@ -384,6 +386,9 @@
 .ui.form.success .success.message:not(:empty) {
   display: block;
 }
+.ui.form.success .compact.success.message:not(:empty) {
+  display: inline-block;
+}
 .ui.form.success .icon.success.message:not(:empty) {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -399,6 +404,9 @@
 .ui.form.warning .warning.message:not(:empty) {
   display: block;
 }
+.ui.form.warning .compact.warning.message:not(:empty) {
+  display: inline-block;
+}
 .ui.form.warning .icon.warning.message:not(:empty) {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -413,6 +421,9 @@
 /* On Form */
 .ui.form.error .error.message:not(:empty) {
   display: block;
+}
+.ui.form.error .compact.error.message:not(:empty) {
+  display: inline-block;
 }
 .ui.form.error .icon.error.message:not(:empty) {
   display: -webkit-box;
@@ -444,6 +455,7 @@
 .ui.form .fields.error .field input[type="tel"],
 .ui.form .fields.error .field input[type="time"],
 .ui.form .fields.error .field input[type="text"],
+.ui.form .fields.error .field input[type="file"],
 .ui.form .fields.error .field input[type="url"],
 .ui.form .field.error textarea,
 .ui.form .field.error select,
@@ -457,6 +469,7 @@
 .ui.form .field.error input[type="tel"],
 .ui.form .field.error input[type="time"],
 .ui.form .field.error input[type="text"],
+.ui.form .field.error input[type="file"],
 .ui.form .field.error input[type="url"] {
   background: #FFF6F6;
   border-color: #E0B4B4;
@@ -476,6 +489,7 @@
 .ui.form .field.error input[type="tel"]:focus,
 .ui.form .field.error input[type="time"]:focus,
 .ui.form .field.error input[type="text"]:focus,
+.ui.form .field.error input[type="file"]:focus,
 .ui.form .field.error input[type="url"]:focus {
   background: #FFF6F6;
   border-color: #E0B4B4;
@@ -571,7 +585,8 @@
   pointer-events: none;
   opacity: 0.45;
 }
-.ui.form .field.disabled label {
+.ui.form .field.disabled > label,
+.ui.form .fields.disabled > label {
   opacity: 0.45;
 }
 .ui.form .field.disabled :disabled {
@@ -585,7 +600,7 @@
 .ui.loading.form {
   position: relative;
   cursor: default;
-  point-events: none;
+  pointer-events: none;
 }
 .ui.loading.form:before {
   position: absolute;
@@ -685,7 +700,12 @@
 .ui.form .inverted.segment .ui.checkbox label,
 .ui.form .inverted.segment .ui.checkbox .box,
 .ui.inverted.form .ui.checkbox label,
-.ui.inverted.form .ui.checkbox .box {
+.ui.inverted.form .ui.checkbox .box,
+.ui.inverted.form .inline.fields > label,
+.ui.inverted.form .inline.fields .field > label,
+.ui.inverted.form .inline.fields .field > p,
+.ui.inverted.form .inline.field > label,
+.ui.inverted.form .inline.field > p {
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -700,6 +720,7 @@
 .ui.inverted.form input[type="tel"],
 .ui.inverted.form input[type="time"],
 .ui.inverted.form input[type="text"],
+.ui.inverted.form input[type="file"],
 .ui.inverted.form input[type="url"] {
   background: #FFFFFF;
   border-color: rgba(255, 255, 255, 0.1);
@@ -748,6 +769,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin: 0em -0.5em 1em;
 }
 .ui.form .fields > .field {
   -webkit-box-flex: 0;
@@ -805,6 +827,8 @@
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+  .ui[class*="equal width"].form .fields > .field,
+  .ui.form [class*="equal width"].fields > .field,
   .ui.form .two.fields > .fields,
   .ui.form .two.fields > .field,
   .ui.form .three.fields > .fields,
@@ -825,15 +849,7 @@
   .ui.form .ten.fields > .field {
     width: 100% !important;
     margin: 0em 0em 1em;
-    padding-left: 0%;
-    padding-right: 0%;
   }
-}
-.ui.form .fields .field:first-child {
-  padding-left: 0%;
-}
-.ui.form .fields .field:last-child {
-  padding-right: 0%;
 }
 
 /* Sizing Combinations */
@@ -841,12 +857,6 @@
   width: 6.25%;
   padding-left: 0.5em;
   padding-right: 0.5em;
-}
-.ui.form .fields .wide.field:first-child {
-  padding-left: 0%;
-}
-.ui.form .fields .wide.field:last-child {
-  padding-right: 0%;
 }
 .ui.form .one.wide.field {
   width: 6.25% !important;
@@ -923,9 +933,9 @@
   .ui.form .fields > .fifteen.wide.field,
   .ui.form .fields > .sixteen.wide.field {
     width: 100% !important;
-    margin: 0em 0em 1em;
-    padding-left: 0%;
-    padding-right: 0%;
+  }
+  .ui.form .fields {
+    margin-bottom: 0em;
   }
 }
 
@@ -949,7 +959,6 @@
   margin: 0em 0em 1em;
   -webkit-box-align: center;
       -ms-flex-align: center;
-              -ms-grid-row-align: center;
           align-items: center;
 }
 .ui.form .inline.fields .field {
@@ -1020,25 +1029,29 @@
         Sizes
 ---------------------*/
 
-
-/* Standard */
+.ui.mini.form {
+  font-size: 0.78571429rem;
+}
+.ui.tiny.form {
+  font-size: 0.85714286rem;
+}
 .ui.small.form {
   font-size: 0.92857143rem;
 }
-
-/* Medium */
 .ui.form {
   font-size: 1rem;
 }
-
-/* Large */
 .ui.large.form {
   font-size: 1.14285714rem;
 }
-
-/* Huge */
+.ui.big.form {
+  font-size: 1.28571429rem;
+}
 .ui.huge.form {
   font-size: 1.42857143rem;
+}
+.ui.massive.form {
+  font-size: 1.71428571rem;
 }
 
 
