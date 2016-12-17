@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/minesweeper.jpg
+image: images/letumgrow-logo.png
 title: LetUmGrow
 permalink: projects/letumgrow
 date: 2016
