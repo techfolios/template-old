@@ -39,7 +39,7 @@
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "web development",
       "keywords": [
       ]
     }
@@ -51,7 +51,13 @@
       "keywords": [
         "C",
         "C++",
-        "Java"
+        "PHP",
+        "Java",
+        "Javascript",
+        "Semantic UI Framework",
+        "Mongo DB",
+        "SQL",
+        "Meteor Web Framework"
       ]
     },
     {
@@ -60,7 +66,12 @@
       "keywords": [
         "MacOS",
         "Windows",
-        "UNIX"
+        "UNIX",
+        "Netbeans IDE",
+        "Intellij IDE",
+        "Adobe Illustrator",
+        "Adobe Photoshop",
+        "Git/Github"
       ]
     }
   ],
@@ -81,7 +92,7 @@
       "company": "Center of Disability Studies",
       "position": "Computer Support Assistant",
       "endDate": "Present",
-      "summary": "IT Support for around 200 users",
+      "summary": "IT Support for around 100 users",
       "highlights": [
         "Maintain, update, and oversee technical maintenance"
       ]
