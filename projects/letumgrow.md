@@ -17,7 +17,8 @@ summary: For my final project in my Software Engineering class (ICS 314) at UH M
 ---
 
 <img class="ui fluid image" src="/images/landing1.png">
-LetUmGrow app started as a final project that was an original idea 
+LetUmGrow app started as a final project that was an original idea (we did not want to choose a project in which was a template provided by the professor).  I have been wanting to bridge the gap between the Hawaiian culture and technology for a while before I was presented the chance of actually doing it.  I was lucky enough to get connected with fellow classmates that wanted to make an app in which involved mapping individual plants and treating them like a separate entity on the map.  I have been taking Lāʻau Lapaʻau (Hawaiian Plant Medicine) classes at the University of Hawaii (UH) Manoa as well and wanted to incorporate remedies we have learned in that class into the LetUmGrow application.  We have met with the Heads of Landscaping/Grounds department at UH Manoa and have gained access to there database being that we are leaving our project open sourced.  We intend to add functionality that will help the Landscaping/Grounds team keep track of different details about certain plants (when last pruned, by who, soil pH, etc.).  This is part of the add plants page shown below.
+<img class="ui fluid image" src="/images/addplants1.PNG">
 
 You can view the source code here [LetUmGrow Repository](https://github.com/LetUmGrow/LetUmGrow).
 
