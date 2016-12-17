@@ -6,7 +6,7 @@
     "email": "nahinan@hawaii.edu",
     "phone": "808-554-9699",
     "website": "https://paniolonate.github.io",
-    "summary": "A driven, compassionate, individual seeking entry-level internship/employment related to Software Development with an heightened interest of smartphone applications.",
+    "summary": "A driven, compassionate, individual seeking entry-level internship/employment related to Software Development with an heightened interest of smartphone applications and bridging the gap between technology and the Hawaiian culture.",
     "location": {
       "address": "357 Iliwai Drive",
       "postalCode": "96786",
@@ -91,7 +91,8 @@
     {
       "company": "Center of Disability Studies",
       "position": "Computer Support Assistant",
-      "endDate": "Present",
+      "website": "http://www.cds.hawaii.edu/",
+      "endDate": "Current",
       "summary": "IT Support for around 100 users",
       "highlights": [
         "Maintain, update, and oversee technical maintenance"
@@ -120,7 +121,10 @@
       "summary": "Doing my part to take care of that which feeds us (aina, land)",
       "highlights": [
         "Worked together up Manoa Stream to develop plots for a Native Hawaiian garden (mala)",
-        "Built a dam and dug an irrigation ditch (auwai) that connects back into the stream"
+        "Built a dam and dug an irrigation ditch (auwai) that connects back into the stream",
+        "Planted numerous native and hanai (adopted) Hawaiian plants", 
+        "Farmed with tools that we made ourselves",
+        "Committed to take care (malama) of that area for the rest of my time in this world"
       ]
     },
     {
@@ -142,6 +146,12 @@
       "date": "2013-Present",
       "awarder": "Phi Theta Kappa Honor Society (Alpha Lambda Gamma Chapter)",
       "summary": "To be eligible for membership a student must have completed at least 12 hours of associate degree course work with a cumulative 3.5 GPA."
+    },
+    {
+      "title": "Dean's List",
+      "date": "2011-Present",
+      "awarder": "Dean of University of Hawaii",
+      "summary": "Awarded to students who complete semesters of 12 or more credits with a GPA of 3.5 of higher."
     },
     {
       "title": "Na Ho'okama a Pau'ahi Scholarship",
