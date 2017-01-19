@@ -6,52 +6,37 @@
     "email": "rkahakui@hawaii.edu",
     "phone": "808-753-1851",
     "website": "https://richardkahakui.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2018.",
+    "summary": "I am studying for a B.S. in Computer Engineering in the Department of Engineering at the University of Hawaii. I expect to graduate in Fall, 2017.",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "postalCode": "96744",
+      "city": "Kaneohe",
       "countryCode": "USA",
       "region": "Hawaii"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "richardkahakui",
+        "url": "http://github.com/richardkahakui"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "Richard Kahakui",
+        "url": "http://linkedin.com/in/richard-kahakui-954a76136"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Network/Cyber Security",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        //"Arduino",
+        //"TI MSP430"
       ]
     },
     {
-      "name": "data mining",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "artificial intelligence",
+      "name": "Renewable Energy and Sustainabillity",
       "keywords": [
       ]
     }
