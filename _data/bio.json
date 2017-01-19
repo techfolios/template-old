@@ -2,7 +2,7 @@
   "basics": {
     "name": "JingJie Wu",
     "label": "Student",
-    "picture": "https://JingJie6.github.io/template/images/JingJie Wu.png",
+    "picture": "https://JingJie6.github.io/template/images/JingJie Wu.jpg",
     "email": "jingjie6@hawaii.edu",
     "phone": "",
     "website": "https://JingJie6.github.io",
@@ -23,23 +23,23 @@
       {
         "network": "instagram",
         "username": "eric_jw_",
-        "url": "http://instagram.com/changeme"
+        "url": "http://instagram.com/eric_jw_"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "coding",
       "keywords": [
       ]
     },
     {
-      "name": "data mining",
+      "name": "Listen to music",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "play video games",
       "keywords": [
       ]
     }
