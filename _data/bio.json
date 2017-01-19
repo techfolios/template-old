@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Anh Lam",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2018.",
+    "picture": "https:// LamAnhProj.github.io/images/profile.jpg",
+    "email": "lamanh@hawaii.edu",
+    "phone": "808-825-7199",
+    "website": "https://LamAnhProj.github.io",
+    "summary": "I am studying for a B.S. in Computer Engineer at the University of Hawaii of Manoa. I expect to graduate in Spring, 2018.",
     "location": {
-      "address": "",
-      "postalCode": "96822",
+      "address": " ",
+      "postalCode": "",
       "city": "Honolulu",
       "countryCode": "USA",
       "region": "Hawaii"
@@ -17,36 +17,26 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "LamAnhProj",
+        "url": "http://github.com/LamanhProj"
       },
       {
         "network": "linkedin",
         "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "url": "https://www.linkedin.com/in/anh-lam-84454a124"
       }
+     
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "computer engineering",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+      
       ]
     },
     {
-      "name": "data mining",
+      "name": "web development",
       "keywords": [
       ]
     },
