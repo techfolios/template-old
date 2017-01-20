@@ -7,7 +7,7 @@ labels:
   - Javascript
 ---
 
-<img class="ui tiny right spaced image" src="../images/degree_difficulty.jpg">
+<img class="ui tiny right spaced image" src="../images/Java-vs.-JavaScript.jpg">
 
 What is JavaScript? I don’t know. This is my first impression about JavaScript. Before I take this course, I was completed newbie. However, I have learned Java before, and I am learning C in this semester. After I finished the tutorial of JavaScript on FreeCodeCamp, and I realized JavaScript was not that hard to learn for people who have no experience.
 
