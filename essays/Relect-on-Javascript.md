@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Reflec on Javascript
+title: Reflect on Javascript
 date: 2017-01-19
 labels:
   - Javascript
