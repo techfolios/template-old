@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/PrIME-payload.jpg
+image: images/PrIME-breakdown.jpg
 title: PrIME
 permalink: projects/PrIME
 date: 2016
@@ -12,8 +12,8 @@ labels:
 summary: My team developed an innovative multi-experiment payload to be conducted in sub-orbital space in Summer 2016.
 ---
 
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/PrIME-breakdown.png">
+<div class="ui medium rounded images">
+  <img class="ui image" src="../images/PrIME-payload.png">
   <img class="ui image" src="../images/PrIME-openscad.png">
 </div>
 
