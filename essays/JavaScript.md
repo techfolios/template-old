@@ -6,7 +6,6 @@ date: 2017-01-20
 labels:
   - Software Engineering
   - Learning
-  -JavaScript
 ---
 
 
@@ -35,6 +34,8 @@ In this class, I really appreciate the use of the Athletic SE Education. Althoug
 
 The practice WOD is very helpful in helping me to master the “skill” in the module. For me, the practice WOD is very helpful in letting me know how well I know the skill or not. For example, the second WOD we did for the module “JavaScrip 1: Basic”, which included solving Euler Problem #2, I surprised myself by finishing the WOD with Rx time on the first attempt. However, I know that I need to practice some more since I did not finish the WOD on Thursday. 
 
-Overall, this style of learning is very 
-
 ##Final Thoughts
+
+Overall, the Athletic Software Engineering approach to learning JavaScript is very helpful in helping me to learn this new language. I now wish that I had learn my previous languages that way. 
+
+On the otherhand, JavaScript is a very beautiful language that I believe will be very helpful as a software engineer. By combinging more of the common commands together and making this much easier and simpler, this language makes it easy to do more complex stuff without having to worry about the small details. 
