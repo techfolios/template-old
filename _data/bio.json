@@ -72,7 +72,7 @@
       "startDate": "2015-09-01",
       "endDate": "Present",
       "gpa": "",
-      "courses": "ICS 111", "ICS 141","ICS 211","ICS 241", "ICS 311","ICS 314","ICS 321" [
+      "courses": ["ICS 111", "ICS 141","ICS 211","ICS 241", "ICS 311","ICS 314","ICS 321" 
       ]
     }
   ],
