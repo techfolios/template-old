@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/0506.sdt-javascript.jpeg
+image: images/194014.jpeg
 title: 3-D Modeling of CrankShaft
 permalink: projects/Crankshaft
 date: 2015
