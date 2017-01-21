@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
+image: images/shine.png
 title: SHINE
 permalink: projects/SHINE
 date: 2017
@@ -12,7 +12,7 @@ labels:
 summary: This project immigrants pass the naturalization examination for U.S. citizenship.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/SHINE.png">
 
 What is project SHINE? SHINE is an acronym for Students Helping in Naturalization of Elder. I started this project when I
  a freashmen in KCC. This is a great opportunity to help Chinese immigrants study for the American citizenship test, help them pass the test to become a citizen. 
