@@ -51,14 +51,14 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "level": "",
+      "level": "Proficient",
       "keywords": [
         "C",
         "C++",
         "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Visual Basic",
+        "MatLab"
       ]
     },
     {
@@ -66,10 +66,8 @@
       "level": "",
       "keywords": [
         "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Windows",
+        "Git/GitHub"
       ]
     }
   ],
@@ -80,6 +78,26 @@
       "studyType": "B.S.",
       "startDate": "2015-09-01",
       "endDate": "Present",
+      "gpa": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "University of New Mexico, Albuquerque, NM",
+      "area": "Computer Science",
+      "studyType": "B.S.",
+      "startDate": "2012-08",
+      "endDate": "2015-5",
+      "gpa": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Ritsumeikan Asia Pacific University, Beppu, Japan",
+      "area": "",
+      "studyType": "Study Abroad Program",
+      "startDate": "2014-01",
+      "endDate": "2014-05",
       "gpa": "",
       "courses": [
       ]
@@ -117,18 +135,7 @@
     },
   ],
   "awards": [
-    {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
+  
   ],
   "references": [
     {
