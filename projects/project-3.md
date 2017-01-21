@@ -20,7 +20,6 @@ because people can see what we did, and this is the chance to let
 people discover me. I totally agree with that, so I will keep doing this.
 
 <hr>
-
 <img src="../images/YouTube.png">
 Source: <a href="https://www.youtube.com/channel/UC1mqPE7WxqCHKLlc_YLXySQ"><i class="large youtube icon "></i>JingJie's YouTube channel</a>
 
