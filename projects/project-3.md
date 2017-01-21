@@ -8,12 +8,12 @@ date: 2015
 labels:
   - 3-D Modeling
   - Creo|PTC
-summary: This is my final project graphic design for engineers.
+summary: This is my final project for graphic design for engineers.
 ---
 
  
   <img class="ui medium right floated image" src="/images/Lam_0867043_FinalProject.jpg">
-  With the Creo product development software, users can create their product from concept to digital prototype and do so with efficiency, and accuracy. This is my final project graphic design for engineers.
+  With the Creo product development software, users can create their product from concept to digital prototype and do so with efficiency, and accuracy. This is my final project for graphics design for engineers.
   
        
        What did I like best?
