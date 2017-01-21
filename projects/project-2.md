@@ -27,4 +27,4 @@ To promote and facilitate the empowerment of immigrants in Hawai'i.
 Through this project I gained some experience and something connected to my life. for example, as a teenager, I learned that I
 should respect senior, because most of the learner are old people. also, this also improve my people skills.
  
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+Source: <a href="https://www.chaminade.edu/service-learning/project-shine"><i class="large github icon"></i>Project SHINE</a>
