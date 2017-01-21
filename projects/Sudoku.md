@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/sudokuhead.png
+image: images/sudokuhead.jpeg
 title: Sudoku
 permalink: projects
 date: 2017
