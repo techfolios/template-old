@@ -11,7 +11,7 @@ labels:
 summary: A Sudoku project that I developed in ICS211.
 ---
 
-  <img class="ui image" src="../images/sudoku.jpeg">
+  <img class="ui image" src="../images/sudoku.png">
 
 
 This Sudoku project was one of the project in ICS211. A Sudoku is a 16x16 grid of integers, each with values 1..9,A,B,C,D,E,F.
