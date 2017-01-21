@@ -12,7 +12,8 @@ summary: This is my final project for my object oriented programming class and i
 
 <div class="ui embed" data-source="vimeo" data-id="200444415" >
 </div>
-    Features:
+
+        Features:
 -Solves 9x9, 16x16, 25x25 sudoku puzzles
 -Takes in file name and determines size of grid
 -Stores file information
