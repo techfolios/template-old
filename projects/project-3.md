@@ -23,6 +23,6 @@ people  discover us. I totally agree with that, so I will keep doing this.
 
 
 
-<img class="ui medium right floated rounded image" src="../images/YouTube.png">
+<img src="../images/YouTube.png">
 Source: <a href="https://www.youtube.com/channel/UC1mqPE7WxqCHKLlc_YLXySQ"><i class="large youtube icon "></i>JingJie's YouTube channel</a>
 
