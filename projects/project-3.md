@@ -7,6 +7,7 @@ permalink: projects/cotton
 date: 2017
 labels:
   - GitHub
+  - Java
 summary: my channel for ICS course.
 ---
 
