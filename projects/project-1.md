@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: images/sudoku.jpeg
+image: images/sudokuhead.png
 title: Sudoku
-permalink: projects/micromouse
+permalink: projects
 date: 2017
 labels:
   - Java
