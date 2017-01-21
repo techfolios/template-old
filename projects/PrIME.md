@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/PrIME-breakdown.png
+image: images/PrIME-prime.jpg
 title: PrIME
 permalink: projects/PrIME
 date: 2016
@@ -13,6 +13,7 @@ summary: My team developed an innovative multi-experiment payload to be conducte
 ---
 
 <div class="ui medium rounded images">
+  <img class="ui image" src="../images/PrIME-breakdown.png">
   <img class="ui image" src="../images/PrIME-payload.jpg">
   <img class="ui image" src="../images/PrIME-openscad.png">
 </div>
