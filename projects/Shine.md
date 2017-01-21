@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/shine.png
+image: images/shinehead.png
 title: SHINE
 permalink: projects/SHINE
 date: 2017
