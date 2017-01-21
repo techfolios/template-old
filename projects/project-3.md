@@ -13,10 +13,9 @@ summary: This is my final project graphic design for engineers.
 
 <div class="ui medium center rounded images">
   <img class="ui image" src="../images/Lam_0867043_FinalProject.jpg">
- 
 </div>
 
-       With the Creo product development software, users can create their product from concept to digital prototype and do so with efficiency, and accuracy. 
+ With the Creo product development software, users can create their product from concept to digital prototype and do so with efficiency, and accuracy. 
        
        What did I like best?
 
