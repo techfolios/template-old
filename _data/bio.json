@@ -30,18 +30,18 @@
   },
   "interests": [
     {
-      "name": "computer engineering",
+      "name": "Computer engineering",
       "keywords": [
       
       ]
     },
     {
-      "name": "web development",
+      "name": "Web development",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Artificial intelligence",
       "keywords": [
       ]
     }
@@ -93,7 +93,7 @@
         "Triage, administered vaccinations, assistant with surgical procedures",
         "provide critical care for patients in the ER"
       ]
-    },
+    }
     
   ],
   "volunteer": [
@@ -103,7 +103,7 @@
       "position": "patient assistant",
       "startDate": "2007",
       "endDate": "2008",
-      "summary": "Volunteers assisting in these areas work with the nursing staff and help the unit run smoothly. Areas include Elderly Acute Care, General Medicine, Oncology, Neurology and Trauma.",
+      "summary": "Volunteers assisting in these areas work with the nursing staff and help the unit run smoothly. Areas include Elderly   Acute Care, General Medicine, Oncology, Neurology and Trauma.",
       "highlights": 
         
       
@@ -116,9 +116,9 @@
       "endDate": "",
       "summary": "",
       "highlights"
-      ]
+      
     }
-  ],
+  
 
   ],
   "references": [
