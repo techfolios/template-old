@@ -7,15 +7,13 @@ permalink: projects/PrIME
 date: 2016
 labels:
   - Design
+  - Engineering
   - Python
 summary: My team developed an innovative multi-experiment payload to be conducted in sub-orbital space in Summer 2016.
 ---
 
 <div class="ui small rounded images">
   <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
 </div>
 
 Rocksat X is a multi institutional opportunity for teams of students to design and build their own experimental payload to be cunducted in space. Our team, Project Imua which is comprised of four different University of Hawaii Community Colleges, developed PrIME which stands for Project Imua Multiple Experiments because of the four campuses and their contribution to the overall experimental payload. 
