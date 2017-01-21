@@ -6,8 +6,8 @@ title: Sudoku
 permalink: projects
 date: 2017
 labels:
-  - Java
   - GitHub
+  - Java
 summary: A Sudoku project that I developed in ICS211.
 ---
 
