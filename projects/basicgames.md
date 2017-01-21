@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/games.jpg
+image: images/games.png
 title: Basic Games
 permalink: projects/basicgames.md
 date: 2014
