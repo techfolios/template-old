@@ -14,11 +14,12 @@ summary: This is my final project for my object oriented programming class and i
 </div>
 
         Features:
--Solves 9x9, 16x16, 25x25 sudoku puzzles
--Takes in file name and determines size of grid
--Stores file information
--Solves puzzle using backtracking solving algorithm
--Displays progress and final solution
+        
+  Solves 9x9, 16x16, 25x25 sudoku puzzles
+  Takes in file name and determines size of grid
+  Stores file information
+  Solves puzzle using backtracking solving algorithm
+  Displays progress and final solution
 
 Method used Backtracking Algorithm:
 
