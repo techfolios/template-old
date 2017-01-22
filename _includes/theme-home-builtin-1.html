@@ -52,3 +52,19 @@
   </div>
 
 </div>
+
+<script type="text/javascript">
+  /* Terrible ugly hack to get nice background image on main page without changing other templates */
+  document.addEventListener("DOMContentLoaded", function() {
+      var body = document.getElementsByTagName("body")[0];
+      body.style.cssText =
+          'background: url("../images/_MG_4098.JPG");' +
+          'background-size: auto;' +
+          'background-position: center;' +
+          'background-repeat: no-repeat;';
+      var uhbtns = document.getElementsByClassName("uhbtn");
+      for(var i = 0; i < uhbtns.length; i++) {
+          uhbtns[i].cssText = "background-color: gray;";
+      }
+  });
+</script>
