@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/YouTube.png
 title: My YouTube channel
-permalink: projects/cotton
+permalink: projects/youtube
 date: 2017
 labels:
   - GitHub
