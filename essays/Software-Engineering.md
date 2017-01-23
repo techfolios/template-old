@@ -17,6 +17,7 @@ my mind after I talked with my dad. He told me to pick a something that I like, 
 fascinated with computers, so I decided to be a ICS student. after I took ICS111, I realized this is what I want to do for
 my future. For ICS111, we need to use EZ graphics to create our own game. even though, I was not a programmer expert at that
 time, but I enjoyed it.
+<img src="../images/software.jpg">
 
 my plan for the future is to develop my programming skills to become a profession programmer, and I want to create some games
 like League of legends. also, I want to learn more programming languages as much as I can. because a good programmer should
