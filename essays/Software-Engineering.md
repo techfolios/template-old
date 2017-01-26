@@ -4,8 +4,8 @@ type: essay
 title: Software Engineering
 date: 2017-01-19
 labels:
- - Software engineering
- - learning
+ -- Software engineering
+ -- learning
 ---
 
 What is the software engineering? software enginnering and computer programmer both develop software application needed by
