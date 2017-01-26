@@ -4,7 +4,7 @@ type: essay
 title: Reflect on Javascript
 date: 2017-01-19
 labels:
-  Javascript
+  - Javascrpit
 ---
 
 
