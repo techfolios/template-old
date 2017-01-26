@@ -17,7 +17,7 @@ some problems that you dont konw, but that's okay, just say something relate to 
 your team to lead the answer. The way to learn is ask question, but How to ask question the smart way? according to the 
 guidelines for effective interaction with the open source community that Eric Raymond wrote. people should google search 
 before they ask question. google is our friend, because a lot of questions can be find it on google.
-//google is our friend.
+<img src="../images/google-is-your-friendjpg">
 
 Stack Overflow is a question and answer site for professional and enthusiast programmer. I found some smart question examples
 and stupid question examples from the website, and I will go through them to show what is smart question and what is stupid 
