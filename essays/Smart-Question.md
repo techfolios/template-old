@@ -18,8 +18,7 @@ your team to lead the answer. The way to learn is ask question, but How to ask q
 guidelines for effective interaction with the open source community that Eric Raymond wrote. people should google search 
 before they ask question. google is our friend, because a lot of questions can be find it on google.
 
-
-<img src="../images/google-is-your-friend.jpg">
+<img src="../images/ask-question.jpg">
 
 Stack Overflow is a question and answer site for professional and enthusiast programmer. I found some smart question examples
 and stupid question examples from the website, and I will go through them to show what is smart question and what is stupid 
@@ -32,4 +31,4 @@ why I think this is a smart question? first, from the title, this person ask que
 also mention the version of Eclipse. second, this person explain his situation very clearly and detail, also he have 
 the error output which will help people to help him solve the propblem. last, He tagged some words relate to his question,
 this is good and this will help people effective help him out.
-<img src="../images/ask-question.jpg">
+<img src="../images/google-is-your-friend.jpg">
