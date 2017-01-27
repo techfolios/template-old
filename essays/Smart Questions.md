@@ -28,4 +28,20 @@ In regards to the previous point, the next mistake was that the author did not s
 
 
 <i>The Smart Question</i>
+
 <img class="ui tiny left circular floated image" src="../images/Screen Shot 2017-01-26 at 9.10.12 PM.png">
+Source: http://stackoverflow.com/questions/41888115/unable-to-connect-to-mysql-database-by-hibernate-due-to-mysqlsyntaxerrorexceptio
+
+In this example, the user is having trouble commecting to the MySQL database through hibernate due to a specific error. This question was very thorough and thought out. As a result of posting a smart question, the author was able to get an answer to her problem quickly. 
+
+The first good thing the author did was creating a title that was specific to the author's problem. As Raymond and Moen stated, a "good convention for subject headers is "object-deviation"." The author's title read "Unable to connect to MySQL database by hibernate due to MySQLSyntaxErrorException: Unknown database 'dbname' error." This is a very good title since the author was able to tell the forum exactly what was wrong with her code. This is very important because as users are scrolling through the web, the first thing they see when looking at someone's question is the title. 
+
+The next good thing the author did was use clear, grammatical, correctly-spelled language. This is important for several reasons. The first being that by writing correctly, you won't be seen as "a semi-literate boob (who) will very likely be ignored", as Raymond and Moen states. Hackers have found that "people who are careless and sloppy writers are usually also careless and sloppy at thinking and coding." Another reason is that the people who are trying to help you can often be distracted or irritated with the lack of appropriate grammar. For example, by typing in all lower-case letters is "slightly annoying ... (and) difficult to read", stated by Raymond and Moen. However, the most important reason is to let those who are trying to help you to be able to find out exactly what you need in a clear and precise way, which is through the author's writing. 
+
+Again, by writing clearly and precisely, the author was able to explain her problem very clearly and precisely. By writing the question in this way, the author is able to get her answer much quicker since the people helping her are able to know exactly what the author needs help with. 
+
+Another good thing this author did was describing the symptoms of her problem, which was receiving the error. By stating what the error was and when she got the error, the users helping her was able to pinpoint exactly where the problem was occuring and why. In describing her symptoms, she described the whole picture so that the users helping her will also know what she wants her end product to be, thus in cases where there could be multiple solutions, the users helping the author will know which solution will be best to help the author reach their end goal. 
+
+<i>Conclusion</i>
+
+In conclusion, I have given an example of a "not smart" question and a "smart" question and talked about how these questions were either successful or not successful. Overall, the "not smart" question was never answered because of the reasons listed above, thus, it proved to be a waste of time for the author of that question. The second example, which was a "smart" question, was answered fairly quickly because of her good questioning skills. Thus, we were able to see the effects our "questioning skills" are in these open source software. 
