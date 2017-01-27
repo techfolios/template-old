@@ -10,7 +10,6 @@ labels:
   - C
   - games
 summary: My team designed a form of BlackJack, Craps and Connect Four in order to learn and solidify skills in C programming.
-
 ---
 
 
