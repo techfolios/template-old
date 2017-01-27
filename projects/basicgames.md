@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/games.png
 title: Basic Games
-permalink: projects/basicgames.md
+permalink: projects/basicgames
 date: 2014
 labels:
   - gcc
