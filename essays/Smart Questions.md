@@ -15,5 +15,4 @@ In <i>How To Ask Questions The Smart Way</i>, an essay written by Eric Steven Ra
 
 <i> The Smart Question</i>
 
-+<img class="ui tiny left circular floated image" src="images/Screen Shot 2017-01-26 at 9.06.44 PM.png">+
-
+<img class="ui tiny left circular floated image" src="../images/Screen Shot 2017-01-26 at 9.06.44 PM.png">
