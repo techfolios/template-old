@@ -20,13 +20,13 @@ Prior to this course, the programming languages I had experience with were Java,
 
 As I stated earlier, I learned several different languages and out of all the languages I’ve learned, I feel that JavaScript was one of the easiest languages for me to pick up because it contained some of the same commands as other languages, but in a much more simplified manner. For example, Java requires the variables be declared in terms of its type (e.i. int, string, double, etc.). However, in JavaScript, variables are declared only as “var” and can be used to hold most types of information.
 
-Example of declaring variables in Java
-int a = 6;
+Example of declaring variables in Java<br>
+int a = 6;<br>
 String b = “Hello”;
 
-Example of declaring variables in JavaScript 
-var a = 6;
-var b = “Hello”;
+Example of declaring variables in JavaScript <br>
+var a = 6;<br>
+var b = “Hello”;<br>
 
 <i>Athletic Software Engineering</i>
 
