@@ -6,6 +6,7 @@ date: 2017-01-19
 labels:
   - Javascrpit
 ---
+
 	Do you know why is configuration management important to software engineering? And why do we need it? In nowadays, I can say most of careers require teamwork, because it is 
 almost impossible to build a large and complex program in short time, if you are working alone. Therefore, why we need teamwork. Teamwork is just like recursion, we divided 
 the problem to smaller parts and every team member finish their own part and combine all the small parts. However, this will occur some problems, imagine multiple people working
