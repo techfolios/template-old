@@ -10,7 +10,7 @@ labels:
 
 <b>Configuration Management</b>
 
-<img class="ui tiny left circular floated image" src="../images/cm1.jpeg">
+<img class="ui tiny left circular floated image" src="../images/cm1.jpg">
 
 Configuration Management(CM) is one of those concepts that may seem elementary, but once a group starts to work on code together, it becomes evident that there are several things to consider when working with one another. CM is important because it helps groups to work on a project, whether it be a shared code, report, etc., without being in the way of one another. Without the use of CM, there could be several errors throughout the shared work such as missing parts or misunderstandings that can't be figured out. 
 
