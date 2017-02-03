@@ -6,8 +6,8 @@ title: Fiction Writing
 permalink: projects/fictionwriting
 date: 2015
 labels:
-	- Writing
-	- Creative
+- Writing
+- Creative
 summary: A series of fiction stories
 ---
 
