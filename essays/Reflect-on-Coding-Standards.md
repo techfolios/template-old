@@ -17,19 +17,19 @@ mark when you finish a sentence, etc. Also, it’s a good habit to follow the co
 without coding standards such as no space indent. After few years,  if you look at you code again, maybe you will get so 
 confuse and don’t know what did you write. 
 Here is an example:
-
+```
 public static void main(String args[] ) {
 	for( int i = 0; I < 10; i++) {
-		system.out.println(“The value of i is: “ +i );
+		System.out.println(“The value of i is: “ +i );
 	}
 }
 
 public static void main(String args[]){
-for(int i=0; i<10; i++) {
-system.out.println(“The value of i is: “+i);
+for(int i=0; i<10; i++){
+System.out.println(“The value of i is: “+i);
 }
 }
-
+```
 I can tell most of you like first example more than second example, because it looks neatly and easy to read.
 
 <img class ="ui medium right floated image" src="../images/ESLint.png">
