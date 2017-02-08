@@ -29,6 +29,8 @@ system.out.println(“The value of i is: “+i);
 }
 I can tell most of you like first example more than second example, because it looks neatly and easy to read.
 
+<img class ="ui medium right floated image" src="../images/CodingStandards.png">
+
 Lint is a tool that flags the suspicious and non-portable constructs, and every computer language there is a lint tool. 
 For my ICS314 class, we use ESLint because we are learning JavaScript and this ESLint is a pluggable utility for JavaScript. 
 After first week of using ESLint with Intellij, my impression is that I will use this to improve quality of my code. Because
@@ -36,3 +38,4 @@ I find out that my code look so messy compare to the code after I use ESLint. Th
 painful but it also useful, because the most effective way to learn thing is learn from your mistake. ESLint help us to 
 find out the coding standard errors , then after we fix those errors. Everything look perfect and we get a green checkmark. 
 I am very enjoy doing this, even though its painful.
+<img class ="ui medium right floated image" src="../images/ESLint.png">
