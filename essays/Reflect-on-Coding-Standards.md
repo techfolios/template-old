@@ -16,6 +16,7 @@ essay, you must follow some rules. For example, you must have space in front of 
 mark when you finish a sentence, etc. Also, it’s a good habit to follow the coding standards, because if you write a program 
 without coding standards such as no space indent. After few years,  if you look at you code again, maybe you will get so 
 confuse and don’t know what did you write. 
+
 Here is an example:
 ```
 public static void main(String args[] ) {
