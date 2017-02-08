@@ -27,7 +27,6 @@ for(int i=0; i<10; i++) {
 system.out.println(“The value of i is: “+i);
 }
 }
-
 I can tell most of you like first example more than second example, because it looks neatly and easy to read.
 
 Lint is a tool that flags the suspicious and non-portable constructs, and every computer language there is a lint tool. 
