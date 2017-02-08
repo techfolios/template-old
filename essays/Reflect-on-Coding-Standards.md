@@ -22,7 +22,7 @@ Here is an example:
 ```java
 
 public static void main(String args[] ) {
-	for( int i = 0; I < 10; i++) {	
+	for( int i = 0; i < 10; i++) {	
 		System.out.println(“The value of i is: “ +i );
 	}
 }
