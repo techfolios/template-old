@@ -20,19 +20,22 @@ In the lesson by Philip Johnson on coding standards, he brings up several good p
 
 I, myself, believe that coding standards is very important because of the ease in reading code. One of the most important coding standards I hold myself to is the spacing. For example, let's look at the followig code:
 
-<b>function</b> fibberoo (val1, val2) {<br/>
-<p style="text-indent: 40px"><b>let</b> fib = [];<br/></p>
-	let</b> first = val1;<br/>
-	let</b> second = val2;<br/>
-	fib.<b>push</b>(first, second);<br/>
-	for</b> (<b>let</b> i = 0, i < 100, i++){<br/>
-		const</b> temp = first + second;<br/>
-		fib.push(temp);<br/>
-		first = second;<br/>
-		second = temp;<br/>
-	}<br/>
-	<b>return</b> fib;<br/>
-}<br/>
+```ruby
+function fibberoo (val1, val2) {
+	This text is indented.
+	let fib = [];
+	let first = val1;
+	let second = val2;
+	fib.push(first, second);
+	for (let i = 0, i < 100, i++){
+		const temp = first + second;
+		fib.push(temp);
+		first = second;
+		second = temp;
+	}
+	return fib;
+}
+```
 
 This code is easy to read because of the spacing and alignment of the code. The spacing also allow us to find any mistakes easily. Without the spacing, the code would be very hard to read, thus hard for us to fix the code if there is a problem. The next example shows the above code, but without the correct spacing and with an error in it. 
 
