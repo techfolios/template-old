@@ -21,8 +21,7 @@ In the lesson by Philip Johnson on coding standards, he brings up several good p
 I, myself, believe that coding standards is very important because of the ease in reading code. One of the most important coding standards I hold myself to is the spacing. For example, let's look at the followig code:
 
 ```ruby
-function fibberoo (val1, val2) {
-	This text is indented.
+<b>function</b> fibberoo (val1, val2) {
 	let fib = [];
 	let first = val1;
 	let second = val2;
