@@ -21,7 +21,7 @@ In the lesson by Philip Johnson on coding standards, he brings up several good p
 I, myself, believe that coding standards is very important because of the ease in reading code. One of the most important coding standards I hold myself to is the spacing. For example, let's look at the followig code:
 
 <b>function</b> fibberoo (val1, val2) {<br/>
-	<b>let</b> fib = [];<br/>
+<p style="text-indent: 40px"><b>let</b> fib = [];<br/></p>
 	let</b> first = val1;<br/>
 	let</b> second = val2;<br/>
 	fib.<b>push</b>(first, second);<br/>
