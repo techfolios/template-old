@@ -21,17 +21,17 @@ In the lesson by Philip Johnson on coding standards, he brings up several good p
 I, myself, believe that coding standards is very important because of the ease in reading code. One of the most important coding standards I hold myself to is the spacing. For example, let's look at the followig code:
 
 <b>function</b> fibberoo (val1, val2) {<br/>
-<pre>   </pre><b>let</b> fib = [];<br/>
-<pre>   </pre>let</b> first = val1;<br/>
-<pre>   </pre>let</b> second = val2;<br/>
-<pre>   </pre>fib.<b>push</b>(first, second);<br/>
-<pre>   </pre>for</b> (<b>let</b> i = 0, i < 100, i++){<br/>
-<pre>   </pre><pre>   </pre>const</b> temp = first + second;<br/>
-<pre>   </pre><pre>   </pre>fib.push(temp);<br/>
-<pre>   </pre><pre>   </pre>first = second;<br/>
-<pre>   </pre><pre>   </pre>second = temp;<br/>
-<pre>   </pre>}<br/>
-<pre>   </pre><b>return</b> fib;<br/>
+	<b>let</b> fib = [];<br/>
+	let</b> first = val1;<br/>
+	let</b> second = val2;<br/>
+	fib.<b>push</b>(first, second);<br/>
+	for</b> (<b>let</b> i = 0, i < 100, i++){<br/>
+		const</b> temp = first + second;<br/>
+		fib.push(temp);<br/>
+		first = second;<br/>
+		second = temp;<br/>
+	}<br/>
+	<b>return</b> fib;<br/>
 }<br/>
 
 This code is easy to read because of the spacing and alignment of the code. The spacing also allow us to find any mistakes easily. Without the spacing, the code would be very hard to read, thus hard for us to fix the code if there is a problem. The next example shows the above code, but without the correct spacing and with an error in it. 
