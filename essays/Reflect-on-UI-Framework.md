@@ -31,3 +31,4 @@ building a website using raw html and building a website using UI framework.
   UI. This was a very good practice, and this make me be obsessed with create website. I didn’t find Semantic UI difficult to
   learn, it just needs couple more hours focus on it, because you are not expert, and you always need to spend more times to
   learn something is new. However, This is a screenshot for my website I made using Semantic UI.
+  <img class ="ui image" src="../images/myPacsun.png">
