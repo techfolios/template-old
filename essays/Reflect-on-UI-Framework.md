@@ -16,7 +16,7 @@ to be very heavy. Since I am a beginner of creating website, and totally no expe
 framework, the impression is still very complicated and investment of time and frustration, but I strongly recommend people to 
 learn this skill, especially for web developer. 
 <img class ="ui medium left floated image" src="../images/window98.png">
-<img class ="ui medium right floated image" src="../images/window10.png">
+<img class ="ui medium right floated image" src="../images/window10.jpg">
 
 For these pictures above, which one you like the most? I think most of you will pick the second one. The first picture is the 
 user interface menu for window 98, this picture is just like building a website using raw html and CSS. The color is very 
