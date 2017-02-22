@@ -15,8 +15,8 @@ before. When I first see the screencast in my ICS 314 course about introduction 
 to be very heavy. Since I am a beginner of creating website, and totally no experience about HTML and CSS. After I learned UI 
 framework, the impression is still very complicated and investment of time and frustration, but I strongly recommend people to 
 learn this skill, especially for web developer. 
-<img class ="ui medium left floated image" src="../images/window98.png">
-<img class ="ui medium right floated image" src="../images/window10.jpg">
+<img class ="ui floated image" src="../images/window98.png">
+<img class ="ui floated image" src="../images/window10.jpg">
 
 
 
