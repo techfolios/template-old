@@ -16,7 +16,7 @@ to be very heavy. Since I am a beginner of creating website, and totally no expe
 framework, the impression is still very complicated and investment of time and frustration, but I strongly recommend people to 
 learn this skill, especially for web developer. 
 <img class ="ui medium image" src="../images/window98.png">
-<img class ="ui image" src="../images/window10.jpg">
+<img class ="ui right image" src="../images/window10.jpg">
 
 
 
