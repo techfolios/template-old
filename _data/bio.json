@@ -36,7 +36,7 @@
     },
     {
       "name": "Smartphone Applications",
-      "keywords": [
+      "keywords": ["hello you freaky naughty lady"
       ]
     },
     {
@@ -84,7 +84,7 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Fall, 2018)",
       "studyType": "B.S.",
       "startDate": "2014-09-01",
       "endDate": "Present",
@@ -95,7 +95,7 @@
   ],
   "work": [
     {
-      "company": "Center of Disability Studies",
+      "company": "Center on Disability Studies",
       "position": "Computer Support Assistant",
       "website": "http://www.cds.hawaii.edu/",
       "startDate": "2016-05-01",
@@ -119,7 +119,7 @@
       "endDate": "2014-11-30",
       "summary": "",
       "highlights": [
-        "Provide guests with excellent customer service, tend to each individualy with any concerns",
+        "Provide guests with excellent customer service, tend to each individually with any concerns",
         "Maintain a safe and healthy environment for family fun and provide personal vacation itineraries"
       ]
     }
