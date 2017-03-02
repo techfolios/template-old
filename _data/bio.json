@@ -36,7 +36,7 @@
     },
     {
       "name": "Smartphone Applications",
-      "keywords": ["hello you freaky naughty lady"
+      "keywords": [
       ]
     },
     {
@@ -125,6 +125,21 @@
     }
   ],
   "volunteer": [
+    {
+      "organization": "ICS 314 Project(Software Engineering)",
+      "website": "https://letumgrow.github.io/",
+      "position": "App Developer",
+      "startDate": "2016-09-01",
+      "endDate": "Present",
+      "summary": "The LetUmGrow app is somewhat a social media app for plants in Hawaii (with a special focus on native plants).  This app is intended to enhance the relationship between people and plants.  Our app is meant to give any plant an identity.  Different aspects of the plant can be updated via their location on the map (is fruiting, height, needs pruning, soil pH level, etc.).  The app can be used to keep track of plants in your garden, at work, or even on your favorite hike.  Used Meteor Web Framework, Mongo DB, and Semantic UI to create the 'LetUmGrow' app.  This project was an original idea with a team of 5 people.  We used GitHub organizations and repositories to pull and push our individual work.  Followed Issue Driven Project Management during the duration.    ",
+      "highlights": [
+        "Provided La'au Lapa'au (Hawaiian Plant Medicine) remedies taught by Kumu Keoki Baclayon",
+        "Created login authentication through UH CAS",
+        "Used Semantic UI's components for styling and functionality", 
+        "Farmed with tools that we made ourselves",
+        "Committed to take care (malama) of that area for the rest of my time in this world"
+      ]
+    },
     {
       "organization": "Hawaiian Studies UH Manoa",
       "website": "http://manoa.hawaii.edu/hshk/",
