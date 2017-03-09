@@ -23,6 +23,7 @@ Job/ Internship available right now page
 Recent update on companies postings 
 Resources for interview or career tips 
 
+
 ## Use case ideas
 
 New user goes to landing page, logs in, gets home page, sets up profile and upload resume and or cover letter. 
@@ -33,6 +34,4 @@ User is notified of daily job postings that match their preferences
 ## Beyond the basics
 After implementing the basic functionality, here are ideas for more advanced features:
 
-Automated updating of menu items. Determine which vendors have specials, and ask them to post them online. Then add functionality to the system to retrieve that data.
-Allow students to rate menu items.
-Integrated map functionality; note that some food trucks change their location over the course of a week.
+The site will also search through other major job posting sites (Monster, Indeed) relevant to local community.
