@@ -4,8 +4,8 @@ type: essay
 title: Meteor Gotchas
 date: 2017-01-20
 labels:
-	- Software Engineering
-	- Learning
+- Software Engineering
+- Learning
 ---
 
 # Meteor Gotchas
