@@ -41,12 +41,58 @@ Like I mentioned before, it's sometimes hard for us to find a problem when it's 
 					</div>
 				</div>
 			</div>
+			<button class="ui button" type="submit">Submit</button>
+			</div>
+		</form>
+</template>
+
+```
+I spend about half an hour trying to figure out why my code wasn't working, but I just couldn't see it, so I decided to sleep on it and hopefully I would be able to figure it out in the morning. Of course, within five minutes of looking at it in the morning, I was able to clearly see my problem and felt incredibly blind. I had but the closing tag for my first div before the closing tag of the form tag, which was really supposed to go after the form closing tag. 
+
+```
+<template name="Edit_Contact_Page">
+	<div style="margin-top: 20px" class="ui container">
+		<form class="ui form">
+			<h4 class="ui dividing header">Edit Contact</h4>
+			<div class="field">
+				<label>Name</label>
+				<div class="two fields">
+					<div class="field">
+						<input type="text" name="first-name" placeholder="First Name">
+					</div>
+					<div class="field">
+						<input type="text" name="last-name" placeholder="Last Name">
+					</div>
+				</div>
+			</div>
+			<div class="field">
+				<label>Address</label>
+				<div class="field">
+					<div class="field">
+						<input type="text" name="address" placeholder="Address">
+					</div>
+				</div>
+			</div>
+			<div class="field">
+				<label>Telephone/Email</label>
+				<div class="two fields">
+					<div class="field">
+						<input type="text" name="telephone" placeholder="XXX-XXX-XXXX">
+					</div>
+					<div class="field">
+						<input type="text" name="email" placeholder="foo@bar.com">
+					</div>
+				</div>
 			</div>
 			<button class="ui button" type="submit">Submit</button>
 		</form>
-
+	</div>
 </template>
 
 ```
 
+Thus, once I fixed this "small" error, I was able to get my page working again. I was so happy, but at the same time, it was really irritating to me since I know that I had been looking at my code for half an hour just for this small mistake. I think what threw me off was that the error said it was missing, not missplaced or something like that, so I was set on finding out which tag did not have a closing tag rather than a missplaced tag. 
 
+## Problem Two
+
+Of course, I can't just only have one problem working with metoer. My second problem stemmed from my lack of attention to detail however. It was a small mistake where I put an s where it wasn't supposed to be. 
