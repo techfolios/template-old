@@ -18,7 +18,7 @@ solution from my professor.
 
    # Feel more comfortable
    
-    However, after two weeks I feel more comfortable using Meteor. For now, I can at least try to solve some subproblems
+   However, after two weeks I feel more comfortable using Meteor. For now, I can at least try to solve some subproblems
 before I watch the solution. During the WOD, I found out a problem which make my code doesnt work. we need to build a 
 simple website to add some contact in the database, and for some reasons my submit button doesn't work. However, I realized
  one of my teammate had this problem too, and he found out the way to fix it. This is the code:  ```ruby<div class="ui submit button">Submit</div>``` ,this code doesn't work because I think this actully not a button 
