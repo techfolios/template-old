@@ -1,4 +1,14 @@
-# 
+---
+layout: essay
+type: essay
+title: Meteor Gotchas
+date: 2017-01-20
+labels:
+	- Software Engineering
+	- Learning
+---
+
+# Meteor Gotchas
 <br>
 Meteor is something that I am slowly beginning to like. Slowly. Like learning anything new, there are ups and downs when learning something new and in the case of Metoer, if something goes wrong, my app will crash immediately. On one hand, we are fortunate enough to be using IntelliJ to write all our files for our app. IntelliJ is something I'm also starting to like (although it took a month for me to decide this). One of the best features on IntelliJ is telling us what problem can arise in our code, which helps when I'm crunched for time trying to find out what is wrong. On the other hand, because we are dealing with so many files, it's sometimes hard for us to find something that we may have misspelled. In this essay, I will be talking about two problems that I've personally faced while working with Meteor. 
 
