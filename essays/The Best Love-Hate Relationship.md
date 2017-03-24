@@ -1,8 +1,8 @@
 ---
 layout: essay
 type: essay
-title: JavaScript
-date: 2017-01-20
+title: The Best Love-Hate Relationship (For A CS Student)
+date: 2017-03-23
 labels:
   - Software Engineering
   - Learning
