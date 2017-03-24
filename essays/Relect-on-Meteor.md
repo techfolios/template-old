@@ -8,8 +8,9 @@ labels:
   - Meteor
 ---
 
+<img class ="ui medium floated image" src="../images/meteor.png">
 
-## new to Meteor
+## New to Meteor
 Absolutely I am the one who feel these three weeks like “a small body of matter from outer space that enters the earth’s 
 atmosphere, becoming incandescent as a result of friction and appearing as a streak of light. Meteor is a very awesome tool 
 to build web and mobile app using JavaScript. In my ICS 314 class, we are required to learn this new tool. My first impression
