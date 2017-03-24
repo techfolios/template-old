@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Meteor, the Ultimate Landing Package
+title: The Ultimate Landing Package
 date: 2017-03-23
 labels:
   - Meteor
