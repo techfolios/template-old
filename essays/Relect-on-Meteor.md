@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Look! That's Meteor"
+title: "Look! It's Meteor"
 date: 2017-03-23
 labels:
   - Software Engineering
