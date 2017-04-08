@@ -1,11 +1,11 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Kyle Balisacan",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
+    "picture": "https://kylebali.github.io/images/headshot.jpg",
+    "email": "kylebali@hawaii.edu",
+    "phone": "",
+    "website": "https://kylebali.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2018.",
     "location": {
       "address": "",
@@ -17,41 +17,39 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "kylebali",
+        "url": "http://github.com/kylebali"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "kylebali",
+        "url": "http://linkedin.com/in/kylebalisacan"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "Software Engineering",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Video Game Development",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Augmented/Virtual Reality",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Photography",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Music",
       "keywords": [
       ]
     }
@@ -63,10 +61,9 @@
       "keywords": [
         "C",
         "C++",
+        "HTML",
         "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Javascript"
       ]
     },
     {
@@ -75,9 +72,7 @@
       "keywords": [
         "MacOS",
         "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Git/GitHub"
       ]
     }
   ],
@@ -86,7 +81,7 @@
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Science (expected Spring, 2018)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2012-09-01",
       "endDate": "Present",
       "gpa": "",
       "courses": [
@@ -95,69 +90,61 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Kaua'i Police Department",
+      "position": "Summer Intern",
       "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "startDate": "2015-06-15",
+      "endDate": "2015-07-31",
+      "summary": "Intern at the Kaua'i Police Department",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Managed online databases using Excel and other DBMS Software",
+        "Digitalized important records into new online databases"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Department of Information and Computer Sciences at University of Hawaii at Mānoa",
+      "position": "Online Learning Assistant",
+      "website": "",
+      "startDate": "2015-08-25",
+      "endDate": "2015-12-15",
+      "summary": "Undergraduate Online Learning Assistant for ICS 101",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Assisted lab teaching assistants during 75-minute lab sessions twice a week",
+        "Handled teaching material to students and graded work for one week"
       ]
     },
     {
-      "organization": "",
+      "company": "Department of Information and Computer Sciences at University of Hawaii at Mānoa",
+      "position": "Teaching Assistant",
       "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "startDate": "2016-01-12",
+      "endDate": "2016-05-13",
+      "summary": "Undergraduate Teaching Assistant for ICS 101",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Created detailed lesson plans to then teach in 75-minute labs twice a week",
+        "Graded students homework, tests, and quizzes",
+      ]
+    },
+    {
+      "company": "Kaua'i Police Department",
+      "position": "Summer Intern",
+      "website": "",
+      "startDate": "2016-06-13",
+      "endDate": "2016-07-29",
+      "summary": "Intern at the Kaua'i Police Department",
+      "highlights": [
+        "Managed online databases using Excel and other DBMS Software",
+        "Digitalized new records into online databases",
+        "Assisted with Police Recruit Training"
       ]
     }
   ],
   "awards": [
     {
       "title": "B+ Scholarship",
-      "date": "2013-Present",
+      "date": "2012-Present",
       "awarder": "State of Hawaii",
       "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
     }
   ],
   "references": [

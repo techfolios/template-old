@@ -1,24 +1,20 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
-date: 2015
+image: images/website.png
+title: Website
+permalink: projects/website
+date: 2014
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - HTML
+  - CSS
+summary: An all about me website created for ICS 101.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui floated rounded image" src="../images/website-2.png">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+This site was the final assignment for ICS 101 (Tools for the Info World) class.  The class is an introductory class that teaches how to use modern day software, as well as a broad overview of the entire Computer Science field.  The software that is taught in that class includes Microsoft Office, Adobe Photoshop and Dreamweaver, and Secure Shell.  The class also opens the opportunity to becoming an undergraduate teaching assistant for the course.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+This assignment was to ensure we understood basic concepts of how HTML and CSS works, and that we could create a website to be view online.  I created an "About Me" that has pages including my hobbies, travels, and a small bio of who I am.  The site is created with the help of Dreamweaver, a development tool for creating, publishing and managing websites.
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+To view the site, click [here](http://www2.hawaii.edu/~kylebali/me/)
