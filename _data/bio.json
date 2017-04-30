@@ -72,38 +72,6 @@
         "AngularJS"
       ]
     },
-     {
-      "name": "Framework ",
-      "level": "",
-      "keywords": [
-        "CodeIngiter",
-        "Laravel",
-        "Spring",
-        "Hibernate",
-        "ReactJS Native"
-      ]
-    },
-
-    {
-      "name": "WebServer",
-      "level": "",
-      "keywords": [
-        "Apache",
-        "Toncat",
-        "Weblogic 
-      ]
-    },
-
-     {
-      "name": "Bancos",
-      "level": "",
-      "keywords": [
-        "MySql",
-        "Oracle",
-        "PostgreSQL 
-      ]
-    },
-
     {
       "name": "Toolsets/OS",
       "level": "",
@@ -116,6 +84,7 @@
       ]
     }
   ],
+
   "education": [
     {
       "institution": "Estacio de Sá",
@@ -260,7 +229,7 @@
   "references": [
     {
       "name": "Available upon request",
-      "reference": ""  
+      "reference": ""
     }
   ]
 }
