@@ -1,39 +1,39 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2018.",
+    "name": "Alex Jose Silva",
+    "label": "Analista de Sistemas",
+    "picture": "https://alexjosesilva.github.io/template/images/alex.jpg",
+    "email": "alexjosesilvati@gmail.com",
+    "phone": "+55-87-9.9924-3844",
+    "website": "https://alexjosesilva.github.io",
+    "summary": "Sou Apaixonado por Informática e o impacto dela na vida das pessoas!",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
-      "countryCode": "USA",
-      "region": "Hawaii"
+      "postalCode": "",
+      "city": "Recife",
+      "countryCode": "Brasil",
+      "region": "Pernambuco"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "alexjosesilva",
+        "url": "https://github.com/alexjosesilva"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "alexjosesilva",
+        "url": "http://linkedin.com/in/alexjosesilva"
       },
       {
         "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "username": "alexjosesilva",
+        "url": "http://twitter.com/alexjosesilva"
       },
       {
         "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "alexjosesilva",
+        "url": "  "
       }
     ]
   },
@@ -58,40 +58,58 @@
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "Languages ",
       "level": "",
       "keywords": [
         "C",
         "C++",
+        "PHP",
+        "Python",
         "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "ReactJS",
+        "ReactJS Native",
+        "NodeJS",
+        "AngularJS"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
+        "Windows",
         "Ubuntu",
         "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Android"       
+        
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
+      "institution": "Estacio de Sá",
+      "area": "Analise de Sistemas (previsão Dez, 2018)",
+      "studyType": "Graduação",
+      "startDate": "2014-01-01",
+      "endDate": "Cursando",
       "gpa": "",
       "courses": [
+
+      ]
+    },
+    {
+      "institution": "ETEPAM",
+      "area": "Técnico em Desenvolvimento de Sistemas (concluido: 05/2016)",
+      "studyType": "Técnico",
+      "startDate": "2014-08-01",
+      "endDate": "Concluido",
+      "gpa": "",
+      "courses": [
+
       ]
     }
+
+
   ],
   "work": [
     {
