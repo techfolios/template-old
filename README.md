@@ -1,7 +1,7 @@
 # Technical Portfolio
 
-This repository hosts a technical portfolio built using [TechFolio](http://techfolios.github.io). 
+Ao londo de minha carreira desenvolvi muitos projetos, aqui estão eles.
 
-See the quick start guide for instructions on how to tailor the template to your own needs.
+
 
 
