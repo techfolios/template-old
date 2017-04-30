@@ -67,6 +67,7 @@
         "Python",
         "Java",
         "Javascript",
+        "JQuery",
         "ReactJS",
         "NodeJS",
         "AngularJS"
@@ -93,14 +94,21 @@
       ]
     },
     {
-      "name": "Toolsets/OS",
+      "name": "WebService",
+      "level": "",
+      "keywords": [
+        "Apache",
+        "WebLogic",
+        "Tomcat"
+      ]
+    },
+    {
+      "name": "OS",
       "level": "",
       "keywords": [
         "Windows",
         "Ubuntu",
-        "Git/GitHub",
-        "Android",       
-        "Arduino"
+        "Android"
       ]
     }
   ],
