@@ -2,8 +2,8 @@
 layout: project
 type: project
 image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
+title: Cotton1
+permalink: projects/cotton1
 date: 2014
 labels:
   - Lisp
