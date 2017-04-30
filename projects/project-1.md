@@ -1,9 +1,7 @@
-
-
 ---
 layout: project
 type: project
-image: images/projeto1.jpg
+image: images/telaLogin.png
 title: Doctor
 permalink: projects/Doctor
 date: 2017
