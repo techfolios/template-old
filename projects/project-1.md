@@ -9,7 +9,7 @@ labels:
   - ReactNative
   - NodeJS
   - Firebase
-summary: Desenvolvimento de uma aplicativo para gerir atendimento de uma clinica. O médico poderá preverser a quantidade de pacientes irá atender no determinado dia e hora em uma clinica. 
+summary: Desenvolvimento de uma aplicativo para gerir atendimento de uma clinica. O médico poderá prever a quantidade de pacientes a atender no determinado dia e hora em uma clinica. 
 ---
 
 <div class="ui small rounded images">
