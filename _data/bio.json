@@ -83,6 +83,15 @@
         "ReactJS Native"
       ]
     },
+     {
+      "name": "Banco ",
+      "level": "",
+      "keywords": [
+        "MySql",
+        "Oracle",
+        "PosgresSQL"
+      ]
+    },
     {
       "name": "Toolsets/OS",
       "level": "",
