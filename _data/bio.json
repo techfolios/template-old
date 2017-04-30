@@ -6,7 +6,7 @@
     "email": "alexjosesilvati@gmail.com",
     "phone": "+55-87-9.9924-3844",
     "website": "https://alexjosesilva.github.io",
-    "summary": "Sou Apaixonado por Informática e o impacto dela na vida das pessoas!",
+    "summary": "Sou Apaixonado pela Informática e o impacto dela na vida das pessoas....",
     "location": {
       "address": "",
       "postalCode": "",
@@ -42,7 +42,7 @@
       "name": "internet of things",
       "keywords": [
         "Arduino",
-        "TI MSP430"
+        "Raspberry Pi"
       ]
     },
     {
@@ -68,11 +68,42 @@
         "Java",
         "Javascript",
         "ReactJS",
-        "ReactJS Native",
         "NodeJS",
         "AngularJS"
       ]
     },
+     {
+      "name": "Framework ",
+      "level": "",
+      "keywords": [
+        "CodeIngiter",
+        "Laravel",
+        "Spring",
+        "Hibernate",
+        "ReactJS Native"
+      ]
+    },
+
+    {
+      "name": "WebServer",
+      "level": "",
+      "keywords": [
+        "Apache",
+        "Toncat",
+        "Weblogic 
+      ]
+    },
+
+     {
+      "name": "Bancos",
+      "level": "",
+      "keywords": [
+        "MySql",
+        "Oracle",
+        "PostgreSQL 
+      ]
+    },
+
     {
       "name": "Toolsets/OS",
       "level": "",
@@ -113,69 +144,95 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "company": "Startup: Farmazap",
+      "position": "Developer FullStack",
+      "website": "http://farmazap.com.br/",
+      "startDate": "2017-04-01",
+      "endDate": "Atual",
+      "summary": "",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Atribuições do cargo: Atuar no Desenvolvimento Full Stack de um", 
+        "Aplicativo Android no qual o foco é a venda de remédio pelo", 
+        "aplicativo no celular. Responsabilidade: Codificar, Testar, Corrigir", 
+        "bugs. Elaboração de documentação. Integração", 
+        "continua",
+        "TECNOLOGIAS:" 
+        "JavaScript, ReactJS, React, Native, Redux",
+        "Router Flux React­Bootstrap NodeJS Android NativoBANCO: Firebase", 
+        "da google (cloud)IDES: WebStorn AndroidStudio Chrome com", 
+        "firebugVERSIONAMENTO: BitBucket com SourceTreeCONTROLE DE", 
+        "PROJETOP: Scrum: divisão de tarefas Trello: gerenciamento de", 
+        "tarefas Slack: comunição entre a equipeFERRAMENTAS Clouds:",
+        "Azure da Microsoft (hospedagem) Firebase da Google (banco)",
+        "PROTOTIPAGEM: https://balsamiq.com"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "company": "Accenture do Brasil",
+      "position": "Analista de Sistemas",
+      "website": "https://www.accenture.com/br-pt",
+      "startDate": "201-12-01",
+      "endDate": "2017-03-01",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+          "Auxiliar na manutenção do CRM da mineradora", 
+          "Vale. O qual era responsável pela gerenciamento das principais", 
+          "funcionalidades do TREM: gerar tickets de passagem ou cadastrar", 
+          "carregamentos, habilitar/desabilitar linhas de transporte. As", 
+          "correções de bugs no sistema era através de atendimento direto com", 
+          "cliente, exigindo do programador habilidades quanto a interpretação", 
+          "e correção dos chamados. Tecnologia utilizada: Conhecimento na", 
+          "linguagem JAVA. Domínio em Programação Estruturada e Orientada", 
+          "a Objetos Conhecimento em Desenvolvimento em Camadas com", 
+          "Spring e Hibernate. Análise de Performance de aplicações (código", 
+          "Java e PL/SQL). Análise de requisitos. Facilidade no uso do banco", 
+          "Oracle: Operações Básicas: Select, Insert, Drop, Update. Domínio no",
+          "nas tecnologias JSP, xhtml, bootstrap. Dominio na tecnolgia", 
+          "AngularJS. Manuntenção do repositorio: github. Acompanhento de",
+          "chamados: Jira. Metodologia utilizada: XP"
+
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "",
+      "website": "",
+      "position": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "",
+        ""
       ]
     },
     {
       "organization": "",
       "website": "",
-      "position": "Professional organization involvement",
+      "position": "",
       "startDate": "",
       "endDate": "",
       "summary": "",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "",
+        "",
+        ""
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
     }
   ],
   "references": [
