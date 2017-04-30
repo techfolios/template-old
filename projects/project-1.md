@@ -4,8 +4,8 @@
 layout: project
 type: project
 image: images/projeto1.jpg
-title: Aplicativo: Doctor
-permalink: projects/doctor
+title: Doctor
+permalink: projects/Doctor
 date: 2017
 labels:
   - ReactNative
