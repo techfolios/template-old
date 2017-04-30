@@ -39,20 +39,23 @@
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Sistemas",
       "keywords": [
-        "Arduino",
-        "Raspberry Pi"
+        "ERP",
+        "CRM"
       ]
     },
     {
-      "name": "data mining",
+      "name": "Mobile",
       "keywords": [
+        "Android",
+        "React Native"
       ]
     },
     {
       "name": "artificial intelligence",
       "keywords": [
+        
       ]
     }
   ],
