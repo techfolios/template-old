@@ -7,7 +7,7 @@ layout: default
 <div style="padding-top: 20px" class="ui container ">
   <p>I'm sorry, that URL could not be found. Perhaps you were looking for one of the following:</p>
 
-  <h3>Essays</h3>
+  <h3>Artigos</h3>
   <ul>
     {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
     {% for page in essay_pages %}
@@ -15,7 +15,7 @@ layout: default
     {% endfor %}
   </ul>
 
-  <h3>Projects</h3>
+  <h3>Projetos</h3>
   <ul>
     {% assign project_pages = site.pages | where: "type", "project" | sort: "title" %}
     {% for page in project_pages %}
