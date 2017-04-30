@@ -2,8 +2,8 @@
 layout: project
 type: project
 image: images/vacay-square.png
-title: xxx
-permalink: projects/xxx
+title: LojaVirtual
+permalink: projects/LojaVirtual
 date: 2015
 labels:
   - Javascript
