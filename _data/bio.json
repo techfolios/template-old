@@ -83,18 +83,7 @@
         "ReactJS Native"
       ]
     },
-
     {
-      "name": "WebServer",
-      "level": "",
-      "keywords": [
-        "Apache",
-        "Toncat",
-        "Weblogic"
-      ]
-    },
-
-     {
       "name": "Bancos",
       "level": "",
       "keywords": [
@@ -103,7 +92,6 @@
         "PostgreSQL 
       ]
     },
-
     {
       "name": "Toolsets/OS",
       "level": "",
