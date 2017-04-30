@@ -6,7 +6,7 @@ title: Alex Jose Silva | Professional Portfolio
 # Edit next line, replacing 'techfolios' with your github username
 url: "https://alexjosesilva.github.io"
 # Edit next line so that baseurl is "" if your repo is <username>.github.io
-baseurl: "/"
+baseurl: ""
 
 # OPTIONAL CHANGES
 # You might want to change the bio page label to something else, such as CV
