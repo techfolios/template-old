@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/vacay-square.png
 title: Vacay
-permalink: projects/vacay
+permalink: projects/vacayx
 date: 2015
 labels:
   - Javascript
