@@ -2,7 +2,7 @@
   "basics": {
     "name": "Alex Jose Silva",
     "label": "Analista de Sistemas",
-    "picture": "https://alexjosesilva.github.io/template/images/alex.jpg",
+    "picture": "https://alexjosesilva.github.io/images/alex.jpg",
     "email": "alexjosesilvati@gmail.com",
     "phone": "+55-87-9.9924-3844",
     "website": "https://alexjosesilva.github.io",
@@ -33,7 +33,7 @@
       {
         "network": "instagram",
         "username": "alexjosesilva",
-        "url": "  "
+        "url": "https://www.instagram.com/alexjosesilva/"
       }
     ]
   },
@@ -80,8 +80,8 @@
         "Windows",
         "Ubuntu",
         "Git/GitHub",
-        "Android"       
-        
+        "Android",       
+        "Arduino"
       ]
     }
   ],
@@ -91,7 +91,7 @@
       "area": "Analise de Sistemas (previsão Dez, 2018)",
       "studyType": "Graduação",
       "startDate": "2014-01-01",
-      "endDate": "Cursando",
+      "endDate": "2018-06-01",
       "gpa": "",
       "courses": [
 
