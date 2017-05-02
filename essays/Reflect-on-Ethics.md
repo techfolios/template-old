@@ -13,6 +13,7 @@ skills such as HTML and Javascript. I can make very fancy website and web app no
 my teammates using Meteor, our project is a gym scheduler to help user keep track of the amount of weights they use for each
 machine. However, as a software engineering, we code a lot every single day. I had a question very long time ago. Are ethics
 ever-present in our code?
+<img class ="ui medium left floated image" src="../images/ethics.jpg">
   The answer is yes. Ethics are ever-present in our code. Why? Since the advance of internet, programmer become very important 
 in nowadays. Account to “The code I’m still ashamed of” by Bill Sourour, “if you write code for a living, there’s a chance 
 that at some point in your career, someone will ask you to code something a little deceitful.” That’s true, most of programmer
