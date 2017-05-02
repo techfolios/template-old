@@ -15,7 +15,8 @@ machine. However, as a software engineering, we code a lot every single day. I h
 ever-present in our code?
 
 <img class ="ui medium left floated image" src="../images/ethics.jpg">
-  The answer is yes. Ethics are ever-present in our code. Why? Since the advance of internet, programmer become very important 
+  
+   The answer is yes. Ethics are ever-present in our code. Why? Since the advance of internet, programmer become very important 
 in nowadays. Account to “The code I’m still ashamed of” by Bill Sourour, “if you write code for a living, there’s a chance 
 that at some point in your career, someone will ask you to code something a little deceitful.” That’s true, most of programmer
 can hack someone’s computer or do something harm to other and this is unethical. So, you should think twice about the effects 
