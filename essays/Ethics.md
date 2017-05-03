@@ -27,8 +27,14 @@ For this essay, I will be focusing on the case ["The Code I'm Still Ashamed Of"]
 
 In short, the author of this article,Bill Sourour, wrote about an experience he had while working with an interactive marketing firm in Canada. One project he had to work on required him to essentially disguise an advertisement for a drug in a website where it was "basically designed to trick young girls." The project was a "success," where his client was pleased with the results, however, a girl ended up dying due to major side effects from the drug that he was advertising on his project. As he stated, nothing about this project was illegal, but he never "felt okay about writing that code." 
 
-## The Discussion
+## The Discussion             
 
+Much like the episode from CSI: Cyber, the code written ended up with someone dead, although under very different circumstances. Although our author never intended for the young girl to die nor did he even kill her directly, the fact that he left out the side effects in his client's "advertisement" could make him feel guilty. He stated that "It’s easy to make an argument that I had no part in it at all. Still, I’ve never felt okay about writing that code." 
 
+His unease in taking part of this is due to his ethics. He had his suspicions while writting his code and his suspicions grew when his project manager (PM) took the quiz on the website. When the PM got the result where he should take the client's prescription drug, the author had to explain to his PM that everything leads to the client's drug. 
 
-                                                                                                                                                                                                                                                                                                                                                                                                                     
+This decietfulness is quite small, however, the fact that the side effects were very strong and cost someone their life made the author realize that as developers, there are two important things to remember: 
+
+### We, as developers, are often one of the last lines of defense against potentially dangerous and unethical practices
+
+### Think twice about the effects of my code before I write it
