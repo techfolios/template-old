@@ -22,3 +22,5 @@ theme-bio: theme-bio-builtin-1.html
 markdown: kramdown
 include: [_data]
 
+
+theme: jekyll-theme-merlot
