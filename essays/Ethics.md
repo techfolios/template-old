@@ -37,4 +37,4 @@ This decietfulness is quite small, however, the fact that the side effects were 
 
 ### We, as developers, are often one of the last lines of defense against potentially dangerous and unethical practices
 
-### Think twice about the effects of my code before I write it
+### Think twice about the effects of your code before you write it
