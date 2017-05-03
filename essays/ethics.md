@@ -1,5 +1,6 @@
 
 ## Are We Ready for Utilitarian Cars?
+<img class="ui medium floating center image" src"https://d267cvn3rvuq91.cloudfront.net/i/images/Ethical%20cars.png?sw=1080">
 Being a junior here at Manoa, something that I have notice about my degree so far, is the almost complete lack of mention of any ethical considerations behind the things we learn about. I feel like many jobs that computer science graduates go on to do involve situations where ethics can be really relevant. For example, thinking about the kinds of privacy issues that come up with the work that Facebook and Google do, and even the NSA and GCHQ -- many of the people who implement those systems have computer science degrees. There are also issues in academic and research computer science: think about drone research, or other military-funded work. Not everyone will have a problem with doing research funded by the army, but it's something that people should be aware of and think about, so if it might bother them, they can have those conversations and ask the right questions before they end up in a situation they are uncomfortable with.
 In 2007, a sequence of technical advances enabled six teams to complete the DARPA Urban Challenge, the first benchmark test for autonomous driving in realistic urban environments.
 
