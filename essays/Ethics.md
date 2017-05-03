@@ -3,9 +3,9 @@ type: essay
 title: The Game of Computing
 date: 2017-05-02
 labels:
-- Software Engineering
-- Ethics
-- Case Study
+  - Software Engineering
+  - Ethics
+  - Case Study
 ---
 
 # The Game of Computing
