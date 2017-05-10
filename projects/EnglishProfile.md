@@ -6,10 +6,10 @@ title: English Profile
 permalink: projects/EnglishProfile
 date: Spring 2014
 labels:
-- Writing
-- Creative
-- English
-- Essays
+  - Writing
+  - Creative
+  - English
+  - Essays
 summary: A collection of esays from my English class formated 
 ---
 
