@@ -69,10 +69,21 @@
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Science (expected Spring, 2018)",
       "studyType": "B.S.",
-      "startDate": "2015-09-01",
+      "startDate": "2016-09-01",
       "endDate": "Present",
       "gpa": "",
       "courses": [
+        "ICS 111",
+        "ICS 141",
+        "ICS 211",
+        "ICS 241",
+        "ICS 212",
+        "ICS 311",
+        "ICS 313",
+        "ICS 321",
+        "ICS 331",
+        "ICS 332",
+        "ICS 414",
       ]
     }
   ],
@@ -89,6 +100,7 @@
       ]
     }
   ],
+  "volunteer": [],
   "awards": [
     {
       "title": "College of Engineering Dean's List",
