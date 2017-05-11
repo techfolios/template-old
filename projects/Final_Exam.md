@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/Screen Shot 2017-05-09 at 20.56.58.png
+image: images/thumbf.png
 title: Avalunch
 permalink: projects/Avalunch
 date: 2017
