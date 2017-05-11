@@ -18,9 +18,9 @@ As a student at the University of New Mexico, one of the required courses I've h
 
 > Space Travel: Technology, Entrepreneurship, and Storytelling. The theme this section covers is sci-fi, with particular attention given to the technological, entrepreneurial, and mythical aspects of it. The world of sci-fi inquires about real technological possibilities. It has motivated scientific development and has created markets by instilling in consumers the desire for products that they had never previously envisioned using. In this course, we will try to understand this interplay among storytelling, entrepreneurship, and technology by analyzing popular film and TV literature (including but not limited to Star Trek), along with journalism covering the entrepreneurial aspects of sci-fi and academic work about the scientific side. Written assignments will bring these diverse sources together in such projects as evaluations, analytical reports, and proposals.
 
-In this course, we had to write 4 major essays/video and create an electronic portfolio containing all our works for this class. The portfolio can be viewed (here){https://sites.google.com/site/raenanaka/}. 
+In this course, we had to write 3 major essays/video and create an electronic portfolio containing all our works for this class. The portfolio can be viewed (here){https://sites.google.com/site/raenanaka/}. 
 
-## Precis of the Analytical Report & the Analytical Report
+## Analytical Report
 
 The topic of this essay was how animal experimentation affected both space travel and science fiction. For this essay, we had to write a (Precis){https://sites.google.com/site/raenanaka/home/precis}, which is just a summary of the actual (Analytical Report){https://sites.google.com/site/raenanaka/home/report}. 
 
