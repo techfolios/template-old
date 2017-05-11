@@ -20,7 +20,6 @@ learn this skill, especially for web developer.
 <img class ="ui right image" src="../images/window10.jpg">
 
 
-
 For these pictures above, which one you like the most? I think most of you will pick the second one. The first picture is the 
 user interface menu for window 98, this picture is just like building a website using raw html and CSS. The color is very 
 monotonous, border and box-shadow look so weird. For the second picture, this is a user interface menu for window 10, which 
