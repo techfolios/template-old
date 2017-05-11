@@ -9,8 +9,6 @@ labels:
   - Case Study
 ---
 
-# Deadly Codes
-
 Although ethics exist all around us, there are several ways in which ethics can be interpreted. Ethics, in a very general sense, is having the ability to determine what is right from wrong. This determination will then lead us in our actions. For example, our parents have taught us that lying is wrong. However, as we enter adulthood,  we are sometimes taught that it's "okay" to tell a white lie. This is where ethics come in. You will have to determine for yourself what the right thing is based on your morals and beliefs. 
 
 But how does ethics affect us as software engineers? It seems almost irrelevant to know about computer ethics in terms of software engineers. I mean, what could a bunch of written lines on a computer do? 
@@ -38,3 +36,7 @@ This decietfulness is quite small, however, the fact that the side effects were 
 ### We, as developers, are often one of the last lines of defense against potentially dangerous and unethical practices
 
 ### Think twice about the effects of your code before you write it
+
+## In Conclusion ...
+
+I believe that it is very important for every computer scientist to have their own ehtics and to hold firmly to what they think is right. In the scenerio mentioned above, if the author had spoken up about what wa wrong with this, some of the deaths from this drug could have been prevented. Thus, I will always remember to hold on to what I believe is right. 
