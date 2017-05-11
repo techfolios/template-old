@@ -12,6 +12,12 @@ labels:
 summary: A Web App for gym user to keep track the amount of weight they use for every machine.
 ---
 
+<div class="ui large rounded images">
+  <img class="ui image" src="../images/HOME.png">
+  <img class="ui image" src="../images/CAS.png">
+  <img class="ui image" src="../images/CALENDAR.png">
+</div>
+
 UHM Gym Scheduler is a Web App I developed in ICS 314 with a team of three people. We build this app using Meteor and it 
 provide a platform for the University of Hawaii community. User will simply select the time they wish to go to the Gym and 
 it will appear on a calendar for everyone to see. This App also help user to keep track the amount of weight they use for
