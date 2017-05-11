@@ -20,7 +20,7 @@ As a student at the University of New Mexico, one of the required courses I've h
 
 In this course, we had to write 4 major essays/video and create an electronic portfolio containing all our works for this class. The portfolio can be viewed (here){https://sites.google.com/site/raenanaka/}. 
 
-## Précis of the Analytical Report
+## Precis of the Analytical Report
 
 ## Analytical Report
 
