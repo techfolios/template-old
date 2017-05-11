@@ -4,10 +4,9 @@ type: project
 image: images/wattpad.png
 title: Fiction Stories
 permalink: projects/wattpad
-date: Present
+date: 2017
 labels:
-- Creative Writing
-- Personal Project
+- Wattpad
 - Fiction Stories
 summary: During my free time, I upload short stories to the website "Wattpad." 
 ---
