@@ -2,11 +2,11 @@
 
 # REQUIRED CHANGES
 # Edit next line, providing your own name.
-title: Molly Maluhia | Professional Portfolio
+title: Raena Naka | Professional Portfolio
 # Edit next line, replacing 'techfolios' with your github username
-url: "https://techfolios.github.io"
+url: "https://rnaka.github.io"
 # Edit next line so that baseurl is "" if your repo is <username>.github.io
-baseurl: "/template"
+baseurl: ""
 
 # OPTIONAL CHANGES
 # You might want to change the bio page label to something else, such as CV
@@ -22,3 +22,5 @@ theme-bio: theme-bio-builtin-1.html
 markdown: kramdown
 include: [_data]
 
+
+theme: jekyll-theme-merlot

@@ -1,72 +1,64 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Raena Naka",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2018.",
+    "picture": "https://rnaka.github.io/images/IMG_0731.jpg",
+    "email": "raena6@hawaii.edu",
+    "phone": "",
+    "website": "https://rnaka.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2017.",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "postalCode": "96744",
+      "city": "Kaneohe",
       "countryCode": "USA",
       "region": "Hawaii"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "rnaka",
+        "url": "http://rnaka.github.io"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "Raena Naka",
+        "url": "https://www.linkedin.com/in/rnaka/"
       },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
-      }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Web Development",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "html",
+        "web", 
+        "programming"
       ]
     },
     {
-      "name": "data mining",
+      "name": "Programming Languages",
       "keywords": [
+        "Java", 
+        "JavaScript",
+        "C",
+        "C++",
+        "HTML",
+        "VisualBasic"
       ]
     },
-    {
-      "name": "artificial intelligence",
-      "keywords": [
-      ]
-    }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "level": "",
+      "level": "Proficient",
       "keywords": [
         "C",
         "C++",
         "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Visual Basic",
+        "MatLab"
       ]
     },
     {
@@ -74,20 +66,38 @@
       "level": "",
       "keywords": [
         "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Windows",
+        "Git/GitHub"
       ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Fall, 2017)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2015-09-01",
       "endDate": "Present",
+      "gpa": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "University of New Mexico, Albuquerque, NM",
+      "area": "Computer Science",
+      "studyType": "B.S.",
+      "startDate": "2012-08",
+      "endDate": "2015-5",
+      "gpa": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Ritsumeikan Asia Pacific University, Beppu, Japan",
+      "area": "",
+      "studyType": "Study Abroad Program",
+      "startDate": "2014-01",
+      "endDate": "2014-05",
       "gpa": "",
       "courses": [
       ]
@@ -95,70 +105,37 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "McDonalds",
+      "position": "Shift Manager",
+      "website": "http://www.mcdonalds.com",
+      "startDate": "2012-02-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Oversee operations and guide entry-level employees through daily responsibilities",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Customer Service management skills",
+        "Organized paperwork for crew members",
+        "Responsible for inventory maintenance",
+        "Handled technology equipment used by company and responsible for updating and installing new hardware, working with tech support to resolve any issues with computers or credit card machines.",
+        
       ]
     },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "Ka 'Ohana Aloha O Ho'okipa",
+      "website": "http://www.kaohanaaloha.org",
+      "position": "Website Developer",
+      "startDate": "2014-06-01",
+      "endDate": "2016-8-10",
+      "summary": "Developed and maintained a website for a non-profit company",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Design unique webpage ",
+        "Maintained the website with current information and photos about the organization"
       ]
     },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
-    }
   ],
   "awards": [
-    {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
+  
   ],
   "references": [
     {
