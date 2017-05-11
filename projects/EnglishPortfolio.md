@@ -12,7 +12,6 @@ labels:
 summary: A collection of esays from my English class formated in an electronic portfolio
 ---
 
-<<<<<<< HEAD
 ## The Class
 
 As a student at the University of New Mexico, one of the required courses I've had to take was an Expository Writing class. At the university, each Expository class was taught with different themes. For the course I took, the theme was Science Fiction. Taken from the course catalog, the description of the class is as follows: 
