@@ -6,9 +6,9 @@ title: English Portfolio
 permalink: projects/EnglishProfile
 date: Spring 2014
 labels:
-	- Writing
-	- Creative
-	- English
+- Writing
+- Creative
+- English
 summary: A collection of esays from my English class formated in an electronic portfolio
 ---
 
