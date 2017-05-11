@@ -55,7 +55,9 @@
         "Javascript",
         "VHDL",
         "Creo |PTC",
-        "Logic Works"
+        "Logic Works",
+        "HTML",
+        "CSS", "Java Script", "Intellij Meteor"
       ]
     },
     {
@@ -77,7 +79,7 @@
       "startDate": "2016-01-09",
       "endDate": "Present",
       "gpa": "",
-      "courses": [
+      "courses": ["Software Engineer", "Algorithm/Data Structure", "Discrete Math", "Circuit Analysis", "Digital Design"
       ]
     }
   ],
