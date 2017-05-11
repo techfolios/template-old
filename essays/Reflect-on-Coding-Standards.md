@@ -14,7 +14,7 @@ When you see the words “coding standard”, what do you think this is about? I
 for a programmer. Coding standards are rules you must follow to make your code look nice and organize. It just like writing 
 essay, you must follow some rules. For example, you must have space in front of your new paragraph, or you must put period 
 mark when you finish a sentence, etc. Also, it’s a good habit to follow the coding standards, because if you write a program 
-without coding standards such as no space indent. After few years,  if you look at you code again, maybe you will get so 
+without coding standards, such as no space indent. After few years, if you look at you code again, maybe you will get so 
 confuse and don’t know what did you write. 
 
 Here is an example:
@@ -43,6 +43,6 @@ For my ICS314 class, we use ESLint because we are learning JavaScript and this E
 After first week of using ESLint with Intellij, my impression is that I will use this to improve quality of my code. Because
 I find out that my code look so messy compare to the code after I use ESLint. The process of getting green checkmark is 
 painful but it also useful, because the most effective way to learn thing is learn from your mistake. ESLint help us to 
-find out the coding standard errors , then after we fix those errors. Everything look perfect and we get a green checkmark. 
+find out the coding standard errors, then after we fix those errors. Everything look perfect and we get a green checkmark. 
 I am very enjoy doing this, even though its painful.
 
