@@ -20,6 +20,9 @@ As a student at the University of New Mexico, one of the required courses I've h
 
 In this course, we had to write 3 major essays/video and create an electronic portfolio containing all our works for this class. The portfolio can be viewed [here](https://sites.google.com/site/raenanaka/). 
 
+<img  src="images/English.png"/>
+
+
 ## Analytical Report
 
 The topic of this essay was how animal experimentation affected both space travel and science fiction. For this essay, we had to write a [Precis](https://sites.google.com/site/raenanaka/home/precis), which is just a summary of the actual [Analytical Report](https://sites.google.com/site/raenanaka/home/report). 
