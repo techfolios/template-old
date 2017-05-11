@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Reflect on Coding Standards
+title: is Coding Standards important
 date: 2017-02-09
 labels:
   - Coding Standards
