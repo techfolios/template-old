@@ -12,7 +12,7 @@ labels:
 
 ## New to Meteor
 Absolutely I am the one who feel these three weeks like “a small body of matter from outer space that enters the earth’s 
-atmosphere, becoming incandescent as a result of friction and appearing as a streak of light. Meteor is a very awesome tool 
+atmosphere, becoming incandescent becoming friction and appearing as a streak of light. Meteor is a very awesome tool 
 to build web and mobile app using JavaScript. In my ICS 314 class, we are required to learn this new tool. My first impression
 of Meteor is that I cannot handle this material and I don’t even know how it works. In the first two weeks, I feel like I am 
 a robot and noob. because when I am doing the practice WODs(work of the day), I had to watch the solution video from my
