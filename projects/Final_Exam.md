@@ -12,7 +12,7 @@ labels:
 summary: Final web app for my ICS-314 software engineering project.
 ---
 
-Avalunch is the brain-child of ICS 314 classmates, Anh Lam @anhlam, Edmund Ho @sorazodia, and Clark DeNunzio @unjammy. Our software aims to become the visual solution to the problem of contemplating meal decisions during students precious lunch breaks. At first glace, our application provided the following landing page to explain our product. The application is a simple display for different food vendors on campus and the additional input that users can manipulate is adding thier favorite food items. This project heavily relied on Meteor, HTML, Javascript, CSS and Mongo DB. The final product is available by using Galaxy to deploy Avalunch here [here](http://avalunch.meteorapp.com/).
+Avalunch is the brain-child of ICS 314 classmates, Anh Lam @anhlam, Edmund Ho @sorazodia, and Clark DeNunzio @unjammy. Our software aims to become the visual solution to the problem of contemplating meal decisions during students precious lunch breaks. At first glace, our application provided the following landing page to explain our product. The application is a simple display for different food vendors on campus and the additional input that users can manipulate is adding thier favorite food items. This project heavily relied on Meteor, HTML, Javascript, CSS and Mongo DB. The final product is available by using Galaxy to deploy Avalunch [here](http://avalunch.meteorapp.com/).
 
 <img class="ui fluid centered image" src="/images/Screen Shot 2017-05-09 at 20.55.57.png">
 
@@ -29,7 +29,7 @@ I learn more about JavaScript because I had to find ways to manipulate the anima
 
 <img class="ui fluid centered image" src="/images/Screen Shot 2017-05-09 at 20.57.54.png">
 
-To catch the back end development of the project, you can go here [here](https://avalunch.github.io/).
+To catch the back end development of the project, you can go [here](https://avalunch.github.io/).
 
 
 
