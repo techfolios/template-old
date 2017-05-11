@@ -34,7 +34,6 @@ System.out.println(“The value of i is: “+i);
 }
 
 ```
-
 I can tell most of you like first example more than second example, because it looks neatly and easy to read.
 
 <img class ="ui medium right floated image" src="../images/ESLint.png">
