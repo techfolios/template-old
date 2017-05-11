@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/GYM.png
+image: images/GYM.JPG
 title: UH GYM Scheduler
 permalink: projects/Scheduler
 date: 2017
