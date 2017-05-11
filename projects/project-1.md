@@ -1,29 +1,29 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
-date: 2015
+image: images/solar-panels.jpeg
+title: Solar Panel Tracking Device
+permalink: projects/Solar-Panel
+date: 2017
 labels:
-  - Robotics
+  - Renewable Energy
   - Arduino
   - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+summary: This is my sophomore project EE296. It is self automated solar tracker with a micro-controller.
 ---
 
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
-</div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+  <img class="ui large left floated image" src="/images/IMG_1259.JPG">
+  This project involves the usage of the micro-controller of Arduino to carry out the mechanical and electrical execution of a solar panel mount with a dual-axis tracking method. The challenge to the system remains to maximize the efficiency by capturing the rays from the sun for conversion into electricity. Under normal operating conditions the system is fully automatic and requires minimal operator input. In terms with these parameters we set, it will increase efficiency and energy storage.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+  Role and Contribution-Motion control: 
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+
+  <img class="ui large left floated image" src="/images/IMG_1319.JPG">
+  I built the infrastructure of device and attempted to do my version of the light sensors but Clark’s code was better and executable in the end. I had different versions of base and the tilting of the solar panel. My part had to be done first so that Clark and Ross could implement and test their part. At first I put together a wooden frame and brackets and later changed it to metal rod. I research a couple different designs but the most stabilized one was the one I decided on. At first I was using Clark’s skate bearing for the base because it had very little friction but changed it because of instability of the actuator. The motion is control by a servo with a belt to catch onto the gears for precise movement. The infrastructure is mounted on top of 2x4 wood panels and a medium density board to place all the battery and circuit components. If we had a bigger budget, we would have used a lighter material that would be ideally portable. 
+
+
+You can learn more about the project [here](http://www.solarpaneltilt.com/).
 
 
 

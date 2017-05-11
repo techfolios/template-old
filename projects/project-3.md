@@ -1,60 +1,34 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
-date: 2014
+image: images/194014.jpeg
+title: 3-D Modeling of CrankShaft
+permalink: projects/Crankshaft
+date: 2015
 labels:
-  - Lisp
-  - GitHub
-summary: A text adventure game I developed for ICS 313.
+  - 3-D Modeling
+  - Creo|PTC
+summary: This is my final project for graphic design for engineers.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+ 
+  <img class="ui large left floated image" src="/images/Lam_0867043_FinalProject.jpg">
+  With the Creo product development software, users can create their product from concept to digital prototype and do so with efficiency, and accuracy. This is my final project for graphics design for engineers.
+  
+       
+       What did I like best?
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+One of the most powerful 3D CAD packages available. Does an excellent job with large assemblies and complicated models (surfaces, sheet metal, etc.). Very good integration with many add-in options (ANSYS, PDM, Keyshot, etc.). The ribbon interface is vastly improved over prior versions. Drawing mode has been greatly improved over prior versions: it no longer feels like an afterthought. There are plenty of options for file interchange and conversion.
 
-To give you a flavor of the game, here is an excerpt from one run:
+      What did I dislike?
 
-<hr>
+The interface is still a mixed bag of the terribly outdated and ineffective menu manager and the new ribbon menu interface. Selection filter still has a mind of its own: defaults to selecting an edge or point deeper in the part instead of the front surface that you are hovering on. Some features could be incredibly useful if they were not glitchy: pattern by points frequently exhibits odd behavior with extrude directions that usually renders it unusable.
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
+    Recommendations to others considering the product
 
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
+Creo is the best choice for 3D modeling in a large corporation with experiences users. There are other options for beginning CAD users that would likely be easier to learn, but I do not know of a program that has the complete package of operation that Creo has.
 
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
+You can learn more about the software I use here [here](http://www.ptc.com/cad/creo).
 
-pickup candle
-- you are now carrying the candle -
 
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
 
