@@ -4,12 +4,12 @@ type: project
 image: images/solar-panels.jpeg
 title: Solar Panel Tracking Device
 permalink: projects/Solar-Panel
-date: 2016
+date: 2017
 labels:
   - Renewable Energy
   - Arduino
   - C++
-summary: This is my sophomore project EE396. It is self automated solar tracker with a micro-controller.
+summary: This is my sophomore project EE296. It is self automated solar tracker with a micro-controller.
 ---
 
 
