@@ -20,7 +20,7 @@ As a student at the University of New Mexico, one of the required courses I've h
 
 In this course, we had to write 3 major essays/video and create an electronic portfolio containing all our works for this class. The portfolio can be viewed [here](https://sites.google.com/site/raenanaka/). 
 
-<img  src="images/English.png"/>
+<img width="400px" height="200px" src="images/English.png"/>
 
 
 ## Analytical Report
