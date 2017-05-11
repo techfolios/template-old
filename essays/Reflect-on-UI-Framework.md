@@ -28,8 +28,8 @@ is the latest version of window. This picture very colorful and make me feel com
 building a website using raw html and building a website using UI framework.
 
 ## Amazing website 
-  after I learned UI framework, I had a homework to rebuild a website similar to the home page for island snow using Semantic
+  after I learned UI framework, I had a homework to rebuild a website like the home page for island snow using Semantic
   UI. This was a very good practice, and this make me be obsessed with create website. I didn’t find Semantic UI difficult to
   learn, it just needs couple more hours focus on it, because you are not expert, and you always need to spend more times to
-  learn something is new. However, This is a screenshot for my website I made using Semantic UI.
+  learn something is new. However, this is a screenshot for my website I made using Semantic UI.
   <img class ="ui image" src="../images/myPacsun.png">
