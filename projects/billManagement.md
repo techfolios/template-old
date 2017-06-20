@@ -9,7 +9,7 @@ labels:
   - MySQL
   - PHP
   - Web Application
-summary: Our team developed a full working version of Minesweeper from scratch in Java for our Data Structures class.
+summary: Final project for Data Storage and Retrieval class at the University of Hawaii at Manoa.
 ---
 
 This web application incorporates a PHP front end with CSS formatting and a MySQL backed database.  It was developed in Netbeans IDE.  It is a simple app that helps you keep track of your finances.
