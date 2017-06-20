@@ -13,7 +13,7 @@ labels:
   - Mongo DB
   - Git/Github
   - Galaxy
-summary: For my final project in my Software Engineering class (ICS 314) at UH Manoa with Professor Johnson, a group of 5 of us collborated together using Git/Github to develop a web application called 'LetUmGrow'.  It can be generally described as a geo-location based social media for plants.
+summary: Final project for Software Engineering class, a group of 5 of us collaborated together using Git/Github to develop a web application called 'LetUmGrow'.  It is a geo-location based social media for plants.
 ---
 You can view the project home page here [LetUmGrow Home](https://letumgrow.github.io/).
 <img style="padding-top: 10px" class="ui fluid image" src="/images/landing1.png">
