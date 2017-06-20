@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/minesweeper.jpg
+image: images/bills.png
 title: Bill Management Web App
 permalink: projects/billManagement
 date: 2016
