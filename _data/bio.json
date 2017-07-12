@@ -1,39 +1,29 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Islam Faisal",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
+    "picture": "https://techfolios.github.io/template/images/avatar.png",
+    "email": "islamfm@aucegypt.edu",
     "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2018.",
+    "website": "https://decltypeme.github.io",
+    "summary": "I do computer science and mathematics.",
     "location": {
-      "address": "",
+      "address": "UCLA Institute for Pure and Applied Mathematics",
       "postalCode": "96822",
-      "city": "Honolulu",
+      "city": "Los Angeles",
       "countryCode": "USA",
-      "region": "Hawaii"
+      "region": "California"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "decltypeme",
+        "url": "http://github.com/decltypeme"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "islamfaisal",
+        "url": "http://linkedin.com/in/islamfaisal"
       }
     ]
   },
