@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Wendy Chen",
     "label": "Student",
     "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2018.",
+    "email": "wchen9@hawaii.edu",
+    "phone": "808-382-0462",
+    "website": "https://WendyChen9.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2019.",
     "location": {
       "address": "",
-      "postalCode": "96822",
+      "postalCode": "96717",
       "city": "Honolulu",
       "countryCode": "USA",
       "region": "Hawaii"
@@ -17,32 +17,31 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "WendyChen9",
+        "url": "https://WendyChen9.github.io"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "Wendy Chen",
+        "url": "https://www.linkedin.com/in/wendy-chen-326748146/"
       },
       {
         "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "username": "",
+        "url": ""
       },
       {
         "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "wchen293",
+        "url": ""
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "video games",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        
       ]
     },
     {
@@ -64,100 +63,82 @@
         "C",
         "C++",
         "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Javascript"
+  
       ]
     },
     {
-      "name": "Toolsets/OS",
+      "name": "Other Languages",
       "level": "",
       "keywords": [
-        "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Mandarin",
+        "Taiwanese"
       ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Spring, 2019)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "August 2014",
       "endDate": "Present",
-      "gpa": "",
+      "gpa": "3.5",
       "courses": [
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "UH Manoa",
+      "position": "Student Receptionist",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "January 2017",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Student receptionist at the Information Technology Center",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
+        ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "Kahuku Medical Center",
+      "website": "http://www.kmc-hi.org/",
+      "position": "Volunteer",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Assist Activities Director and Lab Technician",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Filing and organizing documents",
+        "Involving residents with activities"
       ]
     },
     {
-      "organization": "",
+      "organization": "Ko'olau Wellness Center",
       "website": "",
-      "position": "Professional organization involvement",
+      "position": "Student Volunteer",
       "startDate": "",
       "endDate": "",
-      "summary": "",
+      "summary": "Assisting nurses",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Taking vitals",
+        "Filing documents",
+        "Restocking inventory"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Dean's List",
+      "date": "Spring 2016, Fall 2016, Spring 2017",
+      "awarder": "UH Manoa",
+      "summary": ""
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Third place",
+      "date": "2014",
+      "awarder": "HOSA",
+      "summary": "My team placed 3rd in the HOSA team competition in highschool."
     }
   ],
   "references": [
