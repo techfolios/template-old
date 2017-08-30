@@ -1,25 +1,31 @@
 ---
 layout: project
 type: project
-image: images/popcorntv.png
-title: PopcornTV
-permalink: projects/PopcornTV
-date: 2015
+image: images/telaLogin.png
+title: popcorntv2
+permalink: projects/popcorntv2
+date: 2017
 labels:
-	- PHP
-	- JavaScript
-	- Jquery
-	- BootStrap
-	- MySql
-	- GitHub
-summary: Projeto Acadêmico para criar um gerenciador online para uma locadora de video. Usando Php puro.
+  - ReactNative
+  - NodeJS
+  - Firebase
+summary: Desenvolvimento de uma aplicativo para gerir atendimento de uma clinica. O médico poderá prever a quantidade de pacientes a atender no determinado dia e hora em uma clinica. 
 ---
 
-<img class="ui right floated rounded image" src="../images/popcorntv.png">
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/telaLogin.png">
+  <img class="ui image" src="../images/telaHome.jpg">
+  <img class="ui image" src="../images/telaAdmin.jpg">
+  <img class="ui image" src="../images/telaUser.png">
+</div>
 
-Custumização de uma solução para gerenciamento de videos em uma empresa de locadora de video: cadastro de produtos, listagem, edição ou exclusão 
- 
+Percebemos a necessidade de gerir o tempo no atendimento a pacientes em uma clinica hospitalar. Uma das maiores preocupações foi informar ao médico quantos pacientes evitando atrasos e sobrecarregar o profissional com mais atendimentos.
 
- Source: <a href="https://github.com/PopCornTV-VideoLocadora">
-			<i class="large github icon"></i> PopcornTV
-		 </a>
+O Aplicativo tem funcionalidades muito intuitivas: apos acessar o sistema o usuario poderá ver uma lista de pacientes/users informando o dia, hora e nome da clinica na qual irá ser atendido.
+
+Mais sobre o app [Repositorio]
+
+Source: <a href="https://github.com/alexjosesilva/AppDoctor">
+	<i class="large github icon"></i> AppDoctor
+</a>
+
