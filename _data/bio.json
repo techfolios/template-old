@@ -161,20 +161,20 @@
       "endDate": "Atual",
       "summary": "",
       "highlights": [
-        "Atribuições do cargo: Atuar no Desenvolvimento Full Stack de um", 
-        "Aplicativo Android no qual o foco é a venda de remédio pelo", 
-        "aplicativo no celular. Responsabilidade: Codificar, Testar, Corrigir", 
-        "bugs. Elaboração de documentação. Integração", 
-        "continua",
-        "TECNOLOGIAS:", 
-        "JavaScript, ReactJS, React, Native, Redux",
-        "Router Flux React­Bootstrap NodeJS Android NativoBANCO: Firebase", 
-        "da google (cloud)IDES: WebStorn AndroidStudio Chrome com", 
-        "firebugVERSIONAMENTO: BitBucket com SourceTreeCONTROLE DE", 
-        "PROJETOP: Scrum: divisão de tarefas Trello: gerenciamento de", 
-        "tarefas Slack: comunição entre a equipeFERRAMENTAS Clouds:",
-        "Azure da Microsoft (hospedagem) Firebase da Google (banco)",
-        "PROTOTIPAGEM: https://balsamiq.com"
+			"Atribuições do cargo: Atuar no Desenvolvimento Full Stack de um
+			Aplicativo Android no qual o foco é a venda de remédio pelo
+			aplicativo no celular. Responsabilidade: Codificar, Testar, Corrigir
+			bugs. Elaboração de documentação. Integração
+			continua
+			TECNOLOGIAS:
+			JavaScript, ReactJS, React, Native, Redux 
+			Router Flux React­Bootstrap NodeJS Android NativoBANCO: Firebase  
+			da google (cloud)IDES: WebStorn AndroidStudio Chrome com  
+			firebugVERSIONAMENTO: BitBucket com SourceTreeCONTROLE DE  
+			PROJETOP: Scrum: divisão de tarefas Trello: gerenciamento de  
+			tarefas Slack: comunição entre a equipeFERRAMENTAS Clouds: 
+			Azure da Microsoft (hospedagem) Firebase da Google (banco) 
+			PROTOTIPAGEM: https://balsamiq.com"
       ]
     },
     {
@@ -185,21 +185,21 @@
       "endDate": "2017-03-01",
       "summary": "",
       "highlights": [
-          "Auxiliar na manutenção do CRM da mineradora", 
-          "Vale. O qual era responsável pela gerenciamento das principais", 
-          "funcionalidades do TREM: gerar tickets de passagem ou cadastrar", 
-          "carregamentos, habilitar/desabilitar linhas de transporte. As", 
-          "correções de bugs no sistema era através de atendimento direto com", 
-          "cliente, exigindo do programador habilidades quanto a interpretação", 
-          "e correção dos chamados. Tecnologia utilizada: Conhecimento na", 
-          "linguagem JAVA. Domínio em Programação Estruturada e Orientada", 
-          "a Objetos Conhecimento em Desenvolvimento em Camadas com", 
-          "Spring e Hibernate. Análise de Performance de aplicações (código", 
-          "Java e PL/SQL). Análise de requisitos. Facilidade no uso do banco", 
-          "Oracle: Operações Básicas: Select, Insert, Drop, Update. Domínio no",
-          "nas tecnologias JSP, xhtml, bootstrap. Dominio na tecnolgia", 
-          "AngularJS. Manuntenção do repositorio: github. Acompanhento de",
-          "chamados: Jira. Metodologia utilizada: XP"
+			"Auxiliar na manutenção do CRM da mineradora
+			Vale. O qual era responsável pela gerenciamento das principais
+			funcionalidades do TREM: gerar tickets de passagem ou cadastrar
+			carregamentos, habilitar/desabilitar linhas de transporte. As 
+			correções de bugs no sistema era através de atendimento direto com
+			cliente, exigindo do programador habilidades quanto a interpretação
+			e correção dos chamados. Tecnologia utilizada: Conhecimento na
+			linguagem JAVA. Domínio em Programação Estruturada e Orientada 
+			a Objetos Conhecimento em Desenvolvimento em Camadas com
+			Spring e Hibernate. Análise de Performance de aplicações (código
+			Java e PL/SQL). Análise de requisitos. Facilidade no uso do banco
+			Oracle: Operações Básicas: Select, Insert, Drop, Update. Domínio no
+			nas tecnologias JSP, xhtml, bootstrap. Dominio na tecnolgia
+			AngularJS. Manuntenção do repositorio: github. Acompanhento de
+			chamados: Jira. Metodologia utilizada: XP"
 
       ]
     },
@@ -231,7 +231,7 @@
       "organization": "Pastoral Social",
       "website": "",
       "position": "Coordenador",
-      "startDate": "01/08/2016",
+      "startDate": "2017-08-01",
       "endDate": "",
       "summary": " Coordenar as ativdades do Restaurante comunitario: distribuição de alimentos, doação de roupas e treinamento de equipe responsavel pelos atendimentos ",
       "highlights": [
@@ -244,7 +244,7 @@
       "organization": "Pastoral da Criança",
       "website": "",
       "position": "Voluntario",
-      "startDate": "01/08/2016",
+      "startDate": "2016-08-01",
       "endDate": "",
       "summary": "Investigar desnutrição infantil no municipio de Olinda e auxiliar na distribuição de doação para os visitantes",
       "highlights": [
