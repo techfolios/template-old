@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/popcorntv.png
 title: PopcornTV
-permalink: projects/popcorntvcccc
+permalink: projects/popcorntv
 date: 2015
 labels:
 	- PHP
