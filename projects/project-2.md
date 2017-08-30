@@ -4,7 +4,7 @@ type: project
 image: images/popcorntv.png
 title: PopcornTV
 permalink: projects/PopcornTV
-date: 2015
+date: 2017
 labels:
 	- PHP
 	- JavaScript
