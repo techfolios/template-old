@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/popcorntv.png
+image: images/lojaVirtual.jpg
 title: LojaVirtual
 permalink: projects/lojavirtual
 date: 2015

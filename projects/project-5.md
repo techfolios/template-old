@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/telaLogin.png
+image: images/caraCoroa.png
 title: Apps
 permalink: projects/apps
 date: 2017
