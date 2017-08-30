@@ -10,8 +10,8 @@ labels:
 summary: A simple obstacle course game that I worked on in my first ICS class. 
 ---
 
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/victory.png" width = "400">
+<div>
+  <img src="../images/victory.png" width = "400">
   
 </div>
 
