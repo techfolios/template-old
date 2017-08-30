@@ -39,10 +39,10 @@
   },
   "interests": [
     {
-      "name": "System",
+      "name": "Sistemas",
       "keywords": [
         "ERP",
-        "CRM"
+        "CRM"		
       ]
     },
     {
@@ -53,13 +53,20 @@
       ]
     },
     {
-      "name": "Artificial Intelligence",
+      "name": "Inteligencia Artificial",
       "keywords": [
         "redes neurais", 
         "lógica nebulosa", 
         "mineração de dados",
         "reconhecimento de padrões", 
         "computacao aplicada"        
+      ]
+    },
+	{
+      "name": "IoT",
+      "keywords": [
+        "Arduino", 
+        "Robotica" 
       ]
     }
   ],
