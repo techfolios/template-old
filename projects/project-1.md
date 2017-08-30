@@ -11,7 +11,7 @@ summary: A simple obstacle course game that I worked on in my first ICS class.
 ---
 
 <div>
-  <img class="ui large centered image" src="../images/victory.png">
+  <img class="ui centered large image" src="../images/victory.png">
   
 </div>
 
