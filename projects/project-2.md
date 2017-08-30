@@ -15,7 +15,7 @@ labels:
 summary: Projeto Acadêmico para criar um gerenciador online para uma locadora de video. Usando Php puro.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/popcorntv.png">
+<img class="ui right floated rounded image" src="../images/popcorntv.png">
 
 Custumização de uma solução para gerenciamento de videos em uma empresa de locadora de video: cadastro de produtos, listagem, edição ou exclusão 
  
