@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
+image: images/sistemaRh2.png
 title: SistemaRH
 permalink: projects/SistemaRH
 date: 2017
