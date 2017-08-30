@@ -85,9 +85,9 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Fall, 2018)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2016-09-01",
       "endDate": "Present",
       "gpa": "3.0",
       "courses": [
@@ -96,15 +96,15 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "UH Manoa Electrical Engineering",
+      "position": "IT Assistant",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2016-10-31",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Repair, replace, and maintain computers and other devices",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Maintain, update, and oversee computers of the department",
+        "Ensure all the students and staffs to have problems free with their computers"
       ]
     },
     {
