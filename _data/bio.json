@@ -28,7 +28,7 @@
       {
         "network": "twitter",
         "username": "alexjosesilva",
-        "url": "http://twitter.com/alexjosesilva"
+        "url": "#"
       },
       {
         "network": "instagram",
@@ -81,21 +81,20 @@
         "Python",
         "Java",
         "Javascript",
-        "JQuery",
-        "ReactJS",
-        "NodeJS",
-        "AngularJS"
+        "React",
+		"Ruby"
       ]
     },
      {
       "name": "Framework ",
       "level": "",
       "keywords": [
-        "CodeIngiter",
+        "CodeIgniter",
         "Laravel",
         "Spring",
         "Hibernate",
-        "ReactJS Native"
+        "React-Native",
+		"AngularJS"
       ]
     },
      {
@@ -108,7 +107,7 @@
       ]
     },
     {
-      "name": "WebService",
+      "name": "Servidor",
       "level": "",
       "keywords": [
         "Apache",
