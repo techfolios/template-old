@@ -23,5 +23,9 @@ Percebemos a necessidade de gerir o tempo no atendimento a pacientes em uma clin
 
 O Aplicativo tem funcionalidades muito intuitivas: apos acessar o sistema o usuario poderá ver uma lista de pacientes/users informando o dia, hora e nome da clinica na qual irá ser atendido.
 
-Mais sobre o app [Repositorio](https://github.com/alexjosesilva/AppFarmacia).
+Mais sobre o app [Repositorio]
+
+Source: <a href="https://github.com/alexjosesilva/AppDoctor">
+	<i class="large github icon"></i> AppDoctor
+</a>
 
