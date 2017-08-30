@@ -2,8 +2,8 @@
 layout: project
 type: project
 image: images/cotton-square.png
-title: SistemaRHphp
-permalink: projects/SistemaRHphp
+title: SistemaRH
+permalink: projects/SistemaRH
 date: 2017
 labels:
   - PHP
@@ -33,5 +33,6 @@ Inclusão de Tecnologias como AngularJS
 
 <hr>
 
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+Source: <a href="https://github.com/alexjosesilva/SistemaRHphp">
+		<i class="large github icon "></i>SistemaRH</a>
 
