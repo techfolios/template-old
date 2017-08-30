@@ -183,23 +183,25 @@
       "website": "https://www.accenture.com/br-pt",
       "startDate": "201-12-01",
       "endDate": "2017-03-01",
-      "summary": "",
-      "highlights": [
-			"Auxiliar na manutenção do CRM da mineradora
+      "summary": "Auxiliar na manutenção do CRM da mineradora
 			Vale. O qual era responsável pela gerenciamento das principais
 			funcionalidades do TREM: gerar tickets de passagem ou cadastrar
 			carregamentos, habilitar/desabilitar linhas de transporte. As 
 			correções de bugs no sistema era através de atendimento direto com
 			cliente, exigindo do programador habilidades quanto a interpretação
-			e correção dos chamados. Tecnologia utilizada: Conhecimento na
-			linguagem JAVA. Domínio em Programação Estruturada e Orientada 
-			a Objetos Conhecimento em Desenvolvimento em Camadas com
-			Spring e Hibernate. Análise de Performance de aplicações (código
-			Java e PL/SQL). Análise de requisitos. Facilidade no uso do banco
-			Oracle: Operações Básicas: Select, Insert, Drop, Update. Domínio no
-			nas tecnologias JSP, xhtml, bootstrap. Dominio na tecnolgia
-			AngularJS. Manuntenção do repositorio: github. Acompanhento de
-			chamados: Jira. Metodologia utilizada: XP"
+			e correção dos chamados",
+      "highlights": [
+			"Tecnologia utilizada: Conhecimento na linguagem JAVA", 
+			"Domínio em Programação Estruturada e Orientada e MVC",
+			"Conhecimento do frameworks Spring e Hibernate",
+			"Análise de Performance de aplicações (PL/SQL)",
+			"Análise de requisitos",
+			"Facilidade no uso do banco: Oracle: Operações Básicas: Select, Insert, Drop, Update",
+			"Domínio no nas tecnologias JSP, xhtml, bootstrap",
+			"Dominio na tecnolgia AngularJS", 
+			"Manuntenção do repositorio: github", 
+			"Acompanhento de chamados: Jira.",
+			"Metodologia utilizada: XP"
 
       ]
     },
@@ -209,19 +211,20 @@
       "website": "http://segsat.com/portal/",
       "startDate": "2016-06-01",
       "endDate": "2016-12-01",
-      "summary": "",
+      "summary": " Atribuições do cargo: Manutenção e desenvolvimento de novas funcionalidades em Sistema de Rastreamento em Tempo Real ",
       "highlights": [
-			"Atribuições do cargo: Manutenção e desenvolvimento de novas
-			funcionalidades em Sistema de Rastreamento em Tempo Real.
-			Conhecimentos em Programação Estruturada e Orientada a Objetos,
-			Java. Análise de Performance de aplicações (código Java e PL/SQL).
-			Conhecimento em Banco de Dados Oracle. Modelagem de Banco em
-			UML. Desenvolvimento de aplicações nos frameworks: Spring
-			Framework e Hibernate. Repositório de fontes com GIT/BitBucket.
-			Elaboração de documentos Técnicos. Experiência Eclipse (IDE) Uso 
-			constante das tecnologias: HTML, CSS, JAVASCRIPT. Frameworks 
-			para WEB (AngularJS). Servidor de aplicação (JBOSS X.X)Análise de 
-			requisitos."
+	  		"Conhecimentos em Programação Estruturada e Orientada a Objetos e MVC",
+			"Análise de Performance de aplicações (PL/SQL)",
+			"Conhecimento em Banco de Dados Oracle",
+			"Modelagem de Banco",
+			"Dominio da linguagem JAVA",
+			"Desenvolvimento de aplicações nos frameworks: Spring e o Framework e Hibernate",
+			"Repositório de fontes com GIT/BitBucket",
+			"Elaboração de documentos Técnicos: Ireport", 
+			"Experiência Eclipse (IDE)", 
+			"Uso constante das tecnologias: HTML, CSS, JAVASCRIPT e AngularJS",
+			"Servidor de aplicação (JBOSS X.X)",
+			"Análise de requisitos."
       ]
     }
 
