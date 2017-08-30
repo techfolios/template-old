@@ -6,9 +6,9 @@ title: doctor
 permalink: projects/doctor
 date: 2017
 labels:
-	- ReactNative
-	- NodeJS
-	- Firebase
+- ReactNative
+- NodeJS
+- Firebase
 summary: Desenvolvimento de uma aplicativo para gerir atendimento de uma clinica. O médico poderá prever a quantidade de pacientes a atender no determinado dia e hora em uma clinica. 
 ---
 
