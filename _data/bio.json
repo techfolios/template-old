@@ -154,30 +154,6 @@
   ],
   "work": [
     {
-      "company": "Startup: Farmazap",
-      "position": "Developer FullStack",
-      "website": "http://farmazap.com.br/",
-      "startDate": "2017-04-01",
-      "endDate": "Atual",
-      "summary": "",
-      "highlights": [
-			"Atribuições do cargo: Atuar no Desenvolvimento Full Stack de um
-			Aplicativo Android no qual o foco é a venda de remédio pelo
-			aplicativo no celular. Responsabilidade: Codificar, Testar, Corrigir
-			bugs. Elaboração de documentação. Integração
-			continua
-			TECNOLOGIAS:
-			JavaScript, ReactJS, React, Native, Redux 
-			Router Flux React­Bootstrap NodeJS Android NativoBANCO: Firebase  
-			da google (cloud)IDES: WebStorn AndroidStudio Chrome com  
-			firebugVERSIONAMENTO: BitBucket com SourceTreeCONTROLE DE  
-			PROJETOP: Scrum: divisão de tarefas Trello: gerenciamento de  
-			tarefas Slack: comunição entre a equipeFERRAMENTAS Clouds: 
-			Azure da Microsoft (hospedagem) Firebase da Google (banco) 
-			PROTOTIPAGEM: https://balsamiq.com"
-      ]
-    },
-    {
       "company": "Accenture do Brasil",
       "position": "Analista de Sistemas",
       "website": "https://www.accenture.com/br-pt",
@@ -273,7 +249,7 @@
   ],
   "references": [
     {
-      "name": "Available upon request",
+      "name": "",
       "reference": ""
     }
   ]
