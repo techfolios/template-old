@@ -28,8 +28,8 @@
       <div class="center aligned content">
         <div class="description">
           Interesses:
-          {% for interest in site.data.bio.interests %}
-            {{ interest.name }}{% if forloop.last != true %}, {% endif %}
+          {% for Interesses in site.data.bio.interests %}
+            {{ Interesses.name }}{% if forloop.last != true %}, {% endif %}
           {% endfor %}
 
         </div>
