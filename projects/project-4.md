@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/lojaVirtual.jpg
-title: LojaVirtual
+title: Loja Virtual
 permalink: projects/lojavirtual
 date: 2015
 labels:

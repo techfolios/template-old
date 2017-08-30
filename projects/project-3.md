@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/sistemaRh2.png
-title: SistemaRH
+title: Sistema RH
 permalink: projects/sistemarh
 date: 2017
 labels:
