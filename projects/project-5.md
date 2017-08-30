@@ -18,7 +18,7 @@ summary: Desenvolvimento de aplicativos diversos
   <img class="ui image" src="../images/calculadora.png">
 </div>
 
-<div>
+<div class="ui small rounded images">
   <img class="ui image" src="../images/whatsappClone.png">
   <img class="ui image" src="../images/frases.png">
 </div>
