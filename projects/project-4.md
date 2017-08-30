@@ -2,8 +2,8 @@
 layout: project
 type: project
 image: images/popcorntv.png
-title: Loja Virtual
-permalink: projects/lojavirtual
+title: LojaVirtual
+permalink: projects/LojaVirtual
 date: 2015
 labels:
 	- PHP
