@@ -16,11 +16,15 @@ summary: Desenvolvimento de aplicativos diversos
   <img class="ui image" src="../images/caraCoroa.jpg">
   <img class="ui image" src="../images/tesouraPapel.png">
   <img class="ui image" src="../images/calculadora.png">
+</div>
+
+<div>
   <img class="ui image" src="../images/whatsappClone.png">
   <img class="ui image" src="../images/frases.png">
 </div>
 
-Aplicativos hospedados no GooglePlay
+Aplicativos hospedados no <a href="https://play.google.com/store/search?q=alexjosesilva&hl=pt_BR">GooglePlay</a>
+
 
 Mais sobre o app [Repositorio]
 
