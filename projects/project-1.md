@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/victorygame.png
+image: images/victorygame.jpg
 title: Obstacle Course
 permalink: projects/micromouse
 date: 2016
