@@ -6,12 +6,12 @@ title: PopcornTV
 permalink: projects/popcorntv
 date: 2015
 labels:
-	- PHP
-	- JavaScript
-	- Jquery
-	- BootStrap
-	- MySql
-	- GitHub
+- PHP
+- JavaScript
+- Jquery
+- BootStrap
+- MySql
+- GitHub
 summary: Projeto Acadêmico para criar um gerenciador online para uma locadora de video. Usando Php puro.
 ---
 

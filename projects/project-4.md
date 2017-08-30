@@ -6,13 +6,13 @@ title: LojaVirtual
 permalink: projects/lojavirtual
 date: 2015
 labels:
-	- PHP
-	- JavaScript
-	- Jquery
-	- BootStrap
-	- MySql
-	- GitHub
-	- Codeigniter
+- PHP
+- JavaScript
+- Jquery
+- BootStrap
+- MySql
+- GitHub
+- Codeigniter
 summary: Ecommerce desenvolvido sobre o framework codeigniter para gerenciar uma loja de produtos de informática
 ---
 <img class="ui image" src="../images/lojavirtual.jpg">
