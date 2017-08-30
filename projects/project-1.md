@@ -19,7 +19,7 @@ This was one of my first projects that introduced me to ICS and resulted in my d
 
 As an introductory course, it might be difficult for students to create complex video games from scratch, so a Java Graphics Library called EZ created by Kobayashi Dylan was implemented. This made it easier for students to visualize and learn Java as they code programs. This project gathered all the information I knew at the time about Java and combined it into a little game. I learned not only object oriented programming, but basic skills, like organization of code
 
-A link to the run through of the game [link](https://www.youtube.com/watch?v=17zKbO1nIhM).
+A link to the run through of the game [(link)](https://www.youtube.com/watch?v=17zKbO1nIhM).
 
 
 
