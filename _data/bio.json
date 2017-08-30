@@ -211,45 +211,46 @@
       "endDate": "2016-12-01",
       "summary": "",
       "highlights": [
-            "Atribuições do cargo: Manutenção e desenvolvimento de novas", 
-            "funcionalidades em Sistema de Rastreamento em Tempo Real.", 
-            "Conhecimentos em Programação Estruturada e Orientada a Objetos,", 
-            "Java. Análise de Performance de aplicações (código Java e PL/SQL).", 
-            "Conhecimento em Banco de Dados Oracle. Modelagem de Banco em", 
-            "UML. Desenvolvimento de aplicações nos frameworks: Spring", 
-            "Framework e Hibernate. Repositório de fontes com GIT/BitBucket.", 
-            "Elaboração de documentos Técnicos. Experiência Eclipse (IDE) Uso", 
-            "constante das tecnologias: HTML, CSS, JAVASCRIPT. Frameworks", 
-            "para WEB (AngularJS). Servidor de aplicação (JBOSS X.X)Análise de", 
-            "requisitos."
+			"Atribuições do cargo: Manutenção e desenvolvimento de novas
+			funcionalidades em Sistema de Rastreamento em Tempo Real.
+			Conhecimentos em Programação Estruturada e Orientada a Objetos,
+			Java. Análise de Performance de aplicações (código Java e PL/SQL).
+			Conhecimento em Banco de Dados Oracle. Modelagem de Banco em
+			UML. Desenvolvimento de aplicações nos frameworks: Spring
+			Framework e Hibernate. Repositório de fontes com GIT/BitBucket.
+			Elaboração de documentos Técnicos. Experiência Eclipse (IDE) Uso 
+			constante das tecnologias: HTML, CSS, JAVASCRIPT. Frameworks 
+			para WEB (AngularJS). Servidor de aplicação (JBOSS X.X)Análise de 
+			requisitos."
       ]
     }
 
   ],
   "volunteer": [
     {
-      "organization": "",
+      "organization": "Pastoral Social",
       "website": "",
-      "position": "",
-      "startDate": "",
+      "position": "Coordenador",
+      "startDate": "01/08/2016",
       "endDate": "",
-      "summary": "",
+      "summary": " Coordenar as ativdades do Restaurante comunitario: distribuição de alimentos, doação de roupas e treinamento de equipe responsavel pelos atendimentos ",
       "highlights": [
-        "",
-        ""
+        "Servico Social",
+		"Santo Amaro",
+        "Paroquia Nossa Senhora da Piedade"
       ]
     },
     {
-      "organization": "",
+      "organization": "Pastoral da Criança",
       "website": "",
-      "position": "",
-      "startDate": "",
+      "position": "Voluntario",
+      "startDate": "01/08/2016",
       "endDate": "",
-      "summary": "",
+      "summary": "Investigar desnutrição infantil no municipio de Olinda e auxiliar na distribuição de doação para os visitantes",
       "highlights": [
-        "",
-        "",
-        ""
+        "Olinda",
+        "Guadalupe",
+        "Paroquia da Guadalupe"
       ]
     }
   ],
