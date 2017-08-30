@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/telaLogin.png
 title: Doctor
-permalink: projects/Doctor
+permalink: projects/doctor
 date: 2017
 labels:
   - ReactNative

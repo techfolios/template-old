@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/sistemaRh2.png
 title: SistemaRH
-permalink: projects/SistemaRH
+permalink: projects/sistemarh
 date: 2017
 labels:
   - PHP
