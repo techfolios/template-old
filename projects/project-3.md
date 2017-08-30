@@ -6,10 +6,10 @@ title: SistemaRH
 permalink: projects/sistemarh
 date: 2017
 labels:
-  - PHP
-  - MySql
-  - JavaScript, Jquery
-  - GitHub
+	- PHP
+	- MySql
+	- JavaScript, Jquery
+	- GitHub
 summary: Sistema de gerenciamento de RH de uma empresa ficticia
 ---
 
