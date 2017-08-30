@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/telaLogin.png
-title: doctor
+title: App doctor
 permalink: projects/doctor
 date: 2017
 labels:

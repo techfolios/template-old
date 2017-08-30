@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/caraCoroa.png
+image: images/variosApps.png
 title: Apps
 permalink: projects/apps
 date: 2017
