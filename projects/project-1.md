@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/victorygame.jpg
+image: images/victory.jpg
 title: Obstacle Course
 permalink: projects/obstaclecourse
 date: 2016
