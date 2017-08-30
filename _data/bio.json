@@ -2,7 +2,7 @@
   "basics": {
     "name": "Jonathan Nguyen",
     "label": "Student",
-    "picture": "https://jonathanmng.github.io/images/jonathanng.png",
+    "picture": "https://jonathanmng.github.io/images/jonathanNg.png",
     "email": "nn4@hawaii.edu",
     "phone": "808-277-8292",
     "website": "https://jonathanmng.github.io",
@@ -18,22 +18,22 @@
       {
         "network": "github",
         "username": "jonathanmng",
-        "url": "http://github.com/changeme"
+        "url": "https://jonathanmng.github.io"
       },
       {
         "network": "linkedin",
         "username": "jonathanmng",
-        "url": "http://linkedin.com/in/changeme"
+        "url": "www.linkedin.com/in/jonathan-nguyen-48b751146"
       },
       {
         "network": "twitter",
         "username": "jonathanmng",
-        "url": "http://twitter.com/changeme"
+        "url": "https://twitter.com/JustKidDing92"
       },
       {
         "network": "instagram",
         "username": "jonathanmng",
-        "url": "http://instagram.com/changeme"
+        "url": "https://www.instagram.com/h3ll0wor1d/"
       }
     ]
   },
