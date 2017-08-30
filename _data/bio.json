@@ -7,7 +7,7 @@
     "email": "nn4@hawaii.edu",
     "phone": "808-277-8292",
     "website": "https://jonathanmng.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2018.",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2018.",
     "location": {
       "address": "",
       "postalCode": "96817",
@@ -40,15 +40,18 @@
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Software Development",
       "keywords": [
         "Arduino",
         "TI MSP430"
       ]
     },
     {
-      "name": "data mining",
+      "name": "programming languages",
       "keywords": [
+        "PHP" ,
+        "Java" ,
+        "C" 
       ]
     },
     {
@@ -60,7 +63,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "level": "",
+      "level": "Intermediate",
       "keywords": [
         "C",
         "C++",
@@ -72,7 +75,7 @@
     },
     {
       "name": "Toolsets/OS",
-      "level": "",
+      "level": "Intermediate",
       "keywords": [
         "MacOS",
         "Ubuntu",
@@ -91,6 +94,12 @@
       "endDate": "Present",
       "gpa": "3.0",
       "courses": [
+        "ICS 212",
+        "ICS 311",
+        "ICS 312",
+        "ICS 313",
+        "ICS 314",
+        "ICS 415"
       ]
     }
   ],
@@ -104,19 +113,22 @@
       "summary": "Repair, replace, and maintain computers and other devices",
       "highlights": [
         "Maintain, update, and oversee computers of the department",
-        "Ensure all the students and staffs to have problems free with their computers"
+        "Ensure all the students and staffs to have problems free with their computers",
+        "Troubleshoot software, hardware and networking issues over the phone"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Walgreens Boots Alliance",
+      "position": "Customer Service Associate",
+      "website": "http://www.walgreensbootsalliance.com",
+      "startDate": "2014-11-24",
+      "endDate": "Present",
+      "summary": "Cash handling, customer experience improvement,multi-tasking, and teamwork",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Responsible for hundreds of transactions everyday",
+        "Listen to what customers need, and help them to get what they want",
+        "Work together as a team to handle everyday tasks and do our best to keep the store nice and clean",
+        "Being a trustworthy employee and a valuable team member are what I learned while working at Walgreens"
       ]
     }
   ],
@@ -141,24 +153,23 @@
       "endDate": "",
       "summary": "",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Member, ACM Manoa, 2016-Present",
+        "Member, IEEE Student Branch, 2014-Present"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "First Place",
+      "date": "2012",
+      "awarder": "Honolulu Community College",
+      "summary": "I won the first place for the Sumobot Competetion of the Engineering Summer Program at Honolulu Community College in 2012 (See in my Project)"
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Second Place",
+      "date": "2012",
+      "awarder": "Honolulu Community College",
+      "summary": "I finished 2nd place for the Mousebot Race for the same Engineering Summer Program at Honolulu Community College (See in my Project)"
     }
   ],
   "references": [
