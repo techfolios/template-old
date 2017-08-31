@@ -23,7 +23,7 @@ This year, our group participated in a student exchange with students from Kyush
 <img class="ui centered large image" src="../images/IMG_0398.JPG">
 
 I was extremely grateful to have been allowed to participate in the program. I was able to meet many different types of people and develop teamwork skills as we worked together on group projects. Through this program, I gained first-hand experience of a different culture and setting that I had to adapt to. I learned a bit about Japanese language and how to communicate despite a language barrier. Not only have I learned about the historical events in Japan, but present and future accomplishments.
-<img class="ui centered large image" src="../images/Yaskawa.jpg">
+<img class="ui centered large image" src="../images/YaskawaPic.jpg">
 
 As the schedule everyday was packed with events to do from morning till night, I also learned manage the small amount of free time we were given. <img class="ui centered large image" src="../images/IMG_0929.JPG"> By saving energy during my breaks, I was even more focused and attentive during events.
 
