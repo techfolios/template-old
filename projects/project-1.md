@@ -8,7 +8,7 @@ date: 2012-06-28
 labels:
   - Robotics
   - Engineering
-summary: In the summer of 2012, I had a chance to experience and competed in three engineering competitions: Sumobot, Mousebot Race.  I was lucky enough to win in both competitions.
+summary: "In the summer of 2012, I had a chance to experience and competed in three engineering competitions: Sumobot, Mousebot Race.  I was lucky enough to win in both competitions."
 ---
 <div class="ui small rounded images">
   <img class="ui image" src="../images/sumobotComp.png">
