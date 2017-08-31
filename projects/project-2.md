@@ -12,9 +12,9 @@ labels:
 summary: On a scholarship, a group of students and I went to Japan to learn about Japanese history and culture for a week.
 ---
 
-<div>
-<img class="ui medium rounded floating image" src="../images/GroupPic.jpg">
-<img class="ui medium rounded floating image" src="../images/kakehashi.jpg">
+<div class="ui medium rounded image">
+<img src="../images/GroupPic.jpg">
+<img src="../images/kakehashi.jpg">
 </div>
 
 In the spring of 2017, I, along with 22 other students, was able to go on an all expenses paid trip to Japan as scholars of the Kakehashi Tomodachi Scholars Program. The program was developed by the US-Japan Council; it was created to allow more interactions between Japan and the US. 
