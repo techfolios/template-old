@@ -2,28 +2,32 @@
 layout: project
 type: project
 image: images/micromouse.jpg
-title: Micromouse
+title: Summer Engineering Program
 permalink: projects/micromouse
-date: 2015
+date: 2012-06-28
 labels:
   - Robotics
-  - Arduino
+  - Engineering
   - C++
 summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/summerProgram.jpg">
+  <img class="ui image" src="../images/mousebotrace.png">
+  <img class="ui image" src="../images/summerProgram.png">
+  <img class="ui image" src="../images/Mousebot.png">
+  <img class="ui image" src="../images/Sumobot.png">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+In the summer of 2012, I had a chance to experience and competed in three engineering competitions: Sumobot, Mousebot Race, and Spaghetti bridge building. I was lucky enough to win two out of three competitions (Sumobot and Mousebot Race)against 30 other students, but even if I didn't win anything, I would also be satisfied with what I learned about Engineering. I was stunned about the technologies that I was able to use to build the robots.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+First of all, I want to talk about the Mousebot. For this robot, we learned to assembly the Mousebot from scratches. The Mousebot was controlled by a chip board. One interesting thing about the Mousebot was that it had a sensor that could detect the light and always move towards the light. The sensors were placed on two of its eyes, (Yes, the eyes were not for decorating only) so it could detect the light from both sides. The biggest challenge to assembly the Mousebot was to make sure the eyes are aligned correctly because if they are not balanced, the Mousebot would be confused about the source of the light and it would keep spinning around and around. That happened to a lot of students including me, but luckily I was able to fix it to make it work.
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+Second of all, and also my favorite, the Sumobot. Maybe you could have guess what it does from the name, they knocked each other out, well technically. However, one more thing about the Sumobot was that it also had a sensor to detect the arena and make sure it wouldn't drop out of the arena intentionally even after it pushed its oponent out of the ring.
+
+In summary, I had learned many different things in that Summer Program, and the experience that I had, I would never forget. It helped inspire me more about technology, it gave me a vision about how the future may look like, and I also want to be apart of that.
+You can learn more at the [UH Manoa P-20 Website](https://manoa.hawaii.edu/news/article.php?aId=5178).
 
 
 
