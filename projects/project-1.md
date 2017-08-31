@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/sumobotComp.png
 title: Summer Engineering Program
-permalink: projects/summerprogram
+permalink: projects/project-1.md
 date: 2012-06-28
 labels:
   - Robotics
