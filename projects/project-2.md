@@ -28,3 +28,5 @@ I was extremely grateful to have been allowed to participate in the program. I w
 As the schedule everyday was packed with events to do from morning till night, I also learned manage the small amount of free time we were given. <img class="ui centered large image" src="../images/IMG_0929.JPG"> By saving energy during my breaks, I was even more focused and attentive on the tasks at hand.
 
 
+Information regarding the Kakehashi Tomodachi Project can be found [here](http://usjapantomodachi.org/programs-activities/tomodachi-inouye-scholars-program/).
+A blog regarding my experience can be found [here](https://uhtomodachi.wordpress.com/2017/04/01/my-experience-in-japan/).
