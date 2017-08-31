@@ -12,7 +12,7 @@ labels:
 summary: On a scholarship, a group of students and I went to Japan to learn about Japanese history and culture for a week.
 ---
 
-<div class="ui medium rounded image">
+<div class="ui medium rounded floated image">
 <img src="../images/GroupPic.jpg">
 <img src="../images/kakehashi.jpg">
 </div>
