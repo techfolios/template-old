@@ -2,14 +2,19 @@
 layout: project
 type: project
 image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
-date: 2014
+title: Teaching Assistant
+permalink: projects/TA
+date: 2017
 labels:
-  - Lisp
-  - GitHub
-summary: A text adventure game I developed for ICS 313.
+  - Leadership
+  - Organization
+  - Japanese American History
+summary: I am a teaching assistant for a lab section of the course Japanese Americans.
 ---
+
+The course Japanese Americans, taught by Dennis Ogawa, talks about Japanese Americans and their contributions in changing history. It introduces the start of Japanese American history. The course mostly focuses on Japanese Americans from Hawaii
+
+
 
 <img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
 
