@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/GroupPic.jpg
-title: Kakehashi Tomodachi Project 2017
+title: Kakehashi Tomodachi Program
 permalink: projects/kakehashi
 date: 2017
 labels:
@@ -14,7 +14,8 @@ summary: On a scholarship, a group of students and I went to Japan to learn abou
 
 <img class="ui centered large image" src="../images/GroupPic.jpg">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+In the spring of 2017, I, along with 22 other students, was able to go on an all expenses paid trip to Japan. The Kakehashi Tomodachi Scholars Program, funded by the US-Japan Council, was created to allow more interactions between Japan and the US. 
+<img class="ui medium rounded floating image" src="../images/GroupPic.jpg">
 
 Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
 
