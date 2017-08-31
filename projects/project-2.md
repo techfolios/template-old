@@ -22,9 +22,9 @@ This year, our group participated in a student exchange with students from Kyush
 
 <img class="ui centered large image" src="../images/IMG_0398.JPG">
 
+I was extremely grateful to have been allowed to participate in the program. I was able to meet many different types of people and develop teamwork skills as we worked together on group projects. Through this program, I gained first-hand experience of a different culture and setting that I had to adapt to. I learned a bit about Japanese language and how to communicate despite a language barrier. Not only have I learned about the historical events in Japan, but present and future accomplishments.
+<img class="ui centered large image" src="../images/Yaskawa.jpg">
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+As the schedule everyday was packed with events to do from morning till night, I also learned manage the small amount of free time we were given. <img class="ui centered large image" src="../images/IMG_0929.JPG"> By saving energy during my breaks, I was even more focused and attentive during events.
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+
