@@ -15,7 +15,7 @@ summary: On a scholarship, a group of students and I went to Japan to learn abou
 <img class="ui centered large image" src="../images/GroupPic.jpg">
 
 In the spring of 2017, I, along with 22 other students, was able to go on an all expenses paid trip to Japan. The Kakehashi Tomodachi Scholars Program, funded by the US-Japan Council, was created to allow more interactions between Japan and the US. 
-<img class="ui medium rounded floating image" src="../images/kakehashi.jpg">
+<img class="ui medium right rounded floating image" src="../images/kakehashi.jpg">
 
 Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
 
