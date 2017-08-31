@@ -21,7 +21,7 @@ Kakehashi means bridge in Japanese, and Tomodachi means friend. The goal of the 
 <img class="ui centered large image" src="../images/KyushiPic.jpg">
 This year, our group participated in a student exchange with students from Kyushu University. They learned about the legacy of Daniel Inouye and had a tour of UH Manoa's campus. During spring break, our group of students went to Japan, where we learned about Japanese history, technology, and culture. We also spent quality time with the Kyushu University students.
 
-<img class="ui centered large image" src="../images/IMG_0398.jpg">
+<img class="ui centered large image" src="../images/IMG_0398.JPG">
 
 
 Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
