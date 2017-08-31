@@ -7,6 +7,7 @@ permalink: projects/obstaclecourse
 date: 2016
 labels:
   - Java
+  - ICS 111
 summary: A simple obstacle course game that I worked on in my first ICS class. 
 ---
 
