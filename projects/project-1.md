@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/sumobotComp.png
 title: Summer Engineering Program
-permalink: projects/micromouse
+permalink: projects/summerprogram
 date: 2012-06-28
 labels:
   - Robotics
