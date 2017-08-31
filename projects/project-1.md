@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/sumobotComp.png
 title: Summer Engineering Program
 permalink: projects/micromouse
 date: 2012-06-28
