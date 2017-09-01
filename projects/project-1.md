@@ -13,7 +13,6 @@ summary: "In the summer of 2012, I had a chance to experience and competed in th
 <div class="ui small rounded images">
   <img class="ui image" src="../images/sumobotComp.png">
 </div>
-## Summer Engineering Program
 In the summer of 2012, I had a chance to experience and competed in three engineering competitions: Sumobot, Mousebot Race. I was lucky enough to win in both competitions against 30 other students, but even if I didn't win anything, I would also be satisfied with what I learned about Engineering. I was stunned about the technologies that I was able to use to build the robots.
 
   <img class="ui image" src="../images/mousebotrace.png">
