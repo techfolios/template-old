@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
+image: images/linuxterminal.png
 title: Project SmartBoard
 permalink: projects/smartboard
 date: 2016
