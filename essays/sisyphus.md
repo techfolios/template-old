@@ -6,7 +6,7 @@ date: 2017-08-31
 labels:
   - Software Engineering
 ---
-<img class = "ui centered large image" src = ".../images/sisyphus.jpg">
+<img class = "ui centered large image" src = "../images/sisyphus.jpg">
 
 ### The Myth
 
