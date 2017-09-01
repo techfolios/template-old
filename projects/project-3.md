@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
+image: images/gfb.jpg
 title: Teaching Assistant
 permalink: projects/TA
 date: 2017
