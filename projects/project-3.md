@@ -6,60 +6,15 @@ title: Teaching Assistant
 permalink: projects/TA
 date: 2017
 labels:
-  - Leadership
+  - Teaching Assistant
   - Organization
-  - Japanese American History
+
 summary: I am a teaching assistant for a lab section of the course Japanese Americans.
 ---
 
-The course Japanese Americans, taught by Dennis Ogawa, talks about Japanese Americans and their contributions in changing history. It introduces the start of Japanese American history. The course mostly focuses on Japanese Americans from Hawaii
-
-
-
+The course, Japanese Americans taught by Dennis Ogawa, talks about Japanese Americans and their contributions in changing history. It introduces the start of Japanese American history. The course mostly focuses on different generations of Japanese Americans from Hawaii and their experiences. History about Japanese Internment camps and Japanese American involvement in World War II was taught as well.
 <img class="ui image" src="{{ site.baseurl }}/images/gfb.jpg">
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+As a TA, I am responsible for all the students in my section. My responsibilities include grading all student assignments, quizzes, and exams. My goal is to help students understand more about the topic of Japanese Americans in Hawaii because they are a big part of Hawaii's history. To achieve this goal, I review important topics covered in lectures and assist students when needed.
 
-To give you a flavor of the game, here is an excerpt from one run:
-
-<hr>
-
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
-
+From my experience, I developed time management skills when developing a schedule for the students. I also acquired leadership skills from advising students on mistakes or improvements in their work. My speaking and presentation skills have also improved.
