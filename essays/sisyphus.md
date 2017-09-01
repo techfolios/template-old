@@ -6,7 +6,7 @@ date: 2017-08-31
 labels:
   - Software Engineering
 ---
-
+<img class = "ui centered large image" src = ".../images/sisyphus.jpg">
 ### The Myth
 
 Mythology has always been a subject that I was fascinated in. Stories of gods, heroes, and villians in mystical settings that defy logic. The first stories of myths that I read were Greek mythology. In many myths involving the underworld, there is usually a small bit about a man rolling a stone up a hill, named Sisyphus. Sisyphus was a famous person in Greek mythology. He was a crafty king, who was devious enough to outwit gods, but Zeus condemned him to an eternal punishment to the underworld. He was forced to push an enormous boulder up to the very top of a steep hill only to have the boulder roll back down to hit him and have him roll the boulder back up again. 
