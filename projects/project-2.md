@@ -2,23 +2,19 @@
 layout: project
 type: project
 image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
-date: 2015
+title: Project SmartBoard
+permalink: projects/smartboard
+date: 2016
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Linux/Ubuntu
+  - SmartBoard
+summary: I helped an Electrical Engineering professor to reinstall SmartBoard drivers and tool on a Linux PC. 
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/linuxterminal.png">
+One day, when I came to work, and my boss told me about a professor who asked her to help him set up the SmartBoard that can run on Linux (it used to run on Windows). She said <i>"That's a great opportunity for you to learn to work on Linux, you should give it a try."</i> I guess she's right, and I jumped right in to work on this project.
+I had worked on Linux before, but it was the first time that I had total control on a Linux machine that I started from scratch. Because the software for the SmartBoard only work on the 32-bit machine, so I had to reinstall the operating system as well.
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+Although, we planned to finish this project in two weeks (16 hours), it took us the whole month because Linux was not as easy as I thought it was. In order to install the SmartBoard software, I had to modify the keys, extract the packages, sign the packages with my own secret keys...and more things that I never know before.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
-
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+In this project I gained experience with how to work with Linux, about how to install packages after packages until it meets the requirement for the package that I wanted to install. It wasn't a pleasant journey, but I'm glad I was able to learn enough to succeed.
