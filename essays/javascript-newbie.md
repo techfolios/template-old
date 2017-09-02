@@ -14,6 +14,8 @@ labels:
         
   Honestly, so far, I think JavaScript is the easiest to code with, compared to Java and C. JavaScript is extremely flexible and has less restrictions, whereas Java and C have many "rules" to follow. In Java and C, I need to specify if a variable is a char, int, float, or etc. whereas in JavaScript, I don't need to specifically identify a variable as a string or an int. Also, one of the concepts that I have had the most trouble with in C programming was pointers. 
 
+<img class = "ui large centered image" src = "../images/WOD.jpg">
+
 ## Athletic Software Engineering
 
   Athletic Software Engineering is an interesting learning method. I'm more used to regular quizzes, where partial credit is given if the program is close to the answer, but not quite finished. WODs are more stressful because no partial credit is given. However, I like this method of learning because usually professors make the students write code by hand, making it harder to test your code. During the WOD, we are allowed to type our code on our laptops, test the code, and immediately see the output. I think if I had to handwrite the code during a WOD, I would be even more stressed out and my mind would go blank. Therefore, I prefer WODs, compared to regular handwritten quizzes.
