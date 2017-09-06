@@ -13,10 +13,10 @@ summary: Desenvolvimento de uma aplicativo para gerir atendimento de uma clinica
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/telaLogin.png">
-  <img class="ui image" src="../images/telaHome.jpg">
-  <img class="ui image" src="../images/telaAdmin.jpg">
-  <img class="ui image" src="../images/telaUser.png">
+  <img class="ui image" src="../images/AppDoctor/telaLogin.png">
+  <img class="ui image" src="../images/AppDoctor/telaHome.jpg">
+  <img class="ui image" src="../images/AppDoctor/telaAdmin.jpg">
+  <img class="ui image" src="../images/AppDoctor/telaUser.png">
 </div>
 
 Percebemos a necessidade de gerir o tempo no atendimento a pacientes em uma clinica hospitalar. Uma das maiores preocupações foi informar ao médico quantos pacientes evitando atrasos e sobrecarregar o profissional com mais atendimentos.
@@ -29,6 +29,6 @@ Source: <a href="https://github.com/alexjosesilva/AppDoctor">
 	<i class="large github icon"></i> AppDoctor
 </a>
 
-Url: <a href="/">
+Url: <a href="#">
 			<i class="large fa-google-play icon"></i> AppDoctor
 	</a>

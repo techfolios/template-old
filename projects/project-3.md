@@ -13,7 +13,10 @@ labels:
 summary: Sistema de gerenciamento de RH de uma empresa ficticia
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/sistemarh/sistemaRh.png">
+<div class="ui small rounded images">
+	<img class="ui image" src="{{ site.baseurl }}/images/sistemarh/sistemaRh.png">
+</div>
+
 
 Sistema de gerenciamento de funcionario permite o cadastro de funções, funcionarios na empresa
 e usuários 

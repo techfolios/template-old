@@ -15,7 +15,12 @@ labels:
 - Codeigniter
 summary: Ecommerce desenvolvido sobre o framework codeigniter para gerenciar uma loja de produtos de informática
 ---
-<img class="ui image" src="../images/lojaVirtual/lojaVirtual.jpg">
+
+<div class="ui small rounded images">
+	<img class="ui image" src="../images/lojaVirtual/lojaVirtual.jpg">
+	<img class="ui image" src="../images/lojaVirtual/telaAdm.png">
+</div>
+
 
 Projeto com fins Academico que envolve a linguagem de PHP 5.3 e o Framework CodeIgniter 1.7.2 com banco de dados MySQL e o controlador de versão gitHub. O projeto é uma loja virtual simplificado(sem plugins de pagamento). Oferece uma experiencia ao usuário para simular a compra de itens previamente cadastrados e checkout no carrinho de compras.
 Existe a area do administrador para criar usuários e inserir produtos.
