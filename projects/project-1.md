@@ -14,9 +14,6 @@ summary: Desenvolvimento de uma aplicativo para gerir atendimento de uma clinica
 
 <div class="ui small rounded images">
   <img class="ui image" src="../images/AppDoctor/telaLogin.png">
-  <img class="ui image" src="../images/AppDoctor/telaHome.jpg">
-  <img class="ui image" src="../images/AppDoctor/telaAdmin.jpg">
-  <img class="ui image" src="../images/AppDoctor/telaUser.png">
 </div>
 
 Percebemos a necessidade de gerir o tempo no atendimento a pacientes em uma clinica hospitalar. Uma das maiores preocupações foi informar ao médico quantos pacientes evitando atrasos e sobrecarregar o profissional com mais atendimentos.
