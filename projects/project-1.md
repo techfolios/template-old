@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/AppDoctor/telaAppDoctor.jpg
+image: images/AppDoctor/AppDoctor.jpg
 title: App doctor
 permalink: projects/doctor
 date: 2017
