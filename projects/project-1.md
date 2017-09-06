@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/telaAppDoctor.jpg
+image: images/AppDoctor/telaAppDoctor.jpg
 title: App doctor
 permalink: projects/doctor
 date: 2017
@@ -29,3 +29,6 @@ Source: <a href="https://github.com/alexjosesilva/AppDoctor">
 	<i class="large github icon"></i> AppDoctor
 </a>
 
+Url: <a href="/">
+			<i class="large fa-google-play icon"></i> AppDoctor
+	</a>

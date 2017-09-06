@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/lojaVirtual.jpg
+image: images/lojaVirtual/lojaVirtual.jpg
 title: Loja Virtual
 permalink: projects/lojavirtual
 date: 2015
@@ -15,11 +15,23 @@ labels:
 - Codeigniter
 summary: Ecommerce desenvolvido sobre o framework codeigniter para gerenciar uma loja de produtos de informática
 ---
-<img class="ui image" src="../images/lojaVirtual.jpg">
+<img class="ui image" src="../images/lojaVirtual/lojaVirtual.jpg">
 
-Projeto de Estudo Academico que envolve A linguagem de PHP 5.3 e o Framework CodeIgniter 1.7.2 com banco de dados Postgres 9.1 e o controlador de Versao gitHub. O projeto e um exercicio de como criar e manter uma loja virtual usando a linguagem php o framework codeigniter e ao mesmo tempo controlar a versao do projeto com o gitHub
+Projeto com fins Academico que envolve a linguagem de PHP 5.3 e o Framework CodeIgniter 1.7.2 com banco de dados MySQL e o controlador de versão gitHub. O projeto é uma loja virtual simplificado(sem plugins de pagamento). Oferece uma experiencia ao usuário para simular a compra de itens previamente cadastrados e checkout no carrinho de compras.
+Existe a area do administrador para criar usuários e inserir produtos.
+
+---Itens a melhorar
+
+Auditoria
+Gerar Relatorios
+MalaDireta: Cupom promocional
+
 
 
 Source: <a href="https://github.com/alexjosesilva/LojaVirtual">
 			<i class="large github icon"></i> Loja Virtual
 		 </a>
+
+Url: <a href="http://lojavirtualcodeigniter1.azurewebsites.net/">
+			<i class="large fa-google-play icon"></i> Loja Virtual
+	</a>
