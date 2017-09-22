@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: If You Love "Coding," Then You Should Know Its "Standard"
+title: If You Love Coding Then You Should Know Its Standard
 date: 2017-09-21
 labels:
   - Coding Standard
