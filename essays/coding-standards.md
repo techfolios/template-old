@@ -9,7 +9,7 @@ labels:
 ---
 
 ## Sorry, I Have Standards...
-<img class = "ui medium floating center image" src = "../images/keepcalm.png">
+<img class = "ui medium centered image" src = "../images/keepcalm.png">
 
 Coding standards are like guidelines for coding. Like a set of rules, they were created and used by many people for a reason. Ignore the hippies that tell you, "Rules are made to be broken." and pay attention to the drill sergeant that says "DROP AND GIVE ME 20 FOR PRODUCING THAT SORRY EXCUSE FOR A CODE." It only makes sense that everyone should follow proper coding standards. There are many programs that are created by groups of people, imagine a group with different standards of coding. Put together a couple people here producing sloppy code, a couple people there producing amazing organized code, and the one dude that codes like a baboon and what do we get? Chaos. If they all wrote a code that produces the same function, but their code is different from one another, it doesn't look good. Simply put, following proper coding standards saves time and allows everyone to work together more efficiently. There are only benefits to gain from good coding standards, so it would be smart to follow it. 
 
