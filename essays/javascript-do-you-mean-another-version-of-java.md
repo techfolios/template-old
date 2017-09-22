@@ -44,3 +44,5 @@ It's still a new thing for me, and maybe I'm not used to it yet but I think it's
 <div class="ui medium rounded images">
 	<img ui image src="../images/brainexercise.jpg">
 </div>
+
+
