@@ -63,8 +63,5 @@ Here are some "nice" codes that I wrote. Hope you like it.
 	<img ui image src="../images/thankyou.png">
 </div>
 (C) Jonathan Nguyen
-<<<<<<< HEAD
-=======
 
 <br>
->>>>>>> d98ead830db6a682c5534629f098b19071a2289c
