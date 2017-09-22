@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: If You Love "Coding," Then You Should Know Its "Standard"
+title: If You Love Coding Then You Should Know Its Standard
 date: 2017-09-21
 labels:
   - Coding Standard
@@ -46,7 +46,7 @@ He explained that if you write your code follow a certain rules, it would be a l
 
 ## ESLINT in  IntelliJ Idea Coding Standard
 <div class="ui medium rounded images">
-	<img ui image src="../images/intellij.png">
+	<img ui image src="../images/intellij.jpg">
 </div>
 
 Last but not least, I want to express my experience and opinion about the **Coding Standard** that was "highlighted" while learning [ESLINT](https://eslint.org) style in [IntelliJ Idea](https://www.jetbrains.com/idea/?fromMenu). I hope you enjoyed the meme that I just made above, and that was also my first experience with IntelliJ.
@@ -63,3 +63,8 @@ Here are some "nice" codes that I wrote. Hope you like it.
 	<img ui image src="../images/thankyou.png">
 </div>
 (C) Jonathan Nguyen
+<<<<<<< HEAD
+=======
+
+<br>
+>>>>>>> d98ead830db6a682c5534629f098b19071a2289c
