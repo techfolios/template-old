@@ -1,10 +1,10 @@
 ---
 layout: essay
 type: essay
-title: JavaScript Newbie
-date: 2017-08-31
+title: Same Same But Different
+date: 2017-09-21
 labels:
-  - Javascript
-  - WOD
+  - ESLint
+  - Coding Standards
 ---
 <img class = "ui medium floating left image" src = "../images/keepcalm.png">
