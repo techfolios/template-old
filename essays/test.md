@@ -1,12 +1,11 @@
 ---
 layout: essay
 type: essay
-title: Simple UI
-date: 2017-10-5
+title: JavaScript Newbie
+date: 2017-08-31
 labels:
-  - UI Frameworks
-  - HTML
-  - Semantic UI
+  - Javascript
+  - WOD
 ---
 
 blah blkajsdhafl dsa
