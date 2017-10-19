@@ -8,7 +8,7 @@ labels:
   - Meteor
 ---
 <div class="ui image">
-  <img src="http://docs.meteor.com/images/logo-coralspace-left.svg">
+  <img class="ui small image" src="http://docs.meteor.com/images/logo-coralspace-left.svg">
 Like every first-time doing something, there is always some problems that you encounter during the learning curve, and there is no better way to learn than solving your own problems. Fortunately, that's the way I learn. In other words, I always fail a lot whenever I try something new, and learning Meteor is not an exception.
 
 First of all, the problem that I encountered with Meteor was variables. In Meteor, there are so many different files in many different directories. So it's not easy to use variables because if you call one wrong, it's hard to track the problem. Especially, if you use the same variable name, that even make it harder because you can easily get lost if the debugger does not point exactly the location of your errors. That's why when I name a variable in a Meteor project, I always try to be as creative as possible to come up with a new name for each variables to make it easier to track.
