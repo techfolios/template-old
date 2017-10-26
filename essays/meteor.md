@@ -7,7 +7,7 @@ labels:
   - Meteor
 ---
 
-<img class = "ui medium centered image" src = "https://en.wikipedia.org/wiki/Meteor_(web_framework)#/media/File:Meteor-logo.png">
+<img class = "ui medium centered image" src = "https://d14xs1qewsqjcd.cloudfront.net/assets/og-image-logo.png">
 
 ## METEOR, What is it?
 
@@ -15,3 +15,6 @@ Meteor is a javascript web framework. It's widely used because of how efficient 
 
 ## Meteor on the Mind
 
+So far, meteor is a framework that is very different from all the frameworks that I've used thus far. One of the things I like about meteor is the immediate update in the web page after altering and inputting code into the editor. This characteristic of meteor saves me a lot of time, without it, I could've been spending most of my time on testing my code. One thing that bothers me is the runtime of meteor commands; for example, running the code "meteor run" in the command terminal often takes a bit of time, especially when its being run for the first time, in a project. Often times, I just sit there, blankly staring at the terminal, twiddling my thumbs, and waiting for the command to finish running. 
+
+Learning meteor is a bit difficult. I would say, unless you're a skilled developer, that learning code on meteor is tricky. 
