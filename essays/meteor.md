@@ -7,7 +7,7 @@ labels:
   - Meteor
 ---
 
-<img class = "ui medium centered image" src = https://en.wikipedia.org/wiki/Meteor_(web_framework)#/media/File:Meteor-logo.png>
+<img class = "ui medium centered image" src = "https://en.wikipedia.org/wiki/Meteor_(web_framework)#/media/File:Meteor-logo.png">
 
 ## METEOR, What is it?
 
