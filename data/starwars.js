@@ -259,3 +259,234 @@ var actors = [
     ]
   },
 ];
+
+var roles = [
+  {
+    "role": "luke_skywalker",
+    "actors" : [
+      "mark_hamill",
+    ],
+  },
+  {
+    "role": "han_solo",
+    "actors" : [
+      "harrison_ford",
+    ]
+  },
+  {
+    "role": "princess_leia",
+    "actors" : [
+      "carrie_fisher",
+    ]
+  },
+  {
+    "role": "grand_moff_tarkin",
+    "actors" : [
+      "peter_cushing",
+    ]
+  },
+  {
+    "role": "obi_wan_kenobi",
+    "actors" : [
+      "alec_guinness"
+    ]
+  },
+  {
+    "role": "c3po",
+    "actors" : [
+      "anthony_daniels",
+    ]
+  },
+  {
+    "role": "r2d2",
+    "actors" : [
+      "kenny_baker",
+    ]
+  },
+  {
+    "role": "chewbacca",
+    "actors" : [
+      "peter_mayhew",
+    ]
+  },
+  {
+    "role": "darth_vader",
+    "actors" : [
+      "david_prowse",
+    ]
+  },
+  {
+    "role": "uncle_owen",
+    "actors" : [
+      "phil_brown",
+    ]
+  },
+  {
+    "role": "lando_calrissian",
+    "actors" : [
+      "billy_dee_williams",
+    ]
+  },
+  {
+    "role": "yoda",
+    "actors" : [
+      "frank_oz",
+    ]
+  },
+  {
+    "role": "anakin_skywalker",
+    "actors" : [
+      "sebastian_shaw",
+    ]
+  },
+  {
+    "role": "the_emperor",
+    "actors" : [
+      "ian_mcdiarmid",
+    ]
+  },
+  {
+    "role": "darth_vader",
+    "actors" : [
+      "james_earl_jones",
+    ]
+  },
+  {
+    "role": "qui_gon_jinn",
+    "actors" : [
+      "liam_neeson",
+    ]
+  },
+  {
+    "role": "obi_wan_kenobi",
+    "actors" : [
+      "ewan_mcgregor",
+    ]
+  },
+  {
+    "role": "queen_amidala",
+    "actors" : [
+      "natalie_portman",
+    ]
+  },
+  {
+    "role": "padme",
+    "actors" : [
+      "natalie_portman",
+    ]
+  },
+  {
+    "role": "anakin_skywalker",
+    "actors" : [
+      "jake_lloyd",
+    ]
+  },
+  {
+    "role": "sio_bibble",
+    "actors" : [
+      "oliver_ford_davies",
+    ]
+  },
+  {
+    "role": "captain_panaka",
+    "actors" : [
+      "hugh_quarshie",
+    ]
+  },
+  {
+    "role": "jar_jar_binks",
+    "actors" : [
+      "ahmed_best",
+    ]
+  },
+  {
+    "role": "count_dooku",
+    "actors" : [
+      "christopher_lee",
+    ]
+  },
+  {
+    "role": "darth_tyranus",
+    "actors" : [
+      "christopher_lee",
+    ]
+  },
+  {
+    "role": "mace_windu",
+    "actors" : [
+      "samuel_l_jackson",
+    ]
+  },
+  {
+    "role": "supreme_chancellor_palpatine",
+    "actors" : [
+      "ian_mcdiarmid",
+    ]
+  },
+  {
+    "role": "shmi_skywalker",
+    "actors" : [
+      "pernilla_august",
+    ]
+  },
+  {
+    "role": "jango_fett",
+    "actors" : [
+      "temuera_morrison",
+    ]
+  },
+  {
+    "role": "senator_bail_organa",
+    "actors" : [
+      "jimmy_smits",
+    ]
+  },
+  {
+    "role": "queen_of_naboo",
+    "actors" : [
+      "keisha_castle_hughes",
+    ]
+  },
+  {
+    "role": "kylo_ren",
+    "actors" : [
+      "adam_driver",
+    ]
+  },
+  {
+    "role": "rey",
+    "actors" : [
+      "daisy_ridley",
+    ]
+  },
+  {
+    "role": "finn",
+    "actors" : [
+      "john_boyega",
+    ]
+  },
+  {
+    "role": "poe_dameron",
+    "actors" : [
+      "oscar_issac",
+    ]
+  },
+  {
+    "role": "maz_kanata",
+    "actors" : [
+      "lupita_nyong",
+    ]
+  },
+  {
+    "role": "supreme_leader_snoke",
+    "actors" : [
+      "andy_serkis",
+    ]
+  },
+  {
+    "role": "general_hux",
+    "actors" : [
+      "domhnall_gleeson",
+    ]
+  },
+];
