@@ -4,6 +4,7 @@ var actors = [
     "last": "hamill",
     "movies": [
       "star_wars4",
+      "star_wars5",
     ]
   },
   {
