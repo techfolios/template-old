@@ -70,6 +70,7 @@ var actors = [
     "last": "baker",
     "movies": [
       "star_wars4",
+      "star_wars5",
     ]
   },
   {
@@ -79,6 +80,13 @@ var actors = [
       "star_wars4",
       "star_wars5",
       "star_wars6",
+    ]
+  },
+  {
+    "first": "phil",
+    "last": "brown",
+    "movies": [
+      "star_wars4",
     ]
   },
   {
@@ -100,15 +108,6 @@ var actors = [
     ]
   },
   {
-    "first": "ian",
-    "last": "mcdiarmid",
-    "movies": [
-      "star_wars6",
-      "star_wars1",
-      "star_wars2",
-    ]
-  },
-  {
     "first": "liam",
     "last": "neeson",
     "movies": [
@@ -125,6 +124,13 @@ var actors = [
     ]
   },
   {
+    "first": "silas",
+    "last": "carson",
+    "movies": [
+      "star_wars3",
+    ]
+  },
+  {
     "first": "natalie",
     "last": "portman",
     "movies": [
@@ -137,14 +143,14 @@ var actors = [
     "first": "jake",
     "last": "lloyd",
     "movies": [
-      "star_wars6",
+      "star_wars1",
     ]
   },
   {
     "first": "pernilla",
     "last": "august",
     "movies": [
-      "star_wars6",
+      "star_wars1",
       "star_wars2",
     ]
   },
@@ -152,14 +158,14 @@ var actors = [
     "first": "hugh",
     "last": "quarshie",
     "movies": [
-      "star_wars6",
+      "star_wars1",
     ]
   },
   {
     "first": "ahmed",
     "last": "best",
     "movies": [
-      "star_wars6",
+      "star_wars1",
     ]
   },
   {
@@ -168,6 +174,7 @@ var actors = [
     "movies": [
       "star_wars6",
       "star_wars1",
+      "star_wars2",
       "star_wars3",
     ]
   },
