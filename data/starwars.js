@@ -232,7 +232,7 @@ var actors = [
   },
   {
     "first": "lupita",
-    "last": "nyong'o",
+    "last": "nyong",
     "movies": [
       "star_wars7",
     ]
