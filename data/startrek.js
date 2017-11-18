@@ -137,6 +137,13 @@ var s_actors = [
     ]
   },
   {
+    "first": "robin",
+    "last": "curtis",
+    "movies": [
+      "star_trek3",
+    ]
+  },
+  {
     "first": "jane",
     "last": "wyatt",
     "movies": [
@@ -437,6 +444,321 @@ var s_actors = [
     "last": "taslim",
     "movies": [
       "star_trek13",
+    ]
+  },
+];
+
+var s_roles = [
+  {
+    "role": "captain_kirk",
+    "actors" : [
+      "william_shatner",
+    ]
+  },
+  {
+    "role": "spock",
+    "actors" : [
+      "leonard_nimoy",
+    ]
+  },
+  {
+    "role": "dr_mccoy",
+    "actors" : [
+      "deforest_kelley",
+    ]
+  },
+  {
+    "role": "scotty",
+    "actors" : [
+      "james_doohan",
+    ]
+  },
+  {
+    "role": "sulu",
+    "actors" : [
+      "george_takei",
+    ]
+  },
+  {
+    "role": "dr_chapel",
+    "actors" : [
+      "majel_barrett",
+    ]
+  },
+  {
+    "role": "chekov",
+    "actors" : [
+      "walter_koenig",
+    ]
+  },
+  {
+    "role": "uhura",
+    "actors" : [
+      "nichelle_nichols",
+    ]
+  },
+  {
+    "role": "illia",
+    "actors" : [
+      "persis_khambatta",
+    ]
+  },
+  {
+    "role": "decker",
+    "actors" : [
+      "stephen_collins",
+    ]
+  },
+  {
+    "role": "carol",
+    "actors" : [
+      "bibi_besch",
+    ]
+  },
+  {
+    "role": "david",
+    "actors" : [
+      "merritt_butrick",
+    ]
+  },
+  {
+    "role": "terrell",
+    "actors" : [
+      "paul_winfield",
+    ]
+  },
+  {
+    "role": "saavik",
+    "actors" : [
+      "robin_curtis",
+    ]
+  },
+  {
+    "role": "trainee_foster",
+    "actors" : [
+      "phil_morris",
+    ]
+  },
+  {
+    "role": "amanda",
+    "actors" : [
+      "jane_wyatt",
+    ]
+  },
+  {
+    "role": "gillian",
+    "actors" : [
+      "catherine_hicks",
+    ]
+  },
+  {
+    "role": "sarek",
+    "actors" : [
+      "mark_lenard",
+    ]
+  },
+  {
+    "role": "john_talbot",
+    "actors" : [
+      "david_warner",
+    ]
+  },
+  {
+    "role": "sybok",
+    "actors" : [
+      "laurence_luckinbill",
+    ]
+  },
+  {
+    "role": "korrd",
+    "actors" : [
+      "charles_cooper",
+    ]
+  },
+  {
+    "role": "Valeris",
+    "actors" : [
+      "kim_cattrall",
+    ]
+  },
+  {
+    "role": "chief_in_command",
+    "actors" : [
+      "leon_russom",
+    ]
+  },
+  {
+    "role": "picard",
+    "actors" : [
+      "patrick_stewart",
+    ]
+  },
+  {
+    "role": "riker",
+    "actors" : [
+      "jonathan_frakes",
+    ]
+  },
+  {
+    "role": "data",
+    "actors" : [
+      "brent_spiner",
+    ]
+  },
+  {
+    "role": "geordi",
+    "actors" : [
+      "levar_burton",
+    ]
+  },
+  {
+    "role": "worf",
+    "actors" : [
+      "michael_dorn",
+    ]
+  },
+  {
+    "role": "beverly",
+    "actors" : [
+      "gates_mcfadden",
+    ]
+  },
+  {
+    "role": "troi",
+    "actors" : [
+      "marina_sirtis",
+    ]
+  },
+  {
+    "role": "soran",
+    "actors" : [
+      "malcoml_mcdowell",
+    ]
+  },
+  {
+    "role": "lily",
+    "actors" : [
+      "alfre_woodard",
+    ]
+  },
+  {
+    "role": "zefram_cochran",
+    "actors" : [
+      "james_cromwell",
+    ]
+  },
+  {
+    "role": "borg_queen",
+    "actors" : [
+      "alice_krige",
+    ]
+  },
+  {
+    "role": "Ruafo",
+    "actors" : [
+      "murray_abraham",
+    ]
+  },
+  {
+    "role": "anij",
+    "actors" : [
+      "donna_murphy",
+    ]
+  },
+  {
+    "role": "dougherty",
+    "actors" : [
+      "anthony_zerbe",
+    ]
+  },
+  {
+    "role": "shinzon",
+    "actors" : [
+      "tom_hardy",
+    ]
+  },
+  {
+    "role": "viceroy",
+    "actors" : [
+      "ron_perlman",
+    ]
+  },
+  {
+    "role": "senator_talaura",
+    "actors" : [
+      "shannon_cochran",
+    ]
+  },
+  {
+    "role": "captain_kirk",
+    "actors" : [
+      "chris_pine",
+    ]
+  },
+  {
+    "role": "spock",
+    "actors" : [
+      "zachary_quinto",
+    ]
+  },
+  {
+    "role": "pike",
+    "actors" : [
+      "bruce_greenwood",
+    ]
+  },
+  {
+    "role": "bones",
+    "actors" : [
+      "karl_urban",
+    ]
+  },
+  {
+    "role": "uhura",
+    "actors" : [
+      "zoe_saldana",
+    ]
+  },
+  {
+    "role": "scotty",
+    "actors" : [
+      "simon_pegg",
+    ]
+  },
+  {
+    "role": "sulu",
+    "actors" : [
+      "john_cho",
+    ]
+  },
+  {
+    "role": "chekov",
+    "actors" : [
+      "anton_yelchin",
+    ]
+  },
+  {
+    "role": "khan",
+    "actors" : [
+      "benedict_cumberbatch",
+    ]
+  },
+  {
+    "role": "krall",
+    "actors" : [
+      "idris_elba",
+    ]
+  },
+  {
+    "role": "jaylah",
+    "actors" : [
+      "sofia_boutella",
+    ]
+  },
+  {
+    "role": "manas",
+    "actors" : [
+      "joe_taslim",
     ]
   },
 ];
