@@ -576,7 +576,7 @@ var s_roles = [
     ]
   },
   {
-    "role": "Valeris",
+    "role": "valeris",
     "actors" : [
       "kim_cattrall",
     ]
@@ -654,7 +654,7 @@ var s_roles = [
     ]
   },
   {
-    "role": "Ruafo",
+    "role": "ruafo",
     "actors" : [
       "murray_abraham",
     ]
