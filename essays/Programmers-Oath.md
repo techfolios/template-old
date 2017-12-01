@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: Programmer's Oath
-date: 2017-09-07
+date: 2017-11-30
 labels:
   - Ethics
 ---
