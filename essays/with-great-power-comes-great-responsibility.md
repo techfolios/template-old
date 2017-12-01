@@ -90,7 +90,7 @@ labels:
 * Practicing ethical actions would only make your life easier, but not the other way around. However, sometimes, practicing ethical actions requires a lot of strength and courage. It’s not easy to turn down a high-paying job or a good amount of money, but you should ask yourself that do you feel right about what you’re doing? And if you do it, what would be the consequences? Choosing what’s right is not easy, but that’s a decision that you would never have to regret.
 	
 	<img class="ui medium image centered" 
-	src="/images/should_i_go.jpg">
+	src="/images/should_I_go.jpg">
 	
 **5. Seeking the Company of Other Moral Persons:**
 * Sometimes, seeking advices from friends who we trust and respect their moral also helps us from being isolated in the process of decision making. Advices from friends with moral character would also help to increase our chance of making the right decision.
