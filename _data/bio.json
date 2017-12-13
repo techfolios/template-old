@@ -62,7 +62,7 @@
         "C++",
         "Java",
         "Javascript",
-        "Assembly"
+        "Assembly",
         "Arduino"
       ]
     },
@@ -71,7 +71,7 @@
       "level": "",
       "keywords": [
         "Git/GitHub",
-        "g++"
+        "g++",
         "Meteor"
       ]
     }
