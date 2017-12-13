@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/Build.JPG
+image: images/Build.PNG
 title: Robotic Phantom Breather
 permalink: projects/Pattern Recognition
 date: 2016
