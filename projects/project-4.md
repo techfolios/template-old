@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/mz.png
+image: images/mz.jpg
 title: Munchie Zone
 permalink: projects/munchiezone
 date: 2017
@@ -22,3 +22,4 @@ summary: The website Munchie Zone was a group project produced using skills lear
 ## The Start
 
 At the end of our Software Engineering course, we had a final group project due. The goal was to create a functional website that utilizes all the skills and information that we learned throughout the course. Not only did we have to create a functioning website, but we also had to document the milestones we achieved in a GitHub page, which can be viewed<a href="https://munchiezone.github.io/">here.</a>
+<img class = "ui medium floated image" src="../images/mz1.png">
