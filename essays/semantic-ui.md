@@ -8,7 +8,7 @@ labels:
   - HTML/CSS
 ---
 
-## What is Semantic UI?
+## Just Some Semantics?
 
 Semantic UI is a front-end development framework that utilizes simple english words to code and design a website. The framework consists of categories for UI components. Each component can be combined and manipulated in different ways to form different variations of the components. The framework allows for users to only use english, to code and create websites that may have been more complex to create with just HTML/CSS. The language of Semantic UI is descriptive, so users will have an easier time understanding the purpose and usage of classes.
 
