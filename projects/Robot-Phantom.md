@@ -4,7 +4,7 @@ type: project
 image: images/IMG_1869.jpg
 title: Robotic Phantom Breather
 permalink: projects/Pattern Recognition
-date: 2016
+date: 2017
 labels:
   - C
   - Arduino
