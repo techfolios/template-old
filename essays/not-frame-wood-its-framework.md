@@ -1,14 +1,14 @@
 ---
 layout: essay
 type: essay
-title: Not Framewood, It's Framework
+title: Not Frame-wood, It's Framework
 date: 2017-10-05
 labels:
   - Web Application
   - Framework
   - Meme
 ---
-## WHAT IS A FRAMEWORK?
+## What is a framework?
 
 For most people, when they think of framework, the first thing that comes to mind is a skeleton structure that is used as a guide to build houses and such. However in programming world, it's not that much different. In fact, it's almost the same idea. 
 
@@ -45,7 +45,7 @@ Using framework could save you all the time and effort. The contents and materia
 			src="/images/itsfree.jpg">
 
 Most frameworks are **free** and **open sources**, so there is nothing for you to lose to try it out, well there maybe something, but we will discuss about that later.
-## HOW DOES IT HELP?
+## How does it help?
 
 A programming framework provides a guidelines and library to build a program in such way to make it:
 - More organize.
@@ -83,7 +83,7 @@ As easy as it sounds, it would take some times to work with a new framework befo
 <img class="ui image medium centered" 
 	src="/images/samebutdifferent.gif">
 
-## GOOD FRAMEWORKS FOR JS ENVIROMENT:
+## Good frameworks for JS environment:
 <div class="ui three column grid">
 			<div class="column">
 				<img class="ui tiny circular image" 

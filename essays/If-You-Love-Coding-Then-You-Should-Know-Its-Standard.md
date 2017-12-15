@@ -11,7 +11,7 @@ labels:
 
 # Introduction:
 
-In every country, every community, there is always a law and order that everyone must follows. Have you ever wondered why you should follow the law? It's not like you would die if you didn't, so why should you? The law is just papers with a lot of rules written all over them, and the reason we need to have those rules is to judge our actions, to prevent us from doing the wrong things that may not only harm us, but also the others. 
+In every country, every community, there is always a law and order that everyone must follows. Have you ever wondered why you should follow the law? It's not like you would die if you did not, so why should you? The law is just papers with a lot of rules written all over them, and the reason we need to have those rules is to judge our actions, to prevent us from doing the wrong things that may not only harm us, but also the others. 
 
 **Coding Standard** can be seen as some kind of law (although it's not as serious) that help coders who follow to work more efficiently and consistently, especially when they work together because if everyone follow the same rules, they can easily notice others' mistake and correct it as soon as possible.
 
@@ -62,6 +62,5 @@ Here are some "nice" codes that I wrote. Hope you like it.
 <div class="ui large rounded images">
 	<img ui image src="../images/thankyou.png">
 </div>
-(C) Jonathan Nguyen
 
 <br>

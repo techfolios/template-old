@@ -22,12 +22,10 @@ The cool thing about MongoDB is that it can work in both client and server side,
 
 
 ### Ultra Simple Environment
-Meteor didn't lie about its ability to help rapidly speed up the process of the app development. Since Meteor is a framework for Javascript (just like how [Semantic UI](https://semantic-ui.com) is a framework for HTML & CSS), it has its built-in functions that can simplify a whole process in just one line of code.
+Meteor did not lie about its ability to help rapidly speed up the process of the app development. Since Meteor is a framework for Javascript (just like how [Semantic UI](https://semantic-ui.com) is a framework for HTML & CSS), it has its built-in functions that can simplify a whole process in just one line of code.
 
 For example, to create a table with the name **Contacts** with MySQL in PHP, you would need something like this:
-
-<div class="ui segment">
-<pre><code class="PHP">
+```
 //createDB.php
 ...
 // Create connection
@@ -40,16 +38,12 @@ if ($conn->connect_error) {
 // sql to create table
 $sql = "CREATE TABLE Contacts (
 ...
-</code></pre>
-</div>
+```
 
 Meanwhile, in Meteor, all you need is:
-<div class="ui segment">
-<pre><code class="PHP">
+```
 export const Contacts = new Mongo.Collection('Contacts');
-</code></pre>
-</div>
-
+```
 ### Instantly Update UI
 
 Meteor has an interesting feature called **live-browser reloading** that will auto reload and update the client-side's UI every time there is something change on the server-side.

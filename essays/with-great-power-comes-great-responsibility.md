@@ -18,8 +18,10 @@ labels:
 
 ## What is ACM Code of Ethics about?
 * Ethics is not only about avoid harm to other but also about how we contribute to the society and the world, how we change life of people who we knows and those who we never meet, and how we make the world somehow better than it wouldn’t have been without us. 
-* “‘Doing good’ is not something that matters only to missionaries, social workers and philanthropists. To live a ‘good life’ is to make a positive contribution to the world through your existence, to be able to say at the end of your life that in your short time here, you made the world at least somewhat better than it would have been without you in it.”
-* “Excellent doctors contribute health and vitality to their patients and medical knowledge to their interns and colleagues; excellent professors cultivate knowledge, insight, skill and confidence in their students and contribute the benefits of their research to the wider community; excellent lawyers contribute balance, fairness and intellectual vigor to a larger system of justice.”
+<blockquote>
+Doing good is not something that matters only to missionaries, social workers and philanthropists. To live a ‘good life’ is to make a positive contribution to the world through your existence, to be able to say at the end of your life that in your short time here, you made the world at least somewhat better than it would have been without you in it.
+</blockquote>
+* Excellent doctors contribute health and vitality to their patients and medical knowledge to their interns and colleagues; excellent professors cultivate knowledge, insight, skill and confidence in their students and contribute the benefits of their research to the wider community; excellent lawyers contribute balance, fairness and intellectual vigor to a larger system of justice.
 
 <div class="ui items">
   <div class="item">
@@ -68,7 +70,7 @@ labels:
 ## Why being ethical is important?
 * Being ethical is as important as being professional. A profession that is respected by the public must also have a strong ethics background. For example, the public give more respect to professions such as doctor or professor than to a salesperson or a retail clerk. The reason is not because lack of skill or experience because to become a good salesperson or a retail clerk must require some specialized skills to do their jobs. It’s all about **trust**. 
 
-* In the public’s eyes, a doctor or a professor is someone they can trust. A sick person would trust a doctor with his life because he/she knows the doctor has made a commitment to save lives. And a student would trust his/her professor's lectures because he/she knows that the professor has also made a commitment to share the knowledges that are well gathered throughout his/her life to the students. And trust is not something given for free, it has to be earned. A doctor earned trust for saving lives, a professor earned trusts for given valuable lesson, what about software engineer? As a software engineer, you should keep asking yourself this question. Reading [ACM Code of Ethics](http://www.acm.org/about/code-of-ethics) may give some good hints.
+* In the public’s eyes, a doctor or a professor is someone they can trust. A sick person would trust a doctor with his life because he/she knows the doctor has made a commitment to save lives. And a student would trust his/her professor's lectures because he/she knows that the professor has also made a commitment to share the knowledge that are well gathered throughout his/her life to the students. And trust is not something given for free, it has to be earned. A doctor earned trust for saving lives, a professor earned trusts for given valuable lesson, what about software engineer? As a software engineer, you should keep asking yourself this question. Reading [ACM Code of Ethics](http://www.acm.org/about/code-of-ethics) may give some good hints.
 
 ## How to practice to live and work ethically:
 **1. Self-Reflection/Examination:**
@@ -78,7 +80,7 @@ labels:
 		src="/images/i_want_you_to_be_better.jpg">
 	
 **2. Looking for Moral Exemplars:**
-* Most people spend their time to judge other’s actions and despise other’s failure to feel good about themselves. However, they didn’t notice that by judging other’s action doesn’t make them become any better. Instead, they should learn to help, share the difficulties with others. Try to put themselves in their shoes, and learn to figure out how to overcome the difficulties together. These actions does not only help to improve our experience, but it also helps to enhance our social relationship with others. 
+* Most people spend their time to judge other’s actions and despise other’s failure to feel good about themselves. However, they did not notice that by judging other’s action doesn’t make them become any better. Instead, they should learn to help, share the difficulties with others. Try to put themselves in their shoes, and learn to figure out how to overcome the difficulties together. These actions does not only help to improve our experience, but it also helps to enhance our social relationship with others. 
 
 	<img class="ui image large centered"
 		src="/images/sinking_boat.jpg">
@@ -104,7 +106,6 @@ labels:
 <img class="ui image centered"
 	src="/images/petrov.jpg">
 	
-- Anyway, in his situation, Petrov understands how important his job is, and the consequences that could happen if he makes a mistake. (In this case, World War 3 may, would have happened). Therefore, although according to all the protocols what he was trained, he should have reported the missiles launching right away. However, under his consciousness, Petrov doesn't feel right. Why only 5 missiles? If the United States wants to destroy the Russian Air Base, they would need hundreds. It could be a computer error.
- 
-&nbsp;
+- Anyway, in his situation, Petrov understands how important his job is, and the consequences that could happen if he makes a mistake. (In this case, World War 3 may, would have happened). Therefore, although according to all the protocols what he was trained, he should have reported the missiles launching right away. However, under his consciousness, Petrov did not feel right. Why only 5 missiles? If the United States wants to destroy the Russian Air Base, they would need hundreds. It could be a computer error.
+
 - If he chose to report it, he knows a war could break out between the United States and the Soviet Russia, and so their allies. Hundred millions would die if he trust the computer system, but luckily he trusted his gut, and his gut tells him there is something wrong so it's not right to react right away. And he was right, it was just a computer error that could have destroyed the World.

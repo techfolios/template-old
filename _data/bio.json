@@ -2,12 +2,12 @@
 {
   "basics": {
     "name": "Jonathan M Nguyen",
-    "label": "Student",
+    "label": "Computer Scientist",
     "picture": "https://jonathanmng.github.io/images/jonathanNg.png",
     "email": "nn4@hawaii.edu",
     "phone": "808-277-8292",
     "website": "https://jonathanmng.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2018.",
+    "summary": "Bachelor Degree (c/o 2018), Master Degree (c/o 2021) in Computer Science",
     "location": {
       "address": "",
       "postalCode": "96817",
@@ -26,19 +26,15 @@
         "username": "jonathanmng",
         "url": "https://www.linkedin.com/in/jonathan-nguyen-48b751146"
       },
-      {
-        "network": "twitter",
-        "username": "jonathanmng",
-        "url": "https://twitter.com/JustKidDing92"
-      }
     ]
   },
   "interests": [
     {
       "name": "Software Development",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "Meteor",
+        "iOS",
+        "Visual Studio"
       ]
     },
     {
@@ -46,13 +42,16 @@
       "keywords": [
         "PHP" ,
         "Java" ,
-        "C" 
+        "C",
+        "Perl",
+        "Python"
       ]
     },
     {
       "name": "artificial intelligence",
       "keywords": [
-        "LISP"
+        "LISP",
+        "Prolog"
       ]
     }
   ],
@@ -76,8 +75,25 @@
         "MacOS",
         "Ubuntu",
         "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Intermediate",
+      "keywords": [
+        "Wordpress",
+        "Meteor",
+        "Semantic UI",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "IT Services",
+      "level": "Intermediate",
+      "keywords": [
+        "Computer Hardware",
+        "Windows",
+        "Server"
       ]
     }
   ],

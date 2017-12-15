@@ -4,7 +4,7 @@ type: project
 image: images/places.png
 title: Check-In
 permalink: projects/check-in
-date: 2016
+date: 2016-05-11
 labels:
   - API
   - PHP
@@ -38,4 +38,3 @@ In this project, I gained more experience about how to use tool such as **Ionic 
 <hr>
 
 Source: Click [Here](https://nn4.ics321.com/places) to check it out!
-

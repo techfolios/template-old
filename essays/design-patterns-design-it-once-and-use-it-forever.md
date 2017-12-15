@@ -12,9 +12,12 @@ labels:
 
 <img  class="ui image medium centered"
   src="../images/billgatesquotes.jpg">
-
-> "I like to choose a lazy person to do a difficult job, because a lazy person will always finds an easy way to do it." ~ Bill Gates
-
+<blockquote>
+I like to choose a lazy person to do a difficult job, because a lazy person will always finds an easy way to do it.
+<footer>
+Bill Gates
+</footer>
+</blockquote>
 This is a famous quote from Bill Gates that I think would make most people laugh, but not many can truly understand what he means. Most people would think an easy way means whatever to get things done, even if with low quality result. However, as a lazy person myself, I think an easy way should be a way that can reduce the efforts to do the job, but the quality should be the same or even better. And that's why we need a design pattern, something you only need to create once, and reuse it over and over without starting from scratch every time.
 
 <br/>

@@ -4,11 +4,11 @@ type: project
 image: images/linuxterminal.png
 title: Project SmartBoard
 permalink: projects/smartboard
-date: 2016
+date: 2016-06-21
 labels:
   - Linux/Ubuntu
   - SmartBoard
-summary: I helped an Electrical Engineering professor to reinstall SmartBoard drivers and tool on a Linux PC. 
+summary: I helped an Electrical Engineering professor to reinstall SmartBoard drivers and tool on a Linux PC.
 ---
 
 <img class="ui medium right floated rounded image" src="../images/linuxterminal.png">
