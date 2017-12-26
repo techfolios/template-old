@@ -1,16 +1,16 @@
 {
   "basics": {
     "name": "Michael Yoshimura",
-    "label": "Student",
+    "label": "Graduate",
     "picture": "https://yoshimura123.github.io/images/IMG_1938.jpg",
-    "email": "yoshim3@hawaii.edu",
+    "email": "michael.yoshimura@gmail.com",
     "phone": "808-385-0501",
     "website": "https://yoshimura123.github.io",
-    "summary": "I am studying for a B.S. in Computer Engineering at the University of Hawaii at Manoa. I am graduating this Fall, 2017.",
+    "summary": "I am a recent graduate with a B.S. in Computer Engineering at the University of Hawaii at Manoa. I am graduated Fall, 2017.",
     "location": {
-      "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "address": "123 Kamaiki Circle",
+      "postalCode": "96732",
+      "city": "Kahului",
       "countryCode": "USA",
       "region": "Hawaii"
     },
@@ -62,7 +62,6 @@
         "C++",
         "Java",
         "Javascript",
-        "Assembly",
         "Arduino"
       ]
     },
@@ -79,11 +78,11 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Engineering (expected Fall, 2017)",
+      "area": "Computer Engineering (Graduate Fall, 2017)",
       "studyType": "B.S.",
       "startDate": "2014-09-20",
       "endDate": "2017-12-20",
-      "gpa": "3.6",
+      "gpa": "3.43",
       "courses": [
       ]
     }
