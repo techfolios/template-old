@@ -1,5 +1,6 @@
 ---
 layout: project
+published: false
 type: project
 image: images/micromouse.jpg
 title: Micromouse
