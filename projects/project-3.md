@@ -1,5 +1,6 @@
 ---
 layout: project
+published: false
 type: project
 image: images/cotton-square.png
 title: Cotton
