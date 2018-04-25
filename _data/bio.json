@@ -1,163 +1,107 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "name": "Abdul Sayed",
+    "label": "Front End Engineer",
+    "picture": "https://techfolios.github.io/template/images/Profile.JPG",
+    "email": "awsayed@alaska.edu",
+    "phone": "9519771714",
+    "website": "https://abdul-sayed.github.io/",
+    "summary": "Aspiring developer with experience in popular web technologies and a degree in mechanical engineering passionate about building interesting apps.",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
       "countryCode": "USA",
-      "region": "Hawaii"
+      "region": "Southern California"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "Abdul-Sayed",
+        "url": "https://github.com/Abdul-Sayed"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "Abdul Sayed",
+        "url": "https://www.linkedin.com/in/abdul-sayed-me-engr/"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Progressive Web Apps, Native Mobile and Desktop Apps",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "Angular + NativeScript + Electron",
+        "Ionic",
+        "React Native",
+        "Web Assembly"
       ]
     },
     {
-      "name": "data mining",
+      "name": "Mechanical Engineering",
       "keywords": [
+        "Material Science",
+        "Biomedical Engineering",
+        "Microfluidics",
+        "Nanotechnology"
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Permaculture",
       "keywords": [
+        "Natural Building",
+        "Agroforestry",
+        "Horticulture",
+        "Sustainable and Regenerative Design"
       ]
     }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "level": "",
+      "level": "Sophisticated Beginner",
       "keywords": [
-        "C",
-        "C++",
-        "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Typescript",
+        "Angular 2+",
+        "Ionic",
+        "HTML",
+        "CSS/SASS"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
-        "Ubuntu",
+        "Cloud9",
+        "StackBlitz",
+        "replt.it"
         "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "waffle"
+        "Balsamiq"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "University of Alaska Fairbanks",
+      "area": "Mechanical Engineering",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "gpa": "",
+      "endDate": "Fall 2016",
+      "gpa": "3.52",
       "courses": [
-      ]
-    }
-  ],
-  "work": [
-    {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
-      "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Differential Equations, Vector Calculus, Linear Algebra",
+        "Physics",
+        "Mathematical Modeling and Computer Simulations",
+        "Traditional Engineering Coursework",
+        "Research and Writing"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Engineer in Training Certification",
+      "date": "Summer 2016",
+      "awarder": "NCEES",
+      "summary": "https://account.ncees.org/rn/1631734-863787-a21b2b3"
     }
   ],
   "references": [
