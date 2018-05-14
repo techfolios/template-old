@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/uhmspacebar.jpg
+image: images/projects/project-4/uhmspacebar.jpg
 title: UHMSpaceBar
 permalink: projects/uhmspacebar
 date: 2017-12-14
@@ -10,14 +10,14 @@ labels:
   - Semantic UI
 summary: "A responsive community app with friendly user-interface that was developed using Meteor and Semantic UI. It was created to help students at UH Manoa to find the best clubs for them to join."
 ---
-<img class="ui large image centered aligned" src="/images/uhmspacebar.jpg">
+<img class="ui large image centered aligned" src="/images/projects/project-4/uhmspacebar.jpg">
 # What is UHMSpaceBar?
 [UHMSpaceBar](http://uhmspacebar.meteorapp.com/) is an online community app that is developed with the purpose to help students at UH Manoa to find the best Clubs for them to join.
 # Background
 University of Hawaii at Manoa is the largest college in Hawaii. Therefore, it has a big community with variety social groups that we called 'Clubs.' Believe it or not, there are over two hundreds clubs and organizations on UHM's campus. However, it's very hard for students to get the information about those clubs because they don't know where to find them. And that's why they need UHMSpaceBar, a well designed app with friendly user-interface that makes finding clubs never easier.
 # How does it work?
 
-<img class="ui large image centered aligned" src="/images/uhmspacebar_search.jpg">
+<img class="ui large image centered aligned" src="/images/projects/project-4/uhmspacebar_search.jpg">
 
 Every student at UH Manoa has an UH account. They can use it to log in to our system using CAS login. From the main page. They can create a profile to provide basic information about themselves.
 ### For members
@@ -51,4 +51,4 @@ In this project, I learned a lot of things that I think are valuable for my care
 
 **P/s:** I know our application still needs a lot of improvements, it's far from perfect, but it's one of my first big projects, and I'm proud of it :)
 
-<img class="ui large image centered aligned" src="/images/itsnotperfect.gif">
+<img class="ui large image centered aligned" src="/images/projects/project-4/itsnotperfect.gif">

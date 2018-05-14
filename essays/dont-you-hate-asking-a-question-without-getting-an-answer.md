@@ -9,7 +9,7 @@ labels:
 ---
 ## Git Good
 <div class="ui medium images">
-	<img ui image src="../images/gitgud.png">
+	<img ui image src="../images/essays/gitgud.png">
 </div>
 If you are a gamer like me, you would probably understand what I mean. If you are not, well, it means keep practicing until you become better. For this situation, it means to become better at asking a good question. A good question doesn't only get you answers, it may also be appreciated by other developers who also have the same question and the ones who answer it. 
 ## And How To Git Gud?
@@ -18,7 +18,7 @@ According to Raymond's essay [How To Ask Question The Smart Way](http://www.catb
 > *"Among hackers, Good Question! is a strong and sincere compliment."*
 <hr>
 
-Although a hard question is more favorable by hackers, however they are not limited to answer to only those questions. A good question can also be a problem that you are facing but couldn't solve it by yourself. However, before you ask question, you need to at least *google* it (Yes, I use Google as a verb, you can suck it up other search engines!) because someone may already asked the same question,  <img class="ui image small floated left" src="../images/doyouevengoogle.jpg">  or there maybe other sources that may solve your problem.  According to Raymond, if you receive a reply that says [STFW](http://www.catb.org/esr/faqs/smart-questions.html#rtfm), you probably didn't try to look it up, or did not try hard enough.  If you already tried to find the answer, but still struggling, you need to include that in your question.
+Although a hard question is more favorable by hackers, however they are not limited to answer to only those questions. A good question can also be a problem that you are facing but couldn't solve it by yourself. However, before you ask question, you need to at least *google* it (Yes, I use Google as a verb, you can suck it up other search engines!) because someone may already asked the same question,  <img class="ui image small floated left" src="../images/essays/doyouevengoogle.jpg">  or there maybe other sources that may solve your problem.  According to Raymond, if you receive a reply that says [STFW](http://www.catb.org/esr/faqs/smart-questions.html#rtfm), you probably didn't try to look it up, or did not try hard enough.  If you already tried to find the answer, but still struggling, you need to include that in your question.
 Because that could at least let them know, you already tried, and that your question may help other people who also have the same struggle. For example:
 <hr>
 > *"I already googled this issue, but I couldn't find anything useful..."*
@@ -33,7 +33,7 @@ According to the Author of *How To Ask Question The Smart Way*, there are things
 	- If you want to get a satisfactory and helpful answer, you need to make it clear what is the problem you are facing and what you have done so far. Because if you don't, people who want to help wouldn't be able to help without enough information. They may ask you to try the same thing that you already did, and then you have to explain you have done that...In the end, you are not only wasting your time, but also other's time.
 3. Don't make assumptions unless you have enough evidences to back it up
 	<div>
-	<img class="ui image small floated left" src="../images/google.jpg">
+	<img class="ui image small floated left" src="../images/essays/google.jpg">
 	</div>
 First of all, assumptions without evidences would make you sound stupid and arrogance. 	
 <br>
@@ -56,5 +56,5 @@ If you pick the first one, then you are right. They are both very short question
 Asking a good question may not only get you good answers, but also establish a good source for other people who is having the same problem.
 If you want to know more, you can go to [How To Ask Question The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html) to have a better understanding.
 
-<img class="ui image large centered" src="../images/dontaskastupidquestion.gif">
+<img class="ui image large centered" src="../images/essays/dontaskastupidquestion.gif">
 <br>

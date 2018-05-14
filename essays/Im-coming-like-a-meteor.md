@@ -9,7 +9,7 @@ labels:
 ---
 
 <img style="margin-top: 20px" class="ui medium image centered" 
-	src="/images/meteor.jpg">
+	src="/images/essays/meteor.jpg">
 
 	
 # Meteor 
@@ -61,7 +61,7 @@ On my first Meteor project, there is a task that I need to make the table become
 The problem is to make the table become sortable, I need to find a place to put one line of **jQuery** into my code, and I had no idea where to put it. I searched through everything, and followed the old template to see how jQuery works in Meteor. I finally found a good place to put it. *Template.Name.onCreated(...)* And it finally become sortable...but when I refreshed the page, it stopped working!!!
 It took me a disappointed amount of hours to figure out that in order for the jQuery code to work, I need to put it right after the page finish loading (after the app successfully subscribe to the collection).
 <img style="margin-top: 20px" class="ui medium image centered" 
-	src="/images/meteor.gif">
+	src="/images/essays/meteor.gif">
 
 
 ### Hard to debug

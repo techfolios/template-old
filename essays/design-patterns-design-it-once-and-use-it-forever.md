@@ -11,7 +11,7 @@ labels:
 ## Design Once
 
 <img  class="ui image medium centered"
-  src="../images/billgatesquotes.jpg">
+  src="../images/essays/billgatesquotes.jpg">
 <blockquote>
 I like to choose a lazy person to do a difficult job, because a lazy person will always finds an easy way to do it.
 <footer>
@@ -25,12 +25,12 @@ This is a famous quote from Bill Gates that I think would make most people laugh
 <div class="ui two column middle aligned very relaxed stackable grid">
   <div class="column">
   <img  class="ui image medium centered"
-    src="../images/iphonefeatures.jpg">
+    src="../images/essays/iphonefeatures.jpg">
   </div>
   <div style="position:relative; margin:0; padding:0;"><div class="ui vertical divider">VS</div></div>
   <div class="center aligned column">
     <img  class="ui image medium centered"
-      src="../images/smartphones.jpg">
+      src="../images/essays/smartphones.jpg">
   </div>
 </div>
 

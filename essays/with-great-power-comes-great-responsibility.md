@@ -8,7 +8,7 @@ labels:
   - Professional
 ---
 <img class="ui image centered"
-	src="/images/cmd.jpg">
+	src="/images/essays/cmd.jpg">
 ##  What is ethics?
 * Software engineers or any profession that have impacts on other people life need to have a code of ethics in which they can reply on to make a decision for their action. That decision needs to be based on their moral and humanity, not by what they were told or what make them feel pleased.
 * Although a software engineer doesn’t build a bridge or a car, but there are many bridges and cars out there are relied on computer software in order to operate, a small mistake in some lines of code can cause a serious damage to the product or worse, the human life. Therefore, software engineers should take their responsibility as serious as any other engineers whose works can affect others’ life either in a good or bad way. 
@@ -27,7 +27,7 @@ Doing good is not something that matters only to missionaries, social workers an
   <div class="item">
     <div class="image">
       <img 
-      	src="/images/dennis_ritchie.jpg">
+      	src="/images/essays/dennis_ritchie.jpg">
     </div>
     <div class="content">
       <a class="header">Dennis Ritchie</a>
@@ -44,7 +44,7 @@ Doing good is not something that matters only to missionaries, social workers an
   </div>
   <div class="item">
     <div class="image">
-      <img src="/images/alan-turing.jpg">
+      <img src="/images/essays/alan-turing.jpg">
     </div>
     <div class="content">
       <a class="header">Alan Turing</a>
@@ -77,13 +77,13 @@ Doing good is not something that matters only to missionaries, social workers an
 * If you ever admire someone who you want to become, you should learn to change and improve in a way that one day when you met them, they would also respect your actions and be proud of how your admiration to them has made you the person you’ve become.
 	
 	<img class="ui image massive"
-		src="/images/i_want_you_to_be_better.jpg">
+		src="/images/essays/i_want_you_to_be_better.jpg">
 	
 **2. Looking for Moral Exemplars:**
 * Most people spend their time to judge other’s actions and despise other’s failure to feel good about themselves. However, they did not notice that by judging other’s action doesn’t make them become any better. Instead, they should learn to help, share the difficulties with others. Try to put themselves in their shoes, and learn to figure out how to overcome the difficulties together. These actions does not only help to improve our experience, but it also helps to enhance our social relationship with others. 
 
 	<img class="ui image large centered"
-		src="/images/sinking_boat.jpg">
+		src="/images/essays/sinking_boat.jpg">
 		
 **3. Exercising our Moral Imagination:**
 * If you have watched the Avengers: Civil War the movie, after their fight with the Ultron in Sokovia, many people considered them as heroes; however people who lost their loved ones in the batter of Sokovia has considered them as enemies. Anyway, my point is what seems to be a good intention isn’t always a good action without thinking about the consequences. That’s why you should exercise your moral imagination because sometimes, the things you do that seems to be harmless, could cause massive damage somehow somewhere down the road without your attention.
@@ -92,7 +92,7 @@ Doing good is not something that matters only to missionaries, social workers an
 * Practicing ethical actions would only make your life easier, but not the other way around. However, sometimes, practicing ethical actions requires a lot of strength and courage. It’s not easy to turn down a high-paying job or a good amount of money, but you should ask yourself that do you feel right about what you’re doing? And if you do it, what would be the consequences? Choosing what’s right is not easy, but that’s a decision that you would never have to regret.
 	
 	<img class="ui medium image centered" 
-	src="/images/should_I_go.jpg">
+	src="/images/essays/should_I_go.jpg">
 	
 **5. Seeking the Company of Other Moral Persons:**
 * Sometimes, seeking advices from friends who we trust and respect their moral also helps us from being isolated in the process of decision making. Advices from friends with moral character would also help to increase our chance of making the right decision.
@@ -104,7 +104,7 @@ Doing good is not something that matters only to missionaries, social workers an
 - On Sept. 26, 1983, during the Cold War, in Soviet Russia Air Base, the computer displayed a signal that indicated detected five ballistic nuclear missiles were launched (potentially) by the United States and its allies, **Stanislav Petrov** was on duty that day and his job was to monitor the satellite system and report any potential threat, so the Soviet can response quickly. 
 
 <img class="ui image centered"
-	src="/images/petrov.jpg">
+	src="/images/essays/petrov.jpg">
 	
 - Anyway, in his situation, Petrov understands how important his job is, and the consequences that could happen if he makes a mistake. (In this case, World War 3 may, would have happened). Therefore, although according to all the protocols what he was trained, he should have reported the missiles launching right away. However, under his consciousness, Petrov did not feel right. Why only 5 missiles? If the United States wants to destroy the Russian Air Base, they would need hundreds. It could be a computer error.
 

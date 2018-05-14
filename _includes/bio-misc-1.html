@@ -1,0 +1,22 @@
+<!-- Used by theme-bio-builtin-1 -->
+
+{% if site.data.bio.miscellaneous %}
+<div class="row">
+  <div class="two wide column">
+    <h3 class="ui left aligned header no-bottom">Miscellaneous</h3>
+  </div>
+
+  <div class="fourteen wide column no-bottom">
+    <p class="ui no-bottom">
+    {% for entry in site.data.bio.miscellaneous %}
+      <p class="ui no-bottom">
+      <b>{{ entry.name }}:</b>
+      {% if entry.description and entry.description.size > 0 %}
+        <em>{{ entry.description }}</em>
+      {% endif %}
+    {% endfor %}
+      </p>
+    </p>
+  </div>
+</div>
+{% endif %}

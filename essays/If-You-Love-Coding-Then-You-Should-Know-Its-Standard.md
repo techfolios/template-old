@@ -46,7 +46,7 @@ He explained that if you write your code follow a certain rules, it would be a l
 
 ## ESLINT in  IntelliJ Idea Coding Standard
 <div class="ui medium rounded images">
-	<img ui image src="../images/intellij.jpg">
+	<img ui image src="../images/essays/intellij.jpg">
 </div>
 
 Last but not least, I want to express my experience and opinion about the **Coding Standard** that was "highlighted" while learning [ESLINT](https://eslint.org) style in [IntelliJ Idea](https://www.jetbrains.com/idea/?fromMenu). I hope you enjoyed the meme that I just made above, and that was also my first experience with IntelliJ.
@@ -60,7 +60,7 @@ After all, I think **Coding Standard** is a good thing to have. It helps me prac
 Here are some "nice" codes that I wrote. Hope you like it.
 
 <div class="ui large rounded images">
-	<img ui image src="../images/thankyou.png">
+	<img ui image src="../images/essays/thankyou.png">
 </div>
 
 <br>

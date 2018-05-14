@@ -15,26 +15,26 @@ For most people, when they think of framework, the first thing that comes to min
 For example, to build a bird house, with **html**, you may build something like this:
  
 <img class="ui small circular image centered" 
-	src="/images/plain.jpg">
+	src="/images/essays/plain.jpg">
 If you add a little bit **css**, it may look a little bit better:
 
 <img class="ui small circular image centered" 
-	src="/images/plain2.png">
+	src="/images/essays/plain2.png">
 			
 But what if you want to build something like these?
 
 <div class="ui three column grid">
 	<div class="ui column">
 		<img class="ui small circular image centered" 
-			src="/images/decorative.jpg">
+			src="/images/essays/decorative.jpg">
 	</div>
 	<div class="column">
 		<img class="ui small circular image centered" 
-			src="/images/decorative2.jpg">
+			src="/images/essays/decorative2.jpg">
 	</div>
 	<div class="column">
 		<img class="ui small circular image centered" 
-			src="/images/decorative3.jpg">
+			src="/images/essays/decorative3.jpg">
 	</div>
 </div>
 And that's when framework comes in to play.  I'm not saying that it's impossible to build these beautiful houses with only **css** and **html**, but it would require a lot more works and contents. 
@@ -42,7 +42,7 @@ And that's when framework comes in to play.  I'm not saying that it's impossible
 Using framework could save you all the time and effort. The contents and materials are mostly already built-in. All you need to do is to organize and reassemble them. 
 
 <img class="ui small circular image floated left" 
-			src="/images/itsfree.jpg">
+			src="/images/essays/itsfree.jpg">
 
 Most frameworks are **free** and **open sources**, so there is nothing for you to lose to try it out, well there maybe something, but we will discuss about that later.
 ## How does it help?
@@ -61,15 +61,15 @@ For example, in [Semantics UI](https://semantic-ui.com), a block of code can be 
 <div class="ui three column grid">
 	<div class="ui column">
 		<img class="ui small circular image centered" 
-			src="/images/picture1.jpg">
+			src="/images/essays/picture1.jpg">
 	</div>
 	<div class="column">
 		<img class="ui small circular image centered" 
-			src="/images/picture2.jpg">
+			src="/images/essays/picture2.jpg">
 	</div>
 	<div class="column">
 		<img class="ui small circular image centered" 
-			src="/images/picture3.jpg">
+			src="/images/essays/picture3.jpg">
 	</div>
 </div>
 ```
@@ -81,7 +81,7 @@ Like I said above, most frameworks are free, so why some people are not using it
 As easy as it sounds, it would take some times to work with a new framework before you could get a hang of it. It's like learning a new programming language. Although it's not a lot different, but there are rules that you need to know and follow.
 
 <img class="ui image medium centered" 
-	src="/images/samebutdifferent.gif">
+	src="/images/essays/samebutdifferent.gif">
 
 ## Good frameworks for JS environment:
 <div class="ui three column grid">
@@ -128,7 +128,7 @@ Most importantly, they are free.  The only things that may cost you is time. It 
 
 <div class="ui header">And Here Come The Meme, Drum Roll, Pls!</div>
 
-<img class="ui image massive centered" src="/images/semanticsui2.jpg">
+<img class="ui image massive centered" src="/images/essays/semanticsui.jpg">
 
 References: 
 
