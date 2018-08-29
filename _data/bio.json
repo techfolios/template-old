@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Andrea Narciso",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://narcisoa.github.io/images/photo.jpg",
+    "email": "anarciso@hawaii.edu",
+    "phone": "845-553-3083",
+    "website": "https://narcisoa.github.io",
+    "summary": "I am a Senior undergraduate student at Middlebury College currently studying abroad at the University of Hawai'i at Manoa. I am pursuing B.A. in Computer Science with a minor in Psychology and plan to graduate in May 2019. This summer, I worked at AccesSurf Hawai'i, a non-profit that helps people with disabilities experience the healing power of the ocean through water-based activities. I hope to someday combine my passions for technology, community and social good.",
     "location": {
-      "address": "",
-      "postalCode": "96822",
+      "address": "2278 Citron St",
+      "postalCode": "96826",
       "city": "Honolulu",
       "countryCode": "USA",
       "region": "Hawaii"
@@ -17,41 +17,34 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "narcisoa",
+        "url": "http://github.com/narcisoa"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "narcisoandrea",
+        "url": "http://linkedin.com/in/narcisoandrea"
       },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
-      }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "software engineering",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "product development",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "project management",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "social good",
       "keywords": [
       ]
     }
