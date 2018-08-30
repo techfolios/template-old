@@ -54,12 +54,10 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
-        "C",
-        "C++",
         "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "R",
+        "Python"
       ]
     },
     {
@@ -67,10 +65,7 @@
       "level": "",
       "keywords": [
         "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Git/GitHub"
       ]
     }
   ],
@@ -84,7 +79,9 @@
       "gpa": "",
       "courses": [
       ]
-    }
+    },
+    
+    
   ],
   "work": [
     {
