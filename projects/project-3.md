@@ -13,7 +13,7 @@ labels:
 summary: A text adventure game I developed for ICS 313.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/accessurf-pic.png">
+<img class="ui medium right floated rounded image" src="../images/accessurf-pic.jpg">
 
 AccesSurf Hawaii is a non-profit that empowers people with disabilities through accessible water programs. Last summer, I worked as an intern and this summer, I worked as the Administrator of the organization. I had the honor of working in a small, tight-knit office alongside the program coordinator, executive director and hundreds of dedicated volunteers who donate their time to our cause and care a lot about the success of our programs and helping others. 
 
