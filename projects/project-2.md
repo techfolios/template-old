@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/datasci-intrograph
+image: images/datasci-intrograph.png
 title: 
 permalink: projects/datasci
 # All dates must be YYYY-MM-DD format!
@@ -12,7 +12,7 @@ labels:
 summary: A responsive web application for travel planning that my team developed in ICS 415.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/datasci-intrograph.png">
+<img class="ui large left floated rounded image" src="../images/datasci-intrograph.png">
 
 My Dad suffers with asthma that worsens significantly in areas with high air pollution. With my background in Data Science and interest in how these tools can apply to the medical field, I decided to investigate the risk factors that result in such a high rate of hospitalization for asthma using a correlational study. I specifically focused on air quality as it is an environmental factor known to worsen asthmatic symptoms. I also investigated income per capita and health insurance as they are two socioeconomic factors that prevent people from receiving proper health care. In this study, I looked at data from New York State in 2014 hoping that this case study would give me insight into my Dad’s condition and serve as a starting point to understand the risk factors of asthma throughout the United States.
 
