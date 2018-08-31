@@ -73,41 +73,46 @@
     {
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "gpa": "",
+      "studyType": "Study Abroad",
+      "startDate": "2018-08-20",
+      "endDate": "2018-5-20",
+      "gpa": "n/a",
       "courses": [
+        "Software Development",
+        "Psychology of Human Sexuality",
+        "Introduction to Financial Accounting"
       ]
     },
-    
+    {
+      "institution": "Middlebury College, Middlebury, VT",
+      "area": "Computer Science (expected Spring, 2019)",
+      "studyType": "B.A.",
+      "startDate": "2014-08-20",
+      "endDate": "2019-5-20",
+      "gpa": "3.62",
+      "courses": [
+        "Data Science",
+        "Algorithms and Complexity",
+        "Data Structures"
+      ]
+    }
     
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "AccesSurf Hawaii",
+      "position": "Administrator",
       "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "startDate": "2018-06-01",
+      "endDate": "2018-08-20",
+      "summary": "Worked as the Administrator for AccesSurf over the summer",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Lead and organize AccesSurf's bi-monthly events",
+        "Serve as the central point of communication and connect people to resources and information",
+        "Introduced and integrated new technologies to increase the efficiency of the non-profit"
       ]
     },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
+    
   ],
   "volunteer": [
     {
