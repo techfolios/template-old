@@ -13,7 +13,7 @@ labels:
 summary: My team implemented an algorithm in a web application to solve Riddim's scheduling problem.
 ---
 
-<div class="ui small rounded images">
+<div class="ui medium rounded images">
   <img class="ui image large" src="../images/riddim-sched.png">
 </div>
 
