@@ -11,7 +11,7 @@ labels:
   - Node.js
   - Express.js
   - MySQL
-  - GitHub
+  - GitLab
 summary: A resource management web application for project managers at DataHouse Inc.
 ---
 
