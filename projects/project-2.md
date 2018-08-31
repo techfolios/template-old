@@ -2,14 +2,14 @@
 layout: project
 type: project
 image: images/datasci-intrograph.png
-title: 
+title: Exploratory Data Analysis on the Risk Factors of Asthma
 permalink: projects/datasci
 # All dates must be YYYY-MM-DD format!
 date: 2016-12-16
 labels:
   - R
   - Data Science
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+summary: An exploratory data analysis on the risk factors of Asthma in New York State in 2014.
 ---
 
 <img class="ui large left floated rounded image" src="../images/datasci-intrograph.png">
