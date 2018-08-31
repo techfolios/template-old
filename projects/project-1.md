@@ -8,31 +8,20 @@ permalink: projects/riddim
 date: 2017-12-16
 labels:
   - Full Stack Web Development
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+summary: My team implemented an algorithm in a web application to solve Riddim's scheduling problem.
 ---
 
 <div class="ui small rounded images">
   <img class="ui image" src="../images/riddim-sched.png">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+Every semester, the Riddim World Dance Troupe face a scheduling dilemma. The co-directors receive the availability of the choreographers and try to schedule rehearsals around those constraints, which is often a tedious and time consuming process. Additionally, this scheduling process does not take the dancers preference for specific choreographers nor their availability into account leaving the majority of Riddim members frustrated with the outputted schedule. 
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+Thus, the goal of this project was to implement an algorithm that takes not 1, but 3 factors into account— choreographers' availability, dancers’ availability and dancers’ preferences for specific choreographers— and outputs an optimal schedule for all parties involved. This algorithm was embedded in a web application where the Riddim co-directors and administrators can input everyone’s availability and preferences, run the algorithm and view the outputted schedule. The third goal was to collect real world data from Riddim and have them test the web application. 
 
-Here is some code that illustrates how we read values from the line sensors:
+Chris Fetterolf and I collaborated as the the lead Software Developers of the project. We worked as a team alongside our Project Manager, Joe Antonioli and Project Supervisor, Daniel Scharstein. As a software developer, I was responsible for the log in and schedule output pages of the web application. I also researched existing algorithms then wrote the code surrounding the Hungarian algorithm to modify and apply it to Riddim’s scheduling problem. In this project, I also acted as the Product Developer and served as the connection between the Software Development team and our customers. I conveyed the needs of the customers to the team, collected real world data from our customers to test our product and get feedback.
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
-
+This project was an incredible learning experience. I got to work on a software development project from start to finish, from analyzing a problem that my dance group faced to testing the program with real world data. I gained experience in using the ‘Minimum Viable Project’ throughout each iteration of the Design Thinking cycle and got to work with each technology from the back to the front end. Additionally, in working in a team with another software developer and project manager, I learned how to use SWOT to work off of the individual strengths and weaknesses of each member. At the end of the project, I learned how to give an engaging presentation to the stakeholders of the product to explain the problem, our solution and the status of the project. 
 
 
 
