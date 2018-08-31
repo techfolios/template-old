@@ -24,5 +24,5 @@ Chris Fetterolf and I collaborated as the the lead Software Developers of the pr
 
 This project was an incredible learning experience. I got to work on a software development project from start to finish, from analyzing a problem that my dance group faced to testing the program with real world data. I gained experience in using the ‘Minimum Viable Project’ throughout each iteration of the Design Thinking cycle and got to work with each technology from the back to the front end. Additionally, in working in a team with another software developer and project manager, I learned how to use SWOT to work off of the individual strengths and weaknesses of each member. At the end of the project, I learned how to give an engaging presentation to the stakeholders of the product to explain the problem, our solution and the status of the project. 
 
-Source: <a href="https://github.com/cfetterolf/CS500/blob/master/python-getting-started/schedule/algorithm.py"><i class="large github icon"></i>algorithm</a>
+Github link to the: <a href="https://github.com/cfetterolf/CS500/blob/master/python-getting-started/schedule/algorithm.py"><i class="large github icon"></i>algorithm implementation</a>
 
