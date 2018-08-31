@@ -31,7 +31,7 @@ Chris Fetterolf and I collaborated as the the lead Software Developers of the pr
 
 This project was an incredible learning experience. I got to work on a software development project from start to finish, from analyzing a problem that my dance group faced to testing the program with real world data. I gained experience in using the ‘Minimum Viable Project’ throughout each iteration of the Design Thinking cycle and got to work with each technology from the back to the front end. Additionally, in working in a team with another software developer and project manager, I learned how to use SWOT to work off of the individual strengths and weaknesses of each member. 
 
-At the end of the project, we made a <a src=../images/riddim-poster.pdf">poster</a> that would be posted in the Computer Science Department at Middlebury College. We also gave a presentation to the project's stakeholders to explain the problem, our solution and the status of the project. Through this process, we learned how to effectively present our work to people with varying backgrounds in tech.
+At the end of the project, we made a <a href=../images/riddim-poster.pdf">poster</a> that was posted in the Computer Science Department at Middlebury College. We also gave a presentation to the project's stakeholders to explain the problem, our solution and the status of the project. Through this process, we learned how to effectively present our work to people with varying backgrounds in tech.
 poster
 
 
