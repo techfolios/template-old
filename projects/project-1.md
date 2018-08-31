@@ -10,7 +10,7 @@ labels:
   - Windows 8.1
   - Hardware
   - PC Build
-summary: My first experience building a PC, back in 2014.
+summary: My first experience building a PC in 2014.
 ---
 
 <div class="ui small rounded images">
