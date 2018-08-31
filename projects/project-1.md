@@ -8,6 +8,8 @@ permalink: projects/riddim
 date: 2017-12-16
 labels:
   - Full Stack Web Development
+  - Product Development
+  - Team Project
 summary: My team implemented an algorithm in a web application to solve Riddim's scheduling problem.
 ---
 
