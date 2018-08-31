@@ -15,6 +15,7 @@ summary: My team implemented an algorithm in a web application to solve Riddim's
   <img class="ui image" src="../images/riddim-sched.png">
 </div>
 
+
 Every semester, the Riddim World Dance Troupe face a scheduling dilemma. The co-directors receive the availability of the choreographers and try to schedule rehearsals around those constraints, which is often a tedious and time consuming process. Additionally, this scheduling process does not take the dancers preference for specific choreographers nor their availability into account leaving the majority of Riddim members frustrated with the outputted schedule. 
 
 Thus, the goal of this project was to implement an algorithm that takes not 1, but 3 factors into account— choreographers' availability, dancers’ availability and dancers’ preferences for specific choreographers— and outputs an optimal schedule for all parties involved. This algorithm was embedded in a web application where the Riddim co-directors and administrators can input everyone’s availability and preferences, run the algorithm and view the outputted schedule. The third goal was to collect real world data from Riddim and have them test the web application. 
