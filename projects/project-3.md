@@ -10,7 +10,7 @@ labels:
   - Administrator
   - Work Experience
   - Social Good
-summary: A text adventure game I developed for ICS 313.
+summary: Summer job as the Administrator for AccesSurf.
 ---
 
 <img class="ui medium right floated rounded image" src="../images/accessurf-pic.jpg">
