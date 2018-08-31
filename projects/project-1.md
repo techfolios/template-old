@@ -12,7 +12,7 @@ summary: My team implemented an algorithm in a web application to solve Riddim's
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/riddim-sched.png">
+  <img class="ui image large" src="../images/riddim-sched.png">
 </div>
 
 
