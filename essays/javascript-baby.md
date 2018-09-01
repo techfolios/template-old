@@ -16,11 +16,11 @@ labels:
 
 In the fall semester of my freshman year of college, I took my first coding class and got knocked up by Computer Science. On August 20th, 2018 I gave birth to a Javascript baby. 
 
-<div class="ui small floated images rounded"><tr>
+<div class="ui small floated images rounded">
   <img class="image" src="../images/javascript-baby-js.jpg">
   <img class="image" src="../images/javascript-baby-baby.jpg">
   <img class="image" src="../images/javascript-baby-athleticSE.png">
-</tr></div>
+</div>
 
 ### How on earth am I supposed to take care of this child!?
 
