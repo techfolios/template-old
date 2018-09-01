@@ -16,13 +16,13 @@ labels:
 
 In the fall semester of my freshman year of college, I took my first coding class and got knocked up by Computer Science. On August 20th, 2018 I gave birth to a Javascript baby. 
 
+### How on earth am I supposed to take care of this child!?
+
 <div class="ui small images rounded">
   <img class="image" src="../images/javascript-baby-js.jpg">
   <img class="image" src="../images/javascript-baby-baby.jpg">
   <img class="image" src="../images/javascript-baby-athleticSE.png">
 </div>
-
-### How on earth am I supposed to take care of this child!?
 
 Admittedly, despite the skills I had developed in previous classes and programming languages I had learned, I was especially intimidated by Javascript and was apprehensive about beginning my journey to learn how to use it. But I was forced just to start and just like any human child, it all started with: 
 
