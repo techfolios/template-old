@@ -39,7 +39,7 @@ In simpler terms, let can only be used as temporary variables within functions, 
 
 ### Motherhood
 
-Through this process of learning Javacript, I have learned it using the <a href: “http://philipmjohnson.org/essays/ase-2017.html”>’Athletic Software Engineering’</a> method which kind of feels like this:
+Through this process of learning Javacript, I have learned it using the <a href: “http://philipmjohnson.org/essays/ase-2017.html”>\’Athletic Software Engineering\’</a> method which kind of feels like this:
 
 <img class="ui image medium" src="../images/run.gif">
 
