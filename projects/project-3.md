@@ -13,7 +13,7 @@ labels:
 summary: Football taught both to work as a team, and self discipline.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/football.jpg">
+<img class="ui image" src="../images/football.jpg">
 
 football essay
 
