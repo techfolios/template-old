@@ -12,11 +12,11 @@ labels:
 
 ## The journey of learning JavaScript through athletic software engineering explained using the model of child care.
 
-<div class="ui small floated images rounded">
+<div class="ui small floated images rounded"><tr>
   <img class="image" src="../images/javascript-baby-js.jpg">
   <img class="image" src="../images/javascript-baby-baby.jpg">
   <img class="image" src="../images/javascript-baby-athleticSE.png">
-</div>
+</div></tr>
 
 ### My baby is born!
 
