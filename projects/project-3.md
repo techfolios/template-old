@@ -16,7 +16,6 @@ summary: Summer job as the Administrator for AccesSurf.
   <img class="ui medium right floated rounded image" src="../images/accessurf-pic.jpg">
   <img class="ui medium right floated rounded image" src="../images/accessurf-eg1.jpg">
   <img class="ui medium right floated rounded image" src="../images/accessurf-eg2.jpg">
-  <img class="ui medium right floated rounded image" src="../images/accessurf-eg3.jpg">
 </div>
 
 
