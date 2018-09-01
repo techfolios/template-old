@@ -12,6 +12,12 @@ labels:
 
 ## The journey of learning JavaScript through athletic software engineering explained using the model of child care.
 
+<div class="ui medium floated rounded images rounded">
+  <img class="image" src="../images/javascript-baby-js.jpg">
+  <img class="image" src="../images/javascript-baby-baby.jpg">
+  <img class="image" src="../images/javascript-baby-athleticSE.jpg">
+</div>
+
 ### My baby is born!
 
 In the fall semester of my freshman year of college, I took my first coding class and got knocked up by Computer Science. On August 20th, 2018 I gave birth to a Javascript baby. 
