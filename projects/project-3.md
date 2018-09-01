@@ -27,8 +27,8 @@ As the Administrator, I was responsible for planning and organizing the logistic
 
 At AccesSurf, I learned the value of kindness, patience and gratitude. I found my love for community, talking to people and social good that will undoubtably stick with me for years to come. As the Administrator, I developed my leadership skills and how to work in a team. 
 
-<div class="ui medium rounded images">
-  <img class="ui medium right floated rounded image" src="../images/accessurf-eg2.jpg">
-  <img class="ui medium right floated rounded image" src="../images/accessurf-eg4.jpg">
+<div class="ui rounded images">
+  <img class="ui small right floated rounded image" src="../images/accessurf-eg2.jpg">
+  <img class="ui large right floated rounded image" src="../images/accessurf-eg4.jpg">
 </div>
 
