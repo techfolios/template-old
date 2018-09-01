@@ -20,7 +20,6 @@ In the fall semester of my freshman year of college, I took my first coding clas
 
 <div class="ui small images rounded">
   <img class="image" src="../images/javascript-baby-js.jpg">
-  <img class="image" src="../images/javascript-baby-baby.jpg">
   <img class="image" src="../images/javascript-baby-athleticSE.png">
 </div>
 
