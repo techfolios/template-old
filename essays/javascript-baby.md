@@ -17,7 +17,7 @@ labels:
 In the fall semester of my freshman year of college, I took my first coding class and got knocked up by Computer Science. On August 20th, 2018 I gave birth to a Javascript baby. 
 
 <div class="ui small floated images rounded">
-  <img class="image" src="../images/javascript-baby-js.jpg">
+  <img class="image" height=10% src="../images/javascript-baby-js.jpg">
   <img class="image" src="../images/javascript-baby-baby.jpg">
   <img class="image" src="../images/javascript-baby-athleticSE.png">
 </div>
