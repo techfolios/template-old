@@ -54,9 +54,7 @@
         "C",
         "C++",
         "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Javascript"
       ]
     },
     {
@@ -64,19 +62,20 @@
       "level": "",
       "keywords": [
         "MacOS",
+        "Windows 8.1",
         "Ubuntu",
         "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Node JS",
+        "MySQL"
       ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Spring, 2020)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2015-09-01",
       "endDate": "Present",
       "gpa": "",
       "courses": [
@@ -85,70 +84,56 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "company": "DataHouse Inc",
+      "position": "Web Developer Intern",
+      "website": "http://www.datahouse.com/",
+      "startDate": "2018-06-12",
+      "endDate": "2018-08-02",
+      "summary": "Resource Management Tool project team member",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Worked with NodeJS/Express/MySQL",
+        "Queried database from OpenAir API",
+        "Maintained and updated DataHouse's database"
       ]
     },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "Olivet Baptist Preschool",
+      "website": "https://www.olivetpreschool.com/",
+      "position": "Teaching Assistant",
+      "startDate": "2015-01-10",
+      "endDate": "2015-06-01",
+      "summary": "Teaching assistant for preschool students",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Taught, read to, and monitored class of preschool students"
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "organization": "Shriners Hospital Honolulu",
+      "website": "https://www.shrinershospitalsforchildren.org/honolulu",
+      "position": "Volunteer",
+      "startDate": "2013-09-01",
+      "endDate": "2015-06-01",
+      "summary": "Volunteer at Shriners Hospital for Children",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Organized activities for children",
+        "Cooked meals for the children"
+      ]
+    },
+    {
+      "organization": "Malama Maunalua",
+      "website": "http://www.malamamaunalua.org/",
+      "position": "Volunteer",
+      "startDate": "2014-01-10",
+      "endDate": "2014-06-01",
+      "summary": "Volunteer to clean up local bay",
+      "highlights": [
+        "Worked with a team to clear invasive species of algae"
       ]
     }
   ],
   "awards": [
-    {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
   ],
   "references": [
     {
