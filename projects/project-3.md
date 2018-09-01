@@ -15,7 +15,7 @@ summary: Summer job as the Administrator for AccesSurf.
 <div class="ui medium floated rounded images">
   <img class="ui medium right floated rounded image" src="../images/accessurf-pic.jpg">
   <img class="ui medium right floated rounded image" src="../images/accessurf-eg1.jpg">
-  <img class="ui medium right floated rounded image" src="../images/accessurf-eg4.jpg">
+  <img class="ui medium right floated rounded image" src="../images/accessurf-eg5.jpg">
 </div>
 
 
@@ -29,6 +29,6 @@ At AccesSurf, I learned the value of kindness, patience and gratitude. I found m
 
 <div class="ui medium floated rounded images">
   <img class="ui medium right floated rounded image" src="../images/accessurf-eg2.jpg">
-  <img class="ui medium right floated rounded image" src="../images/accessurf-eg5.jpg">
+  <img class="ui medium right floated rounded image" src="../images/accessurf-eg4.jpg">
 </div>
 
