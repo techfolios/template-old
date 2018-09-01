@@ -40,5 +40,6 @@ In simpler terms, ```ruby let``` can only be used as temporary variables within 
 Through this process of learning Javacript, I have learned it using the <a href="http://philipmjohnson.org/essays/ase-2017.html">Athletic Software Engineering</a> method which kind of feels like:
 
 <img class="ui image medium" src="../images/run.gif">
+<footer><a href="https://gifer.com/en/7Kdd">Credits</a></footer>
 
 Learning Javascript and all of the new technologies, methods and code happens incredibly quickly. The work is non-stop and in order to succeed and make good progress, you need to consistently put in a sizable amount of work. This learning method gives you the opportunity to learn so much in a shorter period of time. However, this also means that like a child, it doesn’t bend for your personal life. It’s okay to prioritize other things sometimes, but consistently putting your child last may stunt their growth and development and result in a child negligence suit. While this pressure and level of consistency can be overwhelming, if you stick with you Javascript child, it’s exciting to see where you both will be at the end of the semester and where they go in the world. 
