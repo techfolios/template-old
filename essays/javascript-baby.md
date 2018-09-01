@@ -15,7 +15,7 @@ labels:
 <div class="ui medium floated rounded images rounded">
   <img class="image" src="../images/javascript-baby-js.jpg">
   <img class="image" src="../images/javascript-baby-baby.jpg">
-  <img class="image" src="../images/javascript-baby-athleticSE.jpg">
+  <img class="image" src="../images/javascript-baby-athleticSE.png">
 </div>
 
 ### My baby is born!
