@@ -1,0 +1,28 @@
+---
+layout: essay
+type: essay
+title: Javascript & Athletic Software Engineering
+# All dates must be YYYY-MM-DD format!
+date: 2018-08-31
+labels:
+  - Software Engineering
+  - Learning
+  - Javascript
+  - Athletic Software Engineering
+---
+
+<h2>reflection</h2>
+So far javascript has been an interesting experience. I worked with some javascript for the first time this past summer, so I have had some exposure to the language. I have only been studying computer science for two years, so the only programming languages I am comfortable with are Java and C. Compared to those two languages, Javascript is very different. 
+
+First of all, there are no types in Javascript. I found this very interesting because it made me wonder how the cpu could allocate the correct about of memory if it didn’t know the type of a variable. Another component that is different is that Javascript doesn’t need to be compiled. Using a JRE like NodeJS runs Javascript code without compiling. A third concept I was confused by at first is asynchronous programming. The fact that a program could continue executing lines of code while waiting for a function to return it’s response went against everything I had been taught in my classes so far. It is an interesting concept I am looking forward to learning more about. 
+
+I believe Javascript is a great language for software engineering. There are so many resources, frameworks, and packages that are available to developers, building software from scratch is very uncommon. This saves developers time and allows them quickly build software and expand the field of technology. 
+
+Athletic software engineering is a great idea. The first WOD I attempted I got a DNF. However, after practicing a few times and doing other WOD’s, my times improved. The first practice WOD we did in class, my partner and I ended up finishing in RX time, which I was happy about. The first real WOD I showed up to class a little bit late so I spend the first minute understanding the problem. I believe I could have gotten close to RX time if I had gotten to class early/on time. I was pretty stressed out taking the first real WOD since I thought it would count toward our grade. I’m glad that we’re being put into these stressful situations now so we will be more prepared for job interviews. 
+
+
+
+
+
+
+
