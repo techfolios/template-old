@@ -26,20 +26,20 @@ console.log(“Hello World!”);
 
 ### The Baby Manual
 
-After making this first step, the entire process felt a lot less paralyzing. I started gaining momentum on <a href: "https://www.freecodecamp.org/">FreeCodeCamp</a>’s Basic Javascript curriculum— learning the new syntax and gaining confidence in the process. I realized that I could apply a lot of what I had learned in other Computer Science classes and programming languages. I felt like I was getting the hang of it and FreeCodeCamp was incredibly useful in taking me step by step through the syntax and functionality of the language. If you’re ever looking to learn or refresh your Javascript, I would highly recommend it! However, there were also moments where I would get frustrated at the syntax and that it was taking me so long to implement a solution. But by the end of the curriculum, I felt pretty confident in my Javascript and was ready to see what was next. 
+After making this first step, the entire process felt a lot less paralyzing. I started gaining momentum on <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>’s Basic Javascript curriculum— learning the new syntax and gaining confidence in the process. I realized that I could apply a lot of what I had learned in other Computer Science classes and programming languages. I felt like I was getting the hang of it and FreeCodeCamp was incredibly useful in taking me step by step through the syntax and functionality of the language. If you’re ever looking to learn or refresh your Javascript, I would highly recommend it! However, there were also moments where I would get frustrated at the syntax and that it was taking me so long to implement a solution. But by the end of the curriculum, I felt pretty confident in my Javascript and was ready to see what was next. 
 
 ### Confusing Baby Naming in the Baby Manual
 
-In my opinion, one of FreeCodeCamp’s shortcomings is that it does not teach you about using ```ruby let``` and const instead of var. 
+In my opinion, one of FreeCodeCamp’s shortcomings is that it does not teach you about using <a href="http://learnharmony.org/#/lessons/block-scope-let?_k=y6gnsa">```ruby let```</a> and ```ruby const``` instead of ```ruby var```. 
 
-http://learnharmony.org/#/lessons/block-scope-let?_k=y6gnsa
+
 http://learnharmony.org/#/lessons/block-scope-const?_k=x6y8av
 
-In simpler terms, let can only be used as temporary variables within functions, const are variables that you cannot change and var lets you use variables that you define in one place anywhere else in the code. In alignment with the baby analogy, you would use let to set your kid’s nickname that you use exclusively for specific groups and const for their given birth name. But if you used var, you would be resetting their name all the time depending on who their with, confuse yourself, your child and maybe even traumatize them. In my opinion, the ambiguity and lack of clarity in var makes things more confusing later on because you can mix up the purpose and usage of the variables in your code. Conversely, using let and const force you to make a conscious decision about the scope and purpose of your variables as you are introducing them. 
+In simpler terms, ```ruby let``` can only be used as temporary variables within functions, ```ruby const``` are variables that you cannot change and ```ruby var``` lets you use variables that you define in one place anywhere else in the code. In alignment with the baby analogy, you would use ```ruby let``` to set your kid’s nickname that you use exclusively for specific groups and ```ruby const``` for their given birth name. But if you used ```ruby var```, you would be resetting their name all the time depending on who their with, confuse yourself, your child and maybe even traumatize them. In my opinion, the ambiguity and lack of clarity in ```ruby var``` makes things more confusing later on because you can mix up the purpose and usage of the variables in your code. Conversely, using let and const force you to make a conscious decision about the scope and purpose of your variables as you are introducing them. 
 
 ### Motherhood
 
-Through this process of learning Javacript, I have learned it using the <a href: “http://philipmjohnson.org/essays/ase-2017.html”>\’Athletic Software Engineering\’</a> method which kind of feels like this:
+Through this process of learning Javacript, I have learned it using the <a href=“http://philipmjohnson.org/essays/ase-2017.html”>Athletic Software Engineering</a> method which kind of feels like this:
 
 <img class="ui image medium" src="../images/run.gif">
 
