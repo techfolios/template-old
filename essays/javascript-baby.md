@@ -10,9 +10,9 @@ labels:
   - Introduction to Javascript
 ---
 
-## The journey of learning JavaScript through athletic software engineering explained with the metaphor of raising a child
+## The journey of learning JavaScript through athletic software engineering explained using the model of child care.
 
-### My baby is born
+### My baby is born!
 
 In the fall semester of my freshman year of college, I took my first coding class and got knocked up by Computer Science. On August 20th, 2018 I gave birth to a Javascript baby. 
 
@@ -37,7 +37,7 @@ In simpler terms, ```ruby let``` can only be used as temporary variables within 
 
 ### Motherhood
 
-Through this process of learning Javacript, I have learned it using the <a href=“http://philipmjohnson.org/essays/ase-2017.html”>Athletic Software Engineering</a> method which kind of feels like:
+Through this process of learning Javacript, I have learned it using the <a href="http://philipmjohnson.org/essays/ase-2017.html">Athletic Software Engineering</a> method which kind of feels like:
 
 <img class="ui image medium" src="../images/run.gif">
 
