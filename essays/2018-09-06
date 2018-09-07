@@ -1,0 +1,32 @@
+---
+layout: essay
+type: essay
+title: Smart Questions
+# All dates must be YYYY-MM-DD format!
+date: 2018-09-06
+labels:
+  - Software Engineering
+  - Stack Overflow
+  - Questions
+---
+
+<h2>Smart Questions</h2>
+
+After reading Eric Raymond’s [How To Ask Questions The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html), it is clear that being able to ask questions the “smart-way” is an essential skill for software engineers. Asking the right question in the right way yields both effective and efficient help, whereas asking the wrong question can lead to less effective and inefficient help, as well as wasting someones time. In order to provide examples of the differences between asking questions the “smart-way” and the “naive-way”, I looked at trending questions posted on StackOverflow. 
+
+An example of a question asked the "smart-way” is found [here](https://stackoverflow.com/questions/51822513/in-javascript-how-to-execute-next-function-from-an-array-of-functions). This post includes a meaningful subject header, specific description of the problem, simplified code examples, multiple test cases, expected output, grammatically correct, and is posted under a relevant forum topic. These are all qualities of a “smart” question, according to Eric Raymond’s guidelines. Because the question was well framed and was asked the “smart-way”, the expert who responded to the question knew exactly what was being asked for and how to answer. Asking a smart question, often times, will lead to receiving effective and efficient help, which is exactly how this question was answered.
+
+On the other hand, asking a question the “naive-way” can lead to inefficient, or no help at all. An example I found of a question asked the “naive-way” is [here](https://stackoverflow.com/questions/52214206/how-to-check-if-any-str-in-list-is-in-a-str-variable). This post contains multiple problems including a vague title, unclear description of problem / desired output, incomplete examples of code, no prior research. According to Eric Raymond’s guidelines, this question has little chance of providing effective and efficient help, if answered at all. This question has still not found an answer. There is a comment thread that attempts to clarify this question, but the responses to those clarification questions were vague and unclear and no solution to the problem was found.
+
+It is clear that asking questions the “smart-way” is both more effective and efficient in getting quality results. When dealing with an open source community such as StackOverflow, it is easy to take the experts who volunteer, for granted. However, everyone should take the time to appreciate and thank those who take the time out of their day to help their community. By saving them time with specific, clear questions and examples, everyone benefits. 
+
+
+
+
+
+
+
+
+
+
+
