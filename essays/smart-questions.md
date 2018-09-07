@@ -16,9 +16,9 @@ Below, I will give examples of wasted and smart questions with explanations to h
 
 ### Wasted Question
 
-<div class="ui medium images center rounded">
+<div class="ui large images center rounded">
   <img class="image" src="../images/bad_eg_question.png">
-  <img class="image" src="../images/bad_eg_answer.png">
+  <img class="image" src="../images/bad_eq_answer.png">
 </div>
 
 There are a number of problems with this question posted on stack overflow. Firstly, if you ask a vague question, you will get a vague answer. From my perspective as a fellow coder, I’m not quite sure what this individual was trying to ask. Are they looking for informative websites where they get a foundation on redirecting on jQuery or JavaScript or did they try to do this in their code but ran into a problem? This ambiguity makes it hard for a fellow hacker to give you a helpful answer that would move you forward in your code. As shown in the response to the question, this individual tried there best to give an general answer but we don’t really know if that was the answer they were looking for. 
@@ -27,7 +27,7 @@ Also, not only does the body of the question lack detail, but the title lacks in
 
 ### Good Question
 
-<div class="ui medium images center rounded">
+<div class="ui large images center rounded">
   <img class="image" src="../images/good_eg_question.png">  
 </div>
 
@@ -36,7 +36,7 @@ The stack overflow question depicted above is not perfect but has many strengths
 ### Is this question worthy of Dumbledore?
 
 
-<div class="ui medium images center rounded">
+<div class="ui large images center rounded">
   <img class="image" src="../images/dumbledore.jpg">  
 </div>
 
