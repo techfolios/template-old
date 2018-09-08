@@ -29,22 +29,22 @@
   },
   "interests": [
     {
-      "name": "software engineering",
+      "name": "Software Engineering",
       "keywords": [
       ]
     },
     {
-      "name": "product development",
+      "name": "Product Development",
       "keywords": [
       ]
     },
     {
-      "name": "project management",
+      "name": "Project Management",
       "keywords": [
       ]
     },
     {
-      "name": "social good",
+      "name": "Social Good",
       "keywords": [
       ]
     }
@@ -75,8 +75,8 @@
       "area": "Computer Science (expected Spring, 2018)",
       "studyType": "Study Abroad",
       "startDate": "2018-08-20",
-      "endDate": "2018-5-20",
-      "gpa": "n/a",
+      "endDate": "2019-5-20",
+      "gpa": "3.85",
       "courses": [
         "Software Development",
         "Psychology of Human Sexuality",
@@ -91,9 +91,10 @@
       "endDate": "2019-5-20",
       "gpa": "3.62",
       "courses": [
-        "Data Science",
         "Algorithms and Complexity",
-        "Data Structures"
+        "Data Structures",
+        "Data Science",
+        "Organic Chemistry"
       ]
     }
     
@@ -102,17 +103,46 @@
     {
       "company": "AccesSurf Hawaii",
       "position": "Administrator",
-      "website": "",
+      "website": "https://www.accessurf.org/",
       "startDate": "2018-06-01",
       "endDate": "2018-08-20",
-      "summary": "Worked as the Administrator for AccesSurf over the summer",
+      "summary": "Administrator for AccesSurf Hawaii over the summer.",
       "highlights": [
-        "Lead and organize AccesSurf's bi-monthly events",
-        "Serve as the central point of communication and connect people to resources and information",
-        "Introduced and integrated new technologies to increase the efficiency of the non-profit"
+        "Collaborated with the executive director and program coordinator to implement AccesSurf’s mission and empower people with disabilities through accessible water programs.",
+        "Lead and coordinated volunteers and summer interns. Served as the central point of communication and connected people to resources and information in a timely manner.",
+        "Organized the logistics and lead 150-300 volunteers at AccesSurf’s biweekly events.",
+        "Introduced and integrated new technologies to increase the efficiency of the non-profit.",
+        "Improved the data management software and develop a work flow to track all of AccesSurf’s donations, volunteer hours, and participant information.", 
+        "Implement systems such as the project management tool, Asana, to streamline office collaboration and maximize the efficiency of tracking and posting on social media."
       ]
     },
-    
+    {
+      "company": "Middlebury College Computer Science Department",
+      "position": "Tutor and Grader for CS 201: Data Structures",
+      "website": "http://www.middlebury.edu/academics/cs",
+      "startDate": "2016-02-01",
+      "endDate": "2016-12-20",
+      "summary": "Helped students understand the class material and do their homework assignments.",
+      "highlights": [
+        "Mentored students with their homework and helped them develop problem solving skills.",
+        "Taught students about data structures, search and sorting algorithms and their respective run times.",
+        "Reviewed students’ code and evaluated their knowledge of algorithmic thinking and object-oriented principles.",
+        "Assessed the readability and functionality of student’s code, and graded assignments written in Java."
+      ]
+    },
+    {
+      "company": "Middlebury College Associate Provost of Digital Learning",
+      "position": "Tutor and Grader for CS 201: Data Structures",
+      "website": "http://www.middlebury.edu/academics/cs",
+      "startDate": "2016-06-01",
+      "endDate": "2016-08-01",
+      "summary": "Worked as an Intern doing projects, providing tech support and building educational tools for professors of the college.",
+      "highlights": [
+        "ollaborated with the Middlebury Study Abroad Office to understand the problems in their website and conceptualized a new purpose and direction for the site. Proposed and evaluated potential solutions, then built a front-end prototype using HTML, CSS and JavaScript.",
+        "Taught students about data structures, search and sorting algorithms and their respective run times.",
+        "Mentored 6 Middlebury faculty members regarding the best educational tools and taught them how to use the software. Anticipated potential issues they may have by identifying problems in the software and creating guidelines on how to circumvent the limitations of the software with code."
+      ]
+    },
   ],
   
   "references": [
