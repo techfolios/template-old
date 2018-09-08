@@ -133,7 +133,7 @@
     {
       "company": "Middlebury College Associate Provost of Digital Learning",
       "position": "Tutor and Grader for CS 201: Data Structures",
-      "website": "http://www.middlebury.edu/academics/cs",
+      "website": "http://www.middlebury.edu/offices/academic/provost/digital-learning",
       "startDate": "2016-06-01",
       "endDate": "2016-08-01",
       "summary": "Worked as an Intern doing projects, providing tech support and building educational tools for professors of the college.",
@@ -144,7 +144,35 @@
       ]
     },
   ],
-  
+    "volunteer": [
+    {
+      "organization": "AccesSurf Hawaii",
+      "website": "https://www.accessurf.org/",
+      "position": "Intern/Volunteer",
+      "startDate": "2017-05-01",
+      "endDate": "2017-8-30",
+      "summary": "Worked as an Intern and Volunteer at AccesSurf's office and at the biweekly events.",
+      "highlights": [
+        "Integrated data sets containing over 6000 entries using R and Excel to streamline input formatting and delete duplicates. Uploaded the data to the Bloomerang data management software.",
+        "Organized and ran the special events and fundraising table. Coordinated with other non-profits to promote their cause. Encouraged participants to join upcoming events, helped them integrate into AccesSurf's community and addressed their concerns regarding accessibility and the limitations of their disability.",
+        "Assisted the AccesSurf administrators with general tasks and computer support which included designing flyers, entering volunteer data on Excel and creating sign-up sheets on Word. Created a surfboard equipment fundraising goal thermometer and updated the CrowdRise home page to raise $20,000."
+      ]
+    },
+  ],
+  "awards": [
+    {
+      "title": "Dean's List",
+      "date": "2014-2016",
+      "awarder": "Middlebury College",
+      "summary": "To be named a College Scholar is the highest recognition for academic achievement at the liberal arts institution in Vermont. A College Scholar at Middlebury must carry a full course load of four or more classes during the semester, achieve a grade point average of 3.6 (on a 4.0 scale) or higher, with no grade lower than a B–."
+    },
+    {
+      "title": "College Scholar",
+      "date": "2014-2016",
+      "awarder": "Middlebury College",
+      "summary": "To be selected for the Dean's List, students must carry a full course load of four or more classes during the semester, achieve a grade point average of 3.3 (on a 4.0 scale) or higher and earn no grade lower than a B minus."
+    },
+  ],
   "references": [
     {
       "name": "Available upon request",
