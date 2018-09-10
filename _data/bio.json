@@ -133,12 +133,12 @@
       ]
     }
   ],
-  "awards": [
-  ],
+  /*"awards": [
+  ],*/
   "references": [
     {
-      "name": "Available upon request",
-      "reference": ""
+      "name": "Available upon request"
+      /*"reference": ""*/
     }
   ]
 }
