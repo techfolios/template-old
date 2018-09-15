@@ -107,11 +107,11 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Fall, 2018)",
-      "studyType": "B.S.",
+      "area": "Computer Science (Graduated in Fall 2018)",
+      "studyType": "B.S",
       "startDate": "2016-09-01",
-      "endDate": "Present",
-      "gpa": "3.3",
+      "endDate": "2018-08",
+      "gpa": "3.5",
       "courses": [
         "ICS 212: C/C++",
         "ICS 311: Algorithm",
@@ -123,7 +123,7 @@
         "ICS 414: Software Engineering II",
         "ICS 415: Web Design",
         "ICS 421: Database System II",
-        
+
       ]
     }
   ],
@@ -133,7 +133,7 @@
       "position": "IT Assistant",
       "website": "http://ee.hawaii.edu",
       "startDate": "2016-10-31",
-      "endDate": "Present",
+      "endDate": "2018-08-31",
       "summary": "Repair, replace, and maintain computers and other devices",
       "highlights": [
         "Maintain, update, and oversee computers of the department",

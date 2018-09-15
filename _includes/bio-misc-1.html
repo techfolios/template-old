@@ -12,7 +12,7 @@
       <p class="ui no-bottom">
       <b>{{ entry.name }}:</b>
       {% if entry.description and entry.description.size > 0 %}
-        <em>{{ entry.description }}</em>
+        {{ entry.description }}
       {% endif %}
     {% endfor %}
       </p>
