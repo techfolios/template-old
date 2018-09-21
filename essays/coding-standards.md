@@ -1,53 +1,27 @@
 ---
 layout: essay
 type: essay
-title: I just gave birth. How on earth am I going to take care of this child!?
+title: Swipe Right on Coding Standards and ESLint?
 # All dates must be YYYY-MM-DD format!
-date: 2018-08-31
+date: 2018-09-20
 labels:
-  - Athletic Software Engineering
-  - FreeCodeCamp
-  - Introduction to Javascript
+  - Coding Standards
+  - ESLint
 ---
 
-## The journey of learning JavaScript through athletic software engineering explained using the model of child care.
+## Swipe Right on Coding Standards and ESLint?
 
-### My baby is born!
+### What the heck are coding standards?
+From what I have gathered in my first week, I would say that a coding standard for code is equivalent to a specific grammar, format or style in writing essays. While most people know how to craft a sentence and a paragraph, these standards establish a general look and feel depending on whether the essay is a blog post, academic journal, science report or magazine. Similarly, coding standards are a set of guidelines or conventions to set a common look and feel for the code which vary depending on the team, company, project or software. While there are valid arguments and reasonings as to which coding standard may be the best fit, the most important thing is that the team has a coding standard that all members adheres to. 
 
-In the fall semester of my freshman year of college, I took my first coding class and got knocked up by Computer Science. On August 20th, 2018 I gave birth to a Javascript baby. 
+### Coding Standards are even more important for team sports
+This is especially important in the Computer Science world because software engineering is a team sport. Within each project team there are a number of people who collaborate to develop and test the code. For longer projects, there will be software programmers after you who need to pick up where you left off and larger projects can grow into a company with hundreds of software engineers working on the code. Imagine trying trying to write an book with hundreds together with 100 other authors— there’s a reason why we have the saying “there are too many cooks in the kitchen”. So because of the scalability of the code and its teams, I believe setting coding conventions for everyone to follow makes a huge difference in the quality of the code. 
 
-### How on earth am I supposed to take care of this child!?
+### ESLint = spellcheck
+However, I also think coding standards would be almost useless without ESLint. ESLint is like the spellcheck of coding conventions; it shows you errors where your code does not adhere to the established coding conventions. In practicality, software engineers have their own unique coding style and habits which can be difficult to move away from once they join a project with specific coding conventions. However, ESLint through behavior reinforcement with the red ‘x’ as negative reinforcement and the green check mark as positive reinforcement trains software engineers and ensures they adhere to the coding standard.
 
-<div class="ui small images center rounded">
+### ESLint as a learning tool
+In my opinion, ESLint can be helpful in fixing the ‘stupid’ errors like missing a curly brace or misspelling a variable. So instead of spending hours of frustration looking for that small mistake, you can find and fix those problems quickly. This gives you time to focus on the more important ares of your code such as developing algorithms or increasing the efficiency of your program. In continuing my spellcheck analogy, the spellcheck helps you fix the misspellings and thereby gives you time to focus on the theme and message of the essay. ESLint corrects you quickly and gives you the hints and links to documentation to learn the right spelling. This makes coding standards and ESLint an incredible learning tool for software developers adopting a new coding style. However, this begs the question, would having ESLint as spellcheck turn you into a lazy programmer?
 
-  <img class="image" src="../images/javascript-baby-js.jpg">
-  <img class="image" src="../images/javascript-baby-baby.jpg">
-  <img class="image" src="../images/javascript-baby-athleticSE.png">
-  
-</div>
-
-Admittedly, despite the skills I had developed in previous classes and programming languages I had learned, I was especially intimidated by Javascript and was apprehensive about beginning my journey to learn how to use it. But I was forced just to start and just like any human child, it all started with: 
-
-```ruby
-console.log(“Hello World!”);
-```
-
-### The Baby Manual
-
-After making this first step, the entire process felt a lot less paralyzing. I started gaining momentum on <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>’s Basic Javascript curriculum— learning the new syntax and gaining confidence in the process. I realized that I could apply a lot of what I had learned in other Computer Science classes and programming languages. I felt like I was getting the hang of it and FreeCodeCamp was incredibly useful in taking me step by step through the syntax and functionality of the language. If you’re ever looking to learn or refresh your Javascript, I would highly recommend it! However, there were also moments where I would get frustrated at the syntax and that it was taking me so long to implement a solution. But by the end of the curriculum, I felt pretty confident in my Javascript and was ready to see what was next. 
-
-### Baby Naming?
-
-In my opinion, one of FreeCodeCamp’s shortcomings is that it does not teach you about using <a href="http://learnharmony.org/#/lessons/block-scope-let?_k=y6gnsa">```let```</a> and <a href="http://learnharmony.org/#/lessons/block-scope-const?_k=x6y8av">```const```</a> instead of <a href="http://learnharmony.org/#/lessons/block-scope-let?_k=y6gnsa">```var```.</a>
-
-In simpler terms, ```let``` can only be used as temporary variables within functions, ```const``` are variables that you cannot change and ```var``` lets you use variables that you define in one place anywhere else in the code. In alignment with the baby analogy, you would use ```let``` to set your kid’s nickname that you use exclusively for specific groups and ```const``` for their given birth name. But if you used ```var```, you would be resetting their name all the time depending on who their with, confuse yourself, your child and maybe even traumatize them. In my opinion, the ambiguity and lack of clarity in ```var``` makes things more confusing later on because you can mix up the purpose and usage of the variables in your code. Conversely, using let and const force you to make a conscious decision about the scope and purpose of your variables as you are introducing them. 
-
-### Motherhood
-
-In the process of learning Javascript, I am using the <a href="http://philipmjohnson.org/essays/ase-2017.html">Athletic Software Engineering</a> method which kind of feels like:
-
-<img class="ui image large center" src="../images/run.gif"><footer><a href="https://gifer.com/en/7Kdd">Credits</a></footer>
-
-Learning Javascript and all of the new technologies, methods and code happens incredibly quickly. The work is non-stop and in order to succeed and make good progress, you need to consistently put in a sizable amount of work. This learning method gives you the opportunity to learn so much in a shorter period of time. However, this also means that like a child, it doesn’t bend for your personal life. It’s okay to prioritize other things sometimes, but consistently putting your child last may stunt their growth and development and result in a child negligence suit. While this pressure and level of consistency can be overwhelming, if you stick with you Javascript child, it’s exciting to see where you both will be at the end of the semester and where they go in the world. 
-
-
+### Swipe right? Super like?
+Coding Standards and ESLint have incredible power and scalability to improve the readability and clarity of your code. I would definitely at least swipe right. It looks like it has the potential to be one of the most important software engineering techniques, but I will have to experiment with it for another few months before declaring it as the single most important tool to increase code quality and clicking the super like. 
