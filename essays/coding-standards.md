@@ -9,7 +9,7 @@ labels:
   - ESLint
 ---
 
-## Swipe Right on Coding Standards and ESLint?
+## Coding Standards and ESLint- Swipe left, swipe right or superlike?
 
 ### What the heck are coding standards?
 From what I have gathered in my first week, I would say that a coding standard for code is equivalent to a specific grammar, format or style in writing essays. While most people know how to craft a sentence and a paragraph, these standards establish a general look and feel depending on whether the essay is a blog post, academic journal, science report or magazine. Similarly, coding standards are a set of guidelines or conventions to set a common look and feel for the code which vary depending on the team, company, project or software. While there are valid arguments and reasonings as to which coding standard may be the best fit, the most important thing is that the team has a coding standard that all members adheres to. 
