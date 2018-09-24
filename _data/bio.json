@@ -95,7 +95,7 @@
         "Queried database from OpenAir API",
         "Maintained and updated DataHouse's database"
       ]
-    },
+    }
   ],
   "volunteer": [
     {
@@ -135,7 +135,7 @@
   ],
   "references": [
     {
-      "name": "Available upon request"
+      "name": "Available upon request",
       "reference": ""
     }
   ]
