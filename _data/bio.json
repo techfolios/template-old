@@ -3,16 +3,16 @@
     "name": "Nolan Puletasi",
     "label": "Student",
     "picture": "https://sole808.github.io/images/Screenshot_2016-06-06-10-37-47 (2).png",
-    "email": "pn7@hawaii.edu",
+    "email": "np7798@moval.edu",
     "phone": "580-340-3608",
     "website": "https://sole808.github.io",
-    "summary": "I am studying for a B.A. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "summary": "I am studying for a B.A. in Information of Computer Science in the Department of Information and Computer Sciences at Missouri Valley College. I expect to graduate in Spring, 2020.",
     "location": {
-      "address": "2500 Campus Rd",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "address": "500 E College St.",
+      "postalCode": "65340",
+      "city": "Marshall",
       "countryCode": "USA",
-      "region": "Hawaii"
+      "region": "Missouri"
     },
     "profiles": [
       {
@@ -29,6 +29,11 @@
         "network": "instagram",
         "username": "nolan.puletasi",
         "url": "http://instagram.com/nolanpuletasi"
+      }
+      {
+        "network": "facebook",
+        "username": "nolan.puletasi",
+        "url": "http://facebook.com/nolanpuletasi"
       }
     ]
   },
