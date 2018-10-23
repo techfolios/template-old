@@ -46,7 +46,7 @@
       ]
     },
     {
-      "name": "data mining",
+      "name": "Sustainability",
       "keywords": [
       ]
     },
@@ -78,7 +78,7 @@
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
+      "institution": "Missouri Valley College Marshall, MO",
       "area": "Computer Science (expected Spring, 2020)",
       "studyType": "B.A.",
       "startDate": "2013-09-01",
@@ -90,12 +90,12 @@
   ],
   "work": [
     {
-      "company": "",
-      "position": "",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "",
+      "company": "Laboratory for Advanced Visualization and Applications",
+      "position": "Graphics Designer",
+      "website": "http://lava.manoa.hawaii.edu/team/#",
+      "startDate": "2017-08-01",
+      "endDate": "2018-05-18",
+      "summary": "Constructed online documentation for troubleshooting",
       "highlights": [
         "",
         ""
@@ -116,14 +116,14 @@
   ],
   "volunteer": [
     {
-      "organization": "",
+      "organization": "American Red Cross",
       "website": "",
-      "position": "",
-      "startDate": "",
-      "endDate": "",
+      "position": "Volunteer",
+      "startDate": "2010",
+      "endDate": "2011",
       "summary": "",
       "highlights": [
-        "",
+        "Constructed secured coin boxes for company profit increase",
         ""
       ]
     },
