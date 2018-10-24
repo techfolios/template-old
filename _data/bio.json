@@ -41,8 +41,6 @@
     {
       "name": "Graphics",
       "keywords": [
-        "",
-        ""
       ]
     },
     {
@@ -59,9 +57,13 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "level": "",
+      "level": "entry",
       "keywords": [
-        "JavaScript"
+        "JavaScript",
+        "Java",
+        "HTML",
+        "CSS",
+        "SQL Databases"
       ]
     },
     {
@@ -95,10 +97,9 @@
       "website": "http://lava.manoa.hawaii.edu/team/#",
       "startDate": "2017-08-01",
       "endDate": "2018-05-18",
-      "summary": "Constructed online documentation for troubleshooting",
-      "highlights": [
-        "",
-        ""
+      "summary": "Constructed online documentation for troubleshooting, 360 resolution panels, 11 to 20 panel screens, assist graduate projects",
+      "highlights": [ "Programmed a graphics digital planar remote in case if physical remote gets lost used HTML and CSS"
+     
       ]
     },
     {
@@ -121,44 +122,34 @@
       "position": "Volunteer",
       "startDate": "2010",
       "endDate": "2011",
-      "summary": "",
+      "summary": "Constructed secured coin boxes for company profit increase",
       "highlights": [
-        "Constructed secured coin boxes for company profit increase",
-        ""
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "",
-        "",
-        ""
+        
       ]
     }
   ],
   "awards": [
     {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "summary": ""
+      "title": "Wrestling Scholar (Leader)",
+      "date": "2014 - 2018",
+      "website": "https://wma.edu/2014-15-academic-assembly/ and https://www.valleywillroll.com/roster/15/13/13225.php",
+      "awarder": "Wentoworth Military Academy & Missouri Valley College",
+      "summary": "http://meritpages.com/Nolan-Puletasi-/2884070"
     },
     {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "summary": ""
+      "title": "Build Exito Scholar",
+      "date": "June 27 2017",
+      "website": "https://www.pdx.edu/exito/meet-our-cohort-3-scholars",
+      "awarder": "Portland State University grant from National Institutes of Health",
+      "summary": 
     }
   ],
   "references": [
     {
-      "name": "Available upon request",
-      "reference": ""
+      "name": "Shelly Soong",
+      "position": "Program Manager/Supervisor/Student Advising",
+      "Office number": "808-692-1052",
+      "reference": "Email: ssoong@hawaii.edu"
     }
   ]
 }
