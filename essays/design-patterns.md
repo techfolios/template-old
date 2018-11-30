@@ -1,13 +1,12 @@
 ---
 layout: essay
 type: essay
-title: Design Patterns: for bridesmaids, computer nerds and everyone in between.
+title: Swipe Right on Coding Standards and ESLint?
 # All dates must be YYYY-MM-DD format!
-date: 2018-11-29
+date: 2018-09-20
 labels:
-  - Design Patterns
-  - Software Development
-  - Metaphorical Learning
+  - Coding Standards
+  - ESLint
 ---
 
 ## Design Patterns Explained for Bridesmaids, Computer Nerds and everyone in between
