@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Design Patterns: for bridesmaids, computer nerds and everyone in between.
+title: Design Patterns for bridesmaids, computer nerds and everyone in between.
 # All dates must be YYYY-MM-DD format!
 date: 2018-11-29
 labels:
