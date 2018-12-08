@@ -72,7 +72,7 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Spring, 2019)",
       "studyType": "Study Abroad",
       "startDate": "2018-08-20",
       "endDate": "2019-5-20",
@@ -160,6 +160,12 @@
     },
   ],
   "awards": [
+    {
+      "title": "Innovation Days Hackathon Winner",
+      "date": "October 2018",
+      "awarder": "Innovation Days, Sultan Ventures and the Hawaii Tourism Authority",
+      "summary": "Developed a web application called Direct Aloha that addressed the problem of overcrowdedness at popular tourist locations that won the hackathon competition."
+    },
     {
       "title": "Dean's List",
       "date": "2014-2016",

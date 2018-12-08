@@ -22,11 +22,11 @@ summary: My team developed a website that ...???
 ADD!!!
 
 <div class="ui medium rounded images">
-  <img class="ui image large" src="../images/uhclubr-listclubs.png">
+  <img class="ui image large" src="../images/uhclubr-greyhats.png">
   <img class="ui image large" src="../images/uhclubr-travel2change.png">
 </div>
 
-### My Contribution
+### Personal Contribution
 ADD!!!
 
 ### Lessons Learned
