@@ -14,7 +14,7 @@ labels:
   - Node JS
   - React JS
   - Semantic UI
-summary: My first experience building a PC.
+summary: A quick and convenient way to search for your favorite food around the University of Hawaii Manoa. ICS314 group project.
 ---
 
 <img class="ui medium right floated rounded image" src="../images/ogmhome.png">
