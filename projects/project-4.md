@@ -17,11 +17,11 @@ labels:
 summary: My first experience building a PC.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/ogmvendor.png">
-
    During my fall semester of 2018, I had the opportunity to work on a group software engineering project for my ICS314 course. We used many new technologies we had been working with throughout the semester including Meteor, MongoDB, and React JS with semantic UI. We had quite a bit of freedom in choosing the main subject of our project, so we decided to try and solve an everyday issue students at the University of Hawaii Manoa might experience, using software engineering.
 
    A mutual problem I and my three group members shared was finding food we wanted to eat both on and near campus. To solve this issue, we thought to create OnoGrindzManoa, a custom web application where hungry students can quickly search for nearby food with ease. Customers are able to browse through our extensive list of vendors, receiving additional information about specials offers, prices, locations, and hours of operation.
+   
+<img class="ui medium right floated rounded image" src="../images/ogmvendor.png">
 
    For our first milestone, our goal was to make mock-ups of all of the pages we wanted and to create our basic project structure. We weren't concerned with implementation of functionality during this time. I was in charge of creating a mock-up for the vendor page where all of the vendors and their information would be listed.
   
