@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/ogmhome.png
+image: images/ogmlogo.png
 title: OnoGrindzManoa
 permalink: projects/ogm
 # All dates must be YYYY-MM-DD format!
@@ -16,6 +16,8 @@ labels:
   - Semantic UI
 summary: My first experience building a PC.
 ---
+
+<img class="ui medium right floated rounded image" src="../images/ogmhome.png">
 
    During my fall semester of 2018, I had the opportunity to work on a group software engineering project for my ICS314 course. We used many new technologies we had been working with throughout the semester including Meteor, MongoDB, and React JS with semantic UI. We had quite a bit of freedom in choosing the main subject of our project, so we decided to try and solve an everyday issue students at the University of Hawaii Manoa might experience, using software engineering.
 
