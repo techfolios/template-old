@@ -1,6 +1,7 @@
 ---
 layout: project
 type: project
+published: true
 image: images/ogmhome.png
 title: OnoGrindzManoa
 permalink: projects/ogm
