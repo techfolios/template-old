@@ -5,7 +5,7 @@ image: images/pcbuild.png
 title: The Rig
 permalink: projects/therig
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-015
+date: 2014-04-15
 labels:
   - Windows 8.1
   - Hardware
