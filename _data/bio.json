@@ -1,40 +1,31 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Quinne Uchida",
     "label": "Student",
     "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
+    "email": "qauchida@hawaii.edu",
+    "phone": "808-258-847
+    "website": "https://qauchida.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
     "location": {
-      "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "address": "91-983 La'aulu Street Apt B
+      "postalCode": "96706
+      "city": "Ewa Beach
       "countryCode": "USA",
       "region": "Hawaii"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "qauchida
+        "url": "http://github.com/qauchida
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "qauchida
+        "url": "http://linkedin.com/in/qauchida
       },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
-      }
+      
     ]
   },
   "interests": [
