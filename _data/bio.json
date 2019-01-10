@@ -4,25 +4,25 @@
     "label": "Student",
     "picture": "https://techfolios.github.io/template/images/molly.png",
     "email": "qauchida@hawaii.edu",
-    "phone": "808-258-847"
+    "phone": "808-258-847",
     "website": "https://qauchida.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
     "location": {
-      "address": "91-983 La'aulu Street Apt B"
-      "postalCode": "96706"
-      "city": "Ewa Beach"
+      "address": "91-983 La'aulu Street Apt B",
+      "postalCode": "96706",
+      "city": "Ewa Beach",
       "countryCode": "USA",
       "region": "Hawaii"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "qauchida
+        "username": "qauchida",
         "url": "http://github.com/qauchida
       },
       {
         "network": "linkedin",
-        "username": "qauchida
+        "username": "qauchida",
         "url": "http://linkedin.com/in/qauchida
       },
       
