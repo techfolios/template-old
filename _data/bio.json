@@ -1,16 +1,16 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Roderick Tabalba",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
+    "picture": "https://techfolios.github.io/images/zoomed.png",
+    "email": "tabalbar@hawaii.edu",
+    "phone": "808-"651-5942,
+    "website": "https://tabalbar.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
     "location": {
-      "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "2101 Ehu PL": "",
+      "postalCode": "96766",
+      "Hawaii": "Lihue",
       "countryCode": "USA",
       "region": "Hawaii"
     },
@@ -18,31 +18,27 @@
       {
         "network": "github",
         "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "url": "http://github.com/tabalbar"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "Roderick Tabalba",
+        "url": "https://www.linkedin.com/in/roderick-tabalba-19bb81178/"
       },
       {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "network": "TechHui",
+        "username": "Roderick Tabalba",
+        "url": "http://www.techhui.com/profile/RoderickTabalba"
       },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
-      }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "Roderick Tabalba": "internet of things",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "Art",
+        "Programming",
+        "AI"
       ]
     },
     {
@@ -51,7 +47,7 @@
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "",
       "keywords": [
       ]
     }
