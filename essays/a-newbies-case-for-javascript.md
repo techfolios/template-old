@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: A Newbies Case for Javascript
+title: A Newbie's Case for Javascript
 # All dates must be YYYY-MM-DD format!
 date: 2019-01-16
 labels:
