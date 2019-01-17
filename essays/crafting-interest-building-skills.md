@@ -9,4 +9,4 @@ labels:
   - Learning
 ---
 
-I've always loved creating things, either it writing or drawing. 
+I've always loved creating things, either it be writing or drawing. That satisfaction of struggling through not being satisfied with your work and finally being doing and seeing the end work? It
