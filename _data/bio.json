@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Morgan Stremick",
     "label": "Student",
     "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "email": "sm60@hawaii.edu",
+    "phone": "808-341-2842",
+    "website": "https://MorganStremick.github.io",
+    "summary": "I am studying for a B.S. in Math in the Department of Mathematics at the University of Hawaii. I expect to graduate in Spring, 2020.",
     "location": {
       "address": "",
-      "postalCode": "96822",
+      "postalCode": "96816",
       "city": "Honolulu",
       "countryCode": "USA",
       "region": "Hawaii"
