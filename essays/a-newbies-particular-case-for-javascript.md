@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: The difficult things will always be difficult
+title: A Newbies Particular Case for Javascript
 # All dates must be YYYY-MM-DD format!
 date: 2019-01-16
 labels:
