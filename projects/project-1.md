@@ -39,7 +39,7 @@ unsigned int f(unsigned int, unsigned int, unsigned int, unsigned int);
 unsigned int k(unsigned int);
 ```
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+You can learn more at the [SHA-1 WIKIPEDIA LINK](https://en.wikipedia.org/wiki/SHA-1).
 
 
 
