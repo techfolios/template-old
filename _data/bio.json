@@ -24,25 +24,13 @@
         "network": "linkedin",
         "username": "Koby Villalobos",
         "url": "https://www.linkedin.com/in/koby-villalobos-751337178/"
-      },
-      {
-        "network": "",
-        "username": "",
-        "url": ""
-      },
-      {
-        "network": "",
-        "username": "",
-        ""
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Photography",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
       ]
     },
     {
