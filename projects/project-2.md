@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
+image: images/money.jpg
 title: Bank Database Simulator
 permalink: projects/bankSimulator
 # All dates must be YYYY-MM-DD format!
