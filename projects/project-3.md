@@ -1,61 +1,58 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
+image: images/computerlogo.png
+title: User input
 permalink: projects/cotton
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2016-07-28
 labels:
-  - Lisp
-  - GitHub
-summary: A text adventure game I developed for ICS 313.
+  - fun
+  - strings
+  - User input
+summary: First program having fun with user input
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+<img class="ui image" src="{{ site.baseurl }}/images/computermem.png">
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+This project was my first program  i made in java that incorporated the use of user input. Although this program seems so simple, this project introduced my friend into how computers work. By using this program i was able to explain the syntax on how programming languages work in java, how i code, in a fun an interactive way.
 
-To give you a flavor of the game, here is an excerpt from one run:
+This is the code to the first program i ever made that wasn't an assignment and i wanted to explain how computer science coding works to a non-computer science major.
 
-<hr>
+```
+import java.util.Scanner;
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
+public class TeyanniProgram{
 
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
+   public static void main (String [] args){
+   
+   String animal = "";
+   String color = "";
+   String verb = "";
+   String place = "";
+   String food = "";
+   
+   Scanner userIn = new Scanner(System.in);
+   
+   System.out.println("Enter a animal");
+   animal = userIn.nextLine();
+   System.out.println("Enter a color");
+   color = userIn.nextLine();
+   System.out.println("Enter a verb");
+   verb = userIn.nextLine();
+   System.out.println("Enter a place");
+   place = userIn.nextLine();
+   System.out.println("Enter a food");
+   food = userIn.nextLine();
+   
+   System.out.println("A " + color + " " + animal + " " + verb + " to go to " + place + " to eat " + food);
+   
+   
+   
+   }
+}
+```
 
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
+This project asks the user to input animal, color, verb, respectively, and outputs a sentence using those words you just used.
 
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
 
