@@ -4,7 +4,7 @@ type: project
 published: true
 image: images/money.jpg
 title: Bank Database Simulator
-permalink: projects/vacay
+permalink: 
 # All dates must be YYYY-MM-DD format!
 date: 2018-11
 labels:
