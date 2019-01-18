@@ -1,6 +1,7 @@
 ---
 layout: project
 type: project
+published: false
 image: images/pokemon.jpg
 title: Pokemon
 permalink: projects/pokemon
