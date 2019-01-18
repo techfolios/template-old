@@ -2,15 +2,14 @@
 layout: project
 type: project
 image: images/micromouse.jpg
-title: Micromouse
+title: Mario 
 permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2017-12-02
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Java
+  - Gaming
+summary: My group developed a "Mario" themed game.
 ---
 
 <div class="ui small rounded images">
@@ -20,25 +19,14 @@ summary: My team developed a robotic mouse that won first place in the 2015 UH M
   <img class="ui image" src="../images/micromouse-circuit.png">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+Mario Flight Simulator is a group project created by by Angeli Amascual, Alton Lee, and Koby Villalobos. We made a game that was mario themed, and was inspired by flappy bird. You control mario(or luigi) and fly past bullet bills while colleting coins to increase your score. You are given a certain amount of health, but may recover some health by collecting mushroooms. The longer the game runs, the faster the bullet bills fly by! Your score will be recorded, so challange yourself to beat the high-scores.
 
-Here is some code that illustrates how we read values from the line sensors:
+For this project, I worked on four classes. These classes are "Health.java", "Block.java", "GameSet.java", and "MainFunc.java". For "Health.java", I created a health system, where when hit by bullet bills your health would decrease until reaching zero, where the game would end. You may also increase your health when collecting mushrooms. In the "Block.java: class, I made the bullet bills who fly past the screen, and reset their position to go back into the screen in an infinite loop. "GameSet.java" is a class that configures the different elements of the game, such as the Background, music, etc. Lastly "MainFunc.java" is a class that includes the main function, which combinds all the other classes in the project.
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+
+You can see the code in my repository [Koby Villalobos's GitHub](https://github.com/koby-villalobos/marioflightsimulator).
 
 
 
