@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-published: false
+published: true
 image: images/money.jpg
 title: Bank Database Simulator
 permalink: projects/bankSimulator
