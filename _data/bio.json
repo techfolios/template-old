@@ -70,36 +70,15 @@
       ]
     }
   ],
-  "work": [
+  "Activity": [
     {
-      "company": "",
-      "position": "",
-      "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
+      "company": "Grey Hats",
+      "position": "student",
+      "startDate": "2016-09-01",
+      "endDate": "2017-05-16",
+      "summary": "This is a school organization related to computer science.",
+      "highlights": [ "NCL Fall 2016", "NCL Spring 2017"
       ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "",
-      "website": "",
-      "position": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "summary": ""
     }
   ],
   "references": [
