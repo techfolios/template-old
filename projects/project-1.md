@@ -20,7 +20,7 @@ summary: My team developed a robotic mouse that won first place in the 2015 UH M
 Sha1 hash generator is one of the algorithms used by the United States National Security Agency to encrypt strings into hash codes. It is these kinds of algorithms that are needed in the world of Computers to protect users of their privacy, passwords, and programs owned by others. The Sha1 has code generator takes in a string and produes a 160-bit hash value specific to the string being sent in by using a number of different formulas that seem to another non-computer user randomizing the values within the string.
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/encyrption.jpg">
+  <img class="ui image" src="../images/encryption.jpg">
 </div>
 
 
