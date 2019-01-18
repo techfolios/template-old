@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/computerlogo.png
 title: User input
-permalink: projects/cotton
+permalink: projects/firstProgram
 # All dates must be YYYY-MM-DD format!
 date: 2016-07-28
 labels:
@@ -13,7 +13,7 @@ labels:
 summary: First program having fun with user input
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/computermem.png">
+<img class="ui image" src="{{ site.baseurl }}/images/computermem.jpg">
 
 This project was my first program  i made in java that incorporated the use of user input. Although this program seems so simple, this project introduced my friend into how computers work. By using this program i was able to explain the syntax on how programming languages work in java, how i code, in a fun an interactive way.
 
