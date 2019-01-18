@@ -1,25 +1,25 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+image: images/pikachu.png
+title: Pokemon game
+permalink: projects/Pokemon
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2016-09-23
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Javas
+  - Pokemon
+  - GUI
+  - Game
+summary: Fully functional pokemon game that allows the player to capture pokemon.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+Welcome to the world of pokemon. Pokemon is a game that was first created in Japan, in 1996. The pokemon franchise blew up in popularity that allowed gamers all over the world to explore a role-playing game to capture creatures and battle with other players.
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+<img class="ui medium right floated rounded image" src="../images/pokemonlogo.png">
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+This project was a final project in an ICS 211 class using the programming language Java. The goal was to produce a fully functional pokemon game that invloved the use of GUI and MANY java files. This project taught students how objects were used in java using implementation and abstract classes using extend.
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
+The most challenging part of this final project was creating GUIs. Although it wasn't part of the assignment to have everything looking clean just so long as it works. However, after finishing the project, i quickly became obsessed and addicted to creating the perfect GUI that fit the assignment and looked like something i am proud to call my first game.
  
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+<img class="ui medium right floated rounded image" src="../images/Screenshot.png">
