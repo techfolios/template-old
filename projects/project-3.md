@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/computerlogo.png
 title: User input
-permalink: projects/firstProgram
+permalink: projects/firstprogram
 # All dates must be YYYY-MM-DD format!
 date: 2016-07-28
 labels:
