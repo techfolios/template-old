@@ -12,12 +12,6 @@ labels:
 summary: My group developed a "Mario" themed game.
 ---
 
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
-</div>
 
 
 Mario Flight Simulator is a group project created by by Angeli Amascual, Alton Lee, and Koby Villalobos. We made a game that was mario themed, and was inspired by flappy bird. You control mario(or luigi) and fly past bullet bills while colleting coins to increase your score. You are given a certain amount of health, but may recover some health by collecting mushroooms. The longer the game runs, the faster the bullet bills fly by! Your score will be recorded, so challange yourself to beat the high-scores.
