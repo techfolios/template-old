@@ -2,17 +2,17 @@
   "basics": {
     "name": "Koby Villalobos",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/face.png",
+    "picture": "https://techfolios.github.io/template/images/kobyv.jpg",
     "email": "kobyv@hawaii.edu",
     "phone": "808-258-4444",
     "website": "https://koby-villalobos.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "postalCode": "96744",
+      "city": "Kāneʻohe",
       "countryCode": "USA",
-      "region": "Hawaii"
+      "region": "Hawaiʻi "
     },
     "profiles": [
       {
@@ -22,18 +22,18 @@
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "Koby Villalobos",
+        "url": "https://www.linkedin.com/in/koby-villalobos-751337178/"
       },
       {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "network": "",
+        "username": "",
+        "url": ""
       },
       {
         "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "koby_808",
+        "url": "http://instagram.com/zacefron"
       }
     ]
   },
@@ -84,9 +84,9 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Spring, 2020)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2016-08",
       "endDate": "Present",
       "gpa": "",
       "courses": [
