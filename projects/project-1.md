@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/cyberlogo.png
+image: images/cyberlogo.jpg
 title: Sha1-Encryption
 permalink: projects/SHA-1
 # All dates must be YYYY-MM-DD format!
