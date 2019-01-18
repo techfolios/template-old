@@ -3,9 +3,9 @@ layout: project
 type: project
 image: images/marioImage.jpg
 title: Mario 
-permalink: projects/micromouse
+permalink: 
 # All dates must be YYYY-MM-DD format!
-date: 2017-12-02
+date: 2017-12
 labels:
   - Java
   - Gaming
