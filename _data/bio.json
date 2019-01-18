@@ -31,9 +31,9 @@
         "url": ""
       },
       {
-        "network": "instagram",
-        "username": "koby_808",
-        "url": "http://instagram.com/zacefron"
+        "network": "",
+        "username": "",
+        ""
       }
     ]
   },
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "name": "data mining",
+      "name": "Security",
       "keywords": [
       ]
     },
@@ -58,15 +58,12 @@
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "",
       "level": "",
       "keywords": [
         "C",
-        "C++",
         "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Javascript"
       ]
     },
     {
@@ -74,10 +71,8 @@
       "level": "",
       "keywords": [
         "MacOS",
-        "Ubuntu",
         "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "g++"
       ]
     }
   ],
@@ -140,9 +135,9 @@
       "endDate": "",
       "summary": "",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "",
+        "",
+        ""
       ]
     }
   ],
