@@ -3,14 +3,14 @@ layout: project
 type: project
 image: images/micromouse.jpg
 title: Sha1-Encryption
-permalink: projects/micromouse
+permalink: projects/SHA-1
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2018-04-06
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Cyber Security
+  - SHA-1
+  - Encyrption
+summary: Recreated SHA-1 hash code generator from scratch.
 ---
 
 <div class="ui medium rounded images">
