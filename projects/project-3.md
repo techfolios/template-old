@@ -56,3 +56,4 @@ public class TeyanniProgram{
 This project asks the user to input animal, color, verb, respectively, and outputs a sentence using those words you just used.
 
 
+You can learn more about java on [JAVA API](https://docs.oracle.com/javase/7/docs/api/).
