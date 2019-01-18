@@ -28,7 +28,7 @@ In my ICS 212 Class, we had a final project that was to recreate the Sha1 hash c
 
 Here are the different functions that i had to use to create finish this project.
 
-```js
+```jss
 unsigned int readFile(unsigned char[]);
 unsigned int calculateBlocks(unsigned int);
 void convertCharArrayToIntArray(unsigned char[], unsigned int[], unsigned int);
