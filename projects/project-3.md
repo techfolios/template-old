@@ -4,7 +4,7 @@ type: project
 published: true
 image: images/pokemon.jpg
 title: Pokemon
-permalink: projects/pokemon
+permalink: projects/cotton
 # All dates must be YYYY-MM-DD format!
 date: 2017-12
 labels:
