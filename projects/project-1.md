@@ -14,13 +14,14 @@ summary: My team developed a robotic mouse that won first place in the 2015 UH M
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/cyberlogo.png">
 </div>
 
 Sha1 hash generator is one of the algorithms used by the United States National Security Agency to encrypt strings into hash codes. It is these kinds of algorithms that are needed in the world of Computers to protect users of their privacy, passwords, and programs owned by others. The Sha1 has code generator takes in a string and produes a 160-bit hash value specific to the string being sent in by using a number of different formulas that seem to another non-computer user randomizing the values within the string.
+
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/encyrption.jpg">
+</div>
 
 
 In my ICS 212 Class, we had a final project that was to recreate the Sha1 hash code generator in c++. This project was by far the most difficult assignment i had to do throughout my ICS eductation. The project needed the user to learn and traverse through the algorithm in order to create it. The most important lesson this project has taught me is to take breaks. As this project covers a lot of formulas and can take hours of coding to finish. Taking breaks refreshes my mind when proking on projects and assignments and allows me to think clearly about the task at hand. 
