@@ -26,3 +26,9 @@ Perhaps it was because I had previous experience coding, or perhaps it was becau
 The WODs we have had for class so far, has been like a review for me. It's nice and easy enough that I believe it was mainly for getting used to the Javascript language and syntax. The class setup, I believe, is very time consuming when it comes to not being in class, and would normally be very inconvenient for me if it were like any other semester, but now, my schedule is much clearer and I can allow myself enough time to work on this class. It's like my other ICS classes, which was a "flipped class," initially, I had not liked those type of classes because of the lack of time I had outside of class, now though, for ICS 314 specifically, I quite like it. 
 
 # The Journey 
+
+The lessons from freeCodeCamp, for the most part, have been pretty easy and straight forward. Some though, I had struggled with. It had been the ones concerning objects and trying create a record collection. From this alone, I can tell it will get more difficult in the future. 
+
+But I look forward to a lot learning more and working with Javascript. 
+
+I don't know if Javascript will be all that good of a language to know when it comes to the work place, but working with it now will help improve collaborative projects in the future. And I certainly don't know the back end when it comes to this language, because I know some people don't like Java because it's "easy" or that it relies too much on an outside source for code, but Javascript is a language, I think, would be a good steeping stone for most people to learn to start coding. 
