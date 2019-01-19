@@ -107,18 +107,6 @@
         "Able to effectivly communicate to incomming guests and provide adequete information",
         "Ability to work under pressure and follow rules and guidelines and do my jon while being unsupervised"
       ]
-    },
-    {
-      "company": "",
-      "position": "",
-      "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "",
-        ""
-      ]
     }
   ],
   "volunteer": [
@@ -129,41 +117,13 @@
       "startDate": "2016-01-01",
       "endDate": "2016-1-4",
       "summary": "Take care of elderly and assist nurses",
-      "highlights": [
-        "",
-        ""
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "",
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "summary": ""
-    },
-    {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "summary": ""
+
     }
   ],
   "references": [
     {
-      "name": "Available upon request",
-      "reference": ""
+      "name": "Mark Abalos",
+      "Phone number": "Phone Number Available Upon Request."
     }
   ]
 }
