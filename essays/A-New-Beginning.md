@@ -9,4 +9,6 @@ labels:
   - Learning
 ---
 
-It's been awhile since I've coded something, especially with a language close to Javascript. While I do not have nearly as much time when it comes to coding something
+
+
+It's been awhile since I've coded something, especially with a language close to Javascript. While I do not have nearly as much time when it comes to coding something, I have had some experience with java, c, and c++. 
