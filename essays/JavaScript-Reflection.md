@@ -9,7 +9,10 @@ labels:
   - JavaScript
 ---
 
-## First time using JavaScript
+
+<img class="ui centered image" src="../images/JavaScriptLogo.png">
+
+## First Time Using JavaScript
 
    This week I was able to experience the basics of the programing language JavaScript. This language was mentioned many times throughout my classes at UH, so it was very interesting getting to learn a little about what my professors and peers have talked about. Even though its only been a week of learning this language, I do not like it already. JavaScript seems to be the wild west of languages compared to what I have learned so far (java, c, c++). The previous languages have a more strict approach compared to JavaScript. Even in class, a student pointed out that the professor was missing a semicolon in his code. The professor said it was okay, ran his code, and the program worked fine. This does not currently make any sense and really bothers me, so I guess you can say my disliking of the language currently comes from a place of ignorance. 
 
