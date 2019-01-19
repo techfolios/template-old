@@ -16,7 +16,9 @@ It's been awhile since I've coded something, especially with a language close to
 # Learning Anew
 
 This is my first experience I've had with Javascript. I'll admit, I was initially a bit taken back and slightly overwhelmed by the amount of lessons we had to take during the freeCodeCamp. When I started to take the lessons, I immediately recognized the difference between Java and Javascript but also the similarities between them. As I took the lessons, I said to myself
+
 > "This is much easier than Java!"
+
 and with the first Javascript done and over with, I still stand by that statement. We haven't done much coding yet, but so far, I have had quite an easy time adjusting to using Javascript, much easier than I had originally thought I would be. 
 
 Perhaps it was because I had previous experience coding, or perhaps it was because it was similar enough to Java that I didn't have a problem. Whatever the reason it may be, I believe Javascript is a much easier language to learn than other languages.
