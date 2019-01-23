@@ -18,7 +18,7 @@ theme-projects: theme-projects-builtin-1.html
 theme-essays: theme-essays-builtin-1.html
 theme-bio: theme-bio-builtin-1.html
 
-# Specify the rouge syntax highlighter theme. Pick one from css/rouge.
+# Specify the rouge syntax highlighter theme. Pick one from css/rouge..
 rouge-theme: igorpro
 
 # YOU NORMALLY NEVER CHANGE THE FOLLOWING
