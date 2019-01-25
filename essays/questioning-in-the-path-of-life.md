@@ -24,4 +24,12 @@ After looking at a few questions, I discovered that sometimes, it's not that sub
 
 # Following the Yellow Brick Road 
 
+Nothing matters unless you truly know what you don't know. 
+
+That makes no sense, but that's the point. We can't have a path to follow unless we know what our destination is. We can wander aimlessly, following roads and paths that lead us to dead ends or even in worse places than we started at. While it may help us get our heads in order, it isn't going to help us one bit. 
+
+Once we have our goal in mind, we need to do it right. There's an easy way and a smart way. While we may be tempted to take shortcuts, thinking that just because we can see that path ahead, it may be fine. Well, that is not the case. It's a long and difficult road, and while it may not be what we want to hear, we can't have someone else walk the path for us, we have to do it ourselves. 
+
+We must seek guidance, not answers. 
+
 
