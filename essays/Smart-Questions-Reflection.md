@@ -28,3 +28,5 @@ This is the first question I would like to analyze. This question comes from Sta
 ## Smart Question
 <img class="ui centered image" src="../images/goodQuestion.png">
 Link to Question: https://stackoverflow.com/questions/54101445/re-assign-unique-values-pandas-dataframe
+
+This question is what Raymond would define a "smart question". First off, the title is concise yet informative. It lets users know what the question is going to be about, without "babbling on". You can tell from reading this question, that the asker as a good base knowledge about the topic, and that they have tried to solve the question on their own. The question is also gramtically corrected and formatted in a way that it is easy for readers to understand. An great answer ended up being posted, where the person answering went into detail about what exactly was wrong with the code, how to fix it, and test cases to prove the solution true. This is a great way to answer, since the asker and other users learn more about the topic, instead of just how to fix this one exact case. The person answering the question also gains cedability when they post test cases.
