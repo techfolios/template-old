@@ -20,7 +20,7 @@ This week I started to learn about open source software, which is a great tool t
 <img class="ui centered image" src="../images/badQuestion.png">
 
 
-This is the first question I would like to analyze. This question comes from Stack Overflow, and the first thing I noticed was the poorly written title. Raymon suggest that titles should be 50 or less characters, and this example does not meet that criteria (has 64 without spaces). 
+This is the first question I would like to analyze. This question comes from Stack Overflow, and the first thing I noticed was the poorly written title. Raymon suggest that titles should be 50 or less characters, and this example does not meet that criteria (has 64 without spaces). The next thing wrong about this question, is that you can tell that the person asking the question did not do much work to look into the subject himself. Raymond heavily states that before asking a question, the person should do a lot of research on their own. 
 
 
 
