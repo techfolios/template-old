@@ -31,4 +31,4 @@ This question is what Raymond would define a "smart question". First off, the ti
 
 ## Which Question was answered better?
 
-I believe that the smart question had the better response of the two. The first question recieved a response 
+I believe that the smart question had the better response of the two. The first question recieved a response, but it was just a link to a users repository. I believe that if the question was a "smart question, then there would be a more indepth response that further explores the topic, where users can learn together. The second question recieved a very thoughtful, indepth response that teaches the asker about the topic, instead of just linking to a users repository that has a working example.
