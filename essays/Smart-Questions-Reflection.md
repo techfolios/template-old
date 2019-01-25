@@ -20,7 +20,7 @@ This week I started to learn about open source software, which is a great tool t
 <img class="ui centered image" src="../images/badQuestion.png">
 Link to Question: https://stackoverflow.com/questions/54204491/control-apple-music-itunes-from-another-application-running-on-the-same-pc
 
-This is the first question I would like to analyze. This question comes from Stack Overflow, and the first thing I noticed was the poorly written title. Raymon suggest that titles should be 50 or less characters, and this example does not meet that criteria (has 64 without spaces). The next thing wrong about this question, is that you can tell that the person asking the question did not do much work to look into the subject himself. Raymond heavily states that before asking a question, the person should do a lot of research on their own. In the end, the asker of this "Bad Question" did recieve a useful answer from another user.
+This is the first question I would like to analyze. This question comes from Stack Overflow, and the first thing I noticed was the poorly written title. Raymon suggest that titles should be 50 or less characters, and this example does not meet that criteria (has 64 without spaces). The next thing wrong about this question, is that you can tell that the person asking the question did not do much work to look into the subject himself. Raymond heavily states that before asking a question, the person should do a lot of research on their own. If the asked did their own research first, they might not have had to ask the question in the first place, or may have asked a better indepth question. In the end, the asker of this "Bad Question" did recieve a useful answer from another user.
 
 
 
