@@ -26,3 +26,5 @@ This is the first question I would like to analyze. This question comes from Sta
 
 
 ## Smart Question
+<img class="ui centered image" src="../images/goodQuestion.png">
+Link to Question: https://stackoverflow.com/questions/54101445/re-assign-unique-values-pandas-dataframe
