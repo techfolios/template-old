@@ -12,8 +12,10 @@ labels:
 summary: My group developed a "Mario" themed game.
 ---
 
-<img class="ui centered image" src="../images/superMario.png">
+<img class="ui centered image" src="../images/s.png">
 (Screen shot from game)
+
+## 
 
 
 Mario Flight Simulator is a group project created by by Angeli Amascual, Alton Lee, and Koby Villalobos. We made a game that was mario themed, and was inspired by flappy bird. You control mario(or luigi) and fly past bullet bills while collecting coins to increase your score. You are given a certain amount of health, but may recover some health by collecting mushrooms. The longer the game runs, the faster the bullet bills fly by! Your score will be recorded, so challenge yourself to beat the high-scores. I was able to learn how to work in a team setting by doing this project. It was very important for us to communicate clearly about what we were doing, so none of us were wasting time doing unecessary work.
