@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 published: true
-title: Getting to Learn
+title: Starting a Journey in Software Engineering
 # All dates must be YYYY-MM-DD format!
 date: 2019-01-25
 labels:
@@ -11,6 +11,10 @@ labels:
 ---
 
 <img class="ui medium left floated image" src="../images/CSvsSE.jpeg">
+
+
+I will be learning about software engineering for the first time in ICS 314. I am excited to learn about a new topic, especially one that could lead to a potential career. My hopes are to develop a passion for the topic, or at least a good understanding that I could apply to different fields of computer science.
+
 
 ## javaScript
 
