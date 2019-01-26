@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-published: false
+published: true
 title: Getting to Learn
 # All dates must be YYYY-MM-DD format!
 date: 2019-01-25
