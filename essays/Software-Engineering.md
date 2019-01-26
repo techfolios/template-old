@@ -10,7 +10,7 @@ labels:
   - JavaScript
 ---
 
-<img class="ui medium left floated image" src="../images/CSvsSE.jpg">
+<img class="ui medium left floated image" src="../images/CSvsSE.jpeg">
 
 ## javaScript
 
