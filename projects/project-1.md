@@ -12,7 +12,7 @@ labels:
 summary: My group developed a "Mario" themed game.
 ---
 
-<img class="ui centered image" src="../images/s.png">
+<img class="ui centered image" src="../images/superMario.png">
 (Screen shot from game)
 
 ## 
