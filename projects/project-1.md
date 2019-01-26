@@ -13,7 +13,7 @@ summary: My group developed a "Mario" themed game.
 ---
 
 <img class="ui centered image" src="../images/superMario2.png">
-(Screen shot from game)
+(Screenshot from game)
 
 ## 
 
