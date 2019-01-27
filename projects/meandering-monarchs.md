@@ -7,9 +7,9 @@ permalink: projects/meandering-monarchs
 date: 2019-01-27
 labels:
   - Javascript
-  - Github
+  - GitHub
   - Latex
-summary: An exploration of the Meandering Monarchs probability problem, including solutions in specific cases and a simulation.
+summary: An exploration of the Meandering Monarchs problem, including solutions in specific cases and a simulation.
 ---
 
 A basic description of the meandering monarch problem is as follows: Given a board that is four tiles wide and four tiles tall and a chess piece, which falls uniformly and at random on the board. Find the probability that the chess piece lands on a given tile after n turns, if at the start of each turn the chess piece moves uniformly and at random to any of the adjacent tiles, and where adjacent may be defined differently for different chess pieces. For a solution in the case when chessPiece  = king, and chessPiece = queen please visit the following overleaf document: [solution](https://www.overleaf.com/read/pvtxkrgtwtcx). If you are interested in a simulation of the experiment, then please refer to this GitHub repository: [simulation](https://github.com/MorganStremick/meandering-monarchs). Just as a note, you can change the dimension of the board to be anything you want. You can even make it 3-dimensional, or 4. 
