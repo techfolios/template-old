@@ -11,7 +11,7 @@ labels:
 summary: A key button game I made for ICS 111.
 ---
 
-This racing game was developed as the first project in ICS 111, using java. This was an individual project, coded only by myself. 
+This racing game was developed as the first project in ICS 111, using java. This was an individual project. 
 
 In this game, we were to use 'S' and 'A' to control a selected character and quickly tap both buttons alternatively, anything else would not work. Once one character was ahead of the others, it would display that they were in first place. The game would end when a character, whether it be the player or the computer, wins. 
 
