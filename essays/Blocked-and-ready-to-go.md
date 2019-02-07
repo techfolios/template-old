@@ -22,8 +22,8 @@ Coding standards certainly make everything easier to read. With different progra
 
 While ESLint may be a bit more stricter than the typical language structure, I think it would help in learning a programming language. At first, the strict rules might get in the way of learning the syntax, when having to remember all the strict rules, but eventually, after we get used to it, we can focus on learning how they all fit together. 
 
-The green checkmark in IntelliJ is nice, it's a good way to whether or not everything's up to standards. And, it's a nice to be reminded from time to time that you're doing a good job. 
-
 # Piecing It Together
 
+The green checkmark in IntelliJ is nice, it's a good way to whether or not everything's up to standards. And, it's nice to be reminded from time to time that you're doing a good job. 
 
+Coding standards don't really give you room to have it written your way, like some people prefering to have the curly brace on the same line and others and a new line, but that's also a good thing. Some may not like it, but it also prevents people from writing their code in a way that makes it difficult for others to read. 
