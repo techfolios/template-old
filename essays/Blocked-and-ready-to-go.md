@@ -12,3 +12,16 @@ labels:
   
 ---
 
+first impressions, green checkmark, help you learn the language, insights
+
+# The Playground
+
+
+
+# Basic Steps
+
+
+
+# Piecing It Together
+
+
