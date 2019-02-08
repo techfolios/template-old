@@ -9,7 +9,7 @@ labels:
   - Coding Standards
 ---
 
-<img class="ui centered image" src="../images/codingStandards.jpg">
+<img class="ui centered image" src="../images/codingStandard.jpeg">
 
 
 I was taught that the three most important parts to a program are security, readability, and efficency. Readability is important when writting code for a company since coworkers can understand your code faster, which saves the company time, and in turn their money. The easiest way to make your code readable is to follow coding standards. Coding standards were put in place so that everyone 
