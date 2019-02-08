@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 published: true
-title: Coding Standards!
+title: How to look like a good programmer!
 # All dates must be YYYY-MM-DD format!
 date: 2019-02-07
 labels:
