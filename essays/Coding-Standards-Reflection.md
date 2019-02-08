@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 published: true
-title: How to look like a good programmer!
+title: How to Look Like a Good Programmer!
 # All dates must be YYYY-MM-DD format!
 date: 2019-02-07
 labels:
@@ -24,4 +24,4 @@ One thing I wish was different about coding standards, is that they would be mor
 
 ## ESLint
 
-I have started using ESLint to check my code for about a week now, and I have really enjoyed it. I am still getting used to ESLint and it will probably take me a few more weeks to write code without check style errors, especially after following the coding standards in ICS 212 without an IDE to fix it for me. I got really used to writting code in the coding standards of ICS 212, that it happend unconciously when writing code. Now having an IDE correcting my code will be much easier in the begining, but it might take me a little longer to accurately follow the new coding standards. I think getting the green check mark is very useful. It might be a little frustrating at first, but I know that it is there to help me. 
+I have started using ESLint to check my code for about a week now, and I have really enjoyed it. I am still getting used to ESLint and it will probably take me a few more weeks to write code without check style errors, especially after following the coding standards in ICS 212 without an IDE to fix it for me. I got really used to writing code in the coding standards of ICS 212, that it happened unconsciously when writing code. Now having an IDE correcting my code will be much easier in the beginning, but it might take me a little longer to accurately follow the new coding standards. I think getting the green check mark is very useful. It might be a little frustrating at first, but I know that it is there to help me. 
