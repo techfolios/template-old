@@ -1,18 +1,18 @@
 ---
 layout: essay
 type: essay
-published: true
+published: false
 title: How to Look Like a Good Programmer!
 # All dates must be YYYY-MM-DD format!
-date: 2019-02-07
+date: 2019-02-21
 labels:
-  - Coding Standards
+  - UI Frameworks
 ---
 
 <img class="ui centered image" src="../images/codingStandard.jpeg">
 
 
-I was taught that the three most important parts to a program are security, readability, and efficiency. Readability is important when writing code for a company since coworkers can understand your code faster, which saves the company time, and in turn their money. The easiest way to make your code readable is to follow coding standards. Coding standards were put in place so that everyone is on the same page, and can easily understand code.
+I hate semantic ui.
 
 ## Benefits of Coding Standards
 
