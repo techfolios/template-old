@@ -13,6 +13,8 @@ labels:
   
 ---
 
+test
+
 Life is difficult. We all know this. We all go through different struggles in life but it only makes us better in the ends. Sandpaper. That's rough, but it makes for such a smoother surface. It goes the same for learning. If everything was easy, there'd be no point in learning new things. The challenge and the struggle of wanting to learn more and discover new ways is what makes it worth it. 
 
 People love a challenge. People also love make things simpler because they like it easy. Sounds complicated, well, that's because it is. 
