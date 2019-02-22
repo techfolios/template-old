@@ -17,4 +17,6 @@ Life is difficult. We all know this. We all go through different struggles in li
 
 People love a challenge. People also love make things simpler because they like it easy. Sounds complicated, well, that's because it is. 
 
-Semantic Ui, while a struggle at first, is a necessary evil. It allows you to have a much easier time in creating websites that are much appealing and would work on so many diverse devices. There are other options of course, but Semantic UI is one that works well as an add-on rather that a replacement to HTML and CSS. 
+Semantic Ui, while a struggle at first, is a necessary evil. It allows you to have a much easier time in creating websites that are much appealing and would work on so many diverse devices. There are other options of course, but Semantic UI is one that works well as an add-on rather that a replacement to HTML and CSS, and of course, is the only one that I am aware of. 
+
+First time working with something like this and it takes quite a bit to get used to. 
