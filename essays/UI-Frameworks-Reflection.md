@@ -14,8 +14,8 @@ labels:
 
 UI frameworks are hard. This week I was able to experience Semantic UI for the first time. I had no idea what I was doing. I constantly copied examples given to me, and struggled to make even the smallest changes to fit my needs. I ended up finishing this weeks WOD about five minutes before the DNF time. All that being said, the quality of the websites I produced has increased dramatically. You can see the major difference in my example pictures. 
 
-<img class="ui medium left floated image" src="../images/ugly-website.png">
-<img class="ui medium right floated image" src="../images/good-website.png"> 
+<img class="ui large left floated image" src="../images/ugly-website.png">
+<img class="ui large right floated image" src="../images/good-website.png"> 
 
 
 
