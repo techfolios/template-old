@@ -9,7 +9,7 @@ labels:
   - UI Frameworks
 ---
 
-<img class="ui centered image" src="../images/codingStandard.jpeg">
+<img class="ui centered image" src="../images/ui-frameworks-meme.png">
 
 
 I hate semantic ui.
