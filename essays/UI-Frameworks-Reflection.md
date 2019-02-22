@@ -16,6 +16,7 @@ UI frameworks are hard. This week I was able to experience Semantic UI for the f
 
 <img class="ui medium left floated image" src="../images/ugly-website.png">
 <img class="ui medium right floated image" src="../images/good-website.png"> 
+## 
 
 
 The first picture is a website I made after a week of learning html and css. If I saw a website that resembled anything like that while browsing the internet, I would click off of it immediately. It looks like it was made is in 1990. The second picture was a week after the first picture, where I got to experience Semantic UI. This website looks like it could be a real website used by a very small start up company that can't afford a professional website. To an extent, It is visually pleasing and would not make me immediately click off of it. I am very proud of the product for only having a small intro to Semantic UI, and I can't imagine what my websites would look like after fully understanding this UI Framework. 
