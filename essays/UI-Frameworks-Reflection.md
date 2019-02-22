@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-published: false
+published: true
 title: How to Look Like a Good Programmer!
 # All dates must be YYYY-MM-DD format!
 date: 2019-02-21
