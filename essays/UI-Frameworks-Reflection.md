@@ -9,19 +9,13 @@ labels:
   - UI Frameworks
 ---
 
-<img class="ui centered image" src="../images/ui-frameworks-meme.png">
+<img class="ui image" src="../images/ui-frameworks-meme.png">
 
 
-I hate semantic ui.
+UI frameworks are hard. This week I was able to experience Semantic UI for the first time. I had no idea what I was doing. I constantly copied examples given to me, and struggled to make even the smallest changes to fit my needs. I ended up finishing this weeks WOD about five minutes before the DNF time. All that being said, the quality of the websites I produced has increased dramatically. You can see the major difference in my example pictures. 
 
-## Benefits of Coding Standards
+<!-- <img class="ui image" src="../images/ui-frameworks-meme.png">
+<img class="ui image" src="../images/ui-frameworks-meme.png">  -->
 
-Coding standards are the most important thing when making your code readable. Having readable code will save plenty of time of others understanding your code. Finding bugs in your programs is also much easier when having readable code. If you can't understand what the code does, you will have no chance in finding bugs in the program. Also, having coding standards will help with code maintenance. If a coder retires from a company, It will be much easier to maintain their code if everyone follows the same coding standards. I was told by a professor that having pretty code will get you further when applying for jobs, so I would say that is a big benefit.
 
-## Improvements
-
-One thing I wish was different about coding standards, is that they would be more universal. Coding standards are just preferences on how to write your code, which has led to many companies to work with many different standards. I understand that different languages benefit from different coding standards, but if they were more universal for the same languages it would be easier when working on multiple projects with different coding standards. 
-
-## ESLint
-
-I have started using ESLint to check my code for about a week now, and I have really enjoyed it. I am still getting used to ESLint and it will probably take me a few more weeks to write code without check style errors, especially after following the coding standards in ICS 212 without an IDE to fix it for me. I got really used to writing code in the coding standards of ICS 212, that it happened unconsciously when writing code. Now having an IDE correcting my code will be much easier in the beginning, but it might take me a little longer to accurately follow the new coding standards. I think getting the green check mark is very useful. It might be a little frustrating at first, but I know that it is there to help me. 
+The first picture is a website I made after a week of learning html and css. If I saw a website that resembled anything like that while browsing the internet, I would click off of it imediately. It looks like it was made is in 1990. The second picture was a week after the first picture, where I got to experience Semantic UI. This website looks like it could be a real website used by a very small start up company that can't afford a professional website. To an extent, It is visually pleasing and would not make me imediately click off of it. I am very proud of the product for only having a small intro to Semantic UI, and can't imagine what my websites would look like after fully understanding this UI Framework. 
