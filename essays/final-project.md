@@ -52,4 +52,4 @@ User goes to landing, logs in, checks calander, checks appointment setup, and ad
 
 # Beyond the basics
 
-After implementing basic ideas, some ideas are to
+After implementing basic ideas, some ideas are to have a feature where users accept the invite or request to be invited to a team. And possibly make it possible to have multiple groups one user could be in.
