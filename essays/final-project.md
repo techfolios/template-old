@@ -11,35 +11,35 @@ labels:
 
 # Overview
 
-## The Problem
+### The Problem
 
 The problem is that students have trouble organizing projects and appointments together. There are many different websites with many different uses, that it could get overwhelming sometimes. 
 
-## The Solution
+### The Solution
 
 The solution would be to create a website the has it all in one place. 
 
 # Mockup page ideas
 
-## Landing Page
+### Landing Page
 This page welcomes all visitors to the webpage.
 
-## Sign in/Sign Up
+### Sign in/Sign Up
 This page allows people to acces the website and all it's features.
 
-## Team Members 
+### Team Members 
 This page allows you to view who is on your team and displays all the contacts.
 
-## Calander
+### Calander
 This page allows you to view all appointments and planned meetings.
 
-## Appointment Setup
+### Appointment Setup
 This page allows you to suggest meeting times and vote on when is most appropriate.
 
-## Leader Appointment Setup
+### Leader Appointment Setup
 This page allows the initial inviter to either accept or reject meeting time ideas.
 
-## Notes
+### Notes
 This page allows all team members to create notes and edit notes from all team members.
 
 # Use case ideas
