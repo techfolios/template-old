@@ -1,52 +1,52 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Aman Kumar Yadav",
     "label": "Student",
     "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "email": "yadav.aman099@gmail.com",
+    "phone": "+919915542382",
+    "website": "https://learningt2cod3.github.io",
+    "summary": "I am studying for a Bachelors in Computer Science Engineering from Chandigarh University I am expected to graduate in April, 2021.",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
-      "countryCode": "USA",
-      "region": "Hawaii"
+      "postalCode": "140413",
+      "city": "Mohali",
+      "countryCode": "IN",
+      "region": "Punjab"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "learningt2cod3",
+        "url": "http://github.com/learningt2cod3"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "amankumaryadav",
+        "url": "http://linkedin.com/in/amankumaryadav"
       },
       {
         "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "username": "yadavaman099",
+        "url": "http://twitter.com/yadavaman099"
       },
       {
         "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "amanyadav16",
+        "url": "http://instagram.com/amanyadav16"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "game developement",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "Unity 3D",
+        "C#"
       ]
     },
     {
-      "name": "data mining",
+      "name": "Augmented Reality",
       "keywords": [
       ]
     },
@@ -63,20 +63,20 @@
       "keywords": [
         "C",
         "C++",
+        "C#",
         "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Python",
+        "SQL"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
+        "Windows",
         "Ubuntu",
         "Git/GitHub",
-        "g++",
+        "Visual Studio",
         "TI LaunchPad"
       ]
     }
@@ -84,9 +84,9 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "area": "Computer Science (expected Spring, 2021)",
+      "studyType": "B.E.",
+      "startDate": "2017-07-01",
       "endDate": "Present",
       "gpa": "",
       "courses": [
