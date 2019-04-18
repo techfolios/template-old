@@ -21,7 +21,7 @@ But simply put, in the most case, it's just common sense.
 
 What isn't so simple, however, is Autonomous cars. 
 
-While "Programmed to Kill" may seem a bit drastic, that's essentially what the problem is. The future of self-driving cars is coming upon us, in fact, there's already self-driving cars out on the road right now, Tesla being one of the big picture ones that people tend to think of when someone says "self-driving cars." While there's a survery going on about this problem, it's still not something that we can just brush aside as if it were nothing. 
+While "Programmed to Kill" may seem a bit drastic, that's essentially what the problem is. The future of self-driving cars is coming upon us, in fact, there's already self-driving cars out on the road right now, Tesla being one of the big picture ones that people tend to think of when someone says "self-driving cars." While there's a [study by the MIT](http://moralmachine.mit.edu/) and many more going on about this problem, it's still not something that we can just brush aside as if it were nothing. 
 
 Accidents happen all the time. Either it be from a software perspective or a hardware perspective or just simply misuse of the product. This is what we are focusing on right now. Say the break doesn't work or doesn't work on time, and there's an unavoidable accident, then what? 
 
@@ -35,6 +35,12 @@ The code of ethics says the client, the *public,* comes first. So, we save the d
 
 Wrong.
 
+As a programmer, we must do as little harm as possible. But what happens if it's one driver against five pedestrians?
 
+What do we do if it's three occupants against three pedestrians? Three young and three old? 
+
+Who decides whose life is more valuable? The boss? The programmer? The public? The client?
 
 # My Opinion
+
+
