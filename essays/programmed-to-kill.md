@@ -9,6 +9,10 @@ labels:
   - Ethics
 ---
 
-# 
+# Ethics
 
-Ethics, Case, Opinion
+Ethics, in simple terms, means to do good. However, this still does not explain what Ethics *is.* 
+
+# The Case
+
+# My Opinion
