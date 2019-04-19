@@ -13,7 +13,7 @@ labels:
 
 Ethics, in simple terms, means to do good. However, this still does not explain what Ethics *is.* There are many layers to what Ethics is and what it does in programming. Programming-wise, ethics helps keep the programmer in check; they're essentially guidelines that one must follow. 
 
-We must do good with our program; only publish if contributes to society and does the least amount of harm to someone as possible. Along with how we interact with others, like our bosses, co-workers or the clients; treat everyone fairly and those less privelleged must be treated better. Client comes first after all. 
+We must do good with our program; only publish if contributes to society and does the least amount of harm to someone as possible. Along with how we interact with others, like our bosses, co-workers or the clients; treat everyone fairly and those less privileged must be treated better. Client comes first after all. 
 
 But simply put, in the most case, it's just common sense. 
 
