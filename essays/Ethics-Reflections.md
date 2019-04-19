@@ -1,6 +1,7 @@
 ---
 layout: essay
 type: essay
+published false
 title: My Thoughts on JavaScript
 # All dates must be YYYY-MM-DD format! 
 date: 2019-04-18
