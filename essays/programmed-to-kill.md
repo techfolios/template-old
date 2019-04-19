@@ -47,4 +47,6 @@ Who'd want a car that sacrificed them?
 
 # My Opinion
 
+Of course, we need to minimize as much deaths as possible. Most people agree with that, it's just when they are the driver that the tend to change their own opinion. 
 
+But the code of ethics say programmers have a duty to the client first. While it's not what some people want - minimizing the harm I mean - it's what we have to do. We just have to hope that it would never come to that.
