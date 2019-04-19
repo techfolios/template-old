@@ -11,7 +11,7 @@ labels:
 ---
 
 
-<img class="ui centered image" src="../images/JavaScriptLogo.png">
+<img class="ui centered image" src="../images/Ethics.jpg">
 
 ## First Time Using JavaScript
 
