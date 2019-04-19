@@ -24,4 +24,4 @@ labels:
 
 ## The Future
 
-  I believe that ethics are important to consider in every decision a person makes, but especially ethics in software engineering. Software engineers must consider how their work can affect others when creating their code. More technology is being relied on every day, so the impact of unethical code is constantly growing. Every company should have their own code of ethics, and it should be publicly available to help others with their own ethics.
+  I believe that ethics are important to consider in every decision a person makes, but especially ethics in software engineering. Software engineers must consider how their work can affect others when creating their code. More technology is being relied on every day, so the impact of unethical code is constantly growing. Every company should have their own code of ethics, and it should be publicly available to help others with their own ethics. Society would greatly benefit is ethics in software engineering was followed.
