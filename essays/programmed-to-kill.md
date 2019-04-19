@@ -31,7 +31,7 @@ If you're a normal person, you don't want that to happen. But in this case? It h
 
 # The Options
 
-The code of ethics says the client, the *public,* comes first. So, we save the driver, case closed, right?
+The [code of ethics](https://www.computer.org/education/code-of-ethics)([ACM CoE](https://www.acm.org/code-of-ethics)) says the client, the *public,* comes first. So, we save the driver, case closed, right?
 
 Wrong.
 
