@@ -1,21 +1,21 @@
 ---
 layout: essay
 type: essay
-published: false
-title: My Thoughts on JavaScript
+published: true
+title: What Would You Do?
 # All dates must be YYYY-MM-DD format! 
 date: 2019-04-18
 labels:
   - Ethics
-  - JavaScript
+  - Software Engineering
 ---
 
 
 <img class="ui centered image" src="../images/Ethics.jpg">
 
-## First Time Using JavaScript
+## What are Ethics?
 
-   This week I was able to experience the basics of the programing language JavaScript. This language was mentioned many times throughout my classes at UH, so it was very interesting getting to learn a little about what my professors and peers have talked about. Even though its only been a week of learning this language, I do not like it already. JavaScript seems to be the wild west of languages compared to what I have learned so far (java, c, c++). The previous languages I learned have a more strict approach compared to JavaScript. Even in class, a student pointed out that the professor was missing a semicolon in his code. The professor said it was okay, ran his code, and the program worked fine. This does not currently make any sense and really bothers me, so I guess you can say my disliking of the language currently comes from a place of ignorance. 
+   The dictionary definition of ethics is "moral principles that govern a person's behavior or the conducting of an activity". This definition can be applied to every aspect of a person's life, and every decision a person makes. There are two main forms of ethics, professional ethics and personal ethics. These two tend to overlap, and can get messy at times. The topic that I wanted to expand on was ethics in software engineering. This would fall under professional ethics, and could also clash with personal ethics at times. When considering ethics in software engineering, it is important to consider how your work will affect the safety of others, and if your work will create a positive impact on society. There are many situations that can occur due to the work you produce and how you produce it. Even if you created software that created a positive impact on society, such as software that could help detect cancer, it could still be unethical. There could be a bug in the software that caused it to not work on people with certain blood types, causing people to go months untreated for cancer. This would be highly unethical due to the software negatively affecting the safety of others. 
 
 ## Softare Engineering and JavaScript
 
