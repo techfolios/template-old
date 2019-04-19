@@ -37,9 +37,13 @@ Wrong.
 
 As a programmer, we must do as little harm as possible. But what happens if it's one driver against five pedestrians?
 
-What do we do if it's three occupants against three pedestrians? Three young and three old? 
+What do we do if it's three occupants against three pedestrians? Three young or three old? 
 
 Who decides whose life is more valuable? The boss? The programmer? The public? The client?
+
+And if we do choose to go for the least amount of deaths, what would happen if the driver is sacrificed? 
+
+Who'd want a car that sacrificed them?
 
 # My Opinion
 
