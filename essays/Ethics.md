@@ -8,8 +8,9 @@ labels:
   - Ethics
   - Morals
   - Philosophy
-  -ACM
+  - ACM
 ---
+
 
 <div class="ui large rounded images">
   <img class="ui image" src="../images/morals.jpg">
