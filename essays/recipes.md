@@ -16,4 +16,6 @@ The point is that so many things can be done with those basic ingredients, and i
 
 For every type of cookie and for every type of problem, there's a few basic things you need to go about doing it. But everyone still has their own way, it's not going to come out the same. They might even be going for something similar to it but it's still going to work out because that's what it was made for.
 
+This simplifies things for us so we aren't just blindly going head first into something we might not know about. And even if we were just making a type of cookie, we might not even know that all cookies have that basic ingredient list to go off of.
+
 
