@@ -11,12 +11,12 @@ labels:
   - Problem Solving
 ---
 
+  
+## Insanity
 
 <div class="ui large rounded images">
   <img circular class="ui image" src="../images/insanity.jpg">
 </div>
-  
-## Insanity
 
   "The definition of insanity is doing the same thing over and over again and expecting a different result." A famous quote widely used and stood its ground for years that many people claim originated from Albert Einstein. I often need to remind myself of this quote whenever I’m trying to solve a problem and especially when I’m writing code for an assignment. It's easy to get stuck in a loop and caught up in a specific pathway to your solution even though it's probably best to take a step back and re-analyze what you're trying to do. A couple days ago, I got stuck on a programming assignment I had to do for class. For hours and hours I tried to implement a search bar from react into my assignment and I ended up digging myself into a deeper hole, focusing on the wrong details of my work, complicating the assignment with additional problems to solve with adding unnecessary variables, functions, passing around data like a game of hot potato. Finally, I took a step back, went to sleep and sure enough that morning I reverted to my original problem and solved it with 1 simple step. I was pulling from the wrong collection. But that's the problem when trying to code. When there's so many ways to solve your problem. Some may be filled with more problems or there may be one simple solution. However, that is also the BEAUTY of coding! There are SO MANY POSSIBILITIES of designing an application! So many that we developers need a system to simplify the problem. That system is called "Design Patterns"
   
