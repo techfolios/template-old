@@ -30,7 +30,7 @@ labels:
   Design patterns are the basis of code, programs, software, hardware, LIFE. A set pathway we implement into our daily lives to solving the challenges we face. Cooking, we all follow some recipe when first trying to recreate a dish. A dish that has proven to be delicious and optimized to fit our taste buds. A set of guidelines we implement into our dishes to create something of our own. These recipes are the design patterns of programming. However, these design patterns are in no means an "easy way out" when solving your problems. You also need to understand what you're doing and why you're doing it. I came across another problem yesterday when implementing a collection into my programming assignment. We already had a recipe (AKA: design pattern) to follow but it wasn't spicing up my programming like I wanted it to. The problem I solved involved the use of critical thinking, understanding the design pattern, and like cooking, a whole lot of patience. After hours of brute force of making unnecessary changes, I took a step back and realized I really needed to understand how data was being passed through different functions, files, and why variables were named a certain way. After understanding the template, I simplified the problem and asked myself, what am I trying to do? Finally, I focused in on solving the problem at hand and found a solution. I turned some template of code into my own personalized recipe.
 
 
-## Psychology of Design Patterns
+## Psychology of Design Patterns.
 
 <div class="ui large rounded images">
   <img circular class="ui image" src="../images/psychology.png">
