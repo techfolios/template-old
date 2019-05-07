@@ -1,15 +1,17 @@
 ---
 layout: project
 type: project
-published: true
+published: false
 image: images/pokemon.jpg
-title: Pokemon
+title: UH Manoas List
 permalink: 
 # All dates must be YYYY-MM-DD format!
-date: 2017-12
+date: 2019-05
 labels:
-  - c++
-summary: program the stores data for pokemon.
+  - JavaScript
+  - Meteor
+  - React
+summary: Application for UH Manoa students to buy/sell items on campus.
 ---
 
 
