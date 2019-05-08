@@ -24,4 +24,4 @@ This application was made as a final project for ICS 314 (Software Engineering) 
 I learned a lot about c++ when creating this program, which is why I chose to include it. This was a hard program for me to write, even though there was no complex algorithms or hard concepts involved. It was hard for me because I did not have much previous knowledge about c++, and reading resources about this language online can be confusing at times. Writing this program made me appreciate having less features in c. I learned a lot about c++, but most importantly that it is not a language for me.
 
 
-You can see the code in my repository [Koby Villalobos's GitHub](https://github.com/koby-villalobos/pokemon).
+You can see the Orginization page here: [UHManoasList](https://uhmanoaslist.github.io/).
