@@ -92,11 +92,10 @@
     {
       "company": "Ka Leo O Hawai'i ",
       "position": "Web Developer",
-      "website": "",
+      "website": "http://www.manoanow.org/kaleo/about/",
       "startDate": "2019-02",
       "endDate": "Present",
-      "summary": "Help build a community and guide residents in Housing",
-      "highlights": [
+      "summary": "Help maintain and develop tools for Ka Leo": [
         "Help develop and maintain Manoa Now app",
         "Maintain Manoa Now website"
       ]
