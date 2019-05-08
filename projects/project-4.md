@@ -15,7 +15,7 @@ summary: Application for UH Manoa students to buy/sell items on campus.
 ---
 
 
-<img class="ui centered image" src="../images/pokemonLogo.png">
+<img class="ui centered image" src="../images/UHML-Login.png">
 
 
 This application was made as a final project for ICS 314 (Software Engineering) at UH Manoa. It was designed to have similar functions as craigslist, but to be used by UH Manoa students. We wanted to create an application where UH Manoa students can easily sell items that other students may need, but in a safe way where they did not have to leave campus.  
