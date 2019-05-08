@@ -17,6 +17,8 @@ summary: A reactive website created for the UH Manoa community in ICS 314.
 
 [Manoa Exchange](https://manoaexchange.github.io/) was created with the UH Community in mind. The purpose was to create a [website](http://manoaexchange.meteorapp.com/#/ "check it out here!") that only the UH community could use to buy and sell products. It was mainly geared to those that were in the dormitory or another housing nearby and either wanted to sell their furniture or one of their other items, or buy one from someone that didn't want it. Users were free to sell anything they wanted though, only if it was appropriate. The admin was allowed to edit and delete items and accounts depending on reports submitted by other users, otherwise, they could participate too.
 
+<img src="images/landing.PNG">
+
 # My Part
 
 I worked on part of the mock-up pages, did the back-end of the profile, category pages, and made sure all the different branches didn't have a conflict when merged together. The mockup of the landing pages, profile pages, and category pages were my doing. The color scheme of the site was based on the landing page banner. I decided on something simple and not extravagant that would would away from the main purpose of the site, and had certain things, like the buttons, stand out. 
