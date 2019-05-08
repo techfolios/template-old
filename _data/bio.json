@@ -90,15 +90,15 @@
       ]
     },
       {
-      "company": "UH Manoa Student Housing Services",
-      "position": "Resident Assistant",
-      "website": "",
-      "startDate": "2017-08",
+      "company": "Ka Leo O Hawai'i",
+      "position": "Web Developer",
+      "website": "http://www.manoanow.org/kaleo/about/",
+      "startDate": "2019-02",
       "endDate": "Present",
-      "summary": "Help build a community and guide residents in Housing",
+      "summary": "Help maintain and develop tools for Ka Leo",
       "highlights": [
-        "Care for the safety of resdients",
-        "work the front desk"
+        "Help develop and maintain Manoa Now app",
+        "Maintain Manoa Now website"
       ]
     },
   ],
