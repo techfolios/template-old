@@ -18,7 +18,7 @@ summary: Application for UH Manoa students to buy/sell items on campus.
 <img class="ui centered image" src="../images/UHML-Login.png">
 
 
-This application was made as a final project for ICS 314 (Software Engineering) at UH Manoa. It was designed to have similar functions as craigslist, but to be used by UH Manoa students. We wanted to create an application where UH Manoa students can easily sell items that other students may need, but in a safe way where they did not have to leave campus.  
+This application was made as a final project for ICS 314 (Software Engineering) at UH Mānoa. It was designed to have similar functions as craigslist, but to be used by UH Mānoa students. We wanted to create an application where UH Mānoa students can easily sell items that other students may need, but in a safe way where they did not have to leave campus. Our application has different categories which items would be listed under, such as textbooks, electronics, etc. This allows users to easily find items that they are interested in. Each listed item will link to a user's profile page, which includes contact information so students can meet up to make the transaction. We also have a report system where students can notify admin about suspicious items being sold. This allows admin to easily monitor the application without having to go through each item. 
 
 The team that created this application consisted of Braden Betz, Hoyeon Jang, Mark Matsuoka, and myself. We split the work up by completing different pages of the application, and making different components used by the pages. The parts of the project that I completed were the report system, the different category pages, and the pages to sell/edit items. 
 
