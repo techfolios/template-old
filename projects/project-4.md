@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/pokemon.jpg
+image: images/ManoaSeal.png
 title: UH Manoas List
 permalink: 
 # All dates must be YYYY-MM-DD format!
