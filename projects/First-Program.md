@@ -59,4 +59,3 @@ This project asks the user to input animal, color, verb, respectively, and outpu
 
 
 You can learn more about java on [JAVA API](https://docs.oracle.com/javase/7/docs/api/).
-
