@@ -13,11 +13,13 @@ labels:
 summary: First program having fun with user input
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/computermem.jpg">
+<div class="ui large rounded images">
+  <img class="ui image" src="../images/computermem.jpg">
+</div>
 
-This project was my first program  i made in java that incorporated the use of user input. Although this program seems so simple, this project introduced my friend into how computers work. By using this program i was able to explain the syntax on how programming languages work in java, how i code, in a fun an interactive way.
+  This project was my first program i made in java that incorporated the use of user input. Although this program seems so simple, this project introduced my friend into how computers work. By using this program I was able to explain the syntax on how programming languages work in java, how I code, in a fun an interactive way.
 
-This is the code to the first program i ever made that wasn't an assignment and i wanted to explain how computer science coding works to a non-computer science major.
+  This is the code to the first program I ever made that wasn't an assignment and i wanted to explain how computer science coding works to a non-computer science major.
 
 ```
 import java.util.Scanner;
@@ -57,3 +59,4 @@ This project asks the user to input animal, color, verb, respectively, and outpu
 
 
 You can learn more about java on [JAVA API](https://docs.oracle.com/javase/7/docs/api/).
+
