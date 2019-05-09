@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/cyberlogo.jpg
+image: images/project.jpg
 title: Foodie Cravings
 permalink: projects/Foodie-Cravings
 # All dates must be YYYY-MM-DD format!
@@ -21,7 +21,7 @@ summary: Working with a professional team to develop and deployment of a website
   Our plan was to create a easy to use, informal website directed towards students attending UH Manoa to gain more information on the locations of their favorite entrees. Users could add reviews to the website along with pictures, rating, and where to buy the entrees. Then other users may search up reviewed entrees and make comments or add aditional ratings to the existing entree. 
   
 <div class="ui large rounded images">
-  <img class="ui image" src="../images/food.png">
+  <img class="ui image" src="../images/food.PNG">
 </div>
   
   We divided the entire project in 3 subsetions called milestones. In each of these subsections, we were each given a set of issues that we had to complete within a given time period. In the first milestone, my job was to create the home page, implement a way that users may report bugs to admins, deploy the project on Meteor, and create a project home page [foodiecravings.github.io](https://foodiecravings.github.io/), where my team or others had access to our project, source code, and deployed website. During this time I learned it's best to get a head start on the starting development and getting all the pages done with a layout on how we want to showcase our website. This made it easy for my team to add functionality on specific pages and set the foundation and what we needed to do next. 
