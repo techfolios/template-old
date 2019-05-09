@@ -28,4 +28,3 @@ Games. In my opinion, the number 1 source of entertainment that makes kids and e
 ## My legacy
 
 I embark on my Computer Science journey this spring semester of 2019 in UH Manoa and I plan to become the future. Learn the many different programming languages that have been on the rise. Create programs and projects that will benefit not only us, but the future. My legacy in Computer Science will redefine what Computer Science is, and my ideas will thrive with success. I hope to develop skills that will turn me into a computer genius. A computer genius that will take humanity to the next level.
-
