@@ -1,0 +1,33 @@
+<!-- Used by theme-projects-builtin-1 -->
+
+<div class="card">
+  {% if include.page.image %}
+    <div class="image">
+      <img src="{{ site.baseurl }}/{{ include.page.image }}">
+    </div>
+  {% endif %}
+  <div class="content">
+    <span class="header">{{ include.page.title }}</span>
+    <div class="meta">
+      <span class="date">{{ include.page.date }}</span>
+    </div>
+
+    <div class="description">
+      {{ include.page.summary }}
+    </div>
+  </div>
+
+  <div class="extra content">
+    <div class="ui mini labels">
+      {% for label in include.page.labels %}
+        <div class="ui basic label">{{ label }}</div>
+      {% endfor %}
+    </div>
+  </div>
+    {% if page.projecturl %}
+      <a class="ui bottom attached button" href="{{ page.projecturl }}">Read More</a>
+    {% else %}
+      <a class="ui bottom attached button" href="{{ site.baseurl}}{{ include.page.url }}">Read More</a>
+    {% endif %}
+
+</div>

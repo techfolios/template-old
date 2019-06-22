@@ -1,2 +1,7 @@
-# ease78.github.io
-Collaborative Personal Portfolio that interacts with @btschroder's portfolio to reflect changes there and vice versa
+# Technical Portfolio
+
+This repository hosts a technical portfolio built using [TechFolio](http://techfolios.github.io). 
+
+See the quick start guide for instructions on how to tailor the template to your own needs.
+
+
