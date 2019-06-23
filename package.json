@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "leader-line": "^1.0.5",
+    "v-spotlight": "^1.0.3"
+  }
+}
