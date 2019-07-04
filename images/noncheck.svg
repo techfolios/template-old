@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4 Copy 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="19.9450549" cy="20" rx="19.9450549" ry="20"></ellipse>
+    </defs>
+    <g id="Artboard-Copy-6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-314.000000, -278.000000)">
+        <g id="Group-4-Copy-6" transform="translate(314.000000, 278.000000)">
+            <g id="Oval-Copy-7">
+                <use fill="#E0E0E0" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <ellipse stroke="#E0E0E0" stroke-width="1.9" cx="19.9450549" cy="20" rx="18.9950549" ry="19.05"></ellipse>
+            </g>
+            <path d="M13.4146635,13.3409091 L27.6935096,27.6590909" id="Path-3" stroke="#FFFFFF" stroke-width="3"></path>
+            <path d="M13.4146635,13.3409091 L27.6935096,27.6590909" id="Path-3" stroke="#FFFFFF" stroke-width="3" transform="translate(20.554087, 20.500000) scale(-1, 1) translate(-20.554087, -20.500000) "></path>
+        </g>
+    </g>
+</svg>

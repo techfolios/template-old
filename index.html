@@ -1,5 +1,2561 @@
----
-layout: default
----
+<html>
+<head>
+<script src="js/jquery-2.2.0.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600,700" rel="stylesheet">   
+<script type="text/javascript">  
+    
+var RATING_MAX = 3; 
+var IMPORTANCE_MAX = 3;
+var DEFAULT_IMPORTANCE = 1;
+var DEFAULT_RATING = "";
+var MAX_CIRCLE_SIZE = 70;
+var scores = [];
+var checkScores = [];
+var winnersArray = new Array();    
+var ratingMode = "numbers";
+var CHOICE_SMALL_FONT_THRESHOLD = 32;
+var FACTOR_SMALL_FONT_THRESHOLD = 38; 
+var DEFAULT_CIRCLE_SIZE = 25;
+var DEFAULT_CIRCLE_X = 82;
+var DEFAULT_CIRCLE_Y = 37;   
+    
+choice=[
+    {
+        "id": 1,
+        "name": "choice 1"
+    },
+    {
+        "id": 2,
+        "name": "choice 2"
+    }
+];
 
-{% include {{ site.theme-home }} %}
+factor=[
+    {
+        "id":1,
+        "name": "factor 1"
+    },
+    {
+        "id":2,
+        "name": "factor 2"
+    }   
+];
+
+rating=[
+//    {
+//        "id":1,
+//        "choice_id":1,
+//        "factor_id":1,
+//        "value":3,
+//        "confident": true,
+//        "isUnknown": false
+//    },
+//    {
+//        "id":2,
+//        "choice_id":2,
+//        "factor_id":2,
+//        "value":3,
+//        "confident": true,
+//        "isUnknown": false
+//    },
+//    {
+//        "id":3,
+//        "choice_id":1,
+//        "factor_id":2,
+//        "value":1,
+//        "confident": true,
+//        "isUnknown": false
+//    },
+//    {
+//        "id":4,
+//        "choice_id":2,
+//        "factor_id":1,
+//        "value":1,
+//        "confident": true,
+//        "isUnknown": false
+//    }
+];
+checkRating=[  
+];
+importance=[
+    {
+        "id":1,
+        "factor_id":1,
+        "value":1
+    },
+    {
+        "id":2,
+        "factor_id":2,
+        "value":1
+    }  
+];
+    
+Array.prototype.diff = function(a) {
+    return this.filter(function(i) {return a.indexOf(i) < 0;});
+};
+    
+
+$(document).on("click", ".headerCell", function () { 
+    
+    var currentName = $(this).find(".choiceLabel").text();
+    
+    if (!($(this).hasClass("beingEdited"))) {
+        
+        $(this).addClass("beingEdited");
+
+        var textField = "<input type='text' class='editChoiceField' value='" + currentName + "'>";
+
+        $(this).html(textField);
+
+        //select the text field now - this is fragile, needs refactor
+        $(this).children(":first")
+            .focus(function () { $(this).select(); } )
+            .mouseup(function (e) {e.preventDefault(); });
+        
+         $(this).children(":first").focus(); 
+    
+    }
+
+});   
+    
+$(document).on("click", "#showCirclesButton", function () { 
+    
+    if (ratingMode != "circles") { changeRatingMode("circles") };
+    
+    $('#showNumbersButton').removeClass("activated");
+    $('#showChecksButton').removeClass("activated");
+    $(this).addClass("activated");
+
+});
+    
+$(document).on("click", "#showNumbersButton", function () { 
+    
+    if (ratingMode != "numbers") { changeRatingMode("numbers") };
+    
+    $('#showCirclesButton').removeClass("activated");
+    $('#showChecksButton').removeClass("activated");
+    $(this).addClass("activated");
+
+});
+    
+$(document).on("click", "#showChecksButton", function () { 
+    
+    if (ratingMode != "checks") { changeRatingMode("checks") };
+    
+    $('#showCirclesButton').removeClass("activated");
+    $('#showNumbersButton').removeClass("activated");
+    $(this).addClass("activated");
+    
+});
+    
+    
+$(document).on("keydown", ".editFactorField", function (e) {    
+    var key = e.which;
+    
+        switch (key) {
+            case 13: // enter
+                var newText = $(this).val();
+                if (newText.length > 0) {
+
+                    var factorParent = $(this).parent();
+                    
+                    changeFactorName($(this).parent().attr("data-factorId"), newText);
+                    
+                    $(this).parent().removeClass("beingEdited");
+                    
+                    //refactor later - this div stuff is elsewhere - so this is redundant and fragile
+                    $(this).parent().html("<div class='rowOptionsContainer'><div class='deleteFactorButton'>delete</div></div><div class='factorLabel'>" + newText + "</div>");
+                    
+                    if (newText.length > FACTOR_SMALL_FONT_THRESHOLD) {
+                        $(factorParent).find('.factorLabel').first().css("font-size", "14px");
+                        $(factorParent).find('.factorLabel').first().css("line-height", "18px");
+                    }
+                    
+                }
+                break;
+            case 27: //esc
+
+                var currId = $(this).parent().attr("data-factorId");
+                
+                var factorParent = $(this).parent();
+                
+                var nameBeforeEditing;
+                
+                factor.forEach(function (o) {
+                    
+                    if ((parseInt(o["id"])) == currId) {
+                        nameBeforeEditing = o["name"];
+                    }
+                });
+                
+                $(this).parent().removeClass("beingEdited");
+                
+                //refactor later - this div stuff is elsewhere - so this is redundant and fragile
+                $(this).parent().html("<div class='rowOptionsContainer'><div class='deleteFactorButton'>delete</div></div><div class='factorLabel'>" + nameBeforeEditing + "</div>");
+                
+                if (nameBeforeEditing.length > FACTOR_SMALL_FONT_THRESHOLD) {
+                    $(factorParent).find('.factorLabel').first().css("font-size", "14px");
+                    $(factorParent).find('.factorLabel').first().css("line-height", "13px");
+                }
+                
+                break;
+            default:
+                break;
+    }
+    
+});
+    
+$(document).on("keydown", "#addFactorField", function (e) {
+    
+    var length = ($(this).val().length);
+    
+    var key = e.which;
+    switch (key) {
+        case 13: // enter
+            
+            $(this).blur();
+            
+            break;
+        case 27: //esc
+            $(this).blur();
+            break;
+        default:
+            break;
+    }
+});  
+    
+$(document).on("mouseenter", ".ratingCell", function() {
+    var thing = $(this).parent().find(".importanceCell").attr("data-importanceValue");
+    var theGraph = $(this).find(".circleGraph");
+    
+    var scaleFactor;
+    
+    //basic enlarge
+    switch (thing) {
+        case "1":
+            scaleFactor = 1.25;
+            break;
+        case "2":
+            scaleFactor = 1.15;
+            break;
+        case "3":
+            scaleFactor = 1.1;
+            break;
+    }
+    $(theGraph).css('transition-duration','0s');
+    $(theGraph).css("transform", "scale(" + scaleFactor + ")");
+    
+    //show low confidence toggle if rating is not blank or "?"
+    var theValue = $(this).find('.numRatingLabel').html();
+    
+    if ((ratingMode != "checks") && ((theValue == "1") || (theValue == "1?") || (theValue == "2") || (theValue == "2?") || (theValue == "3") || (theValue == "3?"))) {
+        $(this).children('.lowConfidenceToggle').first().show();
+        
+    } 
+    
+    //This makes the circle grow slightly on hover - deactivated this whole block
+    //TO-DO: Make this switch flexible to different scales for importance, not just 1-3
+//    switch (thing) {
+//        case "1": 
+//            scaleFactor = 1.5;
+//            $(theGraph).css('transition-duration','0s');
+//            $(theGraph).css("transform", "scale(" + scaleFactor + ")");
+//            //$(this).css('transition-duration','.5s');
+//            //$(this).transition({ scale: 2.2 });
+//            
+//            break;
+//        case "2":
+//            scaleFactor = 2.3;
+//            $(theGraph).css('transition-duration','0s');
+//            $(theGraph).css("transform", "scale(" + scaleFactor + ")");
+//            break;
+//        case "3":
+//            scaleFactor = 3.1;
+//            $(theGraph).css('transition-duration','0s');
+//            $(theGraph).css("transform", "scale(" + scaleFactor + ")");
+//            break;
+//        default:
+//            break;
+//    }
+    
+    
+//    $(theGraph).css('transition-duration','0s');
+//    $(theGraph).css('background-color','#39C8E3');
+    
+});   
+    
+$(document).on("mouseleave", ".ratingCell", function() {
+
+    $(this).children('.lowConfidenceToggle').first().hide();
+    var thing = $(this).parent().find(".importanceCell").attr("data-importanceValue");
+    var theGraph = $(this).find(".circleGraph");
+    
+    //return to normal size
+    $(theGraph).css('transition-duration','0s');
+    $(theGraph).css("transform", "scale(1)");
+    
+    var scaleFactor;
+    
+    //TO-DO: Make this switch flexible to different scales for importance, not just 1-3
+//    switch (thing) {
+//        case "1": 
+//            scaleFactor = 1.2;
+//            $(theGraph).css('transition-duration','0s');
+//            $(theGraph).css("transform", "scale(" + scaleFactor + ")");
+//            //$(this).css('transition-duration','.5s');
+//            //$(this).transition({ scale: 2.2 });
+//            
+//            break;
+//        case "2":
+//            scaleFactor = 2;
+//            $(theGraph).css('transition-duration','0s');
+//            $(theGraph).css("transform", "scale(" + scaleFactor + ")");
+//            break;
+//        case "3":
+//            scaleFactor = 2.8;
+//            $(theGraph).css('transition-duration','0s');
+//            $(theGraph).css("transform", "scale(" + scaleFactor + ")");
+//            break;
+//        default:
+//            break;
+//    }
+    
+//    $(theGraph).css('transition-duration','0s');
+//    $(theGraph).css('background-color','grey');
+});     
+    
+$(document).on("keydown", "#addChoiceField", function (e) {
+    var key = e.which;
+    switch (key) {
+        case 13: // enter
+            
+            $(this).blur();
+            
+            break;
+        case 27: //esc
+            $(this).blur();
+            break;
+        default:
+            break;
+    }
+}); 
+    
+$(document).on("blur", "#addChoiceField", function() {
+    
+    $(this).removeClass("beingEdited");
+    
+    var newText = $(this).val();
+        if (newText.length > 0) {
+
+        $(this).parent().remove();    
+        addChoice(newText);
+            
+    }
+    
+    else {
+        
+        $(this).parent().remove();
+    }
+    
+});  
+    
+$(document).on("keydown", ".editChoiceField", function (e) {    
+    var key = e.which;
+    
+    var choiceParent = $(this).parent();
+    
+        switch (key) {
+            case 13: // enter
+                var newText = $(this).val();
+                if (newText.length > 0) {
+
+                    changeChoiceName($(this).parent().attr("data-choiceId"), newText);
+                    
+                    $(this).parent().removeClass("beingEdited");
+                    
+                    //refactor later - this div stuff is elsewhere - so this is redundant and fragile
+                    $(this).parent().html("<div class='columnOptionsContainer'><div class='deleteChoiceButton'>delete</div><div class='renameChoiceButton'>rename</div></div><div class='choiceLabel'>" + newText + "</div><div class='choiceScore'>n</div><div class='barGraph'><div class='uncertainBar'></div><div class='possibleBar'><div class='possibleLabel'>up to N</div></div></div><div class='checkScore'></div>");
+                    
+                    if (newText.length > CHOICE_SMALL_FONT_THRESHOLD) {
+                        $(choiceParent).find('.choiceLabel').first().css("font-size", "14px");
+                        $(choiceParent).find('.choiceLabel').first().css("line-height", "13px");
+                    }
+                    
+                    
+                }
+                break;
+            case 27: //esc
+
+                var currId = $(this).parent().attr("data-choiceId");
+                
+                var nameBeforeEditing;
+                
+                choice.forEach(function (o) {
+                    
+                    if ((parseInt(o["id"])) == currId) {
+                        nameBeforeEditing = o["name"];
+                    }
+                });
+                
+                $(this).parent().removeClass("beingEdited");
+                
+                //refactor later - this div stuff is elsewhere - so this is redundant and fragile
+                $(this).parent().html("<div class='columnOptionsContainer'><div class='deleteChoiceButton'>delete</div><div class='renameChoiceButton'>rename</div></div><div class='choiceLabel'>" + nameBeforeEditing + "</div><div class='choiceScore'>n</div><div class='barGraph'><div class='uncertainBar'></div><div class='possibleBar'><div class='possibleLabel'>up to N</div></div></div><div class='checkScore'></div>");
+                
+                if (nameBeforeEditing.length > CHOICE_SMALL_FONT_THRESHOLD) {
+                    $(choiceParent).find('.choiceLabel').first().css("font-size", "14px");
+                    $(choiceParent).find('.choiceLabel').first().css("line-height", "13px");
+                }                
+                
+                break;
+            default:
+                break;
+    }
+    
+    //$$ is there a more efficient way to show this score, and not re-run the updatescores func which updates them all?
+    updateScores();
+    
+});
+    
+function changeChoiceName(choiceId, name) {
+    choice.forEach(function (o) {
+    if ((parseInt(o["id"])) == choiceId) {
+        o["name"] = name;
+    }
+    
+    var cell = $(".headerCell[data-choiceId='" + choiceId + "']").find(".choiceLabel");
+    $(cell).text(name);
+});
+} 
+    
+function changeRatingMode(mode) {
+    
+    //var ratingMode = "numbers";
+    
+    //If the current mode is checks, then hide all the empty check labels (because you're def switching to another non-checks mode because this func only runs if the mode type is changing)
+    if (mode == 'checks') { 
+        $(".ratingCell").each(function(){
+//            var ratingVal = $(this).find(".checkGraph").first().html();
+            var ratingVal = $(this).attr("data-checkValue");
+//            if (ratingVal != "") { 
+//                $(this).find(".emptyCheckLabel").hide();
+//                $(this).find(".checkGraph").show();
+//            }
+//            else {
+//                $(this).find(".emptyCheckLabel").show();
+//                $(this).find(".checkGraph").hide();
+//            } 
+            if (ratingVal == "0") {
+                $(this).find(".emptyCheckLabel").hide();
+                $(this).find(".checkGraph").show();
+            }
+            else if (ratingVal == "1") {
+                $(this).find(".emptyCheckLabel").hide();
+                $(this).find(".checkGraph").show();
+            }
+            else {
+                $(this).find(".emptyCheckLabel").show();
+                $(this).find(".checkGraph").hide();
+            }
+        }); 
+    }
+    else {
+        $(".ratingCell").each(function(){
+            var ratingVal = $(this).find(".numRatingLabel").first().html();
+            if (ratingVal != "") { 
+                $(this).find(".emptyRatingLabel").hide(); 
+            }
+            else {
+                $(this).find(".emptyRatingLabel").show(); 
+            }
+            
+        });
+     
+    }
+    
+    switch (mode) {
+        case 'numbers':
+            $(".checkScore").hide();
+            $(".circleGraph").hide();
+            $(".checkGraph").hide();
+            $(".barGraph").show();
+            $(".numRatingLabel").show();
+            $(".choiceScore").show();
+            $(".importanceHeaderCell").show();
+            $(".importanceCell").show();
+            $(".lowConfidenceToggle").css("top", "-2px");
+            $(".emptyCheckLabel").hide();
+            ratingMode = "numbers";
+
+            //shouldn't have to use this but bar graph was getting messed up    
+            updateScores();
+
+            break;
+        case 'circles': 
+            $(".checkScore").hide();
+            $(".numRatingLabel").hide();
+            $(".checkGraph").hide();
+            $(".circleGraph").show();
+            $(".choiceScore").show();
+            $(".importanceHeaderCell").show();
+            $(".importanceCell").show(); 
+            $(".lowConfidenceToggle").css("top", "-4px");
+            $(".emptyCheckLabel").hide(); 
+            ratingMode = "circles";
+
+            //shouldn't have to use this but bar graph was getting messed up    
+            updateScores();     
+
+
+            break;
+        case 'checks':
+            $(".barGraph").css('display','none'); 
+            $(".choiceScore").css('display','none'); 
+            $(".numRatingLabel").hide();
+            $(".circleGraph").hide();
+            $(".emptyRatingLabel").hide();    
+            $(".lowConfidenceToggle").hide();
+            ratingMode = "checks";
+
+            //Hide importance row
+            $(".importanceHeaderCell").hide();    
+            $(".importanceCell").hide();       
+            $(".ratingCell").each(function(){
+
+                var checkVal = $(this).attr("data-checkValue");
+
+                if (checkVal == 1) {
+
+                }
+                else if (checkVal == 0) {
+
+                }
+                else {
+                    $(this).find(".emptyCheckLabel").show();
+                }
+            });
+
+            $(".checkScore").show();     
+
+            break;
+        default:
+            break;
+    }
+}
+  
+$(document).on("blur", "#addFactorField", function() {
+    
+    $(this).removeClass("beingEdited");
+    
+    var newText = $(this).val();
+        if (newText.length > 0) {
+
+        addFactor(newText);
+
+    }
+    
+    else {
+        
+        $(this).parent().parent().remove();
+    }
+    
+});    
+    
+    
+$(document).on("blur", ".editFactorField", function() {
+    
+    var currId = $(this).parent().attr("data-factorId");
+    var factorParent = $(this).parent();
+    $(this).parent().removeClass("beingEdited");
+    
+    var newText = $(this).val();
+    if (newText.length > 0) {
+
+        changeFactorName($(this).parent().attr("data-factorId"), newText);
+
+        //refactor later - this div stuff is elsewhere - so this is redundant and fragile
+        $(this).parent().html("<div class='rowOptionsContainer'><div class='deleteFactorButton'>delete</div></div><div class='factorLabel'>" + newText + "</div>");
+        
+        if (newText.length > FACTOR_SMALL_FONT_THRESHOLD) {
+            $(factorParent).find('.factorLabel').first().css("font-size", "14px");
+            $(factorParent).find('.factorLabel').first().css("line-height", "13px");
+        }
+
+    }    
+});   
+    
+$(document).on("blur", ".editChoiceField", function() {
+    
+    var currId = $(this).parent().attr("data-choiceId");
+    var choiceParent = $(this).parent();
+    
+    $(this).parent().removeClass("beingEdited");
+
+    var newText = $(this).val();
+    if (newText.length > 0) {
+        
+        changeChoiceName(currId, newText);
+        
+        //refactor later - this div stuff is elsewhere - so this is redundant and fragile
+        $(this).parent().html("<div class='columnOptionsContainer'><div class='deleteChoiceButton'>delete</div><div class='renameChoiceButton'>rename</div></div><div class='choiceLabel'>" + newText + "</div><div class='choiceScore'>n</div><div class='barGraph'><div class='uncertainBar'></div><div class='possibleBar'><div class='possibleLabel'>up to N</div></div></div><div class='checkScore'></div>");
+        
+        if (newText.length > CHOICE_SMALL_FONT_THRESHOLD) {
+            $(choiceParent).find('.choiceLabel').first().css("font-size", "14px");
+            $(choiceParent).find('.choiceLabel').first().css("line-height", "13px");
+        }
+        
+    }
+    
+    updateScores();
+      
+}); 
+    
+$(document).on("click", ".verticalHeaderCell", function () { 
+    
+    if (!($(this).hasClass("beingEdited"))) {
+        
+        $(this).addClass("beingEdited");
+    
+        var currentName = $(this).find(".factorLabel").text();
+
+        var textField = "<input type='text' class='editFactorField' value='" + currentName + "'>";
+
+        $(this).html(textField);
+
+        //select the text field now - this is fragile, needs refactor
+        $(this).children(":first")
+            .focus(function () { $(this).select(); } )
+            .mouseup(function (e) {e.preventDefault(); });
+        
+         $(this).children(":first").focus(); 
+    
+    }
+
+
+});  
+    
+function changeFactorName(factorId, name) {
+    
+    factor.forEach(function (o) {
+        
+        if ((parseInt(o["id"])) == factorId) {
+            o["name"] = name;  
+        }
+        
+    var cell = $(".verticalHeaderCell[data-factorId='" + factorId + "']").find(".factorLabel");
+    $(cell).text(name);
+        
+});
+}  
+    
+$(document).on("click", ".deleteFactorButton", function (e) { 
+    
+    //To ignore div below (so it deletes and doesn't fire rename action)
+    if (!e)
+      e = window.event;
+
+    //IE9 & other
+    if (e.stopPropagation) {
+      e.stopPropagation();
+    }
+    //IE8 and Lower
+    else {
+      e.cancelBubble = true;
+    }
+    
+    if (confirm("Are you sure you want to delete this factor?")) {
+        //Get ID of factor to delete from table row
+        var theFactor = $(this).parent().parent().parent().attr("data-factorId");
+
+        //Delete row
+        $(this).parent().parent().parent().remove();
+        
+        //Remove factor from factor array
+        for (var i = 0; i < factor.length; i++) {
+            if (factor[i]["id"] == theFactor) {
+
+                factor.splice(i, 1);
+            }
+        }
+        
+        //need to delete importance from importance array
+        for (var i = 0; i < importance.length; i++) {
+            if (importance[i]["factor_id"] == theFactor) {
+
+                importance.splice(i, 1);
+            }
+        }
+
+        //DELETE NON-CHECK RATINGS
+        var ratingsToDelete = new Array();
+        ratingsToDelete = [];
+
+        $.each(rating, function(key, value) {    
+
+            if (value) {
+
+                    if ((value["factor_id"]) == theFactor) {
+
+                        ratingsToDelete.push(key);
+                    }
+
+                }
+
+        });
+
+        var numRatingsDeleted = 0;
+        for (var i = 0; i < ratingsToDelete.length; i++) {
+            
+            rating.splice((ratingsToDelete[i]-numRatingsDeleted), 1);
+            
+            numRatingsDeleted++;
+
+        }
+        
+        //DELETE ASSOCIATED CHECK RATINGS
+        var checkRatingsToDelete = new Array();
+        checkRatingsToDelete = [];
+
+        $.each(checkRating, function(key, value) {    
+
+            if (value) {
+
+                    if ((value["factor_id"]) == theFactor) {
+
+                        checkRatingsToDelete.push(key);
+                    }
+
+                }
+
+        });
+
+        var numCheckRatingsDeleted = 0;
+        for (var i = 0; i < checkRatingsToDelete.length; i++) {
+            
+            checkRating.splice((checkRatingsToDelete[i]-numCheckRatingsDeleted), 1);
+            
+            numCheckRatingsDeleted++;
+
+        }
+        
+        
+        //UPDATE SCORES
+        updateScores();
+    }
+
+}); 
+    
+$(document).on("click", ".deleteChoiceButton", function (e) { 
+    
+    //To ignore div below (so it deletes and doesn't fire rename action)
+    if (!e)
+      e = window.event;
+
+    //IE9 & other
+    if (e.stopPropagation) {
+      e.stopPropagation();
+    }
+    //IE8 and Lower
+    else {
+      e.cancelBubble = true;
+    }
+    
+    if (confirm("Are you sure you want to delete this choice?")) {
+        //Get ID of factor to delete from table column
+        var theChoice = $(this).parent().parent().attr("data-choiceId");
+
+        //$(this).parent().parent().parent().remove();
+        $("td[data-choiceId='" + theChoice + "']").remove(); 
+
+        //Remove choice from choice array
+        for (var i = 0; i < choice.length; i++) {
+            if (choice[i]["id"] == theChoice) {
+
+                choice.splice(i, 1);
+            }
+        }
+
+        //DELETE NON-CHECK RATINGS
+        var ratingsToDelete = new Array();
+        ratingsToDelete = [];
+
+        $.each(rating, function(key, value) {    
+
+            if (value) {
+
+                    if ((value["choice_id"]) == theChoice) {
+                        ratingsToDelete.push(key);
+                    }
+                }
+        });
+
+        var numRatingsDeleted = 0;
+        for (var i = 0; i < ratingsToDelete.length; i++) {
+            rating.splice((ratingsToDelete[i]-numRatingsDeleted), 1);
+            numRatingsDeleted++;
+        }
+        
+        //DELETE ASSOCIATED CHECK RATINGS
+        var checkRatingsToDelete = new Array();
+        checkRatingsToDelete = [];
+
+        $.each(checkRating, function(key, value) {    
+
+            if (value) {
+
+                    if ((value["choice_id"]) == theChoice) {
+                        checkRatingsToDelete.push(key);
+                    }
+                }
+        });
+
+        var numCheckRatingsDeleted = 0;
+        for (var i = 0; i < checkRatingsToDelete.length; i++) {
+            checkRating.splice((checkRatingsToDelete[i]-numCheckRatingsDeleted), 1);
+            numCheckRatingsDeleted++;
+        }
+        
+        //$$$case: if user deleted the last choice -- need to do same for deleting last rating?
+        if (choice.length == 0) {
+            
+        }
+
+        updateScores();
+    }
+
+});
+    
+$(document).on("click", "#addChoiceButton", function () { 
+    
+    var inputRow = $("<td id='addChoiceCell'><input type='text' id='addChoiceField' placeholder='Choice name'></td>");   
+
+    $(this).before(inputRow);
+
+    $("#addChoiceField").focus();
+
+});  
+    
+function addChoice(newName) {
+    
+    var maxId = 0;
+    
+    choice.forEach(function (o) {
+        if ((parseInt(o["id"])) > maxId) {
+            maxId = parseInt(o["id"]);
+        }
+    
+    });
+        
+    var newId = parseInt(maxId) + 1;
+    
+    var newChoice = {
+        "id": newId,
+        "name": newName
+    }; 
+        
+    choice.push(newChoice);
+    
+    //If there was already a choice in the table, place the new choice column after that one...
+    if (choice.length > 1) {
+        $("#main_table").find('.headerCell').eq(choice.length-2).after("<td class='headerCell' data-choiceId='" + newId + "'><div class='columnOptionsContainer'><div class='deleteChoiceButton'>delete</div><div class='renameChoiceButton'>rename</div></div><div class='choiceLabel'>" + newName + "</div><div class='choiceScore'></div><div class='barGraph'><div class='uncertainBar'></div><div class='possibleBar'><div class='possibleLabel'>up to N</div></div></div><div class='checkScore'></div></td>");
+        
+    }
+    //Otherwise, place the new choice column after the "Importance" column
+    else {
+        $("#main_table").find('.importanceHeaderCell').after("<td class='headerCell' data-choiceId='" + newId + "'><div class='columnOptionsContainer'><div class='deleteChoiceButton'>delete</div><div class='renameChoiceButton'>rename</div></div><div class='choiceLabel'>" + newName + "</div><div class='choiceScore'></div><div class='barGraph'><div class='uncertainBar'></div><div class='possibleBar'><div class='possibleLabel'>up to N</div></div></div><div class='checkScore'></div></td>");
+    }
+    
+    $("#main_table tr").slice(1, factor.length+1).each(function(){
+        
+        var factor = $(this).attr("data-factorId");
+        
+        var importanceVal = $(this).find(".importanceCell").attr("data-importanceValue");
+        
+        if (ratingMode == "checks") {
+            $(this).find("td").eq(choice.length).after("<td class='ratingCell noselect empty' data-factorId='" + factor + "' data-choiceId='" + newId + "'><div class='lowConfidenceToggle'><img src='images/checkbox-unchecked.svg' style='position:relative; top:1px; padding-right:2px;' />Low confidence</div><div class='numRatingLabel'></div><div class='emptyRatingLabel' style='display:none;'>rate</div><div class='emptyCheckLabel'>rate</div>" + circleGraphHtml("null", importanceVal, true) + "<div class='checkGraph' style='display:none;'></div></td>"); 
+        }
+        else {
+            $(this).find("td").eq(choice.length).after("<td class='ratingCell noselect empty' data-factorId='" + factor + "' data-choiceId='" + newId + "'><div class='lowConfidenceToggle'><img src='images/checkbox-unchecked.svg' style='position:relative; top:1px; padding-right:2px;' />Low confidence</div><div class='numRatingLabel'></div><div class='emptyRatingLabel'>rate</div><div class='emptyCheckLabel' style='display:none;'>rate</div>" + circleGraphHtml("null", importanceVal, true) + "<div class='checkGraph' style='display:none;'></div></td>");
+            
+        }
+        
+    });
+    
+    //Hide and show things based on the current mode
+    switch (ratingMode) {
+        case 'numbers':
+            $(".circleGraph").hide();
+            $(".checkGraph").hide();
+            $(".numRatingLabel").show();
+            $(".barGraph").show();
+            $(".choiceScore").show();
+            break;
+        case 'circles':   
+            $(".numRatingLabel").hide();    
+            $(".checkGraph").hide();
+            $(".circleGraph").show();
+            break;
+        case 'checks':
+            $(".numRatingLabel").hide();
+            $(".emptyRatingLabel").hide();    
+            $(".circleGraph").hide();
+            $(".checkGraph").show();
+            
+            checksModeUsed = true;
+            break;
+        default:
+            break;
+    }
+    
+    if (newName.length > CHOICE_SMALL_FONT_THRESHOLD) {
+        $(".headerCell[data-choiceId='" + newId + "']").find(".choiceLabel").first().css("font-size", "14px");
+    }
+    
+}
+    
+$(document).on("click", "#addFactorButton", function () { 
+    
+        var inputRow = $("<tr><td><input type='text' id='addFactorField' placeholder='Factor name'></td></tr>");
+        $(this).parent().before(inputRow);
+
+        $("#addFactorField").focus();
+    
+});
+    
+function addFactor(newFactorName) {
+    
+    //Make the new factor and add it to the array
+        var maxId = 0;
+        factor.forEach(function (o) {
+            if ((parseInt(o["id"])) > maxId) {
+                maxId = parseInt(o["id"]);
+            }
+
+        });
+        var newFactorId = parseInt(maxId) + 1;
+        var newFactor = {
+            "id": newFactorId,
+            "name": newFactorName
+        }; 
+        factor.push(newFactor);
+        maxId = 0;
+        importance.forEach(function (o) {
+            if ((parseInt(o["id"])) > maxId) {
+                maxId = parseInt(o["id"]);
+            }
+        });
+        var newImportanceId = parseInt(maxId) + 1;
+
+        var newImportance = {
+            "id": newImportanceId,
+            "factor_id": newFactorId,
+            "value": DEFAULT_IMPORTANCE
+        }
+        importance.push(newImportance); 
+    
+    
+    //Add new row and importance cell
+    //Fix this later - hardcoding the importance to 1 but this should be set based on the label
+    if (ratingMode == "checks") {
+            var $newRow = "<tr data-factorId='" + newFactorId + "'><td class='verticalHeaderCell' data-factorId='" + newFactorId + "'><div class='rowOptionsContainer'><div class='deleteFactorButton'>delete</div></div><div class='factorLabel'>" + newFactorName + "</div></td><td class='importanceCell noselect' data-importanceValue='" + DEFAULT_IMPORTANCE + "' style='display:none;'>1x</td></tr>";
+    
+            $("#main_table").find("tr").eq(factor.length-1).after($newRow);
+    }
+    else {
+            var $newRow = "<tr data-factorId='" + newFactorId + "'><td class='verticalHeaderCell' data-factorId='" + newFactorId + "'><div class='rowOptionsContainer'><div class='deleteFactorButton'>delete</div></div><div class='factorLabel'>" + newFactorName + "</div></td><td class='importanceCell noselect' data-importanceValue='" + DEFAULT_IMPORTANCE + "'>1x</td></tr>";
+    
+            $("#main_table").find("tr").eq(factor.length-1).after($newRow);
+    }
+ 
+    
+    choice.forEach(function(o) { 
+        
+        if (ratingMode == "checks") {
+            $("#main_table").find("tr").eq(factor.length).append("<td class='ratingCell noselect empty' data-factorId='" + newFactorId + "' data-choiceId='" + o["id"] + "'><div class='lowConfidenceToggle'><img src='images/checkbox-unchecked.svg' style='position:relative; top:1px; padding-right:2px;' />Low confidence</div><div class='numRatingLabel' style='display:none;'></div><div class='emptyRatingLabel' style='display:none;'>rate</div><div class='emptyCheckLabel'>rate</div>" + circleGraphHtml("null", DEFAULT_IMPORTANCE, true) + "<div class='checkGraph'></div></td>"); 
+        }
+        else {
+            $("#main_table").find("tr").eq(factor.length).append("<td class='ratingCell noselect empty' data-factorId='" + newFactorId + "' data-choiceId='" + o["id"] + "'><div class='lowConfidenceToggle'><img src='images/checkbox-unchecked.svg' style='position:relative; top:1px; padding-right:2px;' />Low confidence</div><div class='numRatingLabel'></div><div class='emptyRatingLabel'>rate</div><div class='emptyCheckLabel' style='display:none;'>rate</div>" + circleGraphHtml("null", DEFAULT_IMPORTANCE, true) + "<div class='checkGraph' style='display:none;'></div></td>");
+        }
+    });
+    
+    //Hide and show things based on the current mode
+//    switch (ratingMode) {
+//    case 'numbers':
+//        //$(".circleGraph").hide();
+//        //$(".checkGraph").hide();
+//        //$(".numRatingLabel").show();
+//        //$(".barGraph").show();
+//        //$(".choiceScore").show();
+////        ratingMode = "numbers";
+//        break;
+//    case 'circles': 
+////        $(".numRatingLabel").css('visibility','hidden');    
+////        $(".numRatingLabel").hide();    
+////        $(".checkGraph").hide();
+////        $(".barGraph").hide();
+////        $(".choiceScore").hide();
+////        $(".circleGraph").show();
+////        ratingMode = "circles";
+//        break;
+//    case 'checks':
+////        $(".numRatingLabel").hide();
+////        $(".circleGraph").hide();    
+////        $(".checkGraph").show();
+////        $(".emptyRatingLabel").hide();    //just added
+////        $(".emptyCheckLabel").show();    //just added  
+//        //$(this).find(".emptyCheckLabel").first().hide();
+//            //if (ratingVal == "") { $(this).find(".emptyRatingLabel").show();}
+////        ratingMode = "checks";
+//        break;
+//    default:
+//        break;
+//    }
+    
+    $("#main_table").find("tr").eq(factor.length+1).remove();
+    
+}
+    
+   
+    
+$(document).on("click", ".ratingCell", function () { 
+    
+    $(this).removeClass("empty");
+    
+    //Hide and show things based on the current mode
+    switch (ratingMode) {
+    case 'numbers':
+        $(this).find(".emptyRatingLabel").first().hide();
+        //
+        break;
+    case 'circles': 
+        $(this).find(".emptyRatingLabel").first().hide();
+        $(this).find(".circleGraph").first().show();
+        break;
+    case 'checks':
+        $(this).find(".emptyCheckLabel").first().hide();
+        $(this).find(".checkGraph").first().show();
+        break;
+    default:
+        break;
+    }
+    
+    var theFactor = $(this).attr("data-factorId");
+    var theChoice = $(this).attr("data-choiceId");
+    var currentRating;
+    
+    
+    
+    //this is where we want to get the rating by arrays, and not from the table
+    $.each(rating, function(key, value) {    
+
+        if (value) {
+
+            if ((value["factor_id"]) == theFactor) {
+
+                if ((value["choice_id"]) == theChoice) {
+
+                    currentRating = value["value"];
+
+                }
+
+            }
+
+        }
+
+    });
+    
+    //If in numbers or circles mode...
+    if (ratingMode != 'checks') {
+     
+        //var currentVal = parseInt($(this).find(".numRatingLabel").first().html());
+        var newVal;
+        
+        switch (currentRating) {
+            case 1: 
+                newVal = 2;
+                break;
+            case 2:
+                newVal = 3;
+                break;
+            case 3:
+                newVal = "?";
+                break;
+            case "?":
+                newVal = 1;
+            default:
+                //If rating was blank/undefined, do this...
+                newVal = 1;
+                
+                //force low confidence toggle to show, so user doesn't have to wait until a new "hover" happens
+                $(this).find(".lowConfidenceToggle").first().show();
+                break;
+    }
+        
+        //Update the actual rating cell text
+        //Need to determine if the confident rating for this rating is on or off
+        //$$ would be more efficient as a do...while loop
+        var theLabel = $(this).find(".numRatingLabel").first();
+        var ratingFound = false;
+        var ratingIsConfident = true;
+        rating.forEach(function(o) { 
+            if (((o["factor_id"]) == theFactor) && ((o["choice_id"]) == theChoice)) {
+                
+                ratingFound = true;
+                
+                if ((o["confident"]) == true) {
+                    $(theLabel).html(newVal);
+                    $(theLabel).find('.circleGraph').first().removeClass('uncertainCircleBackground');
+                }
+                else {
+                    if (newVal != "?") {
+                        $(theLabel).html(newVal+"?");  
+                        ratingIsConfident = false;
+                        $(theLabel).find('.circleGraph').first().addClass('uncertainCircleBackground');
+                    }
+                    else { //the new rating is "?"
+                        $(theLabel).html(newVal);
+                    }
+                }
+                
+                //Set isUnknown flag based on whether this is "?" or not
+                if (newVal == "?") { 
+                    o["isUnknown"] = true; 
+                    
+                    //hide low confidence toggle
+                    $(theLabel).parent().find(".lowConfidenceToggle").first().hide();
+                }
+                else { 
+                    o["isUnknown"] = false; 
+                    
+                    //show low confidence toggle
+                    $(theLabel).parent().find(".lowConfidenceToggle").first().show();
+                    
+                }
+            }
+
+        });
+        
+        //If there was no rating label to update, because this is new rating...
+        if (ratingFound != true) {
+            $(theLabel).html(newVal);
+        }
+
+        var cColor;
+        var bColor;
+        if (newVal == 1) { 
+            cColor = "#cccccc";
+            bColor = "white";
+        }
+        if (newVal == 2) { 
+            cColor = "#6F6F6F";
+            bColor = "white";
+        }
+        if (newVal == 3) { 
+            cColor = "#111111";
+            bColor = "white";
+        }
+        if (newVal == "?") { 
+            cColor = "white"; 
+            bColor = "#cccccc";
+        }
+        
+            $(this).find(".circleGraph").first().css("background-color", cColor);
+        
+        if (newVal != "?") {
+            $(this).find(".circleGraph").first().css("border", ("1px solid " + bColor));
+        }
+        else {
+            $(this).find(".circleGraph").first().css("border", ("1px dashed " + bColor));
+        }
+        
+        if (ratingIsConfident == false) {
+            $(this).find(".circleGraph").addClass("uncertainCircleBackground");
+        }
+        else {
+            $(this).find(".circleGraph").removeClass("uncertainCircleBackground");
+        }
+
+        $(this).find(".circleGraph").first().css("visibility", "visible");
+    
+        updateRating(theFactor, theChoice, newVal);
+        updateScores();
+        
+    }
+    //Or if in 'checks' mode... 
+    else {
+        
+        var currentRating = parseInt($(this).attr("data-checkValue"));
+        var newVal;
+        
+        //Does a value already exist for this choice+factor? If so...
+        //if (currentVal > -1) {
+            
+            if (currentRating == 1) {
+                
+                newVal = 0;
+//                $(this).find('.checkGraph').attr('data-value', '1');
+                $(this).attr("data-checkValue", 0);
+                $(this).find('.checkGraph').first().removeClass('checked');
+                $(this).find(".checkGraph").first().addClass("xd");
+//                $(this).find(".checkGraph").first().css("color", '#333333');
+                
+            }
+            else {
+                //&#10004;
+                newVal = 1;
+                $(this).attr("data-checkValue", 1);
+                $(this).find(".checkGraph").first().removeClass("xd");    
+                $(this).find(".checkGraph").first().addClass("checked");
+//                $(this).find(".checkGraph").first().css("color", '#3BC8E3');
+            }
+            
+            var ratingFound = false;
+            var maxValue = 0;
+
+            //Go through each checkRating to see if a value for this factor+choice exists
+            checkRating.forEach(function(o) { 
+                if (((o["factor_id"]) == theFactor) && ((o["choice_id"]) == theChoice)) {
+
+                    //Found an existing rating, so update it with the new value
+                    ratingFound = true;
+                    o["value"] = newVal; 
+                }
+                //As ratings are searched, keeping noting highest value of the rating IDs, so that if we need to create a new rating (because one doesn't already exist) we can give it an ID that isn't already used
+                if ((o["factor_id"]) > maxValue) {
+                    maxValue = o["factor_id"];
+                }
+            });
+
+            //If the rating wasn't found in the previous loop, create a new one
+            if (ratingFound == false) {
+
+                var newValue = maxValue + 1;
+
+                var newRating = {id: newValue, choice_id: parseInt(theChoice), factor_id: parseInt(theFactor), value: newVal};
+                checkRating.push(newRating);
+
+            }
+        
+            $(this).attr("data-checkValue", newVal);
+            
+        updateScores();
+    }
+
+
+    
+    
+    
+    
+
+});   
+    
+$(document).on("mouseenter", ".lowConfidenceToggle", function (e) {
+    var theImg = $(this).find('img');
+    if (theImg.attr('src') == 'images/checkbox-checked.svg') {
+        $(theImg).attr('src','images/checkbox-hover-checked.svg');
+    }
+    if (theImg.attr('src') == 'images/checkbox-unchecked.svg') {
+        $(theImg).attr('src','images/checkbox-hover-unchecked.svg');
+    }
+});
+
+$(document).on("mouseleave", ".lowConfidenceToggle", function (e) {
+    var theImg = $(this).find('img');
+    if (theImg.attr('src') == 'images/checkbox-hover-checked.svg') {
+        $(theImg).attr('src','images/checkbox-checked.svg');
+    }
+    if (theImg.attr('src') == 'images/checkbox-hover-unchecked.svg') {
+        $(theImg).attr('src','images/checkbox-unchecked.svg');
+    }
+});
+    
+$(document).on("click", ".lowConfidenceToggle", function (e) { 
+    
+    //To ignore div below
+    if (!e)
+      e = window.event;
+
+    //IE9 & other
+    if (e.stopPropagation) {
+      e.stopPropagation();
+    }
+    //IE8 and Lower
+    else {
+      e.cancelBubble = true;
+    }
+
+    var theFactor = $(this).parent().attr("data-factorId");
+    var theChoice = $(this).parent().attr("data-choiceId");
+    var theImg = $(this).find('img');
+    var theRatingCell = $(this).parent().find(".numRatingLabel").first();
+    var currentCellValue = $(theRatingCell).html();
+    
+    rating.forEach(function(o) { 
+        if (((o["factor_id"]) == theFactor) && ((o["choice_id"]) == theChoice)) {
+
+            if ((o["confident"]) == true) {
+                o["confident"] = false;
+                
+                $(theImg).attr('src','images/checkbox-hover-checked.svg');
+                
+                if (currentCellValue != "?") {
+                    $(theRatingCell).html(currentCellValue + "?");
+                    $(theRatingCell).parent().find('.circleGraph').first().addClass('uncertainCircleBackground');
+                }
+                else {
+                    $(theRatingCell).parent().find('.circleGraph').first().removeClass('uncertainCircleBackground');
+                    //do nothing, because this is "?" and we don't want to add another "?" to make it "??"
+                }
+            }
+            else {
+                o["confident"] = true;
+                $(theImg).attr('src','images/checkbox-hover-unchecked.svg');
+                $(theRatingCell).parent().find('.circleGraph').first().removeClass('uncertainCircleBackground');
+                
+                if (currentCellValue != "?") {
+                    $(theRatingCell).html(currentCellValue.slice(0, -1)); 
+                }
+                else { 
+                   //do nothing because this is a "?" value so we don't want to remove the "?"
+                }
+                
+            }
+        }
+
+    });
+    
+    updateScores();
+
+});    
+    
+$(document).on("click", ".importanceCell", function () { 
+    
+    var currentVal = parseInt($(this).attr("data-importanceValue"));
+    var newVal;
+    
+    if (currentVal < IMPORTANCE_MAX) {
+        newVal = currentVal + 1;
+    }
+    else { newVal = 1; }
+    
+    $(this).text(newVal + "x");
+    
+    $(this).attr("data-importanceValue", newVal);
+    
+    var theFactor = $(this).parent().attr("data-factorId");
+    updateImportance(theFactor, newVal);
+    
+    $(this).parent().children(".ratingCell").children(".circleGraph").css('transition-duration','.5s');
+    
+    var scaleFactor;
+    
+    switch (newVal) {
+        case 1: 
+            scaleFactor = 1;
+            break;
+        case 2: 
+            scaleFactor = 1.5;
+            break;
+        case 3:
+            scaleFactor = 2;
+            break;
+    }
+    
+    var diff = (DEFAULT_CIRCLE_SIZE*scaleFactor - DEFAULT_CIRCLE_SIZE) / 2;
+    
+    $(this).parent().children(".ratingCell").children(".circleGraph").css('height',DEFAULT_CIRCLE_SIZE*scaleFactor);
+    $(this).parent().children(".ratingCell").children(".circleGraph").css('width',DEFAULT_CIRCLE_SIZE*scaleFactor);
+    $(this).parent().children(".ratingCell").children(".circleGraph").css('left', DEFAULT_CIRCLE_X-diff);
+    $(this).parent().children(".ratingCell").children(".circleGraph").css('top', DEFAULT_CIRCLE_Y-diff);
+    
+    updateScores();
+
+});    
+    
+function updateImportance(theFactor, newVal) {
+    
+    importance.forEach(function(theImportance) {
+        
+        if (theImportance["factor_id"] == theFactor) {
+            theImportance["value"] = newVal;
+        }
+                    
+    });
+    
+    updateScores();
+    
+}
+    
+function updateRating(theFactor, theChoice, newVal) {
+    
+    var ratingFound = false;
+    var maxValue = 0;
+    var confidentValue;
+    
+    //Go through each rating to see if a value for this factor+choice exists
+    rating.forEach(function(o) { 
+        if (((o["factor_id"]) == theFactor) && ((o["choice_id"]) == theChoice)) {
+
+            //Found an existing rating, so update it with the new value
+            ratingFound = true;
+            o["value"] = newVal; 
+            confidentValue = o["confident"];
+        }
+        //As ratings are searched, keeping noting highest value of the rating IDs, so that if we need to create a new rating (because one doesn't already exist) we can give it an ID that isn't already used
+        if ((o["factor_id"]) > maxValue) {
+            maxValue = o["factor_id"];
+        }
+    });
+
+    //If the rating wasn't found in the previous loop, create a new one
+    if (ratingFound == false) {
+
+        var newValue = maxValue + 1;
+
+        var newRating = {choice_id: parseInt(theChoice), confident: true, factor_id: parseInt(theFactor), id: newValue, isUnknown: false, value: newVal};
+        rating.push(newRating);
+
+    }
+    
+}
+    
+function updateScores() {
+    
+    if (ratingMode == "checks") {
+        
+        //Reset all scores
+        choice.forEach(function(o) {
+            checkScores[o.id] = 0;
+        });
+        
+        choice.forEach(function(theChoice) {
+           
+            checkRating.forEach(function(theRating) {
+                
+                if (theRating["choice_id"] == theChoice["id"]) {
+                 
+                    checkScores[theRating["choice_id"]] += theRating["value"];
+                    
+                }
+                
+            });
+            
+        });
+
+        var highest = 0;
+        var highestId;
+        var currentWinnersArray = winnersArray;
+        winnersArray = [];
+        var tie = false;
+        var incumbentWinner = false;
+        $.each(checkScores, function(key, value) {
+
+            if (key != 0) { 
+                var cell = $(".headerCell[data-choiceId='" + key + "']").find(".checkScore").first();
+                
+//                $(cell).html(value + " <img src='images/check-line.svg' style='padding-bottom:0px; margin-left:-2px; height:24px; width:24px;' />");   
+                $(cell).html(value);   
+
+                if ((value != "?") && (value == highest)) {
+                    tie = true;
+
+                    winnersArray.push(key);
+
+                }
+                else if ((value != "?") && (value > highest)) { 
+
+                    highest = value; 
+                    highestId = key; 
+                    winnersArray = [];
+                    winnersArray.push(key);
+
+                    tie = false;
+
+                }
+            }
+
+        });
+        
+        $("td.headerCell").find(".checkScore").removeClass("prominent"); 
+
+        winnersArray.forEach(function (o) {
+            $("td.headerCell[data-choiceId='" + o + "']").find(".checkScore").first().addClass("prominent");
+        });
+        
+    }
+    else {
+        
+        $(".choiceScore").show();
+
+        //Will be the maximum possible score, with normal tally + maximum possible for each "?" value
+        var maxPossibleScore = 0;
+
+        //array that will contain the total noncofident values for each choice
+        var nonconfidentsForChoicesArray = new Array();
+
+        //array that will contain the total possible value for each choice (including max possible for any "?" choices)
+        var possibleScoresForChoicesArray = new Array();
+
+        //Reset all scores
+        choice.forEach(function(o) {
+            scores[o.id] = 0;
+            nonconfidentsForChoicesArray[o.id] = 0;
+            possibleScoresForChoicesArray[o.id] = 0;
+        });
+
+        choice.forEach(function(theChoice) {
+
+            var numberOfRatingsChoiceHas = 0;
+            var nonconfidentScoreForChoice = 0;
+            var possibleScoreForChoice = 0;
+
+            rating.forEach(function(theRating) {
+
+                //$$this probably shouldn't be assumed, if any kind of importing/remembering is happening
+                var ratingIsConfident = true;
+                var ratingIsUnknown = false;
+
+                //for each rating the choice has...
+                if (theRating["choice_id"] == theChoice["id"]) {
+
+                    numberOfRatingsChoiceHas++;
+
+                    if(theRating["confident"] == false) { 
+                        ratingIsConfident = false;
+                    }
+                    if(theRating["isUnknown"] == true) { 
+                        ratingIsUnknown = true;
+                    }
+
+                    //get the rating's importance...
+                    importance.forEach(function(theImportance) {
+
+                        if (theImportance["factor_id"] == theRating["factor_id"]) {
+
+                            //if it's not the "?" rating
+                            if ((theRating["value"]) != "?") {
+
+                                //add to scores array
+                                scores[theChoice["id"]] += (theRating["value"] * theImportance["value"]);
+
+                                //add the same to the "possible" score
+                                possibleScoresForChoicesArray[theChoice["id"]] += (theRating["value"] * theImportance["value"]);
+                            }
+                            //if it IS a "?" 
+                            else {
+                                //we add to scores array as if it were a 1 (because 1 is miup to N value)
+                                scores[theChoice["id"]] += (1 * theImportance["value"]);
+
+                                //but we add the max possible value it could be to the possibleScore array
+                                possibleScoresForChoicesArray[theChoice["id"]] += (RATING_MAX * theImportance["value"]);
+                            }
+
+                            if ((ratingIsConfident == false) && (ratingIsUnknown == false)) {
+                                nonconfidentsForChoicesArray[theChoice["id"]] = nonconfidentsForChoicesArray[theChoice["id"]] + (theRating["value"] * theImportance["value"]); 
+                            }
+
+                            //Update the max possible score value, if the updated possible score for this choice is the highest one
+                            if (possibleScoresForChoicesArray[theChoice["id"]] > maxPossibleScore) {
+                                maxPossibleScore = possibleScoresForChoicesArray[theChoice["id"]];
+                            }
+
+                        }
+
+                    });
+
+                }
+
+            });
+
+            //$$ need to rewrite this so it hides bar if not all ratings filled in, not just 1
+            if (numberOfRatingsChoiceHas < 1) {
+                $(".headerCell[data-choiceId='" + theChoice["id"] + "']").find(".barGraph").first().hide();
+            }
+            else {
+                $(".headerCell[data-choiceId='" + theChoice["id"] + "']").find(".barGraph").first().show();
+            }
+
+            //possibleScoresForChoicesArray[theChoice["id"]];
+
+        });
+
+        var highest = 0;
+        var highestId;
+        var currentWinnersArray = winnersArray;
+        winnersArray = [];
+        var tie = false;
+        var incumbentWinner = false;
+
+        //go through each score to see what choice has the highest one...
+        $.each(scores, function(key, value) {
+
+            if (key != 0) { 
+                var cell = $(".headerCell[data-choiceId='" + key + "']").find(".choiceScore").first();
+                $(cell).text(value);
+
+                if ((value != "?") && (value == highest)) {
+                    tie = true;
+
+                    winnersArray.push(key);
+
+                }
+                else if ((value != "?") && (value > highest)) { 
+
+                    highest = value; 
+                    highestId = key; 
+                    winnersArray = [];
+                    winnersArray.push(key);
+
+                    tie = false;
+
+                }
+            }
+
+        });
+
+        //did the winner change?
+        var diff = $(winnersArray).not(currentWinnersArray).get();
+
+        //if the winner DID change... (this is where we'd play a sound or something)
+        if (diff.length > 0) { 
+        //            nothing now
+        }
+
+
+        //find the maximum possible score, based on existing importances
+        var totes = 0;
+        importance.forEach(function(o) {
+
+            totes = totes + (o["value"] * RATING_MAX);
+
+        });
+
+        //UPDATE SCORE GRAPHS
+        //For each score...
+        $.each(scores, function(key, value) {
+
+            if (key != 0) { 
+        //            var cell = $(".headerCell[data-choiceId='" + key + "']").find('.barGraph').first();
+        //            $(cell).text(value);   
+
+            
+
+            //ANIMATE BAR GRAPH
+            var barGraphHeight = ((120*scores[key])/maxPossibleScore);  
+            if (barGraphHeight < 40) { barGraphHeight = 40; }
+
+            $(".headerCell[data-choiceId='" + key + "']").find(".barGraph").first().animate({
+              height: barGraphHeight,
+            }, { duration: 100, queue: false });  
+
+            //ANIMATE NUMBER
+              $(".headerCell[data-choiceId='" + key + "']").find(".choiceScore").first().animate({ 
+                  bottom: barGraphHeight+22,
+                }, { duration: 100, queue: false });  
+
+            //ANIMATE UNCERTAINTY BAR GRAPH
+            var uncertainBarHeight = 120*nonconfidentsForChoicesArray[key]/maxPossibleScore;
+
+            if (barGraphHeight == 40) {
+                uncertainBarHeight = ((barGraphHeight * uncertainBarHeight/((120*scores[key])/maxPossibleScore)));
+            }  
+            $(".headerCell[data-choiceId='" + key + "']").find(".uncertainBar").first().animate({
+              height: uncertainBarHeight,
+            }, { duration: 100, queue: false });
+
+            //Hide/show possibility bar graph if any values are "?"
+            if (possibleScoresForChoicesArray[key] != scores[key]) {
+                $(".headerCell[data-choiceId='" + key + "']").find(".possibleBar").first().show();
+                $(".headerCell[data-choiceId='" + key + "']").find(".possibleLabel").first().show();
+            }    
+            else {
+                $(".headerCell[data-choiceId='" + key + "']").find(".possibleBar").first().hide();
+                $(".headerCell[data-choiceId='" + key + "']").find(".possibleLabel").first().hide();
+            }
+
+            //ANIMATE POSSIBLE BAR GRAPH
+            //Update possible value label first
+            $(".headerCell[data-choiceId='" + key + "']").find(".possibleLabel").first().html("up to " + possibleScoresForChoicesArray[key]);   
+
+            var possibleGraphHeight = (120*possibleScoresForChoicesArray[key]/maxPossibleScore);
+
+            $(".headerCell[data-choiceId='" + key + "']").find(".possibleBar").first().animate({
+              height: possibleGraphHeight-2,
+            }, { duration: 0, queue: false });     
+
+            }
+
+        });
+
+        $("td.headerCell").find(".choiceScore").removeClass("prominent"); 
+        $("td.headerCell").find(".barGraph").removeClass("prominent");
+
+            winnersArray.forEach(function (o) {
+               $("td.headerCell[data-choiceId='" + o + "']").find(".choiceScore").first().addClass("prominent");
+               $("td.headerCell[data-choiceId='" + o + "']").find(".barGraph").first().addClass("prominent");
+
+            });
+        
+    }
+    
+}  
+
+function preloadImages() {
+    $('<img />').attr('src',"images/check.svg").appendTo('body').css('display','none');
+    $('<img />').attr('src',"images/checkbox-checked.svg").appendTo('body').css('display','none');
+    $('<img />').attr('src',"images/checkbox-unchecked.svg").appendTo('body').css('display','none');
+    $('<img />').attr('src',"images/checkbox-hover-checked.svg").appendTo('body').css('display','none');
+    $('<img />').attr('src',"images/checkbox-hover-unchecked.svg").appendTo('body').css('display','none');
+    $('<img />').attr('src',"images/check-hover.svg").appendTo('body').css('display','none');
+    $('<img />').attr('src',"images/x.svg").appendTo('body').css('display','none');
+    $('<img />').attr('src',"images/x-hover.svg").appendTo('body').css('display','none');
+}    
+ 
+$(document).scroll(function() {
+
+    var position = $(document).scrollTop();
+    $("#header").css({
+            'top': -(position)
+    });
+    $("#navLinksBar").css({
+            'top': -(position)+70
+    });
+    
+});    
+    
+function circleGraphHtml(theRating, theImportance, isConfident) {
+        
+        var scaleFactor;
+    
+        //$$ this stuff isn't needed - gets superceded by other code
+        if (theImportance == 1) { scaleFactor = 1.2; }
+        if (theImportance == 2) { scaleFactor = 2; }
+        if (theImportance == 3) { scaleFactor = 2.8; }
+    
+        var cColor;
+        if (theRating == 1) { cColor = "#cccccc"; }
+        if (theRating == 2) { cColor = "#6F6F6F"; }
+        if (theRating == 3) { cColor = "#000000"; }
+        if (theRating == "null") { cColor = "#60D7E9"; }
+        
+    
+    $(this).parent().children(".ratingCell").children(".circleGraph").css("transform", "scale(" + scaleFactor + ")");
+    
+        if (theRating != "null") {
+            var defaultSize = MAX_CIRCLE_SIZE/3;
+            var computedOpacity = (theRating) / RATING_MAX;
+            var cHeight = defaultSize;
+            var cWidth = defaultSize;
+            var cOpacity = computedOpacity;
+            
+            if (isConfident) {
+               var html = "<div class='circleGraph' style='height:" + cHeight + "; width:" + cWidth + "; background-color:" + cColor + "; transform:scale(" + scaleFactor + ");'></div>"; 
+            }
+            else {
+              var html = "<div class='circleGraph uncertainCircleBackground' style='height:" + cHeight + "; width:" + cWidth + "; background-color:" + cColor + "; transform:scale(" + scaleFactor + ");'></div>";  
+            }
+            
+            
+    
+        }
+        else {
+            var defaultSize = MAX_CIRCLE_SIZE/3;
+            var computedOpacity = (theRating) / RATING_MAX;
+            var cHeight = defaultSize;
+            var cWidth = defaultSize;
+            
+            if (isConfident) {
+               var html = "<div class='circleGraph' style='height:" + cHeight + "; width:" + cWidth + "; background-color:" + cColor + "; visibility:hidden; transform:scale(" + scaleFactor + ");'></div>"; 
+            }
+            else {
+               var html = "<div class='circleGraph uncertainCircleBackground' style='height:" + cHeight + "; width:" + cWidth + "; background-color:" + cColor + "; visibility:hidden; transform:scale(" + scaleFactor + ");'></div>"; 
+            }
+            
+            
+        }
+    
+        return html;
+}    
+ 
+//$$   
+//$(window).on("beforeunload", function() { return "Are you sure? You didn't finish the form!"; });    
+    
+$(document).ready(function() {   
+    
+    var headerRow;
+    
+    var newCol = "<td class='importanceHeaderCell noselect'>Importance</td>";
+        $("#header-row").append(newCol);
+    
+    choice.forEach(function(o) {
+        
+        var id = o["id"];
+        var name = o["name"]; 
+        
+        var newCol = "<td class='headerCell noselect' data-choiceId=" + id + "><div class='columnOptionsContainer'><div class='deleteChoiceButton'>delete</div><div class='renameChoiceButton'>rename</div></div><div class='choiceLabel'>" + name + "</div><div class='choiceScore'>0</div><div class='barGraph'><div class='uncertainBar'></div><div class='possibleBar'><div class='possibleLabel'>up to N</div></div></div><div class='checkScore'></div></td>";
+        
+        $("#header-row").append(newCol);
+
+    });
+    
+    var addCol = "<td id='addChoiceButton'> + add </td>";
+    $("#header-row").append(addCol);
+    
+    //Variable for using the importance for the circle graph creation
+    var importanceVal;
+    
+    factor.forEach(function(theFactor) {
+        
+        var factorId = theFactor["id"];
+        var factorName = theFactor["name"];
+        
+        
+        var newRow;
+        
+        importance.forEach(function(theImportance) {
+           
+            if (theImportance["factor_id"] == factorId) {
+                newRow = "<tr data-factorId='" + factorId + "'><td class='verticalHeaderCell' data-factorId='" + factorId + "' noselect'><div class='rowOptionsContainer'><div class='deleteFactorButton'>delete</div></div><div class='factorLabel'>" + factorName + "</div></td><td class='importanceCell noselect' data-importanceValue='" + theImportance["value"] + "'>" + theImportance["value"] + "x</td></tr>";
+                
+                importanceVal = theImportance["value"];
+            }
+            
+        });
+        
+        //Create row with title cell
+        
+        $("#main_table").append(newRow);
+        
+        //Create cells - for this factor, for through each choice
+        choice.forEach(function(theChoice) {
+            
+            var choiceId = theChoice["id"];
+            var choiceName = theChoice["name"];
+            
+            var foundRating = false;
+            
+            //For the factor + choice, see if a rating exists
+            rating.forEach(function(theRating) {
+                
+                var ratingId = theRating["id"];
+                var ratingChoiceId = theRating["choice_id"];
+                var ratingFactorId = theRating["factor_id"];
+                var ratingValue = theRating["value"];
+                var ratingConfident = theRating["confident"];
+                
+                if (( factorId == ratingFactorId) && (choiceId == ratingChoiceId)) {
+                    
+                    //$$going to have to check confidence to set here if doing any kind of importing of data/remembering session
+                    
+                    //Create the cell
+                    var newCell = "<td class='ratingCell noselect' data-factorId='" + factorId + "' data-choiceId='" + choiceId + "'><div class='lowConfidenceToggle'><img src='images/checkbox-unchecked.svg' style='position:relative; top:1px; padding-right:2px;' />Low confidence</div><div class='numRatingLabel'>" + ratingValue + "</div><div class='emptyRatingLabel' style='display:none;'>rate</div><div class='emptyCheckLabel' style='display:none;'>rate</div>" + circleGraphHtml(ratingValue, importanceVal, ratingConfident) + "<div class='checkGraph'></div></td>";
+                    
+                    $("tr[data-factorId='" + ratingFactorId + "']").append(newCell);
+                    
+                    foundRating = true;
+                    
+                    return;
+                }
+ 
+            });   
+            
+            if (foundRating == false) {
+
+                var factorCell = "<td class='ratingCell noselect empty' data-factorId='" + factorId + "' data-cityId='" + factorId + "' data-choiceId='" + choiceId + "'><div class='lowConfidenceToggle'><img src='images/checkbox-unchecked.svg' style='position:relative; top:1px; padding-right:2px;' />Low confidence</div><div class='numRatingLabel'></div><div class='emptyRatingLabel'>rate</div><div class='emptyCheckLabel'>rate</div>" + circleGraphHtml("null", importanceVal, true) + "<div class='checkGraph'></div></td>";
+
+                $("tr[data-factorId='" + factorId + "']").append(factorCell);
+
+            }
+            
+        });
+        
+    });
+    
+    //$$ Hide empty check labels - hacky hardcoded to prevent the labels from being shown because default mode != checks 
+    $(this).find(".emptyCheckLabel").hide();
+    $(this).find(".checkScore").hide();
+    
+    //Add the add-row button
+    var newRow = "<tr><td id='addFactorButton'>+ add </td></tr>";
+    $("#main_table").append(newRow);
+    
+    updateScores();
+    preloadImages();
+    
+});      
+    
+</script>
+<style type="text/css">
+    * {
+        margin:0;
+        padding:0;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size:22px;
+        color: #111111;
+    }
+    body {
+        background-color: white;
+    }
+    input:focus,
+    select:focus,
+    textarea:focus,
+    button:focus {
+    outline: none;
+    }
+    #addFactorField, .editFactorField {
+        width:150px; 
+        background-color: #fff;
+        height:29px;
+        border: none;
+        padding:0;
+        text-align: left;
+        word-wrap: break-word;
+    }
+    .editChoiceField {
+        width:100%;
+        position:absolute;
+        bottom:31px;
+        background-color: #fff;
+        border: none;
+        padding:0;
+        text-align:center;
+        }
+    #addChoiceField {
+        width:100%; 
+        background-color: #fff;
+        height:30px;
+        border: none;
+        padding:0;
+        margin-top:108px;
+        text-align: center;
+    }
+    #addChoiceCell {
+        min-width:160px;
+    }
+    .circlebg {
+        display:none;
+        position: absolute;
+        z-index:-100;
+        border-radius: 50%;
+        top:-5px;
+        left:20px;
+        width: 80px;
+        height: 80px;
+        background-color: #BEF1F8;
+        transition: all 500ms;
+    }
+    .deleteFactorButton {
+        float:left;
+        z-index:100;
+        color:#ccc;
+        position:absolute;
+        margin-top:40px;
+        font-size:15px;
+        visibility: hidden;
+    }
+    .deleteFactorButton:hover {
+        color:red;
+    }
+    .deleteChoiceButton {
+        color:#ccc;
+        width:100%;
+        position:absolute;
+        text-align: center;
+        font-size:15px;
+        height:20px;
+        top:20px;
+    }
+    .deleteChoiceButton:hover {
+        color:red;
+    }
+    .renameChoiceButton {
+        color:#ccc;
+        position:absolute;
+        top:42px;
+        margin-left:7px;
+        text-align: center;
+        font-size:15px;
+        width:100%;
+        display:none;
+    }
+    .renameChoiceButton:hover {
+        color:#3bc8e3;
+    }
+    #main_table {
+        border-collapse: collapse;
+        margin-top:20px;
+        outline: none;
+    }
+    #main_table td {
+        padding:15px;
+        height:100px;
+        margin:0;
+    }
+    #main_table td.importanceHeaderCell {
+        height:200px;
+        padding-top:123px;
+        width:190px;
+    }
+    #main_table td:not(#addFactorButton):not(#addChoiceButton) {
+        border-bottom:1px solid #ccc;
+    }
+    #content {
+        padding-top:70px;
+        min-width:700px;
+        width: auto;
+        margin:160px 80px;
+    }
+    td.verticalHeaderCell {
+        text-align:left;
+        position:relative;
+        min-width:160px;
+    }
+    td.verticalHeaderCell input[type="text"]{
+        position: absolute;
+        top:34px;
+    }
+    div.factorLabel {
+        float:left;
+        max-width: 200px;
+        word-wrap: break-word;
+    }
+    .choiceLabel {
+        line-height: 20px;
+        word-wrap: break-word;
+        position:absolute;
+        bottom:11px;
+        width:100%;
+        height:70px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #header-row {
+        height:200px;
+    }
+    #main_table td.headerCell {
+        padding:0;
+        position: relative;
+        min-width:190px;
+        max-width:190px;
+        height:200px;
+    }
+    .headerCell:hover, .verticalHeaderCell:hover {
+        cursor:pointer;
+    }
+    .headerCell:hover .columnOptionsContainer {
+        display:block;
+    }
+    .headerCell:hover .barGraph {
+        display:none;
+        background-color: transparent; 
+    }
+    .headerCell:hover .choiceScore {
+        visibility: hidden;
+    }
+    .headerCell:hover .checkScore {
+        visibility: hidden;
+    }
+    .headerCell:hover .choiceLabel {
+        color: #3BC8E3;
+    }
+    .verticalHeaderCell:hover .deleteFactorButton {
+        visibility: visible;
+    }
+    .verticalHeaderCell:hover .rowOptionsContainer {
+    }
+    .verticalHeaderCell:hover .factorLabel {
+        color:#3BC8E3;
+    }
+    .rowOptionsContainer:hover .deleteFactorButton {
+        display:block;
+    }
+    .ratingCell {
+        text-align:center;
+        vertical-align: middle;
+        cursor: pointer;
+        position:relative;
+    }
+    .ratingCell:hover {
+    }
+    .ratingCell:hover .numRatingLabel {
+        cursor:pointer;
+        font-size:32px;
+        font-weight: bold;
+        color:#3BC8E3;
+        transition: all 100ms;
+    }
+    .ratingCell:hover .checkGraph {
+        cursor:pointer;
+        transition: all 100ms;
+    }
+    .ratingCell:hover .checkGraph.checked {
+        background-color: #3BC8E3;
+        transition: all 100ms;
+    }
+    .ratingCell:hover .checkGraph.xd {
+        background-color: #ffffff;
+        background-image: url('images/x-hover.svg');
+        transition: all 100ms;
+    }
+    .ratingCell:hover .emptyRatingLabel {
+        cursor:pointer;
+        font-size:32px;
+        color:#3BC8E3;
+        transition: all 100ms;
+    }
+    .ratingCell:hover .emptyCheckLabel {
+        cursor:pointer;
+        font-size:32px;
+        color:#3BC8E3;
+        transition: all 100ms;
+    }
+    .ratingCell:hover .checkGraph {
+        cursor:pointer;
+        color:#3BC8E3;
+        font-size:26px;
+        transform:scale(1.3);
+        transition: all 100ms;
+    }
+    .ratingCell:active {
+        cursor: pointer;
+    }
+    .importanceCell {
+        text-align:center;
+        vertical-align: middle;
+        min-width:40px;
+    }
+    .importanceCell:hover {
+        cursor:pointer;
+        color: #3BC8E3;
+        font-size:32px;
+        font-weight: bold;
+        transition: all 100ms;
+    }
+    .choiceScore {
+        color:white;
+        font-size: 20px;
+        font-weight: bold;
+        text-align:center;
+        position: absolute;
+        width:50px;
+        height:40px;
+        left:71px;
+        bottom:0;
+        z-index:100;
+        display:none;
+    }
+    #main_table td#addChoiceButton {
+        height:200px;
+        padding-top:123px;
+        color: #999;
+        text-align:center;
+        min-width:110px;
+    }
+    #main_table td#addChoiceButton:hover {
+        cursor:pointer;
+        border:none;
+        color: #3BC8E3;
+    }
+    #addFactorButton {
+        min-width: 160px;
+        text-align: left;
+        color: #999;
+    }
+    #addFactorButton:hover {
+        cursor:pointer;
+        color:#3BC8E3;
+    }
+    .winner {
+        font-weight: 700;
+    }
+    .noselect {
+    -webkit-touch-callout: none; /* Mobile Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE */
+    user-select: none; /* Non-prefixed version, (Chrome and Opera
+) */
+    }
+    .boxo {
+        border-radius: 50%;
+        height: 40px;
+        margin: 50px auto;
+        width: 40px;
+        background: #60D4C8;
+        transition: all 300ms;
+    }
+    .boxo:hover {
+        cursor:pointer;
+    }
+    .prominent {
+        color:white;
+        z-index:100;
+    }
+    .barGraph.prominent {
+        background-color: #39C8E3;
+    }
+    .ui-loader {
+        display:none;
+    }
+    .rowOptionsContainer {
+        width:60px;
+        position:absolute;
+        top:0px;
+        left:-60px;
+        height:100px;
+        z-index:100;
+        vertical-align: middle;
+    }
+    .rowOptionsContainer:hover .deleteFactorButton {
+        visibility: visible;
+    }
+    .columnOptionsContainer {
+        width:100%;
+        display:none;
+        position:absolute;
+        top:50px;
+        left:0px;
+        z-index:200;
+        vertical-align: middle;
+    }
+    .importanceHeaderCell:hover {
+    }
+    .emptyRatingLabel {
+        color:#ccc;
+        font-size:22px;
+    }
+    .emptyCheckLabel {
+        color:#ccc;
+    }
+    .emptyCheckLabel:hover {
+        font-size:28px;
+        color:#3BC8E3;
+    }
+    #bargraph-container {
+        height:200px;
+        width:200px;
+        position:relative;
+        margin:40px;
+        background-color:#eee;
+    }
+    #bar1graph {
+        height:200px;
+        width:50px;
+        position:absolute;
+        bottom:0px;
+        left:40%;
+        background-image: linear-gradient(-180deg, #00E7F5 0%, rgba(0,203,231,0.00) 97%);
+    }
+    #logo {
+        color:white;
+        font-family:'Open Sans'; 
+        font-weight:300;
+        font-size: 22px;
+        float:left;
+        display: inline-block;
+        padding:20px 0 20px 20px;
+    }
+    #logo a:link, a:visited, a:active, a:hover {
+        text-decoration: none;
+        color:white;
+        cursor:pointer;
+    }
+    #tagline {
+        clear:both;
+        float:left;
+        font-weight:300;
+        font-size:18px;
+    }
+    #tableNav {
+        float:left;
+        display:inline-block;
+        background-color: #3BC8E3;
+        border-radius: 28px;
+        color:white;
+        padding:15px;
+        clear:both;
+        margin-bottom:60px;
+    }
+    #tableNav div { 
+        float:left;
+        padding:4px;
+        font-size:18px;
+        font-weight: 500;
+        cursor: pointer;
+        color:white;
+        margin-right:10px;
+    }
+    #metaLinks {
+        float:right;
+    }
+    .activated {
+        color:#3BC8E3!important;
+        border-bottom:3px solid #3BC8E3!important;
+        height:27px!important;
+    }
+    #header {
+        position: fixed;
+        top:0;
+        left:0;
+        width:100%;
+        height:70px;
+        background-color:#38C7E1;
+        clear:both;
+        min-width:320px;
+    }
+    #navLinksBar {
+        width:100%;
+        min-width:320px;
+        position:fixed;
+        top:70px;
+        left:0;
+        background-color:#F2F2F2;
+        height:150px;
+        clear:both;
+    }
+    .navLinkButton {
+        float:left;
+        display: inline-block;
+        font-weight: 700;
+        color: #999;
+/*        margin-right:5px;*/
+        height:30px;
+        padding:50px;    
+    }
+    .navLinkButton:hover {
+        opacity:0.7;
+        cursor:pointer;
+    }
+    .navButton {
+        float:left;
+        display: inline-block;
+        font-weight: 700;
+        color: #999;
+        margin-right:5px;
+        height:30px;
+        padding:20px;
+    }
+    #tagline {
+        min-width:600px;
+    }
+    .barGraph {
+        height:0;
+        width:50px;
+        position:absolute;
+        bottom:70px;
+        z-index:-100;
+        left:71px;
+        background-color: #bbb;
+        overflow: visible!important;
+    }
+    .uncertainBar {
+        height:60px;
+        width:50px;
+        position:absolute;
+        bottom:0px;
+        z-index:-100;
+        left:0;
+        background-image: repeating-linear-gradient(-45deg,
+        transparent,
+        transparent 3px,
+        white 3px,
+        white 6px);
+        opacity: 0.5;
+    }
+    .possibleBar {
+        height:0;
+        width:50px;
+        position:absolute;
+        bottom:0px;
+        z-index:-100;
+        left:0;
+        border-top:1px dashed #999;
+        display:none;
+        overflow: visible!important;
+    }
+    .possibleLabel {
+        font-size:11px;
+        color:#999;
+        position:absolute;
+        width:50px;
+        left:0px;
+        top:-19px;
+        text-align: center;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    #footer {
+        color:#999;
+        font-size:14px;
+        font-weight: 600;
+        padding:80px 80px 40px 80px;
+    }
+    #footer a {
+        text-decoration: none;
+    }
+    #footer a:hover, a:active, a:visited {
+        color: #3BC8E3;
+    }
+    .circleGraph {
+        position: absolute;
+        height: 25px;
+        width: 25px;
+        top: 38px;
+        left: 83px;
+        border-radius: 50%;
+        background-color: #00CBE7;
+        transition: all 500ms;
+        display: none;
+        border:1px solid white;
+    }
+    .med-size {
+        transform: scale(2);
+    }
+    #startFreshButton {
+        text-decoration: underline;
+    }
+    #footer div {
+        display: inline-block;
+    }
+    #footer div {
+        font-size:14px;
+    }
+    .checkGraph {
+        display:none;
+        position: absolute;
+        top:30px;
+        left:75px;
+        font-size:24px;
+        height:40px;
+        width:40px;
+        border-radius: 50%;
+        color: rgba(0, 0, 0, 0);
+        background-repeat:no-repeat;
+        background-position: center;
+    }
+    .checkGraph.xd {
+        background-image: url('images/x.svg');
+    }
+    .checkGraph.checked {
+        background-image: url('images/check.svg');
+        background-color: #111111;
+    }
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #ccc;
+        opacity: 1; /* Firefox */
+    }
+    .ui-page-active { outline: none; }
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #ccc;
+    }
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        color: #ccc;
+    }
+    .lowConfidenceToggle {
+        font-size: 11px;
+        color:#999999;
+        position:absolute;
+        font-weight:500;
+        top:-2px;
+        left:43px;
+        display:none;
+        padding-top:9px;
+        text-transform: uppercase;
+    }
+    .lowConfidenceToggle:hover {
+        color:#3BC8E3;
+        cursor:pointer;
+        visibility: visible;
+    }
+    .uncertainCircleBackground {
+        background-image: repeating-linear-gradient(-45deg,
+        transparent,
+        transparent 3px,
+        rgba(255, 255, 255, 0.5) 3px,
+        rgba(255, 255, 255, 0.5) 6px);
+    }
+    .checkScore {
+        color:#999999;
+        font-size: 42px;
+        font-weight: bold;
+        text-align:center;
+        position: absolute;
+        width:70px;
+        height:40px;
+        left:58px;
+        bottom:86px;
+        z-index:300;
+    }
+    .checkScore.prominent {
+        color:#3BC8E3;
+    }
+    #aboutButton {
+        color:white;
+        height:30px;
+        padding:20px;
+        font-size:22px;
+        float:right;
+        display: inline-block;
+        padding:20px 20px 20px 0;
+    }
+    #tutorialButton {
+        color:white;
+        height:30px;
+        padding:20px;
+        margin-right:20px;
+        font-size:22px;
+        float:right;
+        display: inline-block;
+        padding:20px 20px 20px 0;
+    }
+    #aboutButton a, #tutorialButton a {
+        color:white;
+        text-decoration: none;
+    }
+    #aboutButton a:link, #aboutButton a:visited, #aboutButton a:hover, #aboutButton a:active {
+        color:white;
+        text-decoration: none;
+    } 
+    #tutorialButton a:link, #tutorialButton a:visited, #tutorialButton a:hover, #tutorialButton a:active {
+        color:white;
+        text-decoration: none;
+    } 
+</style>
+</head>
+<body> 
+
+    
+<div id="header">
+    <div id="logo"><a href="/index.html">Do What Works</a></div>
+    
+    <div id="metaLinks">
+        
+        <div id="tutorialButton"><a href="https://www.amazon.com/What-Works-Simplifying-Decisions-Relationships-ebook/dp/B07K2FRVFC/ref=sr_1_1?keywords=Do+What+Works&qid=1547930266&sr=8-1" target="_blank">Buy the book</a></div>
+    </div>
+
+</div>
+
+<div id="navLinksBar">
+    <img  src="images/DoWhatWorks.jpg" style="float:left; padding:0px 20px 0px 40px;" width="100" height="150">
+
+    <div id="showNumbersButton" class="activated navLinkButton">numbers</div>
+    <div id="showCirclesButton" class="navLinkButton">circles</div>
+    <div id="showChecksButton" class="navLinkButton">checks</div>    
+
+</div>
+    
+<div id="content" style="width:600px;"> 
+    <table id="main_table">
+    <tr id="header-row" class="nodrag nodrop"><td></td></tr>
+    </table>
+
+</div>
+</body>
+</html>
