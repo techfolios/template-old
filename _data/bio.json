@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Terrance Truong",
     "label": "Student",
     "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "email": "ttruong4@hawaii.edu",
+    "phone": "808-728-8140",
+    "website": "https://ttruong4.github.io",
+    "summary": "I am studying for a B.S. in MIS in the Shidler College of Business at University of Hawaii. I expect to graduate in Spring, 2021.",
     "location": {
       "address": "",
-      "postalCode": "96822",
+      "postalCode": "96826",
       "city": "Honolulu",
       "countryCode": "USA",
       "region": "Hawaii"
@@ -17,22 +17,22 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "ttruong4",
+        "url": "http://github.com/ttruong4"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
+        "username": "",
         "url": "http://linkedin.com/in/changeme"
       },
       {
         "network": "twitter",
-        "username": "mollymal",
+        "username": "",
         "url": "http://twitter.com/changeme"
       },
       {
         "network": "instagram",
-        "username": "molly",
+        "username": "",
         "url": "http://instagram.com/changeme"
       }
     ]
