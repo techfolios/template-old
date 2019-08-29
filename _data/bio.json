@@ -1,14 +1,14 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Melissa Yago",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://myago13.github.io/images/molly.png",
+    "email": "msyago@hawaii.edu",
+    "phone": "808-225-6421",
+    "website": "https://myago13.github.io",
+    "summary": "I am a student majoring in accounting, finance & MIS at the University of Hawaii at Manoa",
     "location": {
-      "address": "",
+      "address": "1680 East-West Rd.",
       "postalCode": "96822",
       "city": "Honolulu",
       "countryCode": "USA",
@@ -17,41 +17,34 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "myago13",
+        "url": "http://github.com/myago13"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "myago13",
+        "url": "http://linkedin.com/in/myago13"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "Watching Wholesome Movies",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Exercising",
+      "keywords": [
+      ]
+    },
+     {
+      "name": "Studying",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Traveling",
       "keywords": [
       ]
     }
