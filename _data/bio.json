@@ -68,17 +68,6 @@
         "Assembly",
         "Common Lisp"
       ]
-    },
-    {
-      "name": "Toolsets/OS",
-      "level": "",
-      "keywords": [
-        "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
-      ]
     }
   ],
   "education": [
