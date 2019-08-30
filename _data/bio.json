@@ -1,5 +1,6 @@
 { 
-  "basics": {
+  "basics": [
+    {
     "name": "Rebecca Vatnebryn",
     "label": "Student",
     "picture": "https://rebeccavatnebryn.github.io/images/cvBilde.png",
@@ -12,6 +13,7 @@
       "city": "Honolulu",
       "countryCode": "USA",
       "region": "Hawaii"
+    ]
     },
     "profiles": [
       {
