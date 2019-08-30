@@ -6,7 +6,7 @@
     "email": "rihv@hawaii.edu",
     "phone": "808-451-5512",
     "website": "https://rebeccavatnebryn.github.io",
-    "summary": "I am an exchange student from Norway. My major is interactiondesign.": {
+    "summary": "I am an exchange student from Norway. My major is interactiondesign." {
       "address": "",
       "postalCode": "96815",
       "city": "Honolulu",
@@ -97,5 +97,5 @@
         "Responsible for support of the app TOMRA makes change", 
         "Helped out with design in the app MyTOMRA"
       ]
-    },
+    }
 
