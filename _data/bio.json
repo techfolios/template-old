@@ -1,105 +1,95 @@
-{ 
-  "basics": 
-    {
-    "name": "Rebecca Vatnebryn",
-    "label": "Student",
-    "picture": "https://rebeccavatnebryn.github.io/images/cvBilde.png",
-    "email": "rihv@hawaii.edu",
-    "phone": "808-451-5512",
-    "website": "https://rebeccavatnebryn.github.io",
-    "summary": "I am an exchange student from Norway. My major is interactiondesign.",
-      "location" :
-      {
-      "address": "",
-      "postalCode": "96815",
-      "city": "Honolulu",
-      "countryCode": "USA",
-      "region": "Hawaii"
+{
+	"basics": {
+		"name": "Rebecca Vatnebryn",
+		"label": "Student",
+		"picture": "https://rebeccavatnebryn.github.io/images/cvBilde.png",
+		"email": "rihv@hawaii.edu",
+		"phone": "808-451-5512",
+		"website": "https://rebeccavatnebryn.github.io",
+		"summary": "I am an exchange student from Norway. My major is interactiondesign.",
+		"location": {
+			"address": "",
+			"postalCode": "96815",
+			"city": "Honolulu",
+			"countryCode": "USA",
+			"region": "Hawaii"
 
-    },
-    "profiles": [
-      {
-        "network": "github",
-        "username": "rebeccavatnebryn",
-        "url": "http://github.com/rebeccavatnebryn"
-      },
-      {
-        "network": "linkedin",
-        "username": "rebecca-vatnebryn",
-        "url": "https://www.linkedin.com/in/rebecca-vatnebryn-526b81165/"
-      },
-      {
-        "network": "instagram",
-        "username": "rebb",
-        "url": "http://instagram.com/rebb"
-      }
-    ]
-  },
-  "interests": [
-    {
-      "name": "Web development",
-      "keywords": [
-        "Webdesign", 
-        "Webdevelopment"
-      ]
-    },
-    {
-      "name": "user experience",
-      "keywords": [
-        "UX"
-      ]
-    },
-    {
-      "name": "artificial intelligence",
-      "keywords": [
-      ]
-    }
-  ],
-  "skills": [
-    {
-      "name": "Languages and Frameworks",
-      "level": "",
-      "keywords": [
-        "CSS",
-        "HTML",
-        "Java",
-        "Javascript"
-      ]
-    },
-    {
-      "name": "Toolsets/OS",
-      "level": "",
-      "keywords": [
-        "MacOS",
-        "Figma",
-        "Git/GitHub"
-      ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University in Bergen, Bergen, Norway",
-      "area": "Media and interaction design",
-      "studyType": "B.S.",
-      "startDate": "2017-08-19",
-      "endDate": "Present",
-      "gpa": "",
-      "courses": [
-      ]
-    }
-  ]
-  ,
-  "work": [
-    {
-      "company": "TOMRA ASA",
-      "position": "Marketing coordinator",
-      "website": "tomra.com",
-      "startDate": "2019-06-11",
-      "endDate": "2019-07-22",
-      "summary": "",
-      "highlights": [
-        "Responsible for support of the app TOMRA makes change", 
-        "Helped out with design in the app MyTOMRA"
-      ]
-    }
+		},
+		"profiles": [{
+				"network": "github",
+				"username": "rebeccavatnebryn",
+				"url": "http://github.com/rebeccavatnebryn"
+			},
+			{
+				"network": "linkedin",
+				"username": "rebecca-vatnebryn",
+				"url": "https://www.linkedin.com/in/rebecca-vatnebryn-526b81165/"
+			},
+			{
+				"network": "instagram",
+				"username": "rebb",
+				"url": "http://instagram.com/rebb"
+			}
+		]
+	},
+	"interests": [{
+			"name": "Web development",
+			"keywords": [
+				"Webdesign",
+				"Webdevelopment"
+			]
+		},
+		{
+			"name": "user experience",
+			"keywords": [
+				"UX"
+			]
+		},
+		{
+			"name": "artificial intelligence",
+			"keywords": []
+		}
+	],
+	"skills": [{
+			"name": "Languages and Frameworks",
+			"level": "",
+			"keywords": [
+				"CSS",
+				"HTML",
+				"Java",
+				"Javascript"
+			]
+		},
+		{
+			"name": "Toolsets/OS",
+			"level": "",
+			"keywords": [
+				"MacOS",
+				"Figma",
+				"Git/GitHub"
+			]
+		}
+	],
+	"education": [{
+		"institution": "University in Bergen, Bergen, Norway",
+		"area": "Media and interaction design",
+		"studyType": "B.S.",
+		"startDate": "2017-08-19",
+		"endDate": "Present",
+		"gpa": "",
+		"courses": []
+	}],
+	"work": [{
+		"company": "TOMRA ASA",
+		"position": "Marketing coordinator",
+		"website": "tomra.com",
+		"startDate": "2019-06-11",
+		"endDate": "2019-07-22",
+		"summary": "",
+		"highlights": [
+			"Responsible for support of the app TOMRA makes change",
+			"Helped out with design in the app MyTOMRA"
+		]
+	}]
+}
 
