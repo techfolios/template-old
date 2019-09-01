@@ -2,39 +2,21 @@
   "basics": {
     "name": "Noah Duran",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
+    "picture": "https://Ndsurf888.github.io/images/Molly.png",
     "email": "noah28@hawaii.edu",
     "phone": "808-800-7457",
     "website": "https://Ndsurf888.github.io",
-    "summary": "I am studying for a B.A. in Finance and MIS at the University of Hawaii. I expect to graduate in Spring, 2021.",
+    "summary": "I am studying for a BBA in Finance and MIS at the University of Hawaii. I expect to graduate in Spring, 2021.",
     "location": {
-      "address": "888 Cool st",
+      "address": "1065 Kawaiahao st",
       "postalCode": "96814",
       "city": "Honolulu",
       "countryCode": "USA",
       "region": "Hawaii"
     },
     "profiles": [
-      {
-        "network": "github",
-        "username": "Ndsurf888",
-        "url": "http://github.com/Ndsurf888"
-      },
-      {
-        "network": "linkedin",
-        "username": "",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "",
-        "url": "http://instagram.com/changeme"
-      }
+     
+      
     ]
   },
   "interests": [
@@ -51,7 +33,7 @@
       ]
     },
     {
-      "name": "Body Surfing",
+      "name": "Programming",
       "keywords": [
       ]
     }
