@@ -1,10 +1,13 @@
+---
 layout: essay
 type: essay
+published: true
 title: Major Decision 
 date: 2019-09-02
 labels:
 -MIS
 -Student
+---
 
 # About Me
 My name is Matthew Fansler and I am currently a junior at the University of Hawaii at Manoa, majoring in Management Information Systems (MIS). I am expected to graduate in the spring of 2021. My personal hobbies consists of cooking, hiking, surfing, and sports. 
