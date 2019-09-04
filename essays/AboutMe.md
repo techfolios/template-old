@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: essays
 type: essay
 published: true
 title: Major Decision 
