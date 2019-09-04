@@ -2,8 +2,8 @@
 layout: project
 type: project
 image: images/flyttDet1
-title: Hei
-permalink: projects/hei
+title: Flytt Det
+permalink: projects/flyttdet
 # All dates must be YYYY-MM-DD format!
 date: 2019-03-13
 labels:
