@@ -2,8 +2,8 @@
 layout: project
 type: project
 image: images/flyttDet1
-title: FLYTT DET (MOVE IT)
-permalink: projects/micromouse
+title: Hei
+permalink: projects/hei
 # All dates must be YYYY-MM-DD format!
 date: 2019-03-13
 labels:
