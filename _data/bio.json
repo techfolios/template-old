@@ -18,40 +18,28 @@
       {
         "network": "github",
         "username": "nchu277",
-        "url": "http://github.com/changeme"
+        "url": "http://github.com/nchu277"
       },
       {
         "network": "linkedin",
         "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "url": "http://linkedin.com/in/nathaniel-chu-846b0a171/"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "software engineering",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "cyber security",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "computer networking",
       "keywords": [
       ]
     }
