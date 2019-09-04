@@ -23,25 +23,16 @@ summary: My team developed a prototype an app where the theme were sustainable m
 </div>
 
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+I joined a hackathon in Bergen in March 2019. The represented task were as follows: make up a new product or service for the furture of sustainable mobility. We got paired up in teams, and got 24 hours to finish up our prototype. The day after we were pitching the idea infront of a jury. The jury based their judgement on three factors; personal mobility, use of data for new and existing mobility services and future Urban Logistics. 
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+Our result was based on factum that all the team members are students have moved several times the last couple of years. Our project was calles Flytt det (move it). The concept of Flytt det is that student easily can get their things transported from a place to another without driving their own car both ways. Today it is not a well functional eco-friendly solution in Norway to send your things from A to B. Flytt det is an app where you can send your things with anyone how is going to the place you want to carry. The user does not have to pay anything, but all the users have a rate at their profil. The rate will ensure that the users behave appropriate and take care of the luagge they are transporting. 
 
-Here is some code that illustrates how we read values from the line sensors:
+Under you will find pictures of the prototype:
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
+```BILDER
 ```
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+Here you can see a video from the Hackathon https://www.youtube.com/watch?v=Q2et7aafWsU
 
 
 
