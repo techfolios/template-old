@@ -5,7 +5,6 @@ published: true
 title: Major Decision 
 date: 2019-09-02
 labels:
--MIS
 -Student
 ---
 
