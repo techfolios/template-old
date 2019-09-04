@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/flyttDet1
 title: FLYTT DET (MOVE IT)
-permalink: projects/flyttdet
+permalink: projects/project-1.md
 # All dates must be YYYY-MM-DD format!
 date: 2019-13-03
 labels:
