@@ -1,11 +1,10 @@
 ---
-layout: essays
+layout: essay
 type: essay
-published: true
 title: Major Decision 
-date: 2019-09-02
+date: 2019-09-3
 labels:
--Student
+  - Student
 ---
 
 # About Me
