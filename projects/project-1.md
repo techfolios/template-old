@@ -18,10 +18,10 @@ summary: My team developed a prototype an app where the theme were sustainable m
 <div class="ui small rounded images">
   <img class="ui image" src="../images/flyttDet1">
   <img class="ui image" src="../images/flyttDet2">
-  <img class="ui image" src="../images/flyttDet3">
+  <img class="ui image" src="../images/flyttDet13">
   <img class="ui image" src="../images/flyttDet4">
    <img class="ui image" src="../images/flyttDet5">
-   <img class="ui image" src="../images/flyttDet6">
+   <img class="ui image" src="../images/flyttDet16">
 </div>
 
 
