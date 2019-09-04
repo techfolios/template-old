@@ -3,9 +3,9 @@ layout: project
 type: project
 image: images/flyttDet1
 title: FLYTT DET (MOVE IT)
-permalink: projects/project-1.md
+permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
-date: 2019-13-03
+date: 2019-03-13
 labels:
   - Hackathon 
   - App development
@@ -29,6 +29,7 @@ Under you will find pictures of the prototype:
    <img class="ui image" src="../images/flyttDet5">
    <img class="ui image" src="../images/flyttDet16">
 </div>
+
 
 Here you can see a video from the Hackathon https://www.youtube.com/watch?v=Q2et7aafWsU
 
