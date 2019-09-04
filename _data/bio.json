@@ -82,40 +82,38 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "CF Properties & Management, LLC; Honolulu, Hawaii",
+      "position": "Property Management Worker",
       "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "startDate": "2014-01-01",
+      "endDate": "2016",
+      "summary": "Part time worker",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Basic general office troubleshoot",
+        "Responsible for maintence of rental properties"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "UA Parking & Transportation",
+      "position": "Ticket Cashier",
+      "website": "https://parking.arizona.edu/",
+      "startDate": "2016-10-01",
+      "endDate": "2017-05-20",
+      "summary": "Part time worker",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Collected and guided customers that were paying for parking",
+        "Worked special/sporting events"
       ]
-    }
-  ],
-      "organization": "",
+    },
+    {
+      "company": "LeBistro",
+      "position": "Cook",
       "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "startDate": "2017-6-01",
+      "endDate": "2018-11-01",
+      "summary": "Began as a kitchen worker then finished as Head Sous chef",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Responsible for preparing, cooking, and plating all main/side entrees",
       ]
     }
   ],
