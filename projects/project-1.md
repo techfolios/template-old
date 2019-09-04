@@ -29,8 +29,7 @@ Our result was based on factum that all the team members are students have moved
 
 Under you will find pictures of the prototype:
 
-```BILDER
-```
+
 
 Here you can see a video from the Hackathon https://www.youtube.com/watch?v=Q2et7aafWsU
 
