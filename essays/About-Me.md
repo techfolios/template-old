@@ -1,6 +1,6 @@
 ---
-layout: essay
-type: essay
+layout: essays
+type: essays
 published: true
 title: Major Decision 
 date: 2019-09-02
