@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Aaron Kam",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://techfolios.github.io/template/images/aaron.jpeg",
+    "email": "ark476@gmail.com",
+    "phone": "808-206-2226",
+    "website": "https://Aaron-Kam.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences and Molecular Biosciences and Biotechnology in the department of the same name at the University of Hawaii. I expect to graduate in Spring, 2022.",
     "location": {
       "address": "",
       "postalCode": "96822",
@@ -17,41 +17,31 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "Aaron-Kam",
+        "url": "http://github.com/Aaron-Kam"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "Aaron Kam",
+        "url": "http://linkedin.com/in/aaron-kam-a502b9192"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "internet",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "Youtube",
+        "Reddit"
       ]
     },
     {
-      "name": "data mining",
+      "name": "data science",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Bioinformatics",
       "keywords": [
       ]
     }
@@ -65,8 +55,7 @@
         "C++",
         "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Python"
       ]
     },
     {
@@ -75,9 +64,7 @@
       "keywords": [
         "MacOS",
         "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Git/GitHub"
       ]
     }
   ],
@@ -121,30 +108,16 @@
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
+      "organization": "University of Hawaii at Manoa",
+      "website": "http://manoa.hawaii.edu",
+      "position": "Student Ambassador",
+      "startDate": "2018-08-12",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "summary": "Representing the College of Tropical Agriculture when dealing with new students",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
       ]
     }
+    
   ],
   "awards": [
     {
