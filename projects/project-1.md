@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/flyttDet1
 title: FLYTT DET (MOVE IT)
 permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
@@ -16,10 +16,12 @@ summary: My team developed a prototype an app where the theme were sustainable m
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/flyttDet1">
+  <img class="ui image" src="../images/flyttDet2">
+  <img class="ui image" src="../images/flyttDet3">
+  <img class="ui image" src="../images/flyttDet4">
+   <img class="ui image" src="../images/flyttDet5">
+   <img class="ui image" src="../images/flyttDet6">
 </div>
 
 
