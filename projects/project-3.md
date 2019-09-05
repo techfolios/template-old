@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/Juliepaasporet
+image: images/juliepaasporet
 title: Julie paa sporet 
 permalink: projects/juliepaasporet
 # All dates must be YYYY-MM-DD format!
@@ -23,4 +23,4 @@ Under you can see a picture from the website:
   <img class="ui image" src="../images/kart">
 </div>
 
-<a href="https://juliepaasporet.wixsite.com/juliepaasporet">Here </a> you can see the webpage: 
+<a href="https://juliepaasporet.wixsite.com/juliepaasporet">Here </a> you can see the webpage. 
