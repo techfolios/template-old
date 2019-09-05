@@ -33,5 +33,3 @@ Under you will find pictures of the prototype:
 
 Here you can see a video from the Hackathon https://www.youtube.com/watch?v=Q2et7aafWsU
 
-
- 
