@@ -19,5 +19,8 @@ The main purpose with making the webpage was to gain experience in prosject plan
 We used a web bulider called wix. From this project, I gained experience with the pre-made web builder and to understand the positive and negative sides of not programming the website itself. By using the default template, it resticted some of the things we wanted to accomplish. 
 
 Under you can see a picture from the website: 
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/kart">
+</div>
 
 <a href="https://juliepaasporet.wixsite.com/juliepaasporet">Here </a> you can see the webpage: 
