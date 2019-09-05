@@ -23,6 +23,6 @@ Here you can see pictures of the regular search:
 Here you can see pictures of the advanced search:
 <img class="ui medium right floated rounded image" src="../images/advancedSearch.png">
 <br>
-Here is the link to the webpage. http://wildboy.uib.no/~gen009/index.html
 
+<a href="http://wildboy.uib.no/~gen009/index.html">Here </a> is the link to the webpage. 
  
