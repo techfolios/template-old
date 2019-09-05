@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/juliepaasporet
+image: images/juliepaasporet.png
 title: Julie paa sporet 
 permalink: projects/juliepaasporet
 # All dates must be YYYY-MM-DD format!
@@ -20,7 +20,7 @@ We used a web bulider called wix. From this project, I gained experience with th
 
 Under you can see a picture from the website: 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/kart">
+  <img class="ui image" src="../images/kart.png">
 </div>
 
 <a href="https://juliepaasporet.wixsite.com/juliepaasporet">Here </a> you can see the webpage. 
