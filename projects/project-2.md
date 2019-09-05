@@ -2,24 +2,25 @@
 layout: project
 type: project
 image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+title: Livet i vest
+permalink: projects/livetivest
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2018-13-05
 labels:
   - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
+  - HTML
+  - CSS
 summary: A responsive web application for travel planning that my team developed in ICS 415.
 ---
 
+Livet i vest (life on the west coast) is a webpage based on an exam from school. The project was produced in teams of four, where we were given different requirements who had to be fullfilled. The concept behind the webpage is to locate different toilets, playground and nightclubs at the west coast in Norway. They are both located in the cities Bergen and Stavanger, but they are seperated in different subpages. The webpage is built by using javascrips, html and css. 
+
+Some of the subpages allows you to do different searches. On the subpage "Toaletter i Bergen", you can either do a regualr search or or the advanced search. By using the regular search it is possible to write in keywords like "sex: male" or "opening hours: 18:00" and based on the search, the toilets who meets the requirements will show up. The advanced search is based on predetermined parameters, and you can therefore tick off what you prefer to see. 
+
+Here you can see pictures from the webpage:
 <img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+Here is the link to the webpage. http://wildboy.uib.no/~gen009/index.html
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
-
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
  
 Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
