@@ -1,15 +1,15 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
+image: images/Juliepaasporet
+title: Julie paa sporet 
+permalink: projects/juliepaasporet
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2018-04-30
 labels:
-  - Lisp
-  - GitHub
-summary: A text adventure game I developed for ICS 313.
+  - Webdesign 
+  - Adoption
+summary: A webpage build to present an adopted girls story
 ---
 
 <img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
