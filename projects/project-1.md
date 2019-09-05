@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/flyttDet
+image: images/flyttDet.png
 title: Flytt Det
 permalink: projects/flyttdet
 # All dates must be YYYY-MM-DD format!
