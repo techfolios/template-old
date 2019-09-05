@@ -25,6 +25,7 @@ Under you will find pictures of the prototype:
   <img class="ui image" src="../images/flyttDet1">
   <img class="ui image" src="../images/flyttDet2">
   <img class="ui image" src="../images/flyttDet13">
+  <hr>
   <img class="ui image" src="../images/flyttDet4">
    <img class="ui image" src="../images/flyttDet5">
    <img class="ui image" src="../images/flyttDet16">
