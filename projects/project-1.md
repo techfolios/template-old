@@ -31,6 +31,6 @@ Under you will find pictures of the prototype:
    <img class="ui image" src="../images/flyttDet16">
 </div>
 
-
+<br>
 <a href="https://www.youtube.com/watch?v=Q2et7aafWsU">Here </a> you can see a video from the Hackathon
 
