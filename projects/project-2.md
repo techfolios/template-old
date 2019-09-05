@@ -5,7 +5,7 @@ image: images/forside.png
 title: Livet i vest
 permalink: projects/livetivest
 # All dates must be YYYY-MM-DD format!
-date: 2018-13-05
+date: 2018-05-13
 labels:
   - Javascript
   - HTML
