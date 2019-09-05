@@ -19,10 +19,9 @@ Some of the subpages allows you to do different searches. On the subpage "Toalet
 
 Here you can see pictures of the regular search:
 <img class="ui medium right floated rounded image" src="../images/regularSearch.png">
-<br>
 Here you can see pictures of the advanced search:
 <img class="ui medium right floated rounded image" src="../images/advancedSearch.png">
-<br>
+
 
 <a href="http://wildboy.uib.no/~gen009/index.html">Here </a> is the link to the webpage. 
  
