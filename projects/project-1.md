@@ -32,5 +32,5 @@ Under you will find pictures of the prototype:
 </div>
 
 
-Here you can see a video from the Hackathon https://www.youtube.com/watch?v=Q2et7aafWsU
+<a href="https://www.youtube.com/watch?v=Q2et7aafWsU">Here</a>you can see a video from the Hackathon
 
