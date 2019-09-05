@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/Juliepaasporet.png
+image: images/juliepaasporet.png
 title: Julie paa sporet 
 permalink: projects/juliepaasporet
 # All dates must be YYYY-MM-DD format!
