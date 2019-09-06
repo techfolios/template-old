@@ -13,7 +13,7 @@ My first introduction to javascript was in 2018 through a course we had in schoo
 
 Before I got introduced to javascript, the only programming experience I have is java. The thing I experienced during my semester with learning javascript, was that it was not alike java, as I had assumed. 
 
-One thing I really like about javascript, is that I easily can access my code in the console at the webpage (trough HTML and CSS). This makes it easier to see the result of the work I have done (and of course all the errors!). I think it gives me more motivation to correct what is wrong, when I constantly can se my progression.
+One thing I really like about javascript, is that I easily can access my code in the console at the webpage (trough HTML and CSS). This makes it easier to see the result of the work I have done (and of course all the errors!). I think it gives me more motivation to correct what is wrong, when I constantly can see my progression.
 
 Furthermore, I want to learn a lot more about javascript, especially get more practice so it makes me more comfortable to write the language. Seen in this context, I think the WODs will give me a lot of good practice and probably a lot of frustration as well.
 
