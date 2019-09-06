@@ -2,7 +2,7 @@
   "basics": {
     "name": "Trey Sumida",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
+    "picture": "https://techfolios.github.io/images/headshot.jpg",
     "email": "tasumida@hawaii.edu",
     "phone": "808-990-5903",
     "website": "https://trey-sumida.github.io",
@@ -22,36 +22,34 @@
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "Trey Allen Sumida",
+        "url": "http://linkedin.com/in/trey-allen-sumida"
       },
       {
         "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "username": "TreySumida",
+        "url": "http://twitter.com/TreySumida"
       },
       {
         "network": "instagram",
-        "username": "molly",
+        "username": "treysumida",
         "url": "http://instagram.com/changeme"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "Software development",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "game development",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "renewable energy",
       "keywords": [
       ]
     }
@@ -65,8 +63,7 @@
         "C++",
         "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Python"
       ]
     },
     {
