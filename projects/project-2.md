@@ -111,11 +111,17 @@ I will also include screenshots of things I have printed using this program to h
 
 <div class="ui small rounded images">
   <img class="ui image" src="../images/lee.png">
+  
   <img class="ui image" src="../images/roman.png">
+  
   <img class="ui image" src="../images/toga.png">
+  
   <img class="ui image" src="../images/a few.png">
+  
   <img class="ui image" src="../images/ooooo.png">
+  
 </div>
+
 
 It is interesting to see the time it took for the computer to print these words. Keep in mind that a computer also "types" at a speed many many times faster than a monkey. These were some of the longest words I could generate. When I attempted to try a sentence, my computer ran for about an hour or so before I called it quits. 
 
