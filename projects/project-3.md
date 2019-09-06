@@ -12,7 +12,7 @@ labels:
   - Concept development
 summary: A webpage build to present an adopted girls story.
 ---
-<div class="ui small rounded images">
+<div>
   <img class="ui image" src="../images/kart.png" style="width:500px;>
 </div>
 Juliepaasporet (Julie on the track) is a exam schoolproject, which was developed in cooperation with a girl who are adopted from South-Korea. The project was built in a design course, and carried out in teams.
