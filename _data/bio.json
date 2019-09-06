@@ -77,7 +77,16 @@
 		"startDate": "2017-08-19",
 		"endDate": "Present",
 		"gpa": "",
-		"courses": []
+		"courses": ["MIX100","INFO132","EXPHIL-SVSEM","MIX104","INFO134","MIX203","INFO125","MIX203","MIX202"]
+	}],
+	"education": [{
+		"institution": "University of Hawaii at Manoa, Hawaii",
+		"area": "Computer science",
+		"studyType": "Exchange student",
+		"startDate": "2019-08-19",
+		"endDate": "2019-12-20",
+		"gpa": "",
+		"courses": ["ICS314","ICS101","LTEC112","ERTH101","KRS102","KRS153"]
 	}],
 	"work": [{
 		"company": "TOMRA ASA",
