@@ -49,6 +49,7 @@ if ((float)motionData[8] > 8100f)
     port.WriteLine("#RITE\n");
 }
 ```
+<hr>
 
 Source: <a href="https://github.com/japhet-ye/EE396"><i class="large github icon "></i>emotiv/ee-396-text-project</a>
 
