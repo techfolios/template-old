@@ -12,6 +12,7 @@ labels:
   - CSS
 summary: A responsive webpage developed to find toilets, playgrounds and nightclubs on the west coast in Norway.
 ---
+<br>
 <img class="ui medium right floated rounded image" src="../images/advancedSearch.png">
 <br>
 
