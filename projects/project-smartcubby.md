@@ -49,4 +49,6 @@ What We Learned
 -Use of a soldering iron
 -Charlieplexing
  
+<hr>
+
 Source: <a href="ai2.appinventor.mit.edu/?galleryId=4754403452649472"><i class="large github icon"></i>SmartCubby/MIT_App_Inventor</a>
