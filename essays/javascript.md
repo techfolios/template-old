@@ -8,6 +8,7 @@ labels:
   - Javascript
 ---
 
+
 My first introduction to javascript was in 2018 through a course we had in school, at the University of Bergen. It was a group project where we were supposed to develop a webpage by using javascript, HTML and CSS. The group consisted of four people and we all got different responsibilities. Unfortunately, my focus area was not javascript, which resulted in that I did not get to know it in depth. At the same time, I got an introduction to the language, so I would say it gave me a good foundation to continue learning more.  
 
 Before I got introduced to javascript, the only programming experience I have is java. The thing I experienced during my semester with learning javascript, was that it was not alike java, as I expected. 
