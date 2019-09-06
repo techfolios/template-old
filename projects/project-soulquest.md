@@ -18,7 +18,7 @@ SoulQuest is a fantasy text-based rpg dungeon crawler game I developed applying 
 
 To give you an idea of what the game is like, here is the game overview:
 
-<pre>
+<hr>
 
 Concepts Used
 -Classes
@@ -85,7 +85,7 @@ Enemies
  :Elemental Type
  :Weapon Type
 
-</pre>
+<hr>
 
 Source: <a href="https://github.com/chriswon98/EE205"><i class="large github icon "></i>soulquest/ee-205-text-game</a>
 
