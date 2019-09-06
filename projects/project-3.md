@@ -20,7 +20,7 @@ We used a web bulider called wix. From this project, I gained experience with th
 
 Under you can see a picture from the website: 
 <div class="ui small rounded images">
-  <img class="ui image" style="width:500px src="../images/kart.png">
+  <img class="ui image" src="../images/kart.png" style="width:500px;>
 </div>
 
 <a href="https://juliepaasporet.wixsite.com/juliepaasporet">Here </a> you can see the webpage. 
