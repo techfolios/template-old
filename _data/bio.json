@@ -100,8 +100,8 @@
 			"Helped out with design in the app MyTOMRA"
 		]
 	}],
-	"references": [
-		"available upon request"
-	]
+	"references": [{
+		name: "available upon request"
+	}]
 }
 
