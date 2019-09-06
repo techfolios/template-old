@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/flyttDet.png
-title: Flytt Det (move it) - prototype!
+title: Flytt Det (move it) - prototype
 permalink: projects/flyttdet
 # All dates must be YYYY-MM-DD format!
 date: 2019-03-13
