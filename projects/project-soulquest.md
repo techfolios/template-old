@@ -39,7 +39,7 @@ Game Features
 -Text-based HUD
 -Random drops
 -Random encounters
-
+<pre>
 Elements and Weapon Triangle
 -[Fire Emblem](https://fireemblem.fandom.com/wiki/Weapon_Triangle) Style Weapon Triangle
  :Sword Beats Axe
@@ -84,7 +84,7 @@ Enemies
  :DEF
  :Elemental Type
  :Weapon Type
-
+</pre>
 <hr>
 
 Source: <a href="https://github.com/chriswon98/EE205"><i class="large github icon "></i>soulquest/ee-205-text-game</a>
