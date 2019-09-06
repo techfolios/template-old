@@ -12,9 +12,11 @@ labels:
   - Concept development
 summary: A webpage build to present an adopted girls story.
 ---
-<div>
-  <img class="ui image" src="../images/kart.png" style="width:500px;>
+
+ <div>
+<img class="ui medium right floated rounded image" src="../images/kart.png" style="width:500px;">
 </div>
+
 Juliepaasporet (Julie on the track) is a exam schoolproject, which was developed in cooperation with a girl who are adopted from South-Korea. The project was built in a design course, and carried out in teams.
 
 The main purpose with making the webpage was to gain experience in prosject planning and concept development. I learned alot about evaluation, design processes and testing methods in this course. 
