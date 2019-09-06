@@ -12,10 +12,9 @@ labels:
 summary: A text-based rpg dungeon crawler game I developed with a team for EE 205.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+<img class="ui image" src="{{ site.baseurl }}/images/soulquest_play.png">
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
-
+SoulQuest is a fantasy text-based rpg dungeon crawler game I developed applying object oriented programming techniques learned in class and using Github to manage the code
 To give you a flavor of the game, here is an excerpt from one run:
 
 <hr>
