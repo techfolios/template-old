@@ -13,7 +13,7 @@ labels:
 summary: A responsive webpage developed to find toilets, playgrounds and nightclubs on the west coast in Norway.
 ---
 <div>
-<img class="ui medium right floated rounded image" src="../images/advancedSearch.png" style="width:400px;">
+<img class="ui medium right floated rounded image" src="../images/advancedSearch.png" style="width:450px;">
 </div>
 
 Livet i vest (life on the west coast) is a webpage based on an exam from school. The project was produced in teams of four, where we were given different requirements who had to be fullfilled. The concept behind the webpage is to locate different toilets, playground and nightclubs at the west coast in Norway. They are both located in the cities Bergen and Stavanger, but they are seperated in different subpages. The webpage is built by using javascrips, html and css. 
