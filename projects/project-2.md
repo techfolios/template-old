@@ -62,7 +62,7 @@ public class InfiniteMonkey {
 
     //if the word "kayak" is found, break, and print count as well
     //keep in mind that the sequence "kayak" has a 1/27^5 probability of generating (very slim)
-    String word = " tea";
+    String word = " kayak";
     StringBuilder sb = new StringBuilder();
 
     long startTime = System.nanoTime();
