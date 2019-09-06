@@ -39,5 +39,5 @@ function avansertsok() {
 
 
 <br>
-/*<a href="http://wildboy.uib.no/~gen009/index.html">Here </a> is the link to the webpage. */
+<a href="http://wildboy.uib.no/~gen009/index.html">Here </a> is the link to the webpage.
  
