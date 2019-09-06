@@ -13,7 +13,7 @@ labels:
 summary: Implimented the Infinite Monkey Theorem in Java.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/monkey.png">
 
 This small side project stemmed from pure curiousity. During my time being involved in ICS 141 (Discrete Mathematics for Computer Science), I gained familiarity with the concept of sets. Sets are a big part of discrete math, and there are many different insights one can gain from observing and working with their properites. 
 
