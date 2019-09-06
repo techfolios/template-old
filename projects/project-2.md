@@ -34,6 +34,9 @@ function avansertsok() {
     }
     ...
     }
+
+
+
 <br>
 <img class="ui medium right floated rounded image" src="../images/advancedSearch.png">
 <br>
