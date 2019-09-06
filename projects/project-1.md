@@ -13,7 +13,7 @@ labels:
   - App development
   - Prototype
   - Sustainable mobility 
-summary: My team developed a prototype an app where the theme were sustainable mobility.
+summary: A prototype of an app where it is possible to send your luggage in an environmentally friendly way. 
 
 ---
 
