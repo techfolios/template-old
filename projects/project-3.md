@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
+image: images/soulquest_logo.png
 title: SoulQuest
 permalink: projects/cotton
 # All dates must be YYYY-MM-DD format!
@@ -9,7 +9,7 @@ date: 2018-04-12
 labels:
   - C++
   - GitHub
-summary: A text-based rpg dungeon crawler game I developed for EE 205.
+summary: A text-based rpg dungeon crawler game I developed with a team for EE 205.
 ---
 
 <img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
