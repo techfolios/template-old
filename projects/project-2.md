@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
+image: images/babel.jpg
 title: Infinite Monkey Theorem
 permalink: projects/imt
 # All dates must be YYYY-MM-DD format!
@@ -131,5 +131,13 @@ I will also include screenshots of things I have printed using this program to h
 It is interesting to see the time it took for the computer to print these words. Keep in mind that a computer also "types" at a speed many many times faster than a monkey. These were some of the longest words I could generate. When I attempted to try a sentence, my computer ran for about an hour or so before I called it quits. 
 
 Overall, this was an interesting little side project. It shows how mathematics can be applied to a particular situation, and how mathematics can be demonstrated through code.
+
+Note: The title image is from the short story "The Library of Babel" by Jorge Luis Borges. I chose it because it is similar in concept to the Infinite Monkey Theorem. Basically the library is an infinite library filled with an infinite amount of books. The books contain all combinations of letters, meaning that everything that is known and can be known can be found in the library. I did read the story and found it interesting. I would recommend it to anyone interested in mind-twisting stories such as these.
+
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/library.jpg">
+ 
+ </div>
  
 Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+
