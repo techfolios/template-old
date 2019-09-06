@@ -13,8 +13,10 @@ labels:
 summary: A responsive smart organizing cubby that my team developed in EE 296.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/smartcube_design.PNG">
-<img class="ui medium right floated rounded image" src="../images/smartcube_product.PNG">
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/smartcube_design.PNG">
+  <img class="ui image" src="../images/smartcube_product.PNG">
+</div>
 
 Smart Cubby is a bookshelf-like cubbby that interacts with a phone application that I helped create as a team project in EE 296, Fall 2017. The project helped me learn how use an arduino as well as create simple apps using [MIT App Inventor](https://appinventor.mit.edu/).
 
