@@ -1,25 +1,50 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+image: images/smartcube_logo.PNG
+title: Smart Cubby
+permalink: projects/smartcubby
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2017-10-15
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Arduino
+  - MIT App Inventor
+  - Soldering
+summary: A responsive smart organizing cubby that my team developed in EE 296.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/smartcube_design.PNG">
+<img class="ui medium right floated rounded image" src="../images/smartcube_product.PNG">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+Smart Cubby is a bookshelf-like cubbby that interacts with a phone application that I helped create as a team project in EE 296, Fall 2017. The project helped me learn how use an arduino as well as create simple apps using [MIT App Inventor](https://appinventor.mit.edu/).
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+Smart Cubby was designed using an arduino to control LED's, an RFID scanner, an LCD module as a clock. It was implemented using MIT App Inventor, a website platform you can use to create complex android application in a simple way. Within five weeks, we created a app that fully interacted with the arduino using bluetooth. The app was used to set a students weekly class schedule and set an alarm to wake the student up when they would need to start the day. 
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
+Design
+-Bookshelf style approach
+-Plexiglass construction
+-Has 10 compartments: 1 slot the Arduino microcontroller, 5 slots for textbooks, and 4 slots for miscellaneous items
+-Time displayed through LCD
+-Two pushbuttons to program the clock
+-Individual LEDs per a compartment
+-Piezo buzzer alarm
+-RFID scanner
+-Schedule and LED controller in MIT App Inventor
+
+Android App
+-User can program his/her schedule into the app
+-User can make edits to an already programed schedule 
+-User can  turn off the LEDs
+
+What We Learned
+-Advanced app functions (i.e. programmable scheduler) in MIT App Inventor
+-App graphic design
+-I2C data transfer protocol
+-LCD module as a clock
+-Piezo buzzer as an alarm
+-Plexiglass cutting 
+-RFID scanning technology
+-Use of a soldering iron
+-Charlieplexing
  
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+Source: <a href="ai2.appinventor.mit.edu/?galleryId=4754403452649472"><i class="large github icon"></i>SmartCubby/MIT_App_Inventor</a>
