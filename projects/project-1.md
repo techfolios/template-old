@@ -25,7 +25,9 @@ I joined a hackathon in Bergen in March 2019. The represented task were as follo
   <img class="ui image" src="../images/flyttDet13">
   <br></div>
 
-During this project we used Google design sprint as method and Figma as prototpyings platform. Our result was based on factum that all the team members are students have moved several times the last couple of years. Our project was calles Flytt det (move it). The concept of Flytt det is that student easily can get their things transported from a place to another without driving their own car both ways. Today it is not a well functional eco-friendly solution in Norway to send your things from A to B. Flytt det is an app where you can send your things with anyone how is going to the place you want to carry. The user does not have to pay anything, but all the users have a rate at their profil. The rate will ensure that the users behave appropriate and take care of the luagge they are transporting. 
+During this project we used Google design sprint as method and Figma as prototpyings platform. Our result was based on factum that all the team members are students have moved several times the last couple of years. 
+
+Our project was calles Flytt det (move it). The concept of Flytt det is that student easily can get their things transported from a place to another without driving their own car both ways. Today it is not a well functional eco-friendly solution in Norway to send your things from A to B. Flytt det is an app where you can send your things with anyone how is going to the place you want to carry. The user does not have to pay anything, but all the users have a rate at their profil. The rate will ensure that the users behave appropriate and take care of the luagge they are transporting. 
 
 
 <br>
