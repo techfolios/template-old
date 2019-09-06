@@ -111,14 +111,19 @@ I will also include screenshots of things I have printed using this program to h
 
 <div class="ui small rounded images">
   <img class="ui image" src="../images/lee.png">
+  "lee"
   
   <img class="ui image" src="../images/roman.png">
+  "roman"
   
   <img class="ui image" src="../images/toga.png">
+  "toga"
   
   <img class="ui image" src="../images/a few.png">
+  "a few"
   
   <img class="ui image" src="../images/ooooo.png">
+  "ooooo"
   
 </div>
 
