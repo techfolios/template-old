@@ -38,8 +38,8 @@ function avansertsok() {
 
 <div>
 <img class="ui medium right floated rounded image" src="../images/advancedSearch.png" style="width:500px;">
+<a href="http://wildboy.uib.no/~gen009/index.html">Here </a> is the link to the webpage.
 </div>
 
-<br>
-<a href="http://wildboy.uib.no/~gen009/index.html">Here </a> is the link to the webpage.
+
  
