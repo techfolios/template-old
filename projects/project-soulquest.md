@@ -19,7 +19,7 @@ SoulQuest is a fantasy text-based rpg dungeon crawler game I developed applying 
 To give you an idea of what the game is like, here is the game overview:
 
 <hr>
-
+<pre>
 Concepts Used
 -Classes
 -Inheritance
@@ -31,7 +31,9 @@ Concepts Used
 -ncurses
 
 Game Lore
--The Player’s wife died in a fire and tried to bring back her soul with a somewhat sketchy ritual. The ritual is a trap and a demon has trapped you in its dungeon. You must fight your way to the demon, defeat it, and reclaim your wife.
+-The Player’s wife died in a fire and tried to bring back her soul with a somewhat sketchy ritual
+-The ritual is a trap and a demon has trapped you in its dungeon
+-You must fight your way to the demon, defeat it, and reclaim your wife
 
 Game Features
 -A variety of ways to slay your enemies (i.e. weapon types and spells)
@@ -39,13 +41,13 @@ Game Features
 -Text-based HUD
 -Random drops
 -Random encounters
-<pre>
+
 Elements and Weapon Triangle
--[Fire Emblem](https://fireemblem.fandom.com/wiki/Weapon_Triangle) Style Weapon Triangle
+-"Fire Emblem" Style Weapon Triangle
  :Sword Beats Axe
  :Axe Beats Spear
  :Spear beats Sword
--“Starter Pokemon” Element Triangle
+-"Starter Pokemon" Element Triangle
 -Horror enemies have a 20% chance of having a element
 -It is possible to have both a weapon and element advantage/disadvantage
  :Fire Sword vs Nature Axe Wielder = 40% extra damage
