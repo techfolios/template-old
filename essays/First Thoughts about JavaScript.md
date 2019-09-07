@@ -18,7 +18,7 @@ labels:
   
 ## Who needs data types, anyway?
   
-   First thoughts are overwhelmingly about the var/let/const data types.  No more of "Hmmm, how big can this integer get?" or "Should I use a string or a char?" in this language.  Just pick a name and move on.  Let the computer figure it out for you!  This certainly removes potentials for micromanagement and overthinking, allowing for just streamlined coding without getting caught up in such things.  It definitely feels freeing, a bit like taking the training wheels off of a bike, or greasing up the slip-and-slide (Note:  do NOT do this at home!)
+   First thoughts are overwhelmingly about the var/let/const data types.  No more of "Hmmm, how big can this integer get?" or "Should I use a string or a char?" in this language.  Just pick a name and move on.  Let the computer figure it out for you!  This certainly removes potentials for micromanagement and overthinking, allowing for just streamlined coding without getting caught up in such things.  It definitely feels freeing, a bit like taking the training wheels off of a bike, or greasing up the slip-and-slide (Note:  do NOT try this at home!)
    
 ## So...we can change constants now?
    
