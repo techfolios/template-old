@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/swtor.jpg
+image: images/swtor.png
 title: MMO Grandmaster Project
 permalink: projects/vacay
 # All dates must be YYYY-MM-DD format!
