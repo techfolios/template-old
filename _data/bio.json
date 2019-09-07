@@ -22,6 +22,7 @@
       },
       {
         "network": "linkedin",
+        "username": "thomas-herman-15015588"
         "url": "https://www.linkedin.com/in/thomas-herman-15015588/"
       }
     ]
@@ -127,8 +128,22 @@
       "endDate": "2018-08",
       "summary": "Performed services on Xerox equipment",
       "highlights": [
-        "Troubleshoot Xerox software and hardware at customer sites",
+        "Troubleshot Xerox software and hardware at customer sites",
         "Assisted customers to maximize use of their products"
+      ]
+    },
+    {
+      "company": "Linde Americas",
+      "position": "Remote Operator",
+      "website": "http://www.lindeus.com",
+      "startDate": "2014-02",
+      "endDate": "2017-12",
+      "summary": "Remotely operated Air Separation Plants",
+      "highlights": [
+        "Remotely monitored parameters and operated up to 7 Air Separation Units",
+        "Coordinated with local personnel to undertake complex plant evolutions",
+        "Created, edited, and updated plant policies and procedures",
+        "Developed and investigated short and long term key performance indicators for issues"
       ]
     }
   ],
