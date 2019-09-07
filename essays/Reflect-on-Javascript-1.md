@@ -8,7 +8,7 @@ labels:
   - Javascript
 ---
 
-<img class="ui tiny right spaced image" src="../images/JavaVsJavascript.jpg">*Me, learning why people say they like Javascript more than Java.*
+<img class="ui tiny right spaced image" src="../images/Javascript.png">*Me, learning why people say they like Javascript more than Java.*
 
 
 
