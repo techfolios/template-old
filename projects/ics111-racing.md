@@ -2,14 +2,15 @@
 layout: project
 type: project
 image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
+title: ICS 111 Racing
+permalink: projects/racing
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2017-12-05
 labels:
-  - Lisp
-  - GitHub
-summary: A text adventure game I developed for ICS 313.
+  - Java
+  - Eclipse
+  - Group Project
+summary: A 2D racing game I helped develop for ICS 111.
 ---
 
 <img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
