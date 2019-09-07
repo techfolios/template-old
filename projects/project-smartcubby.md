@@ -51,4 +51,4 @@ What We Learned
  
 <hr>
 
-Source: <a href="ai2.appinventor.mit.edu/?galleryId=4754403452649472"><i class="large github icon"></i>SmartCubby/MIT_App_Inventor</a>
+If you would like to learn more about my app click [here](ai2.appinventor.mit.edu/?galleryId=4754403452649472). 
