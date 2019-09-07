@@ -9,6 +9,8 @@ date: 2015-05-15
 labels:
   - teamwork
   - leadership
+  - priorities
+  
 summary: Advanced leadership accomplishments as an MMORPG Grandmaster
 ---
 
