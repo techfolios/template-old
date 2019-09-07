@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Igniting the fire
+title: Becoming Part of the Solution
 # All dates must be YYYY-MM-DD format!
 date: 2019-09-06
 labels:
