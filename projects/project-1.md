@@ -21,18 +21,3 @@ For a final project in a computer science class, I developed a many individual p
 It took months and many small (and big) steps, but eventually the project was a success!  Although I've been interested in games, algorithms, and programming for a long time, it was intimidating to undertake such a project.  In the end, it was a success and I now knew for sure I was capable of developing complex programs and games.  It was a relatively simple game, but it was my first and I know that all further efforts would just improve as did my skills and experience.
 
 Unfortunately, somehow gitHub no longer has my final program, but it does still have some of the early coding: https://github.com/hermantw/a3-pokemonobjectheirarchy-f18-hermantw
-
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
-
-
-
