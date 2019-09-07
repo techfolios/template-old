@@ -11,7 +11,7 @@ labels:
 summary: My experience learning and playing piano.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+<img class="ui image" src="{{ site.baseurl }}/images/music.png">
 
 I began playing and learning piano seriously at age 20. This may seem late by some, but I feel I have picked up the instrument fairly easily. I had some experience with music prior, playing saxophone in high-school band and dabbling with guitar, however I feel my strongest instrument most suited to me is the piano.
 
