@@ -12,7 +12,7 @@ labels:
 summary: Advanced leadership accomplishments as an MMORPG Grandmaster
 ---
 
-<img class="ui medium right floated rounded image" src="../images/swtor.jpg">
+<img class="ui medium right floated rounded image" src="../images/swtor.png">
 
 As I transitioned from the submarine work schedule of 90+ hours a week to civilian life, I became a frequent gamer on the new Star Wars MMO.  It was a way to spend time working together with others to accomplish common goals, albeit repeatedly defeating digital enemies.  It became more than just a game, as I made dozens of friends adventuring across the fictional Star Wars Universe.  Before I knew it, our grandmaster was stepping down and handed me the reins to our thriving guild of several hundred people.
 
