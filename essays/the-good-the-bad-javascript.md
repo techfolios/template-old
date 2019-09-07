@@ -9,3 +9,5 @@ labels:
   - Learning
 ---
 
+## **THE GOOD**
+  Javascript is a great language for beginners as it is very basic in the sense that 
