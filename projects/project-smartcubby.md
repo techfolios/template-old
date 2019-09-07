@@ -54,4 +54,4 @@ What We Learned
 </pre>
 <hr>
 
-If you would like to learn more about MIT App Inventor click [here](https://appinventor.mit.edu/). 
+If you would like to learn more about MIT App Inventor click [here](https://appinventor.mit.edu/about-us). 
