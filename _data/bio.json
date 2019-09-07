@@ -81,26 +81,25 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Spring, 2021)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2017-08-26",
       "endDate": "Present",
-      "gpa": "",
+      "gpa": "3.01",
       "courses": [
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Stir It Up",
+      "position": "Cashier/Server",
       "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "startDate": "2017-02-05",
+      "endDate": "2017-07-15",
+      "summary": "First job experience during high school. I learned how to interact with customers and get along with coworkers.",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Trusted to open and close the shop on my own.",
       ]
     },
     {
