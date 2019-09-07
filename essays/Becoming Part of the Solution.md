@@ -14,7 +14,7 @@ labels:
 
 ## A Child's Inspiration
 
-  Software engineering is a relatively new term for me, but the dream of it has been with me for decades.  Even as I grew up with text-based videogames, to playing the Super Solvers learning games in only 4 colors, to Gameboy games and onward, I was always fascinated by what could be achieved by a series of characters processed by a computer.  One day at a secondhand book shop, instead of grabbing the usual sci-fi paperback I found a book on how to program in BASIC, and a whole new world was opened to me.  At first, I painstakingly copied their code word for word.  By the time I was 8, I realized I could modify the code as I saw fit, and change the games in any way I felt like.  I have had few moments of such wonder since that childhood realization.
+  Software engineering is a relatively new term for me, but the dream of it has been with me for decades.  Even as I grew up with text-based videogames, then playing the Super Solvers learning games in only 4 colors, then Gameboy games and onward, I was always fascinated by what could be achieved by a series of characters processed by a computer.  One day at a secondhand book shop, instead of grabbing the usual sci-fi paperback I found a book on how to program in BASIC, and a whole new world was opened to me.  At first, I painstakingly copied their code word for word.  By the time I was 8, I realized I could modify the code as I saw fit, and change the games in any way I felt like.  I have had few moments of such wonder since that childhood realization.
   
 ## Programming: From Childhood to Adulthood
   
