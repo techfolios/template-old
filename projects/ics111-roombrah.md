@@ -13,6 +13,8 @@ labels:
 summary: A 2D game where a roombrah bounces around a room and picks up dirt.
 ---
 
+<img class="ui image" src="{{ site.baseurl }}/images/roomba.jpg">
+
 ## **ROOMBRAH**
 
 Roombrah is a project I worked on in ICS 111 where you have a roomba bounce around a room and collect dirt as it passes over it. The game completes once the roomba collects all the dirt. The project was made in java with the help of the resource package ez.java. Here is a [Youtube Link](https://youtu.be/R8NAsBJUOyI) that shows the program in action. This was my second coding project and helped teach me about collisions and synchronizing sound with the collisions. It also helped me learn simple map design and development. 
