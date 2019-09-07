@@ -18,9 +18,9 @@ summary: A responsive smart organizing cubby that my team developed in EE 296.
   <img class="ui image" src="../images/smartcube_product.PNG">
 </div>
 
-Smart Cubby is a bookshelf-like cubbby that interacts with a phone application that I helped create as a team project in EE 296, Fall 2017. The project helped me learn how use an arduino as well as create simple apps using [MIT App Inventor](https://appinventor.mit.edu/).
+Smart Cubby is a bookshelf-like cubby that interacts with a phone application that I helped create as a team project in EE 296, Fall 2017. The project helped me learn how use an Arduino as well as create simple apps using [MIT App Inventor](https://appinventor.mit.edu/).
 
-Smart Cubby was designed using an arduino to control LED's, an RFID scanner, an LCD module as a clock. It was implemented using MIT App Inventor, a website platform you can use to create complex android application in a simple way. Within five weeks, we created a app that fully interacted with the arduino using bluetooth. The app was used to set a students weekly class schedule and set an alarm to wake the student up when they would need to start the day. 
+Smart Cubby was designed using an Arduino to control LED’s, an RFID scanner, an LCD module as a clock. It was implemented using MIT App Inventor, a website platform you can use to create complex android application in a simple way. Within five weeks, we created an app that fully interacted with the Arduino using Bluetooth. The app was used to set a student’s weekly class schedule and set an alarm to wake the student up when they would need to start the day. 
 
 Design
 -Bookshelf style approach
