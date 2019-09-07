@@ -70,11 +70,6 @@
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
       ]
     }
   ],
@@ -97,48 +92,47 @@
       "website": "",
       "startDate": "2017-02-05",
       "endDate": "2017-07-15",
-      "summary": "First job experience during high school. I learned how to interact with customers and get along with coworkers.",
+      "summary": "It was my first job experience which I got during high school. I learned how to interact with customers and get along with coworkers.",
       "highlights": [
         "Trusted to open and close the shop on my own.",
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "UH Athletics",
+      "position": "Operations Crew",
+      "website": "",
+      "startDate": "2017-12-25",
+      "endDate": "present",
+      "summary": "We set up for events happening in the Stan Sheriff Center, such as sports games, banquets, concerts, etc.",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Manual labor, learned to appreciate the people behind the scenes",
+        "Set up for big events such as when the Los Angeles Clippers come play"
+      ]
+    },
+    {
+      "company": "Wai'alae Elementary Public Charter School",
+      "position": "W+ Leader",
+      "website": "",
+      "startDate": "2019-08-01",
+      "endDate": "present",
+      "summary": "I am an after school group leader for the Kindergarten class. I watch over the children and intervene when necessary.",
+      "highlights": [
+        "Learned how to deal with children and communicate what I am trying to say clearly in a way they understand",
+        "I have become more patient and understanding towards others and try to look at things from their perspective"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
+      "organization": "Aina Haina Summer Fun",
       "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "position": "Junior Leader",
+      "startDate": "2015-06-01",
+      "endDate": "2016-07-25",
+      "summary": "Junior leader for 6th graders",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Listened to my leader and did not complain",
+        "Showed up everyday and did my job"
       ]
     }
   ],
