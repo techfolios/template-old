@@ -3,9 +3,9 @@ layout: project
 type: project
 image: images/swtor.png
 title: MMO Grandmaster Project
-permalink: projects/vacay
+permalink: projects/swtor-gm
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2015-05-15
 labels:
   - teamwork
   - leadership
