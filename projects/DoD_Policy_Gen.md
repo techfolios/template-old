@@ -14,7 +14,7 @@ labels:
 summary: Developed Policy and Procedure IAW Department of Defense Requirements 
 ---
 
-As an IT intern over the summer of 2019, I was faced with a seemingly insurmountable challenge: using several thick books of legalese to develop practical policies and procedures to be used by my company to meet the cybersecurity requirements of doing business with the United States Department of Defense.  At first, I had no idea how to start and felt in over my head as I'd assumed IT work would involve replacing computer parts and updating software.  However, I was determined to find a way to succeed.
+As an IT intern over the summer of 2019, I was faced with a seemingly insurmountable challenge: using several thick books of legalese (such as the NIST 800-171 and DAAPM 2.0) to develop practical policies and procedures to be used by my company to meet the cybersecurity requirements of doing business with the United States Department of Defense.  At first, I had no idea how to start and felt in over my head as I'd assumed IT work would involve replacing computer parts and updating software.  However, I was determined to find a way to succeed.
 
 <img class="ui image" src="{{ site.baseurl }}/images/DoD.jpg">
 
