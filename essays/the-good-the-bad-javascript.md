@@ -9,6 +9,7 @@ labels:
   - Learning
 ---
 
+<img class="ui medium floated rounded image" src="../images/javascript.jpeg">
 
 ## **THE GOOD**
   Javascript is a great language for beginners as it is a very basic language. It is user friendly as there is not much to learn in terms of intitializing variables and syntax. Variables are defined by let, const, or var rather than int, string, float, etc. Since javascript has this feature, it makes it easy for anyone to define a variable and perform actions upon it without having to worry about if they defined the variable correctly. The fact that variables are not given a datatype at initialization, makes javascript good for programs where the input may not necessarily be a certain datatype. For example, a program could have a question such as "Have you ever owned a dog? If **yes** please enter how many, if **no** please enter no." The response to this question could either be an integer (how many dogs they have owned) or a string "no" (indicating they have never owned a dog).   
