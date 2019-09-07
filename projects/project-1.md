@@ -1,30 +1,26 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+image: images/pokemon.jfif
+title: Java Pokemon Game Project
+permalink: projects/Pokemon
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2015-12-20
 labels:
-  - Robotics
-  - Arduino
+  - GUI
   - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+summary: I developed a custom Pokemon-themed battle game, complete with a working GUI.
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/pokemon.jfif">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+For a final project in a computer science class, I developed a many individual pieces that eventually came together as a playable game.  Interfaces were developed for the many possible Pokemon types (e.g. grass, electric, etc.), such that strengths and weaknesses would play a part in combat.  Several dozen separate pokemon were developed, with unique names, types, and stats, along with unique growth rates once instantiated.  A battle system was then developed to allow two players to compete.  They would each choose a pokemon, name them, and then watch the action happen...in text form).  In addition, a method for catching pokemon, storing them, and developing a pokedex (i.e. list of information about all caught pokemon, even those no longer owned).  Eventually I developed a GUI, such that with a text input box and 4 buttons all of these actions could be undertaken by the player(s).
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+It took months and many small (and big) steps, but eventually the project was a success!  Although I've been interested in games, algorithms, and programming for a long time, it was intimidating to undertake such a project.  In the end, it was a success and I now knew for sure I was capable of developing complex programs and games.  It was a relatively simple game, but it was my first and I know that all further efforts would just improve as did my skills and experience.
 
-Here is some code that illustrates how we read values from the line sensors:
+Unfortunately, somehow gitHub no longer has my final program, but it does still have some of the early coding: https://github.com/hermantw/a3-pokemonobjectheirarchy-f18-hermantw
 
 ```js
 byte ADCRead(byte ch)
@@ -37,8 +33,6 @@ byte ADCRead(byte ch)
     return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
 }
 ```
-
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
 
 
 
