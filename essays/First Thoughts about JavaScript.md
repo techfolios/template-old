@@ -12,7 +12,7 @@ labels:
 
 <img class="ui tiny left circular floated image" src="../images/JSicon.jpg">
 
-### So much for Java, what's this Javascript all about?
+## So much for Java, what's this Javascript all about?
 
   After experiencing several other programming languages over the decades from BASIC to Java, just this week I have finally taken the plunge into Javascript.  Although at first glance it didn't seem too different from Java or C++.  However, the more I get used to it, the more it feels different.  Not only that, but as I learn more languages I begin to sense their unique feels, along with their advantages and disadvantages.
   
