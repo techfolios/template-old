@@ -2,7 +2,10 @@
 layout: essay
 type: essay
 title: Experiences With Bioinformatic Tools
-date: 2019-9-6
+date: 2019-09-06
+permalink: essays/Experiences-With-Bioinformatic-Tools
+image: images/IgV.png
+published: true
 labels:
   - Software Engineering
   - Learning
