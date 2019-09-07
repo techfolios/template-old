@@ -73,13 +73,13 @@ code of the addRecord function:
           added = 0;
         }
       }
-    #ifdef DEBUG
-     	cout << "addRecord was called with the parameters\n";
-        cout << "int " << accno << "\n";
-        cout << "char[] " << name << "\n";
-        cout << "char[] " << address << "\n";
-    #endif
-    return added;
+      #ifdef DEBUG
+     	  cout << "addRecord was called with the parameters\n";
+          cout << "int " << accno << "\n";
+          cout << "char[] " << name << "\n";
+          cout << "char[] " << address << "\n";
+      #endif
+      return added;
     }
     
 
