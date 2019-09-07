@@ -3,12 +3,13 @@ layout: project
 type: project
 image: images/pokemon.jfif
 title: Java Pokemon Game Project
-permalink: projects/Pokemon
+permalink: projects/pokemon_project
 # All dates must be YYYY-MM-DD format!
 date: 2018-12-20
 labels:
   - GUI
   - C++
+  - Game Development
 summary: I developed a custom Pokemon-themed battle game, complete with a working GUI.
 ---
 
