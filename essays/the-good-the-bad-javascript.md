@@ -10,4 +10,4 @@ labels:
 ---
 
 ## **THE GOOD**
-  Javascript is a great language for beginners as it is very basic in the sense that 
+  Javascript is a great language for beginners as it is a very basic language. Variables are defined by let, const, or var rather than int, string, etc. 
