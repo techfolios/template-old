@@ -21,7 +21,7 @@ For ICS 212, I created a database in C++ that stores the name, account number, a
   <img class="ui image" src="../images/print.png">
 </div>
 
-[Github link to source code](https://github.com/trey-sumida/212-databaseExample)
+[Github link to source code](https://github.com/trey-sumida/212-database)
 
 code of the addRecord function:
 
