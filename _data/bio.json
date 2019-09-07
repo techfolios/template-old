@@ -18,35 +18,27 @@
       {
         "network": "github",
         "username": "HermantW",
-        "url": "http://github.com/changeme"
+        "url": "http://github.com/HermanTW"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
         "url": "https://www.linkedin.com/in/thomas-herman-15015588/"
-      },
-      {
-        "network": "twitter",
-        "username": "therman619",
-        "url": "http://twitter.com/changeme"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "software engineering",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "algorithms",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "creative processes",
       "keywords": [
       ]
     }
@@ -56,33 +48,58 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
-        "C",
         "C++",
         "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
+        "Windows",
         "Ubuntu",
         "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
       ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Spring, 2021)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2019-01",
       "endDate": "Present",
+      "gpa": "3.97",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Kapi'olani Community College",
+      "area": "Computer Science",
+      "studyType": "A.S.",
+      "startDate": "2018-09",
+      "endDate": "2018-12",
+      "gpa": "4.0",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Ocean Community College, Toms River, NJ",
+      "area": "General Studies",
+      "studyType": "A.A.",
+      "startDate": "2004-01",
+      "endDate": "2005-05",
+      "gpa": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Lehigh University, Bethlehem, PA",
+      "area": "Information & Systems Engineering integrated with Business",
+      "studyType": "B.S.",
+      "startDate": "2001-09",
+      "endDate": "2003-12",
       "gpa": "",
       "courses": [
       ]
@@ -90,69 +107,50 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "Makai Ocean Engineering, Inc.",
+      "position": "Information Technology Intern",
+      "website": "www.makai.com",
+      "startDate": "2019-07",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Performed computer services and cybersecurity work",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Serviced computer hardware and software systems",
+        "Assisted programmers with code commits and updates",
+        "Developed cybersecurity policies and procedures to conform with DoD requirements"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Xerox Corporation",
+      "position": "Field Technician",
+      "website": "http://www.xerox.com",
+      "startDate": "2018-03",
+      "endDate": "2018-08",
+      "summary": "Performed services on Xerox equipment",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Troubleshoot Xerox software and hardware at customer sites",
+        "Assisted customers to maximize use of their products"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
       "organization": "",
       "website": "",
-      "position": "Professional organization involvement",
+      "position": "",
       "startDate": "",
       "endDate": "",
       "summary": "",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        ""
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
     }
   ],
   "references": [
