@@ -1,3 +1,17 @@
-### So much for the rest, what's this JavaScript all about?
+---
+layout: essay
+type: essay
+title: First Thoughts about Javascript
+# All dates must be YYYY-MM-DD format!
+date: 2019-09-06
+labels:
+  - Software Engineering
+  - Skill Development
+  - Javascript
+---
 
-  After experiencing several other programming languages over the years from BASIC to Java, just this week I have finally taken the plunge into Javascript
+<img class="ui tiny left circular floated image" src="../images/JSicon.jpg">
+
+### So much for Java, what's this Javascript all about?
+
+  After experiencing several other programming languages over the decades from BASIC to Java, just this week I have finally taken the plunge into Javascript.
