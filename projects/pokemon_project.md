@@ -5,7 +5,7 @@ image: images/pokemon.jfif
 title: Java Pokemon Game Project
 permalink: projects/Pokemon
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-20
+date: 2018-12-20
 labels:
   - GUI
   - C++
