@@ -7,7 +7,7 @@ date: 2019-09-11
 labels:
   - Javascript
 ---
-<img class="ui tiny right spaced image" src="../images/Javascript.png">*Me, learning why people say they like Javascript more than Java.*
+<img class="" src="../images/Stack_Overflow.png">*Me, learning why people say they like Javascript more than Java.*
 
 ## Why are smart questions are important?   
 
