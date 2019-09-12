@@ -9,6 +9,7 @@ labels:
   - Dumb Questions
   - Learning
 ---
+<img class="ui small right floated rounded image" src="../images/stupid.jpg">
 ## **The Lie**
 "Don't be afraid to ask questions, there are no stupid questions" is the biggest lie told inside classrooms to this day. To put it plain and simple, stupid questions do exists and you have probably asked one before in your lifetime. Sometimes, it is better not to ask as if you ask a stupid question, you will probably get a stupid, sarcastic reply and leave you more confused then before. Don't worry though, after reading this essay you will never ask a stupid question again in life, and all your questions will be answered. The biggest issue that makes a question stupid is that it has probably been answered before.  Nowadays, we have the use of the internet at your finger tips which holds thousands of resources to help you find the answer to your problem. Sorry to be blunt, but you are not special even if your mom says you are. With 4.39 billion people using the internet, the chances that your question has been asked by someone else and answered is very high. 
 
