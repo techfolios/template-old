@@ -56,8 +56,8 @@ if ((float)motionData[8] > 8100f)
 }
 ```
 <hr>
-<div class="ui embed" data-source="https://youtu.be/ennlXDwQofc" data-id="ennlXDwQofc">
-</div>
+
+If you would like to see a demo video click [here](https://youtu.be/ennlXDwQofc)
 
 Source: <a href="https://github.com/nchu277/EE396"><i class="large github icon "></i>emotiv/ee-396-text-project</a>
 
