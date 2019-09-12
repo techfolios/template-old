@@ -62,6 +62,9 @@
         "Windows",
         "Ubuntu",
         "Git/GitHub",
+        "Eclipse",
+        "Visual Studio Code",
+        "jGrasp";
         "gcc",
         "LaTex",
       ]
@@ -79,7 +82,7 @@
       ]
     }
   ],
-  "Activities": [
+  "activities": [
     {
       "organization": "UHM Grey Hats",
       "website": "http://acmanoa.github.io/greyhats/",
