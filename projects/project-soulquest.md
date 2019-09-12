@@ -99,5 +99,5 @@ Enemies
 </pre>
 <hr>
 
-Source: <a href="https://github.com/chriswon98/EE205"><i class="large github icon "></i>soulquest/ee-205-text-game</a>
+Source: <a href="https://github.com/nchu277/EE205"><i class="large github icon "></i>soulquest/ee-205-text-game</a>
 
