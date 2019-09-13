@@ -11,7 +11,7 @@ labels:
 What a brilliant idea! I just post my homework into Stackoverflow, and hopefully someone can solve it for me. 
 
 
-As far as I´ve understood is the purpose of homework is to learn something. <a href="https://stackoverflow.com/questions/57897741/javascript-program">This </a> question posted on Stackoverflow did not get an answer to the problem because the hackers understood that this was a given exercise.
+As far as I´ve understood the purpose of a homework is to learn something. <a href="https://stackoverflow.com/questions/57897741/javascript-program">This </a> question posted on Stackoverflow did not get an answer to the problem because the hackers understood that this was a given exercise.
 
 <img class="ui image" src="../images/Bilde1.png">
 
