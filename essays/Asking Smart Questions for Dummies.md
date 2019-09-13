@@ -14,7 +14,7 @@ labels:
 
 
 Keeping up with a field of knowledge can be challenging for anyone, particularly in the field of computer science which is still in its relative infancy.  These days any programmer has access to Google, but with nearly infinite data on the internet it can be difficult to find the specific answer to any question one might have.  Eventually, everyone will reach a point where they need to reach out for help.  At that point, posting questions online can be their best bet to solve their problem.  As simple as that might sound, the same question worded differently can make all the difference between finding a solution quickly and spending hours simmering in frustration.  Even though there may be "no dumb questions..." as the saying goes, there are certainly smart questions that can maximize the chance to find someone willing and able to solve that specific problem.
-   In <a href="http://www.catb.org/esr/faqs/smart-questions.html">How to ask questions the smart way</a>, Eric Raymond
+   The essay <a href="http://www.catb.org/esr/faqs/smart-questions.html">How to ask questions the smart way</a> is written by an expert in not only his field but also at asking and answering questions.  He shares the joy of answering smart questions which broaden his horizons and helps others in his field.  He also acknowledges the difficulty of trying to answer poorly asked questions, which can be on par with a visit to the dentist with the amount of pain felt trying to extract the pertinent data to answer vaguely described solutions.  
 
 Try to find an answer by searching the archives of the forum or mailing list you plan to post to.
 Try to find an answer by searching the Web.
