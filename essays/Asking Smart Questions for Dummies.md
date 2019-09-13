@@ -30,12 +30,12 @@ labels:
   
 ## This guy gets it...
 
-<img class="ui tiny left circular floated image" src="../images/SQ.png">
+<img class="ui large image" src="../images/SQ.png">
 
   As an example of a "smart" question, I have referenced <a href="https://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-deep-clone-an-object-in-javascript">this query</a> about making a deep clone.  The original poster asked a clear, concise question.  He included the environment (Java), example code, examples of research, and several methods that didn't solve his problem.  As such, he clearly shared all relevant information, showed he put in the effort, and even gave examples of potential solutions that didn't quite answer his question.  Having done much of the work and displaying his thoroughness, he received much help.  In addition, based on the upvotes his smart question and the resultant smart answers helped thousands of others.
   
 ## ...And this guy doesn't
 
-<img class="ui tiny left circular floated image" src="../images/DQ.png">
+<img class="ui large image" src="../images/DQ.png">
 
   As an example of a less-than-smart question, here is <a href="https://stackoverflow.com/questions/22255159/how-to-convert-str-to-int">a query</a> which could be developed better.
