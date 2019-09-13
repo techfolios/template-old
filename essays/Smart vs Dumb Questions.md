@@ -25,7 +25,7 @@ questions. The Internet has so much knowledge that it comes down to the user kno
 On StackOverflow, users ask questions in the context of tech or computer science. The use of voting is implemented on the site to reward questions
 that are thought-provoking and penalize questions that are deemed worthless.
 
-A particularly bad one that I have found is: https://stackoverflow.com/questions/19314079/gives-an-infinite-loop
+A particularly bad one that I have found is: [here](https://stackoverflow.com/questions/19314079/gives-an-infinite-loop)
 
 The title of the question is simply: "Gives an infinite loop". First of all, this title is not even a question, it is a statement. What are browsers
 of the site supposed to answer with when they see this question? Are they supposed to confirm that it is an infinite loop? This question is way too vague.
