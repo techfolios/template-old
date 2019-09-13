@@ -29,7 +29,7 @@ A particularly bad one that I have found can be seen [here.](https://stackoverfl
 
 The title of the question is simply: "Gives an infinite loop". First of all, this title is not even a question, it is a statement. What are browsers
 of the site supposed to answer with when they see this question? Are they supposed to confirm that it is an infinite loop? This question is way too vague.
-Also there is no context onto what language this is code will be referencing. All in all, this is an absolutely terrible question.
+Also there is no context in the title onto what language this is code will be referencing. All in all, this is an absolutely terrible question.
 
 ## AN INTELLIGENT QUESTION:
 
