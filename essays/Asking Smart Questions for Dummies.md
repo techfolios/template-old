@@ -20,7 +20,7 @@ labels:
   
   The first step to asking a smart question involves searching for answers already written somewhere.  Some examples of this are searching forums, FAQs, source code, manuals, and even the internet itself for answers.  After all, any problem that exists more than likely occurs to more people than just you.  Even if this fails, by sharing what efforts you have already made you let know those who may help that you're willing to put in the effort and aren't just asking for a handout.  This makes it more likely for them to try to help.  Think about it: if a stranger asked you for directions to the mall while playing on his iPhone, how likely would you be to help?
   
-## It's easier to solve a half-answered question
+## It's easier to answer a question that's already half-answered
 
   The next step to asking a smart question is to posting all relevant information.  This way any potential helper has all of the pieces of the puzzle, and won't have to waste time asking for more details.  The specifics of the situation such as symptoms, environment, vendor, software version, recent changes,  and screenshots can fully illustrate the full problem.  This is necessary for actually solving the problem, so if you're in a rush don't delay the process by giving insufficient data.
   
@@ -38,4 +38,8 @@ labels:
 
 <img class="ui large image" src="../images/DQ.png">
 
-  As an example of a less-than-smart question, here is <a href="https://stackoverflow.com/questions/22255159/how-to-convert-str-to-int">a query</a> which could be developed better.
+  As an example of a less-than-smart question, here is <a href="https://stackoverflow.com/questions/22255159/how-to-convert-str-to-int">a query</a> which could be developed better.  The title "how to convert str to int?" doesn't even bother to use correct capitalization or grammar, or even form an actual sentence.  This lack of effort is unlikely to inspire anyone to put in their own for a stranger.  In addition, as r.bot commented, it doesn't seem like that person put in any time to research the problem before asking.  Indeed, it was a relatively simple problem that could have been solved with just a little reading of FAQs, manuals, or other basic material.  Only two answers were posted in over 5 years, one of which remarked how much a simple Google search could do.  The downvote total tells the tale of what the community felt about this post.
+  
+## Ask away, just be smart about it
+
+  On our journey together, we've learned a lot about asking questions the smart way.  Wording an effective request involves critical thinking, effort, and even consideration of other human beings.  The more competent, intelligent, and hard-working you seem, the more likely you are to encourage others to join you in your path.  And by displaying you're already elbow-deep in the issues, others realize you've already done some of the work for them, and identifying what you're missing is a little less daunting.  Ask yourself: Am I trying to post a question, or am I trying to find an answer?  They are not often the same.  Not bothering to ask smart questions isn't so different from trying to snipe deer with a shotgun--a pellet or two might get there, but it won't accomplish much besides disappointment and pain.  So, the next time you're having a tough time figuring something out, do yourself (and the rest of us) a favor--take the steps to ask a smart question.  After all, if you're doing it right the question might be answered before you even ask it!
