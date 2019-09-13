@@ -31,3 +31,5 @@ In contrast to this, I found another question which in my opinion is more inform
 Even if this is a homework or not, the person behind the keyboard is clearly interested in getting a broader understanding of javascript as a program language. The main different in how these two cases are represented, is what they are asking for. In the first example I refer to, the person asks for the solution (or he does not even ask; he posted the assignment). In the second example the person wonders how to improve his code by understanding the difference equal operators.
 
 Not is only this questions more precise, it shows his/hers thoughts about the problem before he requested guidance in a humble way. 
+
+As a result, this question lead to a lot more relevant answer for the person who asked, in addtion to a lot other people who might wonder in the furture. 
