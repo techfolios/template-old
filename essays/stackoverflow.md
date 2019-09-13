@@ -24,7 +24,7 @@ It is clear that this person did not try to solve the problem before he posted i
 <img class="ui image" src="../images/Bilde2.png">
 
 
-In contrast to this, I found another question which in my opinion is more informative and precise. 
+In contrast to this, I found another  <a href="https://stackoverflow.com/questions/359494/which-equals-operator-vs-should-be-used-in-javascript-comparisons ">question </a> which in my opinion is more informative and precise. 
 
 <img class="ui image" src="../images/Bilde3.png">
 
