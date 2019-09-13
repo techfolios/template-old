@@ -7,7 +7,7 @@ date: 2019-09-11
 labels:
   - Javascript
 ---
-<img class="ui tiny left circular floated image" src="../images/Stack_Overflow.png">*Learning what Stack Overflow is.*
+<img width="767" height="209" src="../images/Stack_Overflow.PNG">*Learning what Stack Overflow is.*
 
 ## Why are smart questions are important?   
 
