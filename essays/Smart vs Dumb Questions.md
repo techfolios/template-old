@@ -42,5 +42,5 @@ overall answer to the question.
 ## CONCLUDING:
 
 Asking good questions is key to learning in life. They say the smartest people are those who ask the most questions. In today's world, we have the
-greatest library to ever exist - the Internet. It is easier than ever to obtain information. Knowning how to ask strong online questions will
-save a user time and energy.
+greatest library to ever exist - the Internet. It is easier than ever to obtain information. Knowing how to ask strong online questions will
+save a user time and energy (And maybe a HW grade).
