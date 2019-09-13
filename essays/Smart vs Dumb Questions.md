@@ -35,7 +35,7 @@ This question, "What is the difference between const int*, const int * const, an
 of all, it is a very specific question. Oftentimes, questions are not smart because they are too generalized and have probably been asked many
 times before. They more specific a question, the higher likelihood it has not been answered before, as well as the ability for the question to
 attract attention from experts. Experts tend to flock to more specific, esoteric types of questions because they present a challenge to the expert.
-Answering such questions give more gratification than "How do I reverse a string in Java" for example. This question is also great because it opens
+Answering such questions gives more gratification than "How do I reverse a string in Java" for example. This question is also great because it opens
 doors to other aspects of the language, in this case pointers. Answers can dwelve into pointers and their use, and offer more substance to the 
 overall answer to the question.
 
