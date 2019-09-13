@@ -33,7 +33,7 @@ A good example would be: https://stackoverflow.com/questions/1143262/what-is-the
 
 This question, "What is the difference between const int*, const int * const, and int const *?" is a great question for a few reasons. First
 of all, it is a very specific question. Oftentimes, questions are not smart because they are too generalized and have probably been asked many
-times before. They more specific a question, the higher likelihood it has not been answered before, as well as the ability for the question to
+times before. The more specific a question, the higher likelihood it has not been answered before, as well as the ability for the question to
 attract attention from experts. Experts tend to flock to more specific, esoteric types of questions because they present a challenge to the expert.
 Answering such questions gives more gratification than "How do I reverse a string in Java" for example. This question is also great because it opens
 doors to other aspects of the language, in this case pointers. Answers can dwelve into pointers and their use, and offer more substance to the 
