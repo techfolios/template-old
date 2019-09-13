@@ -19,7 +19,7 @@ As far as I´ve understood is the purpose of homework is to learn something. <a 
 The question does not have an appropriate heading. It does not say anything about the question that is asked. This will not just make it less interesting, but it will also be harder to search it up in an archive later. As a result of this, a minimal of people can benefit from this channel.
 
 
-It is clear that this person did not try to solve the problem before he posted it, or at least he did not show what the challenges he encountered along the way (if he tried). Correspondingly, the hackers choose to answer as follows:
+It is clear that this person did not try to solve the problem before he posted it, or at least he did not show what the challenges he encountered along the way (if he tried). The response from the hackers was as follows:
 
 <img class="ui image" src="../images/Bilde2.png">
 
