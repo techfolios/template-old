@@ -16,6 +16,9 @@ a positive image of oneself online for obvious reasons. A part of this is knowin
 how to communicate over the Internet in a smart and proper way. Most people use the Internet for information, they use this technology to answer
 questions. The Internet has so much knowledge that it comes down to the user knowing how to access that information in an effective and smart way.
 
+<img class="ui image" src="{{ site.baseurl }}/images/ScryingOrb.jpg">
+
+
 ## AN UNINTELLIGENT QUESTION:
 
 On StackOverflow, users ask questions in the context of tech or computer science. The use of voting is implemented on the site to reward questions
