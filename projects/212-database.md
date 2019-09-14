@@ -19,11 +19,9 @@ For ICS 212, I created a database in C++ that stores the name, account number, a
 
 <img class="ui medium left floated rounded image" src="../images/print.png">
 
+
 In ICS 212, it was also my first experience using a unix system, and there was a big learning curve as I was used to working in the eclipse IDE. However, learning the system and command line arguments was a great learning experience as now I am comfortable working in unix, and IDE's. I believe that this diversification of what system I work in will help in the future.
 
-<div class="ui medium rounded images">
-  <img class="ui image" src="../images/print.png">
-</div>
 
 [Github link to source code](https://github.com/trey-sumida/212-database)
 
