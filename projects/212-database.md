@@ -16,6 +16,7 @@ summary: A database that stores the account number, name, and adress of a person
 <img class="ui medium right floated rounded image" src="../images/writefile.png">
 
 For ICS 212, I created a database in C++ that stores the name, account number, and adress of a person. Records are added by account number in ascending order. The program is able to print information for a given account number, and also has the ability to print the entire database. Accounts are also able to be deleted. Once the program is exited, the function writefile is called which writes to a text file the information that is in the database. When the program is started up again, the readfile is called which then reads the text file and adds the information to the database.
+In ICS 212, it was also my first experience using a unix system, and there was a big learning curve as I was used to working in the eclipse IDE. However, learning the system and command line arguments was a great learning experience as now I am comfortable working in unix, and IDE's. I believe that this diversification of what system I work in will help in the future.
 
 <div class="ui medium rounded images">
   <img class="ui image" src="../images/print.png">
