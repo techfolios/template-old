@@ -60,9 +60,10 @@
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
         "Windows",
+        "MacOS",
         "Ubuntu",
+        "Unix",
         "Git/GitHub",
         "Eclipse",
         "Visual Studio Code",
