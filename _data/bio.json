@@ -8,7 +8,7 @@
     "website": "https://nchu277.github.io",
     "summary": "I am a computer engineering student at the University of Hawaii at Manoa.",
     "location": {
-      "address": "",
+      "address": "94-365 Kuanalio Way",
       "postalCode": "96789",
       "city": "Mililani",
       "countryCode": "USA",
@@ -55,7 +55,7 @@
         "Java",
         "Javascript",
         "Assembly",
-        "Python",
+        "Arduino",
         "MIT App Inventor"
       ]
     },
@@ -79,6 +79,17 @@
       "endDate": "Present",
       "gpa": "3.43",
       "courses": [
+        "EE 371: Electromagnetics",
+        "EE 361: Digital Systems",
+        "EE 342: Probability and Statistics",
+        "EE 324: Physical Electronics",
+        "EE 315: Signals and Systems",
+        "EE 260: Digital Design",
+        "EE 213: Circuit Analysis",
+        "EE 205: Object Oriented Programming",
+        "ICS 321: Database Systems",
+        "ICS 314: Sofware Engineering",
+        "ICS 311: Algorithms"
       ]
     }
   ],
