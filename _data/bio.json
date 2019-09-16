@@ -53,6 +53,7 @@
         "Java",
         "Javascript",
         "LaTex",
+        "HTML",
       ]
     },
     {
@@ -65,7 +66,7 @@
         "Git/GitHub",
         "Eclipse",
         "Visual Studio Code",
-        "jGrasp",
+        "Adobe Creative Suite",
         "gcc",
       ]
     }
