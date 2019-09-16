@@ -9,7 +9,7 @@
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences and Molecular Biosciences and Biotechnology in the Department of the same name at the University of Hawaii. I expect to graduate in Spring, 2022.",
     "location": {
       "address": "",
-      "postalCode": "96822",
+      "postalCode": "",
       "city": "Honolulu",
       "countryCode": "USA",
       "region": "Hawaii"
@@ -85,7 +85,7 @@
       "position": "Student Ambassador",
       "startDate": "2018-08-12",
       "endDate": "Present",
-      "summary": "Representing the College of Tropical Agriculture when dealing with new students",
+      "summary": "Representing the College of Tropical Agriculture when interacting with new students",
       "highlights": [
       ]
     }
