@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: images/piano.png
+image: images/main.png
 title: Records Database
-permalink: projects/piano
+permalink: projects/database
 # All dates must be YYYY-MM-DD format!
 date: 2014-04-12
 labels:
