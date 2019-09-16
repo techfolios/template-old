@@ -53,7 +53,7 @@
         "Java",
         "Javascript",
         "LaTex",
-        "HTML",
+        "HTML/CSS",
       ]
     },
     {
@@ -102,6 +102,28 @@
       "endDate": "2013-07-01",
       "summary": "Selected to attend environmental scholarship in Bali Barat National Park. Community service and education with other students from around the globe.",
       "highlights": [
+      ]
+    }
+    {
+      "organization": "PAPER Magazine",
+      "website": "https://papermag.com",
+      "position": "Intern",
+      "startDate": "2015-06-01",
+      "endDate": "2015-10-01",
+      "summary": "Worked in the heart of New York City in a high-paced office setting. Responsible for IT troubleshooting/work, event set-up, trend summaries and presentations.",
+      "highlights": [
+      ]
+    },
+    {
+      "organization": "Politician Keiko Bonk",
+      "website": "N/A",
+      "position": "Intern, Worker",
+      "startDate": "2014-06-01",
+      "endDate": "2016-07-01",
+      "summary": "Assisted Green Party politician Keiko Bonk during her run for Hawaii House of Representatives, 20th district.",
+      "highlights": [ 
+        "Event set-up, flyer design",
+        "Protested against commerical aquarium fisheries on Hawaii's outer islands."
       ]
     }
   ],
