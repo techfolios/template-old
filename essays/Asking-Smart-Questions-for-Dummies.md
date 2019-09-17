@@ -10,7 +10,7 @@ labels:
   - Learning Plan
 ---
 
-<img class="ui tiny right circular floated image" src="../images/QM.jpg">
+<img class="ui small right circular floated image" src="../images/QM.jpg">
 
 ## There may be no such thing as dumb questions, but there are sure are smart ones
 
@@ -30,13 +30,13 @@ labels:
   
 ## This guy gets it...
 
-<img class="ui large image" src="../images/SQ.png">
+<img class="ui big image" src="../images/SQ.png">
 
   As an example of a "smart" question, I have referenced <a href="https://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-deep-clone-an-object-in-javascript">this query</a> about making a deep clone.  The original poster asked a clear, concise question.  He included the environment (Java), example code, examples of research, and several methods that didn't solve his problem.  As such, he clearly shared all relevant information, showed he put in the effort, and even gave examples of potential solutions that didn't quite answer his question.  Having done much of the work and displaying his thoroughness, he received plenty of help.  In addition, based on the amount of upvotes his smart question and the resultant smart answers helped thousands of others.
   
 ## ...And this guy doesn't
 
-<img class="ui large image" src="../images/DQ.png">
+<img class="ui big image" src="../images/DQ.png">
 
   As an example of a less-than-smart question, here is <a href="https://stackoverflow.com/questions/22255159/how-to-convert-str-to-int">a query</a> which could have been developed better.  The title "how to convert str to int?" doesn't even bother to use correct capitalization or grammar, or even to form an actual sentence.  This lack of effort is unlikely to inspire anyone to put in any of their own for a stranger.  In addition, as r.bot commented, it doesn't seem like that person put in any time to research the problem before asking.  Indeed, it was a relatively simple problem that could have been solved with just a little reading of FAQs, manuals, or other basic material.  Only two answers were posted in over 5 years, one of which remarked how much a simple Google search could have done to address his issue.  The downvote total tells the tale of what the community felt about this post.
   
