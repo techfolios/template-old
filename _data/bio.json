@@ -67,7 +67,7 @@
         "Eclipse",
         "Visual Studio Code",
         "Adobe Creative Suite",
-        "gcc",
+        "gcc"
       ]
     }
   ],
@@ -93,44 +93,21 @@
       "summary": "Participate in cyber defense education and exercises in club setting.",
       "highlights": [
       ]
-    },
-    {
-      "organization": "Politician Keiko Bonk",
-      "website": "https://ballotpedia.org/Keiko_Bonk",
-      "position": "Intern",
-      "startDate": "2014-06-01",
-      "endDate": "2016-07-01",
-      "summary": "Assisted Green Party politician Keiko Bonk during her run for Hawaii House of Representatives, 20th district.",
-      "highlights": [ 
-        "Event set-up, flyer design",
-        "Protested against commerical aquarium fisheries on Hawaii's outer islands.",
-        "Also did paid landscaping work, including: yardwork, re-painting, remodeling, basic carpentry"
-      ]
-    },
-    {
-      "organization": "PAPER Magazine",
-      "website": "https://papermag.com",
-      "position": "Intern",
-      "startDate": "2015-06-01",
-      "endDate": "2015-10-01",
-      "summary": "Worked in the heart of New York City in a high-paced office setting.",
-      "highlights": [
-        "IT troubleshooting/work",
-        "Event set-up", 
-        "Trend summaries and presentations"
-      ]
-    },
+    }
+  ],
+
+  "awards": [
+
     {
       "organization": "Biosphere Stewardship Scholarship Project",
       "website": "https://biospherefoundation.org/project/biosphere-stewardship-project/",
-      "position": "Scholar Participant",
       "startDate": "2013-06-01",
       "endDate": "2013-07-01",
-      "summary": "Selected to attend environmental scholarship in Bali Barat National Park.",
+      "summary": "Selected to attend environmental scholarship in Bali Barat National Park. Community service and education with other students from around the globe.",
       "highlights": [
-        "Community service and education with other students from around the globe."
       ]
     }
+
   ],
   
   "references": [
