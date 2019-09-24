@@ -10,7 +10,7 @@ labels:
   - Java
   - Discrete Mathematics
   - Probability
-summary: Implimented the Infinite Monkey Theorem in Java.
+summary: Implemented the Infinite Monkey Theorem in Java.
 ---
 
 <img class="ui medium right floated rounded image" src="../images/monkey.jpg">
