@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/roombrah.png
 title: ICS 111 Roombrah
-published: true
+published: false
 permalink: projects/roombrah
 # All dates must be YYYY-MM-DD format!
 date: 2017-11-05
