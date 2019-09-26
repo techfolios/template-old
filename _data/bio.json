@@ -52,6 +52,7 @@
         "C++",
         "Java",
         "Javascript",
+        "HTML"
       ]
     },
     {
@@ -91,7 +92,6 @@
       "studyType": "A.A.",
       "startDate": "2004-01",
       "endDate": "2005-05",
-      "gpa": "",
       "courses": [
       ]
     },
@@ -101,7 +101,6 @@
       "studyType": "B.S.",
       "startDate": "2001-09",
       "endDate": "2003-12",
-      "gpa": "",
       "courses": [
       ]
     }
@@ -144,19 +143,6 @@
         "Coordinated with local personnel to undertake complex plant evolutions",
         "Created, edited, and updated plant policies and procedures",
         "Developed and investigated short and long term key performance indicators for issues"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "",
-      "website": "",
-      "position": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        ""
       ]
     }
   ],
