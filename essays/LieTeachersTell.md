@@ -3,7 +3,7 @@ layout: essay
 type: essay
 published: true
 title: The Lie Teachers Tell
-date: 2019-6-09-11
+date: 2019-09-11
 labels:
   - Smart Questions
   - Dumb Questions
