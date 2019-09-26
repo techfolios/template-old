@@ -10,11 +10,11 @@ labels:
   - Learning Plan
 ---
 
-<img class="ui small right circular floated image" src="../images/compressed.jpg">
+<img class="ui medium right circular floated image" src="../images/compressed.jpg">
 
 ## Efficient code ≠ Good code
   
-  When I think of coding standards, I am reminded of my high school geometry notes. With the shorthand I had developed, geometric proofs that took up to 10 lines of notebook paper would take up no more than 1 line in my notes.  Taking notes in that class became a sort of game, to see how much information I could cram onto one piece of paper.  As I could read my tiny handwriting and decipher the symbols, it worked just fine for me.  However, classmates who wanted to look at my notes weren't so happy.  Even though I may have saved a tree or two in my efforts to conserve paper, others in my class were unable to understand my notes and as a result collaboration and our mutual success suffered.  Nowadays, compressing code into as few lines as possible doesn't really save trees or electricity, and I've run out of excuses to format my writings so compactly.
+  When I think of coding standards, I am reminded of my high school geometry notes. With the shorthand I had developed, geometric proofs that took up to 10 lines of notebook paper would take up no more than 1 line in my notes.  Taking notes in that class became a sort of game, to see how much information I could cram onto one piece of paper.  As I could read my tiny handwriting and decipher the symbols, it worked just fine for me.  However, classmates who wanted to look at my notes weren't so happy.  Even though I may have saved a tree or two in my efforts to conserve paper, others in my class were unable to understand my notes and as a result collaboration and our mutual success suffered.  Nowadays, compressing code into as few lines as possible doesn't really save trees or electricity, and I've run out of excuses to format my writings so compactly.  Just like a guy stuffed into a suitcase, after a while you start to question what's so great about being effecient with space and wish you had a little more room to spread out and function better.
 
 ## We read what we write
 
