@@ -3,7 +3,7 @@ layout: essay
 type: essay
 published: true
 title: Computer Science vs. Software Engineering
-date: 2019-9-10-10
+date: 2019-9-10
 labels:
   - Software Engineering
   - Learning
