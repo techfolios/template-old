@@ -3,7 +3,7 @@ layout: essay
 type: essay
 published: true
 title: The good, the bad, javascript
-date: 2019-6-09-06
+date: 2019-09-06-06
 labels:
   - Javascript
   - Learning
