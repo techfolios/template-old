@@ -16,8 +16,12 @@ To produce code with good quality, you have to be consistent and make sure you a
 <img class="ui image" src="../images/code.jpg">
 Picture found <a href="https://pixnio.com/objects/computer/programming-code-programmer-coding-coffee-cup-computer-copy-hands-computer-keyboard">here </a>. 
 
-
+<h2>My impression</h2>
 After using ESLint for a week now, I experienced that it is a really good tool. Not only for correcting syntax error, but it make me more focused on writing the code. This minimaze the time I need to use of trying to figure out what the errors in my code are. 
+
+
+<h2>The green checkmark</h2>
+
 
 <img class="ui image" src="../images/Checkmark.svg">
 Picture found <a href="https://commons.wikimedia.org/wiki/File:Checkmark_green.svg">here </a>. 
