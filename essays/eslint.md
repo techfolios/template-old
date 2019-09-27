@@ -8,7 +8,8 @@ labels:
   - Javascript
   - ESLint
 ---
-This week I got introduced to ESLint. So what is actually ESLint? That was what I was thinking when i got indtruduced to it. I found our real quick that is was coding standards, but I also found out that coding standard is not a quick fix. According to ESLint (KILDE på ordet), "ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs". By using ESLint it will help me improve my code.
+This week I got introduced to ESLint. So what is actually ESLint? That was what I was thinking when i got indtruduced to it. I found our real quick that is was coding standards, but I also found out that coding standard is not a quick fix. According to <a href="
+https://eslint.org/docs/user-guide/getting-started">ESLint </a>, "ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs". By using ESLint it will help me improve my code.
 
 To produce code with good quality, you have to be consistent and make sure you are following the coding standards along the way. This will help others easily understand your code and also have a more cosistent code if there are several people working on the same code. 
 
