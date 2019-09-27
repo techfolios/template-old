@@ -21,7 +21,7 @@ The green checkmark, which appears on the right hand side on the screen is my sa
 Picture found <a href="https://commons.wikimedia.org/wiki/File:Checkmark_green.svg">here </a>. 
 
 
-<h2>My impression</h2>
+<h2>My impression </h2>
 After using ESLint for a week now, I experienced that it is a really good tool. Not only for correcting syntax error, but it make me more focused on writing the code. This minimaze the time I need to use of trying to figure out what the errors in my code are. 
 
 From my experience, there´s a lot of variety of in the way people code. By applying ESLint to programenvironment, I think it will make the the way we all code javascript more alike, and further it will be easier to collaborate and understand others code. 
