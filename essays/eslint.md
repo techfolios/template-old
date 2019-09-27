@@ -1,8 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Error: you´re missing the green checkmark!
-# All dates must be YYYY-MM-DD format!
+title: Error, you´re missing the green checkmark!
 date: 2019-09-26
 labels:
   - Javascript
