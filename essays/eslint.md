@@ -13,8 +13,10 @@ This week I got introduced to ESLint. So what is actually ESLint? That was what 
 To produce code with good quality, you have to be consistent and make sure you are following the coding standards along the way. This will help others easily understand your code and also have a more cosistent code if there are several people working on the same code. 
 
 <img class="ui image" src="../images/code.jpg">
+Picture found <a href="https://pixnio.com/objects/computer/programming-code-programmer-coding-coffee-cup-computer-copy-hands-computer-keyboard">here </a>. 
 
 
 After using ESLint for a week now, I experienced that it is a really good tool. Not only for correcting syntax error, but it make me more focused on writing the code. This minimaze the time I need to use of trying to figure out what the errors in my code are. 
 
 <img class="ui image" src="../images/Checkmark.svg">
+Picture found <a href="https://commons.wikimedia.org/wiki/File:Checkmark_green.svg">here </a>. 
