@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Reflections on Javascript Coding Standards
+title: Coding Standards, Why You Should Use Them, and How I Feel About Them (in that order)
 # All dates must be YYYY-MM-DD format!
 date: 2019-09-23
 labels:
