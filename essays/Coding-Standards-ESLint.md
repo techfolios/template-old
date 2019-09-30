@@ -8,8 +8,8 @@ labels:
   - Javascript
   - Coding standards
 ---
-<img src="../images/xkcd-code_quality.png" height="154" width="444">
-*Me, showing my professional coder friend my first CS project ever*
+<img src="../images/xkcd-code_quality.png" height="154" width="444">*Me, showing my professional coder friend my first CS project ever*
+
 ## What are coding standards
 Coding standards are rules or guidelines that a programmer follows when writing code. This can be a certain style that is to be followed (e.g. curly brackets are on their own line, no whitespace at the end of a line, etc), or refraining from using certain operators or statements (e.g. not using break, a for loop, etc.). They are largely used to keep code as standard as possible throughout a file which has many implicit benefits that are not entirely obvious at first. In the following few paragraphs I'm going to discuss those benefits alongside my own thoughts on coding standards as a whole.
 
