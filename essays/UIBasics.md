@@ -3,9 +3,6 @@ layout: essay
 type: essay
 title: UI Basics
 date: 2015-08-26
-labels:
-  - UI
-  - BrowserHistory
 ---
 UI Basics Essay 
 
