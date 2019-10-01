@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: UI Basics
-date: 2015-08-26
+date: 2019-10-01
 ---
 UI Basics Essay 
 
