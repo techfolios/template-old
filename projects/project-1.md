@@ -26,6 +26,8 @@ The main coding framework behind this is known as the *finite state machine*. A 
 ## CONCLUDING:
 This fun project taught me the power of certain coding techniques. The idea that there is a lot more to a project underneath the graphics code-wise was also enforced. It also gave me more experience with working through the different stages of development of a project: going from a simple idea to an actual working device/software/etc. I look forward to programming something similar in the future!
 
+This project was developed in the [Eclipse IDE](https://www.eclipse.org/) and utilized the [EZ Graphics Library](http://www2.hawaii.edu/~dylank/ics111/) created by graduate student Dylan Kobayashi.
+
 Here is some finite state code that illustrates exactly how I move through states, for those interested:
 
 ```js
