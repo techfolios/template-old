@@ -132,7 +132,7 @@ It is interesting to see the time it took for the computer to print these words.
 
 Overall, this was an interesting little side project. It shows how mathematics can be applied to a particular situation, and how mathematics can be demonstrated through code.
 
-Note: The title image is from the short story "The Library of Babel" by Jorge Luis Borges. I chose it because it is similar in concept to the Infinite Monkey Theorem. Basically the library is an infinite library filled with an infinite amount of books. The books contain all combinations of letters, meaning that everything that is known and can be known can be found in the library (It also means there is a whole lot of gibberish). I did read the story and found it interesting. I would recommend it to anyone interested in mind-twisting stories such as these.
+Note: The title image is from the short story *[The Library of Babel](https://maskofreason.files.wordpress.com/2011/02/the-library-of-babel-by-jorge-luis-borges.pdf)* by Jorge Luis Borges. I chose it because it is similar in concept to the Infinite Monkey Theorem. Basically the library is an infinite library filled with an infinite amount of books. The books contain all combinations of letters, meaning that everything that is known and can be known can be found in the library (It also means there is a whole lot of gibberish). I did read the story and found it interesting. I would recommend it to anyone interested in mind-twisting stories such as these.
 
 
   <img class="ui floated rounded image" src="../images/library.jpg">
