@@ -23,7 +23,7 @@ Before taking ICS 141, I had come across this idea known as "the Infinite Monkey
 
 However, the math behind this actually shows that typing certain works, like a chapter book, is extremely unlikely, to the point where it would take millions upon millions of times the universe's existance to actually accomplish. For example, say we used the set of alphabetical letters as well as the space character (26 + 1 = 27). The chance to type "dog" would be 1 out of (27 * 27 * 27). Or, simplified, a 1 in 19683 chance of occuring. The more characters you require, the more that this number shrinks absurdly low. 
 
-During my time ICS 141 and ICS 211, I decided to merge what I've learned in both classes. In this case, to try and code the IMT in Java, to see if I could print anything legible using random characters. To my delight, I managed to create a simple program that simulated this concept. The three elements behind this project were the set of alphabetical characters (including space), an int to count how many characters I've ran through, and a timer.
+During my time in ICS 141 and ICS 211, I decided to merge what I had learned in both classes. In this case, to try and code something similar to the IMT in Java, to see if I could print anything legible using random characters. To my delight, I managed to create a simple program that simulated this concept. The three elements behind this project were the set of alphabetical characters (including space), an int to count how many characters I've ran through, and a timer.
 
 Here is the code:
 
