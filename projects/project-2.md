@@ -111,19 +111,19 @@ I will also include screenshots of things I have printed using this program to h
 
 
   <img class="ui image" src="../images/lee.png">
-  "lee"
+  " lee"
   
   <img class="ui image" src="../images/roman.png">
-  "roman"
+  " roman"
   
   <img class="ui image" src="../images/toga.png">
-  "toga"
+  " toga"
   
   <img class="ui image" src="../images/a few.png">
-  "a few"
+  " a few"
   
   <img class="ui image" src="../images/ooooo.png">
-  "ooooo"
+  " ooooo"
   
 
 
