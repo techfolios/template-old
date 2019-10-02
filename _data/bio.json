@@ -62,13 +62,13 @@
       "keywords": [
         "Windows",
         "MacOS",
-        "Unix",
+        "Visual Studio Code",
         "Git/GitHub",
+        "Unix",
+        "gcc/g++",
         "Virtual Box",
         "Kali Linux",
-        "Visual Studio Code",
-        "Adobe Creative Suite",
-        "gcc"
+        "Adobe Creative Suite"
       ]
     }
   ],
