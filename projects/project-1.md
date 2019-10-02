@@ -12,10 +12,8 @@ labels:
 summary: For my ICS 111 final project, I programmed an interactive slot machine simulation.
 ---
 
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/nomatch.png">
-  <img class="ui image" src="../images/double.png">
-</div>
+<img class="ui image" src="../images/slot.gif">
+*Note this is a GIF*
 
 ## INTRODUCTION:
 This was a project I had a lot of fun in thinking up, designing, and ultimately programming in my first Computer Science class. It is a simple and straightforward slot machine. Users start off with an alloted amount of coins, which value gets added or subtracted to based on what combination of fruits they roll. I thought my project was unique, especially when compared to my peers', because instead of implementing fighting or shooting type games, I designed something more pattern/application-based.
