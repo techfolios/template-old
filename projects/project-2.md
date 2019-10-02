@@ -137,7 +137,4 @@ Note: The title image is from the short story "The Library of Babel" by Jorge Lu
 
   <img class="ui floated rounded image" src="../images/library.jpg">
  
- </div>
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
 
