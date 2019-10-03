@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: UI Basics
-date: 2019-09-09
+date: 2019-09-19
 labels: 
   - WODs
 ---
