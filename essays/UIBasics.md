@@ -1,6 +1,6 @@
 ---
-layout: Essay
-type: Essay
+layout: essay
+type: essay
 title: UI Basics
 date: 2019-09-28
 labels: 
