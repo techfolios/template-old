@@ -30,8 +30,10 @@ The first example stems from my time in 211. I was most definitely a rookie code
 
 The second example also comes from 211. Towards the end of the semester, Professor Moore told me an interview question that some department used to test programmers. He said the question was "How would you know that a linked-list is circular?" When he asked me this question, I was pretty stumped. I thought in my head I would have to come up with some complicated, intense coding algorithm in order to impress him and get this question correct. However he simply told me the answer was when "temp.next equals temp.next.next." I thought this was a beautiful answer. It is a question that tests a person's natural intuition and problem solving skills, not ability to memorize and regurgitate code. 
 
+<div class="ui medium rounded images">
 <img class="ui image" src="../images/orbitals.gif">
 *Quickly programmed this to simulate temp.next and temp.next.next*
+</div>
 
 ## GOING FORWARD:
 
