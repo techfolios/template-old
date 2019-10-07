@@ -33,7 +33,7 @@ The second example also comes from 211. Towards the end of the semester, Profess
 <div class="ui medium rounded images">
 <img class="ui image" src="../images/circle.gif">
 </div>
-*temp.next vs temp.next.next*
+*visualizing temp.next vs temp.next.next*
 
 ## GOING FORWARD:
 
