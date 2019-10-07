@@ -32,8 +32,8 @@ The second example also comes from 211. Towards the end of the semester, Profess
 
 <div class="ui medium rounded images">
 <img class="ui image" src="../images/orbitals.gif">
-*Quickly programmed this to simulate temp.next and temp.next.next*
 </div>
+*Quickly programmed this to simulate temp.next and temp.next.next*
 
 ## GOING FORWARD:
 
