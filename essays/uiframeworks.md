@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-published: true
+published: false
 title: UI Frameworks
 date: 2019-10-08-11
 labels:
@@ -10,4 +10,5 @@ labels:
   - HTML
 ---
 
-##**UI Frameworks**
+## **What is a UI Framework?**
+The "UI" in "UI Framework" stand for user interface, and it is used to help create the front-end display of an application quicker. UI Frameworks have a database of 
