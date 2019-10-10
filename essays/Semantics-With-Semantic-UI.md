@@ -20,7 +20,7 @@ labels:
 Semantic UI is a framework that allows for the use of natural language to mix and combine premade classes that should make your life easier when making a website. It is designed around the same concept of its name, semantics, which essentially means "The meaning of words and how they're related". Mostly, it prides itself on being able to use natural language in order to achieve proper formatting. It simply uses the class tag with a leading "ui", and then the following keywords will be used to help format the element. For example, if I wanted to make a menu on the top of the screen, with no border, and in the form of a menu bar, I would simply use this:
 
 ```html
-<div class="ui top borderless menubar menu>
+<div class="ui top borderless menubar menu">
 ...
 </div>
 ```
