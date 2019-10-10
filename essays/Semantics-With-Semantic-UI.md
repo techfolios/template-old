@@ -17,7 +17,14 @@ labels:
 
 ## What is Meaning of Words UI?
 
-Semantic UI is a framework that allows for the use of natural language to mix and combine premade classes that should make your life easier when making a website. It is designed around the same concept of its name, semantics, which essentially means "The meaning of words and how they're related". It simply uses the class tag with a leading "ui", and then the following keywords will be used to help format the element. The formatting options it provides far exceed what you can normally do in raw html and css, so the complexity and neatness of the resulting web page is worth it to those who want a more professional looking website.
+Semantic UI is a framework that allows for the use of natural language to mix and combine premade classes that should make your life easier when making a website. It is designed around the same concept of its name, semantics, which essentially means "The meaning of words and how they're related". Mostly, it prides itself on being able to use natural language in order to achieve proper formatting. It simply uses the class tag with a leading "ui", and then the following keywords will be used to help format the element. For example, if I wanted to make a menu on the top of the screen, with no border, and in the form of a menu bar, I would simply use this:
+
+```
+<div class="ui top borderless menubar menu>
+...
+</div>
+```
+The formatting options it provides far exceed what you can normally do in raw html and css, so the complexity and neatness of the resulting web page is worth it to those who want a more professional looking website.
 
 ## How I Feel About Relation of Words to Eachother UI
 
