@@ -11,7 +11,9 @@ labels:
   - Semantic UI
 ---
 
-<img width="300" height="100" src="https://s3.amazonaws.com/lowres.cartoonstock.com/children-semantics-grammar-teachers-lessons-classes-mfln2842_low.jpg">Semantics
+<img width="300" height="100" src="https://s3.amazonaws.com/lowres.cartoonstock.com/children-semantics-grammar-teachers-lessons-classes-mfln2842_low.jpg">
+
+<p>Semantics</p>
 
 ## What is Meaning of Words UI?
 
