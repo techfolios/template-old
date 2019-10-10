@@ -24,7 +24,7 @@ Semantic UI is a framework that allows for the use of natural language to mix an
 ...
 </div>
 ```
-The formatting options it provides far exceed what you can normally do in raw html and css, so the complexity and neatness of the resulting web page is worth it to those who want a more professional looking website.
+However, this is not to say that the framework is simple. It has many options to it, and like a child staring at a menu at a restaurant, you will often ask yourself, "What options <i>can</i> I use." This takes experience, time, and lots of googling to find out, though learning the framework will open up a lot of new possibilities. The formatting options it provides far exceed what you can normally do in raw html and css so the complexity and neatness of the resulting web page is worth it to those who want a more professional looking website.
 
 ## How I Feel About Relation of Words to Eachother UI
 
