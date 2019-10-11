@@ -6,6 +6,8 @@ title: What Defines a "Smart" Question?
 date: 2019-09-12
 labels:
   - Stack Overflow
+  - Online Presence
+  - Research
 ---
 
 

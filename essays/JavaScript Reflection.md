@@ -6,9 +6,8 @@ title: Rewriting the (Java)Script
 date: 2019-09-06
 labels:
   - Software Engineering
-  - Learning
-  - Syntax
-  - WOD
+  - Program Syntax
+  - Athletic Programming
 ---
 
 
