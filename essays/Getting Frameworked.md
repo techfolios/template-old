@@ -3,7 +3,6 @@
 layout: essay
 type: essay
 title: Getting Frameworked
-# All dates must be YYYY-MM-DD format!
 date: 2019-10-10
 labels:
   - Semantic UI
@@ -16,7 +15,9 @@ labels:
 
 Prior to taking ICS 314, I had no experience with HTML and CSS whatsoever. Now that I have had some exposure to these "programming languages", I am now able to understand how websites are created from the ground up. HTML can be seen as the bones of an animal, while CSS is the superficial skin, hair, make-up, etc that is added on after the main base is set up. After coding for some time in "real" programming languages like C, the HTML and CSS web-browser languages feel more like mere formatting and organizational tools. Even though I feel this way, they still are quite powerful tools that all computer science students should be comfortable using.
 
-
+<div class="ui medium rounded images">
+<img class="ui image" src="{{ site.baseurl }}/images/HTMLmeme.jpg">
+</div>
 
 ## EXPERIENCE WITH SEMANTIC UI:
 
