@@ -2,13 +2,16 @@
 layout: essay
 type: essay
 published: true
-title: UI Frameworks
+title: Improve Your Website Today!
 date: 2019-10-08-11
 labels:
   - UI Frameworks
   - CSS
   - HTML
 ---
+
+## **INTRO**
+Are you using only raw HTML and CSS to build your website and tired of it looking plain and boring? Do you want to make your website look modern and trendy? If you answered yes, I have the solution for you. If you answered no, stick around and I may just change your mind. The easiest way to make your website look more modern is by using a UI framework. Don't know what a UI framework is? Neither did I just a few weeks ago, but after I learned about it, the way I build websites has changed forever. 
 
 <img class="ui small right floated rounded image" src="../images/uiframeworks.jpeg">
 ## **What is a UI Framework?**
@@ -21,4 +24,4 @@ Semantic UI is the first and only UI framework I have experience with as it is t
 <img class="ui centered medium image"
      src="http://courses.ics.hawaii.edu/ics314f19/morea/ui-frameworks/wod-dvine-logo.png">
 ```
-As you can see, the syntax can be as simple as saying what you want the specific item to do. 
+As you can see, the syntax can be as simple as saying what you want the specific item to do. While this won't work all the time, semantic ui has a [https://semantic-ui.com/introduction/getting-started.html]
