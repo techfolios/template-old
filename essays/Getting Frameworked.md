@@ -1,28 +1,14 @@
 ---
 layout: essay
 type: essay
-title: CS Interests In-Depth
-# All dates must be YYYY-MM-DD format!
-date: 2019-09-12
-labels:
-  - Security
-  - Information Systems
-  - Programming
----
-
-
----
-layout: essay
-type: essay
 title: Getting Frameworked
 # All dates must be YYYY-MM-DD format!
-date: 2019-10-10
+date: 2019-09-12
 labels:
   - Semantic UI
   - Web Design
   - HTML/CSS
 ---
-
 
 ## EXPERIENCE WITH HTML/CSS:
 
