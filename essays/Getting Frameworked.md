@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: Getting Frameworked
 # All dates must be YYYY-MM-DD format!
-date: 2019-09-12
+date: 2019-10-10
 labels:
   - Semantic UI
   - Web Design
