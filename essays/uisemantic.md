@@ -7,7 +7,7 @@ labels:
   - UI semantic
 ---
 
-<img class="ui image" src="../images/hhei.png" height="200px" alt="pic"> When you hear about a framework, you think it´s going to be easy to adapt and easy to implement. With Semantic UI it is. You can make big differences in a very short amount of lines of code. You don´t have to specify all the different pixels with margins and paddings. 
+<img class="ui image" src="../images/hhei.png"  alt="pic"> When you hear about a framework, you think it´s going to be easy to adapt and easy to implement. With Semantic UI it is. You can make big differences in a very short amount of lines of code. You don´t have to specify all the different pixels with margins and paddings. 
  
 Semantic UI is a very effective tool to easily show a layout of something. By just adding a couple of div´s with a class that specifies the conditions, you can change the whole layout of the webpage. Therefore, I would say that it is a well-suited framework for creating prototypes or just sections of a webpage. 
  
