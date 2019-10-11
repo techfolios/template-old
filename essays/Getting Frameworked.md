@@ -3,6 +3,7 @@
 layout: essay
 type: essay
 title: Getting Frameworked
+# All dates must be YYYY-MM-DD format!
 date: 2019-10-10
 labels:
   - Semantic UI
@@ -21,4 +22,4 @@ Prior to taking ICS 314, I had no experience with HTML and CSS whatsoever. Now t
 
 ## EXPERIENCE WITH SEMANTIC UI:
 
-After being introduced to Semantic UI, a modern front-end development framework, I was initially a bit intimidated. The Semantic UI framework has a lot of built-in features; the amount of options to choose from is staggering and a lot to take in at first. However the more I used it and got accustomed to it, the more I grew to appreciate working with a framework. The Semantic framework does a lot of the work for the programmer. Once the programmer knows what he or she is doing, the programmer is able to create sleek and modern looking websites in under an hour. I myself was able to create a pretty good clone of the Tory Richard website. I also dug a little deeper, and noticed that it is actually possible to put in more advanced web features like Google Maps using Semantic UI. It seems like I am still at the tip of the iceberg in regards to web development, I cannot wait to learn more... 
+After being introduced to Semantic UI, a modern front-end development framework, I was initially a bit intimidated. The Semantic UI framework has a lot of built-in features; the amount of options to choose from is staggering and a lot to take in at first. However the more I used it and got accustomed to it, the more I grew to appreciate working with a framework. The Semantic framework does a lot of the work for the programmer. Once the programmer knows what he or she is doing, the programmer is able to create sleek and modern looking websites in under an hour. I myself was able to create a pretty good clone of the Tory Richard website. I also dug a little deeper, and noticed that it is actually possible to put in more advanced web features like [Google Maps using Semantic UI](https://semantic-ui.com/modules/embed.html). It seems like I am still at the tip of the iceberg in regards to web development, I cannot wait to learn more... 
