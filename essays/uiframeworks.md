@@ -24,4 +24,7 @@ Semantic UI is the first and only UI framework I have experience with as it is t
 <img class="ui centered medium image"
      src="http://courses.ics.hawaii.edu/ics314f19/morea/ui-frameworks/wod-dvine-logo.png">
 ```
-As you can see, the syntax can be as simple as saying what you want the specific item to do. While this won't work all the time, semantic ui has a [https://semantic-ui.com/introduction/getting-started.html]
+As you can see, the syntax can be as simple as saying what you want the specific item to do. While this won't work all the time, semantic ui has a [website](https://semantic-ui.com/introduction/getting-started.html) with documentation and example code of how to use certain classes that is easy to navigate.
+
+## **Overall**
+UI frameworks are a great a tool to use when designing a website as they make it easy to create beautiful front-end displays. There can be a fairly big learning curve, especially when your code is not behaving how you expected or wanted it to. This is because it is a framework, and so a lot of the work is being done behind the scenes and when it is not working, you need to read the documentation to figure out where it is going wrong. It can also get confusing knowing which classes and its content take precedence over another. However, once you get past the struggles, UI frameworks are a powerful tool that can improve the look of your website in just a few minutes.
