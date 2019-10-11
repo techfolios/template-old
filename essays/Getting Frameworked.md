@@ -12,7 +12,7 @@ labels:
 
 ## EXPERIENCE WITH HTML/CSS:
 
-Prior to taking ICS 314, I had no experience with HTML and CSS whatsoever. Now that I have had some exposure to these "programming languages", I am now able to understand how websites are created from the ground up. HTML can be seen as the underlying framework of a building, while CSS is the external paint, panneling, etc that is added on after the main base is set up. After coding for some time in "real" programming languages like C, the HTML and CSS web-browser languages feel more like mere formatting and organizational tools. Even though I feel this way, they still are quite powerful tools that all computer science students should be comfortable using.
+Prior to taking ICS 314, I had no experience with HTML and CSS whatsoever. Now that I have had some exposure to these "programming languages", I am able to understand how websites are created from the ground up. HTML can be seen as the underlying framework of a building, while CSS is the external paint, panneling, etc that is added on after the main base is set up. After coding for some time in "real" programming languages like C, the HTML and CSS web-browser languages feel more like mere formatting and organizational tools. Even though I feel this way, they still are quite powerful tools that all computer science students should be comfortable using.
 
 <div class="ui medium rounded images">
 <img class="ui image" src="{{ site.baseurl }}/images/HTML.jpg">
