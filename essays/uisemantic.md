@@ -7,7 +7,7 @@ labels:
   - UI semantic
 ---
 
-<img class="ui image" src="https://www.flickr.com/photos/cogdog/2764850881">
+<img class="ui image" src="...image/hhei.png">
 
 When you hear about a framework, you think it´s going to be easy to adapt and easy to implement. With Semantic UI it is. You can make big differences in a very short amount of lines of code. You don´t have to specify all the different pixels with margins and paddings. 
  
