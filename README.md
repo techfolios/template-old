@@ -4,4 +4,7 @@ This repository hosts a technical portfolio built using [TechFolio](http://techf
 
 See the quick start guide for instructions on how to tailor the template to your own needs.
 
+# License
+The code is available under the [MIT license](LICENSE.txt).
+
 
