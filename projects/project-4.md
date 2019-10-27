@@ -7,9 +7,11 @@ permalink: projects/database
 # All dates must be YYYY-MM-DD format!
 date: 2019-08-01
 labels:
-  - C
-  - Database
-summary: I programmed an executable file with database functionality in the C language.
+  - C/C++
+  - Unix
+  - Terminal Commands
+  - Pointers
+summary: Using the C/C++ languages, I programmed an executable with database functionality.
 ---
 
 
@@ -17,15 +19,14 @@ summary: I programmed an executable file with database functionality in the C la
 
 
 ## INTRODUCTION:
-This was a project I had a lot of fun in thinking up, designing, and ultimately programming in my first Computer Science class. It is a simple and straightforward slot machine. Users start off with an alloted amount of coins, which value gets added or subtracted to based on what combination of fruits they roll. I thought my project was unique, especially when compared to my peers', because instead of implementing fighting or shooting type games, I designed something more pattern/application-based.
+This is a usable program that allows for interactive information storage, retrieval, and modification. I programmed this in the C language over the span of several months, while being enrolled in the C Programming course in university. This was a challenging project, since I had only knew Java and C is considered to be more difficult to use than Java. The most frustrating part of the project was definitely working with pointers. Pointers are key to this database because the database is built upon the linked-list data structure. In C, we use pointers to link each record in the database to the next one. I definitely had a lot of segmentation faults while trying to get it to work. However once I started to notice the pattern of how the pointers were working in the list, it became much easier and I actually enjoyed programming this project. This project also got me a lot more comfortable with working with the Terminal. I now know all the basic commands of the Terminal, such as the ones used in moving large amounts of files, making directories, compiling code etc. I also worked with the UH Unix server (we had to prove all of our code was compiled on the school server), and got comfortable moving files between servers using a File Transfer Protocol (FTP). I also managed my project using git as my preferred Version Control System. Lastly, after creating this project in C, I later recreated a C++ version of it as well.
 
-## HOW DOES IT WORK?
-The main coding framework behind this is known as the *finite state machine*. A finite state machine is a very simple, yet very effective coding techinque that is applicable in Computer Science as well as Engineering. Here, I designated the various "states" of my slot machine as the different logical steps one would take in interacting with the machine in real life. For example: starting the machine, spinning the rolls, obtaining coins, etc. Between the start and end states, nothing is static, and can be interchanged indefinitely until a user runs out of coins to play.
+## FEATURES?
+Once executed, the program asks whether or not users have a pre-made records file to load into the database. After replying to this prompt, the program displays a straightforward user-interface. The interface offers several numbered options. Users can add a new record, delete a records, print a record by name (also all records corresponding to a certain string of characters), print all records in database, modify a records information by account number, and lasty quit the database. Upon quitting the program, all records are written out to a specified .txt file before the database's memory is cleaned of all records. Also, this program has a "debug mode" feature that is invoked with command line argurments. The debug feature allows the programmer to inspect their code by printing passed function arguments to the Terminal.
 
 ## CONCLUDING:
-This fun project taught me the power of certain coding techniques. The idea that there is a lot more to a project underneath the graphics code-wise was also enforced. It also gave me more experience with working through the different stages of development of a project: going from a simple idea to an actual working device/software/etc. I look forward to programming something similar in the future!
+I grew a lot as a programmer over the course of this project. C requires you to be perfect. If your code is 99.99% correct, it is 100% wrong. I feel like C is a language that makes or breaks programmers. If someone is strong in C, they are likely strong in all other languages because C gives a programmer a lot of precision and control. With this great power, comes great responsibility.
 
 ***************************************************************************************
 
-*This project was developed in the [Eclipse IDE](https://www.eclipse.org/) and utilized the [EZ Graphics Library](http://www2.hawaii.edu/~dylank/ics111/) created by graduate student Dylan Kobayashi.*
 
