@@ -11,7 +11,7 @@ labels:
   - Unix
   - Terminal Commands
   - Pointers
-summary: Using the C/C++ languages, I programmed an executable with database functionality.
+summary: Using the C/C++ languages, I programmed an executable file with database functionality.
 ---
 
 
