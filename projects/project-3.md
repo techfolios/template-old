@@ -8,6 +8,8 @@ permalink: projects/piano
 date: 2014-04-12
 labels:
   - Music
+  - Music Distribution
+  - iTunes
 summary: My experience learning and playing piano.
 ---
 
