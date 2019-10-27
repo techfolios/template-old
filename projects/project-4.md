@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/database.png
+image: images/database.PNG
 title: Humans Records Database
 permalink: projects/database
 # All dates must be YYYY-MM-DD format!
