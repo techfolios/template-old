@@ -12,7 +12,9 @@ labels:
 summary: I programmed an executable file with database functionality in the C language.
 ---
 
+
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=9XKr6rKHY5k" frameborder="0" allowfullscreen=""></iframe>
+
 
 ## INTRODUCTION:
 This was a project I had a lot of fun in thinking up, designing, and ultimately programming in my first Computer Science class. It is a simple and straightforward slot machine. Users start off with an alloted amount of coins, which value gets added or subtracted to based on what combination of fruits they roll. I thought my project was unique, especially when compared to my peers', because instead of implementing fighting or shooting type games, I designed something more pattern/application-based.
