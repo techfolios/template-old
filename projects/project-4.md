@@ -15,7 +15,7 @@ summary: Using the C/C++ languages, I programmed an executable file with databas
 ---
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=9XKr6rKHY5k" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9XKr6rKHY5k" frameborder="0" allowfullscreen=""></iframe>
 
 
 ## INTRODUCTION:
