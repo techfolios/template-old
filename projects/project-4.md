@@ -26,7 +26,7 @@ Once executed, the program asks whether or not users have a pre-made records fil
 
 In short, this project implements the following functions :
 
-<img class="ui image" src="{{ site.baseurl }}/images/project1.png">
+<img class="ui image" src="{{ site.baseurl }}/images/project1.PNG">
 
 ## CONCLUDING:
 I grew a lot as a programmer over the course of this project. C requires you to be perfect. If your code is 99.99% correct, it is 100% wrong. I feel like C is a language that makes or breaks programmers. If someone is strong in C, they are likely strong in all other languages because C gives a programmer a lot of precision and control. Like they say, with great power, comes great responsibility.
