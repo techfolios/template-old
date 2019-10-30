@@ -19,4 +19,6 @@ I began playing and learning piano seriously at age 20. This may seem late by so
 
 So far I have enjoyed the journey. I started slow, playing basic songs. However now I can play experts from challenging classical pieces, as well as some "fun" songs like Toy Story and the like. Reading and learning sheet music has similarity to Computer Science. Reading sheet is a lot like reading code; there are many little pieces that when pulled together creates a beautiful, cohesive project. I also have experienced recording some of my songs, and have uploaded them to my iTunes account so that I can listen to and study my playing.
 
+***************************************************************************************
+
 
