@@ -34,7 +34,7 @@
   },
   "interests": [
     {
-      "name": "Security",
+      "name": "Computer Security",
       "keywords": [
       ]
     },
@@ -45,6 +45,11 @@
     },
     {
       "name": "Programming",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Helping Others",
       "keywords": [
       ]
     }
