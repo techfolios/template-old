@@ -16,7 +16,7 @@ summary: Using the C/C++ languages, I programmed an executable file with databas
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9XKr6rKHY5k" frameborder="0" allowfullscreen=""></iframe>
-
+                * Note this has background music *
 
 ## INTRODUCTION:
 This is a program that allows for interactive information storage, retrieval, and modification. I programmed this in the C language over the span of several months while being enrolled in the C Programming course in university. This was a challenging project, since I had only known Java at the time and C is considered to be more difficult to use than Java. The most frustrating part of the project was definitely working with pointers. Pointers are key to this database because the database is built upon the linked-list data structure. In C, we use pointers to link each record in the database to the next one. I definitely had a lot of segmentation faults while trying to get it to work. However once I started to notice the pattern of how the pointers were working in the list, it became much easier and I actually enjoyed programming this project. This project also got me a lot more comfortable with working with the Terminal. I now know all the basic commands of the Terminal, such as the ones used in comparing contents of files, making directories, compiling code etc. I also worked with the UH Unix server (we had to prove all of our code was compiled on the school server), and got comfortable moving files between servers using a File Transfer Protocol (FTP). I also managed my project using git as my preferred Version Control System. Lastly, after creating this project in C, I later recreated a C++ version of it as well.
