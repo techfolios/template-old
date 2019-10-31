@@ -25,7 +25,7 @@ However, the math behind this actually shows that typing certain works, like a c
 
 During my time in ICS 141 and ICS 211, I decided to merge what I had learned in both classes. In this case, to try and code something similar to the IMT in Java, to see if I could print anything legible using random characters. To my satisfaction, I managed to create a simple program that simulated this concept. The three elements behind this project were the set of alphabetical characters (including space), an int to count how many characters I've ran through, and a timer.
 
-Here is the code:
+Here is the [code]({{ site.baseurl }}/projects/IMTcode.txt):
 
 ```js
 import java.util.Random;

@@ -1,0 +1,63 @@
+import java.util.Random;
+import java.util.concurrent.TimeUnit;
+
+public class InfiniteMonkey {
+
+  static char[] alphabet = "abcdefghijklmnopqrstuvwxyz ".toCharArray();
+
+
+  public static void main(String [] args) {
+
+    IMT();
+
+  }
+
+
+  public static void IMT() {
+
+    int count = 0;
+
+    //if the word "kayak" is found, break, and print count as well
+    //keep in mind that the sequence "kayak" has a 1/27^5 probability of generating (very slim)
+    String word = " kayak";
+    StringBuilder sb = new StringBuilder();
+
+    long startTime = System.nanoTime();
+    
+    
+    while (true) {
+
+
+      char letter = alphabet[new Random().nextInt(alphabet.length)];
+      sb.append(letter);
+
+      System.out.println("    " + letter);
+
+      count++;
+
+
+
+      //We never want our String Builder word to be bigger than our original word because then obvi they wont match.
+      if(sb.length() == word.length()+1) {
+
+        //delete the first char so that we are always adding new chars and changing our sb
+        sb.deleteCharAt(0);
+      }
+
+      if(sb.toString().equals(word)) {
+        long endTime = System.nanoTime();
+        long runTime = (endTime - startTime);
+        System.out.println();
+        System.out.println("Count: " + count);
+        System.out.println("Time elapsed: " + (runTime) + " nanoseconds or " 
+            + TimeUnit.SECONDS.convert(runTime, TimeUnit.NANOSECONDS) + " seconds (truncated)" );
+        break;
+      }
+
+    }
+
+
+  }
+
+
+}
