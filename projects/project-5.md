@@ -14,7 +14,7 @@ labels:
 summary: To help promote a local craftsman's ukulele business, I built a website from scratch.
 ---
 
-## INTRODUCTION:
+## BACKSTORY:
 Growing up, my Uncle Lyman was like a father to me. He would take me fishing, surfing, and teach me all sorts 
 of useful and practical things. Uncle Lyman was always a very talented craftsman; he could build and fix anything
 and everything. My first exposure to his skill was when I was involved in Boy Scouts. In Boy Scouts, we had an 
