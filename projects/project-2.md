@@ -27,6 +27,24 @@ During my time in ICS 141 and ICS 211, I decided to merge what I had learned in 
 
 Here is the [raw-code]({{ site.baseurl }}/projects/IMTcode.txt).
 
+I will also include screenshots of things I have printed using this program to highlight some of the probabilities:
+
+
+  <img class="ui image" src="../images/lee.png">
+  " lee"
+  
+  <img class="ui image" src="../images/roman.png">
+  " roman"
+  
+  <img class="ui image" src="../images/toga.png">
+  " toga"
+  
+  <img class="ui image" src="../images/a few.png">
+  " a few"
+  
+  <img class="ui image" src="../images/ooooo.png">
+  " ooooo"
+
 It is interesting to see the time it took for the computer to print these words. Keep in mind that a computer also "types" at a speed many many times faster than a monkey. These were some of the longest words I could generate. When I attempted to try a sentence, my computer ran for about an hour or so before I called it quits. 
 
 Overall, this was an interesting little side project. It shows how mathematics can be applied to a particular situation, and how mathematics can be demonstrated through code.
