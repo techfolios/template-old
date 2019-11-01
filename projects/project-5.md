@@ -30,7 +30,7 @@ satisfied with (formats such as Weebly just weren't ideal). Since I now knew HTM
 the good old fashioned way.
 
 ## PROCESS:
-Interestingly enough, this project began with searching though reddit. Uncle Lyman first wanted a logo. He wanted something with "an owl and a ukulele." I am not much of a drawer, so instead of trying to draw something on my own, I consulted reddit. I asked the logo subreddit to create what Uncle Lyman had asked for. Eventually a user created something I thought was nice, and Uncle Lyman agreed once I showed him. In today's world, oftentimes knowing how to be resourceful online is incredibly useful.
+Interestingly enough, this project began with searching though reddit. Uncle Lyman first wanted a logo. He wanted something with "an owl and a ukulele." I am not much of a drawer, so instead of trying to draw something on my own, I consulted reddit. I asked the logo subreddit to create what Uncle Lyman had asked for. Eventually a user created something I thought was simple and nice, and Uncle Lyman agreed once I showed him. In today's world, oftentimes knowing how to be resourceful online is incredibly useful.
 
 Now to begin the project of building the actual website, I first began experimenting with HTML and CSS code in the IntelliJ
 IDE. I also used the Semantic UI framework to help make working with the HTML and CSS easier (view my essay on my Semantic UI experience here). Eventually, after a lot of trial-and-error, I managed to create something I was satisfied with. 
