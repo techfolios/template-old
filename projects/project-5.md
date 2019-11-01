@@ -26,5 +26,11 @@ the car aerodynamic and fast. I remember our car won the derby that year, all th
 The wooden car was just a small sample of his ability. Eventually I would spend time in Uncle Lyman's actual studio:
 the place where he made ukuleles. Uncle Lyman builds amazing and world renowned custom ukuleles. He calls his business
 Lymana Ukuleles. He would always talk about wanting a website for his business, but could never get one that he was 
-satisfied with (formats such as weebly just weren't ideal). Since I now knew HTML/CSS, I decided to make him a website
+satisfied with (formats such as Weebly just weren't ideal). Since I now knew HTML/CSS, I decided to make him a website
 the good old fashioned way.
+
+## PROCESS:
+Interestingly enough, this project began with searching though reddit. Uncle Lyman first wanted a logo. He wanted something with "an owl and a ukulele." I am not much of a drawer, so instead of trying to draw something on my own, I consulted reddit. I asked the logo subreddit to create what Uncle Lyman had asked for. Eventually a user created something I thought was nice, and Uncle Lyman agreed once I showed him. In today's world, oftentimes knowing how to be resourceful online is incredibly useful.
+
+Now to begin the project of building the actual website, I first began experimenting with HTML and CSS code in the IntelliJ
+IDE. I also used the Semantic UI framework to help make working with the HTML and CSS easier (view my essay on my Semantic UI experience here). Eventually, after a lot of trial-and-error, I managed to create something I was satisfied with. 
