@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/database.PNG
+image: images/owl.png
 title: Lymana Ukuleles Website
 permalink: projects/lymanaukuleles
 # All dates must be YYYY-MM-DD format!
