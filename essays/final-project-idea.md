@@ -30,17 +30,18 @@ Event page
 New user goes to landing page, logs in, gets home page, sets up profile.
 User looks for and adds friends. 
 Admin goes to landing page, logs in, gets home page, edits site.
-Admin goes to landing page, logs in, gets home page, adds/deletes/edits event.
-User goes to landing page, logs in, finds an event they like, and indicates they plan to go to that event.
-User goes to landing page, logs in, and looks for events that friends have indicated they will be going to.
+Admin logs in, gets home page, adds/deletes/edits event.
+User filters/sorts events by keywords (e.g. 21+, music, performance, comedy, etc.)
+User finds an event they like, and indicates they plan to go to that event.
+User looks for events that friends have indicated they will be going to.
   
 ## Beyond the basics
 
 User creates a meetup addendum to an event to see what other friends would like to go.
 User can submit recommendation for event to be added to schedule, which then notifies admins.
 Allow users to rate/give reviews to events.
-Allow users to contact event coordinator/contact by email.
-Allow users to message friends who have approved friend request.
+Allow users to contact event coordinator/representative by email.
+Allow users to message/email friends who have approved friend request.
 Verify UH ID to be displayed as "verified user"
 
 
