@@ -8,8 +8,6 @@ labels:
   - Meteor
 ---
 
-<img class="ui small right circular floated image" src="../images/QM.jpg">
-
 ## Overview
 
 Problem:  No central location for activities of on-campus or near-campus activities
@@ -24,22 +22,26 @@ User home page
 Admin home page
 User profile page
 Friends page
-Calendar/Events page
-Group meetup page
-  
+Calendar page
+Event page
   
 ## Use case ideas
 
-Whether or not the following bullet points list all pages or not, the completed use case should show an end-to-end scenario of using the system.
-
-New user goes to landing page, logs in, gets home page, sets up profile, looks for and adds friends. (How do they learn how system works?)
+New user goes to landing page, logs in, gets home page, sets up profile.
+User looks for and adds friends. 
 Admin goes to landing page, logs in, gets home page, edits site.
 Admin goes to landing page, logs in, gets home page, adds/deletes/edits event.
-User goes to landing page, logs in, and looks for events to go to and indicates they plan to go to that event.
+User goes to landing page, logs in, finds an event they like, and indicates they plan to go to that event.
 User goes to landing page, logs in, and looks for events that friends have indicated they will be going to.
   
 ## Beyond the basics
 
 User creates a meetup addendum to an event to see what other friends would like to go.
 User can submit recommendation for event to be added to schedule, which then notifies admins.
-Allow students to rate/give reviews to events.
+Allow users to rate/give reviews to events.
+Allow users to contact event coordinator/contact by email.
+Allow users to message friends who have approved friend request.
+Verify UH ID to be displayed as "verified user"
+
+
+Final Project Idea by Tommy Herman and Trey Sumida
