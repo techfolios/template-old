@@ -48,4 +48,4 @@ Allow users to message/email friends who have approved friend request.
 Verify UH ID to be displayed as "verified user"
 
 
-Final Project Idea by Tommy Herman and Trey Sumida
+Collaboratively written by Tommy Herman and Trey Sumida
