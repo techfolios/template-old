@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Final Project Idea"
+title: "Final Project Idea: Manoa Meetup"
 date: 2019-11-05
 authors:
   - Tommy Herman
