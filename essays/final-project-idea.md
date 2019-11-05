@@ -3,6 +3,9 @@ layout: essay
 type: essay
 title: "Final Project Idea"
 date: 2019-11-05
+authors:
+  - Tommy Herman
+  - Trey Sumida
 labels:
   - Software Engineering
   - Meteor
