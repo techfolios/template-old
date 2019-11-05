@@ -10,6 +10,7 @@ labels:
   - App
 ---
 
+By Roman Nicolai and Corben Broennimann
 
 ## OVERVIEW:
 
