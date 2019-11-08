@@ -8,6 +8,7 @@ permalink: projects/lymanaukuleles
 date: 2019-11-01
 labels:
   - HTML/CSS
+  - Google G Suite
   - GoDaddy
   - IntelliJ
   - Semantic UI
