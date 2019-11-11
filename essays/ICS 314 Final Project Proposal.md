@@ -21,3 +21,11 @@ Say a student or faculty member is strolling through campus between classes. Thi
 Other than Vandalism or Damage reports, the app could also have Lost & Found functionality. I also think we could use the filter() function to filter reports into these three categories. This would organize reports further and allow users to have an easier time finding what report they wish to view.
 
 Lastly, I think we must implement regular users vs administrator roles. An administrator would have the power to remove reports that have been solved or deemed insignificant. I think administrators could be determined by log-in credentials. I think this would be a beneficial project for the campus.
+
+## LATER THOUGHTS:
+
+After letting this idea sit and brew in my head for a few days, I have realized that it is probably too niche for the entire student/faculty body to utilize. It is unlikely that
+a majority of students and faculty will take the time to download and use an app with such situational use. Therefore, I propose that this app be tailor made for the maintantence
+faculty only. Maintanence could use a webtool that will help organize and document their tasks. If only the maintanence uses this, the app could be more focused and effective for
+that group of people, without losing any of its overall effectiveness because maintanence are the people mainly looking out for campus damages anyway....
+Just my two cents.
