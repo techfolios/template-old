@@ -25,7 +25,7 @@ Lastly, I think we must implement regular users vs administrator roles. An admin
 ## LATER THOUGHTS:
 
 After letting this idea sit and brew in my head for a few days, I have realized that it is probably too niche for the entire student/faculty body to utilize. It is unlikely that
-a majority of students and faculty will take the time to download and use an app with such situational use. Therefore, I propose that this app be tailor made for the maintantence
+a majority of students and faculty will take the time to download and use an app with such situational use. Therefore, I propose that this app be tailor made for the maintanence
 faculty only. Maintanence could use a webtool that will help organize and document their tasks. If only the maintanence uses this, the app could be more focused and effective for
 that group of people, without losing any of its overall effectiveness because maintanence are the people mainly looking out for campus damages anyway....
 Just my two cents.
