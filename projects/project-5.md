@@ -11,8 +11,9 @@ labels:
   - Google G Suite
   - GoDaddy
   - IntelliJ
+  - PayPal
   - Semantic UI
-summary: To help promote a local craftsman's ukulele business, I built a website from scratch.
+summary: To help promote a local craftsman's ukulele business, I built a website from scratch. Note this is still an ongoing work-in-progress.
 ---
 
 ## BACKSTORY:
