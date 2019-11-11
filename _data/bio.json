@@ -5,7 +5,7 @@
     "picture": "https://romannicolai.github.io/images/pic1.PNG",
     "email": "rnicolai@hawaii.edu",
     "phone": "808-321-7704",
-    "website": "https://romannicolai.github.io",
+    "website": "https://roman-nicolai.com",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2021.",
     "location": {
       "address": "",
@@ -24,11 +24,6 @@
         "network": "linkedin",
         "username": "romannicolai",
         "url": "http://linkedin.com/in/romannicolai"
-      },
-      {
-        "network": "goodreads",
-        "username": "romannicolai",
-        "url": "https://www.goodreads.com/romannicolai"
       }
     ]
   },
@@ -110,7 +105,7 @@
       "position": "Intern",
       "startDate": "2015-06-01",
       "endDate": "2015-11-01",
-      "summary": "Summer intern at Paper Magazine in New York, New York. Worked in the high-paced office setting in the heart of NYC",
+      "summary": "Summer intern at Paper Magazine in New York, New York. Worked in the high-paced office setting in the heart of NYC.",
       "highlights": ["Computer Trouble-Shooting", "Web Design", "Trend Reports and Summaries", "Event Set-Up"
       ]
     },
