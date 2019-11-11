@@ -16,6 +16,9 @@ labels:
 summary: To help promote a local craftsman's ukulele business, I built a website from scratch. Note this is still an ongoing work-in-progress.
 ---
 
+## LINK
+See the site here : [Lymana Ukuleles](www.lymana-ukuleles.com)
+
 ## BACKSTORY:
 Growing up, my Uncle Lyman was like a father to me. He would take me fishing, surfing, and teach me all sorts 
 of useful and practical things. Uncle Lyman was always a very talented craftsman; he could build and fix anything
