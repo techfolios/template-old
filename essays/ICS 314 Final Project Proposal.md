@@ -14,7 +14,7 @@ By Roman Nicolai and Corben Broennimann
 
 ## OVERVIEW:
 
-View Project Here : [Link](manoa-fixed.github.io)
+View Project Here : [Link](https://manoa-fixed.github.io/)
 
 When thinking up an application that could be used to assist UH Manoa in some way, my partner and I thought of a campus repair-related app. We believe that, currently, UH Manoa has no way of organizing or grouping campus repairs into one single source. We are not sure how campus maintenance currently goes about this, but we believe that a webtool or application could greatly help organize their efforts. We will illustrate how this app could be used in practice:
 
