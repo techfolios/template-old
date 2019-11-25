@@ -24,6 +24,7 @@ summary: To help promote a local craftsman's ukulele business, I built a website
 * Google Maps built with Google G Suite account
 * PayPal integration. Used their button code from their site.
 * Unique favicon (small icon that appears in the web bar)
+* Avoided hosting fees by using free Github Pages. Changed .github.io extension to custom domain name with GoDaddy.
 
 ## BACKSTORY:
 Growing up, my Uncle Lyman was like a father to me. He would take me fishing, surfing, and teach me all sorts 
