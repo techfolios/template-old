@@ -20,7 +20,7 @@ summary: To help promote a local craftsman's ukulele business, I built a website
 [Lymana Ukuleles](http://lymana-ukuleles.com/)
 
 ## SOME FEATURES:
-* Built using HTML & CSS
+* Built using HTML & CSS with Semantic UI framework
 * Google Maps built with Google G Suite account
 * PayPal integration. Used their button code from their site.
 * Unique favicon (small icon that appears in the web bar)
