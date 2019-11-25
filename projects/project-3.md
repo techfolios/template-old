@@ -5,25 +5,20 @@ image: images/piano.png
 title: Journey with Piano
 permalink: projects/slotmachine
 # All dates must be YYYY-MM-DD format!
-date: 2018-04-01
+date: 2018-12-01
 labels:
   - Music
   - Spotify
-summary: My experience learning and playing piano. Also using Spotify to help study the music.
+summary: My experience learning and playing piano. Also used Spotify to help organize and study the music.
 ---
 
 <img class="ui image" src="../images/localfiles.PNG">
-              
-
-## INTRODUCTION:
+      
 
 I began playing and learning piano seriously at age 20. This may seem late by some, but I feel I have picked up the instrument fairly easily. I had some experience with music prior, playing saxophone in high-school band and dabbling with guitar, however I feel my strongest instrument most suited to me is the piano.
 
-So far I have enjoyed the journey. I started slow, playing basic songs. However now I can play experts from challenging classical pieces, as well as some "fun" songs like Toy Story and the like. Reading and learning sheet music has similarity to Computer Science. Reading sheet is a lot like reading code; there are many little pieces that when pulled together creates a beautiful, cohesive project. I also have experienced recording some of my songs, and have uploaded them to my iTunes account so that I can listen to and study my playing.
-
-***************************************************************************************
+So far I have enjoyed the journey. I started slow, playing basic songs. However now I can play experts from challenging classical pieces, as well as some "fun" songs like Toy Story and the like. Reading and learning sheet music has similarity to Computer Science. Reading sheet is a lot like reading code; there are many little pieces that when pulled together creates a beautiful, cohesive project. I also have experienced recording some of my songs, and have uploaded them to my Spotify account so that I can listen to and study my playing.
 
 
 ***************************************************************************************
-
 
