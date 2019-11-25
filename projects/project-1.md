@@ -5,7 +5,7 @@ image: images/start.png
 title: Slot Machine
 permalink: projects/slotmachine
 # All dates must be YYYY-MM-DD format!
-date: 2018-04-01
+date: 2018-11-01
 labels:
   - Java
   - Games

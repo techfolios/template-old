@@ -5,7 +5,7 @@ image: images/babel.jpg
 title: Infinite Monkey Theorem
 permalink: projects/imt
 # All dates must be YYYY-MM-DD format!
-date: 2018-11-01
+date: 2018-04-01
 labels:
   - Java
   - Discrete Mathematics
