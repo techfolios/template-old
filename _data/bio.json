@@ -51,14 +51,25 @@
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "Languages",
       "level": "",
       "keywords": [
-        "C",
+        "C/C++",
         "Java",
         "Javascript",
         "LaTex",
         "HTML/CSS"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "level": "",
+      "keywords": [
+        "Semantic UI",
+        "React",
+        "Meteor",
+        "Cloudinary",
+        "Google G Suite"
       ]
     },
     {
