@@ -19,6 +19,11 @@ summary: To help promote a local craftsman's ukulele business, I built a website
 ## LINK
 See the site here : [Lymana Ukuleles](http://lymana-ukuleles.com/)
 
+## SOME FEATURES:
+* Built using HTML & CSS
+* Google Maps helped built with Google G Suite account
+* PayPal integration. Used their button code from their site.
+
 ## BACKSTORY:
 Growing up, my Uncle Lyman was like a father to me. He would take me fishing, surfing, and teach me all sorts 
 of useful and practical things. Uncle Lyman was always a very talented craftsman; he could build and fix anything
