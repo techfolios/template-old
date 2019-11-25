@@ -24,6 +24,7 @@ summary: To help promote a local craftsman's ukulele business, I built a website
 * Google Maps integration with API key from Google G Suite account
 * PayPal implementation. Used their button code from their site.
 * Unique favicon (small icon that appears in the web bar)
+* Clicking the Facebook icon in the navbar opens up the business's actual Facebook page in a new tab.
 * Avoided hosting fees by using free Github Pages. Changed .github.io extension to custom domain name with GoDaddy.
 
 ## BACKSTORY:
