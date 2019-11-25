@@ -17,7 +17,7 @@ summary: To help promote a local craftsman's ukulele business, I built a website
 ---
 
 <img class="ui image" src="../images/lymana.PNG">
-[Lymana Ukuleles](http://lymana-ukuleles.com/)
+           [Lymana Ukuleles](http://lymana-ukuleles.com/)
 
 ## SOME FEATURES:
 * Built using HTML & CSS with Semantic UI framework
