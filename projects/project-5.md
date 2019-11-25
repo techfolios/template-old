@@ -16,13 +16,14 @@ labels:
 summary: To help promote a local craftsman's ukulele business, I built a website from scratch. Note this is still an ongoing work-in-progress.
 ---
 
-## LINK
-See the site here : [Lymana Ukuleles](http://lymana-ukuleles.com/)
+<img class="ui image" src="../images/slot.gif">
+[Lymana Ukuleles](http://lymana-ukuleles.com/)
 
 ## SOME FEATURES:
 * Built using HTML & CSS
-* Google Maps helped built with Google G Suite account
+* Google Maps built with Google G Suite account
 * PayPal integration. Used their button code from their site.
+* Unique favicon (small icon that appears in the web bar)
 
 ## BACKSTORY:
 Growing up, my Uncle Lyman was like a father to me. He would take me fishing, surfing, and teach me all sorts 
