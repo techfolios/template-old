@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/piano.png
 title: Journey with Piano
-permalink: projects/slotmachine
+permalink: projects/piano
 # All dates must be YYYY-MM-DD format!
 date: 2018-12-01
 labels:
