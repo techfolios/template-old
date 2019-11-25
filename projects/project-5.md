@@ -21,8 +21,8 @@ summary: To help promote a local craftsman's ukulele business, I built a website
 
 ## SOME FEATURES:
 * Built using HTML & CSS with Semantic UI framework
-* Google Maps built with Google G Suite account
-* PayPal integration. Used their button code from their site.
+* Google Maps integration with API key from Google G Suite account
+* PayPal implementation. Used their button code from their site.
 * Unique favicon (small icon that appears in the web bar)
 * Avoided hosting fees by using free Github Pages. Changed .github.io extension to custom domain name with GoDaddy.
 
