@@ -16,7 +16,7 @@ labels:
 summary: To help promote a local craftsman's ukulele business, I built a website from scratch. Note this is still an ongoing work-in-progress.
 ---
 
-<img class="ui image" src="../images/slot.gif">
+<img class="ui image" src="../images/lymana.PNG">
 [Lymana Ukuleles](http://lymana-ukuleles.com/)
 
 ## SOME FEATURES:
