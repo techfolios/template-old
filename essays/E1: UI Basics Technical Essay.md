@@ -1,3 +1,16 @@
+---
+layout: essay
+type: essay
+title: E1: UI Basics Technical Essay 
+# All dates must be YYYY-MM-DD format!
+date: 2019-08-30
+labels:
+  - Management Information System
+  - Learning
+---
+
+
+
 Introduction : 
 
   My experience with these WODS has been very educational. When I first looked at the assignment, it seemed easy. The assignment was asking to do the code on your own on the first attempt and if you take too long (DNF'd) then you look at the screencast and try again without references opened. However, I tried doing these without having done the readings. So obviously, I DNF'd all first attempts on my own and didn't make it much far. However, after watching the screencast I learned a lot but was still confused on some concepts like what does h1/h2 mean, or what is an anchor or what an href was. If I had done the readings I think I would've been better off in my first attempt because I would understand what the instructions wanted me to do. 
