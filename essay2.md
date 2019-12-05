@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "E4 : Progress In Programming"
+title: "E1 : UI Basics Technical Blog"
 # All dates must be YYYY-MM-DD format!
 date: 2019-12-05
 labels:
