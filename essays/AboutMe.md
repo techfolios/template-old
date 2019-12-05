@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: Major Decision 
-date: 2019-09-3
+date: 2019-09-03
 labels:
   - Student
 ---
