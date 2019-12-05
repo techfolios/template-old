@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: E4 : Progress in programming
 # All dates must be YYYY-MM-DD format!
-date: 2019-08-30
+date: 2019-12-05
 labels:
   - Management Information System
   - Learning
