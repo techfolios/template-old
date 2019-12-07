@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/fixed.PNG
 title: Campus Maintenance Web App
-permalink: projects/slotmachine
+permalink: projects/manoafixed
 # All dates must be YYYY-MM-DD format!
 date: 2019-12-01
 labels:
