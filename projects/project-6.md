@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/fixed.png
+image: images/fixed.PNG
 title: Campus Maintenance Web App
 permalink: projects/slotmachine
 # All dates must be YYYY-MM-DD format!
