@@ -16,7 +16,7 @@ labels:
   - IntelliJ
   - Github
   - Web Design
-summary: My team and I created a web tool to help create and organize campus-related repairs.
+summary: My team and I developed a web tool to help create and organize campus-related repairs.
 ---
 
 
