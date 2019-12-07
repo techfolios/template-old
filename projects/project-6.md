@@ -16,7 +16,6 @@ labels:
   - Cloudinary
   - IntelliJ
   - Github
-  - Web Design
 summary: My team and I developed a web tool to help create and organize campus-related repairs.
 ---
 
