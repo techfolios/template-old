@@ -34,5 +34,4 @@ You can view the Github repo [here](https://github.com/manoa-fixed).
 
 ***************************************************************************************
 
-*This project was developed in the [Eclipse IDE](https://www.eclipse.org/) and utilized the [EZ Graphics Library](http://www2.hawaii.edu/~dylank/ics111/) created by graduate student Dylan Kobayashi.*
 
