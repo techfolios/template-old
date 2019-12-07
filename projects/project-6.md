@@ -13,6 +13,7 @@ labels:
   - Meteor
   - MongoDB
   - Galaxy
+  - Cloudinary
   - IntelliJ
   - Github
   - Web Design
