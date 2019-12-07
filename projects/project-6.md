@@ -19,6 +19,7 @@ labels:
 summary: My team and I developed a web tool to help create and organize campus-related repairs.
 ---
 
+<img class="ui image" src="../images/Landing.PNG">
 
 ## INTRODUCTION:
 For my Software Engineering class, my final project was to create some type of web app for the university within a team. After some thinking, my team and I decided we wanted to work with the maintenance department and help them out
