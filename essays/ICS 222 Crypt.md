@@ -16,9 +16,9 @@ In ICS 222 : Basic Concepts of Comp. Sci students were required to do two writin
 
 I went with the second option because I found it to be more interesting. Also I wanted to use the tools given in this class to learn more about cryptography.
 
-Here is my [abstract](Nicolai_Roman_ICS222_Project1Abstract).
+Here is my [abstract]({{ site.baseurl }}/essays/Nicolai_Roman_ICS222_Project1Abstract.pdf).
 
-Here is my [full report](Nicolai_ICS222_Project2).
+Here is my [full report]({{ site.baseurl }}/essays/Nicolai_ICS222_Project2.pdf).
 
 I was satisfied with my report and it helped increase my interest in cryptography. Also I want to mention that ICS 222 was actually one of the hardest ICS courses I have ever taken, despite the somewhat misleading name of "Basic Concepts of Comp. Sci". The course was effectively a heavy math course.
 
