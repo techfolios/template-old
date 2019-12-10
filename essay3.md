@@ -14,7 +14,7 @@ labels:
 
 
 1. Provide a brief introduction to the assignment along with a link to this page for further details
-I made a little funko pop e-store using a server. Here's a link to my essay's https://ttruong4.github.io/essays/
+I made a little funko pop e-store using a server. 
 
 2. What did you learn from this assignment?
 I learned that this assignment is very difficult in terms of getting things to work as opposed to assignment 1. I was able to copy code and get things to work for assignment 1 but for assignemnt 2, I was struggling a lot because I had to understand the what each line of code was actually doing and Professor Port helped me understand the fundamental concepts through his office hours. 
