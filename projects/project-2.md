@@ -46,8 +46,8 @@ I will also include screenshots of things I have printed using this program to h
   " ooooo"
   
   
-<img class="ui medium right floated rounded image" src="../images/godsearch.gif">
- Finding " god"
+<img class="ui medium left floated rounded image" src="../images/godsearch.gif">
+ *Finding " god"*
 
 
 It is interesting to see the time it took for the computer to print these words. Keep in mind that a computer also "types" at a speed many many times faster than a monkey. These were some of the longest words I could generate. When I attempted to try a sentence, my computer ran for about an hour or so before I called it quits. 
