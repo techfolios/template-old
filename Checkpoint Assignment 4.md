@@ -1,13 +1,14 @@
 ---
 layout: essay
 type: essay
-title: Checkpoint Assignment 4
+title: "E6 : Checkpoint Assignment 4"
 # All dates must be YYYY-MM-DD format!
 date: 2019-12-10
 labels:
   - Management Information System
   - Learning
 ---
+
 
 
 1. Describe the web-application you intend to build (in detail please!)
