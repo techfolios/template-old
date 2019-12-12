@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: E5 Technical Essay 
+title: Checkpoint Assignment 4
 date: 2019-12-11
 labels:
   - Checkpoint
