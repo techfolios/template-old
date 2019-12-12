@@ -12,14 +12,19 @@ labels:
 I plan on building an e-commerce website in which a user can browse in an alcoholic delivery system. The company for the website will be called Plug808. The website will allow a user to browse and purchase a choosing of his or hers choice of alcoholic products. Also, the user will choose a preferred method of: delivery or advanced order. The products offered will be categorized in to 8 pages. Ranging from different types of alcohol and party supplies. The categories included are: beer, gin, sake, whiskey, wine, vodka, and party supplies. In addition, I will include a bio page (“About us”), contact page, home page, location page, invoice, log in, and registration. Furthermore, the website will allow the user to keep track of their current checkout.
 
 # Indicate how you expect the application will make use of the required technical complexity items (e.g. file I/O, sessions, multi-dimensional arrays, etc.)
+
 File I/O:
 -	The user will log in/register before completing their purchase
+
 Sessions/Cookies:
 -	A re-login will appear for the user if there is inactivity for 20 minutes.
+
 Multi-dimensional arrays:
 -	Products page and Registration page
+
 CSS/HTML:
 -	Pages will be html, and the CSS will supply aesthetics and direction
+
 Form processing and validation of Conditionals, Entries, and Loops:
 -	Product quantities, log in, registration 
 
