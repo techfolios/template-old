@@ -14,7 +14,7 @@ summary: A text-based rpg dungeon crawler game I developed with a team for EE 20
 
 <img class="ui image" src="{{ site.baseurl }}/images/soulquest_play.PNG">
 
-## About Me
+## Overview
 
 SoulQuest is a fantasy text-based rpg dungeon crawler game I developed applying object oriented programming techniques learned in class and using Github to manage the code within the team. The inspiration of this game came from games like [Slay the Spire](https://en.wikipedia.org/wiki/Slay_the_Spire) and [Oregon Trail](https://en.wikipedia.org/wiki/The_Oregon_Trail_(series)).
 
