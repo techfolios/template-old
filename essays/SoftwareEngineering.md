@@ -3,7 +3,7 @@ layout: essay
 type: essay
 published: true
 title: More Than Making Websites
-date: 2019-17-12
+date: 2019-12-17-17
 labels:
   - Software Engineering
   - Software Development
