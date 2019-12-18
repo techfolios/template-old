@@ -16,7 +16,7 @@ summary: Developed Policy and Procedure IAW Department of Defense Requirements
 
 As an intern performing IT services over the summer of 2019, I was faced with a seemingly insurmountable challenge: using several thick books of Department of Defense (DoD) legalese, such as the NIST 800-171 and DAAPM 2.0, to develop practical policies and procedures for my employer. These would be used by my company to meet the cybersecurity requirements of doing business with the United States DoD.  At first, I had no idea how to start and felt in over my head.  I'd assumed IT work would involve replacing computer parts and updating software, not parsing dense manuals and developing intricately compliant documents.  However, I was determined to find a way to succeed.
 
-<img class="ui image" size="small" src="{{ site.baseurl }}/images/DoD.png">
+<img class="ui image" size="tiny" src="{{ site.baseurl }}/images/DoD.png">
 
 I remembered something I'd read about when I was developing my interests in creative writing called the "Snowflake Method."  This technique involves starting from a small number of significant concepts, and then branching each out in further detail.  Each of these branches is fleshed out further, and after so many iterations a full product is complete.  Being a programming student, the concept of recursion came to mind, achieving a big goal in small achievable tasks.  Using this strategy, I isolated each specific requirement, extracted relevant policy points and procedural requirements, and went from there.
 
