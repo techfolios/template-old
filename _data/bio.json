@@ -29,11 +29,6 @@
         "network": "twitter",
         "username": "TreySumida",
         "url": "http://twitter.com/TreySumida"
-      },
-      {
-        "network": "instagram",
-        "username": "treysumida",
-        "url": "http://instagram.com/treysumida"
       }
     ]
   },
@@ -49,7 +44,7 @@
       ]
     },
     {
-      "name": "renewable energy",
+      "name": "website development",
       "keywords": [
       ]
     }
@@ -63,7 +58,9 @@
         "C++",
         "Java",
         "Javascript",
-        "Python"
+        "Python",
+        "Meteor",
+        "CSS"
       ]
     },
     {
@@ -94,7 +91,7 @@
       "endDate": "2017-07-15",
       "summary": "It was my first job experience which I got during high school. I learned how to interact with customers and get along with coworkers.",
       "highlights": [
-        "Trusted to open and close the shop on my own.",
+        "Trusted to open and close the shop on my own."
       ]
     },
     {
