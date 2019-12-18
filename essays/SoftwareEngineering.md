@@ -19,4 +19,6 @@ In ICS 314 we learned about a style of agile project management called issue dri
 
 ## **Development Environments**
 The way that your development environment is configured can sometimes make all the difference to the efficiency and
- ease at which you work at.
+ ease at which you work at. Knowing which IDE's work best with certain languages will help when forming your development
+  environment. By narrowing down your search, you can take a closer look at a couple of IDE's to decide which one you
+   are more comfortable with, rather than skimming over all the IDE's that are out there. 
