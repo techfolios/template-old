@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images\simply savory\simply-savory-logo.png
+image: images/simply savory/ScreenShotUpdates/Card.png
 title: Simply Savory
 permalink: projects/simplysavory
 # All dates must be YYYY-MM-DD format!
@@ -14,11 +14,13 @@ labels:
 summary: A web application that provides a centralized site for UH Manoa students to learn and share affordable recipes.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/simply savory/UpdatedPages/UpdatedLanding.jpg">
+<img class="ui image" src="{{ site.baseurl }}/images/simply savory/ScreenShotUpdates/Landing.png">
 
 ## Overview
 
 Simply Savory is a web application that provides a centralized site for UH Manoa students to learn and share affordable recipes that can be prepared with minimal kitchen facilities (both on and off campus) to suit local taste sensibilities. Users will be able to browse posted recipes, search and filter by specific ingredients, and save recipes to their personal “cookbook”. Recipes will have additional information that is useful for students on a budget, such as price per serving, and ingredient sales at nearby supermarkets.
+
+<img class="ui image" src="{{ site.baseurl }}/images/simply savory/ScreenShotUpdates/Favorites.png">
 
 ## My Contributions
 
