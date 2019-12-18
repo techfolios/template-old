@@ -10,7 +10,7 @@ labels:
   - Software Engineering
   - Learning
 ---
-<img class="ui tiny left circular floated image" src="../images/crossing_the_finish_line.jpg">
+<img class="ui image" src="../images/crossing_the_finish_line.jpg">
 
 Though I entered into ICS 314 expecting to learn some Javascript and how to structure a program, I instead felt like I learned how to build a website. So when I walked out of this class for the last time, it certainly did not feel like a Software Engineering class. However, stopping to reflect and finishing up my final project, I reflected more on the things that I did not explicitly learn, but instead got used to doing. What I discovered were both hard and soft skills that I am able to use for a variety of subjects. Most of them had to relate to working with others, which I had little experience with in terms of coding. So, when I started to adopt them and add them to my process like building blocks, it felt natural and I did not really notice. However, reflecting on them really does clear up and make more obvious how much I have learned this semester.
 
