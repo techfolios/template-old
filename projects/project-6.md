@@ -41,7 +41,7 @@ Here I will list some specific contributions I had to the project...
 * Changed Image submit in Edit Report from being a raw URL to an upload button in Cloudinary, similar to Add Report.
 * Moved certain schema values into a "View Attribute" PopUp.
 * Added a Hidden Date field in the Reports schema.
-* Conceptualized the Status feature and helped inmplement it in the Reports schema. Made it so only Admins can change it.
+* Conceptualized the Status feature and helped implement it in the Reports schema. Made it so only Admins can change it.
 * Got Community Feedback.
 
 ## FINAL THOUGHTS
