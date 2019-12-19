@@ -12,6 +12,7 @@ labels:
   - Semantic-UI
   - React
   - MongoDB
+  
 summary: For the final project of ICS 314, our group continued our project that we started at HACC 2019. The project
  was to create a new loan application site for the GEM$ Program.
 ---
