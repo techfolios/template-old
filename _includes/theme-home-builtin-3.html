@@ -1,0 +1,51 @@
+<!-- Home page design with card including image -->
+{% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.draft != true" %}
+{% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
+{% assign num_essays = essay_pages.size %}
+{% assign num_projects = project_pages.size %}
+
+<div style="height: 100%" class="ui middle aligned grid ">
+
+  <div class="column">
+
+    <div style="max-width: 400px; margin-top: 0px" class="ui fluid centered card">
+      <div class="image">
+        <img src="{{ site.data.bio.basics.picture }}">
+      </div>
+
+      <div class="center aligned content">
+        <span class="header">{{ site.data.bio.basics.name }}</span>
+        <div class="meta">
+          <span class="date">{{ site.data.bio.basics.label }}</span>
+        </div>
+        <div class="left aligned description">
+          {{ site.data.bio.basics.summary }}
+        </div>
+      </div>
+      <div class="center aligned content">
+        <div class="description">
+          Interests:
+          {% for interest in site.data.bio.interests %}
+          {{ interest.name }}{% if forloop.last != true %}, {% endif %}
+          {% endfor %}
+
+        </div>
+      </div>
+      <div class="center aligned extra content">
+        {% include home-network-links.html %}
+      </div>
+      <div class="center aligned content">
+        <a href="{{ site.baseurl}}/projects/">
+          <button class="ui basic button">Projects ({{ num_projects }})</button>
+        </a>
+        <a href="{{ site.baseurl}}/essays/">
+          <button class="ui basic button">Essays ({{ num_essays }})</button>
+        </a>
+        <a href="{{ site.baseurl}}/bio/">
+          <button class="ui basic button">{{ site.bio-page-label }}</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</div>

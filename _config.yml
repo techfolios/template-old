@@ -1,0 +1,27 @@
+# Site settings
+
+# REQUIRED CHANGES
+# Edit next line, providing your own name.
+title: Thomas William Herman, Jr. | Professional Portfolio
+# Edit next line, replacing 'techfolios' with your github username
+url: "https://HermanTW.github.io"
+# Edit next line so that baseurl is "" if your repo is <username>.github.io
+baseurl: ""
+
+# OPTIONAL CHANGES
+# You might want to change the bio page label to something else, such as CV
+bio-page-label: Resume
+# You might want to change the theme associated with one or more sections of the site.
+# Defining your own custom theme variations is easy. See the documentation.
+theme-home: theme-home-builtin-3.html
+theme-projects: theme-projects-builtin-2.html
+theme-essays: theme-essays-builtin-2.html
+theme-bio: theme-bio-builtin-2.html
+
+# Specify the rouge syntax highlighter theme. Pick one from css/rouge.
+rouge-theme: igorpro
+
+# YOU NORMALLY NEVER CHANGE THE FOLLOWING
+markdown: kramdown
+include: [_data]
+
