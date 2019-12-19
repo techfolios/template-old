@@ -10,10 +10,6 @@ labels:
   - Software Engineering
 ---
 
-<img class="ui small right floated image" src="../images/cyber.jpg" width="200" height="200">
-<a href="https://stackoverflow.com/questions/22255159/how-to-convert-str-to-int">
-<a href="http://www.catb.org/esr/faqs/smart-questions.html">How to ask questions the smart way</a>
-
 ## Learning through trials and tribulations
 
 I've recently completed a course in software engineering, and it was no joke.  We learned a new topic nearly every week, then were given a pass/fail timed challenge to accomplish. From learning Javascript, HTML, and CSS all the way to using Meteor and agile project management in Github to develop a complex final project, it was quite a journey.  The various tasks we undertook in our project required me not only to refresh my memory on topics learned months ago, but to scour the internet to learn many new things as well.  While the experience is fresh in my mind, let me share with you what I've learned along the way.
