@@ -10,8 +10,18 @@ labels:
   - Software Engineering
 ---
 
-<img class="ui small right  floated image" src="../images/cyber.jpg" width="200" height="200">
+<img class="ui small right floated image" src="../images/cyber.jpg" width="200" height="200">
 <a href="https://stackoverflow.com/questions/22255159/how-to-convert-str-to-int">
+<a href="http://www.catb.org/esr/faqs/smart-questions.html">How to ask questions the smart way</a>
 
+## Learning through trials and tribulations
 
-## 
+I've recently completed a course in software engineering, and it was no joke.  We learned a new topic nearly every week, then were given a pass/fail timed challenge to accomplish. From learning Javascript, HTML, and CSS all the way to using Meteor and agile project management in Github to develop a complex final project, it was quite a journey.  The various tasks we undertook in our project required me not only to refresh my memory on topics learned months ago, but to scour the internet to learn many new things as well.  While the experience is fresh in my mind, let me share with you what I've learned along the way.
+
+## Work smarter, not harder
+
+<img class="ui small right floated image" src="../images/cyber.jpg" width="200" height="200">
+
+Working on team projects can be very tough, especially in college.  There can be so many pieces of the puzzle to share, and keeping track of who is doing what and whether everything is done can be tough.  In addition, there's always the fear that one of your team members isn't doing his art.  Luckily, we learned to apply agile project management to tackle our project.  This concept we utilized in Github allowed us to split our lofty goals into manageable tasks, and assign each person one at a time.  We could easily check online what needed to be done, and keep track of who has done what and how much is left.  As hard as the project was, I wouldn't want to have gone without it.  Even though it is intended for programmers, I plan on using it for group projects in the future.  My girlfriend even wants to use it to keep track of the employees she manages.  It's refreshing when learning one subject leads to realizations and opportunities in other aspects of life as well.
+
+##
