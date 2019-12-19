@@ -29,17 +29,19 @@
   },
   "interests": [
     {
-      "name": "software engineering",
+      "name": "internet of things",
+      "keywords": [
+        "Arduino",
+        "TI MSP430"
+      ]
+    },
+    {
+      "name": "data mining",
       "keywords": [
       ]
     },
     {
-      "name": "algorithms",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "creative processes",
+      "name": "artificial intelligence",
       "keywords": [
       ]
     }
@@ -49,19 +51,23 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
+        "C",
         "C++",
         "Java",
         "Javascript",
-        "HTML"
+        "Assembly",
+        "Common Lisp"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "Windows",
+        "MacOS",
         "Ubuntu",
         "Git/GitHub",
+        "g++",
+        "TI LaunchPad"
       ]
     }
   ],
@@ -111,8 +117,8 @@
       "position": "Information Technology Intern",
       "website": "www.makai.com",
       "startDate": "2019-07",
-      "endDate": "Present",
-      "summary": "Performed computer services and cybersecurity work",
+      "endDate": "2019-10",
+      "summary": "Performed computer services and cybersecurity activities",
       "highlights": [
         "Serviced computer hardware and software systems",
         "Assisted programmers with code commits and updates",
@@ -143,6 +149,20 @@
         "Coordinated with local personnel to undertake complex plant evolutions",
         "Created, edited, and updated plant policies and procedures",
         "Developed and investigated short and long term key performance indicators for issues"
+      ]
+    },
+    {
+      "company": "US Navy",
+      "position": "Nuclear Reactor Operator/Nuclear Electronics Technician",
+      "website": "http://www.navy.com",
+      "startDate": "2006-02",
+      "endDate": "2013-05",
+      "summary": "Operated and performed electronics maintenance on Naval Nuclear Reactors",
+      "highlights": [
+        "Accomplished highly intricate and sensitive operations on nuclear reactor",
+        "Performed maintenance on delicate equipment using highly stringent procedures",
+        "Developed and maintained exams for personnel",
+        "Trained students in both classroom and on-the-job environment"
       ]
     }
   ],
