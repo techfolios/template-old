@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-published: true
+published: false
 title: Computer Science vs. Software Engineering
 date: 2019-9-10
 labels:
