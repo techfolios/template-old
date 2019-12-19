@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/logo.png
+image: images/DoD.jpg
 title: Eatereez Website Project
 permalink: projects/Eatereez-project
 # All dates must be YYYY-MM-DD format!
@@ -13,37 +13,12 @@ labels:
   
 summary: Developed innovative website for finding local eateries 
 ---
+<img class="ui image" size="medium" src="{{ site.baseurl }}/images/DoD.jpg">
 
-<img class="ui image" size="big" src="{{ site.baseurl }}/images/eatereez.png">
+As an intern performing IT services over the summer of 2019, I was faced with a seemingly insurmountable challenge: using several thick books of Department of Defense (DoD) legalese, such as the NIST 800-171 and DAAPM 2.0, to develop practical policies and procedures for my employer. These would be used by my company to meet the cybersecurity requirements of doing business with the United States DoD.  At first, I had no idea how to start and felt in over my head.  I'd assumed IT work would involve replacing computer parts and updating software, not parsing dense manuals and developing intricately compliant documents.  However, I was determined to find a way to succeed.
 
-## The better way to choose a restaurant
+I remembered something I'd read about when I was developing my interests in creative writing called the "Snowflake Method."  This technique involves starting from a small number of significant concepts, and then branching each out in further detail.  Each of these branches is fleshed out further, and after so many iterations a full product is complete.  Being a programming student, the concept of recursion came to mind, achieving a big goal in small achievable tasks.  Using this strategy, I isolated each specific requirement, extracted relevant policy points and procedural requirements, and went from there.
 
-When the time comes to decide what to eat, the convention has traditionally been to discuss the type of restaurant.  For example, a common choice would be between Italian, Chinese, or Mexican.  Yelp and other websites have that covered.  However, that method has disadvantages.  What if the Italian place doesn't have gluten-free options?  What if the Mexican place doesn't have vegan options?  Nobody wants to go to a restaurant just to find that there's nothing on the menu they want.  As time becomes increasingly precious and people have more particular dietary needs, we wanted to make it easy to find a place nearby where you can find something just for you.  The website I and my team have developed will provide nearby options for everyone's palate.  With <a href="http://eatereez.meteorapp.com/#/">Eatereez</a>, developed specifically for the University of Hawaii campus at Manoa, students can have the expected conveniences of Yelp with the added benefits of meeting their dietary restrictions and being customized for their locale.  Let me show a few parts of this project I was able to contribute.
+<img class="ui image" size="small" src="{{ site.baseurl }}/images/snowflake.jpg">
 
-## Getting hungry?
-
-First, we have the Food Finder page:
-
-<img class="ui image" size="big" src="{{ site.baseurl }}/images/list.png">
-
-As you can see, not only can the restaurants be sorted by type of food (e.g. Chinese, Sandwich) but also by dietary restrictions.  The prototype includes vegan and vegetarian options, but the ultimate version would include others as determined to be the most common, such as gluten-free options.  Displaying basic info in a list, this page provides links for each restaurant which will provide more information.
-
-## Attention to details
-
-Next is the Restaurant Details page:
-
-<img class="ui image" size="big" src="{{ site.baseurl }}/images/details.png">
-
-This page shows relevant information about the chosen eatery.  While not reinventing the wheel, it does allow logged in users to submit reviews which will be immediately posted, and the restaurant rating will be updated upon refresh.  It also allows them to delete their own review, or to flag others which may be inappropriate.  While many sites require approval before posting reviews, users would be using their student email addresses and thus will be accountable for their word choices.
-
-## Allowing community input helps everyone
-
-Finally, we have the Submit a Restaurant page:
-
-<img class="ui image" size="big" src="{{ site.baseurl }}/images/submit.png">
-
-An additional perk of our website allows users to easily contribute to the website by submitting local eateries not already included in the database.  This is especially important for this area as food trucks come and go.  By allowing this, we can ensure that we have every food joint around the campus.
-
-## The beginning of something more
-
-Working on this project was very challenging, and I learned a lot about overcoming obstacles, debugging code, and solving seemingly inexplicable puzzles.  If you would like to see more, the depository is hosted on <a href="https://github.com/nutrition-positions/eatereez">Github</a>While this is just a prototype, there are further options we would like to implement should we continue this project.  For example, ultimately we'd like to include the option to simply choose the dish that the user craves.  This way the restaurants would be filtered by the dish desired.  Personally this is the biggest drawback to Yelp for me.  Fortunately, as I learn to not only code but utilize software engineering to plan and execute projects, I can improve upon software when I see gaps or flaws.  This is just one more step towards making programs that make a difference, and allow me to realize my vision to make more efficient and user-friendly apps.
+Over time, something looking like a legitimate businesslike form began to take shape.  Despite no past interest, skill, or motivation in developing policies in accordance with government requirements, I had successfully found a way to create a detailed professional document.  This effort would ensure our company would not only be able to continue to conduct business with the government, but also to detail requirements and practices to avoid malicious cybersecurity attacks on our proprietary data to protect the business and its employees.  In the future when I feel a task is insurmountable, I will likely recall this experience and realize nearly anything can be accomplished with the right attitude and game plan.
