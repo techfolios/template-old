@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/swtor.png
-title: MMO Guildmaster Project
+title: MMO Guildmaster Undertaking
 permalink: projects/swtor-gm
 # All dates must be YYYY-MM-DD format!
 date: 2015-05-15
