@@ -29,7 +29,7 @@ my level of understanding. Therefore, I never had the chance to modify and play 
 of code at the time (this game had a lot of JavaScript).
 
 <div class="ui medium rounded images">
-<img class="ui image" src="{{ site.baseurl }}/images/sources.jpg">
+<img class="ui image" src="{{ site.baseurl }}/images/sources.PNG">
 </div>
 
 After taking ICS 314, I now have the knowledge needed to actually work with open source software projects. I now have the tools (such as Github
@@ -43,7 +43,7 @@ from Github Desktop to my actual development environment. On the other hand I pr
 web browswer launch feature. 
 
 <div class="ui medium rounded images">
-<img class="ui image" src="{{ site.baseurl }}/images/sissys.jpg">
+<img class="ui image" src="{{ site.baseurl }}/images/sissys.jpeg">
 </div>
 
 The tricky thing about Development Environments are that they take a lot of practice. The more a person uses them, the more familiarity they gain with the subtle quirks of the software. This has the obvious benefit of increasing the speed in which a programmer is able to code and create projects. Oftentimes, projects have many moving parts, and one small error can set a programmer back and be incredibly frustrating. For example, I had trouble with the in-class WODs in the beginning of the semester, mostly due to my inexperience with the software. My trouble solving the WODs stemmed from technical difficulties, not really conceptual ones. This is why it is important to gain practice with the IDE before diving headfirst into massive projects.
@@ -52,7 +52,7 @@ The tricky thing about Development Environments are that they take a lot of prac
 The two previous sections lead directly to this final one. Project management was something I had to learn on the job during ICS 314. Towards the end of the semester, we students were tasked with creating a project in a team setting. The coding and ideas itself weren't the most challenging part of the project. Rather, project management arguably was. It was somewhat difficult to coordinate a team effectively. All members have different abilites and opinions and to get everyone to agree on aspects of the site was no easy task. 
 
 <div class="ui medium rounded images">
-<img class="ui image" src="{{ site.baseurl }}/images/agile.jpg">
+<img class="ui image" src="{{ site.baseurl }}/images/agile.PNG">
 </div>
 
 A tool to try and organize this was the Project Board on Github. We used the Project Board to create, document, and assign Issues to various members of the group. The Project Board was useful in managing this because of its clear visiblity. It was a little tricky at first because I did not understand the difference between Cards and Issues. Now I know that Issues are better because of the ability to "close" it on Github. Overall I am thankful for this tool and it definitely made our project development run more smoothly.
