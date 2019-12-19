@@ -60,11 +60,13 @@
       "level": "",
       "keywords": [
         "Windows",
-        "Ubuntu",
+        "Semantic UI React",
+        "Meteor",
         "Git/GitHub",
       ]
     }
-  ],  "education": [
+  ],  
+  "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Science (expected Spring, 2021)",
