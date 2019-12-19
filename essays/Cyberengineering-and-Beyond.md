@@ -36,7 +36,8 @@ Growing up as a child, I always enjoyed puzzles.  Brain teasers, mysteries, and 
 "
 One thing only I know, and that is that I know nothing.
 "
-</blockquote>
 <footer>
--Socrates
+  ::before
+-"Socrates"
 </footer>
+</blockquote>
