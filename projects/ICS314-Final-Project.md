@@ -16,7 +16,7 @@ summary: For the final project of ICS 314, our group continued our project that 
  was to create a new loan application site for the GEM$ Program.
 ---
 
-<img class="ui image" src="../images/landing.png">
+<img class="ui image" src="../images/Landing.png">
 
 ## **Overview**
 [Simple Green Loans](http://simple-green-loans.meteorapp.com/#/) is a website that was created by [Wiley Bui](https://wileybui.github.io/), [Arslan Rakhmankulov](https://github.com/arslan-r), [Ryota Seki](https://github.com/ryotabs
@@ -50,5 +50,5 @@ Working on this project I learned how to work in a larger group of people to dev
   development, and if I ever need to create one quickly for any reason, I am confident I would be able to do. 
   
 ## **Links**
-[Github Project Page](https://github.com/green-loan-portal/simple-green-loans)
-[Project Homepage](https://green-loan-portal.github.io/#overview)
+- [Github Project Page](https://github.com/green-loan-portal/simple-green-loans)
+- [Project Homepage](https://green-loan-portal.github.io/#overview)
