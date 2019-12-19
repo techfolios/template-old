@@ -1,0 +1,20 @@
+<!-- Used by theme-bio-builtin-1 -->
+
+{% if site.data.bio.references %}
+<div class="row">
+  <div class="two wide column">
+    <h3 class="ui left aligned header no-bottom">References</h3>
+  </div>
+
+  <div class="fourteen wide column no-bottom">
+    <p class="ui no-bottom">
+    {% for entry in site.data.bio.references %}
+      {{ entry.name }}
+      {% if entry.reference and entry.reference.size > 0 %}
+        <em>{{ entry.reference }}</em>
+      {% endif %}
+    {% endfor %}
+    </p>
+  </div>
+</div>
+{% endif %}
