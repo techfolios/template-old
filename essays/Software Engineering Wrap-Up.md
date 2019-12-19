@@ -26,7 +26,7 @@ A sort of "breakthrough moment" I had with Github was tied to a previous experie
 to download the code for an online game I had been playing. I went to Github because I was told that it would be possible to customize the game
 to my own desires, and eventually be able to play my own version of the game. However I found the instructions to be complicated and beyond
 my level of understanding. Therefore, I never had the chance to modify and play the game to my liking. I also had a very elementary understanding
-of code (this game had a lot of JavaScript).
+of code at the time (this game had a lot of JavaScript).
 
 After taking ICS 314, I now have the knowledge needed to actually work with open source software projects. I now have the tools (such as Github
 Desktop and IDEs) to clone code and make edits easily. I also now know to test my code locally before deploying it to a real server. Concluding,
