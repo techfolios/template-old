@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/pokemon.jfif
-title: Java Pokemon Game Project
+title: Java Pokemon Game
 permalink: projects/pokemon_project
 # All dates must be YYYY-MM-DD format!
 date: 2018-12-20
