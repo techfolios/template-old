@@ -29,17 +29,19 @@
   },
   "interests": [
     {
-      "name": "software engineering",
+      "name": "internet of things",
+      "keywords": [
+        "Arduino",
+        "TI MSP430"
+      ]
+    },
+    {
+      "name": "data mining",
       "keywords": [
       ]
     },
     {
-      "name": "algorithms",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "creative processes",
+      "name": "artificial intelligence",
       "keywords": [
       ]
     }
@@ -49,19 +51,23 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
+        "C",
         "C++",
         "Java",
         "Javascript",
-        "HTML"
+        "Assembly",
+        "Common Lisp"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "Windows",
+        "MacOS",
         "Ubuntu",
         "Git/GitHub",
+        "g++",
+        "TI LaunchPad"
       ]
     }
   ],
