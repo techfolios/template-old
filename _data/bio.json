@@ -29,19 +29,17 @@
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "software engineering",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "algorithms",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "creative processes",
       "keywords": [
       ]
     }
@@ -51,27 +49,22 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
-        "C",
         "C++",
         "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "HTML"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
+        "Windows",
         "Ubuntu",
         "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
       ]
     }
-  ],
-  "education": [
+  ],  "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Science (expected Spring, 2021)",
@@ -115,7 +108,7 @@
     {
       "company": "Makai Ocean Engineering, Inc.",
       "position": "Information Technology Intern",
-      "website": "www.makai.com",
+      "website": "http://www.makai.com",
       "startDate": "2019-07",
       "endDate": "2019-10",
       "summary": "Performed computer services and cybersecurity activities",
