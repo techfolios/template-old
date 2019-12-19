@@ -14,7 +14,7 @@ labels:
 I want to start off by saying that ICS 314 Software Engineering I was one of my favorite ICS courses to date. I say this because all aspects
 of the course were useful to me. The course covers a lot of bases: from new languages, Github, Portfolios, to a practical project, it all
 was worth my while. The material given in this course is absolutely necessary to a Computer Science student. I am overall thankful for the 
-experience of taking this course. The following sections will address three aspects of the course that I thought was particularly useful.
+experience of taking this course. The following sections will address three aspects of the course that I thought were particularly useful.
 
 ## Open Source Software Development
 Open source development was a topic that I am now comfortable with. Prior to this course I had very little experience with Github, now I cannot imagine working 
