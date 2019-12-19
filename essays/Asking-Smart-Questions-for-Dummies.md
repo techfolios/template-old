@@ -10,7 +10,7 @@ labels:
   - Learning Plan
 ---
 
-<img class="ui small right circular floated image" src="../images/QM.jpg" width="50" height="50">
+<img class="ui small right circular floated image" src="../images/QM.jpg" width="150" height="150">
 
 ## There may be no such thing as dumb questions, but there are sure are smart ones
 
