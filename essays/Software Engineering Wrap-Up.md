@@ -29,7 +29,7 @@ my level of understanding. Therefore, I never had the chance to modify and play 
 of code at the time (this game had a lot of JavaScript).
 
 <div class="ui medium rounded images">
-<img class="ui image" src="{{ site.baseurl }}/images/sources.png">
+<img class="ui image" src="{{ site.baseurl }}/images/souces.png">
 </div>
 
 After taking ICS 314, I now have the knowledge needed to actually work with open source software projects. I now have the tools (such as Github
