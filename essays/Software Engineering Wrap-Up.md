@@ -38,3 +38,5 @@ Development Environments go hand-in-hand with Github. I have had experience and 
 class assignments. I found working with Visual Studio on my Professional Portfolio to be the best option, because it worked seamlessly in transition
 from Github Desktop to my actual development environment. On the other hand I prefered working with IntelliJ for web projects because of the instant
 web browswer launch feature. 
+
+The tricky thing about Development Environments are that they take a lot of practice. The more a person uses them, the more familiarity they gain with the subtle quirks of the software. This has the obvious benefit of increasing the speed in which a programmer is able to code and create projects. Oftentimes, projects have many moving parts, and one small error can set a programmer back and be incredibly frustrating. For example, I had trouble with the in-class WODs in the beginning of the semester, mostly due to my inexperience with the software. My trouble solving the WODs stemmed from technical difficulties, not really conceptual ones. This is why it is important to gain practice with the IDE before diving headfirst into massive projects.
