@@ -38,6 +38,6 @@ One thing only I know, and that is that I know nothing.
 "
   <br>
 <footer>
-Socrates
+-Socrates
 </footer>
 </blockquote>
