@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/logo.png
-title: Eatereez Website Project
+title: Eatereez Website
 permalink: projects/Eatereez-project
 # All dates must be YYYY-MM-DD format!
 date: 2019-12-18
