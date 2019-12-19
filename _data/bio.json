@@ -29,19 +29,17 @@
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "software engineering",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "algorithms",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "creative processes",
       "keywords": [
       ]
     }
@@ -51,13 +49,9 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
-        "C",
         "C++",
         "Java",
         "Javascript",
-        "BASIC",
-        "Meteor",
-        "React",
         "HTML"
       ]
     },
@@ -65,12 +59,12 @@
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "Git/GitHub",
         "Windows",
+        "Ubuntu",
+        "Git/GitHub",
       ]
     }
-  ],
-  "education": [
+  ],  "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Science (expected Spring, 2021)",
