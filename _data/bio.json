@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Thomas W. Herman, Jr.",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://HermanTW.github.io/images/ProfPic.jpg",
+    "email": "hermantw@hawaii.edu",
+    "phone": "732-232-6199",
+    "website": "https://HermanTW.github.io",
+    "summary": "I am studying for a B.S. in Computer Science at the University of Hawaii. I expect to graduate in Spring 2021.",
     "location": {
-      "address": "",
-      "postalCode": "96822",
+      "address": "3412 Alohea Ave",
+      "postalCode": "96816",
       "city": "Honolulu",
       "countryCode": "USA",
       "region": "Hawaii"
@@ -17,41 +17,29 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "HermantW",
+        "url": "http://github.com/HermanTW"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "thomas-herman-15015588",
+        "url": "https://www.linkedin.com/in/thomas-herman-15015588/"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "software engineering",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "algorithms",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "creative processes",
       "keywords": [
       ]
     }
@@ -61,103 +49,114 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
-        "C",
         "C++",
         "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "HTML"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
+        "Windows",
         "Ubuntu",
         "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
       ]
     }
-  ],
-  "education": [
+  ],  "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Spring, 2021)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2019-01",
       "endDate": "Present",
-      "gpa": "",
+      "gpa": "3.97",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Kapi'olani Community College",
+      "area": "Computer Science",
+      "studyType": "A.S.",
+      "startDate": "2018-09",
+      "endDate": "2018-12",
+      "gpa": "4.0",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Ocean Community College, Toms River, NJ",
+      "area": "General Studies",
+      "studyType": "A.A.",
+      "startDate": "2004-01",
+      "endDate": "2005-05",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Lehigh University, Bethlehem, PA",
+      "area": "Information & Systems Engineering integrated with Business",
+      "studyType": "B.S.",
+      "startDate": "2001-09",
+      "endDate": "2003-12",
       "courses": [
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "company": "Makai Ocean Engineering, Inc.",
+      "position": "Information Technology Intern",
+      "website": "http://www.makai.com",
+      "startDate": "2019-07",
+      "endDate": "2019-10",
+      "summary": "Performed computer services and cybersecurity activities",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Serviced computer hardware and software systems",
+        "Assisted programmers with code commits and updates",
+        "Developed cybersecurity policies and procedures to conform with DoD requirements"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Xerox Corporation",
+      "position": "Field Technician",
+      "website": "http://www.xerox.com",
+      "startDate": "2018-03",
+      "endDate": "2018-08",
+      "summary": "Performed services on Xerox equipment",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Troubleshot Xerox software and hardware at customer sites",
+        "Assisted customers to maximize use of their products"
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "company": "Linde Americas",
+      "position": "Remote Operator",
+      "website": "http://www.lindeus.com",
+      "startDate": "2014-02",
+      "endDate": "2017-12",
+      "summary": "Remotely operated Air Separation Plants",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Remotely monitored parameters and operated up to 7 Air Separation Units",
+        "Coordinated with local personnel to undertake complex plant evolutions",
+        "Created, edited, and updated plant policies and procedures",
+        "Developed and investigated short and long term key performance indicators for issues"
       ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "company": "US Navy",
+      "position": "Nuclear Reactor Operator/Nuclear Electronics Technician",
+      "website": "http://www.navy.com",
+      "startDate": "2006-02",
+      "endDate": "2013-05",
+      "summary": "Operated and performed electronics maintenance on Naval Nuclear Reactors",
+      "highlights": [
+        "Accomplished highly intricate and sensitive operations on nuclear reactor",
+        "Performed maintenance on delicate equipment using highly stringent procedures",
+        "Developed and maintained exams for personnel",
+        "Trained students in both classroom and on-the-job environment"
+      ]
     }
   ],
   "references": [
