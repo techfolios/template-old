@@ -22,7 +22,7 @@ without it. Github provides an easy way to store code (in the form of repositori
 tool for group work. Github has many features that allow for easy work within a group. I also gained familiarity with cloning, pushing/pulling, 
 merging, and project boards. 
 
-A sort of "breakthrough moment" I had with Github was tied to a previous experience I had with the site. A few years ago I directed to Github
+A sort of "breakthrough moment" I had with Github was tied to a previous experience I had with the site. A few years ago I was directed to Github
 to download the code for an online game I had been playing. I went to Github because I was told that it would be possible to customize the game
 to my own desires, and eventually be able to play my own version of the game. However I found the instructions to be complicated and beyond
 my level of understanding. Therefore, I never had the chance to modify and play the game to my liking. I also had a very elementary understanding
