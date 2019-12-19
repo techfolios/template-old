@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Cyberengineering and Beyond
+title: Software Engineering and Beyond
 # All dates must be YYYY-MM-DD format!
 date: 2019-12-18
 labels:
@@ -36,8 +36,8 @@ Growing up as a child, I always enjoyed puzzles.  Brain teasers, mysteries, and 
 "
 One thing only I know, and that is that I know nothing.
 "
+  <br>
 <footer>
-  ::before
-"Socrates"
+Socrates
 </footer>
 </blockquote>
