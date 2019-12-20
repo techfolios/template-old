@@ -20,6 +20,7 @@ summary: My team and I developed a web tool to help create and organize campus-r
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/D70NVoY2TAI" frameborder="0" allowfullscreen=""></iframe>
+   * Voice-Over by my teammate Yuuma Yamamoto *
 
 ## INTRODUCTION:
 For my Software Engineering class, my final project was to create some type of web app for the university within a team. After some thinking, my team and I decided we wanted to work with the maintenance department and help them out
