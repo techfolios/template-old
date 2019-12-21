@@ -1,0 +1,5 @@
+---
+layout: pay
+type: pay
+---
+
