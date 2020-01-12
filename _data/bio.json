@@ -54,7 +54,8 @@
       "name": "Languages",
       "level": "",
       "keywords": [
-        "C/C++",
+        "C",
+        "C++",
         "Java",
         "Javascript",
         "LaTex",
@@ -62,7 +63,7 @@
       ]
     },
     {
-      "name": "Frameworks",
+      "name": "Web Dev",
       "level": "",
       "keywords": [
         "Semantic UI",
@@ -73,16 +74,26 @@
       ]
     },
     {
-      "name": "Toolsets/OS",
+      "name": "Toolsets/IDEs",
       "level": "",
       "keywords": [
-        "Windows",
         "Visual Studio Code",
+        "Eclipse",
+        "IntelliJ",
+        "gcc, g++",
         "Git/GitHub",
         "Unix",
         "Virtual Box",
         "Kali Linux",
         "Adobe Creative Suite"
+      ]
+    },
+    {
+      "name": "OS",
+      "level": "",
+      "keywords": [
+        "Windows 10",
+        "Mac OS Sierra"
       ]
     }
   ],
