@@ -58,7 +58,8 @@
         "C++",
         "Java",
         "Javascript",
-        "LaTex",
+        "Typescript",
+        "LaTeX",
         "HTML/CSS"
       ]
     },
@@ -69,6 +70,7 @@
         "Semantic UI",
         "React",
         "Meteor",
+        "MongoDB",
         "Cloudinary",
         "Google G Suite"
       ]
@@ -80,9 +82,9 @@
         "Visual Studio Code",
         "Eclipse",
         "IntelliJ",
-        "gcc/g++",
         "Git/GitHub",
         "Unix",
+        "gcc/g++",
         "vi/vim",
         "Virtual Box",
         "Kali Linux",
@@ -94,7 +96,7 @@
       "level": "",
       "keywords": [
         "Windows 10",
-        "Mac OS Sierra"
+        "macOS Sierra"
       ]
     }
   ],
@@ -107,6 +109,7 @@
       "endDate": "Present",
       "gpa": "",
       "courses": [
+        "ICS 111 - Introduction to Computer Science I"
       ]
     }
   ],
