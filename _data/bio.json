@@ -109,7 +109,13 @@
       "endDate": "Present",
       "gpa": "",
       "courses": [
-        "ICS 111 - Introduction to Computer Science I"
+        "ICS 111 - Introduction to Computer Science I (Java Programming)",
+        "ICS 141 - Discrete Mathematics for Computer Science I",
+        "ICS 211 - Introduction to Computer Science II (Data Structures in Java)",
+        "ICS 212 - Program Structure (C/C++ Programming)",
+        "ICS 222 - Basic Concepts of Computer Science (CS Math)",
+        "ICS 241 - Discrete Mathematics for Computer Science II",
+        "ICS 314 - Software Engineering I"
       ]
     }
   ],
