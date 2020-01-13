@@ -8,6 +8,10 @@
 
 // Default background color
 body {
+  //background-color: #f2f2f2;
+  //background-color: #000080;
+  //background-color: beige;
+  //background-color: darkslategrey;
   background-color: #303340;
   color: white;
 }
@@ -24,12 +28,8 @@ h3 {
   color: white !important;
 }
 
-// Default menubar color
 .ui.menu {
-  //background: lighten(silver, 10%);
-  //background: lighten(blue, 10%);
-  //background: black
-  background: skyblue
+  background: lighten(silver, 10%);
 }
 
 .ui.basic.button {
