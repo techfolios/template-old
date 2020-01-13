@@ -17,7 +17,11 @@ body {
 }
 
 a {
-  color:#6494ED
+  color: white !important;
+}
+
+h1 {
+  color: white !important;
 }
 
 h2 {
@@ -30,7 +34,8 @@ h3 {
 
 // Default menu bar
 .ui.menu {
-  background: lighten(silver, 10%);
+  //background: lighten(silver, 10%);
+  background: black;
 }
 
 .ui.basic.button {
