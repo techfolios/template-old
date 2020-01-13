@@ -28,6 +28,7 @@ h3 {
   color: white !important;
 }
 
+// Default menu bar
 .ui.menu {
   background: lighten(silver, 10%);
 }
