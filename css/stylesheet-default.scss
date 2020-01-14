@@ -8,41 +8,12 @@
 
 // Default background color
 body {
-  //background-color: #f2f2f2;
-  //background-color: #000080;
-  //background-color: beige;
-  //background-color: darkslategrey;
-  background-color: #303340;
-  color: white;
+  background-color: #f2f2f2;
 }
 
-// Link color
-a {
-  color:#6494ED;
-}
-
-h1 {
-  color: white !important;
-}
-
-h2 {
-  color: white !important;
-}
-
-h3 {
-  color: white !important;
-}
-
-// Default menu bar
+// Default menubar color
 .ui.menu {
-  //background: lighten(silver, 10%);
-  background: darkslategrey;
-  color: white !important;
-}
-
-.ui.basic.button {
-  color: darkslateblue !important;
-  background: skyblue !important;
+  background: lighten(silver, 10%);
 }
 
 // Default home page icon color
