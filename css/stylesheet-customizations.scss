@@ -26,13 +26,13 @@ body {
 
 // Customize the menubar color
 .ui.menu {
-   background: lighten(silver, 10%);;
+   background: lighten(silver, 10%);
    color: white !important;
 }
 
 .ui.basic.button {
   color: darkslateblue !important;
-  background: skyblue !important;
+  background: lighten(silver, 10%) !important;
 }
 
 pre {
