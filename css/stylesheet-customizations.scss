@@ -10,7 +10,6 @@ h2 {
   color: white !important;
 }
 
-
 h3 {
   color: white !important;
 }
@@ -27,13 +26,8 @@ body {
 
 // Customize the menubar color
 .ui.menu {
-   background: darkslategrey;
+   background: lighten(silver, 10%);;
    color: white !important;
-}
-
-.ui.fluid.centered.card.card-layout {
-  // custom-1 theme
-  // background-color: #1678C2;
 }
 
 .ui.basic.button {
