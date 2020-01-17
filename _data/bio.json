@@ -29,12 +29,7 @@
   },
   "interests": [
     {
-      "name": "Computer Security",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Information Systems",
+      "name": "Privacy Engineering",
       "keywords": [
       ]
     },
@@ -44,7 +39,12 @@
       ]
     },
     {
-      "name": "Helping Others",
+      "name": "Computer Security Policy",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Geospacial Information Systems",
       "keywords": [
       ]
     }
