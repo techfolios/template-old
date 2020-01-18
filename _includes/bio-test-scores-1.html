@@ -1,17 +1,17 @@
 <!-- Used by theme-bio-builtin-1 -->
 
-{% if site.data.bio.references %}
+{% if site.data.bio.test-scores %}
 <div class="row">
   <div class="two wide column">
-    <h3 class="ui left aligned header no-bottom">References</h3>
+    <h3 class="ui left aligned header no-bottom">Test Scores</h3>
   </div>
 
   <div class="fourteen wide column no-bottom">
     <p class="ui no-bottom">
-    {% for entry in site.data.bio.references %}
+    {% for entry in site.data.bio.test-scores %}
       {{ entry.name }}
-      {% if entry.reference and entry.reference.size > 0 %}
-        <em>{{ entry.reference }}</em>
+      {% if entry.test-scores and entry.test-scores.size > 0 %}
+        <em>{{ entry.test-scores }}</em>
       {% endif %}
     {% endfor %}
     </p>
