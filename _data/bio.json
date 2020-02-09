@@ -1,169 +1,366 @@
 {
-  "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
-    "location": {
-      "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
-      "countryCode": "USA",
-      "region": "Hawaii"
+    "basics": {
+        "name": "Emillia E. Noordhoek",
+        "label": "Technical Project Manager and Software Engineer (Android and iOS)",
+        "picture": "Program Management &  Community Development",
+        "email": "molokaiemillia@gmail.com",
+        "phone": "01-563-547-5083",
+        "website": "don’t have a website",
+        "summary": "I am a creative, strategic, energetic global thinker and a leader in implementing community project objectives using a design thinking toolkit for sustainable futures back casting, team building, problem solving and task management. /n I love to be challenged and I look forward to the technical, interpersonal, and business growth that happens when people work well together. I am particularly interested in continuously learning new workflows and processes that enable teams to thrive. I enjoy autonomy and teamwork to complete projects. For the past 13 years  I have lived  and worked on a remote island in Hawaii Molokai  as a co-founder of two non-profits  Sustainable Molokai and the Molokai Arts Center./n I particularly enjoy the work of a social entrepreneur  and find starting an organization from the ground up exciting as I learn  everything I can about that process.I have a talent for beginning and programs and making them  very successful as my CV can attest.I have worked in  communities  the world over  networking, growing programs and  exchanging ideas from renewable energy, artist in residencies, community organizing,  fundraising and development .  I feel that one of my callings is working in and for communities because of this  I have  developed the  ability to walk into almost any community with humility, roll up  my sleeves  develop strategies and igniting changes when needed./n I have  degrees in  both  art and business so I am able to  use a full  range of skills to ensure that  no small detail  gets drop but I also have the  vision of the full picture in my minds eye. I am authentic and straight forward i work  hard to meet  people where they are at and bridge social  political  and managerial differences so that  the team succeeds as well as the individual, because of my  years in the n on-profit sector I have first hand experience of burn out and watched as brilliant people who have  given their heart and soul  to an organization  but leave  nothing for themselves /n",
+        "location": {
+            "address": "",
+            "postalCode": "",
+            "city": "Amsterdam",
+            "countryCode": "NL",
+            "region": ""
+        },
+        "profiles": [{
+                "network": "Twitter",
+                "username": "JungleDev",
+                "url": "https://twitter.com/jungledev"
+            },
+            {
+                "network": "GitHub",
+                "username": "JungleDev",
+                "url": "https://github.com/heidihansen"
+            }
+        ]
     },
-    "profiles": [
-      {
-        "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
-      },
-      {
-        "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
-      }
-    ]
-  },
-  "interests": [
-    {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "artificial intelligence",
-      "keywords": [
-      ]
-    }
-  ],
-  "skills": [
-    {
-      "name": "Languages and Frameworks",
-      "level": "",
-      "keywords": [
-        "C",
-        "C++",
-        "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
-      ]
-    },
-    {
-      "name": "Toolsets/OS",
-      "level": "",
-      "keywords": [
-        "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
-      ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "gpa": "",
-      "courses": [
-      ]
-    }
-  ],
-  "work": [
-    {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
-      "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
-  ],
-  "references": [
-    {
-      "name": "Available upon request",
-      "reference": ""
-    }
-  ]
+    "work": [{
+            "company": "Northern Lights Studios",
+            "position": "President",
+            "website": " should have a website",
+            "startDate": " 09-2005",
+            "endDate": "",
+            "summary": "Community Liaison and development lead for Groundswell, a community solar, non- profit developer to develop a project for Molokai for the Community Based Renewable Energy(CBRE) pilot project phase. Offer Environmental and Leadership in Energy and Environmental Design (LEED) consulting services to private clients and six grass roots community organizations",
+            "highlights": [
+                "Worked with Native Hawaiian Community on Moloka to  create a project for the first community owned renewable energy project in Hawaii",
+                "Researched and analysed development options to suit budget and design considerations secured funding for consulting position",
+                "Advised Groundswell on  how to approach the Community, landowners and utility  and  other stakeholders on Molokai and through-out the state.",
+                "Advocated for the community and was able to maintain transparency  through -out the process ",
+                "Assisted local builders in shepherding the process for LEED  building status in Hawaii and the mainland USA."
+            ]
+        },
+        {
+            "company": "Biep Boep Software",
+            "position": "Software Engineer and Project Manager",
+            "website": "",
+            "startDate": "2014-09-01",
+            "endDate": "",
+            "summary": "Software consultancy",
+            "highlights": [
+                "ANDROID DEVELOPER (KOTLIN) AND IOS DEVELOPER (OBJECTIVE-C) - June 2018 – Oct 2019\nPortes: An asymmetric-encryption-based status verification app.  Portes lets you access controlled content anonymously, like having a digital wristband, without sharing your personal ,identity.  In this role, I worked closely with one other developer to create both native iOS and Android apps from scratch with full feature parity. In this role, I spent about 80% of my time on the Android app.\n- Secure enclave\n- QR scanning\n- Biometric identification\n- Networking without 3rd party frameworks\n- Coroutines\n- Room database\n- Live Observers\n- Constraint-based layouts",
+                "IOS Developer (OBJECTIVE-C AND SWIFT - LITHOBYTE (FORMERLY THRYV, INC.) - 2015 - 2018\nMobile app development firm, with a focus on creating apps from scratch for entrepreneurs. Apps worked on:\n- Viden: A yelp-like app to review travel activities in European countries. (Objective-C)\n- Subway:NYC and BostonT transit apps (Swift)",
+                "DESIGNER - DOMCO: Interactive GUI to manage and update construction licenses and certifications - 2017\n- Redesigned Domco’s legacy GUI, using Sketch, to create an admin portal for contractors, owners, employees, and certifying authorities.",
+                "PROJECT MANAGER - NEDL: Startup founded to automate finding, selecting, and screening software engineers to hire. - 2015\n- Created business strategy\n- Designed first version of product\n- Sourced, hired, and managed engineering team"
+            ]
+        },
+        {
+            "company": "SimpliSafe Home Security",
+            "position": "Software Engineer - iOS (Objective-C and C)",
+            "website": "https://simplisafe.com/",
+            "startDate": "2016",
+            "endDate": "2017",
+            "summary": "Simplisafe’s home security system is a comprehensive whole-house hardware solution controlled from a mobile app.  In this role, I was part of a team of three mobile developers.  We collaborated with >40 hardware engineers to integrate the cameras, sensors, keypads, alarms, and base stations into the mobile apps. ",
+            "highlights": [
+                "Created performant buffered stream video players to display HD feeds from MJPEG H264 video streams",
+                "Crafted an incredible UX to view and control up to 5 time-synced HD video streams in one view",
+                "Resolved memory leaks using instruments and interface inspector.",
+                "Worked closely with firmware engineers to integrate communication with all hardware sensors via cellular, wifi, and bluetooth to trigger camera recording, motion detection, push notifications, and disaster response.",
+                "Proposed and developed comprehensive standards and processes to automate and simplify git flow, Jira workflows, app bundling, CI/CD, app store updates, documentation, and test automation.",
+                "Decreased app deployment time from 4+ days to 30 minutes.",
+                "Accelerated app update frequency from every 6 months to once a month.",
+                "Aided the creation of a mentoring program to train in-house customer service representatives to transition into the engineering department to join the QA team.",
+                "Proposed and implemented an overhaul of the hiring process to improve outcomes and reduce bias."
+            ]
+        },
+        {
+            "company": "Trill, Inc.",
+            "position": "Software Engineer - iOS (Objective-C)",
+            "website": "https://www.trill.me/",
+            "startDate": "2015-07-01",
+            "endDate": "2016-03-01",
+            "summary": "Trill was an iOS app designed to improve discoverability of cultural experiences like theater, art shows, and more.  I worked closely with another developer to create the beautifully designed app from scratch in Objective-C.",
+            "highlights": [
+                "Custom tableview animations",
+                "Facebook login",
+                "Rails database run on Heroku"
+            ]
+        },
+        {
+            "company": "Sitecues by AiSquared",
+            "position": "Software Engineer - Technical Writer, QA Engineer, Web Developer",
+            "website": "http://www.aisquared.com/",
+            "startDate": "2015-03-01",
+            "endDate": "2015-08-01",
+            "summary": "Sitecues is an innovative Web-based accessibility solution that builds zoom and speech features into websites to enhance the usability for website visitors who experience visual and print difficulties",
+            "highlights": [
+                "Created custom Sitecues product site using Java to replace legacy wordpress site",
+                "Wrote product press releases and educational posts on topics of true accessibility versus basic compliance, testing your software for accessibility, design considerations for users with low vision, blindness, dyslexia, and other disabilities.",
+                "Created unit test suite using Javascript Mocha for core product",
+                "Created documentation system and documented all processes for hiring, onboarding, planning, dev ops, and development.",
+                "Spearheaded the development and implementation of a Quality Assurance Testing program to meet the strict legal compliance demands for the innovative browser widget to install and run in <40 milliseconds on any website across all browsers",
+                "Managed team of 40 testers with Applause, triaged results, and created year-long sprint implementation roadmap for bug fixes and new features"
+            ]
+        },
+        {
+            "company": "Executive House",
+            "position": "Project Manager - Commercial Property Development",
+            "website": "",
+            "startDate": "2017-01-01",
+            "endDate": "2017-12-31",
+            "summary": "Executive house (‘Casa Ejecutivo’) is a six unit luxury boutique hotel I developed.  The original structure was an overgrown uninhabited two story house on a large steep lot.  ",
+            "highlights": [
+                "Researched and evaluated real estate investment strategies and surveyed and inspected hundreds of properties to meet the needs of the investor",
+                "Discovered an unlisted asset and brokered the purchase",
+                "Created comprehensive proposal to estimate costs, timeline, future expansion options, and ROI",
+                "Developed site survey and designed landscaping, stonework, steel earthquake reinforcement of the foundation, and exterior restoration.",
+                "Designed custom furniture, kitchens, and bathrooms built from locally sourced Forest Stewardship  Council ( FSC) certified  hardwoods",
+                "Sourced and led team of 10 tradespeople to replace plumbing, electrical, septic, water filtration and storage, networking, stonework, steel framing, and landscaping.",
+                "Created branding and marketing strategy"
+            ]
+        },
+        {
+            "company": "Wailau Organic Farm and Educational Center",
+            "position": "Operations Manager, Founder, and Architect",
+            "website": "",
+            "startDate": "2009-12-01",
+            "endDate": "2014-02-01",
+            "summary": "Procured and developed a 1.71-acre plot of raw land in a roadless valley into an off grid home and teaching center.  ",
+            "highlights": [
+                "Fundraised to purchase and develop land",
+                "Designed and built energy efficient house from 100% salvaged materials, ",
+                "Designed and installed off-grid solar photovoltaic power supply, satellite internet, micro-hydro generator, plumbing, hot water system, cellular tower relay, and whole-house electrical system.",
+                "Organized annual procurement, transport, and preservation of a year’s worth of food storage.  Transport means included barge, motorboat, kayak, backpacking, swimming, and helicopter. ",
+                "Consulted with Sust’ainable Molokai to assist in the design and engineering for the first LEED-certified off-grid home on Molokai built from locally grown materials.",
+                "Developed, marketed, organized, hosted, and taught educational retreats for individuals, groups, and organizations including The Boy Scouts of America on topics of sustainable agriculture, subsistence farming, seed selecting and saving, food processing and preservation, and survival skills.",
+                "Cultivated over 200 varieties of fruit trees and 400 varieties of vegetables."
+            ]
+        },
+        {
+            "company": "Paradise Palms Vacation Rentals",
+            "position": "Property Manager and Rental Agent",
+            "website": "",
+            "startDate": "2010-01-01",
+            "endDate": "2014-04-01",
+            "summary": "Proved my ability to plan, execute, and reflect on service improvements and create innovative and unique experiences  in sustainable tourism  and scaling revenue.",
+            "highlights": [
+                "Liaison among owners, maintenance teams, and guests as sole point of contact to integrate over 30 rentals between 15 owners with over a dozen websites and 6 booking platforms.",
+                "Raised occupancy rates from <60% to over 95% in the first 6 months and Sold over $1M in rental inventory in first year.  Trained owners to optimize occupancy rates, make energy efficient improvements, consolidate software tools, and automate communication to decrease overall waste and operational costs",
+                "Automated email and calendar management tools between booking platforms to reduce duplicate bookings and operational costs",
+                "Pioneered eco-tourism offerings to boost the local economy by including local art, food, services, and experiences for purchase on-site in rentals.",
+                "Negotiated agreements between owners and guests to create custom rental programs including split-unit and split-location stays, multi-unit rentals for large events, medium-term stays for travel nurses.",
+                "Designed, remodeled, and furnished interiors and repaired plumbing, electrical, fixtures, and appliances",
+                "Served as single point of contact for all guests as a local guide and assistant."
+            ]
+        }
+    ],
+    "volunteer": [{
+            "organization": "Community bicycle shops (many)",
+            "position": "Bicycle Mechanic and Teacher",
+            "website": "",
+            "startDate": "2005-03-01",
+            "endDate": "",
+            "summary": "Educator and cycling activist"
+        },
+        {
+            "organization": "Girl Develop It!",
+            "position": "Teacher's Assistant",
+            "website": "https://www.girldevelopit.com/",
+            "startDate": "2015-04-01",
+            "endDate": "2016-11-01",
+            "summary": "Teacher's assistant for Intro to iOS Development courses taught by Elliot Schrock"
+        },
+        {
+            "organization": "Artisan's Asylum, Inc.",
+            "position": "Makerspace Community Volunteer",
+            "website": "https://artisansasylum.com/",
+            "startDate": "2015-01-01",
+            "endDate": "2016-11-01",
+            "summary": "Staff volunteer for volunteer-run non-profit community fabrication center that empowers individuals to give form to their ideas through membership, education, and workspace."
+        },
+        {
+            "organization": "Boy Scouts of America",
+            "position": "Survival skills and primitive technology instructor",
+            "website": "https://www.scouting.org/",
+            "startDate": "2010-05-01",
+            "endDate": "2013-11-01",
+            "summary": "Taught courses on backwoods survival, primtive skills, friction fire making, food processing and preservation, animal processing, water treatment, tool making, flintknapping, cordage, hide tanning, etc."
+        }
+    ],
+    "education": [{
+            "institution": "MIT's FabAcademy",
+            "area": "Digital Fabrication - How to Make Almost Anything",
+            "startDate": "2019-01-01",
+            "endDate": "",
+            "courses": [
+                "Product design",
+                "Rapid Prototyping",
+                "Modelling with 2D and 3D software",
+                "Laser cutting",
+                "Circuit board design",
+                "Networking protocols",
+                "Sensors and output devices",
+                "3D printing and scanning",
+                "CNC machining",
+                "Mould design",
+                "Construction and casting",
+                "Mechanical and machine design"
+            ]
+        },
+        {
+            "institution": "Udacity",
+            "studyType": "Nanodegree",
+            "area": "Android Development",
+            "startDate": "2017-03-01",
+            "endDate": "2017-09-01"
+        },
+        {
+            "institution": "Flatiron School",
+            "studyType": "Certificate",
+            "area": "iOS App Development",
+            "startDate": "2014-06-01",
+            "endDate": "2014-09-01"
+        },
+        {
+            "institution": "The Evergreen State College",
+            "area": "Degree focus in Sustainable Design - Agriculture and Architecture",
+            "startDate": "2003-09-01",
+            "endDate": "2007-05-31"
+        }
+    ],
+    "projects": [{
+            "name": "Protect.Earth",
+            "publisher": "Company",
+            "releaseDate": "2019-09-01",
+            "website": "https://protect.earth",
+            "summary": "co-maintainer of this open source 'eco-pages' project to mitigate climate change"
+        },
+        {
+            "name": "Hardware wearable fertility montior",
+            "publisher": "Lola",
+            "releaseDate": "",
+            "website": "",
+            "summary": "(stealth mode) Designed and fabricated a wearable fertility tracker"
+        },
+        {
+            "name": "Milk and Honey",
+            "publisher": "The CleanWeb Hackathon",
+            "releaseDate": "2016-02-01",
+            "website": "",
+            "summary": "My team built a food delivery app I designed to order products from your local farmer's market to be delivered same day."
+        },
+        {
+            "name": "Boston Code Dojo",
+            "publisher": "Meetup",
+            "releaseDate": "2015-02-01",
+            "website": "",
+            "summary": "Founded and organized a meetup group w/ 300+ members, Boston Code Dojo, to teach and learn language-agnostic algorithm challenges"
+        },
+        {
+            "name": "Operations Manager, Founder, and Architect",
+            "publisher": "Wailau Organic Farm and Educational Center",
+            "releaseDate": "2009-11-01",
+            "website": "",
+            "summary": "Designed, built, and lived for 4 years in an off-grid house with solar, hydroelectric, and satellite internet"
+        }
+    ],
+    "skills": [{
+            "name": "Software Development",
+            "keywords": [
+                "iOS",
+                "Android",
+                "Kotlin",
+                "Objective-C",
+                "Swift",
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "name": "Version Control Systems",
+            "keywords": [
+                "GitHub",
+                "GitLab",
+                "Bitbucket"
+            ]
+        },
+        {
+            "name": "Project Management",
+            "keywords": [
+                "Agile/Scrum",
+                "Sprint Planning",
+                "Jira"
+            ]
+        },
+        {
+            "name": "Digital Design",
+            "keywords": [
+                "Sketch",
+                "Fusion 360",
+                "KiCad",
+                "Material Design Guidelines",
+                "Human Interface Guidelines"
+            ]
+        },
+        {
+            "name": "App Store release management and automation"
+        },
+        {
+            "name": "Operations Management"
+        },
+        {
+            "name": "Career coaching, interviewing, and hiring"
+        },
+        {
+            "name": "Technical writing"
+        }
+    ],
+    "languages": [{
+            "language": "English",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "Spanish",
+            "fluency": "Conversationally fluent"
+        }
+    ],
+    "interests": [{
+            "name": "Outdoor Access"
+        },
+        {
+            "name": "Cycling and bicycle repair"
+        },
+        {
+            "name": "Climate change"
+        },
+        {
+            "name": "Zero waste"
+        },
+        {
+            "name": "Maker culture"
+        },
+        {
+            "name": "Electronics, IoT, and Wearables"
+        },
+        {
+            "name": "Renewable energy"
+        },
+        {
+            "name": "Sustainable design"
+        },
+        {
+            "name": "Survival skills/Primitive technology"
+        },
+        {
+            "name": "Security and Privacy"
+        },
+        {
+            "name": "'FemTech' (Fertility technology)"
+        }
+    ],
+    "references": [{
+        "name": "Heidi Hansen",
+        "reference": "I'd vote for her for president."
+    }]
 }
