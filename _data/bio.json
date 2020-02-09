@@ -1,8 +1,8 @@
 {
     "basics": {
         "name": "Emillia E. Noordhoek",
-        "label": "Technical Project Manager and Software Engineer (Android and iOS)",
-        "picture": "Program Management &  Community Development",
+        "label": "Program Management &  Community Development",
+        "picture": "",
         "email": "molokaiemillia@gmail.com",
         "phone": "01-563-547-5083",
         "website": "don’t have a website",
@@ -30,8 +30,8 @@
             "company": "Northern Lights Studios",
             "position": "President",
             "website": " should have a website",
-            "startDate": " 09-2005",
-            "endDate": "",
+            "startDate": "2020-01-01",
+            "endDate": "2020-02-01",
             "summary": "Community Liaison and development lead for Groundswell, a community solar, non- profit developer to develop a project for Molokai for the Community Based Renewable Energy(CBRE) pilot project phase. Offer Environmental and Leadership in Energy and Environmental Design (LEED) consulting services to private clients and six grass roots community organizations",
             "highlights": [
                 "Worked with Native Hawaiian Community on Moloka to  create a project for the first community owned renewable energy project in Hawaii",
@@ -46,7 +46,7 @@
             "position": "Software Engineer and Project Manager",
             "website": "",
             "startDate": "2014-09-01",
-            "endDate": "",
+            "endDate": "2020-01-01",
             "summary": "Software consultancy",
             "highlights": [
                 "ANDROID DEVELOPER (KOTLIN) AND IOS DEVELOPER (OBJECTIVE-C) - June 2018 – Oct 2019\nPortes: An asymmetric-encryption-based status verification app.  Portes lets you access controlled content anonymously, like having a digital wristband, without sharing your personal ,identity.  In this role, I worked closely with one other developer to create both native iOS and Android apps from scratch with full feature parity. In this role, I spent about 80% of my time on the Android app.\n- Secure enclave\n- QR scanning\n- Biometric identification\n- Networking without 3rd party frameworks\n- Coroutines\n- Room database\n- Live Observers\n- Constraint-based layouts",
@@ -59,8 +59,8 @@
             "company": "SimpliSafe Home Security",
             "position": "Software Engineer - iOS (Objective-C and C)",
             "website": "https://simplisafe.com/",
-            "startDate": "2016",
-            "endDate": "2017",
+            "startDate": "2020-01-01",
+            "endDate": "2020-02-01",
             "summary": "Simplisafe’s home security system is a comprehensive whole-house hardware solution controlled from a mobile app.  In this role, I was part of a team of three mobile developers.  We collaborated with >40 hardware engineers to integrate the cameras, sensors, keypads, alarms, and base stations into the mobile apps. ",
             "highlights": [
                 "Created performant buffered stream video players to display HD feeds from MJPEG H264 video streams",
@@ -160,7 +160,7 @@
             "position": "Bicycle Mechanic and Teacher",
             "website": "",
             "startDate": "2005-03-01",
-            "endDate": "",
+            "endDate": "2020-02-01",
             "summary": "Educator and cycling activist"
         },
         {
@@ -192,7 +192,7 @@
             "institution": "MIT's FabAcademy",
             "area": "Digital Fabrication - How to Make Almost Anything",
             "startDate": "2019-01-01",
-            "endDate": "",
+            "endDate": "2020-01-01",
             "courses": [
                 "Product design",
                 "Rapid Prototyping",
