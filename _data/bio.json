@@ -39,7 +39,7 @@
                 "Co-founded the Tentou Network, an international renewable energy cohort of 5 organizations seeking to follow the example lead by Samso Island, Denmark as a 100% renewable energy island model for the world. We learned and taught over the course of two plus years Design Thinking concepts, leadhership development from the lessons learned on Samso how best to engagne and integrate the local communities into creating sustianable futures for eeryone.",
                 "Project Community Liaison and Development lead for Groundswell: Created communication actiivy plans for the engagement of the first community Renewable Energy(RE) project between Molokai Community, Utility, Land Owner, RE Development Team and Government liasons.",
                 "Developed the content and evaluated outcomes with varying communications channels of key stakholders invovled with the successful outcomes of the Community Renewable Energy project.",
-        },
+        
         {
             "company": "Sust`ainable Molokai",
             "position": "Co-founder and Executive Director",
@@ -110,34 +110,31 @@
     ],
     "": [
         {
-           "organization":
+           
         }
     ],
     "education": [
         {
-            "institution": "The University of Oregon, School of Architecture and Allied Arts",
-            "area": "Major in Sculpture and pottery.",
-            "studyType": "Bachelors of Fine Arts",
-            "startDate": "",
-            "endDate": "",
-            "courses": []
-        },
-        {
-            "institution": "The University Of New Mexico",
-            "area": "Art Education, Museum Studies, and Japanese Porcelain",
-            "studyType": "Graduate studies",
-            "startDate": "",
-            "endDate": ""
-        },
-        {
+
             "institution": "Portland State University",
             "area": "Sustainable Development",
             "studyType": "Master's Degree",
             "startDate": "",
             "endDate": "",
             "courses": [
-                "Credential as a Leadership in Energy and Environmental Designs( LEED) Associate Professional (AP) through the U.S Green Building Council,2nd LEED AP in the State of Hawaii in 2006"
-            ]
+                "Credential as a Leadership in Energy and Environmental Designs(LEED) Associate Professional (AP)through the U.S Green Building Council"]
+        },
+        {
+           
+        },
+        {
+            "institution": "The University of Oregon, School of Architecture and Allied Arts",
+            "area": "Major in Sculpture and pottery",
+            "studyType": "Bachelors of Fine Arts",
+            "startDate": "",
+            "endDate": "",
+            "courses": []
+            
         }
     ],
     "speaking engagements": [
@@ -267,6 +264,7 @@
                 
         }
     ],
+    
     "languages": [
         {
             "language": "English",
@@ -277,7 +275,7 @@
         {
             "name": "American politics, sustainable building and bamboo building nerd; Triathlon competition, rainforests, my beautiful dog, Japanese pottery, sourdough bread and bread ovens"
         }
-    ],
+    
     
 
 
