@@ -28,7 +28,7 @@
     },
     "work": [
         {
-            "company": " CEO Northern Lights Studios",
+            "company": "CEO Northern Lights Studios",
             "position": "Business Development & Partnerships Manager ",
             "website": "https://energiakademiet.dk/",
             "startDate": "2006-01-01",
@@ -94,7 +94,7 @@
             "website": "molokaiartscenter.org",
             "startDate": "2009-12-01",
             "endDate": "2016-09-01",
-            "summary": "Founded community based art center created finanical infrastructure, programing,artist in residents, and sustainble finances."
+            "summary": "Founded community based art center developing the finanical infrastructure, art programing,  artist in residents, with an eye towards longterm sustainablity."
         },
         {
             "company": "",
@@ -116,20 +116,21 @@
     "education": [
         {
 
-            "institution": "Portland State University",
+            "institution": "Portland State University, School of Urban Planning",
             "area": "Sustainable Development",
             "studyType": "Master's Degree",
             "startDate": "",
             "endDate": "",
             "courses": [
-                "Credential as a Leadership in Energy and Environmental Designs(LEED) Associate Professional (AP)through the U.S Green Building Council"]
+                "Credential as a Leadership in Energy and Environmental Designs(LEED) Associate Professional (AP)through the U.S Green Building Council"
+            ]
         },
         {
            
         },
         {
             "institution": "The University of Oregon, School of Architecture and Allied Arts",
-            "area": "Major in Sculpture and pottery",
+            "area": "Major in Ceramics and Sculpture",
             "studyType": "Bachelors of Fine Arts",
             "startDate": "",
             "endDate": "",
@@ -255,13 +256,13 @@
         {
             "name": "Non-Profit Magangement",
             "keywords": [
-                " Raised over $1.6 million US annually as a fearless donor deveolper, grant writing and  creating viable income-streams through program development; Building a communication strategy  for sustainable living policies; Volunteer recruitment, incorporating community volunteers into programtic work and mentoring local youth interns"
+                " Raised over $1.6 million US Dollars annually as a fearless donor deveolper, grant writing and  creating viable income-streams through program development; Building a communication strategy  for sustainable living policies; Volunteer recruitment, incorporating community volunteers into programtic work and mentoring local youth interns"
             ]
         },
         {
-            "name": "",
-            "keywords": 
-                
+            "name": []
+        
+        
         }
     ],
     
@@ -275,6 +276,7 @@
         {
             "name": "American politics, sustainable building and bamboo building nerd; Triathlon competition, rainforests, my beautiful dog, Japanese pottery, sourdough bread and bread ovens"
         }
+    ],
     
     
 
