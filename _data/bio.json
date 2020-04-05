@@ -6,8 +6,7 @@
         "email": "molokaiemillia@gmail.com",
         "phone": "+31 (0)6 3404-3194",
         "website": "https://www.emillianoordhoek.com",
-        "summary": "I am an energetic thinker delivering strategic global solutions to enable restoration of our climate and ecology. I am happily enlisiting my humble leadership to improving the functioning of our democracies to facilitate people-led climate action and energy justice on a human scale.",
-        "location": {
+        "summary": "'I'm a seasoned business development pro on a mission to help an early stage  green startup profit and thrive",
             "address": "",
             "postalCode": "",
             "city": "",
@@ -24,9 +23,9 @@
                 "username": "MolokaiEmillia",
                 "url": "https://twitter.com/MolokaiEmillia"
             }
-        ]
-    },
-    "work": [
+        ],
+
+        "work": [
         {
             "company": "CEO Northern Lights Studios",
             "position": "Business Development & Partnerships Manager ",
@@ -35,10 +34,9 @@
             "endDate": "Now",
             "summary": "Helping to strengthen and launch community-driven and volunteer-powered projects, develop, adopt meaningful community engagement strategies, and harness the power of the social web for social good. This work is guided by 13 years of prior experience working with community-based economic, environmental and energy initiatives in the Hawaiian Islands",
             "highlights": [
-                "Consulting and sheparding applications with energy companies, and non-profits in current COVID19 crisis on available Small Business Association (SBA)  emergency financial products",
-                "Project Development for Groundswell: Created communication actiivy plans for the engagement of the first community Renewable Energy(RE) project",
+                "Consulting and stewarding emergency funding applications for green startups and non-profits in current COVID19 crisis on available Small Business Association (SBA)emergency financial products",
                 "Developed the content and evaluated outcomes with varying communications channels of key stakeholders invovled with the successful outcomes of the Community Renewable Energy Project.",
-                "Co-founded the Tentou Network, an international renewable energy cohort of 5 organizations. seeking to follow the example lead by Samso Island, Denmark as a 100% renewable energy island model for the world"
+                "Co-founded the Tentou Network a green business consortium  of global leaders following in the footsteps of 100% Renewbale Energy Samso Island, Denmark."
             ]
         },
         
@@ -48,30 +46,28 @@
             "website": "sustainablemolokai.org",
             "startDate": "2007-07-01",
             "endDate": "2019-11-01",
-            "summary": "Built a financial sustainble organization from the ground up through creative fundraising, grantwriting, and donor development, increased the annual budget 100% to $1,000,000.00 annually  by the end of my tenor ",
+            "summary": "Built a financially, sustainble organization from the ground up through creative fundraising, grantwriting, and donor development, increased the annual budget 100% to $1,000,000.00 annually  by the end of my tenor ",
             "highlights": [
-                "Created new business opportunities within the public sector by networking, attending conferences, meetings social media, throughout Molokai and Hawaii",
-                "Tracked and presented programing and sales results and forecasts.",
-                "Built lasting customer relationships by understanding and tailoring programs and products to their needs.",
+                "Pioneered sustianable financial models for  Hawaii tourist to offset carbon footprint for travel.",
+                "Executed daily organizational operations including: annual budget, program implementation;community relations and organizing; program evaluation; staff and management of 6-10 team members, 30 plus volunteers.",
                 "Identified industry trends and shifts. Adjusted to acquire growth while retaining our organizational values.", 
-                "Coordinated and executed daily organizational operations including: annual budget, program implementation; community relations and organizing; program evaluation; staff and management of 6-10 team members and 30 plus volunteers; partnerships with high net worth donors.",
-                "Secured $9.6 million in public financing through the Hawaii Green Infrastructure Authority to provide revolving loans for 1,200 homes to participate in a solar programs",
-                "Developed, Coordniated, Monitered and evaluated all aspects of the the HUI UP! Program. Impacted over 1000 homes by exchanging 36,000 incandescent light bulbs for CFLs and energy effecient refrigerators creating a island-wide savings of $1,000,000.00 in energy costs over 10 years.",
-                "Created new market opportunities by repurposing defunct land into a viable bamboo farm as a carbon sink and material for biomass products. Pioneered sustianable financial models for visitors to Hawaii to offset carbon footprints.",
-                "Designed, Funded, Coordinated and Built first off grid sustainable and loacally sourced bambo home on Sustianable Molokai Educational Perma Culture Farm"
+                "Collaborated with and nutured partnerships with high net worth donors.",
+                "Secured $9.6 million in public financing through the Hawaii Green Infrastructure Authority to provide revolving loans for 1,200 homes to participate in a solar programs."
+               
+              
             ]
         },
             {
                 "company": "Habitat for Humanity",
                 "position": "Sustainability and Business Director",
-                "website": "",
+                "website": "https://themolokaidispatch.com/habitat-completes-first-grid-home/",
                 "startDate": "2006-11-01",
                 "endDate": "2010-12-01",
-                "summary": "Capitilized on the mission to build sustianable affordable housing by forming new business and brand partnerships, increasing volunteers, donations by over 50% increasing annual budget by $1.5 million",
+                "summary": "Capitilized on the mission to build sustianable affordable housing by forming new business and brand partnerships, increasing annual budget to < $1.5 million",
                 "highlights": [
-                    "Coordinated project feasibility, developed and managed project budgets, secured $1.2 million in project financing from private and public sources to build homes for local families and renovate existing housing stock with energy efficiency and solar.",
+                    "Coordinated project feasibility, developed and managed project budgets, secured $1.2 million in project financing from private and public sources pivoting focus to energy efficiency and solar.",
                     "Underwrote 15- 30 year mortgage  at 0% interest that were held by local affilate for the life of the loan.",
-                    "Developed, Coordniated, Monitered and Evaluated all aspects of the Global Village program for a net $0 income USd to a viabrant and dynmic, growing income stream generating well over $100,000 USD annually."
+                    "Developed, Coordniated, Monitered and Evaluated all aspects of the Global Village Program into a viabrant and dynmic, growing income stream generating well over $100,000 USD annually."
                 ]
             },
         
@@ -82,8 +78,7 @@
             "startDate": "2009-12-01",
             "endDate": "2016-09-01",
             "summary": "",
-            "highlights": ["Founding architect of community based art center developing  sustainable finanical infrastructure, art programing, artist in residents, and leading workshops for artists' businesses.",
-                
+            "highlights": ["Founding architect of community based art center developing  sustainable finanical infrastructure, art programing, artist in residents, and leading workshops for artists' businesses."
             ]
         },
         {
@@ -92,26 +87,31 @@
             "website": "",
             "startDate": "",
             "endDate": "",
-            "summary": ""        },
+             "summary": "", 
+            "highlights": [
+                ""
+            ]       },
         {
             "company": "",
             "position": "",
             "website": "",
             "startDate": "",
             "endDate": "",
-            "summary": ".",
+            "summary": "",
             "highlights": [
-                "."
+                ""
             ]
         }
+
     ],
     "volunteer": [
         {
            
         }
-    ],
-    "education": [
-        {
+    ], 
+    "education": [ 
+        {    
+        
 
             "institution": "Portland State University, School of Urban Planning",
             "area": "Sustainable Development",
@@ -119,20 +119,17 @@
             "startDate": "",
             "endDate": "",
             "courses": [
-                "Credential in 'Leadership in Energy and Environmental Designs(LEED) Associate Professional(AP)' through the U.S Green Building Council", 
-            ]
+                "Leadership in Energy and Environmental Designs(LEED) Associate Professional(AP)"
+                ]                
         },
-        {
-           
-        },
-        {
+        {   
+        
             "institution": "The University of Oregon, School of Architecture and Allied Arts",
             "area": "Major in Ceramics and Sculpture",
             "studyType": "Bachelors of Fine Arts",
             "startDate": "",
             "endDate": "",
             "courses": []
-            
         }
     ],
     "speaking engagements": [
@@ -205,7 +202,7 @@
             "title": "Omidyar Fellowship-Forum of Fellows",
             "date": "2014-Present",
             "awarder": "Hawaii",
-            "summary": "Omidyar Fellows is an enduring and ongoing commitment to an active network of leaders and change-makers, committed to ongoing development of our leadership."
+            "summary": "Omidyar Fellows is an enduring and ongoing commitment to an active network of leaders and change-makers."
         },
         {
             
@@ -213,7 +210,7 @@
             "title": "Hawai’i Investment Ready-Cohort III",
             "date": "2017-Present",
             "awarder": "Hawaii",
-            "summary": "HIR is a two-year program designed to help social ventures better understand and scale their impact and business models, and to assist them in accessing resources to implement their next level of growth."
+            "summary": "HIR is a two-year program designed for social ventures better understand and scale their impact and business models, to implement their next level of growth."
         },
         {
             "title": "Hawai’i Alliance for Progressive Action",
@@ -228,38 +225,38 @@
             "publisher":"",
             "releaseDate": "2012",
             "website": "sustainablemolokai.org",
-            "summary": "Molokai-pedia and the Agriculture Needs Assessment. Molokai-pedia is a project undertaken by Sustainable Molokai for the purpose of creating stronger community networks; informing key stakeholders; increasing equity and access to public and private partnerships and resources; and mobilizing our people to build as well as measure our progress towards a sustainable future."
+            "summary": "Lead writer and ressearcher for the Molokai  Agriculture Needs Assessment."
         },
         {
             "name": "Molokai Energy Assessment",
             "publisher": "",
             "releaseDate": " 2014",
             "website": "sustainablemolokai.org",
-            "summary": "The purpose of this report is to present an overview of the energy situation on the island of Molokai."
+            "summary": "Lead researcher and academic oversight for the Molokai Energy Assessment."
         }
     ],
     "skills": [
         {
             "name": "Business Development",
             "keywords": [
-                " Developing Business Plans and Panterships; PowerPoint, KeyNote and Public Speaking Ninja; Policy Development; Sustainable Building Management, Bold Investment and Financing Creditentails; Marketing and Communications Plans"
+                " Developing business plans and panterships; PowerPoint, KeyNote and dynamic public speaking; Policy development; Sustainable building management; Bold investment and financing creditentails; Marketing and communications planning."
                  ]
         },
         {
-            "name": "Coding",
+            "name": "Software Development",
             "keywords": [
-                "Programing using JSON, HTML, CIL Command Information Line, GIT and website design and building, attention to tedious detail"
+                "JSON, HTML, CIL, Git, Wordpress, VS Code"
             ]
         },
         {
             "name": "Non-Profit Magangement",
             "keywords": [
-                " Raised over $1.6 million US Dollars annually as a donor deveolper, grant writing and creating viable income-streams through program development; Building a communication strategy  for sustainable living policies; Volunteer recruitment, incorporating community volunteers into programtic work and mentoring local youth interns"
+                " Raised > $1.6 million USD/yr program and donor development and grant writing developed strategy for sustainable living policies; Volunteer recruitment, incorporating community volunteers into programtic work and mentoring local youth interns"
             ]
         },
         {
             "name": "Loan Specialist",
-            "keywords": [" 10 years Underwting Residential and Commerical loan Products including, FHA, VA, Fannie and Freddie MAC, Drawing Loan Documents Closing nad Funding and small business and non-profit loan products"
+            "keywords": ["10 years as a residential and commercial loan specialist with products such as FHA, VA, Fannie Mae and Freddie Mac including  drawing loan documents, closing and funding. Most recently built an expertise in small business and non-profit revolving loan products specifically for renewable energy and climate mitigation projects."
             ]
         
         }
@@ -272,7 +269,7 @@
     ],
     "interests": [
         {
-            "name": "American politics, sustainable bamboo buildings; Triathlon competitions and training, rainforests, my beautiful dog, Japanese pottery, sourdough bread/ovens"
+            "name": " Reforestation, American politics, renewable energy, green building designs, triathlons,dogs, pottery, wood-fire oven design and contructions."
         }
     ],
     "references":["Heidi Hansen I would vote for her for president- but my bar is low... ",
