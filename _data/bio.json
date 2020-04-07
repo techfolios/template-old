@@ -25,7 +25,7 @@
             }
         ],
 
-        "work": [
+     "work": [
         {
             "company": "CEO Northern Lights Studios",
             "position": "Business Development & Partnerships Manager ",
@@ -81,38 +81,15 @@
             "highlights": ["Founding architect of community based art center, developed sustainable finanical infrastructure, art and residency programs, and dynamic annual fundraisers."
             ]
         },
-        {
-            "company": "",
-            "position": "",
-            "website": "",
-            "startDate": "",
-            "endDate": "",
-             "summary": "", 
-            "highlights": [
-                ""
-            ]       },
-        {
-            "company": "",
-            "position": "",
-            "website": "",
-            "startDate": "",
-            "endDate": "",
-            "summary": "",
-            "highlights": [
-                ""
-            ]
-        }
+        { },
+        {}
 
     ],
-    "volunteer": [
-        {
-           
-        }
-    ], 
+    "volunteer": [{}], 
     "education": [ 
         {    
-        
 
+            
             "institution": "Portland State University, School of Urban Planning",
             "area": "Sustainable Development",
             "studyType": "Master's Degree",
