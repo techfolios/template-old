@@ -1,260 +1,249 @@
 {
     "basics": {
-        "name": "Emillia E. Noordhoek",
-        "label": "",
-        "picture": "",
-        "email": "molokaiemillia@gmail.com",
-        "phone": "+31 (0)6 3404-3194",
-        "website": "https://www.emillianoordhoek.com",
-        "summary": "'I'm a seasoned business development professional on a mission to help an early stage green startup profit and thrive",
-            "address": "",
-            "postalCode": "",
-            "city": "",
-            "countryCode": "",
-            "region": ""
-        },
-        "profiles": [
-            {
-                "network": "LinkedIn",
-                "username": "enoordhoek",
-                "url": "https://www.linkedin.com/in/enoordhoek/"
-            },{
-                "network": "twitter",
-                "username": "MolokaiEmillia",
-                "url": "https://twitter.com/MolokaiEmillia"
-            }
-        ],
-
-     "work": [
-        {
-            "company": "CEO Northern Lights Studios",
-            "position": "Business Development & Partnerships Manager ",
-            "website": "emillianoordhoek.com",
-            "startDate": "2006-01-01",
-            "endDate": "Now",
-            "summary": "Helping to strengthen and launch community-driven and volunteer-powered projects, develop, adopt meaningful community engagement strategies, and harness the power of the social web for social good. This work is guided by 13 years of prior experience working with community-based economic, environmental and energy initiatives in the Hawaiian Islands",
-            "highlights": [
-                "Consulting and stewarding emergency funding applications for green startups and non-profits in current COVID19 crisis on available Small Business Association (SBA)emergency financial products",
-                "Developed the content and evaluated outcomes with varying communications channels of key stakeholders invovled with the successful outcomes of the Community Renewable Energy Project.",
-                "Co-founded the Tentou Network a green business consortium  of global leaders following in the footsteps of 100% Renewbale Energy Samso Island, Denmark."
-            ]
-        },
-        
-        {
-            "company": "Sust`ainable Molokai",
-            "position": "Co-founder and Executive Director",
-            "website": "sustainablemolokai.org",
-            "startDate": "2007-07-01",
-            "endDate": "2019-11-01",
-            "summary": "Built a financially, sustainble organization from the ground up through creative fundraising, grantwriting, and donor development, increased the annual budget 100% to $1,000,000.00 annually  by the end of my tenor ",
-            "highlights": [
-                "Pioneered sustianable financial models for Hawaii tourists to offset carbon footprint for travel.",
-                "Executed daily organizational operations including: annual budget, program implementation;community relations and organizing; program evaluation; staff and management of 6-10 team members, 30 plus volunteers.",
-                "Identified industry trends and shifts. Adjusted to acquire growth while retaining our organizational values.", 
-                "Collaborated with and nutured partnerships with high net worth donors.",
-                "Secured $9.6 million in public financing through the Hawaii Green Infrastructure Authority to provide revolving loans for 1,200 homes to participate in a solar programs."
-               
-              
-            ]
-        },
-            {
-                "company": "Habitat for Humanity",
-                "position": "Sustainability and Business Director",
-                "website": "https://themolokaidispatch.com/habitat-completes-first-grid-home/",
-                "startDate": "2006-11-01",
-                "endDate": "2010-12-01",
-                "summary": "Capitilized on the mission to build sustianable affordable housing by forming new business and brand partnerships, increasing annual budget to < $1.5 million",
-                "highlights": [
-                    "Coordinated project feasibility, developed and managed project budgets, secured $1.2 million in project financing from private and public sources pivoting focus to energy efficiency and solar.",
-                    "Underwrote 15- 30 year mortgage at 0% interest that were held by local affilate for the life of the loan.",
-                    "Developed, Coordniated, Monitered and Evaluated all aspects of the Global Village Program into a viabrant and dynmic, growing income stream generating well over $100,000 USD annually."
-                ]
-            },
-        
-        {
-            "company": "Moloka‘i Arts Center,",
-            "position": "President",
-            "website": "molokaiartscenter.org",
-            "startDate": "2009-12-01",
-            "endDate": "2016-09-01",
-            "summary": "",
-            "highlights": ["Founding architect of community based art center, developed sustainable finanical infrastructure, art and residency programs, and dynamic annual fundraisers."
-            ]
-        },
-        { },
-        {}
-
+      "name": "Emillia E. Noordhoek",
+      "label": "",
+      "picture": "",
+      "email": "molokaiemillia@gmail.com",
+      "phone": "+31 (0)6 3404-3194",
+      "website": "https://www.emillianoordhoek.com",
+      "summary": "'I'm a seasoned business development professional on a mission to help an early stage green startup profit and thrive",
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "enoordhoek",
+        "url": "https://www.linkedin.com/in/enoordhoek/"
+      },
+      {
+        "network": "twitter",
+        "username": "MolokaiEmillia",
+        "url": "https://twitter.com/MolokaiEmillia"
+      }
     ],
-    "volunteer": [{}], 
-    "education": [ 
-        {    
-
-            
-            "institution": "Portland State University, School of Urban Planning",
-            "area": "Sustainable Development",
-            "studyType": "Master's Degree",
-            "startDate": "",
-            "endDate": "",
-            "courses": [
-                "Leadership in Energy and Environmental Designs(LEED) Associate Professional(AP)"
-                ]                
-        },
-        {   
-        
-            "institution": "The University of Oregon, School of Architecture and Allied Arts",
-            "area": "Major in Ceramics and Sculpture",
-            "studyType": "Bachelors of Fine Arts",
-            "startDate": "",
-            "endDate": "",
-            "courses": []
-        }
+    "work": [
+      {
+        "company": "CEO Northern Lights Studios",
+        "position": "Business Development & Partnerships Manager ",
+        "website": "emillianoordhoek.com",
+        "startDate": "2006-01-01",
+        "endDate": "Now",
+        "summary": "Helping to strengthen and launch community-driven and volunteer-powered projects, develop, adopt meaningful community engagement strategies, and harness the power of the social web for social good. This work is guided by 13 years of prior experience working with community-based economic, environmental and energy initiatives in the Hawaiian Islands",
+        "highlights": [
+          "Consulting and stewarding emergency funding applications for green startups and non-profits in current COVID19 crisis on available Small Business Association (SBA)emergency financial products",
+          "Developed the content and evaluated outcomes with varying communications channels of key stakeholders invovled with the successful outcomes of the Community Renewable Energy Project.",
+          "Co-founded the Tentou Network a green business consortium  of global leaders following in the footsteps of 100% Renewbale Energy Samso Island, Denmark."
+        ]
+      },
+      {
+        "company": "Sust`ainable Molokai",
+        "position": "Co-founder and Executive Director",
+        "website": "sustainablemolokai.org",
+        "startDate": "2007-07-01",
+        "endDate": "2019-11-01",
+        "summary": "Built a financially, sustainble organization from the ground up through creative fundraising, grantwriting, and donor development, increased the annual budget 100% to $1,000,000.00 annually  by the end of my tenor ",
+        "highlights": [
+          "Pioneered sustianable financial models for Hawaii tourists to offset carbon footprint for travel.",
+          "Executed daily organizational operations including: annual budget, program implementation;community relations and organizing; program evaluation; staff and management of 6-10 team members, 30 plus volunteers.",
+          "Identified industry trends and shifts. Adjusted to acquire growth while retaining our organizational values.",
+          "Collaborated with and nutured partnerships with high net worth donors.",
+          "Secured $9.6 million in public financing through the Hawaii Green Infrastructure Authority to provide revolving loans for 1,200 homes to participate in a solar programs."
+        ]
+      },
+      {
+        "company": "Habitat for Humanity",
+        "position": "Sustainability and Business Director",
+        "website": "https://themolokaidispatch.com/habitat-completes-first-grid-home/",
+        "startDate": "2006-11-01",
+        "endDate": "2010-12-01",
+        "summary": "Capitilized on the mission to build sustianable affordable housing by forming new business and brand partnerships, increasing annual budget to < $1.5 million",
+        "highlights": [
+          "Coordinated project feasibility, developed and managed project budgets, secured $1.2 million in project financing from private and public sources pivoting focus to energy efficiency and solar.",
+          "Underwrote 15- 30 year mortgage at 0% interest that were held by local affilate for the life of the loan.",
+          "Developed, Coordniated, Monitered and Evaluated all aspects of the Global Village Program into a viabrant and dynmic, growing income stream generating well over $100,000 USD annually."
+        ]
+      },
+      {
+        "company": "Moloka‘i Arts Center,",
+        "position": "President",
+        "website": "molokaiartscenter.org",
+        "startDate": "2009-12-01",
+        "endDate": "2016-09-01",
+        "summary": "",
+        "highlights": [
+          "Founding architect of community based art center, developed sustainable finanical infrastructure, art and residency programs, and dynamic annual fundraisers."
+        ]
+      },
+      {},
+      {}
+    ],
+    "volunteer": [
+      {}
+    ],
+    "education": [
+      {
+        "institution": "Portland State University, School of Urban Planning",
+        "area": "Sustainable Development",
+        "studyType": "Master's Degree",
+        "startDate": "",
+        "endDate": "",
+        "courses": [
+          "Leadership in Energy and Environmental Designs(LEED) Associate Professional(AP)"
+        ]
+      },
+      {
+        "institution": "The University of Oregon, School of Architecture and Allied Arts",
+        "area": "Major in Ceramics and Sculpture",
+        "studyType": "Bachelors of Fine Arts",
+        "startDate": "",
+        "endDate": "",
+        "courses": []
+      }
     ],
     "speaking engagements": [
-        {
-            "name": "Integrating Art into Community",
-            "type": "",
-            "author": "",
-            "publisher": "",
-            "releaseDate": "",
-            "website": "",
-            "summary": ""
-        },
-        {
-            "name": "HUI UP Energy Efficiency Program",
-            "type": "",
-            "author": "Energy Academy Sustainability Festival",
-            "publisher": "",
-            "releaseDate": "",
-            "website": "",
-            "summary": ""
-        },
-        {
-            "name": "Affordable Energy in Hawaii’s Low- and Fixed-Income Communities",
-            "type": "",
-            "author": "ReNEewReBuild Hawaii Forum",
-            "publisher": "",
-            "releaseDate": "",
-            "website": "",
-            "summary": ""
-        },
-        {
-            "name": "HUI UP Energy Efficiency Program",
-            "type": "",
-            "author": "Energy Academy Sustainability Festival",
-            "publisher": "",
-            "releaseDate": "",
-            "website": "",
-            "summary": ""
-        },
-        {
-            "name": "New Energy: Empowering Community Leadership",
-            "type": "",
-            "author": "Island Energy Conference",
-            "publisher": "",
-            "releaseDate": "",
-            "website": "",
-            "summary": ""
-        },
-        {
-            "name": "Good and Next Practice for 100% Renewable Energy Regions and Islands",
-            "type": "",
-            "author": "1st World Community Power Conference",
-            "publisher": "",
-            "releaseDate": "",
-            "website": "",
-            "summary": ""
-        },
-        {
-            "name": "Community Acceptance of 100% Renewables",
-            "type": "",
-            "author": "County of Maui Energy Conference",
-            "publisher": "",
-            "releaseDate": "",
-            "website": "",
-            "summary": ""
-        }
+      {
+        "name": "Integrating Art into Community",
+        "type": "",
+        "author": "",
+        "publisher": "",
+        "releaseDate": "",
+        "website": "",
+        "summary": ""
+      },
+      {
+        "name": "HUI UP Energy Efficiency Program",
+        "type": "",
+        "author": "Energy Academy Sustainability Festival",
+        "publisher": "",
+        "releaseDate": "",
+        "website": "",
+        "summary": ""
+      },
+      {
+        "name": "Affordable Energy in Hawaii’s Low- and Fixed-Income Communities",
+        "type": "",
+        "author": "ReNEewReBuild Hawaii Forum",
+        "publisher": "",
+        "releaseDate": "",
+        "website": "",
+        "summary": ""
+      },
+      {
+        "name": "HUI UP Energy Efficiency Program",
+        "type": "",
+        "author": "Energy Academy Sustainability Festival",
+        "publisher": "",
+        "releaseDate": "",
+        "website": "",
+        "summary": ""
+      },
+      {
+        "name": "New Energy: Empowering Community Leadership",
+        "type": "",
+        "author": "Island Energy Conference",
+        "publisher": "",
+        "releaseDate": "",
+        "website": "",
+        "summary": ""
+      },
+      {
+        "name": "Good and Next Practice for 100% Renewable Energy Regions and Islands",
+        "type": "",
+        "author": "1st World Community Power Conference",
+        "publisher": "",
+        "releaseDate": "",
+        "website": "",
+        "summary": ""
+      },
+      {
+        "name": "Community Acceptance of 100% Renewables",
+        "type": "",
+        "author": "County of Maui Energy Conference",
+        "publisher": "",
+        "releaseDate": "",
+        "website": "",
+        "summary": ""
+      }
     ],
     "awards": [
-        {
-            "title": "Omidyar Fellowship-Forum of Fellows",
-            "date": "2014-Present",
-            "awarder": "Hawaii",
-            "summary": "Omidyar Fellows is an enduring and on going commitment to an active network of leaders and change-makers."
-        },
-        {
-            
-        
-            "title": "Hawai’i Investment Ready-Cohort III",
-            "date": "2017-Present",
-            "awarder": "Hawaii",
-            "summary": "HIR is a two-year program designed for social ventures better understand and scale their impact and business models, to implement their next level of growth."
-        },
-        {
-            "title": "Hawai’i Alliance for Progressive Action",
-            "date": " 2015",
-            "awarder": "",
-            "summary": "The core of HAPA’s mission is to catalyze community empowerment and systemic change - a change that goes to the root of our social, economic and environmental injustices."
-        }
+      {
+        "title": "Omidyar Fellowship-Forum of Fellows",
+        "date": "2014-Present",
+        "awarder": "Hawaii",
+        "summary": "Omidyar Fellows is an enduring and on going commitment to an active network of leaders and change-makers."
+      },
+      {
+        "title": "Hawai’i Investment Ready-Cohort III",
+        "date": "2017-Present",
+        "awarder": "Hawaii",
+        "summary": "HIR is a two-year program designed for social ventures better understand and scale their impact and business models, to implement their next level of growth."
+      },
+      {
+        "title": "Hawai’i Alliance for Progressive Action",
+        "date": " 2015",
+        "awarder": "",
+        "summary": "The core of HAPA’s mission is to catalyze community empowerment and systemic change - a change that goes to the root of our social, economic and environmental injustices."
+      }
     ],
     "publications": [
-        {
-            "name": "Molokai Agriculture Assessment",
-            "publisher":"",
-            "releaseDate":"2012",
-            "website": "sustainablemolokai.org",
-            "summary": "Lead writer and ressearcher for the Molokai Agriculture Needs Assessment."
-        },
-        {
-            "name": "Molokai Energy Assessment",
-            "publisher": "",
-            "releaseDate": "2014",
-            "website": "sustainablemolokai.org",
-            "summary": "Lead researcher and academic oversight for the Molokai Energy Assessment."
-        }
+      {
+        "name": "Molokai Agriculture Assessment",
+        "publisher": "",
+        "releaseDate": "2012",
+        "website": "sustainablemolokai.org",
+        "summary": "Lead writer and ressearcher for the Molokai Agriculture Needs Assessment."
+      },
+      {
+        "name": "Molokai Energy Assessment",
+        "publisher": "",
+        "releaseDate": "2014",
+        "website": "sustainablemolokai.org",
+        "summary": "Lead researcher and academic oversight for the Molokai Energy Assessment."
+      }
     ],
     "skills": [
-        {
-            "name": "Business Development",
-            "keywords": [
-                " Developing business plans and panterships, PowerPoint, KeyNote and dynamic public speaking, policy development, sustainable building management, bold investment and financing creditentails, marketing and communications planning."
-                 ]
-        },
-        {
-            "name": "Software Development",
-            "keywords": [
-                "JSON, HTML, CIL, Git, Wordpress, VS Code"
-            ]
-        },
-        {
-            "name": "Non-Profit Magangement",
-            "keywords": [
-                " Raised > $1.6 million USD/yr program and donor development and grant writing developed strategy for sustainable living policies; Volunteer recruitment, incorporating community volunteers into programtic work and mentoring local youth interns"
-            ]
-        },
-        {
-            "name": "Loan Specialist",
-            "keywords": ["10 years as a residential and commercial loan specialist with products such as FHA, VA, Fannie Mae and Freddie Mac including drawing loan documents, closing and funding. Most recently built an expertise in small business and non-profit revolving loan products specifically for renewable energy and climate mitigation projects."
-            ]
-        
-        }
+      {
+        "name": "Business Development",
+        "keywords": [
+          " Developing business plans and panterships, PowerPoint, KeyNote and dynamic public speaking, policy development, sustainable building management, bold investment and financing creditentails, marketing and communications planning."
+        ]
+      },
+      {
+        "name": "Software Development",
+        "keywords": [
+          "JSON, HTML, CIL, Git, Wordpress, VS Code"
+        ]
+      },
+      {
+        "name": "Non-Profit Magangement",
+        "keywords": [
+          " Raised > $1.6 million USD/yr program and donor development and grant writing developed strategy for sustainable living policies; Volunteer recruitment, incorporating community volunteers into programtic work and mentoring local youth interns"
+        ]
+      },
+      {
+        "name": "Loan Specialist",
+        "keywords": [
+          "10 years as a residential and commercial loan specialist with products such as FHA, VA, Fannie Mae and Freddie Mac including drawing loan documents, closing and funding. Most recently built an expertise in small business and non-profit revolving loan products specifically for renewable energy and climate mitigation projects."
+        ]
+      }
     ],
     "languages": [
-        {
-            "language": "English",
-            "fluency": "Native speaker"
-        }
+      {
+        "language": "English",
+        "fluency": "Native speaker"
+      }
     ],
     "interests": [
-        {
-            "name": " Reforestation, American politics, renewable energy, green building designs, triathlons, dogs, pottery, wood-fire oven design and contructions."
-        }
+      {
+        "name": " Reforestation, American politics, renewable energy, green building designs, triathlons, dogs, pottery, wood-fire oven design and contructions."
+      }
     ],
-    "references":["Heidi Hansen I would vote for her for president- but my bar is low... ",
-        {
-        }
+    "references": [
+      "Heidi Hansen I would vote for her for president- but my bar is low... ",
+      {}
     ]
-}  
-    
-
-
-
+  }
