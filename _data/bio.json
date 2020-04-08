@@ -2,7 +2,7 @@
     "basics": {
       "name": "Emillia E. Noordhoek",
       "label": "",
-      "picture": "",
+      "picture": "../images/profile_pic.jpg",
       "email": "molokaiemillia@gmail.com",
       "phone": "",
       "website": "https://www.emillianoordhoek.com",
@@ -17,12 +17,22 @@
       {
         "network": "LinkedIn",
         "username": "enoordhoek",
-        "url": "https://www.linkedin.com/in/enoordhoek/"
-      },
+        "url": "https://linkedin.com/in/enoordhoek"
+      },  
       {
-        "network": "twitter",
+        "network": "Twitter",
         "username": "MolokaiEmillia",
         "url": "https://twitter.com/MolokaiEmillia"
+      },
+      {
+        "network": "GitHub",
+        "username": "EmilliaNoordhoek",
+        "url": "https://github.com/emillianoordhoek"
+      },
+      {
+        "network": "Instagram",
+        "username": "molokaiemilliapottery",
+        "url": "https://www.instagram.com/molokaiemilliapottery/"
       }
     ],
     "work": [
@@ -77,9 +87,7 @@
         "highlights": [
           "Founding architect of community based art center, developed sustainable financial infrastructure, art and residency programs, and dynamic annual fundraisers."
         ]
-      },
-      {},
-      {}
+      }
     ],
     "volunteer": [
       {}
