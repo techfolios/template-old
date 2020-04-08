@@ -1,6 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 .DS_Store
-.jekyll_cache/
+.jekyll-cache/
 .idea/
 *.iml
 _site/
