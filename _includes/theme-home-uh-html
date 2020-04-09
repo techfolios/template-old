@@ -58,7 +58,7 @@
   document.addEventListener("DOMContentLoaded", function() {
       var body = document.getElementsByTagName("body")[0];
       body.style.cssText =
-          'background: url("../images/kalalau3.png");' +
+          'background: url("../images/bg.jpg");' +
           'background-size: auto;' +
           'background-position: center;' +
           'background-repeat: no-repeat;';
