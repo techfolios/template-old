@@ -1,0 +1,33 @@
+<div style="margin-top: 10px; " class="ui stackable grid container">
+
+    <div class="sixteen wide column no-bottom">
+      <h2 class="ui center aligned header no-bottom">{{ site.data.bio.basics.name }}</h2>
+    </div>
+  
+    <div class="eight wide left aligned column">
+      {% include bio-network-links-print.html %}
+    </div>
+  </div>
+  
+  <div style="margin-bottom:20px" class="ui stackable grid container">
+  <div class="row">
+    <div class="two wide column">
+      <h3 class="ui left aligned header no-bottom">Summary</h3>
+    </div>
+        <div class="fourteen wide column no-bottom">
+          <p class="ui no-bottom"><b>{{ site.data.bio.basics.summary }}</b></p>
+    </div>
+  </div>
+  </div>
+  
+  <div style="margin-bottom: 20px" class="ui stackable grid container">
+    {% include bio-skills-1.html %}
+    {% include bio-work-1.html %}
+    {% include bio-education-1.html %}
+    {% include bio-publications-1.html %}
+    {% include bio-interests-1.html %}
+    {% include bio-volunteer-1.html %}
+    {% include bio-awards-1.html %}
+    {% include bio-references-1.html %}
+  </div>
+  
