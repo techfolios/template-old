@@ -1,7 +1,7 @@
 <!-- Home page design with large image to left of bio info. -->
-{% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.draft != true" %}
+{% assign post_pages = site.pages | where: "type", "post"  | where_exp: "page", "page.draft != true" %}
 {% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
-{% assign num_essays = essay_pages.size %}
+{% assign num_posts = post_pages.size %}
 {% assign num_projects = project_pages.size %}
 
 <div style="height: 100%;" class="ui middle aligned two column centered stackable grid container">
@@ -30,8 +30,8 @@
       <a href="{{ site.baseurl}}/projects/">
         <button class="ui basic button">Projects ({{ num_projects }})</button>
       </a>
-      <a href="{{ site.baseurl}}/essays/">
-        <button class="ui basic button">Essays ({{ num_essays }})</button>
+      <a href="{{ site.baseurl}}/posts/">
+        <button class="ui basic button">posts ({{ num_posts }})</button>
       </a>
       <a href="{{ site.baseurl}}/bio/">
         <button class="ui basic button">{{ site.bio-page-label }}</button>

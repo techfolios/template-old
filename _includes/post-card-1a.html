@@ -1,6 +1,6 @@
-<!-- Used by theme-essays-builtin-1 -->
+<!-- Used by theme-posts-builtin-1 -->
 
-<div class="card">
+<a class="card" href="{{ site.baseurl}}{{ include.page.url }}">
   <div class="content">
     <span class="header">{{ include.page.title }}</span>
     <div class="meta">
@@ -15,10 +15,9 @@
   <div class="extra content">
     <div class="ui mini labels">
       {% for label in include.page.labels %}
-        <div class="ui basic label">{{ label }}</div>
+      <div class="ui basic label">{{ label }}</div>
       {% endfor %}
     </div>
   </div>
 
-  <a class="ui bottom attached button" href="{{ site.baseurl}}{{ include.page.url }}">Read More</a>
-</div>
+</a>

@@ -1,8 +1,8 @@
-<!-- Used by all builtin themes. Now we list number of essays and projects. -->
+<!-- Used by all builtin themes. Now we list number of posts and projects. -->
 
-{% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.draft != true" %}
+{% assign post_pages = site.pages | where: "type", "posts  | where_exp: "page", "page.draft != true" %}
 {% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
-{% assign num_essays = essay_pages.size %}
+{% assign num_posts = post_pages.size %}
 {% assign num_projects = project_pages.size %}
 
 <div class="nonprintable">
@@ -13,8 +13,8 @@
     <!-- {% if num_projects > 0 %}
     <a href="{{ site.baseurl }}/projects" class=" {% if include.active == "projects" %} active {% endif %}item">Projects ({{ num_projects }})</a>
     {% endif %}
-    {% if num_essays > 0 %}
-    <a href="{{ site.baseurl }}/essays" class=" {% if include.active == "essays" %} active {% endif %} item">Essays ({{ num_essays }})</a>
+    {% if num_posts > 0 %}
+    <a href="{{ site.baseurl }}/posts" class=" {% if include.active == "posts" %} active {% endif %} item">posts ({{ num_posts }})</a>
     {% endif %}
     <a href="{{ site.baseurl }}/bio" class=" {% if include.active == "bio" %} active {% endif %} item">{{ site.bio-page-label }}</a> -->
   </nav>
