@@ -2,7 +2,7 @@
 
 # REQUIRED CHANGES
 # Edit next line, providing your own name.
-title: Emillia Noordhoek | Professional Portfolio
+title: Emillia Noordhoek
 # Edit next line, replacing 'techfolios' with your github username
 url: "https://emillianoordhoek.github.io"
 # Edit next line so that baseurl is "" if your repo is <username>.github.io
@@ -17,6 +17,7 @@ theme-home: theme-home-builtin-1.html
 theme-projects: theme-projects-builtin-1.html
 theme-posts: theme-posts-builtin-1.html
 theme-bio: theme-bio-builtin-1.html
+theme-print: theme-print.html
 
 # Specify the rouge syntax highlighter theme. Pick one from css/rouge.
 rouge-theme: igorpro
