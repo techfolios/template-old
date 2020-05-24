@@ -1,57 +1,57 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Kenneth Kebaara",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://kkebaara.github.io/images/main.jpg",
+    "email": "kkebaara@yahoo.com",
+    "phone": "651-214-5188",
+    "website": "https://kkebaara.github.io",
+    "summary": "I have been developing software for 5 years. I enjoy working on software that is based on new businesses.",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "postalCode": "80205",
+      "city": "Denver",
       "countryCode": "USA",
-      "region": "Hawaii"
+      "region": "Colorado"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "kkebaara",
+        "url": "http://github.com/kkebaara"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "kkebaara",
+        "url": "http://linkedin.com/in/kkebaara"
       },
       {
         "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "username": "kkebaara",
+        "url": "http://twitter.com/kkebaara"
       },
       {
         "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "kkebaara",
+        "url": "http://instagram.com/Kebaara"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Software Development",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "Software",
+        "Developer"
       ]
     },
     {
-      "name": "data mining",
+      "name": "SaaS",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Entreprenurship",
       "keywords": [
       ]
     }
@@ -61,12 +61,10 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
-        "C",
-        "C++",
-        "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Ruby On Rails",
+        "HTML",
+        "CSS",
+        "Javascript"
       ]
     },
     {
@@ -74,16 +72,13 @@
       "level": "",
       "keywords": [
         "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Git (GitHub | BitBucket)"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
+      "institution": "University of St Thomas, Minneapolis, MN",
       "area": "Computer Science (expected Spring, 2018)",
       "studyType": "B.S.",
       "startDate": "2013-09-01",
