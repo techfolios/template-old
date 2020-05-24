@@ -1,57 +1,57 @@
 {
   "basics": {
-    "name": "Kenneth Kebaara",
-    "label": "Software Developer",
-    "picture": "https://kkebaara.github.io/images/main.jpg",
-    "email": "kkebaara@yahoo.com",
-    "phone": "651-214-5188",
-    "website": "https://kkebaara.github.io",
-    "summary": "I have been working in software for 5 years.I enjoy building software that is based on new business ideas.",
+    "name": "Molly Maluhia",
+    "label": "Student",
+    "picture": "https://techfolios.github.io/template/images/molly.png",
+    "email": "molly@hawaii.edu",
+    "phone": "808-333-4444",
+    "website": "https://mmaluhia.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
     "location": {
       "address": "",
-      "postalCode": "80205",
-      "city": "Denver",
+      "postalCode": "96822",
+      "city": "Honolulu",
       "countryCode": "USA",
-      "region": "Colorado"
+      "region": "Hawaii"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "kkebaara",
-        "url": "http://github.com/kkebaara"
+        "username": "mmaluhia",
+        "url": "http://github.com/changeme"
       },
       {
         "network": "linkedin",
-        "username": "kkebaara",
-        "url": "http://linkedin.com/in/kkebaara"
+        "username": "mollymaluhia",
+        "url": "http://linkedin.com/in/changeme"
       },
       {
         "network": "twitter",
-        "username": "kkebaara",
-        "url": "http://twitter.com/kkebaara"
+        "username": "mollymal",
+        "url": "http://twitter.com/changeme"
       },
       {
         "network": "instagram",
-        "username": "kebaara",
-        "url": "http://instagram.com/kebaara"
+        "username": "molly",
+        "url": "http://instagram.com/changeme"
       }
     ]
   },
   "interests": [
     {
-      "name": "SaaS",
+      "name": "internet of things",
       "keywords": [
-        "Business Applications",
-        "Business Entreprenurship"
+        "Arduino",
+        "TI MSP430"
       ]
     },
     {
-      "name": "Entrepreneurship",
+      "name": "data mining",
       "keywords": [
       ]
     },
     {
-      "name": "Software For Business",
+      "name": "artificial intelligence",
       "keywords": [
       ]
     }
@@ -61,11 +61,12 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
-        "Ruby On Rails",
-        "Ruby",
+        "C",
+        "C++",
+        "Java",
         "Javascript",
-        "HTML",
-        "CSS"
+        "Assembly",
+        "Common Lisp"
       ]
     },
     {
@@ -73,18 +74,20 @@
       "level": "",
       "keywords": [
         "MacOS",
+        "Ubuntu",
         "Git/GitHub",
-        "Heroku"
+        "g++",
+        "TI LaunchPad"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of St Thomas, Minneapolis, MN",
-      "area": "Business Entreprenurship",
-      "studyType": "B.A.",
-      "startDate": "2005-09-01",
-      "endDate": "2010-12-15",
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2018)",
+      "studyType": "B.S.",
+      "startDate": "2013-09-01",
+      "endDate": "Present",
       "gpa": "",
       "courses": [
       ]
@@ -92,11 +95,11 @@
   ],
   "work": [
     {
-      "company": "Native Rank",
-      "position": "Front End Software Developer",
+      "company": "UH Manoa Board of Publications",
+      "position": "Web Developer",
       "website": "",
-      "startDate": "2020-01-01",
-      "endDate": "2020-03-01",
+      "startDate": "2015-08-01",
+      "endDate": "Present",
       "summary": "Head of online presence for Ka Leo",
       "highlights": [
         "Maintain, update, and oversee official college newspaper website",
@@ -104,23 +107,11 @@
       ]
     },
     {
-      "company": "USA2Kenya, LLC",
-      "position": "Web Developer",
-      "website": "",
+      "company": "UH Information Technology Services",
+      "position": "Help Desk Consultant",
+      "website": "http://www.hawaii.edu/its/",
       "startDate": "2015-01-01",
-      "endDate": "2019-12-31",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-    {
-      "company": "USA2Kenya, LLC",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-01-01",
-      "endDate": "2019-12-31",
+      "endDate": "2016-03-15",
       "summary": "",
       "highlights": [
         "Troubleshoot software, hardware and networking issues over the phone",
