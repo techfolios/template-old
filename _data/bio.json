@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "name": "Kenneth Kebaara",
+    "label": "Software Developer",
+    "picture": "https://kkebaara.github.io/template/images/main.jpg",
+    "email": "kkebaara@yahoo.com",
+    "phone": "651-214-5188",
+    "website": "https://kkebaara.github.io",
+    "summary": "I have been working in software for 5 years, and I hope to work on more intresting projects.",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "postalCode": "80205",
+      "city": "Denver",
       "countryCode": "USA",
-      "region": "Hawaii"
+      "region": "Colorado"
     },
     "profiles": [
       {
@@ -23,35 +23,35 @@
       {
         "network": "linkedin",
         "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "url": "http://linkedin.com/in/kkebaara"
       },
       {
         "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "username": "kkebaara",
+        "url": "http://twitter.com/kkebaara"
       },
       {
         "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "kebaara",
+        "url": "http://instagram.com/kkebaara"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "SaaS",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "Business Applications",
+        "Business Entreprenurship"
       ]
     },
     {
-      "name": "data mining",
+      "name": "Entrepreneurship",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Software For Business",
       "keywords": [
       ]
     }
@@ -61,12 +61,10 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
-        "C",
-        "C++",
-        "Java",
+        "Ruby",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "HTML",
+        "CSS"
       ]
     },
     {
@@ -74,20 +72,18 @@
       "level": "",
       "keywords": [
         "MacOS",
-        "Ubuntu",
         "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Heroku"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
+      "institution": "University of St Thomas, Minneapolis, MN",
+      "area": "Business Entreprenurship",
+      "studyType": "B.A.",
+      "startDate": "2005-09-01",
+      "endDate": "2010-12-15",
       "gpa": "",
       "courses": [
       ]
