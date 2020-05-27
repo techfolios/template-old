@@ -74,6 +74,7 @@
       ]
     }
   ],
+
   "education": [
     {
       "institution": "University of St Thomas, Minneapolis, MN",
@@ -86,6 +87,21 @@
       ]
     }
   ],
+
+    "education": [
+    {
+      "institution": "University of St Thomas, Minneapolis, MN",
+      "area": "Business Entrepreneurship",
+      "studyType": "B.A.",
+      "startDate": "2005-09-01",
+      "endDate": "2010-12-15",
+      "gpa": "",
+      "courses": [
+      ]
+    }
+  ],
+
+
   "work": [
     {
       "company": "Native Rank",
