@@ -54,15 +54,25 @@
       ]
     }
   ],
-  "skills": [
+   "skills": [
     {
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
-        "Ruby On Rails",
-        "HTML",
-        "CSS",
-        "Javascript"
+        "C",
+        "C++",
+        "Java",
+        "HTML/CSS",
+        "Javascript",
+        "SQL",
+        "Assembly",
+        "Common Lisp",
+        "Prolog",
+        "Python",
+        "Java Play Framework",
+        "Meteor",
+        "AngularJS",
+        "Flask"
       ]
     },
     {
@@ -70,10 +80,15 @@
       "level": "",
       "keywords": [
         "MacOS",
-        "Git (GitHub | BitBucket)"
+        "Ubuntu",
+        "Kali Linux",
+        "Windows",
+        "Git/GitHub/BitBucket",
+        "Jira & Confluence"
       ]
     }
   ],
+
   "education": [
     {
       "institution": "University of St Thomas, Minneapolis, MN",
