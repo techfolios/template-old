@@ -76,7 +76,6 @@
     }
   ],
 
-
   "education": [
     {
       "institution": "University of St Thomas, Minneapolis, MN",
@@ -119,12 +118,14 @@
       "website": "",
       "startDate": "2020-01-01",
       "endDate": "2020-03-01",
-      "summary": "Built the front end of websites",
+      "summary": "",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Develop responsive websites that are cross browser and cross device compatible.",
+        "Manage and update websites on an ongoing basis including content, images and fixing bugs.",
+        "Implement SEO strategies and technical updates."
       ]
     },
+
     {
       "company": "USA2Kenya, LLC",
       "position": "Software Developer",
@@ -133,22 +134,27 @@
       "endDate": "2019-03-15",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Developed a Web Application, that gave users a US mailing address to shop US discounts online and receive their purchases internationally.",
+        "Gathered and documented business requirements for application development.",
+        "Make sure the project ran smoothly and was completed."
       ]
     },
+
     {
       "company": "Phoji, LLC",
       "position": "Software Developer",
       "website": "",
       "startDate": "2015-08-01",
       "endDate": "2016-08-01",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Worked on application that created real photo emojis (Phoji's)",
+        "Maintain the AWS database and make sure the models and the data were not corrupted",
+        "Share and develop new ideas on how to improve the application.",
+        "Maintain the website for the company as a marketing tool making it user friendly."
       ]
     },
+
       {
       "company": "United Health Group",
       "position": "Software Developer",
@@ -157,8 +163,9 @@
       "endDate": "2016-03-15",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Worked with a team to come up with health care based software solutions.",
+        "Work in an agile enviroment to build features as requested.",
+        "Built and application that CRM application that sent information to users via text and stored user information."
       ]
     }
   ],
