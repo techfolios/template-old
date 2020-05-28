@@ -1,16 +1,14 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
+image: images/u2klogo.png
 title: USA2KENYA
 permalink: projects/u2k
 # All dates must be YYYY-MM-DD format!
 date: 2019-12-15
 labels:
   - Ruby On Rails
-  - Ruby
   - Bootstrap
-  - Postgres
   - PostgreSQL
   - Stripe
   - Devise
