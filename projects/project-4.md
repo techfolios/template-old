@@ -28,7 +28,7 @@ U2K is a web application that we built that gives users a US mailing address whe
 U2K is implemented using [Ruby On Rails](https://rubyonrails.org/), a [Ruby](https://www.ruby-lang.org/en/) framework appliation. It took a few months to develop and went live as a functional business. Through online marketing we were able to target marketing and get customers. 
 
 
-In this project I gained experience with full-stack web application design and associated technologies, including PostgreSQL (https://www.postgresql.org/) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface. I also learnt how to implement[Stripe](https://stripe.com/) for different applications to accept payments.
+In this project I gained experience with full-stack web application design and associated technologies, including PostgreSQL (https://www.postgresql.org/) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface. I also learnt how to implement [Stripe](https://stripe.com/) for different applications to accept payments.
  
 Source: <a href="https://github.com/kkebaara/u2k"><i class="large github icon"></i>kkebaara/u2k</a>
 
