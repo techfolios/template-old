@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/vacay-square.png
-title: USA@KENYA
+title: USA2KENYA
 permalink: projects/u2k
 # All dates must be YYYY-MM-DD format!
 date: 2019-12-15
