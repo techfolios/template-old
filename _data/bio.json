@@ -161,6 +161,27 @@
       ]
     }
   ],
+    "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "level": "",
+      "keywords": [
+        "Ruby On Rails",
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "level": "",
+      "keywords": [
+        "MacOS",
+        "Git (GitHub | BitBucket)"
+      ]
+    }
+  ],
+
   "references": [
     {
       "name": "Available upon request",
