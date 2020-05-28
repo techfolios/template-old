@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/u2klogo.jpg
+image: images/u2k.png
 title: USA2KENYA
 permalink: projects/u2k
 # All dates must be YYYY-MM-DD format!
