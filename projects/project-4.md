@@ -21,7 +21,7 @@ labels:
 summary: A responsive CRM web application that gives users a US mailing address to shop US discounts online and recieving their purchases internationally.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/u2kmainpage.png">
 
 U2K is a web application that we built that gives users a US mailing address when they sign up. It allows them to shop US discounts online and recieving their purchases internationally.
 
