@@ -96,6 +96,14 @@
   ],
   "work": [
     {
+      "company": "Youtube",
+      "position": "Produtor Musical e Compositor",
+      "website": "https://www.youtube.com/channel/UCAv1fvk1xVm4rFWsIMBGJEw?view_as=subscriber",
+      "startDate": "2012",
+      "endDate": "Presente",
+      "summary": "Produtor de trilhas sonoras",
+      "highlights": [
+      ]
     },
     {
       ]
@@ -115,15 +123,7 @@
       ]
     },
     {
-      "organization": "TheBionicSkin",
-      "website": "https://www.youtube.com/channel/UCAv1fvk1xVm4rFWsIMBGJEw?view_as=subscriber",
-      "position": "Compositor e Produtor Musical",
-      "startDate": "2012",
-      "endDate": "",
-      "summary": "Produtor e compositor de instrumentais para a plataforma Youtube",
-      "highlights": [
-        "Fruity Loops Studio",
-        "Adobe Audition"
+
       ]
     }
   ],
