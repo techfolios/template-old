@@ -86,7 +86,7 @@
     {
       "company": "Youtube",
       "position": "Produtor Musical e Compositor",
-      "website": "",
+      "website": "https://www.youtube.com/c/TheBionicSkin",
       "startDate": "2012",
       "endDate": "Presente",
       "summary": "Produtor de Trilhas Sonoras",
@@ -99,11 +99,11 @@
   "volunteer": [
     {
       "organization": "Universidade Federal de Pernambuco",
-      "website": "https://www.ufpe.br/",
+      "website": "https://www.ufpe.br",
       "position": "Auxiliar de Segurança",
       "startDate": "2016-01-01",
       "endDate": "Present",
-      "summary": "Fui responsável por notificar sobre falhas no funcionamento do site do projeto No Bairro Tem",
+      "summary": "Fui responsável por reportar falhas no funcionamento do website No Bairro Tem",
       "highlights": [
         "Falha de LRFI",
         "Falha de XSS Refletido"
