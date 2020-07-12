@@ -2,7 +2,7 @@
   "basics": {
     "name": "Lucas De Araujo",
     "label": "Estudante",
-    "picture": "https://Rutherford-sudo.github.io/template/images/index.jpg",
+    "picture": "https://Rutherford-sudo.github.io/template/images/lucas.png",
     "email": "lucas.a@aluno.ufop.edu.br",
     "phone": "+55 16 994534121",
     "website": "https://Rutherford-sudo.github.io",
@@ -37,7 +37,7 @@
       }
     ]
   },
-  "interests": [
+  "Interesses": [
     {
       "name": "Segurança da Informação",
       "keywords": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "skills": [
+  "Habilidades": [
     {
       "name": "Linguagens",
       "level": "",
@@ -81,7 +81,7 @@
       ]
     }
   ],
-  "education": [
+  "Escolaridade": [
     {
       "institution": "Universidade Federal de Ouro Preto",
       "area": "Ciência da Computação",
