@@ -2,11 +2,11 @@
   "basics": {
     "name": "Lucas De Araujo",
     "label": "Estudante",
-    "picture": "https://Rutherford-sudo.github.io/template/images/lucas.png",
+    "picture": "https://techfolios.github.io/template/images/molly.png",
     "email": "lucas.a@aluno.ufop.edu.br",
     "phone": "+55 16 994534121",
     "website": "https://Rutherford-sudo.github.io",
-    "summary": "Bacharel em Ciência Da Computação",
+    "summary": "Estudante de Ciência Da Computação na Universidade Federal de Ouro Preto",
     "location": {
       "address": "",
       "postalCode": "",
@@ -17,7 +17,7 @@
     "profiles": [
       {
         "network": "github",
-        "username": "rutherford-sudo",
+        "username": "Rutherford-sudo",
         "url": "http://github.com/rutherford-sudo"
       },
       {
@@ -27,12 +27,12 @@
       }
     ]
   },
-  "Interests": [
+  "interests": [
     {
       "name": "Segurança da Informação",
       "keywords": [
         "Criptografia",
-        "Protocols"
+        "Controle de acessos"
       ]
     },
     {
@@ -46,38 +46,38 @@
       ]
     }
   ],
-  "Skills": [
+  "skills": [
     {
-      "name": "Linguagens",
+      "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
         "C",
         "C++",
-        "",
+        "Java",
         "Javascript",
-        "Haskell",
-        ""
+        "Assembly",
+        "Common Lisp"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "Manjaro",
-        "Parrot OS",
-        "VSCode",
+        "MacOS",
+        "Ubuntu",
+        "Git/GitHub",
         "g++",
-        "ghci"
+        "TI LaunchPad"
       ]
     }
   ],
-  "Education": [
+  "education": [
     {
-      "institution": "Universidade Federal de Ouro Preto",
-      "area": "Ciência da Computação",
-      "studyType": "Bacharel",
-      "startDate": "2018",
-      "endDate": "Presente",
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2018)",
+      "studyType": "B.S.",
+      "startDate": "2013-09-01",
+      "endDate": "Present",
       "gpa": "",
       "courses": [
       ]
