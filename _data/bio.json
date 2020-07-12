@@ -48,36 +48,35 @@
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "Linguagens",
       "level": "",
       "keywords": [
         "C",
         "C++",
-        "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Haskell",
+        "Python"
       ]
     },
     {
-      "name": "Toolsets/OS",
+      "name": "Ferramentas",
       "level": "",
       "keywords": [
-        "MacOS",
-        "Ubuntu",
+        "Manjaro",
+        "Parrot OS",
         "Git/GitHub",
         "g++",
-        "TI LaunchPad"
+        "ghci
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
+      "institution": "Universidade Federal de Ouro Preto, MG",
+      "area": "Ciência Da Computação",
+      "studyType": "Bacharel",
+      "startDate": "2018",
+      "endDate": "Presente",
       "gpa": "",
       "courses": [
       ]
