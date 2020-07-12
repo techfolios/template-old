@@ -2,7 +2,7 @@
 
 # REQUIRED CHANGES
 # Edit next line, providing your own name.
-title: Lucas De Araujo | Professional Portfolio
+title: Lucas De Araujo | Portfolio
 # Edit next line, replacing 'techfolios' with your github username
 url: "https://Rutherford-sudo.github.io"
 # Edit next line so that baseurl is "" if your repo is <username>.github.io
@@ -11,6 +11,8 @@ baseurl: ""
 # OPTIONAL CHANGES
 # You might want to change the bio page label to something else, such as CV
 bio-page-label: Currículo
+project-page-label: Projetos
+essays-page-label: Textos
 # You might want to change the theme associated with one or more sections of the site.
 # Defining your own custom theme variations is easy. See the documentation.
 theme-home: theme-home-builtin-1.html
