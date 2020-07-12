@@ -102,12 +102,16 @@
       "startDate": "2012",
       "endDate": "Presente",
       "summary": "Produtor de trilhas sonoras",
-      "highlights": [
-      ]
+      "highlights": []
     },
     {
-      ""
-      ]
+      "company": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
     }
   ],
   "volunteer": [
@@ -124,9 +128,13 @@
       ]
     },
     {
-
-      ""
-      ]
+      "organization": ""
+      "website": "",
+      "position": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": ",
+      "highlights": []
     }
   ],
   "awards": [
