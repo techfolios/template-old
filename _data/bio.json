@@ -21,23 +21,13 @@
         "url": "http://github.com/rutherford-sudo"
       },
       {
-        "network": "",
-        "username": "",
-        "url": ""
-      },
-      {
-        "network": "",
-        "username": "",
-        "url": ""
-      },
-      {
         "network": "instagram",
         "username": "lucas.araj",
         "url": "http://instagram.com/lucas.araj"
       }
     ]
   },
-  "Interesses": [
+  "Interests": [
     {
       "name": "Segurança da Informação",
       "keywords": [
@@ -56,7 +46,7 @@
       ]
     }
   ],
-  "Habilidades": [
+  "Skills": [
     {
       "name": "Linguagens",
       "level": "",
@@ -70,7 +60,7 @@
       ]
     },
     {
-      "name": "Ferramentas",
+      "name": "Toolsets/OS",
       "level": "",
       "keywords": [
         "Manjaro",
@@ -81,7 +71,7 @@
       ]
     }
   ],
-  "Escolaridade": [
+  "Education": [
     {
       "institution": "Universidade Federal de Ouro Preto",
       "area": "Ciência da Computação",
