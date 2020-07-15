@@ -27,7 +27,7 @@
       </div>
       <div class="center aligned content">
         <div class="description">
-          Interesses:
+          Interests:
           {% for interest in site.data.bio.interests %}
             {{ interest.name }}{% if forloop.last != true %}, {% endif %}
           {% endfor %}
@@ -37,21 +37,18 @@
       <div class="center aligned extra content">
         {% include home-network-links.html %}
       </div>
-      <div class="center aligned content" style="line-height: 3em">
-          <a class="ui animated fade button" href="{{ site.baseurl}}/projects/">
-              <div class="visible content">{{site.projects-page-label}}</div>
-              <div class="hidden content>
-                ({{ num_projects }})
-              </div>
-          </a>
-          <a href="{{ site.baseurl}}/essays/">
-            <button class="ui basic button">{{site.essays-page-label}} ({{ num_essays }})</button>
-          </a>
-          <a href="{{ site.baseurl}}/bio/">
-            <button class="ui basic button">{{ site.bio-page-label }}</button>
-          </a>
-       </div>
+      <div class="center aligned content">
+        <a href="{{ site.baseurl}}/projects/">
+          <button class="ui basic button">Projects ({{ num_projects }})</button>
+        </a>
+        <a href="{{ site.baseurl}}/essays/">
+          <button class="ui basic button">Essays ({{ num_essays }})</button>
+        </a>
+        <a href="{{ site.baseurl}}/bio/">
+          <button class="ui basic button">{{ site.bio-page-label }}</button>
+        </a>
       </div>
     </div>
   </div>
+
 </div>
