@@ -39,7 +39,12 @@
       </div>
       <div class="center aligned content">
         <a href="{{ site.baseurl}}/projects/">
-          <button class="ui vertical animated button tabindex="0">{{site.projects-page-label}} ({{ num_projects }})</button>
+          <div class="ui animated fade button" tabindex="0">
+            <div class="visible content">{{site.projects-page-label}} ({{ num_projects }})</div>
+            <div class="hidden content>Ir>
+              Ir
+            </div>
+        </div>
         </a>
         <a href="{{ site.baseurl}}/essays/">
           <button class="ui basic button">{{site.essays-page-label}} ({{ num_essays }})</button>
