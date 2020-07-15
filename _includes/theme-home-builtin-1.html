@@ -37,20 +37,21 @@
       <div class="center aligned extra content">
         {% include home-network-links.html %}
       </div>
-        <a class="ui animated fade button" href="{{ site.baseurl}}/projects/">
-            <div class="visible content">{{site.projects-page-label}}</div>
-            <div class="hidden content>
-              ({{ num_projects }})
-            </div>
-        </a>
-        <a href="{{ site.baseurl}}/essays/">
-          <button class="ui basic button">{{site.essays-page-label}} ({{ num_essays }})</button>
-        </a>
-        <a href="{{ site.baseurl}}/bio/">
-          <button class="ui basic button">{{ site.bio-page-label }}</button>
-        </a>
+      <div class="center aligned content" style="line-height: 3em">
+          <a class="ui animated fade button" href="{{ site.baseurl}}/projects/">
+              <div class="visible content">{{site.projects-page-label}}</div>
+              <div class="hidden content>
+                ({{ num_projects }})
+              </div>
+          </a>
+          <a href="{{ site.baseurl}}/essays/">
+            <button class="ui basic button">{{site.essays-page-label}} ({{ num_essays }})</button>
+          </a>
+          <a href="{{ site.baseurl}}/bio/">
+            <button class="ui basic button">{{ site.bio-page-label }}</button>
+          </a>
+       </div>
       </div>
     </div>
   </div>
-
 </div>
