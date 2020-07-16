@@ -98,15 +98,15 @@
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "Universidade Federal de Pernambuco,
+      "website": "https://www.ufpe.br",
+      "position": "Auxiliar",
+      "startDate": "2020",
+      "endDate": "2020",
+      "summary": "Reportei falhas no funcionamento do sistema do website No Bairro Tem",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Falha de LRFI",
+        "Falha de XSS Refletido"
       ]
     },
   ],
