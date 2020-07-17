@@ -1,13 +1,13 @@
 <!-- Used by theme-bio-builtin-1,2 -->
 
 {% if site.data.bio.basics.website %}
-  <p class="ui primary button"><a href="{{ site.data.bio.basics.website }}"> <i class="large home icon "></i>{{ site.data.bio.basics.website | remove: "http://" | remove: "https://" }}</a></p>
+  <p class="small ui secondary button"><a href="{{ site.data.bio.basics.website }}"> <i class="large home icon "></i>{{ site.data.bio.basics.website | remove: "http://" | remove: "https://" }}</a></p>
 {% endif %}
 
 {% if site.data.bio.basics.email %}
-<p class="ui no-bottom"><a href="mailto:{{ site.data.bio.basics.email }}"> <i class="large mail outline icon "></i>{{ site.data.bio.basics.email }}</a></p>
+<p class="small ui secondary button"><a href="mailto:{{ site.data.bio.basics.email }}"> <i class="large mail outline icon "></i>{{ site.data.bio.basics.email }}</a></p>
 {% endif %}
 
 {% for entry in site.data.bio.basics.profiles %}
-     <p class="ui no-bottom"><a href="{{ entry.url }}"> <i class="large {{ entry.network | downcase }} icon "></i>{{ entry.username }}</a></p>
+     <p class="small ui secondary button"><a href="{{ entry.url }}"> <i class="large {{ entry.network | downcase }} icon "></i>{{ entry.username }}</a></p>
 {% endfor %}
