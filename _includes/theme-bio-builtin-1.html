@@ -1,25 +1,84 @@
-<div style="margin-top: 10px; " class="ui stackable grid container">
+<div style="margin-top: 10px; margin-bottom:2em;" class="ui stackable grid container">
 
-  <div class="sixteen wide column no-bottom">
-    <h2 class="ui center aligned header no-bottom">{{ site.data.bio.basics.name }}</h2>
+  <div class="six wide column middle aligned no-bottom">
+    <h2 class="ui center aligned header no-bottom">{{ site.data.bio-en.basics.name }}
+      <div class="sub header">{{ site.data.bio-en.basics.location.city }}, {{ site.data.bio-en.basics.location.region }}, {{ site.data.bio-en.basics.location.countryCode }}</div>
+    </h2>
   </div>
 
-  <div class="eight wide left aligned column">
-    {% include bio-network-links.html %}
-  </div>
-
-  <div class="eight wide right aligned column">
-    {% include bio-address.html %}
+  <div class="center aligned ten wide column filter-buttons no-bottom nonprintable">
+    {% if site.data.bio-en.basics.website %}
+    <a class="ui button green small" href="{{ site.data.bio-en.basics.website }}" target="_blank"><i class="home icon"></i>{{ site.data.bio-en.basics.website | remove: "http://" | remove: "https://" }}</a>
+    {% endif %}
+    
+    {% if site.data.bio-en.basics.email %}
+    <a class="ui button green small" href="mailto:{{ site.data.bio-en.basics.email }}" target="_blank"><i class="mail icon"></i>{{ site.data.bio-en.basics.email }}</a>
+    {% endif %}
+    
+    {% for entry in site.data.bio-en.basics.profiles %}
+    <a class="ui button green small" href="{{ entry.url }}" target="_blank"><i class="{{ entry.network | downcase }} icon"></i>{{ entry.username }}</a>
+    {% endfor %}
   </div>
 </div>
 
-<div style="margin-bottom: 15px" class="ui stackable grid container">
-  {% include bio-interests-1.html %}
-  {% include bio-skills-1.html %}
-  {% include bio-education-1.html %}
-  {% include bio-work-1.html %}
-  {% include bio-volunteer-1.html %}
-  {% include bio-publications-1.html %}
-  {% include bio-awards-1.html %}
-  {% include bio-references-1.html %}
+<div style="margin-bottom: 20px" class="ui one column stackable grid container">
+  <div class="column">
+    <h4 class="ui dividing header left aligned">
+      <i class="heart icon"></i>
+      Interests  
+    </h4>
+    <div class="ui labels small">
+      {% for interest in site.data.bio-en.interests %}
+      <div class="ui label active">
+        {{ interest.name }}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
 </div>
+
+<div style="margin-bottom: 20px" class="ui two column stackable grid container">
+  {% for skill in site.data.bio-en.skills %}
+  <div class="column">
+    <h4 class="ui dividing header left aligned">
+      <i class="{{ skill.icon }} icon"></i>
+      {{ skill.name }}
+    </h4>
+    <div class="ui labels small">
+      {% for keyword in skill.keywords %}
+      <div class="ui label active">
+        {{ keyword }}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% if site.data.bio-en.education %}
+<div style="margin-bottom: 20px" class="ui one column stackable grid container">
+  <div class="row">
+    <div class="column">
+      <h4 class="ui dividing header">
+        <i class="graduation cap icon"></i>
+        Educação
+      </h4>
+      <div class="ui stackable cards"  style="padding-top: 6px;">
+        {% for educ in site.data.bio-en.education %}
+        <div class="ui card {% if educ.endDate == 'Atualmente' %}yellow{% else %}green{% endif %}">
+          <div class="content">
+            <div class="header">{{ educ.area }}</div>
+            <div class="description">
+              <i class="building icon"></i>{{ educ.institution }}
+            </div>
+          </div>
+          <div class="extra content">
+            <div><i class="clock icon"></i>{{ educ.startDate | date: "%Y" }} - {{ educ.endDate | date: "%Y" }}</div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
