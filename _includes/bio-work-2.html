@@ -32,11 +32,11 @@
   <div style="padding-top: 0px;" class="sixteen wide column no-bottom">
     <p class="ui no-bottom">{{ entry.summary }}</p>
     {% if entry.highlights %}
-      <ul style="margin: 20px;">
+      <ul style="margin: 0px;">
         {% for highlight in entry.highlights %}
           <li>{{ highlight }}</li>
         {% endfor %}
-      </ul>
+      </ul style="margin: 20px;">
     {% endif %}
   </div>
 {% endfor %}
