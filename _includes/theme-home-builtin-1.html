@@ -37,7 +37,7 @@
       <div class="center aligned extra content">
         {% include home-network-links.html %}
       </div>
-      <div class="three ui buttons">
+      <div class="three ui animated buttons">
           <a href="{{ site.baseurl}}/projects/" class="ui silver button">Projetos</a>
           <a href="{{ site.baseurl}}/essays/" class="ui silver button">Textos</a>
           <a href="{{ site.baseurl}}/bio/" class="ui silver button">{{ site.bio-page-label }}</a>
@@ -54,5 +54,12 @@
     animation: 'horizontal flip in',
     reverse   : 'true'
   })
+
+  $('.perfil')
+  .transition({
+    animation: 'pulse',
+    reverse   : 'true'
+  })
+
   ;
 </script>
