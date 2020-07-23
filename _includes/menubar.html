@@ -6,16 +6,16 @@
 {% assign num_projects = project_pages.size %}
 
 <div class="nonprintable">
-  <nav class="ui stackable menu">
+  <nav class="ui borderless stackable menu" style="background-color: rgb(251, 251, 251);">
     <a href="{{ site.baseurl}}/" class="brand item">
-      <img class="ui avatar image" src="{{ site.data.bio.basics.picture }}"><span>{{ site.data.bio.basics.name }}</span>
+      <i class="large home icon"></i>
     </a>
     {% if num_projects > 0 %}
-    <a href="{{ site.baseurl }}/projects" class=" {% if include.active == "projects" %} active {% endif %}item">{{  site.projects-page-label  }} ({{ num_projects }})</a>
+    <a href="{{ site.baseurl }}/projects" class=" {% if include.active == "projects" %} active {% endif %}item" style="font-weight: bold;">{{  site.projects-page-label  }}</a>
     {% endif %}
     {% if num_essays > 0 %}
-    <a href="{{ site.baseurl }}/essays" class=" {% if include.active == "essays" %} active {% endif %} item">{{  site.essays-page-label  }} ({{ num_essays }})</a>
+    <a href="{{ site.baseurl }}/essays" class=" {% if include.active == "essays" %} active {% endif %} item" style="font-weight: bold;">{{  site.essays-page-label  }}</a>
     {% endif %}
-    <a href="{{ site.baseurl }}/bio" class=" {% if include.active == "bio" %} active {% endif %} item">{{ site.bio-page-label }}</a>
+    <a href="{{ site.baseurl }}/bio" class=" {% if include.active == "bio" %} active {% endif %} item" style="font-weight: bold;">{{ site.bio-page-label }}</a>
   </nav>
 </div>
