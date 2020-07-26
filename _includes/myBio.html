@@ -33,7 +33,7 @@
           <div class="column" style="float: left;">
             <h4 class="ui horizontal divider header">
               <i class="wrench icon"></i>
-              Ferramentas
+              Ferramentas/OS
             </h4>
 
             <div class="two column row">
@@ -41,7 +41,7 @@
                 <div class="ui bulleted list" style="font-size: medium;" >
                     <button class="ui tiny gray button"><div class="item" style="font-weight: bold;">VSCode</div></button>
                     <button class="ui tiny gray button"><div class="item" style="font-weight: bold;">Linux</div></button>
-                    <button class="ui tiny gray button"><div class="item" style="font-weight: bold;">BurpSuite</div></button>
+                    <button class="ui tiny gray button"><div class="item" style="font-weight: bold;">Windows</div></button>
                 </div>
               </div>
               <br>
@@ -49,7 +49,7 @@
                 <div class="ui bulleted list" style="font-size: medium;" >
                     <button class="ui tiny gray button"><div class="item" style="font-weight: bold;">Wireshark</div></button>
                     <button class="ui tiny gray button"><div class="item" style="font-weight: bold;">Git/Github</div></button>
-                    <button class="ui tiny gray button"><div class="item" style="font-weight: bold;">Windows</div></button>
+                    <button class="ui tiny gray button"><div class="item" style="font-weight: bold;">BurpSuite</div></button>
                 </div>
               </div>
             </div>
@@ -90,9 +90,9 @@
                 </h4>
             </div>
               <div class="ui three stackable cards" style="position: relative; top: 10px;">
-                <div class="ui card segment blue">
+                <div class="ui card segment blue" id="cardjump">
                   <div class="ui top attached label">
-                    Universidade Federal de Pernambuco
+                    <i class="university icon"></i> Universidade Federal de Pernambuco
                   </div>
                   <div class="content">
                     <h3 class="ui header" style="line-height: 2em;">Auxiliar de Segurança
@@ -115,7 +115,7 @@
 
                 <div class="ui card segment blue">
                   <div class="ui top attached label">
-                    Youtube
+                    <i class="video alternate outline icon"></i> Youtube
                   </div>
                   <div class="content">
                     <h3 class="ui header" style="line-height: 2em;">Produtor/Compositor
@@ -148,10 +148,10 @@
                 Certificados
               </h4>
               <ul>
-                <li><a href="https://www.freecodecamp.org/certification/shinji_mimura/javascript-algorithms-and-data-structures" style="color: black;"><strong>JavaScript Algorithms and Data Structures by freeCodeCamp</strong></li></a><br>
-                <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-RTLHDLZ0.pdf" style="color: black;"><strong>Fundamentos de Ethical Hacking by Udemy</strong></li></a>
+                <li><a href="https://www.freecodecamp.org/certification/shinji_mimura/javascript-algorithms-and-data-structures" style="color: black;"><strong class="certlink">JavaScript Algorithms and Data Structures by freeCodeCamp</strong></li></a><br>
+                <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-RTLHDLZ0.pdf" style="color: black;"><strong class="certlink">Fundamentos de Ethical Hacking by Udemy</strong></li></a>
               </ul>
-            </div>
+            </div> 
             <div class="three column centered row">
               <div class="column" style="float: left;">
                 <h4 class="ui horizontal divider header">
@@ -213,7 +213,7 @@
                 </h4>
                 <div class="ui middle aligned animated list">
                   <div class="item">
-                    <i class=" circular video icon"></i>
+                    <i class=" circular youtube play icon"></i>
                     <div class="content">
                       <a href="https://www.youtube.com/channel/UCAv1fvk1xVm4rFWsIMBGJEw?view_as=subscriber"><div class="header">Youtube</div></a>
                     </div>
@@ -242,6 +242,15 @@
   <script>
     $('#port').progress();
     $('#ing').progress();
+    
+    
   </script>
+
+  <style>
+    .certlink:hover {
+      color: rgba(101, 90, 255, 0.609);
+      transition: 0.1s;
+    }
+  </style>
 
 </html>
