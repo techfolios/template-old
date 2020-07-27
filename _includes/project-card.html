@@ -25,8 +25,7 @@
   </div>
     {% if page.category[0] == "Git" %}
       <a class="ui black bottom attached button" href="{{ page.projecturl }}"><i class="github icon"></i>Repositório</a>
-    {% endif %}
-    {% if page.category[0] == "Texto" %}
+    {% else if page.category[0] == "Texto" %}
       <a class="ui blue bottom attached button" href="{{ page.projecturl }}"><i class="book open icon"></i>Saiba mais</a>
     {% else %}
     <a class="ui bottom attached button" href="">Em construção...</a>
