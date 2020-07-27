@@ -10,7 +10,7 @@ labels:
   - Puzzle
   - Javascript
 category:
-  - Game
+  - Git
 lang: pt
 projecturl: https://github.com/Rutherford-sudo/CorgiPuzzle
 summary: Um pequeno quebra-cabeça feito em javascript para jogar no browser
