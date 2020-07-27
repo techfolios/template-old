@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/corgiPuzzle.jpg
-title: DevRadar
+title: Corgi Puzzle
 permalink: projects/project-3
 
 date: 2020-02-10
