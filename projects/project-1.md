@@ -10,7 +10,7 @@ labels:
   - React
   - React Native
 category:
-  - App
+  - Git
 lang: pt
 projecturl: https://github.com/Rutherford-sudo/DevRadar
 summary: Aplicação que permite localizar Dev's perto de você!
