@@ -36,26 +36,44 @@
               Ferramentas/OS
             </h4>
 
-            <div class="two row centered grid">
-              <div class="row" style="text-align: left;">
-                <div class="ui  list" style="font-size: medium;" >
-                    <button class="ui tiny gray button"><div class="item" style="font-weight: bold;">Wireshark</div></button>
-                    <button class="ui tiny gray button"><div class="item" style="font-weight: bold;">Git/Github</div></button>
-                    <button class="ui tiny gray button"><div class="item" style="font-weight: bold;">Burp Suite</div></button>
-                    
+            <div class="ui teal tag medium labels">
+            <div class="ui grid container">
+              <div class="three column row">
+                <div class="column">
+                  <div class="ui label">
+                    VSCode
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="ui label">
+                    Wireshark
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="ui label">
+                    BurpSuite
+                  </div>
                 </div>
               </div>
-              <br>
-              <div class="row" style="text-align: left;">
-                <div class="ui list"style="font-size: medium;" >
-                    <button class="ui tiny gray button" data-tooltip="Manjaro"><div class="item" style="font-weight: bold;">Linux</div></button>
-                    <button class="ui tiny gray button"><div class="item" style="font-weight: bold;">Windows</div></button>
-                    <button class="ui tiny gray button"><div class="item" style="font-weight: bold;">VSCode</div></button>
-                    
+              <div class="three column row">
+                <div class="column">
+                  <div class="ui label">
+                    Linux
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="ui label">
+                    Windows
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="ui label">
+                    Git/Github
+                  </div>
                 </div>
               </div>
             </div>
-            
+            </div>
 
           </div>
           <div class="column" style="float: right;">
@@ -63,24 +81,42 @@
               <i class="code icon"></i>
               Linguagens/Frameworks
             </h4>
-            <div class="two row centered grid">
-              <div class="row" style="text-align: left;">
-                <div class="ui  list" style="font-size: medium;" >
-                    <button class="ui tiny gray button" data-tooltip="Avançado"><div class="item" style="font-weight: bold;">Python</div></button>
 
-                    <button class="ui tiny gray button" data-tooltip="Intermediário"><div class="item" style="font-weight: bold;">C/C++</div></button>
-                    <button class="ui tiny gray button" data-tooltip="Básico"><div class="item" style="font-weight: bold;">Haskell</div></button>
-                    
+            <div class="ui green tag medium labels">
+              <div class="ui grid container">
+                <div class="three column row">
+                  <div class="column">
+                    <div class="ui label">
+                      C/C++
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="ui label">
+                      Python
+                    </div>
+                  </div>
+                </div>
+                <div class="three column row">
+                  <div class="column">
+                    <div class="ui label">
+                      Haskell
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="ui label">
+                      Javascript
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="ui label">
+                      SemanticUI
+                    </div>
+                  </div>
                 </div>
               </div>
-              <br>
-              <div class="row" style="text-align: left;">
-                <div class="ui  list " style="font-size: medium;" >
-                    <button class="ui tiny gray button" data-tooltip="Básico"><div class="item" style="font-weight: bold;">Javascript</div></button>
-                    <button class="ui tiny green button"><div class="item" style="font-weight: bold;">Semantic UI</div></button>
-                </div>
               </div>
-            </div>
+
+
           </div>
         </div>
       </div>
@@ -219,6 +255,7 @@
                   </div>
                 </div>
               </div>
+              
 
               <div class="column" style="float: right;">
                 <h4 class="ui horizontal divider header">
@@ -267,6 +304,9 @@
       }
     });
     
+    $('.ui.rating')
+      .rating('disable')
+    ;
     
   </script>
 
