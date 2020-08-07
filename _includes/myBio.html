@@ -6,49 +6,37 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="curriculo" style="margin-top: 50px; margin-bottom: 6em;">
+    <div class="curriculo" style="margin-top: 50px; margin-bottom: 0em;">
         <div class="ui stackable grid container">
 
             <div class="twelve wide column middle aligned">
                 <h1 class="ui left aligned header no-bottom">
-                    Lucas de Araujo
-                    <span class="sub header">São Paulo, Brasil</span>
+                    {{site.data.bio.basics.name}}
+                    <span class="sub header">{{site.data.bio.basics.location.region}}, {{site.data.bio.basics.location.countryCode}}</span>
                 </h1>
             </div>
 
             <div class="four wide column">
                 <div class="ui middle aligned animated relaxed list">
 
-                    <a href="https://rutherford-sudo.github.io" target="_blank" class="item">
-                        <i class="user alternate icon"></i>
-                        <div class="content">
-                            <div class="header">Portfólio</div>
+                    <div class="four wide column">
+                        <div class="ui middle aligned animated relaxed list">
+                            {% for entry in site.data.bio.midias %}
+                            <a class="item" href="{% if entry.id == '5' %} mailto:{{entry.website}} {% else %} {{entry.website}} {% endif %}" target="_blank">
+                                <i class="{% if entry.id == '1' %} user alternate {% endif %}
+                                          {% if entry.id == '2' %} instagram {% endif %}
+                                          {% if entry.id == '3' %} github {% endif %}
+                                          {% if entry.id == '4' %} youtube play {% endif %}
+                                          {% if entry.id == '5' %} envelope {% endif %}
+                                icon "></i>
+                                <div class="content">
+                                    <div class="header">{{entry.name}}</div>
+                                </div>
+                            </a>
+                            {% endfor %}
                         </div>
-                    </a>
-                    <a href="https://www.instagram.com/lucas.araj" target="_blank" class="item">
-                        <i class="instagram icon"></i>
-                        <div class="content">
-                            <div class="header">Instagram</div>
-                        </div>
-                    </a>
-                    <a href="https://github.com/Rutherford-sudo" target="_blank" class="item">
-                        <i class="github icon"></i>
-                        <div class="content">
-                            <div class="header">Github</div>
-                        </div>
-                    </a>
-                    <a href="https://www.youtube.com/c/thebionicskin" target="_blank" class="item">
-                        <i class="youtube play icon"></i>
-                        <div class="content">
-                            <div class="header">Youtube</div>
-                        </div>
-                    </a>
-                    <a href="mailto:{{ site.data.bio.basics.email }}" target="_blank" class="item">
-                        <i class="envelope icon"></i>
-                        <div class="content">
-                            <div class="header">Email</div>
-                        </div>
-                    </a>
+                    </div>
+                </div>
 
                 </div>
             </div>
@@ -58,31 +46,33 @@
             <div class="row">
 
                 <div class="column">
+                    {% for entry in site.data.bio.education %}
                     <h3 class="ui horizontal center aligned divider header">
                         <i class="graduation cap icon"></i>
                         Escolaridade
                     </h3>
-                    <div class="ui one stackable cards" style="padding-top: 10px;">
+                    <div class="ui two stackable cards" style="padding-top: 10px;">
                         <div class="ui card green" style=>
                             <div class="content">
                                 <a class="ui top attached grey label" href="https://ufop.br/" target="_blank">
                                     <i class="university icon"></i>
-                                    Universidade Federal de Ouro Preto
+                                    {{entry.institution}}
                                 </a>
-                                <div class="header">Ciência Da Computação</div>
+                                <div class="header">{{entry.area}}</div>
                                 <div class="meta">
-                                    <p>Graduando</p>
+                                    <p>{{entry.studyType}}</p>
                                 </div>
                                 <div class="description"></div>
                             </div>
                             <div class="extra content">
                                 <div class="left floated">
                                     <i class="calendar alternate icon"></i>
-                                    <strong>2018.2 - Presente</strong>
+                                    <strong>{{entry.startDate}} - {{entry.endDate}}</strong>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -96,63 +86,29 @@
                         Trabalhos
                     </h3>
                     <div class="ui three stackable cards" style="padding-top: 10px;">
-                        <div class="ui blue segmented card">
-                          <div class="content">
-                            <div class="ui top attached grey label active"><i class="university icon"></i>Universidade Federal de Pernambuco</div>
-                            <div class="header">Auxiliar De Segurança</div>
-                            
-                            <div class="description">
-                              <p>Fui responsável por reportar falhas no funcionamento do website <strong>No Bairro Tem</strong></p>
-                              <div class="ui bulleted list">
-                                <div class="item">Falha de LRFI</div>
-                                <div class="item">Falha de XSS Refletido</div>
-                              </div>
+                        {% for entry in site.data.bio.work %}
+                        <div class=" ui blue segmented card">
+                            <div class="content">
+                                <div class="ui top attached grey label active"><i class="{% if entry.type == '1' %} university {% endif %} {% if entry.type == '2' %} music {% endif %} {% if entry.type == '' %} map marker alternate {% endif %} icon"></i>{{entry.company}}</div>
+                                <div class="header">{{entry.position}}</div>
+
+                                <div class="description">
+                                    <p>{{entry.summary}} <strong>{{entry.destaque}}</strong> </p>
+                                    <div class="ui bulleted list">
+                                        {% for items in entry.highlights %}
+                                        <div class="item">{{items}}</div>
+                                        {% endfor %}
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="extra content">
-                              <i class="calendar alternate icon"></i>
-                            <strong>2020 - 2020</strong>
-                          </div>
+                            <div class="extra content">
+                                <i class="calendar alternate icon"></i>
+                                <strong>{{entry.startDate}} - {{entry.endDate}}</strong>
+                            </div>
                         </div>
-        
-                        <div class="ui blue segmented card">
-                          <div class="content">
-                            <div class="ui top attached grey label active"><i class="map marker alternate icon"></i>Prefeitura de Sertãozinho</div>
-                            <div class="header">Designer</div>
-                            
-                            <div class="description">
-                              <p>Fui responsável pela criação do design de panfletos para eventos de dança na cidade</p>
-                              <div class="ui bulleted list">
-                                <div class="item">Utilizei Adobe Photoshop para edição de imagens</div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="extra content">
-                              <i class="calendar alternate icon"></i>
-                            <strong>2015 - 2016</strong>
-                          </div>
-                        </div>
-        
-                        <div class="ui blue segmented card">
-                          <div class="content">
-                            <div class="ui top attached grey label active"><i class="music icon"></i>Youtube</div>
-                            <div class="header">Produtor/Compositor</div>
-                            
-                            <div class="description">
-                              <p>Dono do canal <strong>TheBionicSkin</strong></p>
-                              <div class="ui bulleted list">
-                                <div class="item">Produzo trilhas sonoras para comerciais e artistas independentes</div>
-                                <div class="item">Utilizo Fruity Loops Studio</div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="extra content">
-                              <i class="calendar alternate icon"></i>
-                            <strong>2012 - Presente</strong>
-                          </div>
-                        </div> 
-                      
-                      </div>
+                        
+                        {% endfor %}
+                    </div>
                 </div>
             </div>
         </div>
@@ -166,27 +122,14 @@
 
                 <div class="ui segment">
                    <div class="ui relaxed divided bulleted list">
-                       <div class="item">
-                           <div class="content">
-                               <a href="https://www.freecodecamp.org/certification/shinji_mimura/scientific-computing-with-python-v7" target="_blank"  class="header">Scientific Computing with Python</a>
-                               <p class="description">freeCodeCamp</p>
-                           </div>
-                       </div>
-
-                       <div class="item">
-                            <div class="content">
-                                <a href="https://www.freecodecamp.org/certification/shinji_mimura/javascript-algorithms-and-data-structures" target="_blank" class="header">JavaScript Algorithms and Data Structures</a>
-                                <p class="description">freeCodeCamp</p>
-                            </div>
+                    {% for entry in site.data.bio.certificates %}
+                    <div class="item">
+                        <div class="content">
+                            <a href="{{entry.website}}" target="_blank" class="header">{{entry.name}}</a>
+                            <p class="description">{{entry.company}}</p>
                         </div>
-
-                        <div class="item">
-                            <div class="content">
-                                <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-RTLHDLZ0.pdf" target="_blank" class="header">Fundamentos de Ethical Hacking</a>
-                                <p class="description">Udemy</p>
-                            </div>
-                        </div>                        
-
+                    </div>
+                    {% endfor %}
                    </div>
                 </div>
             </div>
@@ -199,45 +142,27 @@
                     Idiomas
                 </h3>
                 <div class="ui horizontal stackable segments jsOnly">
-
+                    {% for entry in site.data.bio.idiomas %}
                     <div class="ui segment">
-                        <div class="ui orange progress active" style="min-width: 200px!important;" data-value="Nativo" data-total="100" data-percent="100" id="port">
+                        <div class="ui blue progress active" style="min-width: 200px!important;" data-value={{entry.level}} data-total="100" data-percent={{entry.bar_level}} id={{entry.language}}>
                             <div class="bar">
-                              <div class=" progress"></div>
+                                <div class="progress"></div>
                             </div>
-                            <div class="label" style="text-align: center;">Português</div>
+                            <div class="label" style="text-align: center;">{{entry.language}}</div>
                         </div>
 
                         <script>
-                            $('#port').progress({
-                            label: 'percent',
-                            text: {
-                                percent: '{value}'
-                            }
-                            });                            
-                        </script>
-
-                    </div>
-
-                    <div class="ui segment">
-                        <div class="ui blue progress" style="min-width: 200px!important;"  data-value="Avançado" data-total="100" data-percent="75" id="ing">
-                            <div class="bar">
-                              <div class=" progress"></div>
-                            </div>
-                            <div class="label" style="text-align: center;">Inglês</div>
-                        </div>
-
-                        <script>
-                            $('#ing').progress({
-                            label: 'percent',
-                            text: {
-                                percent: '{value}'
-                            }
+                            $('#{{entry.language}}').progress({
+                                label: 'percent',
+                                text: {
+                                    percent: '{value}'
+                                }
                             });
                         </script>
 
                     </div>
-
+                    
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -254,11 +179,18 @@
 
                 <div class="ui segment">
                     <div class="ui labels small">
-                        <div class="ui teal label">Python</div>
-                        <div class="ui teal label">C/C++</div>
-                        <div class="ui teal label">Javascript</div>
-                        <div class="ui teal label">Haskell</div>
+                        {% for entry in site.data.bio.languages %}
+                        <div class="ui teal label" data-title={{entry.level}} data-rating="3" data-variation="basic" id="{{entry.id}}">{{entry.name}}</div>
+
+                        <script>
+                            $('#{{entry.id}}')
+                                .popup()
+                            ;
+                        </script>
+
+                        {% endfor %}
                     </div>
+
                 </div>
 
             </div>
@@ -273,8 +205,9 @@
 
                 <div class="ui segment">
                     <div class="ui labels small">
-                        <div class="ui teal label">Windows</div>
-                        <div class="ui teal label">Linux (Arch)</div>
+                        {% for entry in site.data.bio.sistema %}
+                        <div class="ui teal label">{{entry.name}}</div>
+                        {% endfor %}
                     </div>
                 </div>
 
@@ -290,10 +223,9 @@
 
                 <div class="ui segment">
                     <div class="ui labels small">
-                        <div class="ui teal label">VSCode</div>
-                        <div class="ui teal label">Wireshark</div>
-                        <div class="ui teal label">Burp Suite</div>
-                        <div class="ui teal label">Github</div>
+                        {% for entry in site.data.bio.ferramenta %}
+                        <div class="ui teal label">{{entry.name}}</div>
+                        {% endfor %}
                     </div>
                 </div>
 
@@ -312,30 +244,14 @@
 
                 <div class="ui segment">
                     <div class="ui middle aligned animated relaxed list">
-                      <div class="item">
-                        <i class="shield alternate icon"></i>
-                        <div class="content">
-                          <a href="https://pt.wikipedia.org/wiki/Seguran%C3%A7a_da_informa%C3%A7%C3%A3o" target="_blank">Segurança da Informação</a> 
+                        {% for entry in site.data.bio.interesses_bio %}
+                        <div class="item">
+                            <i class="{% if entry.id == '1' %}shield {% endif %} {% if entry.id == '2' %} lock {% endif %} {% if entry.id == '3' %} sitemap {% endif %} {% if entry.id == '4' %} archive {% endif %} icon"></i>
+                            <div class="content">
+                                <a href="{{entry.website}}" target="_blank" rel="noopener noreferrer">{{entry.name}}</a>
+                            </div>
                         </div>
-                      </div>
-                      <div class="item">
-                        <i class="lock icon"></i>
-                        <div class="content">
-                          <a href="https://pt.wikipedia.org/wiki/Criptografia" target="_blank">Criptografia</a> 
-                        </div>
-                      </div>
-                      <div class="item">
-                        <i class="sitemap icon"></i>
-                        <div class="content">
-                          <a href="https://pt.wikipedia.org/wiki/Rede_de_computadores" target="_blank">Redes</a> 
-                        </div>
-                      </div>
-                      <div class="item">
-                        <i class="archive icon"></i>
-                        <div class="content">
-                          <a href="https://pt.wikipedia.org/wiki/Computa%C3%A7%C3%A3o_forense" target="_blank" rel="noopener noreferrer">Computação Forense</a> 
-                        </div>
-                      </div>
+                        {% endfor %}
                     </div>
                   </div>
             </div>
