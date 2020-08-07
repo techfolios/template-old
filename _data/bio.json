@@ -1,17 +1,17 @@
 {
   "basics": {
-    "name": "Lucas De Araujo",
+    "name": "Lucas de Araujo",
     "label": "Estudante",
     "picture": "/images/lucas.png",
     "email": "lucas.a@aluno.ufop.edu.br",
     "phone": "+55 16 994534121",
     "website": "https://Rutherford-sudo.github.io",
-    "summary": "Estudante de Ciência Da Computação",
+    "summary": "Estudante de Ciência Da Computação na Universidade Federal de Ouro Preto",
     "location": {
       "address": "",
       "postalCode": "",
       "city": "Sertãozinho",
-      "countryCode": "BR",
+      "countryCode": "Brasil",
       "region": "São Paulo"
     },
     "profiles": [
@@ -51,8 +51,7 @@
       "name": "Linguagens",
       "level": "",
       "keywords": [
-        "C",
-        "C++",
+        "C/C++",
         "Javascript",
         "Haskell",
         "Python"
@@ -73,10 +72,11 @@
   ],
   "education": [
     {
-      "institution": "Universidade Federal de Ouro Preto, MG",
+      "institution": "Universidade Federal de Ouro Preto",
       "area": "Ciência Da Computação",
       "studyType": "Graduando",
-      "startDate": "2018",
+      "startDate": "2018.2",
+      "endDate": "Presente",
       "gpa": "",
       "courses": [
       ]
@@ -84,18 +84,184 @@
   ],
   "work": [
     {
+      "company": "Universidade Federal de Pernambuco",
+      "position": "Auxiliar de Segurança",
+      "website": "",
+      "type": "1",
+      "startDate": "2020",
+      "endDate": "2020",
+      "summary": "Fui responsável por reportar falhas no funcionamento do website ",
+      "destaque": "No Bairro Tem",
+      "highlights": [
+        "Falha de LRFI",
+        "Falha de XSS Refletido"
+      ]
+    },
+    {
       "company": "Youtube",
       "position": "Produtor Musical e Compositor",
       "website": "https://www.youtube.com/c/TheBionicSkin",
+      "type": "2",
       "startDate": "2012",
-      "endDate": "",
-      "summary": "Produtor de Trilhas Sonoras",
+      "endDate": "Presente",
+      "summary": "Dono do canal ",
+      "destaque": "TheBionicSkin",
       "highlights": [
-        "Trabalho com Fruity Loops Studio",
-        "Utilizo produtos Adobe para Mixagem e Edições de Imagem e Vídeo"
+        "Produzo trilhas sonoras para comerciais e artistas independentes",
+        "Trabalho com Fruity Loops Studio"
       ]
     },
+    {
+      "company": "Prefeitura de Sertãozinho",
+      "position": "Designer",
+      "type": "",
+      "website": "",
+      "startDate": "2015",
+      "endDate": "2016",
+      "summary": "Fui responsável pela criação do design de panfletos para eventos de dança na cidade",
+      "destaque": "",
+      "highlights": [
+        "Utilizei Adobe Photoshop para edição de imagens"
+      ]
+    }
   ],
+
+  "certificates": [
+    {
+      "name": "Scientific Computing with Python",
+      "website": "https://www.freecodecamp.org/certification/shinji_mimura/scientific-computing-with-python-v7",
+      "company": "freeCodeCamp"
+    },
+
+    {
+      "name": "JavaScript Algorithms and Data Structures",
+      "website": "https://www.freecodecamp.org/certification/shinji_mimura/javascript-algorithms-and-data-structures",
+      "company": "freeCodeCamp"
+    },
+
+    {
+      "name": "Fundamentos de Ethical Hacking",
+      "website": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-RTLHDLZ0.pdf",
+      "company": "Udemy"
+    }
+
+  ],
+
+
+  "idiomas": [
+    {
+      "language": "Português",
+      "level": "Nativo",
+      "bar_level": "100"
+      
+    },
+    {
+      "language": "Inglês",
+      "level": "Avançado",
+      "bar_level": "75"
+    }
+  ],
+
+  "languages": [
+    {
+      "name": "Python",
+      "level": "Avançado",
+      "id": "1"
+    },
+    {
+      "name": "C/C++",
+      "level": "Intermediário",
+      "id": "2"
+    },
+    {
+      "name": "Javascript",
+      "level": "Básico",
+      "id": "3"
+    },
+    {
+      "name": "Haskell",
+      "level": "Básico",
+      "id": "4"
+    }
+  ],
+
+  "sistema": [
+    {
+      "name": "Windows"
+    },
+    {
+      "name": "Linux (Arch)"
+    }
+  ],
+
+  "ferramenta": [
+    {
+      "name": "VSCode"
+    },
+    {
+      "name": "Wireshark"
+    },
+    {
+      "name": "Burp Suite"
+    },
+    {
+      "name": "Github"
+    }
+  ],
+
+  "interesses_bio": [
+    {
+      "name": "Segurança da Informação",
+      "website": "https://pt.wikipedia.org/wiki/Segurança_da_informação",
+      "id": "1"
+    },
+    {
+      "name": "Criptografia",
+      "website": "https://pt.wikipedia.org/wiki/Criptografia",
+      "id": "2"
+    },
+    {
+      "name": "Redes",
+      "website": "https://pt.wikipedia.org/wiki/Rede_de_computadores",
+      "id": "3"
+    },
+    {
+      "name": "Computação Forense",
+      "website": "https://pt.wikipedia.org/wiki/Computação_forense",
+      "id": "4"
+    }
+  ],
+
+  "midias": [
+    {
+      "name": "Portfolio",
+      "website": "https://www.instagram.com/lucas.araj",
+      "id": "1"
+    },
+    {
+      "name": "Instagram",
+      "website": "https://pt.wikipedia.org/wiki/Criptografia",
+      "id": "2"
+    },
+    {
+      "name": "Github",
+      "website": "https://github.com/Rutherford-sudo",
+      "id": "3"
+    },
+    {
+      "name": "Youtube",
+      "website": "https://www.youtube.com/c/thebionicskin",
+      "id": "4"
+    },
+    {
+      "name": "Email",
+      "website": "lucas.a@aluno.ufop.edu.br",
+      "id": "5"
+    }
+  ],
+
+
+
   "volunteer": [
     {
       "organization": "Universidade Federal de Pernambuco",
@@ -108,6 +274,6 @@
         "Falha de LRFI",
         "Falha de XSS Refletido"
       ]
-    },
-  ],
+    }
+  ]
 }
