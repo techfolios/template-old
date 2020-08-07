@@ -6,7 +6,7 @@
     "email": "lucas.a@aluno.ufop.edu.br",
     "phone": "+55 16 994534121",
     "website": "https://Rutherford-sudo.github.io",
-    "summary": "Estudante de Ciência Da Computação na Universidade Federal de Ouro Preto",
+    "summary": "Estudante de Ciência Da Computação",
     "location": {
       "address": "",
       "postalCode": "",
@@ -234,7 +234,7 @@
 
   "midias": [
     {
-      "name": "Portfolio",
+      "name": "Portfólio",
       "website": "https://www.instagram.com/lucas.araj",
       "id": "1"
     },
