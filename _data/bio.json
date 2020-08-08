@@ -2,17 +2,17 @@
   "basics": {
     "name": "Franco Perez",
     "label": "M.Sc. Energietechnik / Ing. Maschinenbau",
-    "picture": "https://github.com/franco-perez/franco-perez.github.io/blob/master/images/Foto_perez.jpg",
+    "picture": "https://franco-perez.github.io/images/Perez_Foto.png",
     "email": "franco.perez.montt@gmail.com",
     "phone": "+4915772192486",
     "website": "https://franco-perez.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
     "location": {
-      "address": "",
+      "address": "Breslauer Str. 6",
       "postalCode": "71111",
       "city": "Waldenbuch",
-      "countryCode": "USA",
-      "region": "Hawaii"
+      "countryCode": "Deutschland",
+      "region": "Baden Württemberg"
     },
     "profiles": [
       {
@@ -23,7 +23,7 @@
       {
         "network": "linkedin",
         "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/franco-perez"
+        "url": "https://www.linkedin.com/in/msc-francoperez"
       },
       {
         "network": "twitter",
