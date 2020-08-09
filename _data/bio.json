@@ -16,25 +16,21 @@
     },
     "profiles": [
       {
-        "network": "github",
-        "username": "franco-perez",
-        "url": "http://github.com/franco-perez"
-      },
-      {
         "network": "linkedin",
         "username": "Franco Perez Montt",
         "url": "https://www.linkedin.com/in/franco-perez-montt/"
       },
       {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/franco-perez"
+        "network": "xing",
+        "username": "Franco Perez Montt",
+        "url": "https://www.xing.com/profile/Franco_Perez5/cv"
       },
       {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/franco-perez"
+        "network": "github",
+        "username": "franco-perez",
+        "url": "http://github.com/franco-perez"
       }
+      
     ]
   },
   "interests": [
