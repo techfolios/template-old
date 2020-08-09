@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/Sist_aquaponico_github.jpg
 title: Hydroponisches System in der Wüste
-permalink: projects/Hydroponics
+permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
 date: 2015-07-01
 labels:
