@@ -20,6 +20,8 @@ cambio, stage, commit, push
 [nombredellink](https://link)
 
 ![Workflow-git](  /images/Workflow_git.png) 
+slash permite que github adhiera la linea al directorio
+
 
 Workspace   |  staggingArea | localRepository|remoterepository \
 git add       | git commit     | git pushsh 
@@ -27,7 +29,7 @@ git add       | git commit     | git pushsh
 ``` bash
 user@host:~$  git status  #este comando sirve para ver el estado de github
 user@host:~$ git add . #comando para agregar archivos modificados al stage area 
-user@host:~$ git add . #comando para agregar archivos modificados al stage area
+user@host:~$ git coomit . #comando para agregar archivos modificados al stage area
 ```
 
 
