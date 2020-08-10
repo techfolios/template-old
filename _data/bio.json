@@ -4,7 +4,7 @@
     "label": "M.Sc. Energietechnik / Ing. Maschinenbau",
     "picture": "https://franco-perez.github.io/images/Perez_Foto.png",
     "email": "franco.perez.montt@gmail.com",
-    "phone": "+4915772192486",
+    "phone": "(+49) 1577 2192486",
     "website": "https://franco-perez.github.io",
     "summary": " Versierter, offener und lernbereiter Ingenieur mit rascher Fassungsgabe. Technologiebegeistert mit einem fundierten technischen Wissen und Erfahrung in der Automobilindustrie u.a. als Teamkoordinator.",
     "location": {
@@ -42,13 +42,18 @@
       ]
     },
     {
-      "name": "data mining",
+      "name": "Strömungssimulation",
       "keywords": [
+        "ANSYS",
+        "OpenFOAM"
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Konstruktion",
       "keywords": [
+        "Solidworks",
+        "Betriebfestigkeit"
+
       ]
     }
   ],
@@ -57,23 +62,22 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
-        "C",
         "C++",
-        "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Python",
+        "Excel VBA",
+        "Matlab",
+      
+
+      
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
+        "Windows",
         "Ubuntu",
         "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
       ]
     }
   ],
