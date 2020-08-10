@@ -1,5 +1,14 @@
-# Titulo
 
+
+# Como aprender Markdown?
+
+[nombredellink](https://link)
+
+Haz click en [Markdown](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax) para acceder a un breve tutorial de markdown
+
+# La forma de hacer graficos livianos y programados
+
+para mayor informacion revisa el archivo de extension .md
 
 <img src='https://g.gravizo.com/svg?
  digraph G {
@@ -9,15 +18,9 @@
     } 
 '/>
 
+# flujo de trabajo en Github
 
-
-pasar contenido de github al pc (local) git pull (en vscode)
-
-git push-> subir contenido a github de vscode
-
-cambio, stage, commit, push
-
-[nombredellink](https://link)
+a continuacion se muestra una foto del flujo de trabajo en git
 
 ![Workflow-git](  /images/Workflow_git.png) 
 slash permite que github adhiera la linea al directorio
