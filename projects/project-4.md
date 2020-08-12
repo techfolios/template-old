@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/morse-code.jpg
-title: DevRadar
+title: Morse Translator
 permalink: projects/project-1
 # All dates must be YYYY-MM-DD format!
 date: 2020-01-18
