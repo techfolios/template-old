@@ -123,6 +123,21 @@
       "highlights": [
         "Utilizei Adobe Photoshop para edição de imagens"
       ]
+    },
+    
+    {
+      "company": "Universidade Federal de Ouro Preto",
+      "position": "Pesquisador",
+      "type": "1",
+      "website": "",
+      "startDate": "2020",
+      "endDate": "Presente",
+      "summary": "Iniciante em pesquisas relacionadas a Parsing com foco em segurança da informação",
+      "destaque": "",
+      "highlights": [
+        "Orientado pelo professor Rodrigo Ribeiro",
+        "Estudo da linguagem Racket"
+      ]
     }
   ],
 
