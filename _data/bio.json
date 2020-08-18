@@ -6,7 +6,7 @@
     "email": "franco.perez.montt@gmail.com",
     "phone": "(+49) 1577 2192486",
     "website": "https://franco-perez.github.io",
-    "summary": " Versierter, offener und lernbereiter Ingenieur mit rascher Fassungsgabe. Technologiebegeistert mit einem fundierten technischen Wissen und Erfahrung in der Automobilindustrie u.a. als Teamkoordinator.",
+    "summary": " Versierter, offener und lernbereiter Ingenieur mit rascher Auffassungsgabe. Technologiebegeistert mit fundiertem technischem Wissen und Erfahrung in der Automobilindustrie u.a. als Teamkoordinator.",
     "location": {
       "address": "Breslauer Str. 6",
       "postalCode": "71111",
@@ -82,7 +82,7 @@
     {
       "institution": "Universität Stuttgart",
       "area": "Energietechnik",
-      "studyType": "M.Ss.",
+      "studyType": "M.Sc.",
       "startDate": "10/2016",
       "endDate": "12/2019",
       "gpa": "",
@@ -106,8 +106,8 @@
       "company": "Robert Bosch GmbH",
       "position": "Koordinator",
       "website": "www.bosch.com",
-      "startDate": "02/2018",
-      "endDate": "01/2020",
+      "startDate": "Feb. 2018",
+      "endDate": "Jan. 2020",
       "summary": "Unterstützung verschiedener Teams im Bereich Powertrain Solutions",
       "highlights": [
         "Koordination von 5 Studenten mit Erhöhung der Auftragsanzahl um 20% im Vergleich zum Vorjahr",
@@ -130,15 +130,15 @@
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
+      "organization": "Dx4 Dienstleistung",
+      "website": "https://www.facebook.com/Dx4-123695292441245/",
+      "position": "Projektmanager",
+      "startDate": "05/2020",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "summary": " Entwicklung eines Datenerfassungssystem für ein Hydroponisches System in der chilenischen Wüste",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Koordination eines Teams (5 Personen)",
+        "Zuständiger der thermische Berechnung des Systems"        
       ]
     },
     {
