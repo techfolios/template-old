@@ -37,8 +37,7 @@
     {
       "name": "internet of things",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "Arduino"
       ]
     },
     {
@@ -52,23 +51,21 @@
       "name": "Konstruktion",
       "keywords": [
         "Solidworks",
-        "Betriebfestigkeit"
-
+        "AutoCAD",
+        "Fusion 360"
       ]
     }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "level": "",
+      "level": "fundierte Kenntnisse",
       "keywords": [
         "C++",
         "Python",
         "Excel VBA",
-        "Matlab",
-      
-
-      
+        "Matlab"
+            
       ]
     },
     {
@@ -83,11 +80,22 @@
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
+      "institution": "Universität Stuttgart",
+      "area": "Energietechnik",
+      "studyType": "M.Ss.",
+      "startDate": "10/2016",
+      "endDate": "12/2019",
+      "gpa": "",
+      "courses": [
+        
+      ]
+    },
+    {
+      "institution": "Universidad de Tarapacá",
+      "area": "Maschinenbau",
+      "studyType": "Aquiv. Diplom (Ing. civil mecanico) ",
+      "startDate": "03/2009",
+      "endDate": "05/2016",
       "gpa": "",
       "courses": [
       ]
