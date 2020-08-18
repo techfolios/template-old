@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "Education": [
+  "bildungsweg": [
     {
       "institution": "Universität Stuttgart",
       "area": "Energietechnik",
@@ -139,7 +139,7 @@
       "highlights": [
         "Koordination eines Teams (5 Personen)",
         "Zuständiger der thermischen Berechnung des hydroponischen Systems"   
-        ""     
+        "Zuständiger Qualitätssicherung"     
       ]
     },
     {
