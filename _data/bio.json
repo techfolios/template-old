@@ -103,15 +103,16 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "company": "Robert Bosch GmbH",
+      "position": "Koordinator",
+      "website": "www.bosch.com",
+      "startDate": "02/2018",
+      "endDate": "01/2020",
+      "summary": "Unterstützung verschiedener Teams im Bereich Powertrain Solutions",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Koordination von 5 Studenten mit Erhöhung der Auftragsanzahl um 20% im Vergleich zum Vorjahr",
+        "Programmier- und Automatisierungsaufgaben (Matlab, Python und Excel VBA)"
+        "Einführung Bewertungsbogen zur Verbesserung der Qualitätssicherung"
       ]
     },
     {
