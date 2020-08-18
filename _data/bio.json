@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "Akademische Bildung": [
+  "Education": [
     {
       "institution": "Universität Stuttgart",
       "area": "Energietechnik",
@@ -138,7 +138,8 @@
       "summary": " Entwicklung eines Datenerfassungssystem für ein Hydroponisches System in der chilenischen Wüste",
       "highlights": [
         "Koordination eines Teams (5 Personen)",
-        "Zuständiger der thermische Berechnung des Systems"        
+        "Zuständiger der thermischen Berechnung des hydroponischen Systems"   
+        ""     
       ]
     },
     {
