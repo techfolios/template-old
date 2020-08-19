@@ -38,7 +38,7 @@
       "name": "internet of things",
       "keywords": [
         "Arduino",
-        "Lora WaN"
+        "LoRaWAN"
       ]
     },
     {
@@ -171,6 +171,25 @@
       "summary": "Preis für beste Leistung der Fakultät Maschinenbau und deren 5 Studiengängen"
     }
   ],
+  "languages": [
+    {
+      "language": "Deutsch ",
+      "level": "C2",
+      "certification": "TestDaF",
+      "link": "https://www.testdaf.de/"
+    },
+    {
+      "language": "Englisch ",
+      "level": "B2",
+      "certification": "IELTS Cambridge",
+      "link": "https://www.cambridgeenglish.org/exams-and-tests/ielts/preparation/"
+    },
+    {
+      "language": "Spanisch ",
+      "level": "C2",
+      "certification": "Muttersprachler",
+    }
+  ],  
   "references": [
     {
       "name": "Available upon request",
