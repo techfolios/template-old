@@ -37,7 +37,8 @@
     {
       "name": "internet of things",
       "keywords": [
-        "Arduino"
+        "Arduino",
+        "Lora WaN"
       ]
     },
     {
@@ -93,7 +94,7 @@
     {
       "institution": "Universidad de Tarapacá",
       "area": "Maschinenbau",
-      "studyType": "Aquiv. Diplom (Ing. civil mecanico) ",
+      "studyType": "Äq. Diplom ",
       "startDate": "03/2009",
       "endDate": "05/2016",
       "gpa": "",
@@ -158,16 +159,16 @@
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "KOSPIE-Stipendium",
+      "date": "2014-2015",
+      "awarder": "Deutscher Akademischer Austausch Dienst (DAAD)",
+      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at•	Einjähriges Austauschstudium an der OTH-Regensburg. "
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Herausragende Leistung",
+      "date": "2012",
+      "awarder": "Universidad de Tarapacá",
+      "summary": "Preis für beste Leistung der Fakultät Maschinenbau und deren 5 Studiengängen"
     }
   ],
   "references": [
