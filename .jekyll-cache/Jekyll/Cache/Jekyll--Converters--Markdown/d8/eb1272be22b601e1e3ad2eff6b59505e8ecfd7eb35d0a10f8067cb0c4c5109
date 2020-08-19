@@ -1,0 +1,10 @@
+I"Ê<p><img class="ui medium right floated rounded image" src="../images/vacay-home-page.png" /></p>
+
+<p>Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.</p>
+
+<p>Vacay is implemented using <a href="http://meteor.com">Meteor</a>, a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.</p>
+
+<p>In this project I gained experience with full-stack web application design and associated technologies, including <a href="http://mongodb.com">MongoDB</a> for database storage, the <a href="http://getbootstrap.com/">Twitter Bootstrap</a> CSS Framework for the user interface, and Javascript for both client and server-side programming.</p>
+
+<p>Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a></p>
+:ET
