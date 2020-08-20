@@ -10,7 +10,7 @@
     {% for entry in site.data.bio.volunteer %}
 
     <div class="ui grid">
-      <div class="fourteen wide column no-bottom">
+      <div class="thirteen wide column no-bottom">
         <p class="ui no-bottom">
           <b>
             {{ entry.position }}{% if entry.organization and (entry.organization != "") %}, {{ entry.organization }}{% endif %}
@@ -26,7 +26,7 @@
         </ul>
         {% endif %}
       </div>
-      <div class="two wide right aligned column no-bottom">
+      <div class="three wide right aligned column no-bottom">
         <p class="ui no-bottom"><b>
           {% if entry.startDate %}
           {{ entry.startDate  }}
