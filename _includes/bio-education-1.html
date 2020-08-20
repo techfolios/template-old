@@ -2,15 +2,15 @@
 
 
 <div class="row">
-<div class="two wide column">
-  <h3 class="ui left aligned header no-bottom">Bildungsweg</h3>
+<div class="three wide column">
+  <h3 class="ui left aligned header no-bottom">Akdemische Bildung</h3>
 </div>
 
-<div class="fourteen wide column no-bottom">
+<div class="thirteen wide column no-bottom">
   {% for entry in site.data.bio.education %}
 
   <div class="ui grid">
-    <div class="twelve wide column no-bottom">
+    <div class="thirteen wide column no-bottom">
       <p class="ui no-bottom"><b>{{ entry.institution }}</b></p>
       <p class="ui no-bottom">{{ entry.studyType }}, {{ entry.area }}</p>
       {% if entry.courses %}
@@ -21,7 +21,7 @@
       </ul>
       {% endif %}
     </div>
-    <div class="four wide right aligned column no-bottom">
+    <div class="three wide right aligned column no-bottom">
       <p class="ui no-bottom"><b>
         {% if entry.startDate %}
         {{ entry.startDate}}
