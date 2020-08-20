@@ -6,11 +6,11 @@
     <h3 class="ui left aligned header no-bottom">Auszeichnungen</h3>
   </div>
 
-  <div class="fifteen wide column no-bottom">
+  <div class="thirteen wide column no-bottom">
     {% for entry in site.data.bio.awards %}
 
     <div class="ui grid">
-      <div class="eighteen wide column no-bottom">
+      <div class="sixteen wide column no-bottom">
         <p class="ui no-bottom">
           <b>{{ entry.title }}</b>, {{ entry.awarder }}{% if entry.date %}, {{ entry.date }}{% endif %}
         </p>
