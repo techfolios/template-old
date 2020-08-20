@@ -2,43 +2,30 @@
 layout: project
 type: project
 image: images/Sist_aquaponico_github.jpg
-title: Hydroponisches System in der Wüste
-permalink: projects/micromouse
+title: Smart farming in der Atacama wüste
+permalink: projects/smart_farming
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2020-05-01
 labels:
-  - Robotics
+  - Smart farming
   - IoT
   - Sensorik
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+summary: Unser Team arbeitet in der Entwicklung eines IoT Umgebung zur Messdatenerfassung eines hydroponischen Salatanbaus in der Atacama Wüste in Chile.
 ---
 
 <div class="ui small rounded images">
   <img class="ui image" src="../images/Sist_aquaponico_github.jpg">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+<div style="text-align: justify"> Die Landwirtschaft der Atacama Wüste hat unter anderem mit Wassermangel und extremen Wetterbedingungen zu kämpfen. Was eine ernste Problematik für die Landwirte der Region darstellt. In diesem Projekt untertstützen wir den hydroponsichen Salatanbau einer Landwirtin aus <a href="https://en.wikipedia.org/wiki/Caleta_V%C3%ADtor">Caleta Vitor</a>
 
-Here is some code that illustrates how we read values from the line sensors:
+Für dieses Projekt platzieren wir verschidene Sensoren zur Datenerfassung der Temperatur, Solarstrahlung, PH-Werten, Wasserströmen u. a. Die erfasste Daten werden über ein lokales Netzwerk (LoRaWAN) gespeichert und bearbeitet. Anschließen kriegt der Endkunde eine graphische Darstellung der Ist-Wert seiner Anlage. Mit dieser Lösung kann der Landwirt mit der ermittelten Information Entscheidungen treffen, die zum Schutz der Ernte dient.
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
+Zur weiteren Informationen der technischen Entwicklung dieses Projektes kontaktieren Sie mich bitte via <a href="mailto:franco.perez.montt@gmail.com">Email</a>  
+ </div> 
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
 
 
 
