@@ -29,14 +29,14 @@
       <div class="two wide right aligned column no-bottom">
         <p class="ui no-bottom"><b>
           {% if entry.startDate %}
-          {{ entry.startDate | slice: 0,4 }}
+          {{ entry.startDate  }}
           {% endif %}
           {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
           -
           {% endif %}
           {% if entry.endDate %}
             {% if entry.endDate != "Present" %}
-              {{ entry.endDate | slice: 0,4 }}
+              {{ entry.endDate }}
             {% else %}
               {{ entry.endDate }}
             {% endif %}
