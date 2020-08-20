@@ -32,7 +32,7 @@ git add       | git commit     | git pushsh
 ``` bash
 user@host:~$  git status  #este comando sirve para ver el estado de github
 user@host:~$ git add . #comando para agregar archivos modificados al stage area 
-user@host:~$ git coomit . #comando para agregar archivos modificados al stage area
+user@host:~$ git coomit -m "comentario". #comando para agregar archivos modificados al stage area
 ```
 
 
