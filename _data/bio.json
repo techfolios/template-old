@@ -35,7 +35,7 @@
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Internet of things",
       "keywords": [
         "Arduino",
         "LoRaWAN"
@@ -60,9 +60,8 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "level": "fundierte Kenntnisse",
+      "level": "Fundierte Kenntnisse",
       "keywords": [
-        "C++",
         "Python",
         "Excel VBA",
         "Matlab"
@@ -71,7 +70,7 @@
     },
     {
       "name": "Toolsets/OS",
-      "level": "",
+      "level": "Gute Kenntnisse",
       "keywords": [
         "Windows",
         "Ubuntu",
