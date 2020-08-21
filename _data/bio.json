@@ -35,10 +35,11 @@
   },
   "interests": [
     {
-      "name": "Internet of things",
+      "name": "Konstruktion",
       "keywords": [
-        "Arduino",
-        "LoRaWAN"
+        "Solidworks",
+        "AutoCAD",
+        "Fusion 360"
       ]
     },
     {
@@ -49,36 +50,55 @@
       ]
     },
     {
-      "name": "Konstruktion",
-      "keywords": [
-        "Solidworks",
-        "AutoCAD",
-        "Fusion 360"
-      ]
-    }
-  ],
-  "skills": [
-    {
-      "name": "Languages and Frameworks",
-      "level": "Fundierte Kenntnisse",
+      "name": "Programmierung",
       "keywords": [
         "Python",
         "Excel VBA",
         "Matlab",
-        "ANSYS",
-        "Solidworks"
-        
-            
+        "Git/Github"
+      ]
+    },
+     {
+      "name": "Internet of things",
+      "keywords": [
+        "Arduino",
+        "LoRaWAN"
+      ]
+    }
+   
+  ],
+  "skills": [
+    {
+      "name": "Expertenskills",
+      "level": "Expertenkenntnisse",
+      "keywords": [
+        "MS-Office"
+  
       ]
     },
     {
       "name": "Toolsets/OS",
+      "level": "Sehr gute Kenntnisse",
+      "keywords": [
+        "Solidworks",
+        "ANSYS",
+        "Python",
+        "Matlab",
+        "Excel VBA"     
+      ]
+    },
+    {
+      "name": "Expertenskills",
       "level": "Gute Kenntnisse",
       "keywords": [
-        "Windows",
-        "Ubuntu",
-        "Git/GitHub",
-        "OpenFOAM"
+        "OpenFOAM",
+        "Simulink",
+        "AutoCAD",
+        "Simpack MBS",
+        "Git/GitHub"
+        
+        
+            
       ]
     }
   ],
@@ -89,9 +109,8 @@
       "studyType": "M.Sc.",
       "startDate": "10/2016",
       "endDate": "12/2019",
-      "gpa": "",
-      "courses": [
-        
+      "gpa": "2.3",
+      "courses": [" Schwerpunkt 1: Erneuerbare thermische Energiesysteme","Schwerpunkt 2: Windenergie"
       ]
     },
     {
@@ -100,8 +119,8 @@
       "studyType": "Äq. Diplom ",
       "startDate": "03/2009",
       "endDate": "05/2016",
-      "gpa": "",
-      "courses": [
+      "gpa": "6.2 (Äq. 1.7)",
+      "courses": ["Schwerpunkt 1: Konstruktion", "Schwerpunkt 2: Strömungssimulation"
       ]
     }
   ],
@@ -120,15 +139,15 @@
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Institut IER aus der Universität Stuttgart",
+      "position": "Wissenschaftlicher Hilfskraft mit Diplom",
+      "website": "https://www.ier.uni-stuttgart.de/",
+      "startDate": "01/2017",
+      "endDate": "02/2018",
+      "summary": "Technische und ökonomische Studien für Solar Mining; Erneuerbare Energien im chilenischen Bergbau",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Auslegung eines Rohrsystems (Matlab) und Berechnung dessen Machbarkeit (Excel)",
+        "Solarressource Berechnungsüberprüfung eines Skriptes (Matlab)"
       ]
     }
   ],
