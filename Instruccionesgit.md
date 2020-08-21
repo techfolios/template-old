@@ -74,3 +74,7 @@ https://www.flaticon.com/free-icon/phone-call_561131?term=telephon&page=1&positi
 https://www.w3schools.com/html/html_images.asp
 
 https://www.w3docs.com/snippets/html/how-to-embed-pdf-in-html.html
+
+# Deshacer push
+
+como deshacer un push y restaurar el branch hasta el ultimo commit aceptado (estado dodne el codigo aun funcionaba) -> git push -f origin last_known_good_commit:branch_name. Para mas informacion haga [click aqui](https://stackoverflow.com/questions/1270514/undoing-a-git-push)
