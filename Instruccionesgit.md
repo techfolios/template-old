@@ -55,3 +55,22 @@ user@host:~$ git coomit -m "comentario". #comando para agregar archivos modifica
 - gravizo
 - mermaid
 - graphviz (dot)
+
+#notas
+
+para ejecutar de manera local ir a seccion 1.2 de [techfolios](https://techfolios.github.io/userguide.html)
+
+```cmd
+en cmd
+user@host:~$ jekyll serve --baseurl ''
+```
+
+https://hackernoon.com/can-github-be-a-powerful-project-management-tool-7ff750463234
+
+https://open.hpi.de/courses/git2020/items/2rKPrb4rZZC8dhP8vS4h58
+
+https://www.flaticon.com/free-icon/phone-call_561131?term=telephon&page=1&position=3
+
+https://www.w3schools.com/html/html_images.asp
+
+https://www.w3docs.com/snippets/html/how-to-embed-pdf-in-html.html
