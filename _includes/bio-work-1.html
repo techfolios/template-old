@@ -2,15 +2,15 @@
 
 {% if site.data.bio.work %}
 <div class="row">
-  <div class="two wide column">
+  <div class="three wide column">
     <h3 class="ui left aligned header no-bottom">Berufserfahrung</h3>
   </div>
 
-  <div class="fourteen wide column no-bottom">
+  <div class="thirteen wide column no-bottom">
     {% for entry in site.data.bio.work %}
 
     <div class="ui grid">
-      <div class="twelve wide column no-bottom">
+      <div class="thirteen wide column no-bottom">
         <p class="ui no-bottom"><b>{{ entry.position }}, {{ entry.company }}</b></p>
         <p class="ui no-bottom"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://"
           }}</a></p>
@@ -23,7 +23,7 @@
         </ul>
         {% endif %}
       </div>
-      <div class="four wide right aligned column no-bottom">
+      <div class="Three wide right aligned column no-bottom">
         <p class="ui no-bottom"><b>
           {% if entry.startDate %}
           {{ entry.startDate  }}
