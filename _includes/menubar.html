@@ -7,16 +7,16 @@
 
 <div class="nonprintable">
   <nav id="demo" class="ui secondary blue pointing menu" style="background-color: rgba(255, 255, 255, 0.835);justify-content: center;/*! margin: auto; */">
-    <a href="{{ site.baseurl}}/" class="brand item" style="font-weight: bold; margin-right: 20px;">
+    <a href="{{ site.baseurl}}/" class="brand item" style="font-weight: bold; margin-right: 3px;">
       Início
     </a>
     {% if num_projects > 0 %}
-    <a href="{{ site.baseurl }}/projects" class=" {% if include.active == "projects" %} active {% endif %}item" style="font-weight: bold; margin-right: 20px;">{{  site.projects-page-label  }}</a>
+    <a href="{{ site.baseurl }}/projects" class=" {% if include.active == "projects" %} active {% endif %}item" style="font-weight: bold; margin-right: 3px;">{{  site.projects-page-label  }}</a>
     {% endif %}
     {% if num_essays > 0 %}
-    <a href="{{ site.baseurl }}/essays" class=" {% if include.active == "essays" %} active {% endif %} item" style="font-weight: bold; margin-right: 20px;">{{  site.essays-page-label  }}</a>
+    <a href="{{ site.baseurl }}/essays" class=" {% if include.active == "essays" %} active {% endif %} item" style="font-weight: bold; margin-right: 3px;">{{  site.essays-page-label  }}</a>
     {% endif %}
-    <a href="{{ site.baseurl }}/bio" class=" {% if include.active == "bio" %} active {% endif %} item" style="font-weight: bold; margin-right: 20px;">{{ site.bio-page-label }}</a>
+    <a href="{{ site.baseurl }}/bio" class=" {% if include.active == "bio" %} active {% endif %} item" style="font-weight: bold; margin-right: 3px;">{{ site.bio-page-label }}</a>
   </nav>
 </div>
 
