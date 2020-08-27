@@ -1,6 +1,6 @@
 <div style="padding-top: 20px" class="ui container ">
 
-  <div class="ui stackable centered four cards">
+  <div class="ui stackable centered three cards">
     {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
     {% for page in project_pages %}
       {% unless page.draft %}
