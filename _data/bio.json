@@ -48,26 +48,18 @@
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "Languages",
       "level": "",
       "keywords": [
-        "C",
-        "C++",
-        "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "English",
+        "Japanese",
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Windows",
       ]
     }
   ],
@@ -84,7 +76,9 @@
     }
   ],
   "work": [
-   N/A
+    {
+      "N/A"
+    }
   ],
   "volunteer": [
     {
@@ -96,9 +90,12 @@
       "summary": "Assisted with library's Summer Reading Program",
       "highlights": [
         "Assisted with library craft projects and other miscellaneous tasks",
-        "Maintain area designated for Summer Reading Program"   
+        "Maintain area designated for Summer Reading Program"  
+    }
   ],
   "awards": [
-   N/A
+    {
+   "N/A"
+    }
   ]
 }
