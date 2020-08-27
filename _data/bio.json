@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "name": "Stacy Vasquez",
+    "label": "Undergraduate Student",
+    "picture": "https://stacycv.github.io/images/molly.png",
+    "email": "stacycv@hawaii.edu",
+    "phone": "",
+    "website": "https://stacycv.github.io",
+    "summary": "Hello! I am a third year University of Hawaii undergraduate studying for a B.B.A. in Management Information Systems with a minor in Religion. My expected graduation is Spring 2022.",
     "location": {
       "address": "",
       "postalCode": "96822",
@@ -17,153 +17,120 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
-      },
-      {
-        "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "stacycv",
+        "url": "http://github.com/stacycv"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "traveling",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "fencing",
       "keywords": [
-      ]
-    }
-  ],
-  "skills": [
-    {
-      "name": "Languages and Frameworks",
-      "level": "",
-      "keywords": [
-        "C",
-        "C++",
-        "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
       ]
     },
     {
-      "name": "Toolsets/OS",
-      "level": "",
+      "name": "distance running",
       "keywords": [
-        "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
       ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "area": "Management Information Systems (expected Spring, 2020)",
+      "studyType": "B.B.A",
+      "startDate": "2018-08-01",
       "endDate": "Present",
-      "gpa": "",
+      "gpa": "3.66",
       "courses": [
       ]
-    }
-  ],
-  "work": [
-    {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
-      "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "institution": "AKAMAI Finance Academy",
+      "area": "Financial Analyst Training Program",
+      "studyType": "Student",
+      "startDate": "2019-09-01",
+      "endDate": "2020-02-01",
+      "gpa": "",
+      "courses": [
+   }
+ ],
+  "work experience": [
+    {
+      "company": "University  of Hawaii at Manoa",
+      "position": "Resident Advisor",
+      "website": "",
+      "startDate": "2020-01-01",
+      "endDate": "Present",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Consults 45+ students in residental halls to develop professional and conflict mediation skills",
+        "Teams up with business college to lead the residental learning program for incoming freshman",
+        "Coordinates two active programs and one silent program each month with goals of keeping a positive community" 
       ]
-    }
-  ],
-  "volunteer": [
+    },    
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
+      "company": "Morgan Stanley",
+      "position": "Marketing Intern",
+      "website": "https://www.morganstanley.com",
+      "startDate": "2019-03-01",
+      "endDate": "2020-03-01",
       "summary": "",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Monitored and helped manage $760,000,000+ in client assets",
+        "Prepared and handled forms for nearly 3,000 clients",
+        "Organized monthly seminars and client appreciation events" 
+      ]
+    },
+    {
+      "company": "Birch Trail Camp for Girls",
+      "position": "Camp Counselor",
+      "website": "https://birchtrail.com",
+      "startDate": "2019-03-01",
+      "endDate": "2020-03-01",
+      "summary": "",
+      "highlights": [
+        "Ensured the physical and mental wellbeing of over 30 preteens",
+        "Enforced rules and regulations amongst 500 young women to maintain discipline and ensure safety"
       ]
     }
   ],
-  "awards": [
+  "extracurricular": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "organization": "Financial Management Association",
+      "website": "",
+      "position": "Vice Prresident Spring 2020",
+      "startDate": "2019-08-01",
+      "endDate": "Present",
+      "summary": "The Financial Management Association is an organization that expands members in their knowledge of financial theory and its applications. They strive to strengthen their social and professional network among peers and the business community",
+      "highlights": [
+        "Plans a professional interaction night to connect 20+ college students with 15+ professionals",
+        "Acts as the communicator between 10 executive board and 30 club members"
+      ]
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "organization": "Delta Sigma Pi",
+      "website": "http://dspuhm.com",
+      "position": "Member",
+      "startDate": "2018-08-01",
+      "endDate": "Present",
+      "summary": "Delta Sigma Pi is a professional fraternity organized to foster the study of business in universities; to encourage scholarship, social activity and the association of students for their mutual advancement by research and practice",
+      "highlights": [
+        "Elected VP Community Service for the 2018-2019 school year",
+        "Offered 40+ community service activities for newly initiated members to participate in",
+      ]
     }
   ],
-  "references": [
+  "activities": [
     {
-      "name": "Available upon request",
-      "reference": ""
+      "name": "Rotaract Club",
+      "name": "Business Executive Society of Tomorrow",
+      "name": "Business Residential Learning Program"
     }
   ]
 }
