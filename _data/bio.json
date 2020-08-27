@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Amber Young",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
+    "picture": "https://techfolios.github.io/images/amber.png",
+    "email": "ahky2000@hawaii.edu",
     "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "website": "https://ahky20.github.io",
+    "summary": "I am studying for a B.B.A. in Management Information Systems in Shidler College of Business at the University of Hawaii. I expect to graduate in Fall, 2021.",
     "location": {
       "address": "",
       "postalCode": "96822",
@@ -17,13 +17,13 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "ahky20",
+        "url": "http://github.com/ahky20"
       },
       {
-        "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "network": "indeed",
+        "username": "ahky2000@hawaii.edu",
+        "url": "https://my.indeed.com/p/ambery-imvyjfo"
       },
       {
         "network": "twitter",
