@@ -101,7 +101,7 @@
       ]
     }
   ],
-  "extracurricular": [
+  "Activites": [
     {
       "organization": "Financial Management Association",
       "website": "",
@@ -127,11 +127,10 @@
       ]
     }
   ],
-  "activities": [
+  "references": [
     {
-      "name": "Rotaract Club",
-      "name": "Business Executive Society of Tomorrow",
-      "name": "Business Residential Learning Program"
+      "name": "Available upon request",
+      "reference": ""
     }
   ]
 }
