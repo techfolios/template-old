@@ -46,15 +46,15 @@
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "Cellular Device Repairs",
       "level": "",
       "keywords": [
-        "C",
-        "C++",
-        "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Display",
+        "Battery",
+        "Charge Port",
+        "Cameras",
+        "Speakers",
+        "Water Damage"
       ]
     },
     {
@@ -62,19 +62,17 @@
       "level": "",
       "keywords": [
         "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Excel",
+        "Word/Docs"
       ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "area": "MIS & Marketing (expected Spring, 2023)",
+      "studyType": "B.B.A.",
+      "startDate": "2019-08-24",
       "endDate": "Present",
       "gpa": "",
       "courses": [
@@ -83,69 +81,56 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Tricked Out Accessories",
+      "position": "Level 2 Technician",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2019-07-13",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Certified repair technician responsible for fixing broken devices while running the floor with sales.",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Ranked #1 in highest gross profit per hour working in the company",
+        "Assist with training and general runnning of store (opening, mid, and closing shifts)"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "Big Brothers Big Sisters",
+      "website": "",
+      "position": "Mentor",
+      "startDate": "2016-09-20",
+      "endDate": "2019-05-30",
+      "summary": "Mentor for an elementary student",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Helping be a positive influence through joint activities",
+        "Assist with work assignments and tutoring of elementary student"
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "organization": "Delta Sigma Pi: Rho Chi Chapter",
+      "website": "dspuhm.com",
+      "position": "Vice President of Professional Activities",
+      "startDate": "2019-11-15",
+      "endDate": "Present",
+      "summary": "Professional Co-ed business fraternity upholding pillars of scholarship, professionalism, service, and brotherhood",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "In charge of setting up professional workshops/tours/presentations for Fall 2020 semester",
+        "Help in leading recruitment events and participating in community service"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Unsung Heroes Award",
+      "date": "2019",
+      "awarder": "'Iolani High School",
+      "summary": "Award given to students who make a difference in the lives of their teachers & classmates, yet seldom receive the spotlight."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Hawaii States Public Forum Debate 1st Place",
+      "date": "2019",
+      "awarder": "National Speech and Debate Association",
+      "summary": "My partner and I won 1st place in the state debate competition, quaifying for nationals. Placed 4th in state extemporaneous speaking."
     }
   ],
   "references": [
