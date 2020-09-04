@@ -76,12 +76,9 @@
     }
   ],
   "work": [
-    {
       "None",
-    },
   ],
   "volunteer": [
-    {
       "organization": "Kalihi-Palama Public Library",
       "website": "https://www.librarieshawaii.org/branch/kalihi-palama-public-library/",
       "position": "Summer Reading Program Volunteer",
@@ -91,7 +88,6 @@
       "highlights": 
         "Assisted with library craft projects and other miscellaneous tasks",
         "Maintain area designated for Summer Reading Program",  
-    },
   ],
   "awards": [
    "Spring 2020 Dean's List"
