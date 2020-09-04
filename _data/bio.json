@@ -76,20 +76,75 @@
     }
   ],
   "work": [
-      "None",
+      {
+      "company": "UH Manoa Board of Publications",
+      "position": "Web Developer",
+      "website": "",
+      "startDate": "2015-08-01",
+      "endDate": "Present",
+      "summary": "Head of online presence for Ka Leo",
+      "highlights": [
+        "Maintain, update, and oversee official college newspaper website",
+        "Drive, design and build student-community projects for UH Manoa"
+      ]
+    },
+    {
+      "company": "UH Information Technology Services",
+      "position": "Help Desk Consultant",
+      "website": "http://www.hawaii.edu/its/",
+      "startDate": "2015-01-01",
+      "endDate": "2016-03-15",
+      "summary": "",
+      "highlights": [
+        "Troubleshoot software, hardware and networking issues over the phone",
+        "Answer phone and email responses to the ITS Help Desk"
+      ]
+    }
   ],
   "volunteer": [
-      "organization", "Kalihi-Palama Public Library",
-      "website", "https://www.librarieshawaii.org/branch/kalihi-palama-public-library/",
-      "position", "Summer Reading Program Volunteer",
-      "startDate", "June 2015",
-      "endDate", "July 2015",
-      "summary", "Assisted with library's Summer Reading Program",
-      "highlights", 
+       {
+      "organization": "Kalihi Palama Public Library",
+      "website": "https://www.librarieshawaii.org/branch/kalihi-palama-public-library/",
+      "position": "Summer Reading Program Volunteer",
+      "startDate": "2015-06-01",
+      "endDate": "2015-07-31",
+      "summary": "Assisted with library's Summer Reading Program",
+      "highlights": [
         "Assisted with library craft projects and other miscellaneous tasks",
-        "Maintain area designated for Summer Reading Program",  
+        "Maintain area designated for Summer Reading Program"
+      ]
+    },
+    {
+      "organization": "Aina Haina Public Library",
+      "website": "https://www.librarieshawaii.org/branch/aina-haina-public-library/",
+      "position": "Summer Reading Program Volunteer",
+      "startDate": "2013-06-10",
+      "endDate": "2013-07-31",
+      "summary": "Assisted with library's Summer Reading Program",
+      "highlights": [
+        "Maintain area designated for Summer Reading Program",
+        "Organized shelves during free moments"
+      ]
+    }
   ],
   "awards": [
-   "Spring 2020 Dean's List"
+   {
+      "title": "Spring 2020 Dean's List",
+      "date": "Spring 2020",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Recognition for outstanding academic achievement in the Spring 2020 semester."
+    },
+    {
+      "title": "First place",
+      "date": "2014-2017",
+      "awarder": "Sacred Hearts Academy Marching Band",
+      "summary": "Three-year winner during the marching band's annual block drill-off"
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
   ]
 }
