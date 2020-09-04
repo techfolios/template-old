@@ -4,7 +4,7 @@
     "label": "Student",
     "picture": "https://techfolios.github.io/template/images/molly.png",
     "email": "ayang27@hawaii.edu",
-    //"phone": "",
+    "phone": "",
     "website": "https://alvinyang101.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
     "location": {
@@ -25,20 +25,20 @@
         "username": "alvinyang101",
         "url": "http://linkedin.com/in/changeme"
       },
-      /*
+      
       {
         "network": "twitter",
         "username": "mollymal",
         "url": "http://twitter.com/changeme"
       },
-      */
-      /*
+      
+      
       {
         "network": "instagram",
         "username": "molly",
         "url": "http://instagram.com/changeme"
       }
-      */
+      
     ]
   },
   "interests": [
