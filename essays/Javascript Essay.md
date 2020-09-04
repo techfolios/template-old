@@ -10,7 +10,7 @@ labels:
   - Javascript
 ---
 
-<img class="ui tiny left circular floated image" src="../images/jsicon.png">
+<img class="ui tiny left floated image" src="../images/jsicon.png">
 
 ## Java script
 Starting a new semester of school, means getting into new classes and new things to learn. One of these classes is a software engineering class, ICS 314, and I just learned the basics of Javascript. Having learned a couple of coding languages before including: Java, C, C++, Javascript felt like a high level programming language to me. By that I mean that it had functions and methods that did a lot of the heavy lifting, where in a language like C, you had more fine grained control over many aspects of coding such as memory management, or addresses of variables. It was interesting to see Javascript do things, that I thought was a bad idea working with other languages, with the one to note being: functions could return multiple data types. Going through some coding examples with Javascript, I can see that these are not inherently bad things and from a software engineering standpoint, Javascript is not a good or bad programming language, the higher level programming Javascript provides is useful for getting things functional quickly such as websites, but may not be as useful for programs that have to run at optimal performance.
