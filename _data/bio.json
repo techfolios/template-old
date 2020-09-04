@@ -79,13 +79,13 @@
       "None"
   ],
   "volunteer": [
-      "organization": "Kalihi-Palama Public Library",
-      "website": "https://www.librarieshawaii.org/branch/kalihi-palama-public-library/",
-      "position": "Summer Reading Program Volunteer",
-      "startDate": "2015-06",
-      "endDate": "2015-07",
-      "summary": "Assisted with library's Summer Reading Program",
-      "highlights": 
+      "organization", "Kalihi-Palama Public Library",
+      "website", "https://www.librarieshawaii.org/branch/kalihi-palama-public-library/",
+      "position", "Summer Reading Program Volunteer",
+      "startDate", "2015-06",
+      "endDate", "2015-07",
+      "summary", "Assisted with library's Summer Reading Program",
+      "highlights", 
         "Assisted with library craft projects and other miscellaneous tasks",
         "Maintain area designated for Summer Reading Program"  
   ],
