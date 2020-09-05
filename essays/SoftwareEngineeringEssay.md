@@ -9,7 +9,7 @@ labels:
   - Coding
 ---
 <figure>
-<img class="ui left floated image" src="../images/scratch.png">
+<img class="ui left image" src="../images/scratch.png">
 <figcaption>*Scratch, a block based game coding website*</figcaption>
 </figure>
 
