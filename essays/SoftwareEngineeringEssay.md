@@ -9,8 +9,8 @@ labels:
   - Coding
 ---
 
-<img class="ui left floated image" src="../images/scratch.png">*Scratch, a block based game coding website*
-
+<img class="ui left floated image" src="../images/scratch.png">
+<figcaption>*Scratch, a block based game coding website*</figcaption>
 I have always been interested in coding ever since in high school, but back then I could not get into the coding classes offered and the closest to coding I had was creating games in Scratch with block coding. Getting into college, I was exposed to coding in Java as well as many other languages, and it really confirmed how much I enjoyed coding. Now in my last semester of school, I am taking ICS 314, Software Engineering and there are various things that I want to take away from this class.
 
 ## Programming Skills
