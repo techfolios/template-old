@@ -12,7 +12,7 @@ labels:
 summary: Me and my partner created a microprocessor in verilog and implemented it in a Basys-3 board for EE 260.
 ---
 
-<img class="ui medium image" src="../images/basys3-1.jpg">
+<img class="ui medium center image" src="../images/basys3-1.jpg">
 
 When I took EE 260, Introduction to Digital Design, the main point of the class was well as the name implies, how to design digital circuits. Some of the things that was learned in the class was creating clocks, how to implement logic, etc. At the end of the semester the class was told that if you could follow the lab instructions to implement a microprocessor in Verilog on Vivado, and implement it onto a Basys-3 board, you would get a whole lab worth of extra credit. Now me and my partner were interested in this, so we decided to put our all, to try and get this working.
 
