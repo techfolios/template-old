@@ -1,44 +1,27 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+image: images/minecraft.png
+title: Top of Minecraft Server Economy
+permalink: projects/minecraft
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2020-09-04
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Minecraft
+  - Economy
+summary: Attempting to break a minecraft server's economy comes with many challenges.
 ---
 
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+<div class="ui image">
+  <img class="ui image" src="../images/minecraftstocks.png">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+Minecraft is a game, where you find and make your own fun. You can play alone or with friends on online servers, and some servers offer many different experiences for the player. One of these experiences that my friends and I took upon ourselves was to make so much money in a server that we would just ruin the economy. In this minecraft server, one is able to sell & purchase various things, meaning one could create a farm for a certain item to sell at the server shop to gain more money. So the first problem came upon us was what was the most efficient item to farm and sell to get the most money in the shortest amount of time. The answer to this was melons, and so we started theory crafting the best melon farm that could be created, scaled it up, and spent hours selling melons.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+Now for the time, our current set-up was generating a good amount of money, enough such that we could overttake the richest player on the server, but tragedy struck. As people noticed our personal assetts growing, they became determined to find out where the money was coming from so they could reap the benefits for themselves. This lead to spying and selling information in the server, as now making money was a goal that many people had set their eyes on. The server then had to slash the sell prices on melons from the problems generated. This was not enough to stop us however, with a good amount of money on hand, we decided that it was time to stop farming the small change items, and moved on to bigger fish. As we would mainly be limitted by how fast we could sell items at the shop we decided to farm up the most expensive item, ghast tears. Fighting through various problems that arose including arguments, some group members losing interests, we finally took top spot in the server economy. In the end we distributed the money amongst the newer players so that they could easily get started server.
 
-Here is some code that illustrates how we read values from the line sensors:
+This project may just seem like a group of people just playing a game, but there was much to take from our experience in setting a goal to claim top spot in a server economy. We learned how people may act hostile when it comes to a competition and may resort to various tactics such as espionage. From this we found how important information is when it came to this sort of competition, and how to solve various problems when trying to create optimized farms and such. It was a really fun experience that I still look back on.
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
-
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
 
 
 
