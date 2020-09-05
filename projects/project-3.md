@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: ../images/iJam.png
-title: iJame with Channel Randomization
+title: iJam with Channel Randomization
 permalink: projects/cotton
 # All dates must be YYYY-MM-DD format!
 date: 2020-09-04
