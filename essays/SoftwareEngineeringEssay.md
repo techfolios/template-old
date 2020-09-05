@@ -8,14 +8,12 @@ labels:
   - Software Engineering
   - Coding
 ---
-<figure>
-<img class="ui left image" src="../images/scratch.png">
-<figcaption>*Scratch, a block based game coding website*</figcaption>
-</figure>
+
+<img class="ui left floated image" src="../images/scratch.png">
 
 I have always been interested in coding ever since in high school, but back then I could not get into the coding classes offered and the closest to coding I had was creating games in Scratch with block coding. Getting into college, I was exposed to coding in Java as well as many other languages, and it really confirmed how much I enjoyed coding. Now in my last semester of school, I am taking ICS 314, Software Engineering and there are various things that I want to take away from this class.
 
-## Programaming Skills
+## Programming Skills
 
 Currently I would consider myself ok at programming, as I know how to apply what I currently know in order to solve various problems. I know however, that there are many coding techniques as well as different branches of coding that I have not experienced yet. One of the programming skills I would like to learn is well, how to work with much more complicated programs. By this I would like to see how one would approach building a difficult system, how they take the future of the code into account as well as how different parts of the code would interact with each other. I know from previous coding projects that the code I write could not be considered the best as it was obvious that as long as it worked it was just left like that without any intentions of coming back to clean it up.
 
