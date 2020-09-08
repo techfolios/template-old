@@ -94,7 +94,7 @@ algumas delas, como `C++`, há a questão da herança múltipla. Isso,
 essencialmente, significa que o objeto pode herdar características de
 vários "ancestrais" ao mesmo tempo diretamente. Em outras palavras, cada
 objeto pode possuir quantos pais for necessário. Porém deve-se manter atento
-em relação ao famigerado **Problema Diamente**.
+em relação ao famigerado **Problema Diamante**.
 
 ### Hierarquia das Heranças
 
