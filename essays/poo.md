@@ -25,9 +25,9 @@ Os Quatro Pilares da POO
 ========================
 
 Dentro deste paradigma de programação, é necessário a compreensão destes
-4 pilares
+4 pilares:
 
-Abstração
+1.Abstração
 ---------
 
 A abstração consiste em um dos pontos mais importantes dentro de
@@ -53,7 +53,7 @@ executar. Essas ações, ou eventos, são chamados **métodos**. Esses
 métodos podem ser extremamente variáveis, desde "Acender()" em um objeto
 lâmpada até "Latir()" em um objeto cachorro.
 
-Encapsulamento
+2.Encapsulamento
 --------------
 
 O encapsulamento é uma das principais técnicas que define a programação
@@ -74,7 +74,7 @@ botão ligar da televisão, não sabemos o que está acontecendo
 internamente. Podemos então dizer que os métodos que ligam a televisão
 estão encapsulados.
 
-Herança
+3.Herança
 -------
 
 O reuso de código é uma das grandes vantagens da programação orientada a
@@ -93,7 +93,8 @@ A questão da herança varia bastante de linguagem para linguagem. Em
 algumas delas, como `C++`, há a questão da herança múltipla. Isso,
 essencialmente, significa que o objeto pode herdar características de
 vários "ancestrais" ao mesmo tempo diretamente. Em outras palavras, cada
-objeto pode possuir quantos pais for necessário.
+objeto pode possuir quantos pais for necessário. Porém deve-se manter atento
+em relação ao famigerado **Problema Diamente**.
 
 ### Hierarquia das Heranças
 
@@ -111,7 +112,7 @@ de três formas: **Pública**, **Privada** e **Protegida**
 -   Por fim, caso seja herdada de forma privada, todos os métodos e
     atributos da classe base se tornam privados na classe derivada
 
-Polimorfismo
+4.Polimorfismo
 ------------
 
 Outro ponto essencial na programação orientada a objetos é o chamado
@@ -151,9 +152,7 @@ relações podem ser categorizadas da seguinte forma:
     outra (o Todo) e a parte **não vive/não existe** sem o todo.
 
     Sendo assim, toda vez que destruirmos o todo, a parte que é única e
-    exclusiva do todo se vai junto. Por esse motivo que algum dizem que:
-    a parte está contida no todo. Quando se jogo o todo fora, a parte
-    estava dentro e se vai junto.
+    exclusiva do todo se vai junto.
 
 Funções Amigas
 ==============
