@@ -235,7 +235,7 @@
         </div>
 
 
-        <div class="ui two column stackable grid container" style="margin-bottom: 20px;">
+        <div class="ui one column stackable grid container" style="margin-bottom: 20px;">
             <div class="column">
                 <h3 class="ui horizontal center aligned divider header">
                     <i class="book icon"></i>
@@ -243,10 +243,10 @@
                 </h3>
 
                 <div class="ui segment">
-                    <div class="ui middle aligned animated relaxed list">
+                    <div class="ui vertical bulleted link list">
                         {% for entry in site.data.bio.interesses_bio %}
                         <div class="item">
-                            <i class="{% if entry.id == '1' %}shield {% endif %} {% if entry.id == '2' %} lock {% endif %} {% if entry.id == '3' %} sitemap {% endif %} {% if entry.id == '4' %} archive {% endif %} icon"></i>
+
                             <div class="content">
                                 <a href="{{entry.website}}" target="_blank" rel="noopener noreferrer">{{entry.name}}</a>
                             </div>
@@ -255,6 +255,8 @@
                     </div>
                   </div>
             </div>
+
+
         </div>
 
 
