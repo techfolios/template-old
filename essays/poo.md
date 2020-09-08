@@ -190,3 +190,5 @@ rompem as barreiras que protegem os dados dentro das classes. Usar
 do encapsulamento de funções e dados, e do isolamento de instruções que
 acessam valores críticos. Por isso, deve-se ter muito cuidado para usar
 funções `friends`.
+
+Textos retirados de: `DevMedia`, `Wikipedia` e `PUC`.
