@@ -2,9 +2,20 @@
 layout: essays
 ---
 
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/markdown.css">
+
 <div style="margin-top: 20px; margin-bottom: 20px" class="ui text container">
-  <h1>{{ page.title }}</h1>
-  <span class="date">{{ page.date | date_to_string }}</span>
-  <hr>
-  {{ content }}
+  <div class="ui segment">
+    <div class="ui breadcrumb">
+        <a href="/essays/" class="section breadlink">Textos</a>
+        <i class="right chevron icon divider"></i>
+        <div class="active section">{{ page.title }}</div>
+    </div>
+    <h1>{{ page.title }}</h1>
+    <i class="calendar outline icon grey"></i>
+    <span class="ui grey text">{{ page.date | date_to_string }}</span>
+    <i style="margin-left: 1em;" class="tag icon grey"></i>{% for cat in page.labels %}<span class="ui grey text">{{ cat }}</span>{% endfor %}
+    <div class="ui divider"></div>
+    {{ content }}
+  </div>
 </div>
