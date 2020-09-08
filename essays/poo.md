@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Um Pouco Sobre POO
+title: Um Pouco Sobre POO em C++
 # All dates must be YYYY-MM-DD format!
 date: 2020-09-07
 labels:
