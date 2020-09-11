@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Efficient Learning, Efficient Questions
+title: Efficient Questions, Efficient Learning
 # All dates must be YYYY-MM-DD format!
 date: 2020-09-10
 labels:
@@ -17,5 +17,5 @@ A good question is one that relays what the asker wants to know the answer to cl
 
 Bad questions can be detrimental to one's progress when trying to solve a problem. When one does not put the thought into asking a good question, the resulting bad question may result in answers not completely relevant to what is to be solved. With this, it also does not allow the asker to think heavily about what they might be troubled with, which in of itself may help the asker solve a question on their own. An example of a [bad question](https://stackoverflow.com/questions/63820388/the-program-stops), where the title of the question is just "The program stops". This is not efficient as it does not provide much information into exactly what the problem is. Then in the code snippet provided in the question, it is relatively messy as it includes a good amount of code not relevant to the question. Then lastly the question does not provide much troublshooting or logs into the issue of the code. Asking a good question would have allowed people to better understand what this person's problem is.
 
-##Conclusion
+## Conclusion
 Asking a question is a relevant life skill that makes solving various problems easier, getting people's thoughts, etc. In the field of software engineering it is paramount to ask good questions, as to receive a relevant answer, the person receiving the question has to understand the situation that underlies your problem. With many different variables that come in the software engineering field, one must ask good questions, where it is clear what the problem is and what the asker wants to know.
