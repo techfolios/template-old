@@ -18,40 +18,40 @@
       {
         "network": "github",
         "username": "alvinyang101",
-        "url": "http://github.com/changeme"
+        "url": "http://github.com/alvinyang101"
       },
       {
         "network": "linkedin",
         "username": "alvinyang101",
-        "url": "http://linkedin.com/in/changeme"
+        "url": "http://www.linkedin.com/in/alvin-yang-369955193/"
       }
       
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Internet of Things",
       "keywords": [
         "Arduino",
         "Raspberry Pi"  
       ]
     },
     {
-      "name": "computer hardware",
+      "name": "Computer Hardware",
       "keywords": [
         "CPU",
         "GPU"
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Artificial Intelligence",
       "keywords": [
         "Machine Learning",
         "Neural Networks"
       ]
     },
     {
-      "name": "big data",
+      "name": "Big Data",
       "keywords": [
         "data analysis"
       ]
@@ -107,8 +107,6 @@
     }
   ],
     }
-  ],
-  "awards": [
   ],
   "references": [
     {
