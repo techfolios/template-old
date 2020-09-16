@@ -1,3 +1,14 @@
+---
+layout: essay
+type: essay
+title: Smart Questions, Good Answers
+# All dates must be YYYY-MM-DD format!
+date: 2015-09-08
+labels:
+  - E1
+  - WODs
+---
+
 Doing the WODs was a bit of a struggle at first. It definitely takes time and it can be quite tedious, so it is very important to get ahead and not wait til the last minute.
 
 BrowserHistory1 originally took me an hour or so to figure out. Even so, I still had a lot of errors in the coding from missing closed brackets or just mistyping. Because I was pressed for time, it did cause me to make even more mistakes, only furthering the process time. After watching the video, I was able to grasp what I had to do a little easier. After a couple attempts, I was able to get my time down to a little over 20 minutes, a huge imporvement compared to before. I was starting to get familiar with coding and how to properly utilize html.
