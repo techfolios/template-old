@@ -1,23 +1,23 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "name": "Vijaya Kumar Chinthala",
+    "label": "PGT Computer Science",
+    "picture": "https://vijaya-kumar-chinthala.github.io/template/images/vijay.jpg",
+    "email": "vijay.mba.vsu@gmail.com",
+    "phone": "9441868733",
+    "website": "https://vijaya-kumar-chinthala.github.io",
+    "summary": "I am a PGT Computer Teacher at GVK Chinmaya Vidyalaya School Nellore. I handle Python subject for Class 11 and 12",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
-      "countryCode": "USA",
-      "region": "Hawaii"
+      "postalCode": "524314",
+      "city": "Nellore",
+      "countryCode": "INDIA",
+      "region": "Andhra Pradesh"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
+        "username": "vijaya-kumar-chinthala",
         "url": "http://github.com/changeme"
       },
       {
@@ -39,14 +39,14 @@
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Python",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "Class 11",
+        "class 12"
       ]
     },
     {
-      "name": "data mining",
+      "name": "Android",
       "keywords": [
       ]
     },
@@ -83,10 +83,10 @@
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "institution": "GVK Chinmaya Vidyalaya",
+      "area": "PGT Computer Science ",
+      "studyType": "B.Tech,MBA",
+      "startDate": "2018-06-06",
       "endDate": "Present",
       "gpa": "",
       "courses": [
