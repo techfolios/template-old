@@ -20,10 +20,7 @@ labels:
 
 
 ## Thoughts about JavaScript Coding Standards
-<figure>
-    <img class="ui floated image" src="../images/codingstandard.png">
-    <figcaption>Caption goes here</figcaption>
-</figure>
+  <img class="ui floated image" src="../images/codingstandard.png">
 
   When learning the coding standard from ESLint in JavaScript, I initially found typing code with the standard to be frustrating. This was to be expected as it is a brand-new coding standard that I just was not used to yet. After getting more acquainted with using ESLint, I can agree with some of the coding standards imposed but disagree with a couple. I appreciate that adding spaces between comma separated variables is enforced as it makes reading functions much easier, but some things like having to add a space between a curly braces and a parentheses seemed odd and unnecessary to me. Looking back at the code that I have made, I do think that it is nice to look at and easier to read.
 
