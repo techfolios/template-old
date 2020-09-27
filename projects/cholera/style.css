@@ -1,0 +1,10 @@
+﻿body {
+    background-color: #ffd1f4;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    width: 1300px;
+}

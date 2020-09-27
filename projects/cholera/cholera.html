@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Cholera Project</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Load plotly.js into the DOM -->
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+          integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+          crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossorigin=""></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.62.0/dist/L.Control.Locate.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.62.0/src/L.Control.Locate.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <div>
+        <h1 style="text-align:center"> 1854 London Cholera Outbreak </h1>
+    </div>
+
+    <hr>
+
+    <div>
+        <div class="grid-container" style="height: 450px;padding-top:20px;">
+            <div id="tableDiv1" class="grid-child" style="width:450px; height:400px; padding-left:100px"></div>
+            <div class="grid-child" style="height: 500px;padding:10px">
+                <p style="padding-top:20px">
+                    Cholera, pronounced as kol-er-uh, is an intestinal disease that can result in death within the first few
+                    hours after the first symptoms appear, which includes vomiting and idarrhea. At the time of the outbreak, it
+                    was believed that cholera was caused by breathing in miasma in the atmosphere, which included things such as
+                    germs, pollutants, and "bad smells."
+
+                    It wasn't until 1854 where John Snow, a british doctor studing this disease, could prove that the disease was
+                    spreadable by drinking water contaminated by their septic system. In 1854, a mother washed her baby's diaper in
+                    a town well and it sparked an epidemic that killed 616 people. The following visualizations shows information  regarding this epidemic.
+                    If you want to learn more about John Snow and the cholera epidemic, click <a href="http://www.ph.ucla.edu/epi/snow/snowcricketarticle.html">here</a>.
+                </p>
+
+                <p>
+                    Cholera afftected hundreds of people during this epidemic. The table on the right shows the amount of attacks and deaths both on a daily basis and the total amount while the visualization below shows the information on the table visually.
+                </p>
+
+            </div>
+        </div>
+        <div id="lineDiv" style="width:1000px;padding-left: 200px;padding-bottom:20px"></div>
+    </div>
+
+    <hr>
+
+    <div>
+        <div class="grid-container" style="padding-top:20px">
+            <div id="tableDiv2" class="grid-child" style="width:450px;height:400px; padding-left: 100px"></div>
+            <div id="barDiv" class="grid-child" style="height: 400px;"></div>
+        </div>
+        <div>
+            <p style="width:800px; padding-left: 300px;padding-top: 20px; padding-bottom: 20px">Robin Wilson was able to sort the cholera deaths by age and gender, which is represented in the above visualizations.
+            The table shows the actual numnbers of deaths of males and females dived by age groups while the bar chart visualizes the data.
+            It is very noticeable that people over the age of 80 had a higher death percentage while gender didn't really seem to have affected
+            the data much, no matter the age group. </p>
+        </div>
+    </div>
+
+    <hr>
+
+    <div>
+        <div style="width:800px; padding-left: 300px; padding-top:20px; padding-bottom:20px">
+            <p>The following visualizations is about the UK Census during the year of this epidemic in 1854. The table represents the census by both age and gender. The visualizations following
+            the table then showcases the information in various ways, such as what percentage of each gender is from a certain age group and whatnot. </p>
+        </div>
+        <div class="grid-container" style="padding-bottom:30px">
+            <div id="tableDiv3" class="grid-child" style="width:450px;height:400px; padding-left: 100px"></div>
+            <div id="pieDiv2" class="grid-child" style="padding-left:100px"></div>
+        </div>
+
+        <div id="pieDiv1" style="padding-left:250px; padding-bottom:30px"></div>
+
+        <div class="grid-container">
+            <div id="barDiv2" class="grid-child" style="width:600px; padding-left: 60px"></div>
+            <div id="barDiv3" class="grid-child" style="width:600px; padding-left: 40px"></div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="mapid" style="height: 500px; width: 80%; margin-left: 10%;"></div>
+    <hr>
+</body>
+<script src="script.js"></script>
+
+<footer style="padding: 10px">
+    <div style="border: dashed">
+        <h2 style="text-align:center">References</h2>
+        <p style="padding:10px; ">
+            All the data for the visualizations on this page was created and compiled by <a href="www.rtwilson.com/academic">Robin Wilson</a>.
+            The visualizations were created by <a href="www.rnaka.github.io">Raena Naka</a> using the <a href="https://plotly.com/javascript/">Plotly Javascript API</a> and the <a href="leafletjs.com">Leaflet Library</a>.
+        </p>
+    </div>
+</footer>
+</html>
