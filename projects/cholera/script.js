@@ -304,7 +304,7 @@ var censusLayout = {
 Plotly.newPlot('pieDiv2', censusData, censusLayout);
 
 
-var mymap = L.map('mapid').setView([51.5135, -0.136], 17);
+var mymap = L.map('mapid').setView([51.5135, -0.136], 15);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -317,4 +317,11 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 // Pumps Locations
 
-var marker = L.marker([-0.136668, 51.513341]).addTo(mymap);
+var marker = L.marker([51.513341, -0.136668,]).addTo(mymap);
+var marker = L.marker([51.513876, -0.139586]).addTo(mymap);
+var marker = L.marker([51.514906, -0.139671]).addTo(mymap);
+var marker = L.marker([51.512354, -0.13163]).addTo(mymap);
+var marker = L.marker([51.512139, -0.133594]).addTo(mymap);
+var marker = L.marker([51.511542, -0.135919]).addTo(mymap);
+var marker = L.marker([51.510019, -0.133962]).addTo(mymap);
+var marker = L.marker([51.511295, -0.138199]).addTo(mymap);
