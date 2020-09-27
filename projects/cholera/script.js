@@ -315,3 +315,6 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: 'pk.eyJ1IjoieHJlaWx5bm54IiwiYSI6ImNrZmt1N2dnbjE0bGUyeXBrY2NnNmhyc2MifQ.RrIAbVQGGRP9zyTi-cYvlA'
 }).addTo(mymap);
 
+// Pumps Locations
+
+var marker = L.marker([-0.136668, 51.513341]).addTo(mymap);
