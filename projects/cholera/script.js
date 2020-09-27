@@ -1,4 +1,4 @@
-﻿// Table 1 (Attacks/Death per day & Total)
+// Table 1 (Attacks/Death per day & Total)
 
 var tableData1 = [
     ['Aug. 19', 'Aug. 20', 'Aug. 21', 'Aug. 22', 'Aug. 23', 'Aug. 24', 'Aug. 25', 'Aug. 26', 'Aug. 27', 'Aug. 28', 'Aug. 29', 'Aug. 30', 'Aug. 31', 'Sept. 1', 'Sept. 2', 'Sept. 3', 'Sept. 4', 'Sept. 5', 'Sept. 6', 'Sept. 7', 'Sept. 8', 'Sept. 9', 'Sept. 10', 'Sept. 11', 'Sept. 12', 'Sept. 13', 'Sept. 14', 'Sept. 15', 'Sept. 16', 'Sept. 17', 'Sept. 18', 'Sept. 19', 'Sept. 20', 'Sept. 21', 'Sept. 22', 'Sept. 23', 'Sept. 24', 'Sept. 25', 'Sept. 26', 'Sept. 27', 'Sept. 28', 'Sept. 29'],
