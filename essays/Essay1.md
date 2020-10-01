@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: E1
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
+date: 2020-09-08
 labels:
   - E1
   - WODs
