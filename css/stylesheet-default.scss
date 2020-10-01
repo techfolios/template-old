@@ -13,19 +13,19 @@ body {
 
 // Default menubar color
 .ui.menu {
-  background: lighten(silver, 10%);
+  background: lighten(blue, 50%);
 }
 
 // Default home page icon color
 .icon-color {
-  color: darken(silver, 40%);
+  color: darken(red, 80%);
 }
 
 
 // Prefer space between list items in screen mode.
 .list-padding {
-  ul li { padding: 5px 0px; }
-  ol li { padding: 5px 0px; }
+  ul li { padding: 10px 1px; }
+  ol li { padding: 20px 1px; }
 }
 
 // This class is used in the prebuilt bio themes.
