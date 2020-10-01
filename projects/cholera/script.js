@@ -292,7 +292,8 @@ Plotly.newPlot('barDiv3', femaleCensusBar, femaleCensuslayout);
 var censusData = [{
     values: [8552261, 8186432],
     labels: ['Female', 'Male'],
-    type: 'pie'
+    type: 'pie',
+    marker: { color: 'rgb(102, 14, 189)' 'rgb(222, 53, 53)'}
 }];
 
 var censusLayout = {
