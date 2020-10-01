@@ -20,3 +20,8 @@ body {
   // color: silver;
 }
 
+.icon:hover{
+color:#e42c64;
+  transition:all 0.3s ease-in;
+  transform:scale(1.08);
+}
