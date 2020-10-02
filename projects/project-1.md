@@ -2,14 +2,11 @@
 layout: project
 type: project
 image: images/micromouse.jpg
-title: Micromouse
+title: Viva Lingua
 permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
 date: 2015-07-01
 labels:
-  - Robotics
-  - Arduino
-  - C++
 summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
 ---
 
@@ -20,25 +17,37 @@ summary: My team developed a robotic mouse that won first place in the 2015 UH M
   <img class="ui image" src="../images/micromouse-circuit.png">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+Overview: VivaLingua is a language crowdsourcing app. In this app you are able to create posts about a variety of endangered languages from all around the world to help revitalize them. You can also create a user profile, view your own posts, and view posts from other users uniquely from a specified language.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+The Team:
+Shaiah Wren: https://github.com/ShaiahWren
+Primary Team Role: PostgreSQL, Back-end & Front-end Development and Lead Syling/Design.
+Dylan Cooper: https://github.com/Dcooper15
+Primary Team Role: PostgreSQL, Back-end & Front-end development.
+Aliyah Gamble: https://github.com/AGamble7
+Primary Team Role: Scrum Master, Back-end Development, and Styling.
+Annemarie Thomas: https://github.com/Athomas9sa
+Primary Team Role: Back-end Development, Debugging, and Design.
 
-Here is some code that illustrates how we read values from the line sensors:
+Technologies Used: HTML5, CSS, JavaScript, Node.js, Express, PostgreSQL
+
+Here is some code that illustrates how we solved a big challenge for this project to get the correct data to pull from our database and display dynamically on our various pages. We solved this problem by using a variety of SQL statements such as INNER JOINS, LEFT JOINS, and RIGHT JOINS to link our data tables properly.:
 
 ```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
+static async getDynLang(language) {
+        try {
+            const response = await db.any(`SELECT * FROM posts LEFT JOIN users ON posts.user_id = users.id INNER JOIN languages ON posts.language = languages.id WHERE language = ${language};`)
+            return response;
+        } catch(error) {
+            console.error("DYN LANG ERROR: ", error.message);
+            return error.message;
+        }
     }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+    }
+ 
+
+You can learn more at the [UH Micromouse Website](http://https://github.com/Athomas9sa/Viva_Lingua).
 
 
 
