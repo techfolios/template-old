@@ -25,3 +25,5 @@ rouge-theme: igorpro
 markdown: kramdown
 include: [_data]
 
+
+theme: jekyll-theme-time-machine
