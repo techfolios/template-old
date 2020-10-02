@@ -2,10 +2,10 @@
   "basics": {
     "name": "Annemarie Thomas",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
+    "picture": "https://Image from iOS.github.io/images/molly.png",
+    "email": "athomas9sa@gmail.com",
+    "phone": "",
+    "website": "https://Athomas9sa.github.io",
     "summary": "I am studying for certificaiton in Computer Software Enigneeering at Digital Crafts, LLC. I expect to graduate in November, 2020.",
     "location": {
       "address": "",
@@ -17,32 +17,32 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "Athomas9sa",
+        "url": "http://github.com/Athomas9sa"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "Annemaire Thomas",
+        "url": "http://linkedin.com/in/annemarie-thomas"
       },
       {
         "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "username": "Annemarie Thomas",
+        "url": "http://twitter.com/annemarie"
       },
       {
         "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "Annemarie Thomas",
+        "url": "http://instagram.com/annemarie.thomas.549"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Software Engineering",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "JavaScritp",
+        "CSS"
       ]
     },
     {
