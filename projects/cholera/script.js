@@ -204,56 +204,6 @@ var table3 = [{
 Plotly.newPlot('tableDiv3', table3);
 
 
-var pieData = [{
-    values: [2065096, 1711627, 1542876, 1140383, 845260, 592970, 399019, 199326, 55704],
-    labels: ['0-9', '10-19', '20-29', '30-39', '40-49', '50-59', '60-69', '70-79', 'over 80'],
-    domain: { column: 0 },
-    name: 'Female Census',
-    hoverinfo: 'label+percent+name',
-    hole: .4,
-    type: 'pie'
-},
-{
-    values: [2075391, 1711664, 1395091, 1073914, 810979, 560534, 351893, 166194, 40772],
-    labels: ['0-9', '10-19', '20-29', '30-39', '40-49', '50-59', '60-69', '70-79', 'over 80'],
-    domain: { column: 1 },
-    name: 'Male Census',
-    hoverinfo: 'label+percent+name',
-    hole: .4,
-    type: 'pie'
-}];
-
-var pieLayout1 = {
-    title: 'UK Census (1851)',
-    annotations: [
-        {
-            font: {
-                size: 20
-            },
-            showarrow: false,
-            text: 'Female',
-            x: 0.185,
-            y: 0.5
-        },
-        {
-            font: {
-                size: 20
-            },
-            showarrow: false,
-            text: 'Male',
-            x: 0.8,
-            y: 0.5
-        }
-    ],
-    height: 400,
-    width: 900,
-    showlegend: true,
-    grid: { rows: 1, columns: 2 }
-};
-
-Plotly.newPlot('pieDiv1', pieData, pieLayout1);
-
-
 var maleCensusData = {
     x: ['0-9', '10-19', '20-29', '30-39', '40-49', '50-59', '60-69', '70-79', 'over 80'],
     y: [2075391, 1711664, 1395091, 1073914, 810979, 560534, 351893, 166194, 40772],
@@ -270,6 +220,40 @@ var maleCensuslayout = {
 };
 
 Plotly.newPlot('barDiv2', maleCensusBar, maleCensuslayout);
+
+
+var data = [{
+  values: [2075391,1711664,1395091,1073914,810979,560534,351893,166194,40772],
+  labels: ['0-9','10-19','20-29','30-39','40-49','50-59','60-69','70-79','over 80' ],
+  domain: {column: 1},
+  name: 'Male Census',
+  hoverinfo: 'label+percent+name',
+  hole: .4,
+  type: 'pie',
+  marker: {
+    colors: ['rgb(121, 3, 3)','rgb(136, 22, 22)','rgb(151, 41, 41)','rgb(166, 59, 59)','rgb(181, 78, 78)','rgb(196, 97, 97)','rgb(211, 116, 116)','rgb(226, 134, 134)','rgb(241, 153, 153)']
+  }
+}];
+
+var layout = {
+  title: 'UK Male Census (1851)',
+  annotations: [
+    {
+      font: {
+        size: 20
+      },
+      showarrow: false,
+      text: 'Male',
+      x: 0.5,
+      y: 0.5
+    }
+  ],
+  height: 400,
+  width: 600,
+  showlegend: true,
+};
+
+Plotly.newPlot('pieDivMale', data, layout);
 
 
 var femaleCensusData = {
@@ -290,10 +274,48 @@ var femaleCensuslayout = {
 Plotly.newPlot('barDiv3', femaleCensusBar, femaleCensuslayout);
 
 
+var data = [{
+  values: [2065096,1711627,1542876,1140383,845260,592970,399019,199326,55704],
+  labels: ['0-9','10-19','20-29','30-39','40-49','50-59','60-69','70-79','over 80'],
+  domain: {column: 1},
+  name: 'Male Census',
+  hoverinfo: 'label+percent+name',
+  hole: .4,
+  type: 'pie',
+  marker: {
+    colors: ['rgb(61, 0, 112)','rgb(82, 26, 130)','rgb(104, 51, 148)','rgb(125, 77, 166)','rgb(147, 103, 184)','rgb(168, 128, 201)','rgb(189, 154, 219)','rgb(211, 179, 237)','rgb(232, 205, 255)']
+  }
+}];
+
+var layout = {
+  title: 'UK Female Census (1851)',
+  annotations: [
+    {
+      font: {
+        size: 20
+      },
+      showarrow: false,
+      text: 'Female',
+      x: 0.5,
+      y: 0.5
+    }
+  ],
+  height: 400,
+  width: 600,
+  showlegend: true,
+};
+
+Plotly.newPlot('pieDivFemale', data, layout);
+
+
+
 var censusData = [{
     values: [8552261, 8186432],
     labels: ['Female', 'Male'],
-    type: 'pie'
+    type: 'pie',  
+    marker: {
+      colors: ['rgb(102, 14, 189)', 'rgb(222, 53, 53)']
+  },
 }];
 
 var censusLayout = {
