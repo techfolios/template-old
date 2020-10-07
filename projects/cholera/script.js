@@ -143,7 +143,7 @@ var table2 = [{
     },
     cells: {
         values: tableData2,
-        align: ["left", "center"],
+        align: ["right", "right"],
         line: { color: "#506784", width: 1 },
         fill: { color: ['#FDCDCD', 'white'] },
         font: { family: "Arial", size: 11, color: ["black"] }
