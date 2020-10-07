@@ -123,8 +123,6 @@ var layout = {
 Plotly.newPlot('lineDiv', data, layout);
 
 
-// Table 2 
-
 var tableData2 = [
     ['0-1', '2-5', '6-10', '11-15', '16-20', '21-40', '41-60', '61-80', 'over 80'],
     [8.2, 14, 12.1, 7.8, 7.2, 12.1, 13.7, 20.5, 39.6],
@@ -136,7 +134,7 @@ var table2 = [{
         values: [["<b>AGE RANGE</b>"],
         ["<b>MALES</b>"],
         ["<b>FEMALES</b>"]],
-        align: ["left", "center"],
+        align: ["right", "right"],
         line: { width: 1, color: '#506784' },
         fill: { color: '#F93838' },
         font: { family: "Arial", size: 12, color: "white" }
@@ -172,7 +170,6 @@ var female = {
 var barData = [male, female];
 
 var barlayout = {
-    barmode: 'stack',
     title: 'Cholera Deaths by Age & Sex'
 };
 
@@ -181,8 +178,8 @@ Plotly.newPlot('barDiv', barData, barlayout);
 
 var tableData3 = [
     ['0-9', '10-19', '20-29', '30-39', '40-49', '50-59', '60-69', '70-79', 'over 80'],
-    [2075391, 1711664, 1395091, 1073914, 810979, 560534, 351893, 166194, 40772],
-    [2065096, 1711627, 1542876, 1140383, 845260, 592970, 399019, 199326, 55704]]
+    ['2,075,391', '1,711,664', '1,395,091', '1,073,914', '810,979', '560,534', '351,893', '166,194', '40,772'],
+    ['2,065,096', '1,711,627', '1,542,876', '1,140,383', '845,260', '592,970', '399,019', '199,326', '55,704']]
 
 var table3 = [{
     type: 'table',
@@ -197,7 +194,7 @@ var table3 = [{
     },
     cells: {
         values: tableData3,
-        align: ["left", "center"],
+        align: ["right", "right"],
         line: { color: "#506784", width: 1 },
         fill: { color: ['#FDCDCD', 'white'] },
         font: { family: "Arial", size: 11, color: ["black"] }
