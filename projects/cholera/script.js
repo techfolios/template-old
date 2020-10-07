@@ -3,8 +3,8 @@
 var tableData1 = [
     ['Aug. 19', 'Aug. 20', 'Aug. 21', 'Aug. 22', 'Aug. 23', 'Aug. 24', 'Aug. 25', 'Aug. 26', 'Aug. 27', 'Aug. 28', 'Aug. 29', 'Aug. 30', 'Aug. 31', 'Sept. 1', 'Sept. 2', 'Sept. 3', 'Sept. 4', 'Sept. 5', 'Sept. 6', 'Sept. 7', 'Sept. 8', 'Sept. 9', 'Sept. 10', 'Sept. 11', 'Sept. 12', 'Sept. 13', 'Sept. 14', 'Sept. 15', 'Sept. 16', 'Sept. 17', 'Sept. 18', 'Sept. 19', 'Sept. 20', 'Sept. 21', 'Sept. 22', 'Sept. 23', 'Sept. 24', 'Sept. 25', 'Sept. 26', 'Sept. 27', 'Sept. 28', 'Sept. 29'],
     [1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 8, 56, 143, 116, 54, 46, 36, 20, 28, 12, 11, 5, 5, 1, 3, 0, 1, 4, 2, 3, 0, 0, 2, 1, 1, 1, 1, 1, 1, 0, 0],
-    [1, 0, 2, 0, 0, 2, 0, 0, 1, 0, 1, 2, 3, 70, 127, 76, 71, 45, 37, 32, 30, 24, 18, 15, 6, 13, 6, 8, 6, 5, 2, 3, 0, 0, 2, 3, 0, 0, 2, 0, 2, 1],
     [1, 2, 3, 3, 4, 5, 5, 6, 7, 8, 9, 17, 73, 216, 332, 386, 432, 468, 488, 524, 536, 547, 552, 557, 558, 561, 561, 562, 566, 568, 571, 571, 571, 573, 574, 575, 576, 577, 578, 579, 579, 579],
+    [1, 0, 2, 0, 0, 2, 0, 0, 1, 0, 1, 2, 3, 70, 127, 76, 71, 45, 37, 32, 30, 24, 18, 15, 6, 13, 6, 8, 6, 5, 2, 3, 0, 0, 2, 3, 0, 0, 2, 0, 2, 1],
     [1, 1, 3, 3, 3, 5, 5, 5, 6, 6, 7, 9, 12, 82, 209, 285, 356, 401, 438, 470, 500, 524, 542, 557, 563, 576, 582, 590, 596, 601, 603, 606, 606, 606, 608, 611, 611, 611, 613, 613, 615, 616]]
 
 var table1 = [{
@@ -12,8 +12,8 @@ var table1 = [{
     header: {
         values: [["<b>Date (1854)</b>"],
         ["<b>ATTACKS (DAILY)</b>"],
-        ["<b>DEATHS (DAILY)</b>"],
         ["<b>ATTACKS (TOTAL)</b>"],
+        ["<b>DEATHS (DAILY)</b>"],
         ["<b>DEATHS (TOTAL)</b>"]],
         align: ["left", "center"],
         line: { width: 1, color: 'black' },
@@ -22,7 +22,7 @@ var table1 = [{
     },
     cells: {
         values: tableData1,
-        align: ["left", "center"],
+        align: ["right", "right"],
         line: { color: "#506784", width: 1 },
         fill: { color: ['#FDCDCD', 'white'] },
         font: { family: "Arial", size: 11, color: ["black"] }
@@ -41,8 +41,9 @@ var attackDaily = {
     mode: 'lines',
     name: 'Attacks (Daily)',
     line: {
-        dash: 'solid',
-        width: 2
+        dash: 'dashdot',
+        width: 2,
+        color: 'rgb(235, 116, 52)'
     }
 };
 
@@ -52,8 +53,9 @@ var deathDaily = {
     mode: 'lines',
     name: 'Deaths (Daily)',
     line: {
-        dash: 'solid',
-        width: 2
+        dash: 'dashdot',
+        width: 2,
+        color: 'rgb(113, 52, 235)'
     }
 };
 
@@ -64,7 +66,8 @@ var attackTotal = {
     name: 'Attacks (Total)',
     line: {
         dash: 'solid',
-        width: 4
+        width: 4,
+        color: 'rgb(235, 116, 52)'
     }
 };
 
@@ -75,7 +78,8 @@ var deathTotal = {
     name: 'Deaths (Total)',
     line: {
         dash: 'solid',
-        width: 4
+        width: 4,
+        color: 'rgb(113, 52, 235)'
     }
 };
 
