@@ -328,16 +328,24 @@ var censusLayout = {
 Plotly.newPlot('pieDiv2', censusData, censusLayout);
 
 
-var mymap = L.map('mapid').setView([51.513, -0.136], 16);
 
-L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    maxZoom: 18,
-    id: 'mapbox/streets-v11',
-    tileSize: 512,
-    zoomOffset: -1,
-    accessToken: 'pk.eyJ1IjoieHJlaWx5bm54IiwiYSI6ImNrZmt1N2dnbjE0bGUyeXBrY2NnNmhyc2MifQ.RrIAbVQGGRP9zyTi-cYvlA'
-}).addTo(mymap);
+var map = L.map("mapid").setView([51.513, -0.136], 16);
+
+L.tileLayer(
+  "https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg"
+).addTo(map);
+
+
+var legend = L.control({ position: "bottomleft" });
+
+legend.onAdd = function(map) {
+  var div = L.DomUtil.create("div", "legend");
+  	div.innerHTML += "<h4>Legend</h4>";
+  	div.innerHTML += '<i style="background: #f03"></i><span>Attack Location</span><br>';
+    div.innerHTML += '<i style="background: #477AC2"></i><span>Pump Location</span><br>';
+  return div;
+};
+legend.addTo(map);
 
 var numDeath = [3, 2, 1, 1, 4, 2, 2, 2, 3, 2, 2, 1, 3, 1, 4, 1, 1, 1, 4, 3, 2, 1, 2, 2, 2, 1, 1, 3, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1, 2, 8, 2, 1, 1, 1, 1, 1,
     4, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 2, 2, 1, 2, 3, 1, 4, 15, 3, 4, 5, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
@@ -397,14 +405,15 @@ for (let i = 0; i < long.length; i++) {
         fillColor: '#f03',
         fillOpacity: 0.5,
         radius: 3 * numDeath[i],
-    }).addTo(mymap);
+    }).addTo(map);
 }   
 
-var marker = L.marker([51.513341, -0.136668]).addTo(mymap);
-var marker = L.marker([51.513876, -0.139586]).addTo(mymap);
-var marker = L.marker([51.514906, -0.139671]).addTo(mymap);
-var marker = L.marker([51.512354, -0.13163]).addTo(mymap);
-var marker = L.marker([51.512139, -0.133594]).addTo(mymap);
-var marker = L.marker([51.511542, -0.135919]).addTo(mymap);
-var marker = L.marker([51.510019, -0.133962]).addTo(mymap);
-var marker = L.marker([l]).addTo(mymap);
+var marker = L.marker([51.513341, -0.136668]).addTo(map);
+var marker = L.marker([51.513876, -0.139586]).addTo(map);
+var marker = L.marker([51.514906, -0.139671]).addTo(map);
+var marker = L.marker([51.512354, -0.13163]).addTo(map);
+var marker = L.marker([51.512139, -0.133594]).addTo(map);
+var marker = L.marker([51.511542, -0.135919]).addTo(map);
+var marker = L.marker([51.510019, -0.133962]).addTo(map);
+var marker = L.marker([l]).addTo(map);
+
