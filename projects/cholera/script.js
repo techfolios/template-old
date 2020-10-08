@@ -95,6 +95,7 @@ var layout = {
         linewidth: 2,
         autotick: false,
         ticks: 'outside',
+        tickangle: 45,
         tickcolor: 'rgb(204,204,204)',
         tickwidth: 2,
         ticklen: 5,
