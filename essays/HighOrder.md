@@ -1,9 +1,12 @@
-# Sumário_5
-
-Concluído: Yes
-Criado: Oct 8, 2020 9:04 PM
-Source: SICP Book
-Ultimo Edit: Oct 9, 2020 3:14 PM
+---
+layout: essay
+type: essay
+title: Funções de Alta Ordem em Lisp
+# All dates must be YYYY-MM-DD format!
+date: 2020-10-09
+labels:
+  - Iniciação Cientifíca
+---
 
 # Formulando abstrações com Funções de Alta Ordem
 
