@@ -9,6 +9,7 @@ labels:
   - HTML
   - Semantic UI
 ---
+<img class="ui tiny left floated image" src="../images/html.png">
 
 
 Recently did I get into learning about building a website, initially with raw HTML and CSS, and then eventually with Semantic UI. I found raw HTML to be sometimes nice where it gave me a good amount of control of how I would like things structured in a page. The tedious amount of work that comes with formatting things in a webpage does come out to be very annoying however. With Semantic UI, it became somewhat easier to create a good looking webpage with the included functionality that Semantic UI provides.
