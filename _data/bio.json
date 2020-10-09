@@ -210,7 +210,10 @@
       "name": "Windows"
     },
     {
-      "name": "Linux (Arch)"
+      "name": "Ubuntu (Debian)"
+    },
+    {
+      "name": "Manjaro (Arch)"
     }
   ],
 
