@@ -1,3 +1,7 @@
+imrpove homw icon and fonts in the project.
+
+
+
 # Technical Portfolio
 
 This repository hosts a technical portfolio built using [TechFolio](http://techfolios.github.io). 
