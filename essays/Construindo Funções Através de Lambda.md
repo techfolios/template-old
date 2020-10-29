@@ -45,13 +45,6 @@ Em geral, *lambda* é usado para criar funções da mesma maneira que criávamos
 ```scheme
 (lambda (⟨formal-parameters⟩) ⟨body⟩)
 ```
-
-A leitura da expressão lambda é dada da seguinte maneira:
-
-(lambda                     (x)     (+      x          4))
-    |                               |        |       |           |
-Função que recebe     x  e soma  x  com 4
-
 ## Usando *let* Para Criar Variáveis Locais
 
 Outra utilidade do conceito de lambda é poder criar variáveis locais. Frequentemente precisamos de variáveis locais em funções além daquelas já passadas nos parâmetros formais. Imagine o seguinte exemplo:
