@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Construindo Funções Através de Lambda
+title: Utilizando Lambda em Lisp
 # All dates must be YYYY-MM-DD format!
 date: 2020-10-29
 labels:
