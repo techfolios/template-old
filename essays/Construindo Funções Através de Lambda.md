@@ -1,9 +1,12 @@
-# Sumário_6
-
-Concluído: No
-Criado: Oct 25, 2020 11:42 AM
-Source: SICP Book
-Ultimo Edit: Oct 29, 2020 1:15 AM
+---
+layout: essay
+type: essay
+title: Construindo Funções Através de Lambda
+# All dates must be YYYY-MM-DD format!
+date: 2020-10-09
+labels:
+  - Iniciação Cientifíca
+---
 
 # Construindo Funções Através de *Lambda*
 
