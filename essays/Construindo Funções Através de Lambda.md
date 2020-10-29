@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: Construindo Funções Através de Lambda
 # All dates must be YYYY-MM-DD format!
-date: 2020-10-09
+date: 2020-29-10
 labels:
   - Iniciação Cientifíca
 ---
