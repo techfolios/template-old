@@ -3,12 +3,10 @@ layout: essay
 type: essay
 title: Utilizando Lambda em Lisp (Exercícios)
 # All dates must be YYYY-MM-DD format!
-date: 2020-11-5
+date: 2020-11-05
 labels:
   - Iniciação Cientifíca
 ---
-
-# Lista De Exercícios
 
 *Lista referente ao conteúdo do sumário 6*
 
