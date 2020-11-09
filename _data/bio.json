@@ -5,11 +5,11 @@
     "picture": "Athomas9sa.github.io/images/Image from iOS.jpg",
     "email": "athomas9sa@gmail.com",
     "website": "https://Athomas9sa.github.io",
-    "summary": "I am studying for certificaiton in Computer Software Enigneeering at Digital Crafts, LLC. I expect to graduate in November, 2020.",
+    "summary": "Currently studying for certificaiton in Computer Software Enigneeering at Digital Crafts, LLC. Expected to graduate in November, 2020.",
     "phone": "",
     "location": {
       "address": "",
-      "postalCode": "30066",
+      "postalCode": "3",
       "city": "Atlanta",
       "region": "Georgia",
       "countryCode": "USA"
@@ -26,9 +26,9 @@
         "url": "http://linkedin.com/in/annemarie-thomas"
       },
       {
-        "network": "twitter",
-        "username": "Annemarie Thomas",
-        "url": "http://twitter.com/annemarie"
+        "network": "",
+        "username": "",
+        "url": ""
       },
       {
         "network": "instagram",
@@ -84,7 +84,7 @@
       "institution": "University of the Free State, SA",
       "area": "",
       "studyType": "B.S. Bcomt. Fianance",
-      "startDate": "2013-09-01",
+      "startDate": "",
       "endDate": "2008",
       "gpa": "",
       "courses": [
@@ -113,20 +113,18 @@
       "endDate": "2013",
       "summary": "",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Maintain, update, and oversee accounting records."
       ]
     },
     {
       "company": "Reliant Electric, Inc",
       "position": "Accountant",
       "website": "",
-      "startDate": "2013",
+      "startDate": "2014",
       "endDate": "2020",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Maintain, update, and oversee accounting records."
       ]
     }
   ],
