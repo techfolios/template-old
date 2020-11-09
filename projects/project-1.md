@@ -1,21 +1,14 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: 
 title: Viva Lingua
-permalink: projects/micromouse
+permalink: 
 # All dates must be YYYY-MM-DD format!
 date: 2015-07-01
 labels:
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
----
 
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
-</div>
+---
 
 Overview: VivaLingua is a language crowdsourcing app. In this app you are able to create posts about a variety of endangered languages from all around the world to help revitalize them. You can also create a user profile, view your own posts, and view posts from other users uniquely from a specified language.
 
@@ -47,7 +40,7 @@ static async getDynLang(language) {
     }
  
 
-You can learn more at the [UH Micromouse Website](http://https://github.com/Athomas9sa/Viva_Lingua).
+You can learn more at the (http://https://github.com/Athomas9sa/Viva_Lingua).
 
 
 
