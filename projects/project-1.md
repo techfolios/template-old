@@ -5,7 +5,7 @@ image:
 title: Viva Lingua
 permalink: 
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date:
 labels:
 
 ---
