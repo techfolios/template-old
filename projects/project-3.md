@@ -1,14 +1,13 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
+image:
 title: Fun Fair Danger!
 permalink: projects/funfairdanger
 # All dates must be YYYY-MM-DD format!
-date: 2020-08-07
+date: 
 labels:
-  - Lisp
-  - GitHub
+
 summary: An adventure game using Python.
 ---
 
