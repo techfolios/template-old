@@ -25,4 +25,4 @@ markdown: kramdown
 include: [_data]
 
 
-theme: jekyll-theme-merlot
+theme: jekyll-theme-time-machine
