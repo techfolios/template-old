@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: 
+image: VivaLingua.png
 title: Viva Lingua
 permalink: 
 # All dates must be YYYY-MM-DD format!
