@@ -1,7 +1,7 @@
 ---
 layout: project
 type: Front End Project
-image:![good eats](good eats.png)
+image:images/
 title: GoodEats!
 permalink: projects/Good Eats
 # All dates must be YYYY-MM-DD format!
