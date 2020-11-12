@@ -5,7 +5,7 @@
     "picture": "Athomas9sa.github.io/images/Image from iOS.jpg",
     "email": "athomas9sa@gmail.com",
     "website": "https://Athomas9sa.github.io",
-    "summary": "Currently studying for certificaiton in Computer Software Enigneering at Digital Crafts, LLC. Expected to graduate in November, 2020.",
+    "summary": "Currently studying for certificaiton in Enigneering at Digital Crafts, LLC. Expected to graduate in November, 2020.",
     "phone": "",
     "location": {
       "address": "",
@@ -49,28 +49,13 @@
       "keywords": []
     }
   ],
-  "skills": [
-    {
-      "name": "Languages and Frameworks",
-      "level": "",
-      "keywords": [
-        "C",
-        "C++",
-        "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
-      ]
-    },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
         "MacOS",
         "Postico",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Git/GitHub"
       ]
     }
   ],
@@ -78,12 +63,13 @@
     {
       "institution": "University of the Free State, SA",
       "area": "",
-      "studyType": "B.S. Bcomt. Fianance",
+      "studyType": "B.S. BComt. Fianance",
       "startDate": "",
       "endDate": "2008",
       "gpa": "",
       "courses": [
         "Fianacial Accounting",
+        "Business Management"
         "Auditing",
         "Taxation"
       ]
