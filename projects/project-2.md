@@ -1,7 +1,9 @@
 ---
 layout: project
 type: Front End Project
-image:images/
+image:images/good eats 300.png
+Add files via upload
+
 title: GoodEats!
 permalink: projects/Good Eats
 # All dates must be YYYY-MM-DD format!
