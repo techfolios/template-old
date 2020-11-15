@@ -3,16 +3,16 @@
     "name": "Duwage Charitha Perera",
     "label": "PhD Candidate and Teaching Assistant",
     "picture": "https://dcperera.github.io/images/c.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
+    "email": "charitha.perera@.edu",
+    "phone": "207-889-2030",
     "website": "https://dcperera.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "summary": "I am a Ph.D. candiate in Chemistry in University of Maine",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "postalCode": "04473",
+      "city": "Orono",
       "countryCode": "USA",
-      "region": "Hawaii"
+      "region": "Maine"
     },
     "profiles": [
       {
@@ -22,8 +22,8 @@
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "charitha perera",
+        "url": "www.linkedin.com/in/dcharithaperera"
       },
       {
         "network": "twitter",
@@ -32,8 +32,8 @@
       },
       {
         "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "d_charitha",
+        "url": "http://instagram.com/d_charitha"
       }
     ]
   },
