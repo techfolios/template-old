@@ -1,13 +1,16 @@
 ---
 layout: essay
 type: essay
-title: E1: Ul Basics Technical Essay
+title: Introduction
 # All dates must be YYYY-MM-DD format!
-date: 2020-09-18
+date: 2020-08-26
 labels:
-  - WODs
-  - Essay
+  - Intro
+  - MIS
 ---
+
+Hi everyone, my name is Stacy. I'm a third-year undergraduate with a major in MIS and a minor in Religion. Before I switched over to MIS, I was heavily into finance. I got an internship at a globally-known finance firm, joined a finance academy, and was a board member for the Financial Management Association. As I got into it, it became more unattractive to me. When I sought for a new internship, business technology jobs were the only ones I took of interest. I figured there was no reason to continue my finance degree if I couldn't even find an appealing job. Plus, watching someone code is so crazy. It's like building a child, digitally, of course. So wild to me. So here I am, excited, and determined to learn. :)
+
 
 Browser History #1: I redid this assignment four times. The first time I read through it I accidently watched the screencast before hand. I thought it was a watch-and-see-if-you-can-remember type thing. I redid it because I wanted to try to reach the Rx level. I had alot of trouble trying to connect my links which meant I kept having to look at my notes but I was still confused. I remembered in the screencast to wrap the text but I completely forgot how! I ended up having to watch the screencast like three times to fully understand it without notes. By my fourth attempt, it ended up being after 12 and I decided to go to bed. I was just over the Rx suggested time! I was so sad lol. When it comes time for review, I'll most likely attempt it again to get in the Rx.
 
