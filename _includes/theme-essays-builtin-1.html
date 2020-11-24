@@ -1,6 +1,6 @@
 <div style="padding-top: 20px" class="ui container ">
 
-  <div class="ui stackable centered four cards">
+  <div class="ui stackable left four cards">
     {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
       {% for page in essay_pages %}
         {% unless page.draft %}
