@@ -47,12 +47,12 @@
 
                 <div class="column">
                     {% for entry in site.data.bio.education %}
-                    <h3 class="ui horizontal center aligned divider header">
+                    <h4 class="ui horizontal center aligned divider header">
                         <i class="graduation cap icon"></i>
                         Escolaridade
-                    </h3>
-                    <div class="ui one stackable cards" style="padding-top: 10px;">
-                        <div class="ui card green" style=>
+                    </h4>
+                    <div class="ui three stackable cards" style="padding-top: 10px;">
+                        <div class="ui card blue" style=>
                             <div class="content">
                                 <a class="ui top attached grey label" href="https://ufop.br/" target="_blank">
                                     <i class="university icon"></i>
@@ -81,13 +81,13 @@
             <div class="row">
 
                 <div class="column">
-                    <h3 class="ui horizontal center aligned divider header">
+                    <h4 class="ui horizontal center aligned divider header">
                         <i class="paperclip icon"></i>
                         Trabalhos
-                    </h3>
+                    </h4>
                     <div class="ui three stackable cards" style="padding-top: 10px;">
                         {% for entry in site.data.bio.work %}
-                        <div class=" ui blue segmented card">
+                        <div class=" ui green segmented card">
                             <div class="content">
                                 <div class="ui top attached grey label active"><i class="{% if entry.type == '1' %} university {% endif %} {% if entry.type == '2' %} music {% endif %} {% if entry.type == '' %} map marker alternate {% endif %} icon"></i>{{entry.company}}</div>
                                 <div class="header">{{entry.position}}</div>
@@ -115,10 +115,10 @@
 
         <div class="ui one column stackable grid container" style="margin-bottom: 20px;">
             <div class="column">
-                <h3 class="ui horizontal center aligned divider header">
+                <h4 class="ui horizontal center aligned divider header">
                     <i class="certificate icon"></i>
                     Certificados
-                </h3>
+                </h4>
 
                 <div class="ui segment">
                    <div class="ui relaxed divided list">
@@ -137,10 +137,10 @@
 
         <div class="ui one column stackable grid container" style="margin-bottom: 20px;">
             <div class="column">
-                <h3 class="ui horizontal center aligned divider header">
+                <h4 class="ui horizontal center aligned divider header">
                     <i class="comments icon"></i>
                     Idiomas
-                </h3>
+                </h4>
                 <div class="ui horizontal stackable segments jsOnly">
                     {% for entry in site.data.bio.idiomas %}
                     <div class="ui segment">
@@ -172,10 +172,10 @@
 
             <div class="column">
 
-                <h3 class="ui horizontal center aligned divider header">
+                <h4 class="ui horizontal center aligned divider header">
                     <i class="code icon"></i>
                     Linguagens
-                </h3>
+                </h4>
 
                 <div class="ui segment">
                     <div class="ui labels small">
@@ -198,10 +198,10 @@
 
             <div class="column">
 
-                <h3 class="ui horizontal center aligned divider header">
+                <h4 class="ui horizontal center aligned divider header">
                     <i class="laptop icon"></i>
                     Sistemas
-                </h3>
+                </h4>
 
                 <div class="ui segment">
                     <div class="ui labels small">
@@ -216,10 +216,10 @@
 
             <div class="column">
 
-                <h3 class="ui horizontal center aligned divider header">
+                <h4 class="ui horizontal center aligned divider header">
                     <i class="tools icon"></i>
                     Ferramentas
-                </h3>
+                </h4>
 
                 <div class="ui segment">
                     <div class="ui labels small">
@@ -237,10 +237,10 @@
 
         <div class="ui one column stackable grid container" style="margin-bottom: 20px;">
             <div class="column">
-                <h3 class="ui horizontal center aligned divider header">
+                <h4 class="ui horizontal center aligned divider header">
                     <i class="book icon"></i>
                     Interesses
-                </h3>
+                </h4>
 
                 <div class="ui segment">
                     <div class="ui vertical bulleted link list">
