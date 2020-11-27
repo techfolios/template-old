@@ -120,18 +120,61 @@
                     Certificados
                 </h4>
 
+
+                
                 <div class="ui segment">
-                   <div class="ui relaxed divided list">
-                    {% for entry in site.data.bio.certificates %}
-                    <div class="item">
-                        <div class="content">
-                            <a href="{{entry.website}}" target="_blank" class="header">{{entry.name}}</a>
-                            <p class="description">{{entry.company}}</p>
+                    <div class="ui top attached tabular menu">
+                        <div class="item" data-tab="tab-name">Programação
+                            
                         </div>
-                    </div>
-                    {% endfor %}
-                   </div>
+                        <div class="item" data-tab="tab-name2">Segurança</div>
+                      </div>
+
+                      <div class="ui tab" data-tab="tab-name">
+
+                        <script>
+                            $('.tabular.menu .item').tab();
+                        </script>
+
+                        <div class="ui relaxed divided list">
+                            {% for entry in site.data.bio.certificates %}
+                                {% if entry.id == '1' %}
+                                <div class="item">
+                                    <div class="content">
+                                        <a href="{{entry.website}}" target="_blank" class="header">{{entry.name}}</a>
+                                        <i class="description">{{entry.company}}</i>
+                                    </div>    
+                                </div>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+
+
+                      </div>
+
+                      <div class="ui tab" data-tab="tab-name2">
+
+                        <script>
+                            $('.tabular.menu .item').tab();
+                        </script>
+
+                        <div class="ui relaxed divided list">
+                            {% for entry in site.data.bio.certificates %}
+                                {% if entry.id == '2' %}
+                                <div class="item">
+                                    <div class="content">
+                                        <a href="{{entry.website}}" target="_blank" class="header">{{entry.name}}</a>
+                                        <i class="description">{{entry.company}}</i>
+                                    </div>    
+                                </div>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+
+                      </div>
+                      
                 </div>
+
             </div>
         </div>
 
@@ -263,4 +306,5 @@
 
     </div>
 </body>
+
 </html>

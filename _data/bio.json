@@ -149,18 +149,21 @@
   "certificates": [
     {
       "name": "Scientific Computing with Python",
+      "id":"1",
       "website": "https://www.freecodecamp.org/certification/shinji_mimura/scientific-computing-with-python-v7",
       "company": "freeCodeCamp"
     },
 
     {
       "name": "JavaScript Algorithms and Data Structures",
+      "id":"1",
       "website": "https://www.freecodecamp.org/certification/shinji_mimura/javascript-algorithms-and-data-structures",
       "company": "freeCodeCamp"
     },
 
     {
       "name": "Fundamentos de Ethical Hacking",
+      "id":"2",
       "website": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-RTLHDLZ0.pdf",
       "company": "Udemy"
     }
