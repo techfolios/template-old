@@ -1,9 +1,0 @@
-{
-    "python.testing.unittestEnabled": false,
-    "python.testing.nosetestsEnabled": false,
-    "python.testing.pytestEnabled": true,
-    "files.insertFinalNewline": true,
-    "[python]": {
-        "editor.formatOnPaste": false
-    }
-}
