@@ -170,6 +170,20 @@
 
   ],
 
+  "voluntario": [
+    {
+      "name":"ETMF 2020 - V School Theoretical Computer Science",
+      "website": "/Documents/lucas-araujo-etmf.pdf",
+      "company": "Sociedade Brasileira de Computação"
+    },
+
+    {
+      "name":"SBMF 2020 - XXIII Brazilian Symposium on Formal Methods",
+      "website": "/Documents/lucas-araujo-sbmf.pdf",
+      "company": "Sociedade Brasileira de Computação"
+    }
+  ],
+
 
   "idiomas": [
     {

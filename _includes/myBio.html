@@ -119,8 +119,6 @@
                     <i class="certificate icon"></i>
                     Certificados
                 </h4>
-
-
                 
                 <div class="ui segment">
                     <div class="ui top attached tabular menu">
@@ -173,6 +171,30 @@
 
                       </div>
                       
+                </div>
+
+            </div>
+        </div>
+
+        <div class="ui one column stackable grid container" style="margin-bottom: 20px;">
+            <div class="column">
+
+                <h4 class="ui horizontal center aligned divider header">
+                    <i class="hands helping icon"></i>
+                    Voluntarismo
+                </h4>
+
+                <div class="ui segment">
+                    <div class="ui relaxed divided list">
+                        {% for entry in site.data.bio.voluntario %}
+                        <div class="item">
+                            <div class="content">
+                                <a href="{{entry.website}}" target="_blank" class="header">{{entry.name}}</a>
+                                <i class="description">{{entry.company}}</i>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
                 </div>
 
             </div>
