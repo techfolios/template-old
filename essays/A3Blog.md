@@ -28,7 +28,6 @@ Upon a successful login, how do you provide personalization in your UI? Explain 
 We can reference the username and have their name appear in the invoice to have personalization in the UI. I did this in Assignment 2 through the following code: <br>
 "<span "id"=(result)>"</span> 
 "{ "document"."getElementById"("result")."innerHTML" = "localStorage.getItem("textvalue");" }' <br>
-  <br>"
 
 Checkpoint E:
 If you are working with partners, how will you split up the work in your team so that you are working in parallel as effectively as possible? That is, who is doing what and when? <br>
