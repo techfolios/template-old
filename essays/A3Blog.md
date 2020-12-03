@@ -32,7 +32,8 @@ We can reference the username and have their name appear in the invoice to have 
 
 Checkpoint E:
 If you are working with partners, how will you split up the work in your team so that you are working in parallel as effectively as possible? That is, who is doing what and when? <br>
-I will be doing this assignment by myself. <br>
+I will be doing this assignment by myself. 
+<br>
 
 Checkpoint F:
 How are you approching Assigment 3 differently than Aassignment 2? <br>
