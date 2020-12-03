@@ -26,9 +26,8 @@ I will have to have code to prevent users from accessing the invoice when not lo
 Checkpoint D:
 Upon a successful login, how do you provide personalization in your UI? Explain how you did or will do this (paste code if necessary): <br>
 We can reference the username and have their name appear in the invoice to have personalization in the UI. I did this in Assignment 2 through the following code: <br>
-"<span id='result'></span>"
-<script>
-{ document.getElementById("result").innerHTML = localStorage.getItem("textvalue"); }' <br>
+"<span "id"=(result)>""</span>"
+<script> { document.getElementById("result").innerHTML = localStorage.getItem("textvalue"); }' <br>
 
 Checkpoint E:
 If you are working with partners, how will you split up the work in your team so that you are working in parallel as effectively as possible? That is, who is doing what and when? <br>
