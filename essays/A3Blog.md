@@ -9,27 +9,32 @@ labels:
   - Assignment 3
 ---
 
-1) Provide a brief introduction to the assignment along with a link to this page for further details <br>
-The objective of Assignment 2 was to update & upgrade our Assignment 1 e-Commerce website so that it had Login Page & Register New User Page. We also had to utilize sticky code to ensure that inputted variables for the products page was saved through to the invoice when the user was logging in or registering. 
-This is a link to the page for further details: https://dport96.github.io/ITM352/morea/150.Assignment2/experience-Assignment2.html
+Checkpoint A:
+Describe your design for your site's shopping cart. That is, will it be a separate page that the user can view and edit, or will it be integrated into the product pages? If so, describe in detail how this will work on your site. Provide several examples of using the cart. <br>
+My shopping cart will allow users to remove or add quantities to the products they want to buy before going to the login, registration, or personalized invoice. It will be a separate page that the user can view and edit. Just as most my other pages load separated on the server (login, registration, invoice), I plan to do the same for my site's shopping cart. <br>
 
-2) What did you learn from this assignment? <br>
-The most interesting thing I learned from this assignment was how to design a login/registration page. I have always used login and registration pages for websites and online stores throughout my life, so it was very fascinating to see the code behind it. I also learned the importatance of reaching out for help and starting early. I started earlier than I did for Assignment 1, and I definitely did not feel as stressed. There were some parts of the assignment where I would have errors, and I learned it was good to have classmates take a look at it because they have a fresh pair of eyes that can more easily point out mistakes.
+Checkpoint B:
+Explain specifically how you will use sessions to manage your shopping cart. In particular, what shopping cart data will be stored in the session, what data format will be used (NOT what data type, but the format like with the data format used for your registration data). Use code examples showing what data structures (such as arrays and their keys) you will use to manage the shopping cart data and how they will beused in Session. <br>
+I will be using session to ensure that my site can be used my multiple users logged in at the same time and also have an expiring time for how long users can be on the page for. This is important so that people don't overwrite each other's invoices and requests. I will hopefully be able to know what specific coding to utilize after we finish Lab15. <br>
+An example of data structures I may use for arrays would be as follows: "session_start();
+ $_SESSION['name_here'] = $_POST;" <br>
 
-3) Did you work with a partner? Assign an estimated percentage on the amount each team member contributed to the assignment (including yourself). <br>
-The assignment was individual, but I did gain a lot of insight from some classmates and from previous Assignments/Labs/WODs.
+Checkpoint C:
+How will you avoid access to your application when the user has not logged in or registered? What are the particular security concerns you must address? <br>
+I will have to have code to prevent users from accessing the invoice when not logged in or registered. I will likely utilize what I completed in Assignment 2 to ensure this. A major concern I have as of now would be users overwriting each other's invoices and requests, so it is important that I use sessions and cookies along with expiration times to prevent this. <br>
 
-4) How did you get help when you needed it? What did you need help with? <br>
-I would reach out to some classmates when I needed help finding problems or issues in my code. I had a difficult time with sticky values, so one of my classmates referred me to a YouTube video that was very insightful. For next time, if I really struggle, I hope to make a 1-on-1 appointment with Professor Port.
+Checkpoint D:
+Upon a successful login, how do you provide personalization in your UI? Explain how you did or will do this (paste code if necessary): <br>
+We can reference the username and have their name appear in the invoice to have personalization in the UI. I did this in Assignment 2 through the following code: <br>
+'<h2>Aloha <span id="result"></span>!</h2>
+<script>
+{ document.getElementById("result").innerHTML = localStorage.getItem("textvalue"); }' <br>
 
-5)How was developing this assignment different than assignment #1? <br>
-Assignment #1 was all from scratch essentially. Assignment #2 built upon the work of Assignment #1, so it was very important to have fixed all of the problems made in Assignment #1. I made a large error of using GET instead of POST for Assignment #1, so I had to create a lot of adjustments. Assignment #2 development was a lot more in depth as well with utilization of sticky values and further server-side processing.
+Checkpoint E:
+If you are working with partners, how will you split up the work in your team so that you are working in parallel as effectively as possible? That is, who is doing what and when? <br>
+I will be doing this assignment by myself. <br>
 
-6) Estimate the % of time you spent (a) thinking about how to do something, (b) writing code (but do not include testing, (c) testing and debugging <br>
-I would estimate I took about 50% of time on thinking about how to do something, 25% on writing the code, and 25% on testing & debugging.
-
-7) Describe what worked well with this project? What did not work well? <br>
-My login & registration worked well in this project because I was able to fix the errors from the previous assignment. I did have a difficult time with transferring the sticky values from the products page onto the customer's invoice.
-
-8) If you could go back in time and do things differently, what would you do differently? <br>
-If I could go back in time and do things differently, I would have reached out for help sooner. At first, when I had coding errors, I tried to look it up online on how to fix it. And although sometimes I was able to find the answer, there were times I just became more confused. For Assignment 3, I should start even sooner.
+Checkpoint F:
+How are you approching Assigment 3 differently than Aassignment 2? <br>
+I am approaching this Assignment 3 differently in that I hope to reach out for help and ask questions in class when I need help. I often try to figure things out my own by searching online, but that doesn't always prove helpful. I definitely want to continue starting ahead early so that I am not rushing to finish before the deadline. This assignment is very important, so I want to fix and understand any mistakes I made in the previous assignments so I do not make the same errors again.
+ 
