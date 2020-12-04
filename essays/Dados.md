@@ -1,4 +1,4 @@
-﻿---
+---
 layout: essay
 type: essay
 title: O que significa "Dados" em Lisp?
