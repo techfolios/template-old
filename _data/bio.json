@@ -106,8 +106,6 @@
       ]
     }
   ],
-    }
-  ],
   "publications": [
     {
     "name": "iJam with Channel Randomization",
@@ -116,6 +114,8 @@
 Precodes the bitstream with the channel effect at the receiver
 Prevents the decoding of the bitstream from attackers with multiple antennas"
 }
+],
+  }
   ],
   "references": [
     {
