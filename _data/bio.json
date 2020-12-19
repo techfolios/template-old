@@ -109,6 +109,8 @@
   "publications": [
     {
     "name": "iJam with Channel Randomization",
+    "author": "Jordan L Melcher, Yao Zheng, Dylan Anthony, Matthew Troglia,
+              Thomas Yang, Alvin Yang, Samson Aggelopoulo, Yanjun Pan, Ming Li",
     "releaseDate": "2020",
     "summary": "Implemented a technique to prevent eavesdropping with no prior security association.
     Precodes the bitstream with the channel effect at the receiver.
