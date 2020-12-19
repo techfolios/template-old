@@ -25,7 +25,7 @@
         "username": "alvinyang101",
         "url": "http://www.linkedin.com/in/alvin-yang-369955193/"
       }
-      
+
     ]
   },
   "interests": [
@@ -33,7 +33,7 @@
       "name": "Internet of Things",
       "keywords": [
         "Arduino",
-        "Raspberry Pi"  
+        "Raspberry Pi"
       ]
     },
     {
@@ -107,6 +107,14 @@
     }
   ],
     }
+  ],
+  "publications": [
+    "name": "iJam with Channel Randomization",
+    "releaseDate": "2020",
+    "summary": "Implemented a technique to prevent eavesdropping with no prior security association
+Precodes the bitstream with the channel effect at the receiver
+Prevents the decoding of the bitstream from attackers with multiple antennas
+"
   ],
   "references": [
     {
