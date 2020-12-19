@@ -129,8 +129,9 @@ Use environmental sensors to create a machine learning model to manage spectrum 
   "awards": [
     {
     "title": "Outstanding Graduating Senior",
-    "awarder": "College of Engineering UH Manoa",
-    "date": "2020"
+    "awarder": "College of Engineering University of Hawaii at Manoa",
+    "date": "2020",
+    "summary": "This bi-annual award honor exceptional undergraduate students in their final term"
     }
   ],
   "references": [
