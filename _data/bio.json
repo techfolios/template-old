@@ -109,12 +109,13 @@
     }
   ],
   "publications": [
+    {
     "name": "iJam with Channel Randomization",
     "releaseDate": "2020",
     "summary": "Implemented a technique to prevent eavesdropping with no prior security association
 Precodes the bitstream with the channel effect at the receiver
-Prevents the decoding of the bitstream from attackers with multiple antennas
-"
+Prevents the decoding of the bitstream from attackers with multiple antennas"
+}
   ],
   "references": [
     {
