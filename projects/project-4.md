@@ -21,7 +21,7 @@ For the final project of ICS 314, I worked with a team to create a website. The 
 
 We used a provided website template and modified it in order to meet our needs. I was tasked with implementing the Recipe and Vendor page, and am happy to say I created the website's icon. I had the Recipe page take in a recipe collection and takes each recipe and displays them in a card, where a user can click on to display more information about the recipe. Then for the Vendors page, I made it display various stores located close to UH Manoa, and again users can click on each one to get information about the products and their prices from each store.
 
-<img class="ui floated image" src="../images/afitdvendors.png">
+<img class="ui floated image" src="../images/aftidvendors.png">
 
 So far we were able to get some a good layout of the website, but there are still improvements that can be made. We are looking to add a way to search through the recipes, and a way to recommend recipes based on a user's inventory. We hope to implement these features in the near future.
 
