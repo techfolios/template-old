@@ -26,4 +26,5 @@ We used a provided website template and modified it in order to meet our needs. 
 So far we were able to get some a good layout of the website, but there are still improvements that can be made. We are looking to add a way to search through the recipes, and a way to recommend recipes based on a user's inventory. We hope to implement these features in the near future.
 
 Github: <a href="https://github.com/Air-Fry-Till-I-Die"><i class="large github icon "></i>Air Fry Till I Die</a>
+
 Website: <a href="https://aftid.xyz">Air Fry Till I Die</a>
