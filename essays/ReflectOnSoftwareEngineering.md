@@ -20,7 +20,7 @@ Getting into the group projects in ICS 314, I learned about Issue Driven Project
 I can see learning Agile Project Management being useful for me as it allows me to better coordinate and work with others which will most likely be paramount in my career. With the amount of cooperation that comes with working in a company, being able to organize as a team on various projects is a necessity. By learning IDPM, I feel that I will be better prepared to work with others and that I am more knowledgeable on how to break down a project and get a good idea on the timeline of it.
 
 ## Design Patterns
-<img class="ui floated image" src="../images/DesignPattern.jpg">
+<img class="ui floated image" src="../images/DesignPattern.png">
 
 Design Patterns is a kind of general solution that can be applied to a common problem. In my time in ICS 314, the kind of design patterns that I experienced was that of code templates. The instructor provided the class with various code templates for many assignments. As many of the assignments given involved creating a website, having a website template is useful to get one started on designing a new website. Website templates are not the only example of design patterns, there are many other examples, one of which I used a lot in the final project was using existing code to add new functionality in a website. In the final project, the website my team and I created called for new collections to be added for new kinds of data to be stored. I used the layout of previous code and modified it in order to fit our needs. Being able to use previous code as a skeleton for a new purpose drives a faster development in coding.
 
