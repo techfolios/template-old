@@ -1,11 +1,11 @@
 ---
 layout: essay
 type: essay
-title: "Assignment 3 Checkpoint Blog"
+title: "Assignment 3 Retrospective Blog"
 # All dates must be YYYY-MM-DD format!
-date: 2020-12-03
+date: 2020-12-18
 labels:
-  - Checkpoint Blog
+  - Retrospective Blog
   - Assignment 3
 ---
 
