@@ -68,7 +68,9 @@
         "Javascript",
         "MatLab",
         "Python",
-        "Verilog"
+        "Verilog",
+        "HTML",
+        "Meteor React"
       ]
     },
     {
@@ -115,7 +117,14 @@
     "summary": "Implemented a technique to prevent eavesdropping with no prior security association.
     Precodes the bitstream with the channel effect at the receiver.
     Prevents the decoding of the bitstream from attackers with multiple antennas."
-    }
+  },
+  {
+  "name": "FaIR: Federated Incumbent Detection in CBRS Band",
+  "author": "Matthew Troglia, Jordan Melcher, Yao Zheng, Dylan Anthony, Alvin Yang, Thomas Yang",
+  "releaseDate": "2019",
+  "summary": "Spectrum access system, detects incumbent users in the Citizens Broadband Radio Service band.
+Use environmental sensors to create a machine learning model to manage spectrum allocation."
+  }
   ],
   "awards": [
     {
