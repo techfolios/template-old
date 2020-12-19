@@ -80,7 +80,9 @@
         "Windows",
         "MacOS",
         "Ubuntu",
-        "Git/GitHub"
+        "Git/GitHub",
+        "Eclipse",
+        "Intellij IDEA"
       ]
     }
   ],
