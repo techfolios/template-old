@@ -2,8 +2,8 @@
 layout: project
 type: project
 image: images/esports-2018-monitor-asus.jpg
-title: Micromouse
-permalink: projects/micromouse
+title: 2019 HPU Scholarship Tournament
+permalink: projects/tournament
 # All dates must be YYYY-MM-DD format!
 date: 2019-11-20
 labels:
@@ -12,19 +12,16 @@ labels:
 summary: I competed and earned second place at the 2019 HPU Scholarship Tournament
 ---
 
+
+
+The 2019 HPU Scholarship Tournament was an open registration tournament planned by the Hawaii Pacific University but was still available for teams not affiliated with HPU. The teams were made up of at least 5 people. These teams would compete against each other in a randomized bracket format in video games. The games these teams would be playing were either "League of Legends" or "Overwatch" depending on which game they registered to play for. My team and I had registered for the "League of Legends" tournament. People playing one game would not play against people who were playing the other game. League of Legends is a multiplayer online battle arena (MOBA), much like a team-based strategy game where two teams of five powerful champions face off to destroy the other's base. 
+
+League of Legends requires lots of communication, patience and teamwork by its nature of being a competitive game. However, because there are also so many things that each player has to micromanage, someone has to also macromanage the game and the team. My role in my team was to be the shotcaller, the one in charge of macromanagement. My team had made it to the finals of the tournament after several days of playing back to back games in the HPU eSports Arena. After a grueling 4 hours, we unfortunately were unable to win our 5-game series and the tournament but we had managed to get 2nd place.
+
+Here is my medal that I earned from the tournament
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/2ndplace.jpg">
 </div>
-
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
-
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
-
-Here is some code that illustrates how we read values from the line sensors:
-
 ```js
 byte ADCRead(byte ch)
 {
