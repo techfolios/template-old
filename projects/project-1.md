@@ -5,12 +5,11 @@ image: images/esports-2018-monitor-asus
 title: Micromouse
 permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2019-11-20
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - E-Sports
+  - Tournament
+summary: I competed and earned second place at the 2019 HPU Scholarship Tournament
 ---
 
 <div class="ui small rounded images">
