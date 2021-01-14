@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Travis Green",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://techfolios.github.io/template/images/IMG_3483.JPG",
+    "email": "greent3@hawaii.edu",
+    "phone": "843-830-0855",
+    "website": "https://greent3.github.io",
+    "summary": "I am majoring in Chinese and minoring in Computer Science at the University of Hawaii. ",
     "location": {
       "address": "",
-      "postalCode": "96822",
+      "postalCode": "96826",
       "city": "Honolulu",
       "countryCode": "USA",
       "region": "Hawaii"
@@ -18,40 +18,28 @@
       {
         "network": "github",
         "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "url": "http://github.com/greent3"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "Travis Green",
+        "url": "https://www.linkedin.com/in/travis-green-luse/"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "Stock Trading Software",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Autonomous Driving Software",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Artificial Intelligence",
       "keywords": [
       ]
     }
