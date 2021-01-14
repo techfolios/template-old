@@ -22,6 +22,7 @@ Here is my medal that I earned from the tournament
 <div class="ui small rounded images">
   <img class="ui image" src="../images/2ndplace.jpg">
 </div>
+
 ```js
 byte ADCRead(byte ch)
 {
