@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/poker (2).jpg
+image: images/poker(2).jpg
 title: Calculate my Outs (Poker App)
 permalink: projects/CalculateMyOuts
 # All dates must be YYYY-MM-DD format!
