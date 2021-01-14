@@ -10,6 +10,11 @@ labels:
   - Sprite Sheets
   - Java
   - Teamwork
-summary: This is a side-scroller my roommate and I made while in an introductory programming class. It uses Java, sprite sheets, and a program written by a UH Grad student called EZ.java
-projecturl: https://www.youtube.com/watch?v=JhQfGfVwmRI
+summary: This is a side-scroller my roommate and I made while in an introductory programming class.
 ---
+
+My roommate and I submitted this program as our final project for our Introductory programming class with Java. It is a side scrolling game that uses sprite sheets and moves images through a program written by a UH Grad student called "EZ.java". The object of the game is to collect as many coins as you can while avoiding the hazards. 
+
+Though the presentation of the game needs work, the project was helpful in teaching us basic programming concepts like Object Oriented Programming. Below is a link to a youtube video demonstrating the project.
+
+https://www.youtube.com/watch?v=JhQfGfVwmRI
