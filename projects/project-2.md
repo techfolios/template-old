@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/ttt.png
+image: images/ttt (2).png
 title: TicTacToe AI
 permalink: projects/tictactoeAi
 # All dates must be YYYY-MM-DD format!
