@@ -245,7 +245,37 @@
       "name": "Burp Suite"
     },
     {
-      "name": "Github"
+      "name": "Git/Github"
+    }
+  ],
+
+  "frameworks": [
+    {
+      "name": "Bootstrap"
+    },
+    {
+      "name": "Bulma"
+    },
+    {
+      "name": "Fomantic-UI"
+    },
+    {
+      "name": "Flask"
+    }
+  ],
+
+  "ides": [
+    {
+      "name": "VSCode"
+    },
+    {
+      "name": "Sublime"
+    },
+    {
+      "name": "Pycharm"
+    },
+    {
+      "name": "Dr.Racket"
     }
   ],
 

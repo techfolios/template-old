@@ -16,7 +16,7 @@
                     <span class="sub header">{{site.data.bio.basics.location.region}}, {{site.data.bio.basics.location.countryCode}}</span>
                 </h1>
 
-                <button onclick="location.href='/Documents/curriculo.pdf'" class="ui green labeled icon button" style="margin-top: 15px;">
+                <button onclick="location.href='/Documents/curriculoLucas.pdf'" class="ui green labeled icon button" style="margin-top: 15px;">
                     <i class="download icon"></i>
                     Download
                 </button>
@@ -305,6 +305,41 @@
 
             </div>
 
+
+        </div>
+
+        <div class="ui two column stackable grid container" style="margin-bottom: 20px;">
+            <div class="column">
+                <h4 class="ui horizontal center aligned divider header">
+                    <i class="crop alternate icon"></i>
+                    Frameworks
+                </h4>
+
+                <div class="ui segment">
+                    <div class="ui labels small">
+                        {% for entry in site.data.bio.frameworks %}
+                        <div class="ui teal label">{{entry.name}}</div>
+                        {% endfor %}
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="column">
+                <h4 class="ui horizontal center aligned divider header">
+                    <i class="terminal icon"></i>
+                    IDEs
+                </h4>
+
+                <div class="ui segment">
+                    <div class="ui labels small">
+                        {% for entry in site.data.bio.ides %}
+                        <div class="ui teal label">{{entry.name}}</div>
+                        {% endfor %}
+                    </div>
+                </div>
+
+            </div>
 
         </div>
 
