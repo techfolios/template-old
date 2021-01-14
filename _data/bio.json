@@ -80,7 +80,7 @@
       "position": "Medical Technician",
       "startDate": "2014-05-20",
       "endDate": "2018-08-06",
-      "summary": "Managed pediatric and family practice clinic medical teams",
+      "summary": "Managed family practice and pediatric medical care teams",
       "highlights": [
         "I'm always on time",
         "I'm used to working with deadlines",
@@ -88,20 +88,6 @@
         "920 actual work days of face-to-face customer service and working on a team"
       ]
     }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
   ],
   "awards": [
     {
