@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/eggman.png
+image: images/eggman (2).png
 title: Watch Out for Eggman!
 permalink: projects/eggman
 # All dates must be YYYY-MM-DD format!
