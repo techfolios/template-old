@@ -1,0 +1,229 @@
+I"�[<h2 id="exercise-135">Exercise 1.35</h2>
+
+<blockquote>
+  <p>Show that the golden ratio φ (1.2.2) is a fixed point of the transformation x ↦ 1 + 1 / x , and use this fact to compute φ by means of the fixed-point procedure.</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p><strong>Resposta</strong></p>
+
+    <div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="p">(</span><span class="k">define</span> <span class="nv">tolerance</span> <span class="mf">0.00001</span><span class="p">)</span>
+  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">fixed-point</span> <span class="nv">f</span> <span class="nv">first-guess</span><span class="p">)</span>
+    <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">close-enough?</span> <span class="nv">v1</span> <span class="nv">v2</span><span class="p">)</span>
+  	<span class="p">(</span><span class="nb">&lt;</span> <span class="p">(</span><span class="nb">abs</span> <span class="p">(</span><span class="nb">-</span> <span class="nv">v1</span> <span class="nv">v2</span><span class="p">))</span> <span class="nv">tolerance</span><span class="p">))</span>
+    <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">try</span> <span class="nv">guess</span><span class="p">)</span>
+  	<span class="p">(</span><span class="k">let</span> <span class="p">((</span><span class="nf">next</span> <span class="p">(</span><span class="nf">f</span> <span class="nv">guess</span><span class="p">)))</span>
+  	  <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nf">close-enough?</span> <span class="nv">guess</span> <span class="nv">next</span><span class="p">)</span>
+  		  <span class="nv">next</span>
+  		  <span class="p">(</span><span class="nf">try</span> <span class="nv">next</span><span class="p">))))</span>
+    <span class="p">(</span><span class="nf">try</span> <span class="nv">first-guess</span><span class="p">))</span>
+
+  <span class="nv">&gt;</span> <span class="p">(</span><span class="nf">fixed-point</span> <span class="p">(</span><span class="k">lambda</span> <span class="p">(</span><span class="nf">x</span><span class="p">)</span> <span class="p">(</span><span class="nb">+</span> <span class="mi">1</span> <span class="p">(</span><span class="nb">/</span> <span class="mi">1</span> <span class="nv">x</span><span class="p">)))</span> <span class="mf">1.0</span><span class="p">)</span>
+  <span class="nv">&gt;</span> <span class="mf">1.6180327868852458</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="exercise-136">Exercise 1.36</h2>
+
+<blockquote>
+  <p>Modify fixed-point so that it prints the sequence of approximations it generates, using the <code class="language-plaintext highlighter-rouge">newline</code> and display primitives shown in Exercise 1.22. Then find a solution to $x^x = 1000$ by finding a fixed point of $x \mapsto log(1000)/log(x)$ (Use Scheme’s primitive log procedure, which computes natural logarithms.) Compare the number of steps this takes with and without average damping. (Note that you cannot start fixed-point with a guess of 1, as this would cause division by $log(1)=0$.)</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p><strong>Resposta</strong></p>
+
+    <div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">fixed-point</span> <span class="nv">f</span> <span class="nv">first-guess</span><span class="p">)</span>
+<span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">close-enough?</span> <span class="nv">v1</span> <span class="nv">v2</span><span class="p">)</span>
+  <span class="p">(</span><span class="nb">&lt;</span> <span class="p">(</span><span class="nb">abs</span> <span class="p">(</span><span class="nb">-</span> <span class="nv">v1</span> <span class="nv">v2</span><span class="p">))</span>
+     <span class="nv">tolerance</span><span class="p">))</span>
+<span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">try</span> <span class="nv">guess</span><span class="p">)</span>
+  <span class="p">(</span><span class="nb">display</span> <span class="nv">guess</span><span class="p">)</span>
+  <span class="p">(</span><span class="nb">newline</span><span class="p">)</span>
+  <span class="p">(</span><span class="k">let</span> <span class="p">((</span><span class="nf">next</span> <span class="p">(</span><span class="nf">f</span> <span class="nv">guess</span><span class="p">)))</span>
+    <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nf">close-enough?</span> <span class="nv">guess</span> <span class="nv">next</span><span class="p">)</span>
+        <span class="nv">next</span>
+        <span class="p">(</span><span class="nf">try</span> <span class="nv">next</span><span class="p">))))</span>
+<span class="p">(</span><span class="nf">try</span> <span class="nv">first-guess</span><span class="p">))</span>
+
+<span class="p">((</span><span class="k">lambda</span> <span class="p">()</span> <span class="p">(</span><span class="nf">fixed-point</span> <span class="p">(</span><span class="k">lambda</span> <span class="p">(</span><span class="nf">y</span><span class="p">)</span> <span class="p">(</span><span class="nb">+</span> <span class="mi">1</span> <span class="p">(</span><span class="nb">/</span> <span class="mi">1</span> <span class="nv">y</span><span class="p">)))</span> <span class="mf">1.0</span><span class="p">)))</span> 
+  
+<span class="c1">;; https://github.com/dragonwasrobot/sicp-exercises/blob/master/1-building-abstractions-with-procedures.scm</span>
+
+<span class="p">(</span><span class="k">define</span> <span class="nv">x-power-x</span> <span class="p">(</span><span class="nf">fixed-point</span> <span class="p">(</span><span class="k">lambda</span> <span class="p">(</span><span class="nf">y</span><span class="p">)</span> <span class="p">(</span><span class="nb">/</span> <span class="p">(</span><span class="nb">log</span> <span class="mi">1000</span><span class="p">)</span> <span class="p">(</span><span class="nb">log</span> <span class="nv">y</span><span class="p">)))</span> <span class="mf">2.0</span><span class="p">))</span>
+
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="exercise-137">Exercise 1.37</h2>
+
+<blockquote>
+  <p><strong>1</strong>. An infinite continued fraction is an expression of the form</p>
+</blockquote>
+
+\[f= \cfrac{N_{1}}{D_{1}+\cfrac{N_{2}}{D_{2}+\cfrac{N_{3}}{D_{3}+\cdots}}}\]
+
+<blockquote>
+  <p>As an example, one can show that the infinite continued fraction expansion with the $N_{i}$ and the $D_{i}$ all equal to 1 produces $1 / φ$ , where $φ$ is the golden ratio (described in 1.2.2). One way to approximate an infinite continued fraction is to truncate the expansion after a given number of terms. Such a truncation—a so-called finite continued fraction <em>k-term finite continued fraction</em>—has the form</p>
+</blockquote>
+
+\[\cfrac{N_{1}}{D_{1}+\cfrac{N_{2}}{...+\cfrac{N_{k}}{D_{k}}}}\]
+
+<blockquote>
+  <p>Suppose that n and d are procedures of one argument (the term index i ) that return the $N_{i}$ and $D_{i}$ of the terms of the continued fraction. Define a procedure cont-frac such that evaluating (<code class="language-plaintext highlighter-rouge">cont-frac n d k</code>) computes the value of the k -term finite continued fraction. Check your procedure by approximating $1 / φ$ using</p>
+</blockquote>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="nf">cont-frac</span> <span class="p">(</span><span class="k">lambda</span> <span class="p">(</span><span class="nf">i</span><span class="p">)</span> <span class="mf">1.0</span><span class="p">)</span>
+           <span class="p">(</span><span class="k">lambda</span> <span class="p">(</span><span class="nf">i</span><span class="p">)</span> <span class="mf">1.0</span><span class="p">)</span>
+           <span class="nv">k</span><span class="p">)</span>
+</code></pre></div></div>
+
+<blockquote>
+  <p>for successive values of k. How large must you make k in order to get an approximation that is accurate to 4 decimal places?</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p><strong>Resposta</strong></p>
+
+    <div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">cont-frac</span> <span class="nv">n</span> <span class="nv">d</span> <span class="nv">k</span><span class="p">)</span>
+     <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">cont-frac-rec</span> <span class="nv">i</span><span class="p">)</span>
+        <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">=</span> <span class="nv">i</span> <span class="nv">&gt;</span> <span class="nv">k</span><span class="p">)</span>
+            <span class="mi">0</span>
+            <span class="p">(</span><span class="nb">/</span> <span class="p">(</span><span class="nf">n</span> <span class="nv">i</span><span class="p">)</span> <span class="p">(</span><span class="nb">+</span> <span class="p">(</span><span class="nf">d</span> <span class="nv">i</span><span class="p">)</span> <span class="p">(</span><span class="nf">cont-frac-rec</span> <span class="p">(</span><span class="nb">+</span> <span class="nv">i</span> <span class="mi">1</span><span class="p">))))))</span>
+     <span class="p">(</span><span class="nf">cont-frac-rec</span> <span class="mi">1</span><span class="p">))</span>
+       
+  <span class="p">(</span><span class="nb">/</span> <span class="mi">1</span> <span class="p">(</span><span class="nf">cont-frac</span> <span class="p">(</span><span class="k">lambda</span> <span class="p">(</span><span class="nf">i</span><span class="p">)</span> <span class="mf">1.0</span><span class="p">)</span> <span class="p">(</span><span class="k">lambda</span> <span class="p">(</span><span class="nf">i</span><span class="p">)</span> <span class="mf">1.0</span><span class="p">)</span> <span class="mi">12</span><span class="p">))</span>
+  <span class="nv">&gt;</span> <span class="mf">1.6180555555555558</span>
+
+  <span class="c1">;; É necessário pelo menos 11 no valor de K para que tenha uma aproximação </span>
+  <span class="c1">;; precisa de até 4 casas decimais</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<blockquote>
+  <p><strong>2</strong>. If your <code class="language-plaintext highlighter-rouge">cont-frac</code> procedure generates a recursive process, write one that generates an iterative process. If it generates an iterative process, write one that generates a recursive process.</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p><strong>Resposta</strong></p>
+
+    <div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="exercise-138">Exercise 1.38</h2>
+
+<blockquote>
+  <p>In 1737, the Swiss mathematician Leonhard Euler published a memoir <em>De Fractionibus Continuis</em>, which included a continued fraction expansion for $e − 2$where $e$ is the base of the natural logarithms. In this fraction, the $N_{i}$ are all 1, and the $D_{i}$ are successively 1, 2, 1, 1, 4, 1, 1, 6, 1, 1, 8, …. Write a program that uses your <code class="language-plaintext highlighter-rouge">cont-frac</code> procedure from Exercise 1.37 to approximate $e$ , based on Euler’s expansion.</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p><strong>Resposta</strong></p>
+
+    <div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">d-euler</span> <span class="nv">i</span><span class="p">)</span>
+    <span class="mi">0</span><span class="p">)</span>
+
+  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">display-serie</span> <span class="nv">f</span> <span class="nv">n</span><span class="p">)</span>
+    <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">rec</span> <span class="nv">i</span><span class="p">)</span>
+      <span class="p">(</span><span class="nb">display</span> <span class="p">(</span><span class="nf">f</span> <span class="nv">i</span><span class="p">))</span> <span class="p">(</span><span class="nb">display</span> <span class="s">", "</span><span class="p">)</span>
+      <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">=</span> <span class="nv">i</span> <span class="nv">n</span><span class="p">)</span>
+          <span class="p">(</span><span class="nb">newline</span><span class="p">)</span>
+          <span class="p">(</span><span class="nf">rec</span> <span class="p">(</span><span class="nf">add1</span> <span class="nv">i</span><span class="p">))))</span>
+    <span class="p">(</span><span class="nf">rec</span> <span class="mi">1</span><span class="p">))</span>
+
+  <span class="p">(</span><span class="nf">display-serie</span> <span class="nv">d-euler</span> <span class="mi">12</span><span class="p">)</span>
+
+  <span class="c1">;; Essa procedure tem a ideia de imprimir o esqueleto da </span>
+  <span class="c1">;; lista sucessiva de números (0,0,0,0,0,0,0,0,0)</span>
+
+  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">d-euler</span> <span class="nv">i</span><span class="p">)</span>
+    <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">=</span> <span class="p">(</span><span class="nb">modulo</span> <span class="nv">i</span> <span class="mi">3</span><span class="p">)</span> <span class="mi">2</span><span class="p">)</span>
+        <span class="p">(</span><span class="nb">*</span> <span class="mi">2</span><span class="p">(</span><span class="nb">/</span> <span class="p">(</span><span class="nb">+</span> <span class="nv">i</span> <span class="mi">1</span><span class="p">)</span> <span class="mi">3</span><span class="p">))</span>
+        <span class="mi">1</span><span class="p">))</span>
+
+  <span class="c1">;; Na procedure acima, o if irá verificar se o módulo do número por 3 é par</span>
+  <span class="c1">;; caso sim, o valor dele será atribuido através do calculo: (* 2(/ (+ i 1) 3))</span>
+  <span class="c1">;; imagine o numéro 2 = 2 + 1 -&gt; 3 -&gt; 3/3 = 1 -&gt; 1*2 = 2</span>
+
+  <span class="c1">;; por fim, temos a função completa:</span>
+
+  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">cont-frac-iter</span> <span class="nv">n</span> <span class="nv">d</span> <span class="nv">k</span><span class="p">)</span>
+    <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">iter</span> <span class="nv">i</span> <span class="nv">result</span><span class="p">)</span>
+      <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">=</span> <span class="mi">0</span> <span class="nv">i</span><span class="p">)</span>
+          <span class="nv">result</span>
+          <span class="p">(</span><span class="nf">iter</span> <span class="p">(</span><span class="nf">sub1</span> <span class="nv">i</span><span class="p">)</span> <span class="p">(</span><span class="nb">/</span> <span class="p">(</span><span class="nf">n</span> <span class="nv">i</span><span class="p">)</span> <span class="p">(</span><span class="nb">+</span> <span class="nv">result</span> <span class="p">(</span><span class="nf">d</span> <span class="nv">i</span><span class="p">))))))</span>
+    <span class="p">(</span><span class="nf">iter</span> <span class="p">(</span><span class="nf">sub1</span> <span class="nv">k</span><span class="p">)</span> <span class="p">(</span><span class="nb">/</span> <span class="p">(</span><span class="nf">n</span> <span class="nv">k</span><span class="p">)</span> <span class="p">(</span><span class="nf">d</span> <span class="nv">k</span><span class="p">))))</span>
+
+  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">d-euler</span> <span class="nv">i</span><span class="p">)</span>
+    <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">=</span> <span class="p">(</span><span class="nb">modulo</span> <span class="nv">i</span> <span class="mi">3</span><span class="p">)</span> <span class="mi">2</span><span class="p">)</span>
+        <span class="p">(</span><span class="nb">*</span> <span class="mi">2</span><span class="p">(</span><span class="nb">/</span> <span class="p">(</span><span class="nb">+</span> <span class="nv">i</span> <span class="mi">1</span><span class="p">)</span> <span class="mi">3</span><span class="p">))</span>
+        <span class="mi">1</span><span class="p">))</span>
+
+  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">display-serie</span> <span class="nv">f</span> <span class="nv">n</span><span class="p">)</span>
+    <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">rec</span> <span class="nv">i</span><span class="p">)</span>
+      <span class="p">(</span><span class="nb">display</span> <span class="p">(</span><span class="nf">f</span> <span class="nv">i</span><span class="p">))</span> <span class="p">(</span><span class="nb">display</span> <span class="s">", "</span><span class="p">)</span>
+      <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">=</span> <span class="nv">i</span> <span class="nv">n</span><span class="p">)</span>
+          <span class="p">(</span><span class="nb">newline</span><span class="p">)</span>
+          <span class="p">(</span><span class="nf">rec</span> <span class="p">(</span><span class="nf">add1</span> <span class="nv">i</span><span class="p">))))</span>
+    <span class="p">(</span><span class="nf">rec</span> <span class="mi">1</span><span class="p">))</span>
+
+  <span class="p">(</span><span class="nf">display-serie</span> <span class="nv">d-euler</span> <span class="mi">12</span><span class="p">)</span>
+
+  <span class="c1">;  exact result is 0.718281828459</span>
+  <span class="p">(</span><span class="nf">cont-frac-iter</span> <span class="p">(</span><span class="k">lambda</span> <span class="p">(</span><span class="nf">i</span><span class="p">)</span> <span class="mf">1.0</span><span class="p">)</span>
+                   <span class="nv">d-euler</span>
+                   <span class="mi">1</span><span class="p">)</span>  <span class="p">(</span><span class="nb">newline</span><span class="p">)</span>
+
+  <span class="nv">&gt;</span> <span class="mf">0.7182818284590452</span>
+
+  <span class="c1">;; Agradecimentos ao codology pelo auxílio</span>
+  <span class="c1">;; https://codology.net/post/sicp-solution-exercise-1-38/</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="exercise-139">Exercise 1.39</h2>
+
+<blockquote>
+  <p>A continued fraction representation of the tangent function was published in 1770 by the German mathematician J.H. Lambert:</p>
+</blockquote>
+
+\[\tan x= \cfrac{x}{1-\cfrac{x²}{3{}-\cfrac{x²{}}{5{}-\cdots}}}\]
+
+<blockquote>
+  <p>where x is in radians. Define a procedure (<code class="language-plaintext highlighter-rouge">tan-cf x k</code>) that computes an approximation to the tangent function based on Lambert’s formula. k specifies the number of terms to compute, as in Exercise 1.37.</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p><strong>Resposta</strong></p>
+
+    <div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="o">#</span><span class="nv">lang</span> <span class="nv">racket</span>
+
+  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">cont-frac-iter</span> <span class="nv">n</span> <span class="nv">d</span> <span class="nv">k</span><span class="p">)</span>
+    <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">iter</span> <span class="nv">i</span> <span class="nv">retorno</span><span class="p">)</span>
+      <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">=</span> <span class="mi">0</span> <span class="nv">i</span><span class="p">)</span>
+          <span class="nv">retorno</span>
+          <span class="p">(</span><span class="nf">iter</span> <span class="p">(</span><span class="nf">sub1</span> <span class="nv">i</span><span class="p">)</span> <span class="p">(</span><span class="nb">/</span> <span class="p">(</span><span class="nf">n</span> <span class="nv">i</span><span class="p">)</span> <span class="p">(</span><span class="nb">+</span> <span class="nv">retorno</span> <span class="p">(</span><span class="nf">d</span> <span class="nv">i</span><span class="p">))))))</span>
+    <span class="p">(</span><span class="nf">iter</span> <span class="p">(</span><span class="nf">sub1</span> <span class="nv">k</span><span class="p">)</span> <span class="p">(</span><span class="nb">/</span> <span class="p">(</span><span class="nf">n</span> <span class="nv">k</span><span class="p">)</span> <span class="p">(</span><span class="nf">d</span> <span class="nv">k</span><span class="p">))))</span>
+
+  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">tan-cf</span> <span class="nv">x</span> <span class="nv">k</span><span class="p">)</span>
+    <span class="p">(</span><span class="k">let</span> <span class="p">((</span><span class="nf">a</span> <span class="p">(</span><span class="nb">-</span> <span class="p">(</span><span class="nb">*</span> <span class="nv">x</span> <span class="nv">x</span><span class="p">))))</span>
+      <span class="p">(</span><span class="nf">cont-frac-iter</span> <span class="p">(</span><span class="k">lambda</span> <span class="p">(</span><span class="nf">i</span><span class="p">)</span> <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">=</span> <span class="nv">i</span> <span class="mi">1</span><span class="p">)</span> <span class="nv">x</span> <span class="nv">a</span><span class="p">))</span>
+                 <span class="p">(</span><span class="k">lambda</span> <span class="p">(</span><span class="nf">i</span><span class="p">)</span> <span class="p">(</span><span class="nb">-</span> <span class="p">(</span><span class="nb">*</span> <span class="nv">i</span> <span class="mi">2</span><span class="p">)</span> <span class="mi">1</span><span class="p">))</span>
+                 <span class="nv">k</span><span class="p">)))</span>
+
+  <span class="nv">&gt;</span> <span class="p">(</span><span class="nb">display</span> <span class="p">(</span><span class="nf">tan-cf</span> <span class="mi">1</span> <span class="mi">8</span><span class="p">))</span> <span class="p">(</span><span class="nb">newline</span><span class="p">)</span>
+  <span class="nv">&gt;</span> <span class="mi">1763649</span><span class="nv">/1132426</span> <span class="nv">=</span> <span class="mf">1.55740772465</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+:ET

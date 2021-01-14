@@ -1,0 +1,223 @@
+I"�d<h1 id="formulando-abstrações-com-funções-de-alta-ordem">Formulando abstrações com Funções de Alta Ordem</h1>
+
+<p>Nós vimos que as funções (<em>procedures</em>) são, em efeito, abstrações que descrevem operações compostas que agem sobre números, independe de quais sejam estes números.</p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">cube</span> <span class="nv">x</span><span class="p">)</span> <span class="p">(</span><span class="nb">*</span> <span class="nv">x</span> <span class="nv">x</span> <span class="nv">x</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p>Quando nós declaramos a função acima, nós não estamos falando sobre o cubo de algum número particular, mas sim estamos demonstrando um método que obtém o cubo de qualquer número que a função interaja sobre. Nós podemos obter o mesmo resultado sem necessariamente precisarmos de uma função, observe as expressões:</p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="nb">*</span> <span class="mi">3</span> <span class="mi">3</span> <span class="mi">3</span><span class="p">)</span>
+<span class="p">(</span><span class="nb">*</span> <span class="nv">x</span> <span class="nv">x</span> <span class="nv">x</span><span class="p">)</span>
+<span class="p">(</span><span class="nb">*</span> <span class="nv">y</span> <span class="nv">y</span> <span class="nv">y</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Esta forma de trabalhar traria muitas desvantagens, uma delas seria nos forçar a trabalhar sempre no nível particular de operações primitivas da linguagem (multiplicação neste caso), desta forma não poderíamos trabalhar com operações de níveis superiores. Nossos programas devem ser capazes de computar o cubo de algum número, porém a nossa linguagem não iria ter a capacidade de expressar o conceito de realizar o cubo de um número.</p>
+
+<p>Uma das coisas que devemos demandar de uma linguagem de programação poderosa é a habilidade de construir abstrações através da imputação de nomes para padrões comuns e depois trabalhar com abstrações diretamente. Funções (<em>procedures</em>) nos permitem isso. Isto é a razão pela qual a maioria das linguagens de programação mais primitivas incluem o conceito de mecanismos para declarar uma procedure</p>
+
+<p>No entanto, dentro do processamento numérico nós vamos estar severamente limitados na nossa habilidade de criar abstrações se nós restringirmos as funções que os parâmetros devem ser obrigatoriamente números. Ás vezes o mesmo padrão de programação será usado com um número em diferentes procedures. Para expressar determinados padrões em forma de conceitos, nós vamos precisar construir procedures como valores. <strong>Procedures que podem manipular outras procedures são chamadas de Funções de Alta Ordem</strong> (High-Order Procedures)</p>
+
+<h2 id="funções-como-argumentos">Funções como argumentos</h2>
+
+<p>Considere as três seguintes funções:</p>
+
+<ul>
+  <li>A primeira computa a soma dos inteiros entre a e b</li>
+</ul>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">sum-integers</span> <span class="nv">a</span> <span class="nv">b</span><span class="p">)</span>
+  <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">&gt;</span> <span class="nv">a</span> <span class="nv">b</span><span class="p">)</span> 
+      <span class="mi">0</span> 
+      <span class="p">(</span><span class="nb">+</span> <span class="nv">a</span> <span class="p">(</span><span class="nf">sum-integers</span> <span class="p">(</span><span class="nb">+</span> <span class="nv">a</span> <span class="mi">1</span><span class="p">)</span> <span class="nv">b</span><span class="p">))))</span>
+</code></pre></div></div>
+
+<ul>
+  <li>A segunda computa o soma dos cubos de inteiros de determinado escopo</li>
+</ul>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">sum-cubes</span> <span class="nv">a</span> <span class="nv">b</span><span class="p">)</span>
+  <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">&gt;</span> <span class="nv">a</span> <span class="nv">b</span><span class="p">)</span>
+      <span class="mi">0</span>
+      <span class="p">(</span><span class="nb">+</span> <span class="p">(</span><span class="nf">cube</span> <span class="nv">a</span><span class="p">)</span>
+         <span class="p">(</span><span class="nf">sum-cubes</span> <span class="p">(</span><span class="nb">+</span> <span class="nv">a</span> <span class="mi">1</span><span class="p">)</span> <span class="nv">b</span><span class="p">))))</span>
+</code></pre></div></div>
+
+<ul>
+  <li>A terceira computa a soma de uma sequência de termos em uma série</li>
+</ul>
+
+\[\frac {1}{1*3} + \frac {1}{5*7} + \frac {1}{9*11} + ...,\]
+
+<p>O resultado irá convergir para <strong>$\frac{\pi}{8}$</strong></p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">pi-sum</span> <span class="nv">a</span> <span class="nv">b</span><span class="p">)</span>
+  <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">&gt;</span> <span class="nv">a</span> <span class="nv">b</span><span class="p">)</span>
+      <span class="mi">0</span>
+      <span class="p">(</span><span class="nb">+</span> <span class="p">(</span><span class="nb">/</span> <span class="mf">1.0</span> <span class="p">(</span><span class="nb">*</span> <span class="nv">a</span> <span class="p">(</span><span class="nb">+</span> <span class="nv">a</span> <span class="mi">2</span><span class="p">)))</span> 
+         <span class="p">(</span><span class="nf">pi-sum</span> <span class="p">(</span><span class="nb">+</span> <span class="nv">a</span> <span class="mi">4</span><span class="p">)</span> <span class="nv">b</span><span class="p">))))</span>
+</code></pre></div></div>
+
+<p>Essas três funções claramente compartilham uma padrão em comum. Elas são quase idênticas em boa parte. Nós podemos gerar um padrão de preenchimento destas funções</p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="err">⟨</span><span class="nv">name</span><span class="err">⟩</span> <span class="nv">a</span> <span class="nv">b</span><span class="p">)</span>
+  <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">&gt;</span> <span class="nv">a</span> <span class="nv">b</span><span class="p">)</span>
+      <span class="mi">0</span>
+      <span class="p">(</span><span class="nb">+</span> <span class="p">(</span><span class="err">⟨</span><span class="nv">term</span><span class="err">⟩</span> <span class="nv">a</span><span class="p">)</span> 
+         <span class="p">(</span><span class="err">⟨</span><span class="nv">name</span><span class="err">⟩</span> <span class="p">(</span><span class="err">⟨</span><span class="nv">next</span><span class="err">⟩</span> <span class="nv">a</span><span class="p">)</span> <span class="nv">b</span><span class="p">))))</span>
+</code></pre></div></div>
+
+<p>A presença deste padrão é uma evidência forte que existe uma abstração útil esperando para emergir. De fato, matemáticos a muito tempo identificaram a abstração de soma (<em>summation of a series</em>) e inventaram a <strong>notação sigma.</strong> O poder da notação sigma é o que permite os matemáticos lidarem com o conceito de somas de forma geral</p>
+
+\[\sum\limits_{n=a}^b f(n) = f(a)+...+f(b)\]
+
+<p>De maneira similar, nós programadores gostamos que nossas linguagens sejam poderosas o suficiente para serem capazes de nos permitir escrever funções que expressam o conceito de soma de forma geral e não apenas computações de números específicos. Nós podemos fazer isso prontamente em nossa linguagem, pegando o modelo comum e transformando os “slots” acima em <strong>parâmetros formais</strong></p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">sum</span> <span class="nv">term</span> <span class="nv">a</span> <span class="nv">next</span> <span class="nv">b</span><span class="p">)</span>
+  <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">&gt;</span> <span class="nv">a</span> <span class="nv">b</span><span class="p">)</span>
+      <span class="mi">0</span>
+      <span class="p">(</span><span class="nb">+</span> <span class="p">(</span><span class="nf">term</span> <span class="nv">a</span><span class="p">)</span>
+         <span class="p">(</span><span class="nf">sum</span> <span class="nv">term</span> <span class="p">(</span><span class="nf">next</span> <span class="nv">a</span><span class="p">)</span> <span class="nv">next</span> <span class="nv">b</span><span class="p">))))</span>
+</code></pre></div></div>
+
+<p>Note que <code class="language-plaintext highlighter-rouge">sum</code> recebe como argumento os limites inferiores e superiores (a e b) juntos da função <code class="language-plaintext highlighter-rouge">term</code> e <code class="language-plaintext highlighter-rouge">next</code></p>
+
+<p>Podemos usar <code class="language-plaintext highlighter-rouge">sum</code> exatamente como como faríamos com qualquer outra função. Por exemplo, podemos usá-la (junto com uma função <code class="language-plaintext highlighter-rouge">inc</code> que incrementa 1 em seu argumento) para definir <code class="language-plaintext highlighter-rouge">sum-cubes</code></p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">inc</span> <span class="nv">n</span><span class="p">)</span> <span class="p">(</span><span class="nb">+</span> <span class="nv">n</span> <span class="mi">1</span><span class="p">))</span>
+
+<span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">sum-cubes</span> <span class="nv">a</span> <span class="nv">b</span><span class="p">)</span>
+  <span class="p">(</span><span class="nf">sum</span> <span class="nv">cube</span> <span class="nv">a</span> <span class="nv">inc</span> <span class="nv">b</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p>Desta forma podemos agora computar a soma dos cubos dos inteiros de 1 a 10:</p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="nf">sum-cubes</span> <span class="mi">1</span> <span class="mi">10</span><span class="p">)</span>
+<span class="nv">&gt;</span> <span class="mi">3025</span>
+</code></pre></div></div>
+
+<p>Com a ajuda de uma função de identidade, podemos definir <code class="language-plaintext highlighter-rouge">sum-integers</code> em termos de <code class="language-plaintext highlighter-rouge">sum</code></p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">identity</span> <span class="nv">x</span><span class="p">)</span> <span class="nv">x</span><span class="p">)</span>
+
+<span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">sum-integers</span> <span class="nv">a</span> <span class="nv">b</span><span class="p">)</span>
+  <span class="p">(</span><span class="nf">sum</span> <span class="nv">identity</span> <span class="nv">a</span> <span class="nv">inc</span> <span class="nv">b</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p>E com isto temos a soma de todos os inteiros entre 1 e 10:</p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="nf">sum-integers</span> <span class="mi">1</span> <span class="mi">10</span><span class="p">)</span>
+<span class="nv">&gt;</span> <span class="mi">55</span>
+</code></pre></div></div>
+
+<p>Por fim, podemos definir uma função que compute uma aproximação de $\pi$</p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">pi-sum</span> <span class="nv">a</span> <span class="nv">b</span><span class="p">)</span>
+  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">pi-term</span> <span class="nv">x</span><span class="p">)</span>
+    <span class="p">(</span><span class="nb">/</span> <span class="mf">1.0</span> <span class="p">(</span><span class="nb">*</span> <span class="nv">x</span> <span class="p">(</span><span class="nb">+</span> <span class="nv">x</span> <span class="mi">2</span><span class="p">))))</span>
+  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">pi-next</span> <span class="nv">x</span><span class="p">)</span>
+    <span class="p">(</span><span class="nb">+</span> <span class="nv">x</span> <span class="mi">4</span><span class="p">))</span>
+  <span class="p">(</span><span class="nf">sum</span> <span class="nv">pi-term</span> <span class="nv">a</span> <span class="nv">pi-next</span> <span class="nv">b</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p>No output:</p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="nb">*</span> <span class="mi">8</span> <span class="p">(</span><span class="nf">pi-sum</span> <span class="mi">1</span> <span class="mi">1000</span><span class="p">))</span>
+<span class="mf">3.139592655589783</span>
+</code></pre></div></div>
+
+<p>Agora que nós temos a função <code class="language-plaintext highlighter-rouge">sum</code>, nós podemos formular conceitos mais abstratos. Por exemplo, a definição integral de uma função $f$ entre os limites $a$ e $b$ pode ser aproximada numericamente através da soma:</p>
+
+\[\int_a^b \! f(x) = \bigg[f\Big(a+\frac{dx}{2}\Big) + f\Big(a+dx+\frac{dx}{2}\Big) + f\Big(a+2dx+\frac{dx}{2}\Big)+...\bigg] \, \mathrm{d}x.\]
+
+<p>Expressando isso na forma de função:</p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">integral</span> <span class="nv">f</span> <span class="nv">a</span> <span class="nv">b</span> <span class="nv">dx</span><span class="p">)</span>
+  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">add-dx</span> <span class="nv">x</span><span class="p">)</span> <span class="p">(</span><span class="nb">+</span> <span class="nv">x</span> <span class="nv">dx</span><span class="p">))</span>
+  <span class="p">(</span><span class="nb">*</span> <span class="p">(</span><span class="nf">sum</span> <span class="nv">f</span> <span class="p">(</span><span class="nb">+</span> <span class="nv">a</span> <span class="p">(</span><span class="nb">/</span> <span class="nv">dx</span> <span class="mf">2.0</span><span class="p">))</span> <span class="nv">add-dx</span> <span class="nv">b</span><span class="p">)</span> 
+     <span class="nv">dx</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nf">integral</span> <span class="nv">cube</span> <span class="mi">0</span> <span class="mi">1</span> <span class="mf">0.01</span><span class="p">)</span>
+<span class="nv">&gt;</span> <span class="o">.</span><span class="mi">24998750000000042</span>
+
+<span class="p">(</span><span class="nf">integral</span> <span class="nv">cube</span> <span class="mi">0</span> <span class="mi">1</span> <span class="mf">0.001</span><span class="p">)</span>
+<span class="nv">&gt;</span> <span class="o">.</span><span class="mi">249999875000001</span>
+</code></pre></div></div>
+
+<p>O valor exato da integral do cubo entre $0$ e $1$ é $\frac{1}{4}$</p>
+
+<h2 id="exercícios">Exercícios</h2>
+
+<blockquote>
+  <p><strong>Exercise 1.29</strong>: Simpson’s Rule is a more accurate method of numerical integration than the method illustrated above. Using Simpson’s Rule, the integral of a function f between a and b is approximated as</p>
+</blockquote>
+
+\[\frac{h}{3}(y_{0} + 4y_{1} + 2y_{2} + 4y_{3} + 2y_{4}+ ... + 2y_{n-2} + 4y_{n-1} + y_{n}),\]
+
+<blockquote>
+  <p>where $h = \frac{b-a}{n}$ , for some even integer $n$ , and $y_{k} = f( a + k h )$ . (Increasing $n$ increases the accuracy of the approximation.) Define a procedure that takes as arguments $f$ , $a$ , $b$ , and $n$ and returns the value of the integral, computed using Simpson’s Rule. Use your procedure to integrate cube between 0 and 1 (with  $n = 100$ and $n = 1000$ ), and compare the results to those of the integral procedure shown above.</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p><strong>Resposta</strong></p>
+
+    <div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="o">#</span><span class="nv">lang</span> <span class="nv">racket</span>
+
+  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">sum</span> <span class="nv">term</span> <span class="nv">a</span> <span class="nv">next</span> <span class="nv">b</span><span class="p">)</span>
+    <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">&gt;</span> <span class="nv">a</span> <span class="nv">b</span><span class="p">)</span>
+        <span class="mi">0</span>
+        <span class="p">(</span><span class="nb">+</span> <span class="p">(</span><span class="nf">term</span> <span class="nv">a</span><span class="p">)</span>
+           <span class="p">(</span><span class="nf">sum</span> <span class="nv">term</span> <span class="p">(</span><span class="nf">next</span> <span class="nv">a</span><span class="p">)</span> <span class="nv">next</span> <span class="nv">b</span><span class="p">))))</span>
+
+  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">integral</span> <span class="nv">f</span> <span class="nv">a</span> <span class="nv">b</span> <span class="nv">dx</span><span class="p">)</span>
+    <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">add-dx</span> <span class="nv">x</span><span class="p">)</span> <span class="p">(</span><span class="nb">+</span> <span class="nv">x</span> <span class="nv">dx</span><span class="p">))</span>
+    <span class="p">(</span><span class="nb">*</span> <span class="p">(</span><span class="nf">sum</span> <span class="nv">f</span> <span class="p">(</span><span class="nb">+</span> <span class="nv">a</span> <span class="p">(</span><span class="nb">/</span> <span class="nv">dx</span> <span class="mf">2.0</span><span class="p">))</span> <span class="nv">add-dx</span> <span class="nv">b</span><span class="p">)</span>
+       <span class="nv">dx</span><span class="p">))</span>
+
+  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">cube</span> <span class="nv">x</span><span class="p">)</span> <span class="p">(</span><span class="nb">*</span> <span class="nv">x</span> <span class="nv">x</span> <span class="nv">x</span><span class="p">))</span>
+
+  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">simpson</span> <span class="nv">f</span> <span class="nv">a</span> <span class="nv">b</span> <span class="nv">n</span><span class="p">)</span>
+    <span class="p">(</span><span class="k">let</span> <span class="p">((</span><span class="nf">h</span> <span class="p">(</span><span class="nb">/</span> <span class="p">(</span><span class="nb">-</span> <span class="nv">b</span> <span class="nv">a</span><span class="p">)</span> <span class="nv">n</span><span class="p">)))</span>
+      <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">Yk</span> <span class="nv">k</span><span class="p">)</span>
+        <span class="p">(</span><span class="nf">f</span> <span class="p">(</span><span class="nb">+</span> <span class="nv">a</span> <span class="p">(</span><span class="nb">*</span> <span class="nv">k</span> <span class="nv">h</span><span class="p">))))</span>
+      <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">k-term</span> <span class="nv">k</span><span class="p">)</span>
+        <span class="p">(</span><span class="nb">*</span> <span class="p">(</span><span class="k">cond</span> <span class="p">((</span><span class="k">or</span> <span class="p">(</span><span class="nb">=</span> <span class="nv">k</span> <span class="mi">0</span><span class="p">)</span> <span class="p">(</span><span class="nb">=</span> <span class="nv">k</span> <span class="nv">n</span><span class="p">))</span> <span class="mi">1</span><span class="p">)</span>
+                 <span class="p">((</span><span class="nb">odd?</span> <span class="nv">k</span><span class="p">)</span> <span class="mi">4</span><span class="p">)</span>
+                 <span class="p">(</span><span class="k">else</span> <span class="mi">2</span><span class="p">))</span>
+           <span class="p">(</span><span class="nf">Yk</span> <span class="nv">k</span><span class="p">)))</span>
+      <span class="p">(</span><span class="nb">*</span> <span class="p">(</span><span class="nb">/</span> <span class="nv">h</span> <span class="mi">3</span><span class="p">)</span> <span class="p">(</span><span class="nf">sum</span> <span class="nv">k-term</span> <span class="mi">0</span> <span class="nv">add1</span> <span class="nv">n</span><span class="p">))))</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<blockquote>
+  <p><strong>Exercise 1.30</strong>: The sum procedure above generates a linear recursion. The procedure can be rewritten so that the sum is performed iteratively. Show how to do this by filling in the missing expressions in the following definition:</p>
+</blockquote>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">sum</span> <span class="nv">term</span> <span class="nv">a</span> <span class="nv">next</span> <span class="nv">b</span><span class="p">)</span>
+  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">iter</span> <span class="nv">a</span> <span class="nv">result</span><span class="p">)</span>
+    <span class="p">(</span><span class="k">if</span> <span class="err">⟨</span><span class="nv">??</span><span class="err">⟩</span>
+        <span class="err">⟨</span><span class="nv">??</span><span class="err">⟩</span>
+        <span class="p">(</span><span class="nf">iter</span> <span class="err">⟨</span><span class="nv">??</span><span class="err">⟩</span> <span class="err">⟨</span><span class="nv">??</span><span class="err">⟩</span><span class="p">)))</span>
+  <span class="p">(</span><span class="nf">iter</span> <span class="err">⟨</span><span class="nv">??</span><span class="err">⟩</span> <span class="err">⟨</span><span class="nv">??</span><span class="err">⟩</span><span class="p">))</span>
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p><strong>Resposta</strong></p>
+
+    <div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="o">#</span><span class="nv">lang</span> <span class="nv">racket</span>
+
+  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">sum</span> <span class="nv">term</span> <span class="nv">a</span> <span class="nv">next</span> <span class="nv">b</span><span class="p">)</span>
+    <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">iter</span> <span class="nv">a</span> <span class="nv">result</span><span class="p">)</span>
+      <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">&gt;</span> <span class="nv">a</span> <span class="nv">b</span><span class="p">)</span>
+          <span class="nv">result</span> 
+          <span class="p">(</span><span class="nf">iter</span> <span class="p">(</span><span class="nf">next</span> <span class="nv">a</span><span class="p">)</span> <span class="p">(</span> <span class="nv">+</span> <span class="nv">result</span> <span class="p">(</span><span class="nf">term</span> <span class="nv">a</span><span class="p">)))))</span> 
+    <span class="p">(</span><span class="nf">iter</span> <span class="nv">a</span> <span class="mi">0</span><span class="p">))</span>                                  
+
+  <span class="c1">;; "a" avança com o termo next e result computa o valor com o termo a antigo</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+:ET
