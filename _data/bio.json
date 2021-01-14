@@ -1,4 +1,4 @@
-{,
+{
   "basics": {
     "name": "Max Burman",
     "label": "Student",
@@ -34,7 +34,6 @@
       "keywords": [
       ]
     },
-    {
       "name": "Outdoors",
       "keywords": [
       ]
