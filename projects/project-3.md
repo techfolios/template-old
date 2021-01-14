@@ -10,5 +10,5 @@ labels:
   - Sprite Sheets
   - Java
 summary: This is a side-scroller I made while in my introductory programming class. It uses Java, sprite sheets, and a program written by a UH Grad student called EZ.java
-projecturl:https://www.youtube.com/watch?v=JhQfGfVwmRI
+projecturl: https://www.youtube.com/watch?v=JhQfGfVwmRI
 ---
