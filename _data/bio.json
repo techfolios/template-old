@@ -2,11 +2,11 @@
   "basics": {
     "name": "Max Burman",
     "label": "Student",
-    "picture": "https://mburman99.github.io/images/mburman.jpg",
+    "picture": "https://mburman99.github.io/images/mburman.JPG",
     "email": "mburman@hawaii.edu",
     "phone": "",
     "website": "https://mburman99.github.io",
-    "summary": "I am studying for a B.A. in Management Infomation System at the University of Hawaii. I expect to graduate in Spring, 2022.",
+    "summary": "I am studying for a B.A. in Managment Information Systems at the University of Hawaii. I expect to graduate in Spring, 2022.",
     "location": {
       "address": "",
       "postalCode": "96822",
@@ -18,7 +18,7 @@
       {
         "network": "github",
         "username": "mburman99",
-        "url": "http://github.com/"
+        "url": "http://github.com/mburman99"
       },
       {
         "network": "instagram",
@@ -28,16 +28,22 @@
     ]
   },
   "interests": [
-    { }
+    {
       "name": "Diving",
-      "keywords":
+      "keywords": [
       ]
     },
+    {
       "name": "Outdoors",
       "keywords": [
       ]
     },
     {
+      "name": "Beach",
+      "keywords": [
+      ]
+    }
+  ],
   "skills": [
     {
       "name": "Languages and Frameworks",
