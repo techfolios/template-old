@@ -28,16 +28,16 @@
     ]
   },
   "interests": [
-    ]
     { }
       "name": "Diving",
-      "keywords": [
+      "keywords":
       ]
     },
       "name": "Outdoors",
       "keywords": [
       ]
     },
+    {
   "skills": [
     {
       "name": "Languages and Frameworks",
