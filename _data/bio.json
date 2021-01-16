@@ -78,17 +78,38 @@
 			"website": "",
 			"startDate": "2020-05-10",
 			"endDate": "Present",
-			"summary": "Helping mentally challenged man in his everyday life",
-			"highlights": []
+			"summary": "Helping a mentally challenged man with his everyday life",
+			"highlights": [
+				""
+			]
 		},
-		"awards": [{
+		{
+			"company": "Jonkpoing Simsallskap",
+			"position": "Diving Coach",
+			"website": "",
+			"startDate": "2017-06-01",
+			"endDate": "2019-07-30",
+			"summary": "",
+			"highlights": [
+				""
+			]
+		}
+	],
+	"awards": [{
 			"title": "Rookie of the year",
 			"date": "2019",
-			"awarder": "University of Hawaii Athletic Department",
+			"awarder": "University of Hawaii Athletic department",
+			"summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+		},
+		{
+			"title": "Scholar All-American Team",
+			"date": "2020",
+			"awarder": "CSCAA",
 			"summary": ""
-		}],
-		"references": [{
-			"name": "Available upon request",
-			"reference": ""
-		}]
-	}
+		}
+	],
+	"references": [{
+		"name": "Available upon request",
+		"reference": ""
+	}]
+}
