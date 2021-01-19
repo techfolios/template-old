@@ -19,7 +19,7 @@ The 2019 HPU Scholarship Tournament was an open registration tournament planned 
 League of Legends requires lots of communication, patience and teamwork by its nature of being a competitive game. However, because there are also so many things that each player has to micromanage, someone has to also macromanage the game and the team. My role in my team was to be the shotcaller, the one in charge of macromanagement. My team had made it to the finals of the tournament after several days of playing back to back games in the HPU eSports Arena. After a grueling 4 hours, we unfortunately were unable to win our 5-game series and the tournament but we had managed to get 2nd place.
 
 Here is my medal that I earned from the tournament
-<div class="ui small rounded images">
+<div class="ui medium right rounded images">
   <img class="ui image" src="../images/2ndplace.jpg">
 </div>
 
