@@ -10,7 +10,7 @@ labels:
   - C#
   - Unity
   - Game Jam
-summary: A puzzle game me and my teammates worked on for two weeks for the Beginner GameJam #3.
+summary: A puzzle game me and my teammates worked on for two weeks for the Beginner Circle Game Jam #3.
 ---
 
 <img class="ui medium right floated rounded image" src="../images/Square-bound splash.png">
