@@ -1,25 +1,23 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+image: images/Square-bound splash.png
+title: Square Bound
+permalink: projects/SquareBound
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2020-10-22
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - C#
+  - Unity
+  - Game Jam
+summary: A puzzle game me and my teammates worked on for two weeks for the Beginner GameJam #3.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/Square-bound splash.png">
+This is the finalized release of the Beginner Circle Game Jam #3 of 2020. We had two weeks to create this entire project from scratch. This was each collaborators first-ever experience in the world of Unity aside from some tutorials, so there was definitely a lot to learn. The main takeaway from this project would definitely be time management. We had bi-daily meetings to see the progress we were making, but the goals we set put us behind in the latter half of the time allotted. I believe that given that this was our first experience in making a video game, the end product was very satisfactory.
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+Me and my teammates collaborated and worked on this project using the [Unity engine](https://unity.com), a cross-platform game engine developed by Unity Technologies that uses C++ and C#. Within two weeks, we created a 2d puzzle game that we then submitted to the Beginners Circle Jam # 3, a game jam from 2020-10-09 to 2020-10-23 hosted by angrysmile. 
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
-
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
+In this project I gained experience with the C# language and the Unity engine. I also honed my teamwork and communication skills as these skills needed to be used effectively to get the game finished within the time frame. As this was also my first time being involved in a non-school related time-restricted project, I earned an understanding of setting goals and having efficient meetings to make use of our restricted time. 
  
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+Source: <a href="https://github.com/CrisJavier/Square-Bound-Dev"><i class="large github icon"></CrisJavier/Square-Bound-Dev</a>
