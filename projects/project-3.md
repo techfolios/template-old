@@ -12,7 +12,6 @@ labels:
 summary: I am currently working at the Information and Technology Center on the campus of UH Manoa.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/uhmitc.jpg">
 
 The [UH Manoa Information and Technology Services Help Desk](https://www.hawaii.edu/its/help-desk/) is where people go to whenever they need help. People who may need help keeping access to their UH Manoa Gmail account, people who may need some assistance with something regarding Laulima, people who need any kind of software, hardware, and networking issues will call the ITS Help Desk and receive that assistance. 
 
