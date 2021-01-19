@@ -5,7 +5,7 @@ image: images/uhmitc.jpg
 title: Cotton
 permalink: projects/cotton
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2020-07-16
 labels:
   - Information and Technology
   - ITS
