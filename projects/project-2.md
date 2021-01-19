@@ -20,4 +20,4 @@ Me and my teammates collaborated and worked on this project using the [Unity eng
 
 In this project I gained experience with the C# language and the Unity engine. I also honed my teamwork and communication skills as these skills needed to be used effectively to get the game finished within the time frame. As this was also my first time being involved in a non-school related time-restricted project, I earned an understanding of setting goals and having efficient meetings to make use of our restricted time. 
  
-Source: <a href="https://github.com/CrisJavier/Square-Bound-Dev"><i class="large github icon"></CrisJavier/Square-Bound-Dev</a>
+Source: <a href="https://github.com/CrisJavier/Square-Bound-Dev"><i class="large github icon"></CrisJavier/Square-Bound-Dev></a>
