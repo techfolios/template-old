@@ -18,6 +18,8 @@ The 2019 HPU Scholarship Tournament was an open registration tournament planned 
 
 League of Legends requires lots of communication, patience and teamwork by its nature of being a competitive game. However, because there are also so many things that each player has to micromanage, someone has to also macromanage the game and the team. My role in my team was to be the shotcaller, the one in charge of macromanagement. My team had made it to the finals of the tournament after several days of playing back to back games in the HPU eSports Arena. After a grueling 4 hours, we unfortunately were unable to win our 5-game series and the tournament but we had managed to get 2nd place.
 
+Through this experience, I learned a lot about teamwork and communication due to my role as the shotcaller. I had to understand the state of both the game we were playing as well as the players who were playing along with me. I had to take into consideration their strengths, weaknesses and habits so I could plan accordingly. This kind of skill, I believe, is very important when it comes to project management because a project leader, I would assume, has very similar responsibilities. They have to consider the project they're undertaking and what their team member's capabilities are as well which is why I consider this to be a very valuable learning experience as well as a very fun event.
+
 Here is my medal that I earned from the tournament
 <div class="ui medium right rounded images">
   <img class="ui image" src="../images/2ndplace.jpg">
