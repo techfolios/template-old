@@ -1,24 +1,23 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Grant Misaki",
     "label": "Student",
     "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "email": "gmisaki@hawaii.edu",
+    "website": "https://grant-misaki.github.io",
+    "summary": "I am studying for a B.A. in MIS at the University of Hawaii. I expect to graduate in Fall, 2022.",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "postalCode": "96789",
+      "city": "Mililani",
       "countryCode": "USA",
       "region": "Hawaii"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "grant-misaki",
+        "url": "http://github.com/grant-misaki"
       },
       {
         "network": "linkedin",
