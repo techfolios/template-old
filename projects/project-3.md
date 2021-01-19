@@ -2,8 +2,8 @@
 layout: project
 type: project
 image: images/uhmitc.jpg
-title: Cotton
-permalink: projects/cotton
+title: UH Information Technology Services
+permalink: projects/ITS
 # All dates must be YYYY-MM-DD format!
 date: 2020-07-16
 labels:
