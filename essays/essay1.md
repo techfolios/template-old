@@ -8,7 +8,7 @@ labels:
   - Javascript
 ---
 
-<img class="ui large right spaced image" src="../images/javascript.jpg">
+<img class="ui large right fluid image" src="../images/javascript.jpg">
 
 
 Javascript is neat little language. It's not quite as tight or secure with its typing of variables like Java is nor does it support multi-inheritence like Java does. But from the very little experience I already have with Java, I'm enjoying Javascript a lot in much less time! Javascript is not without it's down sides but that isn't to say it's a terrible language. On the contrary, Javascript is an incredible language. It's very easy to understand and learn, making it very easy for experienced coders to pick up and go from the start, yet also allowing beginners - such as myself - to easily learn the language because of its simplicity and ease of access.
