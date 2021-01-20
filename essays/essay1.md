@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Javascript - Old Yet Easy
+title: Aged Like Wine
 # All dates must be YYYY-MM-DD format!
 date: 2020-01-19
 labels:
