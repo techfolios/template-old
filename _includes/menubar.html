@@ -6,23 +6,22 @@
 {% assign num_projects = project_pages.size %}
 
 <div class="nonprintable">
-  <nav id="demo" class="ui four stackable item menu" style="background-color: rgba(255, 255, 255, 0.835);">
+  <nav id="demo" class="ui five item stackable menu">
     <a href="{{ site.baseurl}}/" class="brand item" style="font-weight: bold; margin-right: 3px;">
       Início
     </a>
     {% if num_projects > 0 %}
-    <a href="{{ site.baseurl }}/projects" class=" {% if include.active == "projects" %} active {% endif %}item" style="font-weight: bold; margin-right: 3px;">{{  site.projects-page-label  }}</a>
+    <a href="{{ site.baseurl }}/projects" class=" {% if include.active == "projects" %} active {% endif %} item" style="font-weight: bold; margin-right: 3px;">{{  site.projects-page-label  }}</a>
     {% endif %}
     {% if num_essays > 0 %}
     <a href="{{ site.baseurl }}/essays" class=" {% if include.active == "essays" %} active {% endif %} item" style="font-weight: bold; margin-right: 3px;">{{  site.essays-page-label  }}</a>
     {% endif %}
     <a href="{{ site.baseurl }}/bio" class=" {% if include.active == "bio" %} active {% endif %} item" style="font-weight: bold; margin-right: 3px;">{{ site.bio-page-label }}</a>
+    <div class="item">
+      <button class="ui button icon basic darkmode-button jsOnly" id="darkmode"><i class="moon icon"></i><span>Modo Noturno</span></button>
+    </div>
   </nav>
+
 </div>
 
-<style>
-  .ui.secondary.blue.pointing.menu > a:hover{
-    border-bottom: 2px solid black ;
-    transition: 0.5s;
-  }
-</style>
+

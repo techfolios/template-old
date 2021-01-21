@@ -13,9 +13,20 @@ body {
 // Customize the menubar color
 .ui.menu {
   // background: $background-start;
+  background-color: rgba(255, 255, 255, 0.835);
 }
 
 // Customize the home page icon colors
 .icon-color {
   // color: silver;
 }
+
+body.inverted {
+  background-color: #232323;
+}
+
+html body.inverted div.ui.one.column.stackable.grid.container.inverted div.column div.ui.segment.inverted div.ui.top.attached.tabular.menu.inverted div.item:hover {
+  background-color: rgba(255, 255, 255, 0.459);
+  border-radius: 4px 4px 0px 0px;
+}
+

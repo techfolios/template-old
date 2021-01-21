@@ -3,6 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="mobile-web-app-capable" content="yes">
+  <meta name="color-scheme" content="dark light">
 
   <title>
     {% if page.title %}
@@ -35,5 +36,18 @@
           src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   {% endif %}
 
+  <noscript>
+    <style>
+      .avoid-flicker {
+        display: block!important;
+        visibility: visible!important;
+      }
+
+      .jsOnly {
+      display: none!important;
+      visibility: hidden!important;
+    }
+    </style>
+  </noscript>
 
 </head>
