@@ -17,5 +17,5 @@ For this project, our group was able to choose whatever topic we wanted to study
 We used Python to help scrub through endless excel spreadsheets, and a program called MiniTab to analyze and calculate standard deviation, average, along with other statistical metrics we had been learning in the class. In the end, the island with the worst driving on average was the big island, Hilo. We hypothesized that it would be Oahu, but although Hilo had a pretty low average miles driven value, it had a relatively high annual fatal crash value.
 
 <div>
-  <imgsrc="../images/project1.png">
+  <img width="auto" height="auto" src="../images/project1.png">
 </div>
