@@ -98,7 +98,7 @@
       "summary": "Fui responsável por reportar falhas no funcionamento do website ",
       "destaque": "No Bairro Tem",
       "highlights": [
-        "Falha de LFI",
+        "Falha de Upload Reverse Shell",
         "Falha de XSS Refletido"
       ]
     },
