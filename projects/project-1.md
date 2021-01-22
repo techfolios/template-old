@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/project1.png
+image: images/hawaiicar.png
 title: Driving in Hawaii
 permalink: projects/drivinginhawaii
 # All dates must be YYYY-MM-DD format!
