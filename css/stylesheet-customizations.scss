@@ -25,8 +25,20 @@ body.inverted {
   background-color: #232323;
 }
 
+.ui.items  {
+  color: #6eace8;
+}
+
 html body.inverted div.ui.one.column.stackable.grid.container.inverted div.column div.ui.segment.inverted div.ui.top.attached.tabular.menu.inverted div.item:hover {
   background-color: rgba(255, 255, 255, 0.459);
   border-radius: 4px 4px 0px 0px;
 }
 
+.ui.items a.item:hover .content .header, .ui.link.items>.item:hover .content .header {
+  color: #6eace8;
+
+}
+
+.ui.list>a.item:hover>.icon {
+  color: #6eace8!important;
+}

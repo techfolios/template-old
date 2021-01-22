@@ -38,6 +38,7 @@ function toggleDarkMode () {
     body.addClass('inverted');
 
     $('.ui.black.bottom.attached.button.inverted').removeClass().addClass('ui green bottom attached button inverted');
+    $("code").css({color: "white"});
 
     // change scrollbar background to match
     $("html").attr("style","--scrollbackground:var(--darkBG)");
@@ -73,6 +74,7 @@ function toggleLightMode() {
     darkModeIcon.addClass('moon');
 
     $('#darkmode span').text(" Modo Escuro ")
+    $("code").css({color: "black"});
 
     isLocalStorageEnabled ? localStorage.setItem("darkMode", false) : false;
     darkmodeEnabled = false;
