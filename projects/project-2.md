@@ -13,7 +13,7 @@ labels:
 summary: Building a PC on my own.
 ---
 <div>
-  <img width="1344" height="653" src="../images/pcbuild.jpg">
+  <img width="672" height="326" src="../images/pcbuild.jpg">
 </div>
 Late last semester I decided to build a PC. I had actually wanted to build one for a while but when looking for the parts, most of them were sold out. Having to replace and reconfigure parts ended up causing too much of a headache so I postponed till around Christmas 2020. I used the same case, monitor, and keyboard as my last build, but everything is upgraded. I wanted to be able to game on it, but nothing too crazy. 
 
