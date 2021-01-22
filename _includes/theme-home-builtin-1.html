@@ -11,10 +11,13 @@
 
     <div style="position: relative; top: 75px; z-index: 1" class="ui fluid centered small circular image">
       <img src="{{ site.data.bio.basics.picture }}" class="perfil">
+      
     </div>
 
 
     <div style="max-width: 500px; padding-top: 75px; margin-top: 0px" class="ui fluid centered card">
+
+
 
       <div class="center aligned content">
         <span class="header">{{ site.data.bio.basics.name }}</span>
@@ -29,11 +32,13 @@
       <div class="center aligned extra content">
         {% include home-network-links.html %}
       </div>
+
       <div class="three ui basic buttons">
           <a href="{{ site.baseurl}}/projects/" class="ui silver button" style="font-weight: bold;">Projetos</a>
           <a href="{{ site.baseurl}}/essays/" class="ui silver button" style="font-weight: bold;">Textos</a>
           <a href="{{ site.baseurl}}/bio/" class="ui silver button" style="font-weight: bold;">{{ site.bio-page-label }}</a>
       </div>
+      <button class="ui button icon basic darkmode-button jsOnly" id="darkmode"><i class="moon icon"></i><span>Modo Noturno</span></button>
     </div>
   </div>
 
