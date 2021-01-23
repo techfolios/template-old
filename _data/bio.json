@@ -166,6 +166,13 @@
       "id":"2",
       "website": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-RTLHDLZ0.pdf",
       "company": "Udemy"
+    },
+
+    {
+      "name": "Fundamentos de Segurança na Web",
+      "id":"2",
+      "website": "/Documents/TryHackMeWebFundamentals.png",
+      "company": "TryHackMe"
     }
 
   ],
