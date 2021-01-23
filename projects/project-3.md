@@ -17,4 +17,4 @@ My roommate and I submitted this program as our final project for our Introducto
 
 Though the presentation of the game needs work, the project was helpful in teaching us basic programming concepts like Object Oriented Programming. Below is a link to a youtube video demonstrating the project.
 
-https://www.youtube.com/watch?v=JhQfGfVwmRI
+[https://www.youtube.com/watch?v=JhQfGfVwmRI](https://www.youtube.com/watch?v=JhQfGfVwmRI)
