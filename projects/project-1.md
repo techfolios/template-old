@@ -16,5 +16,4 @@ I worked on this project by myself during the Spring 2020 semester. It is the ba
 
 The hardest part about this project was the fact that I originally didn't account for "double-counted cards". For example, I had to figure out how to prevent the program from double counting an "8 of hearts" if that card would give you both a flush and a straight. I also gained an appreciation for very detailed planning, as my lack of planning forced me to rewrite a lot of code. Below is a link to a video of me explaining the project.
 
-[Video Link](https://www.youtube.com/watch?v=XxRA5VM5DDE&t=1s)
-
+[https://www.youtube.com/watch?v=XxRA5VM5DDE&t=1s](https://www.youtube.com/watch?v=XxRA5VM5DDE&t=1s)
