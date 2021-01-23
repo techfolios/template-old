@@ -18,4 +18,4 @@ In this project I contributed to a program that creates TicTacToe rules and give
 This project helped me develop my skill of working alone, and gave me hands-on experience of coding using the AI concepts associated with search problems. Below is a link to a youtube video of the program.
 
 
-https://www.youtube.com/watch?v=wA1ioluQNvM
+[https://www.youtube.com/watch?v=wA1ioluQNvM](https://www.youtube.com/watch?v=wA1ioluQNvM)
