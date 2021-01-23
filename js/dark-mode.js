@@ -40,6 +40,8 @@ function toggleDarkMode () {
     $('.ui.black.bottom.attached.button.inverted').removeClass().addClass('ui green bottom attached button inverted');
     $("code").css({color: "white"});
 
+    $('.icon-color').addClass('inverted');
+
     // change scrollbar background to match
     $("html").attr("style","--scrollbackground:var(--darkBG)");
 
@@ -63,6 +65,7 @@ function toggleLightMode() {
     });
     // remove custom inverted class to body
     body.removeClass('inverted');
+    $('.icon-color').removeClass('inverted');
     // change scrollbar background to match
 
     $("html").attr("style","--scrollbackground:var(lightBG)");

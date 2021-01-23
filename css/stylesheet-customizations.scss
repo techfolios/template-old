@@ -16,8 +16,16 @@ body {
 }
 
 // Customize the home page icon colors
+i.big.icon.icon-color.inverted{
+  color: #6eace8;
+}
+
+i.big.icon.icon-color.inverted:hover{
+  color: #134577;
+}
+
 .icon-color {
-  // color: silver;
+  color: #232323d5;
 }
 
 body.inverted {
