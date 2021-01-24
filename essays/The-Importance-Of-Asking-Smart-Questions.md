@@ -14,7 +14,7 @@ However, It is also erroneous to assume that a user will not experience hurdles 
 
 
 
-<img width="900px" height="200px" src="https://github.com/greent3/greent3.github.io/blob/master/images/badCode1.png" />
+<img width="900px" height="200px" src="../images/badCode1.png" />
 
 
 Although this provides the reader with a little more clarity on main issue at hand, it also introduces many other open ended questions like “What is a fitness timetable?”, “Edit the timetable how?”, “What will the table be used for?”, and “what have you done so far?”. Lastly, although there is no code written in this question, it is a good example of Raymond’s notion of “volume is not precision”. Had the user asked only one question and focused more on one specific aspect of the project, he may have seen better results. It’s no surprise that even though the question was only asked 25 minutes ago, the question has already been downvoted 3 times and is now closed. 
