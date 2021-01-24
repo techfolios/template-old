@@ -13,7 +13,7 @@ It is erroneous to assume today’s programming elders mastered their technical 
 However, It is also erroneous to assume that a user will not experience hurdles their first few times seeking technical assistance, whether it be on a forum like StackOverflow,  a group messaging app like Discord, or even on a customer support helpline. With this ease of communication, it is not uncommon to see unspecific, uninformative, ungrammatical, and even unprofessional questions raised in these forums. An example would be the following post on stack overflow that asks [How should I approach the problem of making a fitness timetable?]( https://stackoverflow.com/questions/65865127/how-should-i-approach-the-problem-of-making-a-fitness-timetable). According to Eric Raymond’s “How To Ask Questions The Smart Way”, this question is unspecific and unexplicit, as defined below. The asker then follows with this description: 
 
 
-<img class="ui medium right floated square image" src="greent3.github.io/images/badCode1.png">
+<img class="ui medium right floated square image" src="greent3.github.io/images/badCode1.PNG">
 
 
 
