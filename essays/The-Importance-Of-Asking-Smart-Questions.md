@@ -13,9 +13,8 @@ It is erroneous to assume today’s programming elders mastered their technical 
 However, It is also erroneous to assume that a user will not experience hurdles their first few times seeking technical assistance, whether it be on a forum like StackOverflow,  a group messaging app like Discord, or even on a customer support helpline. With this ease of communication, it is not uncommon to see unspecific, uninformative, ungrammatical, and even unprofessional questions raised in these forums. An example would be the following post on stack overflow that asks [How should I approach the problem of making a fitness timetable?]( https://stackoverflow.com/questions/65865127/how-should-i-approach-the-problem-of-making-a-fitness-timetable). According to Eric Raymond’s “How To Ask Questions The Smart Way”, this question is unspecific and unexplicit, as defined below. The asker then follows with this description: 
 
 
-<img width="900px" height="200px" src="https://greent3.github.io/blob/master/images/badCode1.PNG" />
-<img width="900px" height="200px" src="https://github.com/greent3/greent3.github.io/images/badCode1.PNG" />
-<img width="900px" height="200px" src="https://github.com/greent3/greent3.github.io/blob/master/images/badCode1.PNG" />
+
+<img class="float-left" width="900px" height="200px" src="https://github.com/greent3/greent3.github.io/blob/master/images/badCode1.PNG" />
 
 
 Although this provides the reader with a little more clarity on main issue at hand, it also introduces many other open ended questions like “What is a fitness timetable?”, “Edit the timetable how?”, “What will the table be used for?”, and “what have you done so far?”. Lastly, although there is no code written in this question, it is a good example of Raymond’s notion of “volume is not precision”. Had the user asked only one question and focused more on one specific aspect of the project, he may have seen better results. It’s no surprise that even though the question was only asked 25 minutes ago, the question has already been downvoted 3 times and is now closed. 
