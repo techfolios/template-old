@@ -22,12 +22,12 @@ Although this provides the reader with a little more clarity on main issue at ha
 On the other hand, a smart question will usually receive a correct and timely solution if asked in the appropriate forum. For example, the following question “Why is this C++ constructor called twice at the same memory location in this implementation of a linked list?” not only asks for an answer to one specific problem, but also mentions the fact that the constructor is in the implementation of a linked list.  He follows up the question by providing a link and page number to the learning material where he is encountering the problem and code to be referenced by the reader. 
 
 
-<img width="700px" height="200px" src="../images/goodCode1.png" />
+<img width="700px" height="300px" src="../images/goodCode1.png" />
 
 
 He then adds more specific detail by providing the actual output of the code, and his expectation of what the code should output. 
 
-<img width="700px" height="200px" src="../images/goodCode2.png" />
+<img width="700px" height="800px" src="../images/goodCode2.png" />
 
 
 
