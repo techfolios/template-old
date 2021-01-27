@@ -26,7 +26,12 @@
         "url": "http://instagram.com/lucas.araj"
       },
       {
-        "network": "youtube",
+        "network": "linkedin",
+        "username": "lucasAraj",
+        "url": "https://www.linkedin.com/in/lucasaraj/"
+      },
+      {
+        "network": "headphones",
         "username": "thebionicskin",
         "url": "https://www.youtube.com/c/thebionicskin"
       }
@@ -316,17 +321,17 @@
       "id": "1"
     },
     {
-      "name": "Instagram",
+      "name": "instagram",
       "website": "https://www.instagram.com/lucas.araj",
       "id": "2"
     },
     {
-      "name": "Github",
+      "name": "github",
       "website": "https://github.com/Rutherford-sudo",
       "id": "3"
     },
     {
-      "name": "Youtube",
+      "name": "youtube",
       "website": "https://www.youtube.com/c/thebionicskin",
       "id": "4"
     },
@@ -334,6 +339,11 @@
       "name": "Email",
       "website": "lucas.a@aluno.ufop.edu.br",
       "id": "5"
+    },
+    {
+      "name": "linkedin",
+      "website": "https://www.linkedin.com/in/lucasaraj/",
+      "id": "6"
     }
   ],
 

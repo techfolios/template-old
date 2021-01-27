@@ -33,9 +33,7 @@
                             {% for entry in site.data.bio.midias %}
                             <a class="item" href="{% if entry.id == '5' %} mailto:{{entry.website}} {% else %} {{entry.website}} {% endif %}" target="_blank">
                                 <i class="{% if entry.id == '1' %} user alternate {% endif %}
-                                          {% if entry.id == '2' %} instagram {% endif %}
-                                          {% if entry.id == '3' %} github {% endif %}
-                                          {% if entry.id == '4' %} youtube play {% endif %}
+                                          {{entry.name}}
                                           {% if entry.id == '5' %} envelope {% endif %}
                                 icon "></i>
                                 <div class="content">
