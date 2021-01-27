@@ -8,7 +8,6 @@ permalink: projects/project-2
 date: 2020-02-06
 labels:
   - Segurança
-  - Redes
 category:
   - Texto
 lang: pt

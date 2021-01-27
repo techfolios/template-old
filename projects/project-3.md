@@ -7,7 +7,6 @@ permalink: projects/project-3
 
 date: 2020-02-10
 labels:
-  - Puzzle
   - Javascript
 category:
   - Git

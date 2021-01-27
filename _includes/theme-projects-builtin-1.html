@@ -1,11 +1,40 @@
 <div style="padding-top: 20px" class="ui container ">
 
-  <div class="ui stackable three cards">
-    {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
-    {% for page in project_pages %}
-      {% unless page.draft %}
-        {% include project-card.html page=page %}
-      {% endunless %}
-    {% endfor %}
+  <div class="ui one column stackable grid center aligned container">
+    <div class="column">
+      <div class="ui horizontal list">
+        <div class="item">
+          <div class="content">
+            <button id="all" class="ui small toggle button jsOnly active filterButton">Todos</button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="content">
+            <button id="Python" class="ui small toggle button jsOnly filterButton">Python</button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="content">
+            <button id="Segurança" class="ui small toggle button jsOnly filterButton">Segurança</button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="content">
+            <button id="Javascript" class="ui small toggle button jsOnly filterButton">Web</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="parent"></div>
+    <div id="parent2" class="ui stackable three cards" style="padding-top: 15px;">
+      {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
+      {% for page in project_pages %}
+        {% unless page.draft %}
+          {% include project-card.html page=page %}
+        {% endunless %}
+      {% endfor %}
+    </div>
   </div>
 </div>

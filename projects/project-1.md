@@ -7,8 +7,7 @@ permalink: projects/project-1
 # All dates must be YYYY-MM-DD format!
 date: 2020-01-18
 labels:
-  - React
-  - React Native
+  - Javascript
 category:
   - Git
 lang: pt

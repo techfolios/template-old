@@ -7,8 +7,7 @@ permalink: projects/project-1
 # All dates must be YYYY-MM-DD format!
 date: 2020-01-19
 labels:
-  - C++
-  - Crypt
+  - Segurança
 category:
   - Git
 lang: pt

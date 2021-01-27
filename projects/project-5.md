@@ -7,9 +7,7 @@ permalink: projects/project-5
 # All dates must be YYYY-MM-DD format!
 date: 2020-01-18
 labels:
-  - Telegram
   - Python
-  - Flask
 category:
   - Git
 lang: pt
