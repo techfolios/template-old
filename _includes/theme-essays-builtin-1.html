@@ -1,11 +1,33 @@
 <div style="padding-top: 20px" class="ui container ">
 
-  <div class="ui stackable left four cards">
-    {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
-      {% for page in essay_pages %}
-        {% unless page.draft %}
-          {% include essay-card.html page=page %}
-        {% endunless %}
-      {% endfor %}
+  <div id="listaProjetos" class="ui one column stackable grid center aligned container">
+    <div class="column">
+      <div class="ui horizontal list">
+        <div class="item">
+          <div class="content">
+            <button id="all" class="ui small toggle button jsOnly active filterButton">Todos</button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="content">
+            <button id="Iniciação" class="ui small toggle button jsOnly filterButton">Iniciação</button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="content">
+            <button id="Graduação" class="ui small toggle button jsOnly filterButton">Graduação</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+  
+    <div id="parent2" class="ui centered stackable three cards"" style="padding-top: 15px;">
+      {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
+        {% for page in essay_pages %}
+          {% unless page.draft %}
+            {% include essay-card.html page=page %}
+          {% endunless %}
+        {% endfor %}
+    </div>
 </div>
