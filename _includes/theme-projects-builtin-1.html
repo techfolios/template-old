@@ -28,7 +28,7 @@
   </div>
 
   <div id="parent"></div>
-    <div id="parent2" class="ui stackable three cards" style="padding-top: 15px;">
+    <div id="parent2" class="ui centered stackable three cards" style="padding-top: 15px;">
       {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
       {% for page in project_pages %}
         {% unless page.draft %}
