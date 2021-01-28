@@ -10,7 +10,7 @@ labels:
   - Software Engineering
   - Competitive Programming
 ---
-<img src="../images/jsfiddle.png">
+<img src="../images/jsfiddle.png" width=630 height=334>
 <h3>Initial Thoughts</h3>
 Javascript is pretty easy so far, but sometimes the fact that it's so easy sometimes makes it more difficult. For example when writing functions or methods in javascript, you don't have to define what return type it'll have. The function could literally pass anything and return anything. This is really convenient, but it's also kinda confusing sometimes. I have prior experience with javascript because I was really interested in web development. However recently with the UH classes, I've learned Java and C/C++, and both of these are very different from javascript, but they were a lot more organized and concrete. 
 
