@@ -23,9 +23,8 @@ Moving away from bad examples, we have a good example, on the same website. This
 
 
 <h3>Final Thoughts</h3>
-There’s nothing wrong with having questions. In fact it’s good that programmers make an effort to solve problems in the first place. However, it would be naive to not think about how to word the question and how to go about asking it. It’s important to realize that expert answers are in high demand, and that it’s therefore difficult to get one. And so even more should a programmer, when they get a question, should they ask in a way to make it easier on the expert as possible. That way, the programmer can walk away with satisfactory answer and the expert can also walk away knowing they didn’t waste their time. 
-
+There’s nothing wrong with having questions. In fact it’s good that programmers make an effort to solve problems in the first place. However, it would be naive to not think about how to word the question and how to go about asking it. It’s important to realize that expert answers are in high demand, and that it’s therefore difficult to get one. And so a programmer, when they get a question, should make it as easiest on the expert as possible. That way, the programmer can walk away with a satisfactory answer and the expert can walk away knowing they didn’t waste time.
 
 <h3>Links</h3>
 [Good Example](https://stackoverflow.com/questions/65934020/mongoose-casterror-cast-to-embedded-failed-for-value-value-x-at-path)<br>
-[Bad Example](https://stackoverflow.com/questions/65934125/is-there-a-problem-with-my-code-python-3-72)
+[Bad Example](https://stackoverflow.com/questions/65934125/is-there-a-problem-with-my-code-python-3-72)<br><br><br>
