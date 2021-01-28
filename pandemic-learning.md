@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Learning in a Pandemic
+title: Learning in a Pandemic Better?
 # All dates must be YYYY-MM-DD format!
 date: 2021-01-21
 labels:
