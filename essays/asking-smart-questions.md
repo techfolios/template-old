@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Asking Smart Questions
+title: There's Such Things as Dumb Questions
 # All dates must be YYYY-MM-DD format!
 date: 2021-01-28
 labels:
