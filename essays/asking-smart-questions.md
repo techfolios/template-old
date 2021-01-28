@@ -10,7 +10,7 @@ labels:
   - Questions
   - StackOverflow
 ---
-<img src="../images/stack.png">
+<img src="../images/stack.png" width=641 height=364>
 <h3>Don't Waste Time</h3>
 Asking smart questions is important to one’s journey as a programmer. Many people are willing to help, but even more people are sending them their problems. Because of this, it’s important that questions are written well so as to attract positive attention. In the article by Eric Raymond, he writes from the perspective of the expert helping novices. And although he provides many tips and pointers for the struggling coder, he sticks to a couple main points. That is, don’t waste the hacker’s time. These people are experts in their field, willing to provide free, helpful advice to anybody, so long as their time isn’t wasted. Asking questions in a smart way is important, precisely because of this fact. If a person’s question even hints at wasting time, Raymond writes that it’ll be ignored if not ridiculed. Apart from the concrete tips and pointers that Raymond provides, the main reason why asking smart questions is important, is it gives the questioning programmer a higher chance of getting an expert answer.
 
