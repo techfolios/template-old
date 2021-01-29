@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: /images/coverart.png
+image: images/coverart.png
 title: Acetic Acid Decarboxylation
 permalink: projects/Acetic Acid Decarboxylation
 # All dates must be YYYY-MM-DD format!
