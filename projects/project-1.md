@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://dcperera.github.io/images/6_com.JPG
+image: https://dcperera.github.io/images/6_com.png
 title: Acetic Acid Decarboxylation
 permalink: projects/Acetic Acid Decarboxylation
 # All dates must be YYYY-MM-DD format!
@@ -14,7 +14,7 @@ summary: Acetic acid decarbozylationa on magnesium hydroxide nanoclusters using 
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/coverart.JPG">
+  <img class="ui image" src="../images/coverart.png">
 </div>
 
 Acetic acid is a weak acid and an important starting material for the production of vinyl acetate and acetic anhydride for the synthesis of long-chain carboxylic acids and many other organic compounds. It is also considered as a model acid present in unprocessed bio-oil. Moreover, the catalytic decomposition of acetic acid has been identified as a model for eco-friendly treatment for air pollution and wastewater. Considering its importance, we studied the catalytic decarboxylation reaction of acetic acid theoretically using the state of the art quantum chemistry; density functional theory (DFT).
