@@ -49,15 +49,16 @@
   },
   "interests": [
     {
-      "name": "Density Functiona Theory (DFT)",
+      "name": "Density Functional Theory (DFT)",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
       ]
     },
     {
       "name": "Catalysis",
       "keywords": [
+        "Magnesium Hydroxide"
+        "Zinc Oxide"
+        "Graphene Oxide"
       ]
     },
     {
