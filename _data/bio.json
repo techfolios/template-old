@@ -33,13 +33,13 @@
       {
         "network": "instagram",
         "username": "charitha.p",
-        "url": "http://instagram.com/charitha.p"
+        "url": "https://instagram.com/charitha.p/"
       }
     ]
   },
   "interests": [
     {
-      "name": "Density Functiona Theory",
+      "name": "Density Functiona Theory (DFT)",
       "keywords": [
         "Arduino",
         "TI MSP430"
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "name": "Ab initio molecular dynamics",
+      "name": "Ab initio Molecular Dynamics (AIMD)",
       "keywords": [
       ]
     }
