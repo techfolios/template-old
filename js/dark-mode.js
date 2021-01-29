@@ -40,6 +40,8 @@ function toggleDarkMode () {
     $('.ui.black.bottom.attached.button.inverted').removeClass().addClass('ui green bottom attached button inverted');
     $("code").css({color: "white"});
 
+    $("#teal_labels > div").removeClass("teal").addClass("grey");
+
     $('.icon-color').addClass('inverted');
 
     // change scrollbar background to match
@@ -70,7 +72,7 @@ function toggleLightMode() {
 
     $("html").attr("style","--scrollbackground:var(lightBG)");
 
-
+    $("#teal_labels > div").removeClass("grey").addClass("teal");
 
     // simple toggle icon change
     darkModeIcon.removeClass('sun')

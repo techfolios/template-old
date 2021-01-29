@@ -146,7 +146,7 @@
                                 {% if entry.id == '1' %}
                                 <div class="item">
                                     <div class="content">
-                                        <a href="{{entry.website}}" target="_blank" class="header">{{entry.name}}</a>
+                                        <a id="tete" href="{{entry.website}}" target="_blank" class="header">{{entry.name}}</a>
                                         <i class="description">{{entry.company}}</i>
                                     </div>    
                                 </div>
@@ -250,7 +250,7 @@
                 </h4>
 
                 <div class="ui segment">
-                    <div class="ui labels small">
+                    <div id="teal_labels" class="ui labels small">
                         {% for entry in site.data.bio.languages %}
                         <div class="ui teal label" data-title={{entry.level}} data-rating="3" data-variation="" id="{{entry.id}}">{{entry.name}}</div>
 
@@ -276,7 +276,7 @@
                 </h4>
 
                 <div class="ui segment">
-                    <div class="ui labels small">
+                    <div id="teal_labels" class="ui labels small">
                         {% for entry in site.data.bio.sistema %}
                         <div class="ui teal label">{{entry.name}}</div>
                         {% endfor %}
@@ -294,7 +294,7 @@
                 </h4>
 
                 <div class="ui segment">
-                    <div class="ui labels small">
+                    <div id="teal_labels" class="ui labels small">
                         {% for entry in site.data.bio.ferramenta %}
                         <div class="ui teal label">{{entry.name}}</div>
                         {% endfor %}
@@ -314,7 +314,7 @@
                 </h4>
 
                 <div class="ui segment">
-                    <div class="ui labels small">
+                    <div id="teal_labels" class="ui labels small">
                         {% for entry in site.data.bio.frameworks %}
                         <div class="ui teal label">{{entry.name}}</div>
                         {% endfor %}
@@ -330,7 +330,7 @@
                 </h4>
 
                 <div class="ui segment">
-                    <div class="ui labels small">
+                    <div id="teal_labels" class="ui labels small">
                         {% for entry in site.data.bio.ides %}
                         <div class="ui teal label">{{entry.name}}</div>
                         {% endfor %}
