@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/sec.jpg
-title: Guia básico sobre segurança de redes
+title: Guia Básico Sobre Segurança De Redes
 permalink: projects/project-2
 # All dates must be YYYY-MM-DD format!
 date: 2020-02-06
