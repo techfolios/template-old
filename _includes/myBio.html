@@ -146,7 +146,7 @@
                                 {% if entry.id == '1' %}
                                 <div class="item">
                                     <div class="content">
-                                        <a id="tete" href="{{entry.website}}" target="_blank" class="header">{{entry.name}}</a>
+                                        <a href="{{entry.website}}" target="_blank" class="header">{{entry.name}}</a>
                                         <i class="description">{{entry.company}}</i>
                                     </div>    
                                 </div>
@@ -220,7 +220,7 @@
                             <div class="bar">
                                 <div class="progress"></div>
                             </div>
-                            <div class="label" style="text-align: center;">{{entry.language}}</div>
+                            <div id="idiomaLabel" class="label" style="text-align: center;">{{entry.language}}</div>
                         </div>
 
                         <script>

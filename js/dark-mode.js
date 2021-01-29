@@ -41,6 +41,7 @@ function toggleDarkMode () {
     $("code").css({color: "white"});
 
     $("#teal_labels > div").removeClass("teal").addClass("grey");
+    $("#idiomaLabel").attr("style", "color: white!important")
 
     $('.icon-color').addClass('inverted');
 
@@ -73,6 +74,7 @@ function toggleLightMode() {
     $("html").attr("style","--scrollbackground:var(lightBG)");
 
     $("#teal_labels > div").removeClass("grey").addClass("teal");
+    $("#idiomaLabel").attr("style", "color: black!important")
 
     // simple toggle icon change
     darkModeIcon.removeClass('sun')
