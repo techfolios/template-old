@@ -39,19 +39,19 @@
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Density Functiona Theory",
       "keywords": [
         "Arduino",
         "TI MSP430"
       ]
     },
     {
-      "name": "data mining",
+      "name": "Catalysis",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Ab initio molecular dynamics",
       "keywords": [
       ]
     }
@@ -63,10 +63,8 @@
       "keywords": [
         "C",
         "C++",
-        "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Python",
+        "Fortran"
       ]
     },
     {
@@ -77,18 +75,18 @@
         "Ubuntu",
         "Git/GitHub",
         "g++",
-        "TI LaunchPad"
+        "Windows"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "institution": "University of Maine, ME, USA",
+      "area": "Computational Chemistry (expected Spring, 2022)",
+      "studyType": "PhD",
+      "startDate": "2016-01-21",
       "endDate": "Present",
-      "gpa": "",
+      "gpa": "3.9",
       "courses": [
       ]
     }
