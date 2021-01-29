@@ -16,7 +16,7 @@ bio-page-label: Resume
 theme-home: theme-home-builtin-2.html
 theme-projects: theme-projects-builtin-1.html
 theme-essays: theme-essays-builtin-1.html
-theme-bio: theme-bio-builtin-1.html
+theme-bio: theme-bio-builtin-2.html
 
 # Specify the rouge syntax highlighter theme. Pick one from css/rouge.
 rouge-theme: igorpro
