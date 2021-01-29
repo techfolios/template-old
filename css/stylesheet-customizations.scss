@@ -7,7 +7,7 @@
 
 // Customize the background color
 body {
-  background-color: lightsteelblue;
+  background-color: linear-gradient(to bottom right, lightsteelblue, whitesmoke);
   background-picture: "https://dcperera.github.io/images/bg.JPG",
 }
 
@@ -18,5 +18,5 @@ body {
 
 // Customize the home page icon colors
 .icon-color {
-  color: darken(lightsteelblue, 20%);
+  color: darken(lightsteelblue, 40%);
 }
