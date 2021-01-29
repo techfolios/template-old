@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/coverart.JPG
+image: https://dcperera.github.io/images/6_com.JPG
 title: Acetic Acid Decarboxylation
 permalink: projects/Acetic Acid Decarboxylation
 # All dates must be YYYY-MM-DD format!
