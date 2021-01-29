@@ -13,9 +13,7 @@ labels:
 summary: Acetic acid decarbozylationa on magnesium hydroxide nanoclusters using the density functional theory.
 ---
 
-<div class="ui small rounded images">
-  <img class="ui image" src="/images/6_com.png">
-</div>
+<img class="ui medium right floated rounded image" src="/images/coverart.png">
 
 Acetic acid is a weak acid and an important starting material for the production of vinyl acetate and acetic anhydride for the synthesis of long-chain carboxylic acids and many other organic compounds. It is also considered as a model acid present in unprocessed bio-oil. Moreover, the catalytic decomposition of acetic acid has been identified as a model for eco-friendly treatment for air pollution and wastewater. Considering its importance, we studied the catalytic decarboxylation reaction of acetic acid theoretically using the state of the art quantum chemistry; density functional theory (DFT).
 
