@@ -31,7 +31,7 @@
                     <div class="four wide column">
                         <div class="ui middle aligned animated relaxed list">
                             {% for entry in site.data.bio.midias %}
-                            <a class="item" href="{% if entry.id == '5' %} mailto:{{entry.website}} {% else %} {{entry.website}} {% endif %}" target="_blank">
+                            <a class="item" href="{% if entry.id == '5' %} /contato {% else %} {{entry.website}} {% endif %}" target="_blank">
                                 <i class="{% if entry.id == '1' %} user alternate {% endif %}
                                           {{entry.name}}
                                           {% if entry.id == '5' %} envelope {% endif %}
