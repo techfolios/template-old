@@ -38,6 +38,7 @@ function toggleDarkMode () {
     body.addClass('inverted');
 
     $('.ui.black.bottom.attached.button.inverted').removeClass().addClass('ui green bottom attached button inverted');
+    $('#contato_box').removeClass("yellow");
     $("code").css({color: "white"});
 
     $("#teal_labels > div").removeClass("teal").addClass("grey");
@@ -52,7 +53,7 @@ function toggleDarkMode () {
     darkModeIcon.removeClass('moon');
     darkModeIcon.addClass('sun');
     
-    $('#darkmode span').text(" Modo Claro ")
+    $('#darkmode span').text(" Modo Claro ");
     
     isLocalStorageEnabled ? localStorage.setItem("darkMode", true) : false;
     darkmodeEnabled = true;
@@ -74,7 +75,8 @@ function toggleLightMode() {
     $("html").attr("style","--scrollbackground:var(lightBG)");
 
     $("#teal_labels > div").removeClass("grey").addClass("teal");
-    $("#idiomaLabel").attr("style", "color: black!important")
+    $('#contato_box').addClass("yellow");
+    $("#idiomaLabel").attr("style", "color: black!important");
 
     // simple toggle icon change
     darkModeIcon.removeClass('sun')
