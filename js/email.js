@@ -17,6 +17,7 @@ $('#formulario').submit(function (event){
                 showIcon: 'check',
                 message: 'Email enviado com sucesso!'
             });
+            $('#formulario')[0].reset();
         }, function(error) {
             $('body').toast({
                 class: 'error',
