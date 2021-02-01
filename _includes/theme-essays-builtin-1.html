@@ -2,23 +2,28 @@
 
   <div id="listaProjetos" class="ui one column stackable grid center aligned container">
     <div class="column">
-      <div class="ui horizontal list">
-        <div class="item">
-          <div class="content">
-            <button id="all" class="ui small toggle button jsOnly active filterButton">Todos</button>
+
+      <div class="ui floating labeled icon dropdown button">
+        <i class="filter icon"></i>
+        <span class="text">Filtrar</span>
+        <div class="menu">
+          <div class="header">
+            <i class="tags icon"></i>
+            Filtrar por Tag
           </div>
-        </div>
-        <div class="item">
-          <div class="content">
-            <button id="Iniciação" class="ui small toggle button jsOnly filterButton">Iniciação</button>
+          <div class="divider"></div>
+          <div id="all" class="item filterButton">
+            <spam id="all" class="jsOnly active filterButton">Todos</spam>
           </div>
-        </div>
-        <div class="item">
-          <div class="content">
-            <button id="Graduação" class="ui small toggle button jsOnly filterButton">Graduação</button>
+          <div id="Graduação" class="item filterButton">
+            <spam id="Graduação" class="jsOnly filterButton">Graduação</spam>
+          </div>
+          <div id="Iniciação" class="item filterButton">
+            <spam id="Iniciação" class="jsOnly filterButton">Iniciação</spam>
           </div>
         </div>
       </div>
+
     </div>
   </div>
   
@@ -31,3 +36,9 @@
         {% endfor %}
     </div>
 </div>
+
+
+<script>
+  $('.ui.dropdown')
+  .dropdown();
+</script>

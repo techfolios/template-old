@@ -11,9 +11,3 @@ var $btns = $('.filterButton').click(function () {
     $(this).addClass('active');
 })
 
-$(window).on('resize', function () {
-    var win = $(this);
-    if (win.width() < 600){
-        $('#listaProjetos').removeClass('center').addClass('left')
-    }
-});

@@ -2,30 +2,35 @@
 
   <div id="listaProjetos" class="ui one column stackable grid center aligned container">
     <div class="column">
-      <div class="ui horizontal list">
-        <div class="item">
-          <div class="content">
-            <button id="all" class="ui small toggle button jsOnly active filterButton">Todos</button>
+
+      <div class="ui floating labeled icon dropdown button">
+        <i class="filter icon"></i>
+        <span class="text">Filtrar</span>
+        <div class="menu">
+          <div class="header">
+            <i class="tags icon"></i>
+            Filtrar por Tag
           </div>
-        </div>
-        <div class="item">
-          <div class="content">
-            <button id="Python" class="ui small toggle button jsOnly filterButton">Python</button>
+          <div class="divider"></div>
+          <div id="all" class="item filterButton">
+            <spam id="all" class="jsOnly active filterButton">Todos</spam>
           </div>
-        </div>
-        <div class="item">
-          <div class="content">
-            <button id="Segurança" class="ui small toggle button jsOnly filterButton">Segurança</button>
+          <div id="Python" class="item filterButton">
+            <spam id="Python" class="jsOnly filterButton">Python</spam>
           </div>
-        </div>
-        <div class="item">
-          <div class="content">
-            <button id="Javascript" class="ui small toggle button jsOnly filterButton">Web</button>
+          <div id="Segurança" class="item filterButton">
+            <spam id="Segurança" class="jsOnly filterButton">Segurança</spam>
+          </div>
+          <div id="Javascript" class="item filterButton">
+            <spam id="Javascript" class="jsOnly filterButton">Web</spam>
           </div>
         </div>
       </div>
+      
     </div>
   </div>
+
+
 
   <div id="parent"></div>
     <div id="parent2" class="ui centered stackable three cards" style="padding-top: 15px;">
@@ -38,3 +43,8 @@
     </div>
   </div>
 </div>
+
+<script>
+  $('.ui.dropdown')
+  .dropdown();
+</script>
