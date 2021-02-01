@@ -1,5 +1,7 @@
 $('#formulario').submit(function (event){
 
+    $(":submit", this).attr("disabled", "disabled");
+
     event.preventDefault();
     
     var emailAddress = $("#emailCompleto").val()
@@ -18,6 +20,9 @@ $('#formulario').submit(function (event){
                 message: 'Email enviado com sucesso!'
             });
             $('#formulario')[0].reset();
+
+            $("#enviar").removeAttr("disabled");
+            
         }, function(error) {
             $('body').toast({
                 class: 'error',
@@ -25,6 +30,8 @@ $('#formulario').submit(function (event){
                 showIcon: 'times',
                 message: 'Erro no envio! Tente novamente...'
             });
+            $("#enviar").removeAttr("disabled");
+            
         })
     }
 
@@ -35,8 +42,10 @@ $('#formulario').submit(function (event){
             showIcon: 'exclamation',
             message: 'Email inválido!'
         });
-
+        $("#enviar").removeAttr("disabled");
     }
+
+    
 
 })
 
