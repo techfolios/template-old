@@ -13,15 +13,17 @@ baseurl: ""
 bio-page-label: Currículo
 projects-page-label: Projetos
 essays-page-label: Textos
+contato-page-label: Contato
 # You might want to change the theme associated with one or more sections of the site.
 # Defining your own custom theme variations is easy. See the documentation.
 theme-home: theme-home-builtin-1.html
 theme-projects: theme-projects-builtin-1.html
 theme-essays: theme-essays-builtin-1.html
 theme-bio: myBio.html
+theme-contato: contato.html
 
 # Specify the rouge syntax highlighter theme. Pick one from css/rouge.
-rouge-theme: igorpro
+rouge-theme: base16.dark
 
 # YOU NORMALLY NEVER CHANGE THE FOLLOWING
 markdown: kramdown
