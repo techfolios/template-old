@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/project6.jpg
-title: Kit de Ferramentas de Pentest
+title: Kit de Ferramentas Para Pentest
 permalink: projects/project-6
 # All dates must be YYYY-MM-DD format!
 date: 2021-02-02
