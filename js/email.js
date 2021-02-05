@@ -1,48 +1,57 @@
 $('#formulario').submit(function (event){
 
     $(":submit", this).attr("disabled", "disabled");
-
+    
     event.preventDefault();
     
     var emailAddress = $("#emailCompleto").val()
 
     if(isValidEmailAddress(emailAddress)){
+        $("#contato_box").addClass("loading");
 
         const serviceID = 'service_64z16nd';
         const templateID = 'template_041ddy9';
         const userID = 'user_uih8OAJu549ircDeNcE7v';
 
         emailjs.sendForm(serviceID, templateID, '#formulario' ,userID).then(function(response) {
+
             $('body').toast({
                 class: 'success',
                 position: 'bottom center',
                 showIcon: 'check',
                 message: 'Email enviado com sucesso!'
             });
-            $('#formulario')[0].reset();
 
+            $('#formulario')[0].reset();
             $("#enviar").removeAttr("disabled");
+            $("#contato_box").removeClass("loading");
             
         }, function(error) {
+
             $('body').toast({
                 class: 'error',
                 position: 'bottom center',
                 showIcon: 'times',
                 message: 'Erro no envio! Tente novamente...'
             });
+
             $("#enviar").removeAttr("disabled");
+            $("#contato_box").removeClass("loading");
             
         })
     }
 
     else{
+
         $('body').toast({
             class: 'warning',
             position: 'bottom center',
             showIcon: 'exclamation',
             message: 'Email inválido!'
         });
+
         $("#enviar").removeAttr("disabled");
+        $("#contato_box").removeClass("loading");
     }
 
     
