@@ -53,15 +53,16 @@
             <div class="row">
 
                 <div class="column">
-                    {% for entry in site.data.bio.education %}
+                    
                     <h4 class="ui horizontal center aligned divider header">
                         <i class="graduation cap icon"></i>
                         Escolaridade
                     </h4>
                     <div class="ui three stackable cards" style="padding-top: 10px;">
-                        <div class="ui card blue" style=>
+                        {% for entry in site.data.bio.education %}
+                        <div class="ui blue segmented card">
                             <div class="content">
-                                <a class="ui top attached grey label" href="https://ufop.br/" target="_blank">
+                                <a class="ui top attached grey label" href="{{entry.website}}" target="_blank">
                                     <i class="university icon"></i>
                                     {{entry.institution}}
                                 </a>
@@ -78,8 +79,9 @@
                                 </div>
                             </div>
                         </div>
+                        {% endfor %}
                     </div>
-                    {% endfor %}
+                    
                 </div>
             </div>
         </div>
