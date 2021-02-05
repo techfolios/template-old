@@ -43,6 +43,10 @@ function toggleDarkMode () {
 
     $("#teal_labels > div").removeClass("teal").addClass("grey");
     $("#idiomaLabel").attr("style", "color: white!important")
+    $(".highlight").attr("style","background-color: black!important");
+    $(".highlight .err").attr('style', 'color: white !important; background-color: unset !important')
+
+
 
     $('.icon-color').addClass('inverted');
 
@@ -77,6 +81,8 @@ function toggleLightMode() {
     $("#teal_labels > div").removeClass("grey").addClass("teal");
     $('#contato_box').addClass("yellow");
     $("#idiomaLabel").attr("style", "color: black!important");
+    $(".highlight").attr("style","background-color: white!important");
+    $(".highlight .err").attr('style', 'background-color: unset !important')
 
     // simple toggle icon change
     darkModeIcon.removeClass('sun')

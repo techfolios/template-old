@@ -91,3 +91,12 @@ html body.inverted div.ui.one.column.stackable.grid.container.inverted div.colum
   color: white;
   transform: rotateY(180deg);
 }
+
+.highlight, .highlight .w{
+  background-color: #fff !important;
+}
+
+.inverted .highlight, .highlight .w{
+  background-color: rgb(0, 0, 0);
+}
+
