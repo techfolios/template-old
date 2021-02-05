@@ -91,6 +91,16 @@
       "gpa": "",
       "courses": [
       ]
+    },
+    {
+      "institution": "Instituto de Gestão e Tecnologia da Informação",
+      "area": "Analista de Cybersecurity",
+      "studyType": "Bootcamp",
+      "startDate": "2021",
+      "endDate": "Presente",
+      "gpa": "",
+      "courses": [
+      ]      
     }
   ],
   "work": [
@@ -143,7 +153,7 @@
       "website": "",
       "startDate": "2020",
       "endDate": "Presente",
-      "summary": "Iniciante em pesquisas relacionadas a <i>parsing</i> com foco em segurança da informação",
+      "summary": "Iniciante em pesquisas relacionadas a linguagens funcionais com foco em segurança da informação",
       "destaque": "",
       "highlights": [
         "Orientado pelo professor <strong>Rodrigo Ribeiro</strong>",
