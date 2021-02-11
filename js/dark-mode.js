@@ -37,7 +37,6 @@ function toggleDarkMode () {
     // add custom inverted class to body
     body.addClass('inverted');
 
-    $('.ui.black.bottom.attached.button.inverted').removeClass().addClass('ui green bottom attached button inverted');
     $('#contato_box').removeClass("yellow");
     $("code").css({color: "white"});
 
@@ -66,7 +65,6 @@ function toggleDarkMode () {
 
 function toggleLightMode() {
     // remove fomantic ui's inverted class from all ui elements if they dont have dontInvert as a class
-    $('.ui.green.bottom.attached.button.inverted').removeClass().addClass('ui black bottom attached button')
 
     body.find('.ui').removeClass(function(){
         return $(this).hasClass('dontInvert') ? "" : "inverted";
