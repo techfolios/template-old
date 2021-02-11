@@ -81,14 +81,7 @@ html body.inverted div.ui.one.column.stackable.grid.container.inverted div.colum
   backface-visibility: hidden;
 }
 
-.flip-box-front {
-  background-color: #bbb;
-  color: black;
-}
-
 .flip-box-back{
-  background-color: dodgerblue;
-  color: white;
   transform: rotateY(180deg);
 }
 
