@@ -8,8 +8,6 @@ labels:
   - Graduação
 ---
 
-# Criptografia: Ataques Side-Channel
-
 ## Do que trata o DPA?
 
 **Differential Power Analysis** (DPA) é um ataque side-channel que envolve analisar
