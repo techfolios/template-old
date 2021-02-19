@@ -6,7 +6,7 @@ date: 2021-02-19
 labels:
 ---
 
-<p>The last WOD that we performed was the Invoice1 WOD. It was using java script to create an invoice for products, making sure that the data was not "hard coded". More information can be found <a href=https://dport96.github.io/ITM352/morea/060.expressions-operators/experience-invoice1.html.> here </a></p>
+<p>The last WOD that we performed was the Invoice1 WOD. It was using java script to create an invoice for products, making sure that the data was not "hard coded". More information can be found <a href="https://dport96.github.io/ITM352/morea/060.expressions-operators/experience-invoice1.html"> here </a></p>
 
 <p>This WOD was pretty straightforward and helped me retain the information needed to use java script, as well as variables and expressions, at an adequete level. Everything seemed to run smoothly and I was able to go through the assignment nearly perfect. I did run into some typing issues and I messed up on some of the capitalization for the codes but ultimately figured it out in the end using process of elimination as to what the problem may have been. </p>
 
