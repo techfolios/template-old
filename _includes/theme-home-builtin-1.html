@@ -51,12 +51,14 @@
 </div>
 
 <script>
-  $('.column')
-  // fade up out is used if available
-  .transition({
-    animation: 'horizontal flip in',
-    reverse   : 'true'
-  });
+
+  function onStart(){
+      $('.column').transition({
+      animation: 'drop in' //"in" make a reverse animation
+    });
+  }
+
+  onStart();
 
   $('#flip-box').click(function() {
     $(this).toggleClass('active');
