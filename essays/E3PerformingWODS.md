@@ -1,8 +1,8 @@
 ---
 layout: essay
 type: essay
-title: "E1: UI Basics Technical Essay"
-date: 2021-01-14
+title: "E3: Performing WODS Technical Essay"
+date: 2021-02-19
 labels:
 ---
 
