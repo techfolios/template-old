@@ -221,7 +221,7 @@
   "languages": [
     {
       "name": "Python",
-      "level": "Intermediário",
+      "level": "Avançado",
       "id": "1"
     },
     {
@@ -231,7 +231,7 @@
     },
     {
       "name": "Javascript",
-      "level": "Básico",
+      "level": "Intermediário",
       "id": "3"
     },
     {
