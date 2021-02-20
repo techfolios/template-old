@@ -1,28 +1,42 @@
 <!-- Used by all builtin themes. Now we list number of essays and projects. -->
+<!-- Put onclick in div to make the click selection less precise, avoiding a "false" click on some option of the dropdown menu -->
 
-{% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.draft != true" %}
-{% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
-{% assign num_essays = essay_pages.size %}
-{% assign num_projects = project_pages.size %}
 
 <div class="nonprintable">
-  <nav id="demo" class="ui six item stackable menu">
-    <a href="{{ site.baseurl}}/" class="brand item" style="font-weight: bold; margin-right: 3px;">
-      Início
-    </a>
-    {% if num_projects > 0 %}
-    <a href="{{ site.baseurl }}/projects" class=" {% if include.active == "projects" %} active {% endif %} item" style="font-weight: bold; margin-right: 3px;">{{  site.projects-page-label  }}</a>
-    {% endif %}
-    {% if num_essays > 0 %}
-    <a href="{{ site.baseurl }}/essays" class=" {% if include.active == "essays" %} active {% endif %} item" style="font-weight: bold; margin-right: 3px;">{{  site.essays-page-label  }}</a>
-    {% endif %}
-    <a href="{{ site.baseurl }}/bio" class=" {% if include.active == "bio" %} active {% endif %} item" style="font-weight: bold; margin-right: 3px;">{{ site.bio-page-label }}</a>
-    <a href="{{ site.baseurl }}/contato" class=" {% if include.active == "contato" %} active {% endif %} item" style="font-weight: bold; margin-right: 3px;">{{ site.contato-page-label }}</a>
-    <div class="item">
-      <button class="ui tiny button icon basic darkmode-button jsOnly" id="darkmode"><i class="moon icon"></i><span>Modo Noturno</span></button>
+
+  <nav class="ui top attached menu">
+    <div class="ui dropdown icon item">
+      <i class="bars icon"></i>
+      <div class="menu">
+        <div class="item" onclick="location.href='{{ site.baseurl}}/';">
+          <a><strong>Início</strong></a>
+        </div>
+        <div class="item" onclick="location.href='{{ site.baseurl}}/projects';" >
+          <a><strong>Projetos</strong></a>
+        </div>
+        <div class="item"  onclick="location.href='{{ site.baseurl}}/essays';">
+          <a><strong>Textos</strong></a>
+        </div>
+        <div class="item"  onclick="location.href='{{ site.baseurl}}/bio';">
+          <a><strong>Currículo</strong></a>
+        </div>
+        <div class="divider"></div>
+        <div class="header"  onclick="location.href='{{ site.baseurl}}/contato';">
+          <a><strong>Contato</strong></a>
+        </div>
+      </div>
+    </div>
+    <div class="right menu">
+      <div class="item">
+        <button class="ui tiny button icon basic darkmode-button jsOnly" id="darkmode"><i class="moon icon"></i><span>Modo Noturno</span></button>
+      </div>
     </div>
   </nav>
 
 </div>
 
+<script>
+  $('.ui.dropdown')
+  .dropdown();
+</script>
 
