@@ -2,7 +2,7 @@
 
 My Personal Website forked from [Techfolios](https://techfolios.github.io/)
 
-Design is heavily inspired by a friend [Herculino](https://herculino.com) website!
+Design is heavily inspired by [Herculino](https://herculino.com) (thanks man!)
 
 
 ## License
