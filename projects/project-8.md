@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/project8.jpg
+image: images/project8.png
 title: RacketFuck
 permalink: projects/project-8
 # All dates must be YYYY-MM-DD format!
