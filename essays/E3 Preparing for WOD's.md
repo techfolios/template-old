@@ -1,3 +1,12 @@
+---
+layout: essay
+type: essay
+title: E3 Preparing for WOD's
+# All dates must be YYYY-MM-DD format!
+date: 2021-02-23
+labels:
+  - E3
+---
 <h1> Invoice 1</h1>
 <p> Here is a link towards further instructions and details towards completing the Invoice 1
  https://dport96.github.io/ITM352/morea/060.expressions-operators/experience-invoice1.html this WOD was about creating an invoice for an online order, and also how to calculate the different parts of the order without having to hardcode the numbers. </p>
