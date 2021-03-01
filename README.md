@@ -1,4 +1,4 @@
-# Technical Portfolio
+# Technical Portfolio which would let you increase chance of highlighting
 
 This repository hosts a technical portfolio built using [TechFolio](http://techfolios.github.io). 
 
