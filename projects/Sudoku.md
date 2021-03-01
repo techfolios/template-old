@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/sudokuhead.jpeg
 title: Sudoku
-permalink: projects/Sudok
+permalink: projects/Sudoku
 date: 2017
 labels:
   - GitHub
