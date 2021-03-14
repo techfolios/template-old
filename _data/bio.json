@@ -6,7 +6,7 @@
     "picture_real": "/images/lucas_real.png",
     "email": "lucas.araj.contato@gmail.com",
     "phone": "+55 16 994534121",
-    "website": "https://Rutherford-sudo.github.io",
+    "website": "https://Shinji-Mimura.github.io",
     "summary": "Estudante de Ciência Da Computação e Compositor Musical",
     "location": {
       "address": "",
@@ -18,8 +18,8 @@
     "profiles": [
       {
         "network": "github",
-        "username": "Rutherford-sudo",
-        "url": "http://github.com/rutherford-sudo"
+        "username": "Shinji-Mimura",
+        "url": "http://github.com/Shinji-Mimura"
       },
       {
         "network": "instagram",
@@ -327,7 +327,7 @@
   "midias": [
     {
       "name": "Portfólio",
-      "website": "https://rutherford-sudo.github.io/",
+      "website": "https://Shinji-Mimura.github.io/",
       "id": "1",
       "website_name": "Portfólio"
     },
@@ -339,7 +339,7 @@
     },
     {
       "name": "github",
-      "website": "https://github.com/Rutherford-sudo",
+      "website": "https://github.com/Shinji-Mimura",
       "id": "3",
       "website_name": "Github"
     },
