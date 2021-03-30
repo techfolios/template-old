@@ -19,22 +19,29 @@ come up with so much on our own. That's why, Taylor and I have proposed a soluti
 By doing this, students will have a place where they can ask questions, gain experience, and solidify their knowledge to prepare them for the industry.
 
 <h3>Mockup Page Ideas</h3>
-1. Homepage, navbar, search/dropdown topics, login/signup
-2. Projects page
-3. Post idea page
-4. Comments/questions page
+<ol>
+  <li>Homepage, navbar, search/dropdown topics, login/signup</li>
+  <li>Projects page</li>
+  <li>Post idea page</li>
+  <li>Comments/questions page</li>
+ </ol>
 
 <h3>Case Ideas</h3>
-1. User goes to homepage and logs in to their account
-2. User searches for specific project tags (gaming, data, etc.)
-3. Led to a page with projects that have the corresponding project tags
-4. User clicks on a project that leads to a page with more information
-5. Underneath the project showcase, there's a comment section if user has questions or feedback
-6. User clicks on "post new idea" and gets sent to the "post idea page", a form with predetermined content fields
-7. User clicks on their profile and it shows their own projects. Also allows for deletion of their projects
+<ol>
+  <li>User goes to homepage and logs in to their account</li>
+  <li>User searches for specific project tags (gaming, data, etc.)</li>
+  <li>Led to a page with projects that have the corresponding project tags</li>
+  <li>User clicks on a project that leads to a page with more information</li>
+   <li>Underneath the project showcase, there's a comment section if user has questions or feedback<li>
+  <li>User clicks on "post new idea" and gets sent to the "post idea page", a form with predetermined content fields</li>
+  <li>User clicks on their profile and it shows their own projects. Also allows for deletion of their projects</li>
+</ol>
+
 
 <h3>Beyond the Basics</h3>
 Once basic features are implemented, here's some ideas for a more advanced and robust site
-1. Forums tailored to specific tags/topics
-2. Rating system, weekly highlights
-3. Difficulty rating/recommended classes
+<ol>
+  <li>Forums tailored to specific tags/topics</li>
+  <li>Rating system, weekly highlights</li>
+  <li>Difficulty rating/recommended classes</li>
+</ol>
