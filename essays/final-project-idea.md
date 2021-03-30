@@ -32,7 +32,7 @@ By doing this, students will have a place where they can ask questions, gain exp
   <li>User searches for specific project tags (gaming, data, etc.)</li>
   <li>Led to a page with projects that have the corresponding project tags</li>
   <li>User clicks on a project that leads to a page with more information</li>
-  <li>Underneath the project showcase, there's a comment section if user has questions or feedback<li>
+  <li>Underneath the project showcase, there's a comment section if user has questions or feedback</li>
   <li>User clicks on "post new idea" and gets sent to the "post idea page", a form with predetermined content fields</li>
   <li>User clicks on their profile and it shows their own projects. Also allows for deletion of their projects</li>
 </ol>
