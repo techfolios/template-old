@@ -20,7 +20,7 @@ By doing this, students will have a place where they can ask questions, gain exp
 <h3>Mockup Page Ideas</h3>
 1. Homepage, navbar, search/dropdown topics, login/signup<br>
 2. Projects page<br>
-3.Post idea page<br>
+3. Post idea page<br>
 4. Comments/questions page<br>
 
 <h3>Case Ideas</h3>
@@ -36,4 +36,4 @@ By doing this, students will have a place where they can ask questions, gain exp
 Once basic features are implemented, here's some ideas for a more advanced and robust site<br><br>
 1. Forums tailored to specific tags/topics<br>
 2. Rating system, weekly highlights<br>
-3. Difficulty rating/recommended classes<br>
+3. Difficulty rating/recommended classes<br><br><br>
