@@ -19,29 +19,27 @@ come up with so much on our own. That's why, Taylor and I have proposed a soluti
 By doing this, students will have a place where they can ask questions, gain experience, and solidify their knowledge to prepare them for the industry.
 
 <h3>Mockup Page Ideas</h3>
-<ol>
-  <li>Homepage, navbar, search/dropdown topics, login/signup</li>
-  <li>Projects page</li>
-  <li>Post idea page</li>
-  <li>Comments/questions page</li>
- </ol>
+1. Homepage, navbar, search/dropdown topics, login/signup<br>
+2. Projects page<br>
+3.Post idea page<br>
+4. Comments/questions page<br>
 
 <h3>Case Ideas</h3>
-<ol>
-  <li>User goes to homepage and logs in to their account</li>
-  <li>User searches for specific project tags (gaming, data, etc.)</li>
-  <li>Led to a page with projects that have the corresponding project tags</li>
-  <li>User clicks on a project that leads to a page with more information</li>
-  <li>Underneath the project showcase, there's a comment section if user has questions or feedback</li>
-  <li>User clicks on "post new idea" and gets sent to the "post idea page", a form with predetermined content fields</li>
-  <li>User clicks on their profile and it shows their own projects. Also allows for deletion of their projects</li>
-</ol>
+
+1. User goes to homepage and logs in to their account<br>
+2. User searches for specific project tags (gaming, data, etc.)<br>
+3. Led to a page with projects that have the corresponding project tags<br>
+4. User clicks on a project that leads to a page with more information<br>
+5. Underneath the project showcase, there's a comment section if user has questions or feedback<br>
+6. User clicks on "post new idea" and gets sent to the "post idea page", a form with predetermined content fields<br>
+7. User clicks on their profile and it shows their own projects. Also allows for deletion of their projects<br>
+
 
 
 <h3>Beyond the Basics</h3>
-Once basic features are implemented, here's some ideas for a more advanced and robust site
-<ol>
-  <li>Forums tailored to specific tags/topics</li>
-  <li>Rating system, weekly highlights</li>
-  <li>Difficulty rating/recommended classes</li>
-</ol>
+Once basic features are implemented, here's some ideas for a more advanced and robust site<br><br>
+
+1. Forums tailored to specific tags/topics<br>
+2. Rating system, weekly highlights<br>
+3. Difficulty rating/recommended classes<br>
+
