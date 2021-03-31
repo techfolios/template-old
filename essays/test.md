@@ -8,6 +8,10 @@ labels:
   - Meteor
   - Projects
 ---
+<h1>Final Project Brainstorm</h1>
+While preparing for a practice WOD, we were prompted by a new task in proposing a solution for all computer science majors at UH Manoa. The following includes
+the problem to address and the strategy in solving it. Brought to you by Taylor Wong and myself, from ICS 314.
+
 <h3>What's the Point?</h3>
 1. When it comes to programming, the idea of frameworks has always been confusing. I recognized that it was an easier and more powerful way to complete projects, but it was always just as difficult learning the framework as it was learning the original language. So what was the point? Wouldn’t I have just as much luck learning the original code than to learn a framework? Because of this way of thinking, I’ve always preferred to program in vanilla Javascript. When it came to making games or programs, I’ve found it easier to find a way to code it in vanilla than to learn a framework or library, ei. PhaserJS, PixiJS, etc. Even when I look up tutorials or examples, I always respected programmers that used no framework to help them. It was as if they didn’t need an easy way out, but only needed their minds. 
 
