@@ -1,14 +1,13 @@
 ---
 layout: essay
 type: essay
-title: "Test"
+title: Final Project Brainstorm
 date: 2021-03-30
 labels:
   - Software Engineering
   - Meteor
   - Projects
 ---
-<h1>Final Project Brainstorm</h1>
 While preparing for a practice WOD, we were prompted by a new task in proposing a solution for all computer science majors at UH Manoa. The following includes
 the problem to address and the strategy in solving it. Brought to you by Taylor Wong and myself, from ICS 314.
 
