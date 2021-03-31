@@ -1,8 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Test
-# All dates must be YYYY-MM-DD format!
+title: "Test"
 date: 2021-02-25
 labels:
   - Software Engineering
