@@ -11,11 +11,29 @@ labels:
 While preparing for a practice WOD, we were prompted by a new task in proposing a solution for all computer science majors at UH Manoa. The following includes
 the problem to address and the strategy in solving it. Brought to you by Taylor Wong and myself, from ICS 314.
 
-<h3>What's the Point?</h3>
-1. When it comes to programming, the idea of frameworks has always been confusing. I recognized that it was an easier and more powerful way to complete projects, but it was always just as difficult learning the framework as it was learning the original language. So what was the point? Wouldn’t I have just as much luck learning the original code than to learn a framework? Because of this way of thinking, I’ve always preferred to program in vanilla Javascript. When it came to making games or programs, I’ve found it easier to find a way to code it in vanilla than to learn a framework or library, ei. PhaserJS, PixiJS, etc. Even when I look up tutorials or examples, I always respected programmers that used no framework to help them. It was as if they didn’t need an easy way out, but only needed their minds. 
+<h3>Overview</h3>
+Every student needs a place to share ideas and projects, to lean on one another and learn from each other. It helps promote creativity and a space for novel ideas
+to be shared. However, at UH Manoa, Computer Science students do not have this sort of space. As programmers, we need constant project ideas and inspiration, but we can only
+come up with so much on our own. That's why, Taylor and I have proposed a solution. We can create a site that allows students to share projects and showcase them. 
+By doing this, students will have a place where they can ask questions, gain experience, and solidify their knowledge to prepare them for the industry.
 
-<h3>Using Semantic UI</h3>
-This idea however quickly changed once we started using Semantic UI in my current Computer Science course at UH Manoa. It’s a framework for web design, and although there’s tons to learn, even with a basic working knowledge, I was able to replicate entire landing pages within 15 minutes. That’s powerful. And it really opened my mind to the idea of frameworks, and possibly even creating one myself for future projects. I realized that downloading and working with libraries is no different than what I do when I program. For example, I’m currently working on a demonstration of collisions with circles on a screen. I wanted to get a feel for programming physics before building a more complicated model/game. As I began programming however, I realized I’d be needing to use a lot of vectors for calculating direction and speed, but also needed vector operations like the dot product and finding the unit vector or magnitude. That’s when I decided to create a Vector class to handle all of these procedures in a neat and manageable way. This is exactly what a framework is, only scaled up tremendously. It’s just a way to help programmers speed up processes and make things organized while delivering the same and reliable performance and experience. At that point, deciding to stick to vanilla programming for the sake of principles only ends in wasted time and headache.
+<h3>Mockup Page Ideas</h3>
+1. Homepage, navbar, search/dropdown topics, login/signup<br>
+2. Projects page<br>
+3.Post idea page<br>
+4. Comments/questions page<br>
 
-<h3>The Reality Of It</h3>
-At first, programming with frameworks seemed like a cop-out. It was only for weak programmers that couldn’t think of a solution themselves, so they had to find someone else’s code to do it for them. And although this might be true, in some sense, I’ve realized that frameworks simplify processes so much, that it’s borderline stupid not to use them. Why, when given a much more efficient and powerful way to carry out projects, would you take the harder way. Principles? Respect? I care very much about these things, but in the real world, what people care about is results. And frameworks help me do that.
+<h3>Case Ideas</h3>
+1. User goes to homepage and logs in to their account<br>
+2. User searches for specific project tags (gaming, data, etc.)<br>
+3. Led to a page with projects that have the corresponding project tags<br>
+4. User clicks on a project that leads to a page with more information<br>
+5. Underneath the project showcase, there's a comment section if user has questions or feedback<br>
+6. User clicks on "post new idea" and gets sent to the "post idea page", a form with predetermined content fields<br>
+7. User clicks on their profile and it shows their own projects. Also allows for deletion of their projects<br>
+
+<h3>Beyond the Basics</h3>
+Once basic features are implemented, here's some ideas for a more advanced and robust site<br><br>
+1. Forums tailored to specific tags/topics<br>
+2. Rating system, weekly highlights<br>
+3. Difficulty rating/recommended classes<br>
