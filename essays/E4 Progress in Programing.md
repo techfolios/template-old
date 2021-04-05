@@ -5,7 +5,7 @@ title: E4 Progress in Programing
 # All dates must be YYYY-MM-DD format!
 date: 2021-04-05
 labels:
-  - E3
+  - E4
 ---
 <h1><b>My programming skills have greatly improved in the following ways</b></h1>
 I very much agree with that my programing skills have greatly improved since the start of the class. I have started to adopt way better habits than what I had before, for example always saving everything I do, and to copy and paste from my code to avoid misspelling. What I also have learned is to check if it working regularly, this has made it a lot easier for me to see when I do something wrong and a lot easier to change since I then know better what I did and what I changed and then go back and see more easily why it did not go as planed. Another thing that I have realize is that I need less help then what I used to, one example of this is that I do not need to go back and watch the lectures as much as I used to, to understand how the lab works. Another thing is that I have not been feeling as dependent on the screencasts to be able to solve the WOD’s and I feel pretty confident in solving them, however the screencast is still nice to have if I get stuck. 
