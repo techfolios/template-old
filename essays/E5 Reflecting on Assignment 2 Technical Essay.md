@@ -24,7 +24,7 @@ When I needed help and got stuck I reached out to Professor Port for help. I bel
 <br>
 At first I thought that this assignment was a lot easier and I did not have issues getting started on this assignment compared to the first one, however once I ran into issues I thought that the issues I ran into were harder to fix than the first assignment. I also started earlier for this assignment so I had more time to solve the problems which might have been why I thought that it was a bit easier since I was not as stressed over it and had more time. 
 
-<h1><b>>Estimate the % of time you spent (a) thinking about how to do something, (b) writing code (but do not include testing, (c) testing and debugging</b></h1>
+<h1><b>Estimate the % of time you spent (a) thinking about how to do something, (b) writing code (but do not include testing, (c) testing and debugging</b></h1>
 <br> I would say that I spent 25% of the time thinking about how I would do it, 65% writing the code and 10% testing
 <h1><b>Describe what worked well with this project? What did not work well?</b></h1>
 <h2><b>What worked well:</b></h2>
