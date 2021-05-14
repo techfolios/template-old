@@ -80,10 +80,18 @@
   "work": [
     {
       "company": "Seoul Mix 2.0",
-      "position": "Cahier/Cook",
-      "startDate": "2018-11-11",
-      "endDate": "2019-05-22",
+      "position": "Cashier/Cook",
+      "startDate": "09/2019",
+      "endDate": "05/2020",
       "summary": "Responsible for taking care of front-store duties, greeting customers, operating the grill and fryer",
+    },
+    
+    {
+      "company": "Doordash",
+      "position": "Driver",
+      "startDate": "06/2020",
+      "endDate": "current",
+      "summary": "Delivering food, customer service",
     }
   ],
   
