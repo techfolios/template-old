@@ -9,7 +9,7 @@ labels:
   - Coding Standards
   - Software Engineering
 ---
-<img src="../images/intellij.png">
+<img src="../images/intellij.png" width="750" height="auto">
 
 <h3>What's the balance?</h3>
 Learning computer science is tricky. On one hand, you have the theory. These are things like algorithms, data structures, and bitwise operators. They are the heavy concepts applicable in every programming language. On the other hand, we have skill. It’s the ability to use these theories to solve real world problems and to collaborate with other people. But as we learn, focusing on one side too much makes us blind to the other. I always thought the balance was right in the middle, but I’ve realized that it leans towards skill. 
