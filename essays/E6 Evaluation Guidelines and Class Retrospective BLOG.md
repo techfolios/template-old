@@ -1,3 +1,14 @@
+---
+layout: essay
+type: essay
+title: E6 Evaluation Guidelines and Class Retrospective BLOG
+# All dates must be YYYY-MM-DD format!
+date: 2021-05-15
+labels:
+  - E6
+  -  Evaluation Guidelines 
+  -  Class Retrospective BLOG
+---
 <b>Briefly describe your system (e.g. A store selling Pokemon game cards)</b>
 I am selling, tshirts, water bottles, glasses, and towels
 <b>Any notable shortcomings, bugs, problems, or additional features not implemented?<b>
