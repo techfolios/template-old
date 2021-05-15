@@ -6,7 +6,7 @@ date: 2021-04-06
 labels:
 ---
 
-<p>Assignment 2 was mainly about creating a login/registration page and allowing users to carry there data througout the pages to get to the invoice. For information on the assignment please reference <a href=https://dport96.github.io/ITM352/modules/Assignment2/> this site </a></p>
+<p>Assignment 2 was mainly about creating a login/registration page and allowing users to carry there data througout the pages to get to the invoice. For information on the assignment please reference <a href=https://dport96.github.io/ITM352/modules/Assignment2> this site </a></p>
 
 <p>This assignment taught me a lot about servers and how to use a server to carry the data through the pages. It also helped me reinforce my knowledge on html, css, and javascript, in order to update my website.</p>
 
