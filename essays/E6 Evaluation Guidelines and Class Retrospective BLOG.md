@@ -9,7 +9,7 @@ labels:
   -  Evaluation Guidelines 
   -  Class Retrospective BLOG
 ---
-<h1>Briefly describe your system (e.g. A store selling Pokemon game cards)</b>
+<h1>Briefly describe your system (e.g. A store selling Pokemon game cards)</h1>
 <br>I am selling, tshirts, water bottles, glasses, and towels<br>
 <h1>Any notable shortcomings, bugs, problems, or additional features not implemented?</h1>
 	<br>Yes, There was a lot of things that I had issues with, setting up the session, the cookie and in all honestly I was having difficulties with everything of this assignment and not much was working in my favor when doing this.<br>
