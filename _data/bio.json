@@ -101,6 +101,20 @@
   ],
   "work": [
     {
+      "company": "Compasso UOL",
+      "position": "Estagiário",
+      "website": "",
+      "type": "1",
+      "startDate": "2021",
+      "endDate": "Presente",
+      "summary": "Estagiário na trilha Automação de Processos",
+      "destaque": "(RPA)",
+      "highlights": [
+        "Criação de Projeto de RPA na UFOP",
+        "Estudo de Trilha RPA na Alura"
+      ]
+    },
+    {
       "company": "Universidade Federal de Pernambuco",
       "position": "Auxiliar de Segurança",
       "website": "",
@@ -148,7 +162,7 @@
       "type": "1",
       "website": "",
       "startDate": "2020",
-      "endDate": "Presente",
+      "endDate": "2021",
       "summary": "Bolsista de iniciação científica em pesquisas relacionadas a linguagem de domínio específico em programação funcional",
       "destaque": "",
       "highlights": [
