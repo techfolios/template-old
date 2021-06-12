@@ -1,376 +1,292 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div class="curriculo" style="margin-top: 50px; margin-bottom: 0em;">
-        <div class="ui stackable grid container">
-            
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+   </head>
+   <body>
+      <div class="curriculo" style="margin-top: 50px; margin-bottom: 0em;">
+         <div class="ui stackable grid container">
             <div class="twelve wide column middle aligned">
-
-                <h1 class="ui left aligned header no-bottom">
-                    {{site.data.bio.basics.name}}
-                    <span class="sub header">{{site.data.bio.basics.location.region}}, {{site.data.bio.basics.location.countryCode}}</span>
-                </h1>
-
-                <button onclick="location.href='/Documents/curriculoLucas.pdf'" class="ui green labeled icon button" style="margin-top: 15px;">
-                    <i class="download icon"></i>
-                    Download
-                </button>
-
+               <h1 class="ui left aligned header no-bottom">
+                  {{site.data.bio.basics.name}}
+                  <span class="sub header">{{site.data.bio.basics.location.region}},
+                  {{site.data.bio.basics.location.countryCode}}</span>
+               </h1>
+               <button onclick="location.href='/Documents/curriculoLucas.pdf'" class="ui green labeled icon button"
+                  style="margin-top: 15px;">
+               <i class="download icon"></i>
+               Download
+               </button>
             </div>
-
-
-
             <div class="four wide column">
-                <div class="ui middle aligned animated relaxed list">
-
-                    <div class="four wide column">
-                        <div class="ui middle aligned animated relaxed list">
-                            {% for entry in site.data.bio.midias %}
-                            <a class="item" href="{% if entry.id == '5' %} /contato {% else %} {{entry.website}} {% endif %}" target="_blank">
-                                <i class="{% if entry.id == '1' %} user alternate {% endif %}
-                                          {{entry.name}}
-                                          {% if entry.id == '5' %} envelope {% endif %}
-                                icon "></i>
-                                <div class="content">
-                                    <div class="header">{{entry.website_name}}</div>
-                                </div>
-                            </a>
-                            {% endfor %}
-                        </div>
-                    </div>
-                </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="ui one column stackable grid container" style="margin-bottom: 20px;">
-            <div class="row">
-
-                <div class="column">
-                    
-                    <h4 class="ui horizontal center aligned divider header">
-                        <i class="graduation cap icon"></i>
-                        Escolaridade
-                    </h4>
-                    <div class="ui three stackable cards" style="padding-top: 10px;">
-                        {% for entry in site.data.bio.education %}
-                        <div class="ui blue segmented card">
-                            <div class="content">
-                                <a class="ui top attached grey label" href="{{entry.website}}" target="_blank">
-                                    <i class="university icon"></i>
-                                    {{entry.institution}}
-                                </a>
-                                <div class="header">{{entry.area}}</div>
-                                <div class="meta">
-                                    <p>{{entry.studyType}}</p>
-                                </div>
-                                <div class="description"></div>
-                            </div>
-                            <div class="extra content">
-                                <div class="left floated">
-                                    <i class="calendar alternate icon"></i>
-                                    <strong>{{entry.startDate}} - {{entry.endDate}}</strong>
-                                </div>
-                            </div>
-                        </div>
+               <div class="ui middle aligned animated relaxed list">
+                  <div class="four wide column">
+                     <div class="ui middle aligned animated relaxed list">
+                        {% for entry in site.data.bio.midias %}
+                        <a class="item"
+                           href="{% if entry.id == '5' %} /contato {% else %} {{entry.website}} {% endif %}"
+                           target="_blank">
+                           <i class="{% if entry.id == '1' %} user alternate {% endif %}
+                              {{entry.name}}
+                              {% if entry.id == '5' %} envelope {% endif %}
+                              icon "></i>
+                           <div class="content">
+                              <div class="header">{{entry.website_name}}</div>
+                           </div>
+                        </a>
                         {% endfor %}
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-
-        <div class="ui one column stackable grid container" style="margin-bottom: 20px;">
-            <div class="row">
-
-                <div class="column">
-                    <h4 class="ui horizontal center aligned divider header">
-                        <i class="paperclip icon"></i>
-                        Trabalhos
-                    </h4>
-                    <div class="ui three stackable cards" style="padding-top: 10px;">
-                        {% for entry in site.data.bio.work %}
-                        <div class=" ui green segmented card">
-                            <div class="content">
-                                <div class="ui top attached grey label active"><i class="{% if entry.type == '1' %} university {% endif %} {% if entry.type == '2' %} music {% endif %} {% if entry.type == '' %} map marker alternate {% endif %} icon"></i>{{entry.company}}</div>
-                                <div class="header">{{entry.position}}</div>
-
-                                <div class="description">
-                                    <p>{{entry.summary}} <strong>{{entry.destaque}}</strong> </p>
-                                    <div class="ui bulleted list">
-                                        {% for items in entry.highlights %}
-                                        <div class="item">{{items}}</div>
-                                        {% endfor %}
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="extra content">
-                                <i class="calendar alternate icon"></i>
-                                <strong>{{entry.startDate}} - {{entry.endDate}}</strong>
-                            </div>
-                        </div>
-                        
-                        {% endfor %}
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="ui one column stackable grid container" style="margin-bottom: 20px;">
-            <div class="column">
-                <h4 class="ui horizontal center aligned divider header">
-                    <i class="certificate icon"></i>
-                    Certificados
-                </h4>
-                
-                <div class="ui segment">
-                    <div class="ui top attached tabular menu">
-                        <div class="item" data-tab="tab-name">Programação
-                            
-                        </div>
-                        <div class="item" data-tab="tab-name2">Segurança</div>
-                      </div>
-
-                      <div class="ui tab" data-tab="tab-name">
-
-                        <script>
-                            $('.tabular.menu .item').tab();
-                        </script>
-
-                        <div class="ui relaxed divided list">
-                            {% for entry in site.data.bio.certificates %}
-                                {% if entry.id == '1' %}
-                                <div class="item">
-                                    <div class="content">
-                                        <a href="{{entry.website}}" target="_blank" class="header">{{entry.name}}</a>
-                                        <i class="description">{{entry.company}}</i>
-                                    </div>    
-                                </div>
-                                {% endif %}
-                            {% endfor %}
-                        </div>
-
-
-                      </div>
-
-                      <div class="ui tab" data-tab="tab-name2">
-
-                        <script>
-                            $('.tabular.menu .item').tab();
-                        </script>
-
-                        <div class="ui relaxed divided list">
-                            {% for entry in site.data.bio.certificates %}
-                                {% if entry.id == '2' %}
-                                <div class="item">
-                                    <div class="content">
-                                        <a href="{{entry.website}}" target="_blank" class="header">{{entry.name}}</a>
-                                        <i class="description">{{entry.company}}</i>
-                                    </div>    
-                                </div>
-                                {% endif %}
-                            {% endfor %}
-                        </div>
-
-                      </div>
-                      
-                </div>
-
-            </div>
-        </div>
-
-        <div class="ui one column stackable grid container" style="margin-bottom: 20px;">
-            <div class="column">
-
-                <h4 class="ui horizontal center aligned divider header">
-                    <i class="hands helping icon"></i>
-                    Voluntarismo
-                </h4>
-
-                <div class="ui segment">
-                    <div class="ui relaxed divided list">
-                        {% for entry in site.data.bio.voluntario %}
-                        <div class="item">
-                            <div class="content">
-                                <a href="{{entry.website}}" target="_blank" class="header">{{entry.name}}</a>
-                                <i class="description">{{entry.company}}</i>
-                            </div>
-                        </div>
-                        {% endfor %}
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="ui one column stackable grid container" style="margin-bottom: 20px;">
-            <div class="column">
-                <h4 class="ui horizontal center aligned divider header">
-                    <i class="comments icon"></i>
-                    Idiomas
-                </h4>
-                <div class="ui horizontal stackable segments jsOnly">
-                    {% for entry in site.data.bio.idiomas %}
-                    <div class="ui segment">
-                        <div class="ui green progress active" style="min-width: 200px!important;" data-value={{entry.level}} data-total="100" data-percent={{entry.bar_level}} id={{entry.language}}>
-                            <div class="bar">
-                                <div class="progress"></div>
-                            </div>
-                            <div id="idiomaLabel" class="label" style="text-align: center;">{{entry.language}}</div>
-                        </div>
-
-                        <script>
-                            $('#{{entry.language}}').progress({
-                                label: 'percent',
-                                text: {
-                                    percent: '{value}'
-                                }
-                            });
-                        </script>
-
-                    </div>
-                    
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-
-
-        <div class="ui three column stackable grid container" style="margin-bottom: 20px;">
-
-            <div class="column">
-
-                <h4 class="ui horizontal center aligned divider header">
-                    <i class="code icon"></i>
-                    Linguagens
-                </h4>
-
-                <div class="ui segment">
-                    <div id="teal_labels" class="ui labels small">
-                        {% for entry in site.data.bio.languages %}
-                        <div class="ui teal label" data-title={{entry.level}} data-rating="3" data-variation="" id="{{entry.id}}">{{entry.name}}</div>
-
-                        <script>
-                            $('#{{entry.id}}')
-                                .popup()
-                            ;
-                        </script>
-
-                        {% endfor %}
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="column">
-
-                <h4 class="ui horizontal center aligned divider header">
-                    <i class="laptop icon"></i>
-                    Sistemas
-                </h4>
-
-                <div class="ui segment">
-                    <div id="teal_labels" class="ui labels small">
-                        {% for entry in site.data.bio.sistema %}
-                        <div class="ui teal label">{{entry.name}}</div>
-                        {% endfor %}
-                    </div>
-                </div>
-
-            </div>
-
-
-            <div class="column">
-
-                <h4 class="ui horizontal center aligned divider header">
-                    <i class="tools icon"></i>
-                    Ferramentas
-                </h4>
-
-                <div class="ui segment">
-                    <div id="teal_labels" class="ui labels small">
-                        {% for entry in site.data.bio.ferramenta %}
-                        <div class="ui teal label">{{entry.name}}</div>
-                        {% endfor %}
-                    </div>
-                </div>
-
-            </div>
-
-
-        </div>
-
-        <div class="ui two column stackable grid container" style="margin-bottom: 20px;">
-            <div class="column">
-                <h4 class="ui horizontal center aligned divider header">
-                    <i class="crop alternate icon"></i>
-                    Frameworks
-                </h4>
-
-                <div class="ui segment">
-                    <div id="teal_labels" class="ui labels small">
-                        {% for entry in site.data.bio.frameworks %}
-                        <div class="ui teal label">{{entry.name}}</div>
-                        {% endfor %}
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="column">
-                <h4 class="ui horizontal center aligned divider header">
-                    <i class="terminal icon"></i>
-                    IDEs
-                </h4>
-
-                <div class="ui segment">
-                    <div id="teal_labels" class="ui labels small">
-                        {% for entry in site.data.bio.ides %}
-                        <div class="ui teal label">{{entry.name}}</div>
-                        {% endfor %}
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <div class="ui one column stackable grid container" style="margin-bottom: 20px;">
-            <div class="column">
-                <h4 class="ui horizontal center aligned divider header">
-                    <i class="book icon"></i>
-                    Interesses
-                </h4>
-
-                <div class="ui segment">
-                    <div class="ui vertical bulleted link list">
-                        {% for entry in site.data.bio.interesses_bio %}
-                        <div class="item">
-
-                            <div class="content">
-                                <a href="{{entry.website}}" target="_blank" rel="noopener noreferrer">{{entry.name}}</a>
-                            </div>
-                        </div>
-                        {% endfor %}
-                    </div>
+                     </div>
                   </div>
+               </div>
             </div>
-
-        </div>
-
-
-
-    </div>
-</body>
-
-
+         </div>
+      </div>
+      <div class="ui one column stackable grid container" style="margin-bottom: 20px;">
+         <div class="row">
+            <div class="column">
+               <h4 class="ui horizontal center aligned divider header">
+                  <i class="graduation cap icon"></i>
+                  Escolaridade
+               </h4>
+               <div class="ui three stackable cards" style="padding-top: 10px;">
+                  {% for entry in site.data.bio.education %}
+                  <div class="ui blue segmented card">
+                     <div class="content">
+                        <a class="ui top attached grey label" href="{{entry.website}}" target="_blank">
+                        <i class="university icon"></i>
+                        {{entry.institution}}
+                        </a>
+                        <div class="header">{{entry.area}}</div>
+                        <div class="meta">
+                           <p>{{entry.studyType}}</p>
+                        </div>
+                        <div class="description"></div>
+                     </div>
+                     <div class="extra content">
+                        <div class="left floated">
+                           <i class="calendar alternate icon"></i>
+                           <strong>{{entry.startDate}} - {{entry.endDate}}</strong>
+                        </div>
+                     </div>
+                  </div>
+                  {% endfor %}
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="ui one column stackable grid container" style="margin-bottom: 20px;">
+         <div class="row">
+            <div class="column">
+               <h4 class="ui horizontal center aligned divider header">
+                  <i class="paperclip icon"></i>
+                  Trabalhos
+               </h4>
+               <div class="ui three stackable cards" style="padding-top: 10px;">
+                  {% for entry in site.data.bio.work %}
+                  <div class=" ui green segmented card">
+                     <div class="content">
+                        <div class="ui top attached grey label active"><i
+                           class="map marker alternate icon"></i>{{entry.company}}</div>
+                        <div class="header">{{entry.position}}</div>
+                        <div class="description">
+                           <p>{{entry.summary}} <strong>{{entry.destaque}}</strong> </p>
+                           <div class="ui bulleted list">
+                              {% for items in entry.highlights %}
+                              <div class="item">{{items}}</div>
+                              {% endfor %}
+                           </div>
+                        </div>
+                     </div>
+                     <div class="extra content">
+                        <i class="calendar alternate icon"></i>
+                        <strong>{{entry.startDate}} - {{entry.endDate}}</strong>
+                     </div>
+                  </div>
+                  {% endfor %}
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="ui one column stackable grid container" style="margin-bottom: 20px;">
+         <div class="column">
+            <h4 class="ui horizontal center aligned divider header">
+               <i class="certificate icon"></i>
+               Certificados
+            </h4>
+            <div class="ui segment">
+               <div class="ui menu">
+                  <div class="ui fluid floating labeled icon dropdown button">
+                     Cursos
+                     <i class="dropdown icon"></i>
+                     <div class="menu">
+                        <div class="ui relaxed divided list">
+                           {% for entry in site.data.bio.certificates %}
+                           <div class="item">
+                              <div class="content" style="margin: 5px 0px 5px 8px;">
+                                 <a href="{{entry.website}}" target="_blank" class="header" style="margin-bottom: 5px;">{{entry.name}}</a>
+                                 <i class="description">{{entry.company}}</i>
+                              </div>
+                           </div>
+                           {% endfor %}
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <script>
+            $('.ui.dropdown')
+            .dropdown();
+         </script>
+      </div>
+      <div class="ui one column stackable grid container" style="margin-bottom: 20px;">
+         <div class="column">
+            <h4 class="ui horizontal center aligned divider header">
+               <i class="hands helping icon"></i>
+               Voluntarismo
+            </h4>
+            <div class="ui segment">
+               <div class="ui relaxed divided list">
+                  {% for entry in site.data.bio.voluntario %}
+                  <div class="item">
+                     <div class="content">
+                        <a href="{{entry.website}}" target="_blank" class="header">{{entry.name}}</a>
+                        <i class="description">{{entry.company}}</i>
+                     </div>
+                  </div>
+                  {% endfor %}
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="ui one column stackable grid container" style="margin-bottom: 20px;">
+         <div class="column">
+            <h4 class="ui horizontal center aligned divider header">
+               <i class="comments icon"></i>
+               Idiomas
+            </h4>
+            <div class="ui horizontal stackable segments jsOnly">
+               {% for entry in site.data.bio.idiomas %}
+               <div class="ui segment">
+                  <div class="ui green progress active" style="min-width: 200px!important;" data-value={{entry.level}}
+                     data-total="100" data-percent={{entry.bar_level}} id={{entry.language}}>
+                     <div class="bar">
+                        <div class="progress"></div>
+                     </div>
+                     <div id="idiomaLabel" class="label" style="text-align: center;">{{entry.language}}</div>
+                  </div>
+                  <script>
+                     $('#{{entry.language}}').progress({
+                         label: 'percent',
+                         text: {
+                             percent: '{value}'
+                         }
+                     });
+                  </script>
+               </div>
+               {% endfor %}
+            </div>
+         </div>
+      </div>
+      <div class="ui three column stackable grid container" style="margin-bottom: 20px;">
+         <div class="column">
+            <h4 class="ui horizontal center aligned divider header">
+               <i class="code icon"></i>
+               Linguagens
+            </h4>
+            <div class="ui segment">
+               <div id="teal_labels" class="ui labels small">
+                  {% for entry in site.data.bio.languages %}
+                  <div class="ui teal label" data-title={{entry.level}} data-rating="3" data-variation=""
+                     id="{{entry.id}}">{{entry.name}}</div>
+                  <script>
+                     $('#{{entry.id}}')
+                         .popup()
+                         ;
+                  </script>
+                  {% endfor %}
+               </div>
+            </div>
+         </div>
+         <div class="column">
+            <h4 class="ui horizontal center aligned divider header">
+               <i class="laptop icon"></i>
+               Sistemas
+            </h4>
+            <div class="ui segment">
+               <div id="teal_labels" class="ui labels small">
+                  {% for entry in site.data.bio.sistema %}
+                  <div class="ui teal label">{{entry.name}}</div>
+                  {% endfor %}
+               </div>
+            </div>
+         </div>
+         <div class="column">
+            <h4 class="ui horizontal center aligned divider header">
+               <i class="tools icon"></i>
+               Ferramentas
+            </h4>
+            <div class="ui segment">
+               <div id="teal_labels" class="ui labels small">
+                  {% for entry in site.data.bio.ferramenta %}
+                  <div class="ui teal label">{{entry.name}}</div>
+                  {% endfor %}
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="ui two column stackable grid container" style="margin-bottom: 20px;">
+         <div class="column">
+            <h4 class="ui horizontal center aligned divider header">
+               <i class="crop alternate icon"></i>
+               Frameworks
+            </h4>
+            <div class="ui segment">
+               <div id="teal_labels" class="ui labels small">
+                  {% for entry in site.data.bio.frameworks %}
+                  <div class="ui teal label">{{entry.name}}</div>
+                  {% endfor %}
+               </div>
+            </div>
+         </div>
+         <div class="column">
+            <h4 class="ui horizontal center aligned divider header">
+               <i class="terminal icon"></i>
+               IDEs
+            </h4>
+            <div class="ui segment">
+               <div id="teal_labels" class="ui labels small">
+                  {% for entry in site.data.bio.ides %}
+                  <div class="ui teal label">{{entry.name}}</div>
+                  {% endfor %}
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="ui one column stackable grid container" style="margin-bottom: 20px;">
+         <div class="column">
+            <h4 class="ui horizontal center aligned divider header">
+               <i class="book icon"></i>
+               Interesses
+            </h4>
+            <div class="ui segment">
+               <div class="ui vertical bulleted link list">
+                  {% for entry in site.data.bio.interesses_bio %}
+                  <div class="item">
+                     <div class="content">
+                        <a href="{{entry.website}}" target="_blank" rel="noopener noreferrer">{{entry.name}}</a>
+                     </div>
+                  </div>
+                  {% endfor %}
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+   </body>
 </html>
+
