@@ -118,23 +118,15 @@
                Certificados
             </h4>
             <div class="ui segment">
-               <div class="ui menu">
-                  <div class="ui fluid floating labeled icon dropdown button">
-                     Cursos
-                     <i class="dropdown icon"></i>
-                     <div class="menu">
-                        <div class="ui relaxed divided list">
-                           {% for entry in site.data.bio.certificates %}
-                           <div class="item">
-                              <div class="content" style="margin: 5px 0px 5px 8px;">
-                                 <a href="{{entry.website}}" target="_blank" class="header" style="margin-bottom: 5px;">{{entry.name}}</a>
-                                 <i class="description">{{entry.company}}</i>
-                              </div>
-                           </div>
-                           {% endfor %}
-                        </div>
+               <div class="ui relaxed divided list">
+                  {% for entry in site.data.bio.certificates %}
+                  <div class="item">
+                     <div class="content">
+                        <a href="{{entry.website}}" target="_blank" class="header">{{entry.name}}</a>
+                        <i class="description">{{entry.company}}</i>
                      </div>
                   </div>
+                  {% endfor %}
                </div>
             </div>
          </div>
