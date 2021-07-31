@@ -1,61 +1,23 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
+image: ../images/gjuwon.png
+title: ICS 111 First Project
+permalink: projects/ics11firstproject
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2019-09-26
 labels:
-  - Lisp
-  - GitHub
-summary: A text adventure game I developed for ICS 313.
+  - Java
+  - Eclipse
+  - Game Development
+summary: The first project I made in ICS 111 UH Manoa.
 ---
+<div class="ui embed" data-source="youtube" data-id="YsJgWHfSjAw" ></div>
+<h3>The Beginning</h3>
+This was the first project I did in ICS 111 at UH Manoa. Although it may not be impressive, it holds good memories for me because it represents the beginning of my journey in formally learning programming and computer science as a whole. I remember building this and being excited at each step because something I was typing was coming alive. Back then, I was much more interested in game development, and so it felt like a step towards that dream as well. Later in the course, we built more games and worked with a team as well. Those ones turned out better, not by much, but there was definitely improvement. But the reason why I hold this one is because it was the first. Not good at all, but I was proud.
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
-
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
-
-To give you a flavor of the game, here is an excerpt from one run:
-
-<hr>
-
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
-
+<h3>How The Game Was Built</h3>
+The game was built using Java and we were using Eclipse. I had programmed before with Javascript and Python, but never with Java. I personally don’t enjoy Java but the instructor had provided a library to help with all the rendering and image manipulation so it expedited the building process. I’m not sure how long this game took but it wasn’t that long. And if anything, the part that took the longest was the design and choosing what images to use as opposed to the actual logic. 
+  
+<h3>Looking Back</h3>
+After this course, my impression of Java didn’t really change. I still preferred Python or Javascript or even C/C++. But that didn’t take away from all that I had learned in that class. Although we were learning Java, I realize now that what I was really learning was how to think and collaborate like a programmer. Albeit I’m still learning that now, it’s not as drastic. While I was slaving away trying to make the error flags disappear, I realized that it taught me discipline and patience, while also giving me skills and a new thought process that could only grow and develop from there. I’m in ICS 314 now, with many many more to go. But this project will always symbolize the start, humble beginnings you could say.

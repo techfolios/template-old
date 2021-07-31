@@ -1,44 +1,22 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+image: images/hawaiicar.jpg
+title: Driving in Hawaii
+permalink: projects/drivinginhawaii
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2019-11-10
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Data Science
+  - MiniTab
+  - Python
+summary: My team in Math 372 analyzed driving data on the islands of Hawaii to see which island had the worst drivers.
 ---
 
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+For this project, our group was able to choose whatever topic we wanted to study and analyze. We looked around for large amounts of data, and after talking with some people at the Hamilton Library on UH Manoa, we found a website that provides tons of traffic data in Hawaii. Per island, it gave us annual accidents, fatal accidents, types of cars, age of drivers, etc. We took this data, separated it into islands, and used a predefined metric to see which island had the worst drivers. We took a ratio between average miles driven per vehicle and the amount of accidents. The island with the least miles driven and most accidents was deemed the worst driving island.
+
+We used Python to help scrub through endless excel spreadsheets, and a program called MiniTab to analyze and calculate standard deviation, average, along with other statistical metrics we had been learning in the class. In the end, the island with the worst driving on average was the big island, Hilo. We hypothesized that it would be Oahu, but although Hilo had a pretty low average miles driven value, it had a relatively high annual fatal crash value.
+
+<div>
+  <img width="950" height="436" src="../images/project1.png">
 </div>
-
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
-
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
-
-Here is some code that illustrates how we read values from the line sensors:
-
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
-
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
-
-
-
