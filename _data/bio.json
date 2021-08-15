@@ -105,7 +105,7 @@
       "gpa": "3.9",
       "courses": [
       ]
-    }
+    },
     {
       "institution": "University of Ruhuna, Sri Lanka",
       "area": "Chemistry and Mathematics",
@@ -117,6 +117,7 @@
       ]
     }
   ],
+
   "work": [
     {
       "company": "UH Manoa Board of Publications",
