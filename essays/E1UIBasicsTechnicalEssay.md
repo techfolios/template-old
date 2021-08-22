@@ -1,0 +1,12 @@
+---
+layout: essay
+type: essay
+title: "E1: UI Basics Technical Essay"
+date: 2021-01-14
+labels:
+---
+
+<p>While doing the WODS's for the BrowserHistory assignment I was able to learn alot about creating a webpage. In this essay I will go over my experience for each individual WOD assignment.</p>
+<p>BrowserHistory1 was all about adding content to a website and editing it so that each aspect of a webpage was included. The strategy that I used to do it was first reading the instructions and figuring out how to do things myself and started with one part of the page instead of creating the whole page for practice. In the process of figuring things out myself, it helped me learn what needed to be done, even if it meant searching the internet to find the solutions. Once I created one part of the assignment I referenced the example video and was able to ensure that I was doing it properly and throughout the video I was able to also pick up a few shortcuts as well. From there, I decided to run through the assignment in my head before starting, erased my practice, opened the links required for the assigment, and recorded my screen cast. I was able to achieve a Rx on this assignment on my first official try in a little over 7 minutes. I felt that practicing and using problem solving to learn how to do the assignment resulted in my ability to retain the information. </p>
+<p>BrowserHistory2 and 3 were revolved around styling the information in BrowserHistory1 using a .css sheet. Again I utilized the same techniques as above and was able to achieve an Rx on my first try on both assignments by completing it in approximatedly 5 and 8 minutes, respectively. The one problem that I picked up from BrowserHistory1 was, given that all the commands are new to me, I found it hard to completely remember the commands for each action. That is why I wrote each command down into my notes and ran through the assignment visually looking at the commands that I needed to run before attempting to do them. This helped drill the commands in my head and by my first attempt I knew what needed to be done in each step.</p>
+<p>Overall, I would highly recommend practicing the assignment and trying to figure out how to do it on your own before watching the video and attempting to do the assignment. By doing this, it is easier to retain the information and the commmands that are used which is the essence and purpose of the WOD assignments.

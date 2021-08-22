@@ -1,57 +1,55 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Chayse Tamaki",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://ctamaki.github.io/images/ctamaki.jpg",
+    "email": "ctamaki@hawaii.edu",
+    "phone": "808-495-2419",
+    "website": "https://ctamaki.github.io",
+    "summary": "I am studying for a B.B.A. in Marketing, Entrepreneurship, and MIS in the Shidler College of Business at the University of Hawaii. I expect to graduate in Spring, 2022.",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "postalCode": "96768",
+      "city": "Maui",
       "countryCode": "USA",
       "region": "Hawaii"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "ctamaki",
+        "url": "http://github.com/ctamaki"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "chaysetamaki",
+        "url": "http://linkedin.com/in/chaysetamaki"
       },
       {
         "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "username": "chaysetamaks",
+        "url": "http://twitter.com/chaysetamaks"
       },
       {
         "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "chaysetamaks",
+        "url": "http://instagram.com/chaysetamaks"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "track & field",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "piano",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "basketball",
       "keywords": [
       ]
     }
