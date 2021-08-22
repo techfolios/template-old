@@ -1,61 +1,24 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
+image: ../images/iJam.png
+title: iJam with Channel Randomization
+permalink: projects/iJam
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2020-09-04
 labels:
-  - Lisp
-  - GitHub
-summary: A text adventure game I developed for ICS 313.
+  - Wireless Communication
+  - RF
+  - Wireless Security
+summary: A method for secure RF communication
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+<img class="ui image" src="../images/iJam.png">
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+Being a part of Computer Engineering here at UH Manoa, meant I had to do projects (x96), the same as Electrical Engineers. I got into a group focused on Cyber Security and found what was offered interesting. Cyber security was not something I really put much thought in, and when the professor explained the aspects of it, I thought it was an engaging and important field. So, I decided to join the project as part of my x96 projects.
 
-To give you a flavor of the game, here is an excerpt from one run:
+In wireless communications, being able to privately communicate between two points is important. There are various methods for RF communications that attempt to prevent an eavesdropper from decrypting the message. The method that my group came with is iJam with channel randomization, where it utilizes both methods of friendly jamming, and channel randomization to prevent an eavesdropping from decrypting what is sent. We are using a program to interface with our hardware in order to change the parameters as needed for our experiment. I was tasked to help with creating the GUI used to run the experiment.
 
-<hr>
+So far we were able to get some preliminary results and present our findings in WiSec 2020, and can be seen in the video listed below. This is a cool event with various cyber security related topics and being a part of it was a memorable experience for me. Currently there are some kinks that are needed to be worked out, as well as different scenarios to be tested. We hope to further our research and test this method in various scenarios to determine its viability.
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
-
+Video: <a href="https://www.youtube.com/watch?v=lMRiCmiHmb0&list=PL4FCce8hBdnKuFYGLkbFG4il84N6nVk3P&index=2&t=15s"><i class="large youtube icon "></i>iJam with Channel Randomization</a>

@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Alvin Yang",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://alvinyang101.github.io/images/alvin.png",
+    "email": "ayang27@hawaii.edu",
+    "phone": "",
+    "website": "https://alvinyang101.github.io",
+    "summary": "I am studying for a B.S. in Computer Engineering in the College of Engineering at the University of Hawaii. I expect to graduate in Fall, 2020.",
     "location": {
       "address": "",
-      "postalCode": "96822",
+      "postalCode": "",
       "city": "Honolulu",
       "countryCode": "USA",
       "region": "Hawaii"
@@ -17,42 +17,43 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "alvinyang101",
+        "url": "http://github.com/alvinyang101"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "alvinyang101",
+        "url": "http://www.linkedin.com/in/alvin-yang-369955193/"
       }
+
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Internet of Things",
       "keywords": [
         "Arduino",
-        "TI MSP430"
+        "Raspberry Pi"
       ]
     },
     {
-      "name": "data mining",
+      "name": "Computer Hardware",
       "keywords": [
+        "CPU",
+        "GPU"
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Artificial Intelligence",
       "keywords": [
+        "Machine Learning",
+        "Neural Networks"
+      ]
+    },
+    {
+      "name": "Big Data",
+      "keywords": [
+        "data analysis"
       ]
     }
   ],
@@ -65,28 +66,32 @@
         "C++",
         "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "MatLab",
+        "Python",
+        "Verilog",
+        "HTML",
+        "Meteor React"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
+        "Windows",
         "MacOS",
         "Ubuntu",
         "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Eclipse",
+        "Intellij IDEA"
       ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Engineering (expected Fall, 2020)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2017-08",
       "endDate": "Present",
       "gpa": "",
       "courses": [
@@ -95,69 +100,40 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Honolulu Community College",
+      "position": "Summer Engineering Academy TA",
       "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "startDate": "2018",
+      "endDate": "2019",
+      "summary": "Assisted in helping students learn about the different engineering disciplines",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
       ]
     }
   ],
-  "volunteer": [
+  "publications": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
-    }
+    "name": "iJam with Channel Randomization",
+    "author": "Jordan L Melcher, Yao Zheng, Dylan Anthony, Matthew Troglia,
+              Thomas Yang, Alvin Yang, Samson Aggelopoulos, Yanjun Pan, Ming Li",
+    "releaseDate": "2020",
+    "summary": "Implemented a technique to prevent eavesdropping with no prior security association.
+    Precodes the bitstream with the channel effect at the receiver.
+    Prevents the decoding of the bitstream from attackers with multiple antennas."
+  },
+  {
+  "name": "FaIR: Federated Incumbent Detection in CBRS Band",
+  "author": "Matthew Troglia, Jordan Melcher, Yao Zheng, Dylan Anthony, Alvin Yang, Thomas Yang",
+  "releaseDate": "2019",
+  "summary": "Spectrum access system, detects incumbent users in the Citizens Broadband Radio Service band.
+Use environmental sensors to create a machine learning model to manage spectrum allocation."
+  }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+    "title": "Outstanding Graduating Senior",
+    "awarder": "College of Engineering University of Hawaii at Manoa",
+    "date": "2020",
+    "summary": "This bi-annual award honor exceptional undergraduate students in their final term"
     }
   ],
   "references": [
