@@ -6,7 +6,7 @@
     "email": "reyestr@hawaii.edu",
     "phone": "",
     "website": "https://triciamarier.github.io",
-    "summary": "I am studying for a B.S. in Computer Engineering in the College of at the University of Hawaii. I expect to graduate in Spring, 2022.",
+    "summary": "I am studying for a B.S. in Computer Engineering in the College of Engineering at the University of Hawaii at Manoa. I expect to graduate in Spring, 2022.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -55,8 +55,7 @@
         "C++",
         "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Assembly"
       ]
     },
     {
@@ -65,18 +64,16 @@
       "keywords": [
         "MacOS",
         "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Git/GitHub"
       ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Engineering (expected Spring, 2021)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2014-08",
       "endDate": "Present",
       "gpa": "",
       "courses": [
