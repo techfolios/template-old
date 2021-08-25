@@ -9,7 +9,7 @@
     "summary": "I am studying for a B.B.A in Finance and Management Information Systems in the Shidler College of Business at the University of Hawaii. I expect to graduate in Spring, 2023.",
     "location": {
       "address": "",
-      "postalCode": "96816",
+      "postalCode": "96822",
       "city": "Honolulu",
       "countryCode": "USA",
       "region": "Hawaii"
@@ -17,10 +17,11 @@
     "profiles": [
       {
         "network": "github",
-        "username": "cmingcl",
-        "url": "http://cmingcl.github.io"
+        "username": "mmaluhia",
+        "url": "https://cmingcl.github.io/"
       }
-  ],
+    ]
+  },
   "interests": [
     {
       "name": "Music",
