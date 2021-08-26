@@ -2,16 +2,15 @@
 layout: project
 type: project
 image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+title: 16-bit Single-Cycle LEGv8 Processor
+permalink: projects/legv8processor
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2020-12-08
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - SystemVerilog
+  - LEGv8
+  - Assembly Language
+summary: Worked on implementing a 16-bit Single-Cycle LEGv8 Processor in SystemVerilog, while learning about computer architecture and circuit design.
 ---
 
 <img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
