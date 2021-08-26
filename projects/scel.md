@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/SCEL.png
+image: images/scel.png
 title: Smart Campus Energy Lab
 permalink: projects/scel
 # All dates must be YYYY-MM-DD format!
