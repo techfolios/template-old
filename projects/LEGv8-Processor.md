@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/intel.jpg
+image: images/intel.jpeg
 title: 16-bit Single-Cycle LEGv8 Processor
 permalink: projects/legv8processor
 # All dates must be YYYY-MM-DD format!
