@@ -1,15 +1,15 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
+image: images/SCEL.png
+title: Smart Campus Energy Lab
+permalink: projects/scel
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2021-05-1
 labels:
-  - Lisp
+  - Arduino
   - GitHub
-summary: A text adventure game I developed for ICS 313.
+summary: A VIP project.
 ---
 
 <img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
