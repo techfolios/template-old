@@ -1,11 +1,11 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
+image: images/intel.jpg
 title: 16-bit Single-Cycle LEGv8 Processor
 permalink: projects/legv8processor
 # All dates must be YYYY-MM-DD format!
-date: 2020-12-08
+date: 2020-12-11
 labels:
   - SystemVerilog
   - LEGv8
