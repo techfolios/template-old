@@ -5,7 +5,7 @@ image: images/scel.png
 title: Smart Campus Energy Lab
 permalink: projects/scel
 # All dates must be YYYY-MM-DD format!
-date: 2021-05-1
+date: 2021-05-01
 labels:
   - Arduino
   - GitHub
