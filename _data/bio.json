@@ -2,56 +2,44 @@
   "basics": {
     "name": "Margaret Mulhall",
     "label": "Student",
-    "picture": "https://mgmulhall.github.io/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://mgmulhall.github.io/images/profile pic new.jpg",
+    "email": "margaretmulhall00@gmail.com",
+    "phone": "508-663-9999",
+    "website": "https://mgmulhall.github.io",
+    "summary": "I am a student at The University of Massachusetts Amherst in the Isenberg School of Managment. I am studying Operations and Information Managment with a certificate in Bussiness Analytics. I am an exchange student at The University of Hawaii at Manoa for fall 2021 and I expect to graduate in December 2021",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "postalCode": "01701",
+      "city": "Framingham",
       "countryCode": "USA",
-      "region": "Hawaii"
+      "region": "Massachsetts"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "mgmulhall",
+        "url": "http://github.com/mgmulhall"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "margaret-mulhall-isenberg",
+        "url": "www.linkedin.com/in/margaret-mulhall-isenberg"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "programming",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "data analysis",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "problem solving",
       "keywords": [
       ]
     }
