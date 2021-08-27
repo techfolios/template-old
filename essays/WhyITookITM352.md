@@ -1,4 +1,4 @@
-layouy: essay
+layout: essay
 type: essay
 title: Why I Took ITM 352
 date: 2021-08-26
