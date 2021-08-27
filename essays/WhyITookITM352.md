@@ -1,3 +1,4 @@
+---
 layout: essay
 type: essay
 title: Why I Took ITM 352
