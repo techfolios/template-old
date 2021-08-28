@@ -29,10 +29,8 @@
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Digital Systems",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
       ]
     },
     {
@@ -82,8 +80,8 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "UH Manoa College of Engineering",
+      "position": "EE Grader",
       "website": "",
       "startDate": "2015-08-01",
       "endDate": "Present",
@@ -94,8 +92,8 @@
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
+      "company": "UH Manoa College of Engineering",
+      "position": "EE Teaching Assistant",
       "website": "http://www.hawaii.edu/its/",
       "startDate": "2015-01-01",
       "endDate": "2016-03-15",
@@ -135,15 +133,15 @@
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
+      "title": "Hawai'i Community Foundation Scholarship",
+      "date": "2021-Present",
+      "awarder": "Bank of Hawaii Foundation",
       "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
+      "title": "Manoa Merit Scholarship",
+      "date": "2014-Present",
+      "awarder": "University of Hawai'i",
       "summary": "My team won first place in 2015.  See my portfolio site for more details."
     }
   ],
