@@ -6,7 +6,7 @@
     "email": "reyestr@hawaii.edu",
     "phone": "",
     "website": "https://triciamarier.github.io",
-    "summary": "I am studying for a B.S. in Computer Engineering at the University of Hawaii at Manoa. I expect to graduate in Spring 2022.",
+    "summary": "I am a senior at the University of Hawai'i at Mānoa studying for a Bachelor of Science - BS focused in Computer Engineering. I expect to graduate in Spring 2022.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -51,9 +51,8 @@
       "keywords": [
         "C",
         "C++",
-        "Java",
-        "Javascript",
-        "Assembly"
+        "Python",
+        "Assembly Language"
       ]
     },
     {
@@ -62,7 +61,7 @@
       "keywords": [
         "MacOS",
         "Ubuntu",
-        "Git/GitHub"
+        "Linux/Unix"
       ]
     }
   ],
@@ -83,51 +82,26 @@
       "company": "UH Manoa College of Engineering",
       "position": "EE Grader",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2021-08-23",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Grade quizzes and homework for EE361: Digital Systems and Computer Design and EE362: Discrete Math for Engineers",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Create quizzes online for students to take as well as grading them",
+        "Communicate with instructor and work independently"
       ]
     },
     {
       "company": "UH Manoa College of Engineering",
       "position": "EE Teaching Assistant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
       "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "startDate": "2021-06-01",
+      "endDate": "2021-08-13",
+      "summary": "Lead EE160 lab, an introduction to programming in Python",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Assist students throughout the course",
+        "Held office hours for students to come in and ask questions",
+        "Created material to help students in the lab",
+        "Graded exams of the students"
       ]
     }
   ],
@@ -136,13 +110,13 @@
       "title": "Hawai'i Community Foundation Scholarship",
       "date": "2021-Present",
       "awarder": "Bank of Hawaii Foundation",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "summary": "Scholarship awarded to children of an active-status employee of Bank of Hawaii Corporation"
     },
     {
       "title": "Manoa Merit Scholarship",
       "date": "2014-Present",
       "awarder": "University of Hawai'i",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "summary": "Scholarship awarded to first-time degree seeking students and renewed yearly by upholding a minimum overall GPA of 3.0"
     }
   ],
   "references": [
