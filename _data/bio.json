@@ -117,29 +117,255 @@
       ]
     }
   ],
-  "Publications": [
+  
+ 
+  
+  "publications": [
     {
-      "company": "Perera, D.C., Hewage, J.W. & Rasaiah, J.C. Acetic acid and propionic acid decarboxylation on Mg(OH)2 nanoclusters: a density functional theory study. J Mater Sci 2020, 55, 16914–16927",
-      "position": "",
-      "website": "https://doi.org/10.1007/s10853-020-05196-z",
-      "startDate": "2020",
-      "endDate": "",
-      "summary": "General Chemistry Undergraduate courses (CHY 123 and CHY 124)",
-      
+      "name": "Beyond course work: expanding what's valued in computer science degree programs",
+      "type": "journal",
+      "author": "Seungoh Paek, Peter Leong, Philip M. Johnson, and Carleton A. Moore",
+      "publisher": "Journal of Applied Research in Higher Education",
+      "releaseDate": "September, 2020",
+      "website": "http://csdl.ics.hawaii.edu/techreports/2020/20-08/20-08.pdf",
+      "summary": ""
     },
     {
-      "company": "University of Ruhuna, Sri Lanka",
-      "position": "Teaching Assistant",
+      "name": "Design, Implementation, and Evaluation of Open Power Quality",
+      "type": "journal",
+      "author": "Anthony J. Christe, Sergey Negrashov, and Philip M. Johnson",
+      "publisher": "Energies 13(15)",
+      "releaseDate": "August, 2020",
+      "website": "http://csdl.ics.hawaii.edu/techreports/2020/20-07/20-07.pdf",
+      "summary": ""
+    },
+    {
+      "name": "RadGrad: Removing the 'Extra' from Extracurricular to Improve Student Engagement, Retention, and Diversity",
+      "type": "conference",
+      "author": "Philip M. Johnson, Carleton A. Moore, Peter Leong, Seungoh Paek",
+      "publisher": "Proceedings of the 51st ACM Technical Symposium on Computer Science Education (SIGCSE 2020)",
+      "releaseDate": "March, 2020",
+      "website": "http://csdl.ics.hawaii.edu/techreports/2019/19-04/19-04.pdf",
+      "summary": ""
+    },
+    {
+      "name": "Design and evaluation of an athletic approach to software engineering education",
+      "type": "journal",
+      "author": "Philip M. Johnson",
+      "publisher": "ACM Transactions on Computing Education",
+      "releaseDate": "August, 2019",
+      "website": "http://csdl.ics.hawaii.edu/techreports/2019/19-03/19-03.pdf",
+      "summary": ""
+    },
+    {
+      "name": "A transient classification system implementation on an open source distributed power quality network",
+      "type": "conference",
+      "author": "Charles Dickens, Anthony J. Christe, and Philip M. Johnson",
+      "publisher": "Proceedings of the Ninth International Conference on Smart Grids, Green Communications and IT Energy-aware Technologies",
+      "releaseDate": "June, 2019",
+      "website": "http://csdl.ics.hawaii.edu/techreports/2019/19-02/19-02.pdf",
+      "summary": ""
+    },
+    {
+      "name": "OPQ Version 2: An Architecture for Distributed, Real-Time, High Performance Power Data Acquisition, Analysis, and Visualization",
+      "type": "conference",
+      "author": "A. Christe, S. Negrashov, P. Johnson, D. Nakahodo, D. Badke, and D. Aghalarpour",
+      "publisher": "Proceedings of the Seventh Annual IEEE International Conference on CYBER Technology in Automation, Control, and Intelligent Systems",
+      "releaseDate": "July, 2017",
+      "website": "http://csdl.ics.hawaii.edu/techreports/2017/17-03/17-03.pdf",
+      "summary": ""
+    },
+    {
+      "name": "Design and evaluation of the Makahiki open source serious game framework for sustainability education",
+      "type": "bookchapter",
+      "author": "Y. Xu, P.  Johnson, G. Lee, C. Moore, and R. Brewer",
+      "publisher": "In: Sustainability, Green IT and Education Strategies in the 21st Century",
+      "releaseDate": "September, 2016",
+      "website": "http://csdl.ics.hawaii.edu/techreports/2016/16-03/16-03.pdf",
+      "summary": ""
+    },
+    {
+      "name": "OpenPowerQuality: An Open Source Framework for Power Quality Collection, Analysis, Visualization, and Privacy",
+      "type": "conference",
+      "author": "A. Christe, S. Negrashov, P. Johnson",
+      "publisher": "Proceedings of the Seventh Conference on Innovative Smart Grid Technologies",
+      "releaseDate": "September, 2016",
+      "website": "http://csdl.ics.hawaii.edu/techreports/2016/16-02/16-02.pdf",
+      "summary": ""
+    },
+    {
+      "name": "An athletic approach to software engineering education",
+      "type": "conference",
+      "author": "P.Johnson, D.Port, E.Hill",
+      "publisher": "Proceedings of the 29th IEEE Conference on Software Engineering Education and Training",
+      "releaseDate": "April, 2016",
+      "website": "http://csdl.ics.hawaii.edu/techreports/2016/16-01/16-01.pdf",
+      "summary": ""
+    },
+    {
+      "name": "Is an athletic approach the future of software engineering?",
+      "type": "journal",
+      "author": "E. Hill, P. Johnson, D. Port",
+      "publisher": "IEEE Software",
+      "releaseDate": "January, 2016",
+      "website": "http://csdl.ics.hawaii.edu/techreports/2015/15-03/15-03.pdf",
+      "summary": ""
+    },
+    {
+      "name": "Three principals for the design of energy feedback visualizations",
+      "author": "R.Brewer, Y. Xu, G. Lee, M. Katchuck, C. Moore, P. Johnson",
+      "type": "journal",
+      "publisher": "International Journal on Advances in Intelligent Systems",
+      "releaseDate": "December, 2013",
       "website": "",
-      "startDate": "2014",
-      "endDate": "2015",
-      "summary": "Undergraduate lab courses in Physical Chemistry, Inorganic Chemistry and Organic Chemistry",
-      "highlights": [
-        "",
-        ""
+      "summary": ""
+    },
+    {
+      "name": "Searching under the streetlight for useful software analytics",
+      "author": "P. Johnson",
+      "type": "journal",
+      "publisher": "IEEE Software",
+      "releaseDate": "Volume 30, No. 4, July, 2013",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "SGSEAM: Assessing serious game frameworks from a stakeholder experience perspective",
+      "author": "Y. Xu, P. Johnson, C. Moore, R. Brewer, J. Takayama",
+      "type": "conference",
+      "publisher": "Proceedings of the First International Conference on Gameful Design, Research, and Applications",
+      "releaseDate": "Stratford, Ontario, Canada, October 2013",
+      "website": "http://csdl.ics.hawaii.edu/techreports/2013/13-03/13-03.pdf",
+      "summary": ""
+    },
+    {
+      "name": "Makahiki+WattDepot: An open source software stack for next generation energy research and education",
+      "author": "P. Johnson, Y. Xu, R. Brewer, C. Moore, G. Lee, A. Connell",
+      "type": "conference",
+      "publisher": "Proceedings of the 2013 Conference on Information and Communication Technologies for Sustainability",
+      "releaseDate": "Zurich, Switzerland, February 2013",
+      "website": "http://csdl.ics.hawaii.edu/techreports/2012/12-06/12-06.pdf",
+      "summary": ""
+    }
+  ],
+  "awards": [
+    {
+      "type": "award",
+      "title": "Board of Regents Medal for Excellence in Teaching",
+      "date": "June, 2019",
+      "awarder": "University of Hawaii",
+      "summary": ""
+    },
+    {
+      "type": "grant",
+      "title": "Using Degree Experience Plans to Improve Engagement, Retention, and Diversity of Undergraduates in Computer Science",
+      "date": "",
+      "awarder": "National Science Foundation",
+      "summary": "P. Johnson, Principal Investigator; Peter Leong, Seungoh Paek, Carleton Moore, Co-Principal Investigators $331,208. 2018"
+    },
+    {
+      "type": "grant",
+      "title": "President's Green Project Implementation Award",
+      "date": "",
+      "awarder": "University of Hawaii",
+      "summary": "P. Johnson, Principal Investigator. $10,000. 2018"
+    },
+    {
+      "type": "grant",
+      "title": "Human centered information integration for the smart grid",
+      "date": "",
+      "awarder": "National Science Foundation",
+      "summary": "P. Johnson, Principal Investigator. $413,467. 2010-2014"
+    },
+    {
+      "type": "grant",
+      "title": "Supporting next generation energy education with the Kukui Cup",
+      "date": "",
+      "awarder": "HEI Charitable Foundation",
+      "summary": "P. Johnson, Principal Investigator. $10,777. 2012"
+    },
+    {
+      "type": "grant",
+      "title": "Sponsorship of the 2011 Kukui Cup",
+      "date": "",
+      "awarder": "Hawaii State Department of Business, Economic Development, and Tourism",
+      "summary": "P. Johnson, Principal Investigator. $5,000. 2012"
+    },
+    {
+      "type": "grant",
+      "title": "Renewable energy and island sustainability",
+      "date": "",
+      "awarder": "University of Hawaii",
+      "summary": "Principal Investigator: T. Kuh; Co-Principal Investigators: O. Boric-Lubecke, B. Chao, M. Coffman, D. Garmire, M.Nejhad, R. Ghorbani, P. Johnson, A. Kavcic, D. Konan, B. Liaw, E. Miller, W. Qu, M. Teng, X. Zhou. $1,000,000. 2009-2011"
+    },
+    {
+      "type": "grant",
+      "title": "Google Summer of Code: Hackystat",
+      "date": "",
+      "awarder": "Google, Inc.",
+      "summary": "P. Johnson, Principal Investigator. $45,000. 2008-2009"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "level": "",
+      "keywords": [
+        "Java",
+        "Javascript",
+        "Meteor"
+      ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "level": "",
+      "keywords": [
+        "MacOS",
+        "Unix",
+        "Git/GitHub",
+        "g++",
+        "Emacs"
       ]
     }
   ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Climate Change",
+      "keywords": []
+    },
+    {
+      "name": "Software Engineering",
+      "keywords": [
+        "software metrics",
+        "full stack application development"
+      ]
+    },
+    {
+      "name": "Serious Games",
+      "keywords": []
+    },
+    {
+      "name": "Renewable Energy",
+      "keywords": [
+        "power quality",
+        "energy analytics"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "referece": ""
+    }
+  ]
+}
+ 
     "work": [
     {
       "company": "University of Maine, Orono",
