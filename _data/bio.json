@@ -306,59 +306,7 @@
       "summary": "P. Johnson, Principal Investigator. $45,000. 2008-2009"
     }
   ],
-  "skills": [
-    {
-      "name": "Languages and Frameworks",
-      "level": "",
-      "keywords": [
-        "Java",
-        "Javascript",
-        "Meteor"
-      ]
-    },
-    {
-      "name": "Toolsets/OS",
-      "level": "",
-      "keywords": [
-        "MacOS",
-        "Unix",
-        "Git/GitHub",
-        "g++",
-        "Emacs"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "name": "English",
-      "level": "Native speaker"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Climate Change",
-      "keywords": []
-    },
-    {
-      "name": "Software Engineering",
-      "keywords": [
-        "software metrics",
-        "full stack application development"
-      ]
-    },
-    {
-      "name": "Serious Games",
-      "keywords": []
-    },
-    {
-      "name": "Renewable Energy",
-      "keywords": [
-        "power quality",
-        "energy analytics"
-      ]
-    }
-  ],
-  
+   
     "work": [
     {
       "company": "University of Maine, Orono",
