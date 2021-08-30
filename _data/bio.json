@@ -8,7 +8,7 @@
     "website": "https://dcperera.github.io",
     "summary": "I am a PhD candidate in Physical Chemistry in the Chemistry department at the University of Maine. My primary research area is quantum mechanical studies of catalysis using density functional theory. I am currently working on photocatalytic water spitting reaction and metal interactions of glyphosate molecule and its effects on CKDu using density functional theory",
     "location": {
-      "address": "Rm 256, Aubert Hall, University of Maine, Orono, ME 04469",
+      "address": "Rm 256, Aubert Hall, University of Maine",
       "postalCode": "04473",
       "city": "Orono",
       "countryCode": "USA",
@@ -108,8 +108,8 @@
     },
     {
       "institution": "University of Ruhuna, Sri Lanka",
-      "area": "Chemistry and Mathematics",
-      "studyType": "BSc Special (Chemistry: GPA 3.3)",
+      "area": "Chemistry and Mathematics (GPA 3.3)",
+      "studyType": "BSc Special (Chemistry) ",
       "startDate": "2010",
       "endDate": "2014_08",
       "gpa": "3.3",
@@ -119,11 +119,11 @@
   ],
   "Publications": [
     {
-      "company": "University of Maine, Orono",
-      "position": "Teaching Assistant",
-      "website": "",
-      "startDate": "2016 January",
-      "endDate": "Present",
+      "company": "Perera, D.C., Hewage, J.W. & Rasaiah, J.C. Acetic acid and propionic acid decarboxylation on Mg(OH)2 nanoclusters: a density functional theory study. J Mater Sci 2020, 55, 16914–16927",
+      "position": "",
+      "website": "https://doi.org/10.1007/s10853-020-05196-z",
+      "startDate": "2020",
+      "endDate": "",
       "summary": "General Chemistry Undergraduate courses (CHY 123 and CHY 124)",
       
     },
