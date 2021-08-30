@@ -8,7 +8,7 @@
     "website": "https://dcperera.github.io",
     "summary": "I am a PhD candidate in Physical Chemistry in the Chemistry department at the University of Maine. My primary research area is quantum mechanical studies of catalysis using density functional theory. I am currently working on photocatalytic water spitting reaction and metal interactions of glyphosate molecule and its effects on CKDu using density functional theory",
     "location": {
-      "address": "",
+      "address": "Rm 256, Aubert Hall, University of Maine, Orono, ME 04469",
       "postalCode": "04473",
       "city": "Orono",
       "countryCode": "USA",
@@ -98,7 +98,7 @@
   "education": [
     {
       "institution": "University of Maine, ME, USA",
-      "area": "Computational Chemistry (expected Spring, 2022 GPA 3.9)",
+      "area": "Computational Chemistry (expected Spring, 2022: GPA 3.9)",
       "studyType": "PhD",
       "startDate": "2016-01-21",
       "endDate": "Present",
@@ -109,7 +109,7 @@
     {
       "institution": "University of Ruhuna, Sri Lanka",
       "area": "Chemistry and Mathematics",
-      "studyType": "BSc Special (Chemistry GPA 3.3)",
+      "studyType": "BSc Special (Chemistry: GPA 3.3)",
       "startDate": "2010",
       "endDate": "2014_08",
       "gpa": "3.3",
@@ -117,9 +117,9 @@
       ]
     }
   ],
-    "work": [
+  "Publications": [
     {
-      "company": "University of Maine",
+      "company": "University of Maine, Orono",
       "position": "Teaching Assistant",
       "website": "",
       "startDate": "2016 January",
@@ -128,19 +128,42 @@
       
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "University of Ruhuna, Sri Lanka",
+      "position": "Teaching Assistant",
+      "website": "",
+      "startDate": "2014",
+      "endDate": "2015",
+      "summary": "Undergraduate lab courses in Physical Chemistry, Inorganic Chemistry and Organic Chemistry",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "",
+        ""
       ]
     }
   ],
-  "volunteer": [
+    "work": [
+    {
+      "company": "University of Maine, Orono",
+      "position": "Teaching Assistant",
+      "website": "",
+      "startDate": "2016 January",
+      "endDate": "Present",
+      "summary": "General Chemistry Undergraduate courses (CHY 123 and CHY 124)",
+      
+    },
+    {
+      "company": "University of Ruhuna, Sri Lanka",
+      "position": "Teaching Assistant",
+      "website": "",
+      "startDate": "2014",
+      "endDate": "2015",
+      "summary": "Undergraduate lab courses in Physical Chemistry, Inorganic Chemistry and Organic Chemistry",
+      "highlights": [
+        "",
+        ""
+      ]
+    }
+  ],
+  "Conference Presentation": [
     {
       "organization": "Center for Renewable Energy and Island Sustainability",
       "website": "http://manoa.hawaii.edu/reis",
