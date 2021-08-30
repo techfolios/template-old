@@ -358,14 +358,7 @@
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Available upon request",
-      "referece": ""
-    }
-  ]
-}
- 
+  
     "work": [
     {
       "company": "University of Maine, Orono",
@@ -388,5 +381,5 @@
         ""
       ]
     }
-  ],
+  ]
 }
