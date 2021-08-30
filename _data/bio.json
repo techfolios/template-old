@@ -126,10 +126,7 @@
       "startDate": "2016 January",
       "endDate": "Present",
       "summary": "General Chemistry Undergraduate courses (CHY 123 and CHY 124)",
-      "highlights": [
-        "",
-        ""
-      ]
+     
     },
     {
       "company": "UH Information Technology Services",
@@ -154,10 +151,7 @@
       "startDate": "2016 January",
       "endDate": "Present",
       "summary": "General Chemistry Undergraduate courses (CHY 123 and CHY 124)",
-      "highlights": [
-        "",
-        ""
-      ]
+      
     },
     {
       "company": "UH Information Technology Services",
@@ -213,10 +207,5 @@
       "summary": "My team won first place in 2015.  See my portfolio site for more details."
     }
   ],
-  "references": [
-    {
-      "name": "Available upon request",
-      "reference": ""
-    }
-  ]
+  
 }
