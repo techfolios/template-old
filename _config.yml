@@ -15,7 +15,7 @@ bio-page-label: Resume
 # Defining your own custom theme variations is easy. See the documentation.
 theme-home: theme-home-builtin-2.html
 theme-projects: theme-projects-builtin-1.html
-theme-blog: theme-blog-builtin-1.html
+theme-essays: theme-blog-builtin-1.html
 theme-bio: theme-bio-builtin-2.html
 theme-highlights: theme-highlights-builtin-1.html
 
