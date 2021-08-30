@@ -247,6 +247,15 @@
       "website": "http://csdl.ics.hawaii.edu/techreports/2012/12-06/12-06.pdf",
       "summary": ""
     }
+    {
+      "name": "MOlssi",
+      "author": "P. Johnson, Y. Xu, R. Brewer, C. Moore, G. Lee, A. Connell",
+      "type": "workshop",
+      "publisher": "Proceedings of the 2013 Conference on Information and Communication Technologies for Sustainability",
+      "releaseDate": "Zurich, Switzerland, February 2013",
+      "website": "http://csdl.ics.hawaii.edu/techreports/2012/12-06/12-06.pdf",
+      "summary": ""
+    }
   ],
   "awards": [
     {
@@ -416,19 +425,6 @@
       ]
     }
   ],
-  "awards": [
-    {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": ""
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
-  ],
+  
   
 }
