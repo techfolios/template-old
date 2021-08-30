@@ -246,21 +246,19 @@
       "releaseDate": "Zurich, Switzerland, February 2013",
       "website": "http://csdl.ics.hawaii.edu/techreports/2012/12-06/12-06.pdf",
       "summary": ""
-    },
-    {
-      "name": "Makahiki+WattDepot: An open source software stack for next generation energy research and education",
-      "author": "P. Johnson, Y. Xu, R. Brewer, C. Moore, G. Lee, A. Connell",
-      "type": "workshop",
-      "publisher": "Proceedings of the 2013 Conference on Information and Communication Technologies for Sustainability",
-      "releaseDate": "Zurich, Switzerland, February 2013",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2012/12-06/12-06.pdf",
-      "summary": ""
     }
   ],
   
   "awards": [
     {
       "type": "award",
+      "title": "Board of Regents Medal for Excellence in Teaching",
+      "date": "June, 2019",
+      "awarder": "University of Hawaii",
+      "summary": ""
+    },
+    {
+      "type": "workshop",
       "title": "Board of Regents Medal for Excellence in Teaching",
       "date": "June, 2019",
       "awarder": "University of Hawaii",
