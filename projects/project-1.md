@@ -24,7 +24,7 @@ This catalyst could provide a promising decarboxylation reaction pathway that su
 
 
 
-You can learn more at the [Material Science Journal Website](https://doi.org/10.1007/s10853-020-05196-z) and https://www.sciencedirect.com/science/article/abs/pii/S2210271X15001619.
+You can learn more at the [Material Science Journal Website](https://doi.org/10.1007/s10853-020-05196-z) and [https://www.sciencedirect.com/science/article/abs/pii/S2210271X15001619].
 
 
 
