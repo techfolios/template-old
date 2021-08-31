@@ -122,30 +122,30 @@
   
   "publications": [
     {
-      "name": "Acetic acid and propionic acid decarboxylation on Mg(OH)2 nanoclusters: a density functional theory study. J Mater Sci 2020, 55, 16914–16927",
+      "name": "Acetic acid and propionic acid decarboxylation on Mg(OH)2 nanoclusters: a density functional theory study",
       "type": "journal",
       "author": "Perera, D.C., Hewage, J.W. & Rasaiah, J.C.",
-      "publisher": "Journal of Material Science",
+      "publisher": "J Mater Sci, 55, 16914–16927",
       "releaseDate": "2020",
       "website": "https://doi.org/10.1007/s10853-020-05196-z",
       "summary": ""
     },
     {
-      "name": "Design, Implementation, and Evaluation of Open Power Quality",
+      "name": "Theoretical study of catalytic decomposition of acetic acid on MgO nanosurface",
       "type": "journal",
-      "author": "Anthony J. Christe, Sergey Negrashov, and Philip M. Johnson",
-      "publisher": "Energies 13(15)",
-      "releaseDate": "August, 2020",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2020/20-07/20-07.pdf",
+      "author": "Duwage C. Perera, Jinasena W. Hewage, Nalin de Silva",
+      "publisher": "Comput. Theor. Chem, 1064, 1-6",
+      "releaseDate": "2015",
+      "website": "http://www.sciencedirect.com/science/article/pii/S2210271X15001619",
       "summary": ""
     },
     {
-      "name": "RadGrad: Removing the 'Extra' from Extracurricular to Improve Student Engagement, Retention, and Diversity",
-      "type": "conference",
-      "author": "Philip M. Johnson, Carleton A. Moore, Peter Leong, Seungoh Paek",
-      "publisher": "Proceedings of the 51st ACM Technical Symposium on Computer Science Education (SIGCSE 2020)",
-      "releaseDate": "March, 2020",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2019/19-04/19-04.pdf",
+      "name": "Theoretical Study of Stability, Structure, and Optical Spectra of Ultra-Small Silver Clusters Using Density Functional Theory",
+      "type": "journal",
+      "author": "Farshad, Mohsen; Perera, Duwage; Rasaiah, Jayendran",
+      "publisher": "chemrxiv",
+      "releaseDate": "2020",
+      "website": "https://doi.org/10.26434/chemrxiv.13272443.v1",
       "summary": ""
     },
     {
