@@ -6,7 +6,7 @@
     "email": "margaretmulhall00@gmail.com",
     "phone": "508-663-9999",
     "website": "https://mgmulhall.github.io",
-    "summary": "I am a student at The University of Massachusetts Amherst in the Isenberg School of Managment. I am studying Operations and Information Managment with a certificate in Bussiness Analytics. I am an exchange student at The University of Hawaii at Manoa for fall 2021 and I expect to graduate in December 2021.",
+    "summary": "I am a student at The University of Massachusetts Amherst in the Isenberg School of Managment. I am studying Operations and Information Managment with a certificate in Bussiness Analytics. I am an exchange student at The University of Hawaii at Manoa for fall 2021 and I expect to graduate in December 2021."
     "location": {
       "address": "",
       "postalCode": "01701",
@@ -30,18 +30,15 @@
   "interests": [
     {
       "name": "Programming",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Data Analysis",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Problem Solving",
-      "keywords": [
-      ]
+      "keywords": []
     }
-  ],
+]
 }
