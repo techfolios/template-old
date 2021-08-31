@@ -4,7 +4,7 @@
     "label": "(PhD Candidate)",
     "picture": "https://dcperera.github.io/images/6_com.JPG",
     "email": "charitha.perera@maine.edu",
-    "phone": "207-889-2030",
+    "phone": "",
     "website": "https://dcperera.github.io",
     "summary": "I am a PhD candidate in Physical Chemistry in the Chemistry department at the University of Maine. My primary research area is quantum mechanical studies of catalysis using density functional theory. I am currently working on photocatalytic water spitting reaction and metal interactions of glyphosate molecule and its effects on CKDu using density functional theory",
     "location": {
@@ -122,12 +122,12 @@
   
   "publications": [
     {
-      "name": "Beyond course work: expanding what's valued in computer science degree programs",
+      "name": "Acetic acid and propionic acid decarboxylation on Mg(OH)2 nanoclusters: a density functional theory study. J Mater Sci 2020, 55, 16914–16927",
       "type": "journal",
-      "author": "Seungoh Paek, Peter Leong, Philip M. Johnson, and Carleton A. Moore",
-      "publisher": "Journal of Applied Research in Higher Education",
-      "releaseDate": "September, 2020",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2020/20-08/20-08.pdf",
+      "author": "Perera, D.C., Hewage, J.W. & Rasaiah, J.C.",
+      "publisher": "Journal of Material Science",
+      "releaseDate": "2020",
+      "website": "https://doi.org/10.1007/s10853-020-05196-z",
       "summary": ""
     },
     {
@@ -252,13 +252,6 @@
   "awards": [
     {
       "type": "award",
-      "title": "Board of Regents Medal for Excellence in Teaching",
-      "date": "June, 2019",
-      "awarder": "University of Hawaii",
-      "summary": ""
-    },
-    {
-      "type": "workshop",
       "title": "Board of Regents Medal for Excellence in Teaching",
       "date": "June, 2019",
       "awarder": "University of Hawaii",
