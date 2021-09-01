@@ -17,13 +17,13 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "jon-valencia",
+        "url": "http://github.com/jon-valenica"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "jon-valencia",
+        "url": "http://linkedin.com/in/jon-valencia"
       },
       {
         "network": "twitter",
@@ -39,19 +39,22 @@
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "computer programming",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "game development",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "esports",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "music",
       "keywords": [
       ]
     }
@@ -63,10 +66,8 @@
       "keywords": [
         "C",
         "C++",
-        "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Verilog"
       ]
     },
     {
