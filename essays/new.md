@@ -1,12 +1,12 @@
 ---
 layout: essay
 type: essay
-title: Something New
+title: I Can't C Well So I'm Learning Javascript
 # All dates must be YYYY-MM-DD format!
 date: 2021-09-01
 labels:
-  - Engineering
   - JavaScript
+  - Learning
 ---
 
 I like to think about learning Javascript for the first time as learning a new language. It can be very difficult at the beginning but as you become familiar with using it and its syntax, it becomes second nature. Just like with humans, you need to be able to communicate properly with the computer so that you can get it to perform the task that you want it to.
