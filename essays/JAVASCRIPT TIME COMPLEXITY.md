@@ -1,4 +1,4 @@
-\---
+---
 
 layout: essay
 
@@ -10,11 +10,11 @@ date: 2021-08-31
 
 labels:
 
-- Javascript
+  - Javascript
 
-- Learning
+  - Learning
 
-\---
+---
 
 JAVASCRIPT
 
