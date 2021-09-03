@@ -13,7 +13,7 @@ labels:
 summary: A Vertically Integrated Project team. It is a student led lab that creates weatherboxes which collect meteorological data aiding in UH Manoa's renewable energy goals.
 ---
 
-Our role as the Firmware team is to help the hardware teams troubleshoot issues with their boards and to maintain and improve code and algorithms.
+In this project, I am a part of the Firmware team and our job is to maintain and improve the code and algroithms as well as help hardware teams troubleshoot the issues they face with their boards as they build weather boxes.
 
 <img class="ui image" src="{{ site.baseurl }}/images/firmware.png">
 
