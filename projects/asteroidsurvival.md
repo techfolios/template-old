@@ -13,18 +13,14 @@ summary: My team developed a Asteroid Survival game in C++. This project was the
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/asteroid.png">
+  <img class="ui image" src="../images/player.jpg">
 </div>
 
 The objective of our game is to shoot asteroids while avoiding any collisions. In order to win the game, you must face the final boss and destroy it.
 
-In this project, I was in charge of creating the bullets that the player would fire as well as the Big Boss that would show up in the final round.
+In this project, I was in charge of creating the asteroids that the player would fire at as well as the Big Boss that would show up in the final round. The asteroids had three different sizes, the larger the asteroid, the more shots it took to destroy it. In order to create the asteroid, we needed to spawn it so I made use of a vector to create them and it would spawn from every side of the screen. To make the game more difficult, as more asteroids were destroyed, the speed would increase. For the final boss that the player had to face, it moved slowly from the top of the screen. An HP bar was also displayed and slowly decreased as the player shot at the boss. When you face the final boss and completely kill it, the game has been won.
 
-
-Here is some code that illustrates how we read values from the line sensors:
 
 ```js
 byte ADCRead(byte ch)
@@ -37,8 +33,4 @@ byte ADCRead(byte ch)
     return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
 }
 ```
-
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
-
-
 
