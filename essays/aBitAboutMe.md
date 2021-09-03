@@ -6,7 +6,7 @@ type: essay
 
 title: A Bit About Me
 
-date: 2021-09-2
+date: 2021-09-02
 
 labels:
 
