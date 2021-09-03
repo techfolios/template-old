@@ -1,11 +1,19 @@
 ---
+
 layout: essay
+
 type: essay
+
 title: A Bit About Me
+
 date: 2021-09-2
+
 labels:
-- Software Engineering
-- Learning
+
+  - Software Engineering
+
+  - Learning
+
 ---
 
 A Bit About Me
