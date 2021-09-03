@@ -54,9 +54,7 @@
         "C",
         "C++",
         "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Javascript"
       ]
     },
     {
@@ -74,9 +72,9 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "area": "Computer Science (expected Fall, 2022)",
+      "studyType": "B.A.",
+      "startDate": "2018-08-01",
       "endDate": "Present",
       "gpa": "",
       "courses": [
