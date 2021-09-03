@@ -18,3 +18,29 @@ This project was an implementation of a simplified five-stage pipeline processor
 We were able to implement the five-staged pipeline computer. From the addition of the three new instructions: ADD, SUBI, and CBZ. We also saw the effect of using NOPs in the code to avoid data and control hazards. In addition to using NOPs to deal with hazards, we were able to implement the use of stalling which is a hardware insertion of NOPs to handle these hazards. After this lab, we were able to see how the five-stage pipeline works since we implemented the instructions into the CPU as well as the introduction of NOPs in hardware. In implementing the pipeline, we practiced the use of inserting NOPs in the program, as well as the hardware insertion of NOPs using stalls that we learned about in lecture. Although we weren’t able to implement the final test bench that handled both control and data hazards, we have an idea of how this testbench should be achieved, and it can later be implemented in the future.
 
 Through this project, we were able to gain a better understanding of how the pipeline works by implementing the instructions and writing code to deal with the possible hazards that can occur in the pipeline by using NOPs both in the program and in the CPU.
+
+Here is some code in SystemVerilog of the ADD instruction that was implemented:
+
+```js
+      opADD: 
+        begin
+          ctl.regWrite= 1;
+          ctl.reg2loc=1;
+          ctl.aluSrc=0;
+          ctl.aluSel=aluADD;
+          ctl.memRead=0;
+          ctl.memWrite=1;
+          ctl.mem2reg=0;
+          ctl.branch=branchNone;
+          if (((IDEX.regWrite == 1 && (regWriteIndex == IFID.instr[2:0] || regWriteIndex == IFID.instr[5:3]) && regWriteIndex != 7) || (EXMEM.regWrite == 1 && (EXMEM.regWriteIndex == IFID.instr[2:0] || EXMEM.regWriteIndex == IFID.instr[5:3]) && EXMEM.regWriteIndex != 7)))
+            begin
+            stall = 1;
+            ctl.regWrite = 0;
+            end
+          else 
+            begin
+            stall = 0;
+            ctl.regWrite = 1;
+            end 
+        end
+```
