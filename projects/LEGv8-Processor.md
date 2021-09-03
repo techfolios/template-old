@@ -12,8 +12,9 @@ labels:
   - Assembly Language
 summary: Worked on implementing a 16-bit Single-Cycle LEGv8 Processor in SystemVerilog, while learning about computer architecture and circuit design.
 ---
-<img class="ui medium left floated image" src="../images/legv8.png">
+
 This project was an implementation of a simplified five-stage pipeline processor. It went over the implementation of CPU instructions and handling data and control hazards in the pipeline. 
+<img class="ui image" src="{{ site.baseurl }}/images/legv8.png">
 
 In this project, my partner and I were able to implement the five-staged pipeline computer. In this project we implemented three new instructions: ADD, SUBI, and CBZ. We also saw the effect of using NOPs in the code to avoid data and control hazards. NOPs are basically an operation that does nothing and causes a delay in the pipeline. In addition to using NOPs, we implemented the use of stalling which is a hardware insertion of NOPs to handle these hazards.
 
