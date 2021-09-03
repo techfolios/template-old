@@ -10,7 +10,7 @@ labels:
   - Object-oriented programming
   - C++
   - Ubuntu
-summary: My team developed a Asteroid Survival game in C++. This project was the capstone of our EE205 class, making use of what we learned throughout the semester on object-oriented programming into creating this final project.
+summary: My team developed an Asteroid Survival game in C++. This project was the capstone of our EE205 class, making use of what we learned throughout the semester on object-oriented programming into creating this final project.
 ---
 <img class="ui tiny left circular floated image" src="../images/player.png">
 For the final project of my EE205 course, we were given the opportunity to create our own project that utilized object-oriented programming. My team decided that we wanted to create a game similar to what we've played before online, which was an asteroid survival game. The objective of our game is to shoot asteroids while avoiding any collisions. In order to win the game, you must face the final boss and destroy it.
