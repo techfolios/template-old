@@ -41,4 +41,4 @@ Code for collision detection between the ship and asteroids:
 	}
 ```
 
-I wish I could include the GitHub repository, but we made it private and I'm no the original owner of the repository :( 
+I wish I could include the GitHub repository, but we made it private and I'm no the original owner of the repository :(.
