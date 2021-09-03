@@ -18,4 +18,4 @@ Going into the 2021 season, the Overwatch League had to come up with a plan to g
 Through an internship with Overwatch League and the University of Hawaii Esports program, I have been able to get a hands on experience with the inner workings of the Overwatch League as well as getting to learn from some of industries top professionals in both casual and professional settings.
 
 Learn more [here](https://overwatchleague.com/en-us/videos/yyy_2l6aOirhdQI) about Overwatch League and University of Hawaii's partnership that made this whole thing possible!
-
+asdf
