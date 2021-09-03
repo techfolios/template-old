@@ -17,8 +17,6 @@ This project was an implementation of a simplified five-stage pipeline processor
 
 In this project, my partner and I were able to implement the five-staged pipeline computer. In this project we implemented three new instructions: ADD, SUBI, and CBZ. We also saw the effect of using NOPs in the code to avoid data and control hazards. NOPs are basically an operation that does nothing. In addition to using NOPs, we implemented the use of stalling which is a hardware insertion of NOPs to handle these hazards.
 
-Through this project, we were able to gain a better understanding of how the pipeline works by implementing the instructions and writing code to deal with the hazards that can occur in the pipeline by using NOPs both in the program and in the CPU.
-
 Here is some code in SystemVerilog of the CBZ instruction that was implemented in the CPU controller:
 
 ```js
@@ -36,3 +34,5 @@ Here is some code in SystemVerilog of the CBZ instruction that was implemented i
 ```
 
 One of the instruction we implemented is the CBZ instruction. CBZ is a conditional branch instruction that performs a branch if the register is equal to zero. The conditional branch is a test that determines what the next PC value will be. Thus, it requires three NOPs to handle control hazards compared to the two NOPs necessary for handling data hazards. We added the CBZ instruction in the controller of the CPU, setting the necessary inputs for each part of the controller.
+
+Through this project, we were able to gain a better understanding of how the pipeline works by implementing the instructions and writing code to deal with the hazards that can occur in the pipeline by using NOPs both in the program and in the CPU.
