@@ -10,9 +10,9 @@ date: 2021-09-2
 
 labels:
 
-  - Software Engineering
+ - Software Engineering
 
-  - Learning
+ - Learning
 
 ---
 
