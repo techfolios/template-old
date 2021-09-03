@@ -2,14 +2,14 @@
   "basics": {
     "name": "Jonathan Valencia",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
+    "picture": "../images/IMG_20210902_220850",
     "email": "jon.valencia@outlook.com",
     "phone": "808-381-1814",
     "website": "https://jon-valencia.github.io",
     "summary": "I am studying for a B.S. in Computer Engineering in the College of Engineering at the University of Hawaii at Manoa. I expect to graduate in the Fall of 2021.",
     "location": {
-      "address": "",
-      "postalCode": "96822",
+      "address": "46-160 Kiowai Street, UNIT 2324",
+      "postalCode": "96744",
       "city": "Honolulu",
       "countryCode": "USA",
       "region": "Hawaii"
@@ -27,13 +27,13 @@
       },
       {
         "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "username": "wmbology",
+        "url": "http://twitter.com/wmbology"
       },
       {
         "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "jawnothan",
+        "url": "http://instagram.com/jawnothan"
       }
     ]
   },
