@@ -9,7 +9,8 @@ date: 2021-05-01
 labels:
   - Arduino
   - GitHub
-summary: A VIP project.
+  - C/C++
+summary: A Vertically Integrated Project team. It is a student led lab and our goal is to make UH Manoa a more renewable campus by gathering meteorological data.
 ---
 
 <img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
@@ -57,5 +58,4 @@ The corridor is lit with the candle. It is so long that you cannot see to the en
 
 <hr>
 
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
-
+Source: <a href="http://scel-hawaii.org/">
