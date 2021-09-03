@@ -2,7 +2,7 @@
   "basics": {
     "name": "Jonathan Valencia",
     "label": "Student",
-    "picture": "../images/IMG_20210902_220850",
+    "picture": "../images/me.jpg",
     "email": "jon.valencia@outlook.com",
     "phone": "808-381-1814",
     "website": "https://jon-valencia.github.io",
@@ -39,22 +39,22 @@
   },
   "interests": [
     {
-      "name": "computer programming",
+      "name": "Computer Programming",
       "keywords": [
       ]
     },
     {
-      "name": "game development",
+      "name": "Game Development",
       "keywords": [
       ]
     },
     {
-      "name": "esports",
+      "name": "Esports",
       "keywords": [
       ]
     },
     {
-      "name": "music",
+      "name": "Music",
       "keywords": [
       ]
     }
