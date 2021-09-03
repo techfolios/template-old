@@ -1,4 +1,22 @@
-﻿A Bit About Me
+---
+
+layout: essay
+
+type: essay
+
+title: A Bit About Me
+
+date: 2021-09-2
+
+labels:
+
+  - Software Engineering
+
+  - Learning
+
+---
+
+A Bit About Me
 
 I am new to software engineering and ready to learn.  I am currently looking for an internship to get my feet wet.  I wasn’t around too much technology when I was younger and never really got into computers all that much.  It wasn’t until I had taken a computer science course in community college that I realized how interesting coding is.  It’s like a puzzle, and every skill you learn is a piece that can help you solve it.  One of the most rewarding things is reaching a proper working code after hours of debugging.  So I switched my major and decided to run with it.
 
