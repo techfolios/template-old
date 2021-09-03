@@ -10,52 +10,11 @@ labels:
   - Arduino
   - GitHub
   - C/C++
-summary: A Vertically Integrated Project team. It is a student led lab and our goal is to make UH Manoa a more renewable campus by gathering meteorological data.
+summary: A Vertically Integrated Project team. It is a student led lab that creates weatherboxes which collect meteorological data aiding in UH Manoa's renewable energy goals.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+Our role as the Firmware team is to help the hardware teams troubleshoot issues with their boards and to maintain and improve code and algorithms.
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+<img class="ui image" src="{{ site.baseurl }}/images/firmware.png">
 
-To give you a flavor of the game, here is an excerpt from one run:
-
-<hr>
-
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="http://scel-hawaii.org/">
+As seen in the image above, the weatherbox is where the firmware code is uploaded. The data is then transmitted between the different sensors and the microcontroller. The firmware encodes the data and sends it through the onboard XBee router to the XBee coordinator located in the lab. From there, the data is decoded on the gateway and saved into CSV files. These files are stored in the database through the Postgres protocol and can then be pulled by dashboard and forecasting teams. The dashboard team will gather the data and upload it to the front end so that users can access it, while the forecasting team can use the data to create statistical models in order to predict meteorological trends.
