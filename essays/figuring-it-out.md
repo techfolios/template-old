@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Figuring it Out
+title: Figuring It Out
 # All dates must be YYYY-MM-DD format!
 date: 2021-09-02
 labels:
