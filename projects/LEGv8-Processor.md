@@ -23,17 +23,17 @@ There were a total of four testbenches that we needed to get working. We mostly 
 Here is some code in SystemVerilog of the CBZ instruction that was implemented in the CPU controller:
 
 ```js
-       opCBZ:
-        begin
-          ctl.regWrite=0;
-          ctl.reg2loc=0;
-          ctl.aluSrc=1;
-          ctl.aluSel=aluPASSFromInput1;
-          ctl.memRead=0;
-          ctl.memWrite=0;
-          ctl.mem2reg=0;
-          ctl.branch=branchCB;
-        end
+opCBZ:
+  begin
+    ctl.regWrite=0;
+    ctl.reg2loc=0;
+    ctl.aluSrc=1;
+    ctl.aluSel=aluPASSFromInput1;
+    ctl.memRead=0;
+    ctl.memWrite=0;
+    ctl.mem2reg=0;
+    ctl.branch=branchCB;
+   end
 ```
 
 One of the instruction we implemented is the CBZ instruction. CBZ is a conditional branch instruction that performs a branch if the register is equal to zero. The conditional branch is a test that determines what the next PC value will be. Thus, it requires three NOPs to handle control hazards compared to the two NOPs necessary for handling data hazards. We added the CBZ instruction in the controller of the CPU, setting the necessary inputs for each part of the controller.
