@@ -6,10 +6,9 @@ title: Pokemon
 permalink: projects/pokemon
 date: 2020-07-01
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Project
+  - Java
+summary: Teamed up with another student to remake Pokemon Go!
 ---
 
 <img class="ui medium right floated rounded image" src="/images/Pikachu.png">
