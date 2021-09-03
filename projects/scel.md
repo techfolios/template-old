@@ -19,7 +19,7 @@ In this project, I am a part of the Firmware team and our job is to maintain and
 
 <img class="ui image" src="{{ site.baseurl }}/images/firmware.png">
 
-As seen in the image above, the weatherbox is where the firmware code is uploaded. The data is then transmitted between the different sensors and the microcontroller. The firmware encodes the data and sends it through the onboard XBee router to the XBee coordinator located in the lab. From there, the data is decoded on the gateway and saved into CSV files. These files are stored in the database through the Postgres protocol and can then be pulled by dashboard and forecasting teams. The dashboard team will gather the data and upload it to the front end so that users can access it, while the forecasting team can use the data to create statistical models in order to predict meteorological trends.
+As seen in the image above, the weatherbox is where the firmware code is uploaded. The data is transmitted between the different sensors and the microcontroller. The firmware also encodes the data and sends it through the onboard XBee router to the coordinator located in the lab. From there, the data is decoded on the gateway and saved into CSV files. These files are stored in the database through the Postgres protocol and can then be pulled by dashboard and forecasting teams. The dashboard team will gather the data and upload it to the front end so that users can access it, while the forecasting team can use the data to create statistical models in order to predict meteorological trends.
 
 ## Team Accomplishments
 
