@@ -19,7 +19,7 @@ In this project, my partner and I were able to implement the five-staged pipelin
 
 Through this project, we were able to gain a better understanding of how the pipeline works by implementing the instructions and writing code to deal with the hazards that can occur in the pipeline by using NOPs both in the program and in the CPU.
 
-Here is some code in SystemVerilog of the CBZ instruction that was implemented:
+Here is some code in SystemVerilog of the CBZ instruction that was implemented in the CPU controller:
 
 ```js
        opCBZ:
