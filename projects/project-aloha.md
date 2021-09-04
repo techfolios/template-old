@@ -5,7 +5,7 @@ image: images/OWL.jpg
 title: Project Aloha
 permalink: projects/project-aloha
 # All dates must be YYYY-MM-DD format!
-date: 2021-05-04 - Present
+date: 2021-05-04
 labels:
 - Overwatch League
 summary: I assisted in hosting the Overwatch League at the University of Hawaii.
