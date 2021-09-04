@@ -5,7 +5,7 @@ image: images/UHE_logo_v4.png
 title: UH Esports
 permalink: projects/uhesports
 # All dates must be YYYY-MM-DD format!
-date: 2019-02-05 - Present
+date: 2019-02-05
 labels:
 - Esports
 summary: At the beginning of the Spring 2019 semester I joined UH Esports.
