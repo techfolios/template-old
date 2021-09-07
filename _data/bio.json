@@ -69,7 +69,14 @@
         "Unix",
         "Git/GitHub"
       ]
-    }
+    },
+    {
+      "name": "Music",
+      "level: "",
+      "keywords": [
+        "Clarinet",
+        "Vocal"
+      ]
   ],
   "education": [
     {
@@ -88,7 +95,7 @@
       "company": "University of Hawaii",
       "position": "Circulation Records: Student Assistant IV",
       "website": "",
-      "startDate": "2021-09-24",
+      "startDate": "2018-09-24",
       "endDate": "Present",
       "summary": "",
       "highlights": [
