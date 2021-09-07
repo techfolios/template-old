@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Javascript, a Mental Workout
+title: JavaScript, a Mental Workout
 date: 2021-09-01
 labels:
   - Javascript
