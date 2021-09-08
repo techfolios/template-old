@@ -1,3 +1,12 @@
+---
+layout: essay
+type: essay
+title: Introducing Me
+# All dates must be YYYY-MM-DD format!
+date: 2021-09-08
+labels:
+  - Bio
+---
 # Introduction
 
 29 Aug 2021
