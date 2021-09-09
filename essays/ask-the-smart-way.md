@@ -10,7 +10,7 @@ labels:
   - StackOverflow
 ---
 
-<img class="ui medium left floated image" src="../images/rtfm.png">
+<img class="ui medium left floated image" src="../images/dumbq2.jpeg">
 
 ## The Trouble with Questions
 
@@ -27,12 +27,11 @@ In the following example, we examine the components of a decent question. In thi
 ```
 Q: How do I find all files containing specific text on Linux?
 
-Want to improve this post? Provide detailed answers to this question, including citations and an explanation of why your answer is correct. Answers without enough detail may be edited or deleted.
 I'm trying to find a way to scan my entire Linux system for all files containing a specific string of text. Just to clarify, I'm looking for text within the file, not in the file name.
 
 When I was looking up how to do this, I came across this solution twice:
+  find / -type f -exec grep -H 'text-to-find-here' {} \;
 
-find / -type f -exec grep -H 'text-to-find-here' {} \;
 However, it doesn't work. It seems to display every single file in the system.
 
 Is this close to the proper way to do it? If not, how should I? This ability to find text strings in files would be extraordinarily useful for some programming projects I'm doing.
