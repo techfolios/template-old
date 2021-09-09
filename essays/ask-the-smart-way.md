@@ -1,9 +1,9 @@
 ---
 layout: essay
 type: essay
-title: Smart Questions, Good Answers
+title: Asking the Smart Way
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
+date: 2021-09-09
 labels:
   - Questions
   - Answers
@@ -12,44 +12,30 @@ labels:
 
 <img class="ui medium left floated image" src="../images/rtfm.png">
 
-## Is there such thing as a stupid question?
+## The Trouble with Questions
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+I've always had trouble asking questions when I needed help. Most of the time, I end up figuring out the solution to my problem on my own, which does waste a lot of time. Despite hearing every single professor say, "Ask questions because there's no such thing as a stupid question," I find it difficult when I ask a question but get an answer that I can't quite understand myself.
 
-## What’s a smart question?
+There are definitely stupid questions, and along with that, usually unhelpful answers.
+
+## Difference Between Smart and Stupid Questions
 
 Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
 
 In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
 
 ```
-Q: python date of the previous month
+Q: How do I find all files containing specific text on Linux?
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
+Want to improve this post? Provide detailed answers to this question, including citations and an explanation of why your answer is correct. Answers without enough detail may be edited or deleted.
+I'm trying to find a way to scan my entire Linux system for all files containing a specific string of text. Just to clarify, I'm looking for text within the file, not in the file name.
 
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
+When I was looking up how to do this, I came across this solution twice:
 
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
+find / -type f -exec grep -H 'text-to-find-here' {} \;
+However, it doesn't work. It seems to display every single file in the system.
 
-I have solved this trouble in bash with:
-
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
+Is this close to the proper way to do it? If not, how should I? This ability to find text strings in files would be extraordinarily useful for some programming projects I'm doing.
 ```
 
 While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
@@ -81,14 +67,9 @@ The asker received six possible answers, and he or she was successful in incitin
 While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
 
 ```
-Q: Facebook Desktop Notifier
+Q: Binary Tree Height
 
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
+I need a general formula to calculate the minimum height of the binary tree and the maximum height of the binary tree. (not the binary search tree)
 ```
 
 A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
