@@ -10,7 +10,7 @@ labels:
   - StackOverflow
 ---
 
-<img class="ui medium left floated image" src="../images/dumbq2.jpeg">
+<img class="ui medium right floated image" src="../images/dumbq2.jpeg">
 
 ## The Trouble with Questions
 
