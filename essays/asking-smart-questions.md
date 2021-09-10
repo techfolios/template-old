@@ -26,7 +26,9 @@ The user explains that they are trying to use a template literal, but instead of
 
 # Example of an Ineffective Question
 [Here](https://stackoverflow.com/questions/42384565/return-json-object-with-duplicate-keys-using-c-sharp) is an example of an ineffective question. This post doesn't really even pose a question, rather a statement that they've tried something, but it's not working and giving them the wrong output. In this case the OP was only focused one way of answering the question rather than thinking of other solutions, a commenter even goes on to say: 
-```
-You have a classic "XY" problem. You have asked "How do I do X", but you really need to do Y and you think that X is the only way to get to Y -- but X is either impossible or very hard. By changing your requirements a little, you can get to Y a different way, but you haven't seen that yet since you're stuck on X.
-```
-and eventually answer's OP's question using a much simpler method.
+> You have a classic "XY" problem. You have asked "How do I do X", but you really need to do Y and you think that X is the only way to get to Y -- but X is either impossible or very hard. By changing your requirements a little, you can get to Y a different way, but you haven't seen that yet since you're stuck on X.
+
+and eventually answers OP's question using a much simpler method.
+
+
+
