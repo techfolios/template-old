@@ -23,6 +23,7 @@ I often use Stack Overflow to find solutions to problems I face while coding. St
 
 The following example, shows what components are needed in order to ask a smart question. In this question, the asker wants to know how to find files that contain a specific text in Linux.
 
+[Good Question](https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux/16957078#16957078)
 ```
 Q: How do I find all files containing specific text on Linux?
 
@@ -35,7 +36,6 @@ However, it doesn't work. It seems to display every single file in the system.
 
 Is this close to the proper way to do it? If not, how should I? This ability to find text strings in files would be extraordinarily useful for some programming projects I'm doing.
 ```
- [Good Question](https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux/16957078#16957078).
  
 The title of his question showed exactly what he was trying to figure out. In addition to this, the asker began his question by stating his goal. He the went into specifics of what he tried and the result he got. This shows that he has put in effort to find a solution to his problem, but did not have any success in finding a solution that works for him, and therefore decided to ask it himself. One thing that the asker did fail to do was show courtesy with a thank you to whoever may answer his question.
  
@@ -43,12 +43,12 @@ There were about 54 responses to his question, showing that he succeeded in rece
 
 Of course the opposite of smart questions, would of course be bad questions. This does not mean that his question is not worth answering, but that the manner in which it was asked may not receive helpful answers. In this example, the user wants to find a general formula to calculate the minimum and maximum height of a binary tree.
 
+[Bad Question](https://stackoverflow.com/questions/1951091/binary-tree-height)
 ```
 Q: Binary Tree Height
 
 I need a general formula to calculate the minimum height of the binary tree and the maximum height of the binary tree. (not the binary search tree)
 ```
- [Bad Question](https://stackoverflow.com/questions/1951091/binary-tree-height).
  
 The title of the user's question was relevant to what he was trying to solve. However, when you look at the user's problem you can see that he did not put any effort into explaining exactly what he needed. Luckily, this question did receive responses from kind people who were willing to help. Multiple comments stated that he needed to be more specific with his question. There was also a comment with an explanation of how to find the solution, but not giving it because it "seemed like a homework problem" that the asker needed an answer for. The asker should have shown some effort towards finding a solution before going straight to Stack Overflow to ask for help. He could have also been more detailed with his question, but it seemed like he did not put any effort in himself to understand how to solve the problem. 
 
