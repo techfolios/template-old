@@ -9,7 +9,7 @@ labels:
   - Learning
 ---
 
-My first experience with coding was with a programming language called C. Throughout the courses I have taken in college, the language mainly used was C. I would like to think that since that time, I have become more proficient with C and felt like it was a good time to learn a new language. Luckily, through my ICS314 course, I have the opportunity to learn JavaScript. 
+My first experience with coding was with a programming language called C. Throughout the courses I have taken in college, the language mainly used was C. I would like to think that since that time, I have become proficient in C and felt like it was a good time to learn a new language. Luckily, through my ICS314 course, I have the opportunity to learn JavaScript. 
 
 As I began learning JavaScript, I thought of it as learning a new language. It can be very difficult at the beginning but as you become familiar with using it and its syntax and toolsets, it becomes second nature. Just like teaching someone something new, you need to be able to communicate properly with the computer so that you can get it to perform the task that you want it to. As I began learning the basics of JavaScript, I felt that it was familiar and similar to what I’ve learned in the past in terms of syntax. On the other hand, I would also say that a difference is that JavaScript has a lot more flexibility as it can handle variables and functions more easily, and the functions can be treated like a variable.
 
