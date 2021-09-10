@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Professional Bio
+title: Technical Essay
 date: 2021-09-09
 labels:
   - essay
