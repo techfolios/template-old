@@ -12,17 +12,16 @@ labels:
 
 <img class="ui medium right floated image" src="../images/dumbq.jpeg">
 
-## The Trouble with Questions
+## The Trouble of Questions
 
-I've always had trouble asking questions when I needed help. Most of the time, I end up figuring out the solution to my problem on my own, which does waste a lot of time. Despite hearing every single professor say, "Ask questions because there's no such thing as a stupid question," I find it difficult when I ask a question but get an answer that I can't quite understand myself.
-
-There are definitely stupid questions, and along with that, usually unhelpful answers.
+I've always had trouble asking questions when I needed help. Most of the time, I end up figuring out the solution to my problem on my own, which does waste a lot of time. Despite hearing every single professor say, "Ask questions because there's no such thing as a stupid question," I try to stay away from doing so. I find it difficult when I ask a question because I sometimes get an answer that I can't quite understand myself. However, I realized there must be a beneficial way to ask questions so that the answer I get will be a smart one too.
 
 ## Difference Between Smart and Stupid Questions
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+I often use Stack Overflow to find solutions to problems I face while coding. Stack Overflow, a website where programmers ask questions. I will say that as I try to find solutions, I myself have come across bad questions that receive answers that are unhelpful or a request for more clarification. Therefore, we must distinguish the two different types of questions smart ones and stupid ones to learn how to ask good questions.
 
-The following example, shows what components are needed in order to ask a smart question. For this question, the askwer wants to know how to find files that contain a specific text in Linux.
+
+The following example, shows what components are needed in order to ask a smart question. For this question, the asker wants to know how to find files that contain a specific text in Linux.
 
 ```
 Q: How do I find all files containing specific text on Linux?
