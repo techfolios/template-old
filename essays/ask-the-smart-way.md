@@ -22,7 +22,7 @@ I often use Stack Overflow to find solutions to problems I face while coding. St
 
 The following example shows what components are needed to ask a smart question. In this question, the asker wants to know how to find files that contain a specific text in Linux.
 
-<a href="https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux/16957078#16957078"><i class="large stack overflow icon"></i> The Good Question
+<a href="https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux/16957078#16957078"><i class="large stack overflow icon"></i> The Good Question</a>
 
 ```
 Q: How do I find all files containing specific text on Linux?
@@ -43,7 +43,7 @@ There were about 54 responses to his question, showing that he succeeded in rece
 
 Of course, the opposite of smart questions would be bad questions. This does not mean that his question is not worth answering, but that how it was asked may not receive helpful answers. In this example, the user wants to find a general formula to calculate the minimum and maximum height of a binary tree.
 
-<a href="https://stackoverflow.com/questions/1951091/binary-tree-height"><i class="large stack overflow icon"></i> The Bad Question
+<a href="https://stackoverflow.com/questions/1951091/binary-tree-height"><i class="large stack overflow icon"></i> The Bad Question</a>
 ```
 Q: Binary Tree Height
 
