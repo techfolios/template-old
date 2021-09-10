@@ -22,7 +22,7 @@ There are definitely stupid questions, and along with that, usually unhelpful an
 
 Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+The following example, shows what components are needed in order to ask a smart question. For this question, the askwer wants to know how to find files that contain a specific text in Linux.
 
 ```
 Q: How do I find all files containing specific text on Linux?
@@ -36,21 +36,21 @@ However, it doesn't work. It seems to display every single file in the system.
 
 Is this close to the proper way to do it? If not, how should I? This ability to find text strings in files would be extraordinarily useful for some programming projects I'm doing.
 ```
-
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
+The title of his question showed exactly what he was trying to figure out. In addition to this, the asker began his question by stating his goal. He the went into specifics of what he tried and the result he got. This shows that he has put in effort to find a solution to his problem, but did not have any success in finding a solution that works for him, and therefore decided to ask it himself. Although not as important, the asker did fail to show courtesy with a thank you to whoever may answer his question.
  
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
+There were almost 54 responses to his question, showing that he succeeded in receiving a solution from many users. The answers were filled with various solutions to his problem, and the top answer was very informative in showing the command he could use, and explaining how he could change different parts of it to achieve different results when trying to search for a specific text.
 
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
+The opposite of smart questions, would of course be unhelpful questions. While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, the user wants to find a general formula to calculate the minimum and maximum height of a binary tree.
 
 ```
 Q: Binary Tree Height
 
 I need a general formula to calculate the minimum height of the binary tree and the maximum height of the binary tree. (not the binary search tree)
 ```
+The title of the user's question was relevant to what he was trying to solve. However, when you look at the user's problem you can see that he did not put any effort into explaining exactly what he needed. It is also not right. 
 
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
+There were responses to his question, by kind people who were willing to answer it. But many of the comments stated that he needed to be more specific with his problem, and there was also a comment explaining how to find the solution, but not giving it because it seemed like a homework problem he needed an answer for. The asker should have shown some effort towards a solution before going straight to StackOverflow to ask the question. He could have also been more detailed with his question, but it seemed like he did not put any effort in himself to understand how to solve the problem. 
 
 ## Conclusion
 
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+Despite having difficulty asking people for help, I think the practice of asking smart questions is good and beneficial. Smart questions will get smart answers, so I shouldn't be afraid of asking for help when I need it as long as I ask it smartly.
