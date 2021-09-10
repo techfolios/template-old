@@ -22,7 +22,7 @@ console.log(`categoryName: ${this.categoryName}\ncategoryElements: ${categoryEle
 VM626:1 categoryName: name 
 categoryElements: element
 ```
-The user explains that they are trying to use a template literal, but instead of displaying the value stored in the template literal it is displaying the literal code that is used to write a template literal. The question goes on to get answered with the very next post which explains to the OP(original poster) that a template literal requires the use of backticks instead of single or double quotes. This question was answered quickly because the OP provided the necessary information to provide context for their question.
+The user explains that they are trying to use a template literal, but instead of displaying the value stored in the template literal it is displaying the literal code that is used to write a template literal. The question goes on to get answered with the very next post which explains to the OP(original poster) that a template literal requires the use of backticks instead of single or double quotes. 
 
 # Example of an Ineffective Question
 [Here](https://stackoverflow.com/questions/42384565/return-json-object-with-duplicate-keys-using-c-sharp) is an example of an ineffective question. This post doesn't really even pose a question, rather a statement that they've tried something, but it's not working and giving them the wrong output. In this case the OP was only focused one way of answering the question rather than thinking of other solutions, a commenter even goes on to say: 
@@ -30,5 +30,5 @@ The user explains that they are trying to use a template literal, but instead of
 
 and eventually answers OP's question using a much simpler method.
 
-
+In the first example the question was answered quickly because the OP provided the necessary information to provide context for their question. In the second example, although the OP posted their code context and got question answered, they were met with some hostility about their approach to the problem because they thought that their method was the only way to solve their problem.
 
