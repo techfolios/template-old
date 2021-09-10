@@ -10,14 +10,14 @@ date: 2021-09-02
 
 labels:
 
-`  `- Stack Overflow
+  - Stack Overflow
 
-`  `-Questions
+  -Questions
 
 ---
 
 
-and the insights you gained as a result of this experience
+
 
 \# Asking Smart Questions
 
