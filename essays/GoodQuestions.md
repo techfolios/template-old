@@ -1,15 +1,20 @@
 ---
+
 layout: essay
+
 type: essay
+
 title: Asking Smart Questions
+
 date: 2021-09-09
+
 labels:
+
   - Stack Overflow
-  -Questions
+
+  - Questions
+
 ---
-
-
-
 
 # Asking Smart Questions
 
