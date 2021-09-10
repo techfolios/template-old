@@ -16,7 +16,6 @@ labels:
 
 ---
 
-# Asking Smart Questions
 
 Asking smart questions comes down to communication.  The goal of a smart question is to accurately convey a problem so that answers can be returned just as accurately.  Smart questions lead to smart answers that may include more information than was thought necessary, fostering more growth and learning.  When questions are asked poorly, miscommunications happen which means time is lost. It causes frustration for both parties when it is unclear what information is being searched for. Below are two examples of questions, one good and one bad.
 
