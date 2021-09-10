@@ -10,10 +10,9 @@ labels:
   - StackOverflow
 ---
 
-<img class="ui medium right floated image" src="../images/dumbq.jpeg">
-
 ## The Trouble with Questions
 
+<img class="ui medium right floated image" src="../images/dumbq.jpeg">
 I've always had trouble asking questions when I needed help. Most of the time, I end up figuring out the solution to my problem on my own, which does waste a lot of time. Despite hearing many professors say, "Ask questions because there's no such thing as a stupid question," I try to stay away from asking them. I find it difficult when asking questions because I sometimes get an answer that I can't quite understand myself. However, I realized there must be a beneficial way to ask questions so that the answer I get will be a smart one too.
 
 ## Difference Between Smart and Stupid Questions
