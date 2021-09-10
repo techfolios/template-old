@@ -1,4 +1,4 @@
-﻿\---
+---
 
 layout: essay
 
@@ -14,7 +14,7 @@ labels:
 
 `  `-Questions
 
-\---
+---
 
 
 and the insights you gained as a result of this experience
