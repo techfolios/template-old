@@ -12,7 +12,7 @@ labels:
 
 <img class="ui medium right floated image" src="../images/dumbq.jpeg">
 
-## The Trouble of Questions
+## The Trouble with Questions
 
 I've always had trouble asking questions when I needed help. Most of the time, I end up figuring out the solution to my problem on my own, which does waste a lot of time. Despite hearing every single professor say, "Ask questions because there's no such thing as a stupid question," I try to stay away askin them. I find it difficult when I ask a question because I sometimes get an answer that I can't quite understand myself. However, I realized there must be a beneficial way to ask questions so that the answer I get will be a smart one too.
 
