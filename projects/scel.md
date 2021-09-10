@@ -10,7 +10,7 @@ labels:
   - Arduino
   - GitHub
   - C/C++
-summary: A Vertically Integrated Project team. It is a student-led lab that creates weatherboxes that collect meteorological data aiding in UH Manoa's renewable energy goals.
+summary: It is a student-led lab that creates weatherboxes that collect meteorological data aiding in UH Manoa's renewable energy goals.
 ---
 
 In this project, I am a part of the Firmware team and our job is to maintain and improve the code and algorithms as well as help hardware teams troubleshoot the issues they face with their boards as they build weatherboxes.
