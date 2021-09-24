@@ -4,7 +4,7 @@ layout: essay
 
 type: essay
 
-title: made flint out of eslint print during my stint
+title: Linting...
 
 date: 2021-09-23
 
@@ -16,14 +16,12 @@ labels:
 
 ---
 
-Many people think of “coding standards” in a trivial way—i.e. minutae such as how many spaces to indent, or whether you place the close-curly-brace on a new line by itself.
-
-I, on the other hand, think that if you can only implement one software engineering technique to improve quality, it should be coding standards. Indeed, I believe some coding standards can actually help you learn a programming language. Do you agree?
-
-After your first week of using ESLint with IntelliJ, what are your impressions? Are you finding that getting the green checkmark is painful, or useful, or both, or something else entirely?
-
-Write an interesting, informative essay on coding standards that addresses some or all of the above questions, or goes in a different direction entirely regarding coding standards. Make sure it provides your personal perspective and useful insights.
 # ESLINT Bruh
-ESLint is a revolutionary tool.  MY code has never looked so clean.  While there are times it gets irritating and seems like overkill, I have to appreciate it.  Debugging has become so much faster now thanks to ESLint.  Getting it to work was a bitch.
+Getting ESLint to work was quite a hassle.  I had issues downloading all the necessary files, couldn't figure out how to install with my terminal, and struggled with configuration.  I had almost given up on it before even working with it.  I'm glad I didnt make that mistake.  After discussing with another classmate, I was able to get up and running and I'm bummed I didn't have this tool before.
 
-As far as coding standards go, for my current purposes, I think they are a waste of time. That is because I am coding alone though.  As I’m learning, I feel like there are more important things to be understood 
+ESLint is a revolutionary tool.  My code has never looked so clean.  While there are times it gets irritating and seems like overkill, I have to appreciate it.  It probably would've saved me a lot of points on my code in the past.  Debugging has become so much faster thanks to ESLint.  I am able to locate errors in almost the same way I correct spelling on a word document.  It is easy to use and very efficient.  After installing, I haven't had any errors and hope it remains that way.
+
+# Ew, Standards
+As far as coding standards go, for someone coding alone, I think they are a waste of time.  As I’m learning, I feel like there are much more important things to be understood, before worrying about standards.  I think it should be more of a priority that I understand how to produce functional code, something that actually spits out a desired output, and understand how to use tools and functions to their potential. 
+
+That being said, it becomes apparent why coding standards are necessary; it helps others critique and correct my code should I need the help. Should I need to ask a smart question, an easily readable code is necessary for providing context.  As we move forward in software development, standards will become even more vital as a team needs to be on the same page. Like wearing a covid mask everywhere we go, coding standards are an inconvenience that we all accept in exchange for the greater good of the collective.
