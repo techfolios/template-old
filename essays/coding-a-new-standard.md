@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Coding a new Standard
+title: Coding a New Standard
 date: 2021-09-23
 labels:
   - Schooling Adventures
