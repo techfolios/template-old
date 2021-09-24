@@ -23,7 +23,7 @@ I, on the other hand, think that if you can only implement one software engineer
 After your first week of using ESLint with IntelliJ, what are your impressions? Are you finding that getting the green checkmark is painful, or useful, or both, or something else entirely?
 
 Write an interesting, informative essay on coding standards that addresses some or all of the above questions, or goes in a different direction entirely regarding coding standards. Make sure it provides your personal perspective and useful insights.
-
+# ESLINT Bruh
 ESLint is a revolutionary tool.  MY code has never looked so clean.  While there are times it gets irritating and seems like overkill, I have to appreciate it.  Debugging has become so much faster now thanks to ESLint.  Getting it to work was a bitch.
 
 As far as coding standards go, for my current purposes, I think they are a waste of time. That is because I am coding alone though.  As I’m learning, I feel like there are more important things to be understood 
