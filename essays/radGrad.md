@@ -16,6 +16,7 @@ labels:
 
 ---
 
+#Show Me Something RadGrad
 
 RadGrad is and entry way into a world of computer science I had no idea was within my reach.  There were many new interests and career interests to be explored.  I had no idea the number of events that go on throughout the year.  This is the biggest advantage of RadGrad, the exposure.  I think so much happens in the computer world that I don't know about and radGrad will give me exposure to these opportunities, if not just make me aware of them.  While I am not quite confident in my skills yet, radGrad has given me the impression that it's at least worth my time to check some of these events out.  It was helpful in linking classes to my personal interests, so that when it comes time for registration, I have a couple of course numbers in the back of my head to pay a little more attention to.  As far as career goals go, there is a lot to get excited about.  I saw a couple interesting opportunities and was able to add them to my profile.  
 
