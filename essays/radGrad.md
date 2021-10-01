@@ -6,7 +6,7 @@ type: essay
 
 title: RadGrad makes Rad Grads
 
-date: 2021-08-31
+date: 2021-09-30
 
 labels:
 
