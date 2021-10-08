@@ -23,7 +23,7 @@ I'm not sure if it was the addition of UI Frameworks, but after getting some exp
 Having never used any kind of UI Framework before, I found that using Semantic UI was a positive experience. I love that the documentation on it was so well done.  Just about every question I had could be solved by googling "Semantic ui *problem*".  The examples were clear and the source code provided by the semantic ui website could easily be adapted to fit my needs.  While I still have issues getting things aligned exactly how I need them, the framework made the process significantly easier, especially with how I visualize the code in my head.  Overall, I have no complaints.  In a matter of weeks, I went from knowing absolutely nothing about web design, to being able to mimic everyday websites.
 
 <img class="ui center image" src="/images/laylow-example.png">
-<img class="ui center image" src="/images/tori-richard">
+<img class="ui center image" src="/images/tori-richard.png">
 
 Here are some of the websites I made with Semantic UI.
 
