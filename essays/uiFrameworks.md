@@ -16,7 +16,7 @@ labels:
 
 ---
  
-#Semantic UI Frameworks
+# Semantic UI Frameworks
 
 I'm not sure if it was the addition of UI Frameworks, but after getting some experience with them, my HTML and CSS coding just clicked. Well, the basics at least.  When I was first introduced to HTML it seemed so foreign.  The numerous div tags were overwhelming, and I guess I just didn't grasp the idea that HTML is more focused on cosmetics than languages I've learned before.  Seeing how the containers interact with different kinds of elements finally made me realize the design potential in HTML.
 
