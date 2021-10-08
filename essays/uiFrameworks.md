@@ -25,5 +25,5 @@ Having never used any kind of UI Framework before, I found that using Semantic U
 <img class="ui center image" src="/images/laylow-example.png">
 <img class="ui center image" src="/images/tori-richard.png">
 
-Here are some of the websites I made with Semantic UI.
+Here are some of the websites I re-created with Semantic UI.  It's rough, but I'm learning and getting better!
 
