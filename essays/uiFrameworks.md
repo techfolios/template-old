@@ -4,7 +4,7 @@ layout: essay
 
 type: essay
 
-title: Put It In a Container
+title: Put It In A Container
 
 date: 2021-10-07
 
