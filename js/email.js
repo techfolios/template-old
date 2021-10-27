@@ -1,19 +1,19 @@
-$('#formulario').submit(function (event){
+$('#formulario').submit(function (event) {
 
     $(":submit", this).attr("disabled", "disabled");
-    
+
     event.preventDefault();
-    
+
     var emailAddress = $("#emailCompleto").val()
 
-    if(isValidEmailAddress(emailAddress)){
+    if (isValidEmailAddress(emailAddress)) {
         $("#contato_box").addClass("loading");
 
         const serviceID = 'service_64z16nd';
         const templateID = 'template_041ddy9';
         const userID = 'user_uih8OAJu549ircDeNcE7v';
 
-        emailjs.sendForm(serviceID, templateID, '#formulario' ,userID).then(function(response) {
+        emailjs.sendForm(serviceID, templateID, '#formulario', userID).then(function (response) {
 
             $('body').toast({
                 class: 'success',
@@ -25,8 +25,8 @@ $('#formulario').submit(function (event){
             $('#formulario')[0].reset();
             $("#enviar").removeAttr("disabled");
             $("#contato_box").removeClass("loading");
-            
-        }, function(error) {
+
+        }, function (error) {
 
             $('body').toast({
                 class: 'error',
@@ -37,11 +37,9 @@ $('#formulario').submit(function (event){
 
             $("#enviar").removeAttr("disabled");
             $("#contato_box").removeClass("loading");
-            
-        })
-    }
 
-    else{
+        })
+    } else {
 
         $('body').toast({
             class: 'warning',
@@ -54,7 +52,7 @@ $('#formulario').submit(function (event){
         $("#contato_box").removeClass("loading");
     }
 
-    
+
 
 })
 

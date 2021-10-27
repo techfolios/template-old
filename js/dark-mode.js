@@ -27,10 +27,10 @@ if (localDarkModeEnabled === 'true') {
 }
 
 
-function toggleDarkMode () {
+function toggleDarkMode() {
     // add fomantic ui's inverted class to all ui elements if they dont have dontInvert as a class
-    
-    body.find('.ui').addClass(function(){
+
+    body.find('.ui').addClass(function () {
         return $(this).hasClass('dontInvert') ? "" : "inverted";
     });
 
@@ -38,11 +38,13 @@ function toggleDarkMode () {
     body.addClass('inverted');
 
     $('#contato_box').removeClass("yellow");
-    $("code").css({color: "white"});
+    $("code").css({
+        color: "white"
+    });
 
     $("#teal_labels > div").removeClass("teal").addClass("grey");
     $("#idiomaLabel").attr("style", "color: white!important")
-    $(".highlight").attr("style","background-color: black!important");
+    $(".highlight").attr("style", "background-color: black!important");
     $(".highlight .err").attr('style', 'color: white !important; background-color: unset !important')
 
 
@@ -50,14 +52,14 @@ function toggleDarkMode () {
     $('.icon-color').addClass('inverted');
 
     // change scrollbar background to match
-    $("html").attr("style","--scrollbackground:var(--darkBG)");
+    $("html").attr("style", "--scrollbackground:var(--darkBG)");
 
     // simple toggle icon change
     darkModeIcon.removeClass('moon');
     darkModeIcon.addClass('sun');
-    
+
     $('#darkmode span').text(" Modo Claro ");
-    
+
     isLocalStorageEnabled ? localStorage.setItem("darkMode", true) : false;
     darkmodeEnabled = true;
     return;
@@ -66,7 +68,7 @@ function toggleDarkMode () {
 function toggleLightMode() {
     // remove fomantic ui's inverted class from all ui elements if they dont have dontInvert as a class
 
-    body.find('.ui').removeClass(function(){
+    body.find('.ui').removeClass(function () {
         return $(this).hasClass('dontInvert') ? "" : "inverted";
     });
     // remove custom inverted class to body
@@ -74,12 +76,12 @@ function toggleLightMode() {
     $('.icon-color').removeClass('inverted');
     // change scrollbar background to match
 
-    $("html").attr("style","--scrollbackground:var(lightBG)");
+    $("html").attr("style", "--scrollbackground:var(lightBG)");
 
     $("#teal_labels > div").removeClass("grey").addClass("teal");
     $('#contato_box').addClass("yellow");
     $("#idiomaLabel").attr("style", "color: black!important");
-    $(".highlight").attr("style","background-color: white!important");
+    $(".highlight").attr("style", "background-color: white!important");
     $(".highlight .err").attr('style', 'background-color: unset !important')
 
     // simple toggle icon change
@@ -87,7 +89,9 @@ function toggleLightMode() {
     darkModeIcon.addClass('moon');
 
     $('#darkmode span').text(" Modo Escuro ")
-    $("code").css({color: "black"});
+    $("code").css({
+        color: "black"
+    });
 
     isLocalStorageEnabled ? localStorage.setItem("darkMode", false) : false;
     darkmodeEnabled = false;
