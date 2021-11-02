@@ -61,7 +61,7 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2021)",
+      "area": "Computer Science (expected Spring, 2022)",
       "studyType": "B.S.",
       "startDate": "2016-09-01",
       "endDate": "Present",
@@ -70,7 +70,7 @@
       ]
     }
   ],
-  "Activity": [
+  "activity": [
     {
       "company": "Grey Hats",
       "position": "student",
@@ -79,6 +79,14 @@
       "summary": "This is a school organization related to computer science.",
       "highlights": [ "NCL Fall 2016", "NCL Spring 2017"
       ]
+    },
+    {
+      "company": "Game Dev UH Manoa",
+      "position": "Coder",
+      "startDate": "2021-09-23",
+      "endDate": "2021-10-25",
+      "summary": "Implemented UI.",
+      "highlights": []
     }
   ],
   "references": [
