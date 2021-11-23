@@ -1,0 +1,55 @@
+---
+layout: project
+type: project
+published: false
+image: images/wait_state_project_cover.PNG
+title: SightSea
+permalink: projects/sightsea
+# All dates must be YYYY-MM-DD format!
+date: 2021-11-20
+labels:
+  - Expo
+  - IoS
+  - Android
+  - Web
+  - Firebase Realtime
+summary: HMAR sighting and reporting application for HACC.
+---
+
+## The Team
+
+For this project there was a group of 5 of us including myself who came together to work on it.
+
+* [Jake](https://jimanaka.github.io/)
+* [Tsz](https://github.com/Queendy38)
+* [Justin](https://justinhwong.github.io/)
+* [Clyde](https://github.com/cjfelixx)
+
+## Sea Something - Report It!
+
+This application was designed for Hawaii Marine Animal Response, a non-profit group that deploys volunteers to animals in distress. The goal is to allow the general-public to help out with the reporting of sightings of Hawaii's native seals, birds, and turtles. Prior to our application the only way for HMAR to get information was for people to call into the hotline number which took up a lot of volunteer time. Not to mention can be difficult to hear the person calling with the sea noise in the background. Enter SightSea!
+
+SightSea was designed to allow anyone from either the IoS or and Google Play Store to download an application fill out the form and get the information to HMAR. Utilizing GPS data, if allowed, or getting the GPS data from a dropdown list to allow for more accurate reporting, as the location was deemed most important. There was also a web application that was built, primarily, to allow the dispatchers and administrators at HMAR to manage the incoming reports. 
+
+Building an IoS, Andriod, and Web Application in 30 days was an ambititous goal with its fair share of headaches. 
+
+## Cross Platform Woes
+
+To prevent the group from doing three seperate projects with seperate deployments, levels of polish, and levels of functionality. We decided to build a cross-platform application. This allowed us to build in one repo, and build out to the correct test enviroments to check/test/verify functionality.
+
+
+
+<div style="text-align: center">
+<img src="../images/homepage.PNG" alt = 'waitState homepage'> 
+ </div>
+
+
+If want to know more please see this [readme](https://github.com/WaitState/WaitState#readme) that goes into a bit more depth.
+
+## Hack On
+
+This is my first ever hack-a-thon. It was a great experience that really allowed me to challenge myself. The don't make it pretty make it work was a common mantra that allowed for quick prototyping and fast implementation. My participation to this project was the creation of the admin page, adding the update global wait time as well as implementing the current wait time displayed to the checked in patient.
+
+
+
+If this made you interested please take a look at the source [code](https://github.com/WaitState).
