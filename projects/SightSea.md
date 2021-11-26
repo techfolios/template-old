@@ -59,16 +59,10 @@ If this made you interested please take at our deployed [application](https://si
 
 ## HACC'ing On
 
+Almost all the technology we used for this project was new to the team, or at the very least to me. This lead to new learning experiences at every turn, making it both exciting and challenging. The number one thing I gained from this project was a much larger found respect for mobile application developers. While it wasn't covered above, even things that we knew on mobile behaved differently on different devices. Which was annoying but fun to problem-solve our way through. For the day-to-day mobile developers I now better understand why they specialize in either IoS or Android, and not both.
 
-
-
-
+One final take away would be that while cross platforms applications save you some time to get a work in progress or a minimum valuable product out the door, it should not be a replacement for the actual applications. You should take the time to develop, in your hierarchy of choice, the IoS, Android, and Web applications separately. This will take longer, but there will be bits that can be copied and pasted over, and for those that can't they will have to formatted to work on that platform anyway.
 
 
 If want to know more please see this [devpost](https://devpost.com/software/sightsea)  post that goes into a lot more detail.
-
-
-
-
-
 
