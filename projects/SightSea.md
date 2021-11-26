@@ -33,9 +33,20 @@ SightSea was designed to allow anyone from either the IoS or and Google Play Sto
 
 Building an IoS, Andriod, and Web Application in 30 days was an ambititous goal with its fair share of headaches. 
 
-## Cross Platform Woes
+## Cross Platform High and Lows
 
-To prevent the group from doing three seperate projects with seperate deployments, levels of polish, and levels of functionality. We decided to build a cross-platform application. This allowed us to build in one repo, and build out to the correct test enviroments to check/test/verify functionality.
+To prevent the group from doing three seperate projects with seperate deployments, levels of polish, and levels of functionality. We decided to build a cross-platform application. This allowed us to build in one repo, and build out to the correct test enviroments to check/test/verify functionality. To do this we used Expo. Expo was great for this task, however, building a cross-platform application ended up being much more challenging task than we thought it was going to be.
+
+For example, we wanted to use Google Maps to display GPS coordinates that are captured from the Form page. This was a nightmare the plauged us until the very last day of deployment for technical, as well as for the presentation. The issue is that the npm package that allows you to use Google Maps API on mobile doesn't work for the web and the package that works on Web doesn't work on Mobile. This made bug fixing and testing the maps section very challenging. As the errors that were displayed on Expo were literally nothing. It was radio silence, well and a blank screen with any page that had the maps enabled.
+
+Another issue was package versions. Expo is great in that you get to build to and test any of the platforms, but because of this flexability there are specific versions of the packages that are supported. For example react-native-maps @0.62 is accepted and works fine. However, the newest package, which is grabbed automatically via ```npm install react-natives-maps``` is @0.63 and is not supported. Which causes issues such as the map pins no longer allowing the color to be set and throws warnings with ```react-natvie-web``` as it deprecated in that version.
+
+All in all, without Expo we would not have had an Ios, Andriod, and Web Application to deploy and share. We as a team vastly under-estimated the amount of work that needs to go into the simplest things such as npm package version integration.
+
+## Excel Spreadsheets are *Not* Databases
+
+If the heading of this section makes you say "well duh" then thank you. For everyone else please read it again until it is internalized. No seriously.
+
 
 
 
