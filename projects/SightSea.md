@@ -47,6 +47,15 @@ All in all, without Expo we would not have had an Ios, Andriod, and Web Applicat
 
 If the heading of this section makes you say "well duh" then thank you. For everyone else please read it again until it is internalized. No seriously.
 
+With HMAR being a non-profit I can understand, and sympathize because of non-profit I am a part of, why they need/want a low to no cost solution. Excel certainly fits this bill. However, it made my contribution a bit more complicated. My task for this project was to create the Staff Page. Additionally I was make the form page accept the correct information. Making sure to include all the required and optional columns that were present in the spreadsheet for that animal. This made the form page quite long and cumbersome as while there are columns that are certainly the same many for not. For example the "How Identified?" column is only on the Seal page, and not on the others, while the "Island" column was only on the Turtle page etc.
+
+This also further complicated the validation of information that was entered into the form. For columns that had specific accepted values, a dropdown was created to prevent incorrect data from being entered. Typed input selections where unfortuately not verified as there was not enough time 
+
+
+
+
+
+
 
 
 
@@ -57,9 +66,6 @@ If the heading of this section makes you say "well duh" then thank you. For ever
 
 If want to know more please see this [readme](https://github.com/WaitState/WaitState#readme) that goes into a bit more depth.
 
-## Hack On
-
-This is my first ever hack-a-thon. It was a great experience that really allowed me to challenge myself. The don't make it pretty make it work was a common mantra that allowed for quick prototyping and fast implementation. My participation to this project was the creation of the admin page, adding the update global wait time as well as implementing the current wait time displayed to the checked in patient.
 
 
 
