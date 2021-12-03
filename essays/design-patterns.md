@@ -15,6 +15,6 @@ I know it sounds crazy, how could one possibly relate strategies in a video game
 
 ## The Meta of Programming
 
-Like Overwatch metas, there are many different design patterns in programming that you will generally look to help build your program and solve your problem. While they may not be exact solutions, in they will guide you towards the solution.
+Like Overwatch metas, there are many different design patterns in programming that you will generally look to help build your program and solve your problem. While they may not be exact solutions, in the end, they will guide you towards the solution. An example of this is the Stuffs Meteor template, at first glance it is a simple web app, but what it really is, is a template that can be used to create something bigger and better. It lays the ground work of a fundamnetally sound app and allows the user to add on to it.
 
 
