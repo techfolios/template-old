@@ -6,7 +6,7 @@ type: essay
 
 title: Design Patterns
 
-date: 2021-09-09
+date: 2021-12-02
 
 labels:
 
@@ -14,8 +14,6 @@ labels:
 
 ---
 
-dakine it was introduces by da big four snore bores cus they tryna make my life hord when the lord struck a chord take em out with a sword.  its supposed to help so you dont fuck up everything when more people are fucking it up u kno?  and its for common stuff too, so your michael jordon basketball card can chill cause i consider that not too common.  I saw some dude on youtube say something about design patterns but i dont remember cus it was beyond me. then end.
+Sir Isaac Newton was quoted as saying "If I have seen further it is because I have stood on the shoulders of giants".  In the computer science world, we can call one of these giants, design patterns.  Over the years, we have determined general solutions for an array of common problems.  These solutions are called design patters.  The idea of design patterns was first introduced in 1994 by a group now known as the gang of four.  In their book, "Design Patterns: Elements of Reusable Object-Oriented Software", they use c++ to explain the advantages and disadvantages of basic software design patterns.  THere are three main types of design patterns discussed: creational, structural, and behavioral.
 
-Sir Isaac Newton was quoted as saying "If I have seen further it is because I have stood on the shoulders of giants".  In the computer science world, we can call one of these giants, design patterns.  Over the years, we have determined general solutions for an array of common problems.  These solutions are called design patters.  The idea of design patterns was first introduced in 1994 by a group now known as the gang of four.  In their book, "Design Patterns: Elements of Reusable Object-Oriented Software", they use c++ to explain the advantages and disadvantages of basic software design patterns.
-
-When .\_mapping through my coding experiences, I realize theres been a couple of instances where I've had encounters with design patterns.  
+When .\_map-ping through my coding experiences, I realize theres been a couple of instances where I've had encounters with design patterns.  Yes, the pun was intended because underscore is one of them.  Underscore was a collection of functions that solved a number of basic but frequent problems.  I can see how a group of designers would find something like underscore convenient.  Rather than having a number of designers solving problems their own way, there becomes a more "standardized" way of solving issues.  That way, code can stay consistent, and will hopefully be more efficient.
