@@ -1,4 +1,4 @@
-\---
+---
 
 layout: essay
 
@@ -12,6 +12,6 @@ labels:
 
   - Software Engineering
 
-\---
+---
 
 
