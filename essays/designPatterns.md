@@ -1,4 +1,4 @@
-﻿\---
+\---
 
 layout: essay
 
@@ -10,7 +10,7 @@ date: 2021-09-09
 
 labels:
 
-`  `- Software Engineering
+  - Software Engineering
 
 \---
 
