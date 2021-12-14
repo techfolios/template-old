@@ -6,6 +6,7 @@ date: 2021-12-13
 labels:
   -Final Project for ITM 352 Essay
 ---
+Link to Project Demo: https://www.youtube.com/watch?v=qYLvurZWhc0
 
 Briefly describe your system (e.g. A store selling Pokemon game cards)
 Krizel Tomines and I created a realistic ecommerse store that sells Boba, Smoothies, Scones and Ice cream. Each product has three flavors. We allow users to register, login, add items to their shopping cart, update their shopping cart and check out. When they check out, we email them an invoice of their order. We encrypt the users password and automatically log the user out after 30 minutes for security purposes.
