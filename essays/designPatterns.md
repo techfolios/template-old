@@ -1,8 +1,8 @@
 ---
 
-layout: essay
+layout: 
 
-type: essay
+type: 
 
 title: Design Patterns
 
