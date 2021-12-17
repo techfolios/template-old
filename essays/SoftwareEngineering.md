@@ -4,7 +4,7 @@ layout: essay
 
 type: essay
 
-title: Software Engineer
+title: Software Engineering
 
 date: 2021-12-15
 
