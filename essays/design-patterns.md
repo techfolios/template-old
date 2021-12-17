@@ -1,6 +1,6 @@
 ---
-layout: essay
-type: essay
+layout: 
+type: 
 title: Design Patterns, It's Meta
 date: 2021-12-02
 labels:
