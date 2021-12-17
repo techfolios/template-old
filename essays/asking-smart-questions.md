@@ -1,6 +1,6 @@
 ---
-layout: essay
-type: essay
+layout: 
+type: 
 title: Is it smart... to ask smart questions?
 date: 2021-09-09
 labels:
