@@ -1,6 +1,6 @@
 ---
-layout: essay
-type: essay
+layout: 
+type: 
 title: Coding a New Standard
 date: 2021-09-23
 labels:
