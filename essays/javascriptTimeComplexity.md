@@ -1,12 +1,12 @@
 ---
 
-layout: 
+layout: essay
 
-type:
+type: essay
 
 title: The Time Complexity of Learning Javascript
 
-date: 2021-08-31
+date: 2021-09-08
 
 labels:
 
