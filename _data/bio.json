@@ -51,7 +51,7 @@
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "Languages",
       "level": "",
       "keywords": [
         "C/C++",
@@ -60,6 +60,12 @@
         "HTML/CSS",
         "Verilog",
         "Python",
+      ]
+    },
+    {
+      "name": "Frameworks and Libraries",
+      "level": "",
+      "keywords": [
         "Node.js",
         "Undersore.js",
         "jQuery",
