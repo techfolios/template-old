@@ -11,7 +11,7 @@ labels:
 - React
 - MongoDB
 - Object-Oriented Programming
-  summary: As a final project for ICS 314, our created a web application called Roomniverse, a social network for UH students to meet new people and find roommates.
+summary: As a final project for ICS 314, our created a web application called Roomniverse, a social network for UH students to meet new people and find roommates.
 ---
 
 <img src="images/roomniverse-landing.png"/>
