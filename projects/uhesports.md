@@ -1,6 +1,6 @@
 ---
-layout: project
-type: project
+layout: 
+type: 
 image: images/UHE_logo_v4.png
 title: UH Esports
 permalink: projects/uhesports

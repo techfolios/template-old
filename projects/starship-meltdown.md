@@ -16,28 +16,4 @@ In the spring of 2020, after going into lockdown due COVID-19, Starship Meltdown
 
 Although the game was simple, there were just so many aspects to that game that I didn't even think of until we were testing it and we realized that there were things that were happening that weren't supposed to be happening. Things like resetting the position and speeds of the asteroids after one "wave" of asteroids pass or resetting the position of the ship after losing a life or my personal favorite, making sure the asteroid resets instantly after hitting you instead of "hitting" you 15 million times because you forgot to do collision detection for the asteroid. But besides all that this was a fun project to work on and I hope I can do more in the future.
 
-Code for collision detection between the ship and asteroids:
-```
-//drawing the asteroids and adding collision conditions
-	for(int i = 0; i < ass.size(); i++){
-		ass[i].sendAsteroid();
-
-		if(Collision::PixelPerfectTest(ass[i].getSprite(), star_ship.getSprite())){
-			sfx.boom(); //plays explosion if player takes damage
-			star_ship.TakingDamage(10); //loss of health if player collides with asteroid
-			if(star_ship.getHealth() <= 0){ //losing lives if statement
-				star_ship.LosingLife();
-				star_ship.setHealth();
-				playerHUD.updateHealth(star_ship.getHealth());
-				playerHUD.updateLives(star_ship.getLives());
-				star_ship.reset();	
-			}	
-			
-			window.draw(ass[i].getExplodedAsteroid());
-			ass[i].reset();
-			hitbyAsteroid++;
-		}
-		window.draw(ass[i].getSprite());
-	}
-```
-I wish I could include the GitHub repository, but we made it private and I'm no the original owner of the repository 
+Link to the repository: https://github.com/jon-valencia/starship-meltdown
