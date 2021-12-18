@@ -26,10 +26,10 @@ Roomniverse was a team project made by [Tracy Bui](https://jubinc0911.github.io/
 
 <img class="ui image" src="../images/roomniverse-editprofile.png"/>
 
-In addition to this, I also handled our projects deployment to the internet through the use of Digital Ocean and Robo 3T.
+In addition to this, I also handled our project's deployment to the internet through the use of Digital Ocean and Robo 3T.
 
 ## Takeaways From Roomniverse
-As someone who almost always favored solo projects as opposed to group projects, this was a group project that I thoroughly enjoyed and learned a lot from. Using Git/Github we were able to assign "issues" to each person in the group and create our own separate branches so that we didn't interfere with each other's work (that is until we ran into our first major merge conflict situation). Proper usage of Git/Github made me appreciate group projects and showed me what could be accomplished in such a short time through efficient project management.
+As someone who almost always favored solo projects as opposed to group projects, this was a group project that I thoroughly enjoyed and learned a lot from. Using Git/GitHub we were able to assign "issues" to each person in the group and create our own separate branches so that we didn't interfere with each other's work (that is until we ran into our first major merge conflict situation). Proper usage of Git/GitHub made me appreciate group projects and showed me what could be accomplished in such a short time through efficient project management.
 
 If you want to learn more about Roomniverse you can check out the [Roomniverse project page](https://roomniverse.github.io/) and the official [Roomniverse web app](https://roomniverse.xyz). 
 
