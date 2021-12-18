@@ -33,4 +33,4 @@ As someone who almost always favored solo projects as opposed to group projects,
 
 If you want to learn more about Roomniverse you can check out the [Roomniverse project page](https://roomniverse.github.io/) and the official [Roomniverse web app](https://roomniverse.xyz). 
 
-Roomniverse's source code is available at: https://github.com/roomniverse/roomniverse-webapp
+Roomniverse's source code is available at: [https://github.com/roomniverse/roomniverse-webapp](https://github.com/roomniverse/roomniverse-webapp)
