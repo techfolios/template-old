@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/roomniverse-logo.png
 title: Roomniverse
-permalink: projects/starship-meltdown
+permalink: projects/roomniverse
 # All dates must be YYYY-MM-DD format!
 date: 2021-12-15
 labels:
