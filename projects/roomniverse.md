@@ -14,7 +14,7 @@ labels:
 summary: As a final project for ICS 314, our created a web application called Roomniverse, a social network for UH students to meet new people and find roommates.
 ---
 
-<img src="../images/roomniverse-landing.png"/>
+<img class="ui image" src="../images/roomniverse-landing.png"/>
 
 ## Overview
 Roomniverse is a web application that was developed as a final project for ICS 314 in the Fall 2021 semester. It serves as a social network for UH students to meet new people and find roommates. When signing up for Roomniverse, you are able to set your name, gender, major, and graduation year, all of which can be edited later on. By signing up for Roomniverse you gain access to the main message board called the "Hub" where you can speak your mind and update your status, the "Find Roommate" where you can find roommates and sort them by major, gender, and graduating class as well as add your own personal roommate request. 
@@ -22,9 +22,9 @@ Roomniverse is a web application that was developed as a final project for ICS 3
 ## My Contribution to Roomniverse
 Roomniverse was a team project made by [Tracy Bui](https://jubinc0911.github.io/), [Ju-bin Choi](https://jubinc0911.github.io/), [Eric Song](https://eric-song1773.github.io/), [Scott Vore](https://syhv-git.github.io/), and me, [Jonathan Valencia](https://jon-valencia.github.io). I mainly handled the creating the user collections as well as creating the profile card templates each of the users. This used a mixture of MongoDB, Semantic UI React, and Meteor. The user collection stores all user information in objects that can be edited by the user later on and the profile card simply displays the user information objects for each user.
 
-<img src="../images/roomniverse-userprofile.png"/>
+<img class="ui image" src="../images/roomniverse-userprofile.png"/>
 
-<img src="../images/roomniverse-editprofile.png"/>
+<img class="ui image" src="../images/roomniverse-editprofile.png"/>
 
 In addition to this, I also handled our projects deployment to the internet through the use of Digital Ocean and Robo 3T.
 
