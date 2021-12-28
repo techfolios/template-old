@@ -4,7 +4,7 @@
 
 	type: essay
 
-	title: Assignment 3
+	title: E-Commerce Site
 
 	date: 2021-12-13
 
