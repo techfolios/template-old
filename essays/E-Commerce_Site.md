@@ -1,18 +1,11 @@
 ---
-
-	layout: essay
-
-	type: essay
-
-	title: E-Commerce Site
-
-	date: 2021-12-13
-
-	labels:
-
-	-Final Project for ITM 352 Essay
-
-	---
+layout: essay
+type: essay
+title: E-Commerce Site
+date: 2021-12-13
+labels:
+-Final Project for ITM 352 Essay
+---
 
 	Link to Project Demo: https://drive.google.com/file/d/1ZS02XFbMPp1TWsLNo--OtnNp4PWW3QSy/view?usp=sharing
 
