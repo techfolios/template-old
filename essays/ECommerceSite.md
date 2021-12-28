@@ -7,9 +7,9 @@ labels:
 -Final Project for ITM 352 Essay
 ---
 
-	Link to Project Demo: https://drive.google.com/file/d/1ZS02XFbMPp1TWsLNo--OtnNp4PWW3QSy/view?usp=sharing
+Link to Project Demo: https://drive.google.com/file/d/1ZS02XFbMPp1TWsLNo--OtnNp4PWW3QSy/view?usp=sharing
 
-	Please be sure to download the video :)
+Please be sure to download the video :)
 
 
 	Briefly describe your system (e.g. A store selling Pokemon game cards)
