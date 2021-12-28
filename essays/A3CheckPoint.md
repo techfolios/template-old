@@ -1,14 +1,14 @@
 ---
 layout: essay
 type: essay
-title: E-Commerce Site Plan by Maggie Mulhall and Krizel Tomines 
+title: E-Commerce Site by Maggie Mulhall and Krizel Tomines 
 date: 2021-11-18
 labels:
-  - Assignment 3 Plan
+  - E-commerce Site plan and final presentation
 ---
 
-
-Link to Slides: https://docs.google.com/presentation/d/10CWmHIczKkuuOpbtNRHYdvzyWOl4fdEDz2E_1Rwj_yw/edit?usp=sharing
+Link to Project Demo: https://drive.google.com/file/d/1ZS02XFbMPp1TWsLNo--OtnNp4PWW3QSy/view?usp=sharing
+Link to Prototpe Slides: https://docs.google.com/presentation/d/10CWmHIczKkuuOpbtNRHYdvzyWOl4fdEDz2E_1Rwj_yw/edit?usp=sharing
 
 Describe your design for your site’s shopping cart. That is, will it be a separate page that the user can view and edit, or will it be integrated into the product pages? If so, describe in detail how this will work on your site. Provide several examples of using the cart.
 -------
