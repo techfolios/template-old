@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Assignment 3 Check Point by Krizel T and Maggie M
+title: E-Commerce Site Plan by Maggie Mulhall and Krizel Tomines 
 date: 2021-11-18
 labels:
   - Assignment 3 Plan
