@@ -4,7 +4,7 @@ type: essay
 title: E-Commerce Site by Maggie Mulhall and Krizel Tomines 
 date: 2021-11-18
 labels:
-  - E-commerce Site plan and final presentation
+  - E-commerce Site Plan and Final Presentation
 ---
 
 Link to Project Demo: https://drive.google.com/file/d/1ZS02XFbMPp1TWsLNo--OtnNp4PWW3QSy/view?usp=sharing
