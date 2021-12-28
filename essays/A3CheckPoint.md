@@ -7,7 +7,7 @@ labels:
   - E-Commerce Site Plan and Final Presentation
 ---
 
-Link to Project Demo: https://drive.google.com/file/d/1ZS02XFbMPp1TWsLNo--OtnNp4PWW3QSy/view?usp=sharing
+Link to Project Demo: https://drive.google.com/file/d/1ZS02XFbMPp1TWsLNo--OtnNp4PWW3QSy/view
 
 Link to Prototpe Slides: https://docs.google.com/presentation/d/10CWmHIczKkuuOpbtNRHYdvzyWOl4fdEDz2E_1Rwj_yw/edit?usp=sharing
 
