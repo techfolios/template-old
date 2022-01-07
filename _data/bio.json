@@ -22,12 +22,6 @@
 				"url": "http://github.com/Shinji-Mimura"
 			},
 			{
-
-				"network": "instagram",
-				"username": "lucas.araj",
-				"url": "http://instagram.com/lucas.araj"
-			},
-			{
 				"network": "linkedin",
 				"username": "lucasAraj",
 				"url": "https://www.linkedin.com/in/lucasaraj/"
@@ -321,12 +315,6 @@
 			"website": "https://Shinji-Mimura.github.io/",
 			"id": "1",
 			"website_name": "Portfólio"
-		},
-		{
-			"name": "instagram",
-			"website": "https://www.instagram.com/lucas.araj",
-			"id": "2",
-			"website_name": "Instagram"
 		},
 		{
 
