@@ -1,0 +1,367 @@
+{
+	"basics": {
+		"name": "Lucas de Araújo",
+		"label": "Estudante e Compositor",
+		"picture": "/images/lucas.png",
+		"picture_real": "/images/lucas_real.png",
+		"email": "lucas.araj.contato@gmail.com",
+		"phone": "+55 16 994534121",
+		"website": "https://Shinji-Mimura.github.io",
+		"summary": "Estudante de Ciência Da Computação e Compositor Musical",
+		"location": {
+			"address": "",
+			"postalCode": "",
+			"city": "Sertãozinho",
+			"countryCode": "Brasil",
+			"region": "São Paulo"
+		},
+		"profiles": [
+			{
+				"network": "github",
+				"username": "Shinji-Mimura",
+				"url": "http://github.com/Shinji-Mimura"
+			},
+			{
+				"network": "instagram",
+				"username": "lucas.araj",
+				"url": "http://instagram.com/lucas.araj"
+			},
+			{
+				"network": "linkedin",
+				"username": "lucasAraj",
+				"url": "https://www.linkedin.com/in/lucasaraj/"
+			},
+			{
+				"network": "headphones",
+				"username": "thebionicskin",
+				"url": "https://www.youtube.com/c/thebionicskin"
+			}
+		]
+	},
+	"interests": [
+		{
+			"name": "Segurança da Informação",
+			"keywords": ["Criptografia", "Controle de acessos"]
+		},
+		{
+			"name": "Redes",
+			"keywords": []
+		},
+		{
+			"name": "Computação Forense",
+			"keywords": []
+		}
+	],
+	"skills": [
+		{
+			"name": "Linguagens",
+			"level": "",
+			"keywords": ["C/C++", "Javascript", "Haskell", "Python"]
+		},
+		{
+			"name": "Ferramentas",
+			"level": "",
+			"keywords": ["Manjaro", "Parrot OS", "Git/GitHub", "g++", "VSCode", "ghci"]
+		}
+	],
+	"education": [
+		{
+			"institution": "Universidade Federal de Ouro Preto",
+			"area": "Ciência Da Computação",
+			"studyType": "Graduando",
+			"startDate": "2018.2",
+			"endDate": "Presente",
+			"website": "https://ufop.br/"
+		},
+		{
+			"institution": "Instituto de Gestão e Tecnologia da Informação",
+			"area": "Analista de Cybersecurity",
+			"studyType": "Bootcamp",
+			"startDate": "2021",
+			"endDate": "2021",
+			"website": "https://www.igti.com.br/"
+		}
+	],
+	"work": [
+		{
+			"company": "Compasso UOL",
+			"position": "Desenvolvedor RPA",
+			"website": "",
+			"type": "1",
+			"startDate": "2021",
+			"endDate": "2021",
+			"summary": "Estagiário no desenvolvimento de automação de processos (Aprovado na seleção para trainee, porém recusei a oferta)",
+			"destaque": "(RPA)",
+			"highlights": ["Criação de Projeto de RPA na intranet corporativa", "Estudo de Trilha RPA na Alura"]
+		},
+		{
+			"company": "Universidade Federal de Pernambuco",
+			"position": "Auxiliar de Segurança",
+			"website": "",
+			"type": "1",
+			"startDate": "2020",
+			"endDate": "2020",
+			"summary": "Fui responsável por reportar falhas no funcionamento do website ",
+			"destaque": "No Bairro Tem",
+			"highlights": ["Falha de Upload Reverse Shell", "Falha de XSS Refletido"]
+		},
+		{
+			"company": "Youtube",
+			"position": "Produtor Musical e Compositor",
+			"website": "https://www.youtube.com/c/TheBionicSkin",
+			"type": "2",
+			"startDate": "2012",
+			"endDate": "Presente",
+			"summary": "Dono do canal ",
+			"destaque": "TheBionicSkin",
+			"highlights": [
+				"Produzo trilhas sonoras para comerciais e artistas independentes",
+				"Trabalho com Fruity Loops Studio"
+			]
+		},
+		{
+			"company": "Prefeitura de Sertãozinho",
+			"position": "Experiência com Design",
+			"type": "",
+			"website": "",
+			"startDate": "2015",
+			"endDate": "2016",
+			"summary": "Fui responsável pela criação do design de panfletos para eventos de dança na cidade",
+			"destaque": "",
+			"highlights": ["Utilizei Adobe Photoshop para edição de imagens"]
+		},
+
+		{
+			"company": "Universidade Federal de Ouro Preto",
+			"position": "Bolsista de Iniciação Científica",
+			"type": "1",
+			"website": "",
+			"startDate": "2020",
+			"endDate": "2021",
+			"summary": "Bolsista de iniciação científica em pesquisas relacionadas a linguagem de domínio específico em programação funcional",
+			"destaque": "",
+			"highlights": ["Orientado pelo professor <strong>Rodrigo Ribeiro</strong>", "Estudo da linguagem Racket"]
+		}
+	],
+
+	"certificates": [
+		{
+			"name": "Scientific Computing with Python",
+			"id": "1",
+			"website": "https://www.freecodecamp.org/certification/shinji_mimura/scientific-computing-with-python-v7",
+			"company": "freeCodeCamp"
+		},
+
+		{
+			"name": "Problem Solving (Intermediate)",
+			"id": "1",
+			"website": "https://www.hackerrank.com/certificates/99f6952c1174",
+			"company": "HackerRank"
+		},
+
+		{
+			"name": "Fundamentos de Ethical Hacking",
+			"id": "2",
+			"website": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-RTLHDLZ0.pdf",
+			"company": "Udemy"
+		},
+
+		{
+			"name": "Fundamentos de Segurança na Web",
+			"id": "2",
+			"website": "/Documents/TryHackMeWebFundamentals.png",
+			"company": "TryHackMe"
+		},
+
+		{
+			"name": "Formações na Alura",
+			"id": "2",
+			"website": "https://cursos.alura.com.br/user/lucas-araujo-bols/fullCertificate/89f0918cbc02d93e7ffd678e87c52b8c",
+			"company": "Alura"
+		}
+	],
+
+	"voluntario": [
+		{
+			"name": "ETMF 2020 - V School Theoretical Computer Science",
+			"website": "/Documents/lucas-araujo-etmf.pdf",
+			"company": "Sociedade Brasileira de Computação"
+		},
+
+		{
+			"name": "SBMF 2020 - XXIII Brazilian Symposium on Formal Methods",
+			"website": "/Documents/lucas-araujo-sbmf.pdf",
+			"company": "Sociedade Brasileira de Computação"
+		}
+	],
+
+	"idiomas": [
+		{
+			"language": "Português",
+			"level": "Nativo",
+			"bar_level": "100"
+		},
+		{
+			"language": "Inglês",
+			"level": "Avançado",
+			"bar_level": "75"
+		}
+	],
+
+	"languages": [
+		{
+			"name": "Python",
+			"level": "Avançado",
+			"id": "1"
+		},
+		{
+			"name": "C/C++",
+			"level": "Intermediário",
+			"id": "2"
+		},
+		{
+			"name": "Javascript",
+			"level": "Intermediário",
+			"id": "3"
+		},
+		{
+			"name": "Haskell",
+			"level": "Básico",
+			"id": "4"
+		}
+	],
+
+	"sistema": [
+		{
+			"name": "Windows"
+		},
+		{
+			"name": "Ubuntu (Debian)"
+		},
+		{
+			"name": "Manjaro (Arch)"
+		}
+	],
+
+	"ferramenta": [
+		{
+			"name": "VSCode"
+		},
+		{
+			"name": "Wireshark"
+		},
+		{
+			"name": "Burp Suite"
+		},
+		{
+			"name": "Git/Github"
+		}
+	],
+
+	"frameworks": [
+		{
+			"name": "Bootstrap"
+		},
+		{
+			"name": "Bulma"
+		},
+		{
+			"name": "Fomantic-UI"
+		},
+		{
+			"name": "Flask"
+		},
+		{
+			"name": "ExpressJs"
+		}
+	],
+
+	"ides": [
+		{
+			"name": "VSCode"
+		},
+		{
+			"name": "Sublime"
+		},
+		{
+			"name": "Pycharm"
+		},
+		{
+			"name": "Dr.Racket"
+		}
+	],
+
+	"interesses_bio": [
+		{
+			"name": "Segurança da Informação",
+			"website": "https://pt.wikipedia.org/wiki/Segurança_da_informação",
+			"id": "1"
+		},
+		{
+			"name": "Criptografia",
+			"website": "https://pt.wikipedia.org/wiki/Criptografia",
+			"id": "2"
+		},
+		{
+			"name": "Redes",
+			"website": "https://pt.wikipedia.org/wiki/Rede_de_computadores",
+			"id": "3"
+		},
+		{
+			"name": "Computação Forense",
+			"website": "https://pt.wikipedia.org/wiki/Computação_forense",
+			"id": "4"
+		}
+	],
+
+	"midias": [
+		{
+			"name": "Portfólio",
+			"website": "https://Shinji-Mimura.github.io/",
+			"id": "1",
+			"website_name": "Portfólio"
+		},
+		{
+			"name": "instagram",
+			"website": "https://www.instagram.com/lucas.araj",
+			"id": "2",
+			"website_name": "Instagram"
+		},
+		{
+			"name": "github",
+			"website": "https://github.com/Shinji-Mimura",
+			"id": "3",
+			"website_name": "Github"
+		},
+		{
+			"name": "youtube",
+			"website": "https://www.youtube.com/c/thebionicskin",
+			"id": "4",
+			"website_name": "Youtube"
+		},
+		{
+			"name": "Email",
+			"website": "lucas.araj.contato@gmail.com",
+			"id": "5",
+			"website_name": "Email"
+		},
+		{
+			"name": "linkedin",
+			"website": "https://www.linkedin.com/in/lucasaraj/",
+			"id": "6",
+			"website_name": "Linkedin"
+		}
+	],
+
+	"volunteer": [
+		{
+			"organization": "Universidade Federal de Pernambuco",
+			"website": "https://www.ufpe.br",
+			"position": "Auxiliar",
+			"startDate": "2020",
+			"endDate": "2020",
+			"summary": "Reportei falhas no funcionamento do sistema do website No Bairro Tem",
+			"highlights": ["Falha de LRFI", "Falha de XSS Refletido"]
+		}
+	]
+}

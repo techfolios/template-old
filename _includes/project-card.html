@@ -1,0 +1,34 @@
+<!-- Used by theme-projects-builtin-1 -->
+
+<div class="ui link card {{page.labels}}">
+  {% if include.page.image %}
+    <div class="image">
+      <img src="{{ site.baseurl }}/{{ include.page.image }}">
+    </div>
+  {% endif %}
+  <div class="content">
+    <span class="header">{{ include.page.title }}</span>
+    <div class="meta">
+    </div>
+
+    <div class="description">
+      {{ include.page.summary }}
+    </div>
+  </div>
+
+  <div class="extra content">
+    <div class="ui small labels">
+      {% for label in include.page.labels %}
+        <div class="ui basic label">{{ label }}</div>
+      {% endfor %}
+    </div>
+  </div>
+    {% if page.category[0] == "Git" %}
+      <a class="ui black bottom attached button" href="{{ page.projecturl }}"><i class="github icon"></i>Repositório</a>
+    {% else if page.category[0] == "Texto" %}
+      <a class="ui blue bottom attached button" href="{{ page.projecturl }}"><i class="book open icon"></i>Saiba Mais</a>
+    {% else %}
+    <a class="ui bottom attached button" href="">Em construção...</a>
+    {% endif %}
+
+</div>

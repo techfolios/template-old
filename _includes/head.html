@@ -1,0 +1,65 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="color-scheme" content="dark light">
+
+  <title>
+    {% if page.title %}
+      {{ page.title }} |
+    {% endif %}
+    {{ site.title }}
+  </title>
+
+  <!-- Load Javascript and CSS for Semantic UI -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.6/dist/semantic.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.6/dist/semantic.min.js"></script>
+  
+
+  <!-- Load Techfolio CSS customizations -->
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/stylesheet-default.css">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/stylesheet-customizations.css">
+
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/print-default.css" media="print">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/print-customizations.css" media="print">
+
+  <!-- Load a rouge theme from the sample themes in css/rouge.
+       See https://benhur07b.github.io/2017/03/25/add-syntax-highlighting-to-your-jekyll-site-with-rouge.html
+  -->
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/rouge/{{ site.rouge-theme}}.css">
+
+  <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+  {% if site.mathjax %}
+  <script type="text/javascript"
+          src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  {% endif %}
+
+  <!-- Email Js -->
+
+  <script type="text/javascript"  src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  <script type="text/javascript">
+  (function(){
+    emailjs.init("user_uih8OAJu549ircDeNcE7v");
+  })();
+  </script>
+
+  <!-- Email JS -->
+  
+
+  <noscript>
+    <style>
+      .avoid-flicker {
+        display: block!important;
+        visibility: visible!important;
+      }
+
+      .jsOnly {
+      display: none!important;
+      visibility: hidden!important;
+    }
+    </style>
+  </noscript>
+
+</head>

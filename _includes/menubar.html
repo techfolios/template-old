@@ -1,0 +1,42 @@
+<!-- Used by all builtin themes. Now we list number of essays and projects. -->
+<!-- Put onclick in div to make the click selection less precise, avoiding a "false" click on some option of the dropdown menu -->
+
+
+<div class="nonprintable">
+
+  <nav class="ui top menu">
+    <div class="ui dropdown icon item">
+      <i class="bars icon"></i>
+      <div class="menu">
+        <div class="item" onclick="location.href='{{ site.baseurl}}/';">
+          <a><strong>Início</strong></a>
+        </div>
+        <div class="item" onclick="location.href='{{ site.baseurl}}/projects';" >
+          <a><strong>Projetos</strong></a>
+        </div>
+        <div class="item"  onclick="location.href='{{ site.baseurl}}/essays';">
+          <a><strong>Textos</strong></a>
+        </div>
+        <div class="item"  onclick="location.href='{{ site.baseurl}}/bio';">
+          <a><strong>Currículo</strong></a>
+        </div>
+        <div class="divider"></div>
+        <div class="header"  onclick="location.href='{{ site.baseurl}}/contato';">
+          <a><strong>Contato</strong></a>
+        </div>
+      </div>
+    </div>
+    <div class="right menu">
+      <div class="item">
+        <button class="ui tiny button icon basic darkmode-button jsOnly" id="darkmode"><i class="moon icon"></i><span>Modo Noturno</span></button>
+      </div>
+    </div>
+  </nav>
+
+</div>
+
+<script>
+  $('.ui.dropdown')
+  .dropdown();
+</script>
+

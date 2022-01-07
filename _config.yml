@@ -1,0 +1,31 @@
+# Site settings
+
+# REQUIRED CHANGES
+# Edit next line, providing your own name.
+title: Lucas De Araujo | Portifólio
+# Edit next line, replacing 'techfolios' with your github username
+url: "https://Shinji-Mimura.github.io"
+# Edit next line so that baseurl is "" if your repo is <username>.github.io
+baseurl: ""
+
+# OPTIONAL CHANGES
+# You might want to change the bio page label to something else, such as CV
+bio-page-label: Currículo
+projects-page-label: Projetos
+essays-page-label: Textos
+contato-page-label: Contato
+# You might want to change the theme associated with one or more sections of the site.
+# Defining your own custom theme variations is easy. See the documentation.
+theme-home: theme-home-builtin-1.html
+theme-projects: theme-projects-builtin-1.html
+theme-essays: theme-essays-builtin-1.html
+theme-bio: myBio.html
+theme-contato: contato.html
+
+# Specify the rouge syntax highlighter theme. Pick one from css/rouge.
+rouge-theme: base16.dark
+
+# YOU NORMALLY NEVER CHANGE THE FOLLOWING
+markdown: kramdown
+include: [_data]
+

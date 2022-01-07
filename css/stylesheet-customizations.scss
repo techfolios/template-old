@@ -1,0 +1,103 @@
+---
+# Provide front matter so Jekyll processes this file as SASS.
+---
+// Put your custom CSS here if you want to override the defaults.
+// Here are some common customizations for colors
+
+// Customize the background color
+body {
+  // background-color: #f2f2f2;;
+}
+
+// Customize the menubar color
+.ui.menu {
+  // background: $background-start;
+  background-color: rgba(255, 255, 255, 0.835);
+}
+
+// Customize the home page icon colors
+i.big.icon.icon-color.inverted{
+  color: #6eace8;
+}
+
+i.big.icon.icon-color.inverted:hover{
+  color: #134577;
+}
+
+.icon-color {
+  color: #232323d5;
+}
+
+body.inverted {
+  background-color: #232323;
+}
+
+.ui.items  {
+  color: #6eace8;
+}
+
+html body.inverted div.ui.one.column.stackable.grid.container.inverted div.column div.ui.segment.inverted div.ui.top.attached.tabular.menu.inverted div.item:hover {
+  background-color: rgba(255, 255, 255, 0.459);
+  border-radius: 4px 4px 0px 0px;
+}
+
+.ui.items a.item:hover .content .header, .ui.link.items>.item:hover .content .header {
+  color: #6eace8;
+
+}
+
+.ui.list>a.item:hover>.icon {
+  color: #6eace8!important;
+}
+
+.ui.inverted.list .item a:not(.ui):hover{
+  color: #6eace8!important;
+}
+
+#flip-box {
+  background-color: transparent;
+  width: 150px;
+  height: 150px;
+}
+
+.flip-box-inner{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+#flip-box.active .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-back{
+  transform: rotateY(180deg);
+}
+
+.highlight, .highlight .w{
+  background-color: #fff !important;
+}
+
+.inverted .highlight, .highlight .w{
+  background-color: rgb(0, 0, 0);
+}
+
+.ui.inverted.labels .grey.label, .ui.ui.ui.inverted.grey.label{
+  background-color: rgb(43, 47, 49);
+  border-color: rgb(58, 62, 65);
+  color: rgb(214, 211, 205);
+
+}
+
+

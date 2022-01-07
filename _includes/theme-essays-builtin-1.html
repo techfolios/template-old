@@ -1,0 +1,44 @@
+<div style="padding-top: 20px" class="ui container">
+
+  <div id="listaProjetos" class="ui one column stackable grid center aligned container">
+    <div class="column">
+
+      <div class="ui fluid floating labeled icon dropdown button">
+        <i class="caret down icon"></i>
+        <span class="text">Filtrar</span>
+        <div class="menu">
+          <div class="header">
+            <i class="tags icon"></i>
+            Filtrar por Tag
+          </div>
+          <div class="divider"></div>
+          <div id="all" class="item filterButton">
+            <spam id="all" class="jsOnly active filterButton">Todos</spam>
+          </div>
+          <div id="Graduação" class="item filterButton">
+            <spam id="Graduação" class="jsOnly filterButton">Graduação</spam>
+          </div>
+          <div id="Iniciação" class="item filterButton">
+            <spam id="Iniciação" class="jsOnly filterButton">Iniciação</spam>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+    <div id="parent2" class="ui centered stackable three cards"" style="padding-top: 15px;">
+      {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
+        {% for page in essay_pages %}
+          {% unless page.draft %}
+            {% include essay-card.html page=page %}
+          {% endunless %}
+        {% endfor %}
+    </div>
+</div>
+
+
+<script>
+  $('.ui.dropdown')
+  .dropdown();
+</script>
