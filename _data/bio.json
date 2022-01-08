@@ -210,18 +210,18 @@
 			"id": "1"
 		},
 		{
-			"name": "C/C++",
+			"name": "C++",
 			"level": "Intermediário",
 			"id": "2"
 		},
 		{
-			"name": "Javascript",
+			"name": "C",
 			"level": "Intermediário",
 			"id": "3"
 		},
 		{
-			"name": "Haskell",
-			"level": "Básico",
+			"name": "Javascript",
+			"level": "Intermediário",
 			"id": "4"
 		}
 	],
@@ -231,7 +231,7 @@
 			"name": "Windows"
 		},
 		{
-			"name": "Ubuntu (Debian)"
+			"name": "Ubuntu/Mint (Debian)"
 		},
 		{
 			"name": "Manjaro (Arch)"
@@ -273,16 +273,13 @@
 
 	"ides": [
 		{
-			"name": "VSCode"
-		},
-		{
-			"name": "Sublime"
-		},
-		{
 			"name": "Pycharm"
 		},
 		{
-			"name": "Dr.Racket"
+			"name": "CLion"
+		},
+		{
+			"name": "Visual Studio"
 		}
 	],
 
