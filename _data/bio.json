@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "name": "Thuyvi Le",
+    "label": "Shidler Undergraduate",
+    "picture": "https://thuyvile.github.io/images/MISPortfolio.jpeg",
+    "email": "thuyvile@hawaii.edu",
+    "phone": "808-597-4148",
+    "website": "https://thuyvile.github.io/",
+    "summary": "I am studying for a B.B.A. in Marketing in Shidler Business School at the University of Hawaii. I intend to also major in MIS and I expect to graduate in Spring, 2024.",
     "location": {
-      "address": "",
-      "postalCode": "96822",
+      "address": "2751 Kapiolani Blvd. Apt 305",
+      "postalCode": "96826",
       "city": "Honolulu",
       "countryCode": "USA",
       "region": "Hawaii"
@@ -17,41 +17,34 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "thuyvile",
+        "url": "http://github.com/thuyvile"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "username": "thuyvile",
+        "url": "http://linkedin.com/in/thuyvile5"
       },
       {
         "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "tthuyvile",
+        "url": "http://instagram.com/tthuyvile"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "Reading",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Volunteering",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Traveling",
       "keywords": [
       ]
     }
