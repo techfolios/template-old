@@ -1,48 +1,35 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Holm Smidt",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://techfolios.github.io/images/holm_headshot_square.png",
+    "email": "hsmidt@hawaii.edu",
+    "website": "https://hsmidt.github.io",
+    "summary": "I am a graduate student at the University of Hawai`i at Mānoa seeking my MS in Computer Sciences. I hold a MS in Mechanical Engineering and my recent work includes engineering design and consulting for energy efficiency and renewable energy integration, development of IoT sensor and control systems, and fullstack development for applications such as smart city data platforms, conference management systems for academic paper submissions/reviews and conference registration.",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "postalCode": "96712",
+      "city": "Haleiwa",
       "countryCode": "USA",
       "region": "Hawaii"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "hsmidt",
+        "url": "http://github.com/hsmidt"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "holm-smidt",
+        "url": "http://linkedin.com/in/holm-smidt"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "web development",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
       ]
     },
     {
@@ -51,7 +38,7 @@
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "machine learning",
       "keywords": [
       ]
     }
@@ -61,12 +48,11 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
-        "C",
-        "C++",
-        "Java",
+        "Typescript",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Elixir",
+        "Python",
+        "C/C++"
       ]
     },
     {
@@ -75,91 +61,79 @@
       "keywords": [
         "MacOS",
         "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Git",
+        "Docker"
       ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "area": "Computer Science (expected Spring, 2023)",
+      "studyType": "M.S.",
+      "startDate": "2021-09-01",
       "endDate": "Present",
       "gpa": "",
-      "courses": [
-      ]
+      "courses": []
+    },
+    {
+        "institution": "University of Hawaii, Honolulu, HI",
+        "area": "Mechanical Engineering",
+        "studyType": "M.S.",
+        "startDate": "2016-09-01",
+        "endDate": "2018-08-01",
+        "gpa": "",
+        "courses": []
+    },
+    {
+        "institution": "University of Hawaii, Honolulu, HI",
+        "area": "Mechanical Engineering",
+        "studyType": "B.S.",
+        "startDate": "2014-09-01",
+        "endDate": "2016-05-16",
+        "gpa": "",
+        "courses": []
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "Hawaii International Conference on System Sciences",
+      "position": "IT Specialist",
+      "website": "https://hicss-submissions.org",
+      "startDate": "2017-08-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Development of a Conference Management System for the HICSS conference.",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Design and implementation of a paper submission and review system",
+        "Design and implementation of a conference registration system"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
+        "company": "NAS Smart Platforms",
+        "position": "Fullstack Engineer",
+        "website": "https://www.bundleregional.com",
+        "startDate": "2019-03-01",
+        "endDate": "2021-08-13",
+        "summary": "",
+        "highlights": [
+          "Design and development of a digital regional data platform"
+        ]
     },
     {
-      "organization": "",
+      "company": "Hoomaluo Labs, Inc",
+      "position": "Vice President",
       "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "startDate": "2018-10-01",
+      "endDate": "2021-08-13",
+      "summary": "Co-founded an engineering startup company focused on distributed sensor and control systems for energy-efficient cold-storage systems. We helped local farmers and entrepreneur receive UDSA REAP funding for adding/upgrading to solar-hybrid cold-storage system.",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Engineering consulting and design",
+        "IoT systems for remote temperature monitoring and control"
       ]
     }
   ],
-  "awards": [
-    {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
-  ],
+  "volunteer": [],
+  "awards": [],
   "references": [
     {
       "name": "Available upon request",
