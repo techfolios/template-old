@@ -2,10 +2,10 @@
   "basics": {
     "name": "Holm Smidt",
     "label": "Student",
-    "picture": "https://techfolios.github.io/images/holm_headshot_square.png",
+    "picture": "https://techfolios.github.io/images/holm_headshot_square.jpg",
     "email": "hsmidt@hawaii.edu",
     "website": "https://hsmidt.github.io",
-    "summary": "I am a graduate student at the University of Hawai`i at Mānoa seeking my MS in Computer Sciences. I hold a MS in Mechanical Engineering and my recent work includes engineering design and consulting for energy efficiency and renewable energy integration, development of IoT sensor and control systems, and fullstack development for applications such as smart city data platforms, conference management systems for academic paper submissions/reviews and conference registration.",
+    "summary": "I am a returning graduate student at the University of Hawai`i at Mānoa seeking my MS in Computer Sciences.",
     "location": {
       "address": "",
       "postalCode": "96712",
@@ -29,18 +29,15 @@
   "interests": [
     {
       "name": "web development",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "data mining",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "machine learning",
-      "keywords": [
-      ]
+      "keywords": []
+    },
+    {
+      "name": "software engineering",
+			"keywords": []
     }
   ],
   "skills": [
@@ -50,9 +47,8 @@
       "keywords": [
         "Typescript",
         "Javascript",
-        "Elixir",
         "Python",
-        "C/C++"
+        "Elixir"
       ]
     },
     {
@@ -99,7 +95,10 @@
     {
       "company": "Hawaii International Conference on System Sciences",
       "position": "IT Specialist",
-      "website": "https://hicss-submissions.org",
+      "website": [
+          "https://hicss.hawaii.edu",
+          "https://hicss-submissions.org"
+      ],
       "startDate": "2017-08-01",
       "endDate": "Present",
       "summary": "Development of a Conference Management System for the HICSS conference.",
@@ -114,10 +113,7 @@
         "website": "https://www.bundleregional.com",
         "startDate": "2019-03-01",
         "endDate": "2021-08-13",
-        "summary": "",
-        "highlights": [
-          "Design and development of a digital regional data platform"
-        ]
+        "summary": "Design and development of a regional data platform for digitally connected cities."
     },
     {
       "company": "Hoomaluo Labs, Inc",
@@ -125,15 +121,13 @@
       "website": "",
       "startDate": "2018-10-01",
       "endDate": "2021-08-13",
-      "summary": "Co-founded an engineering startup company focused on distributed sensor and control systems for energy-efficient cold-storage systems. We helped local farmers and entrepreneur receive UDSA REAP funding for adding/upgrading to solar-hybrid cold-storage system.",
+      "summary": "Co-founded an engineering startup company focused on distributed sensor and control systems for energy-efficient cold-storage systems. We helped local farmers and entrepreneur receive UDSA REAP funding for adding/upgrading to solar-hybrid cold-storage systems.",
       "highlights": [
         "Engineering consulting and design",
         "IoT systems for remote temperature monitoring and control"
       ]
     }
   ],
-  "volunteer": [],
-  "awards": [],
   "references": [
     {
       "name": "Available upon request",
