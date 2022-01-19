@@ -2,7 +2,7 @@
   "basics": {
     "name": "Holm Smidt",
     "label": "Student",
-    "picture": "https://techfolios.github.io/images/holm_headshot_square.jpg",
+    "picture": "https://hsmidt.github.io/images/holm_headshot_square.jpg",
     "email": "hsmidt@hawaii.edu",
     "website": "https://hsmidt.github.io",
     "summary": "I am a returning graduate student at the University of Hawai`i at Mānoa seeking my MS in Computer Sciences.",
@@ -95,10 +95,7 @@
     {
       "company": "Hawaii International Conference on System Sciences",
       "position": "IT Specialist",
-      "website": [
-          "https://hicss.hawaii.edu",
-          "https://hicss-submissions.org"
-      ],
+      "website": "https://hicss-submissions.org",
       "startDate": "2017-08-01",
       "endDate": "Present",
       "summary": "Development of a Conference Management System for the HICSS conference.",
