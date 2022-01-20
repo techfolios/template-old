@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: An engineer's path to learning JS
 # All dates must be YYYY-MM-DD format!
-date: 2021-01-19
+date: 2022-01-19
 labels:
   - Javascript
   - Project-based learning
