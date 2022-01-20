@@ -43,15 +43,13 @@ I expect that the WODs will be a good challenge as there's always more than one 
 
 ```js
 function temperatureConverter(degree, unit) {
-	const lookupMap = {
- 		'C': (temp) => (temp * 9/5) + 32,
-        'F': (temp) => (temp - 32) * 5/9,
+  const lookupMap = {
+    'C': (temp) => (temp * 9/5) + 32,
+    'F': (temp) => (temp - 32) * 5/9,
   }
 
-	return lookupMap.hasOwnProperty(unit) ? lookupMap[unit](degree) : 'Illegal temperature type.'
+  return lookupMap.hasOwnProperty(unit) ? lookupMap[unit](degree) : 'Illegal temperature type.'
 }
-
-
 console.log(temperatureConverter(212, 'F'))
 console.log(temperatureConverter(0, 'C'))
 console.log(temperatureConverter(0, 'X'))
