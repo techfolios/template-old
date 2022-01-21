@@ -27,26 +27,24 @@
       </div>
       <div class="center aligned content">
         <div class="description">
-          Interests:
+          Please submit requests below:
           {% for interest in site.data.bio.interests %}
             {{ interest.name }}{% if forloop.last != true %}, {% endif %}
           {% endfor %}
 
         </div>
       </div>
-      <div class="center aligned extra content">
-        {% include home-network-links.html %}
-      </div>
+      
       <div class="center aligned content">
+        <a href="{{ site.baseurl}}/essays/">
+          <button class="ui basic button">Requests</button>
+        </a>
         <a href="{{ site.baseurl}}/projects/">
           <button class="ui basic button">Projects ({{ num_projects }})</button>
         </a>
-        <a href="{{ site.baseurl}}/essays/">
-          <button class="ui basic button">Essays ({{ num_essays }})</button>
-        </a>
-        <a href="{{ site.baseurl}}/bio/">
-          <button class="ui basic button">{{ site.bio-page-label }}</button>
-        </a>
+      </div>
+      <div class="center aligned extra content">
+        {% include home-network-links.html %}
       </div>
     </div>
   </div>

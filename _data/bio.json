@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Chase Miyasato",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://chasem6.github.io/images/Screen Shot 2021-08-25 at 1.21.05 PM.png",
+    "email": "",
+    "phone": "",
+    "website": "https://chasem6.github.io",
+    "summary": "Introduction: bacground etc. I am searching for odd jobs that require less than a weeks worth of time. Gimme cash",
     "location": {
       "address": "",
       "postalCode": "96822",
@@ -16,77 +16,63 @@
     },
     "profiles": [
       {
-        "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
-      },
-      {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "Chase Miyasato",
+        "url": "http://www.linkedin.com/in/chase-miyasato"
       }
+     
+      
     ]
   },
-  "interests": [
+  "bruh": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "submit requests below",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "",
       "keywords": [
       ]
     }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "Languages",
       "level": "",
       "keywords": [
         "C",
         "C++",
         "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "HTML",
+        "CSS",
+        "Meteor",
+        "Mongo",
       ]
     },
     {
-      "name": "Toolsets/OS",
+      "name": "Certifications",
       "level": "",
       "keywords": [
-        "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Lifeguard",
+        "First Aid",
+        "CPR",
+        ""
       ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "area": "Computer Science (expected Fall, 2022)",
+      "studyType": "B.A.",
+      "startDate": "2018-08-01",
       "endDate": "Present",
       "gpa": "",
       "courses": [
@@ -95,71 +81,48 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Whole Foods",
+      "position": "Customer Service",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2020-01-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Answered questions about store policies and addressed customer concerns.",
+        "Promoted customer loyalty and consistent sales by delivering friendly service and knowledgeable assistance. ",
+        "Completed inventory counts and ordered merchandise.",
+        "Operated cash register for cash, check and credit card transactions with accuracy"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "company": "Kamehameha Schools Kapalama",
+      "position": "Student Aide",
+      "website": "",
+      "startDate": "2016-05-01",
+      "endDate": "2019-07-15",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Cleaned, organized and restocked classrooms for upcoming classes.",
+        "Helped teachers prepare instructional material and displays.",
+        "Demonstrated specific skills and activities for over 50 students to improve understanding and take excess workload off teachers.",
+        "Enforced rules and instructions to maintain discipline."
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
+      "organization": "Visitor Industry Beach Cleanups",
+      "website": "",
+      "position": "Volunteer",
       "startDate": "2016-01-01",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
       "summary": "",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Beach cleanups to keep our ocean clean and healthy"
       ]
     }
   ],
-  "awards": [
-    {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
-  ],
+
   "references": [
     {
       "name": "Available upon request",
