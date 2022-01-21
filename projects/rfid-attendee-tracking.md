@@ -13,7 +13,7 @@ labels:
 summary: A internet-connected RFID-based attendee sign-in and tracking system.
 ---
 
-<img class="ui image" src="../images/rfid-attendee-tracking.jpg">
+<img class="ui medium left floated image" src="../images/rfid-attendee-tracking.jpg">
 
 The [Hawaii International Conference on System Science (HICSS)](https://hicss.hawaii.edu) conference is an annual information system conference in Hawaii. HICSS accepts about 700 papers every year with an acceptance rate below 50%. Given these acceptance numbers and its conference locations, the conference is well-visited. During in-person conferences, this used to mean a quite hectic sign-in process and a lot of manual labor to track which sessions/topics are more popular than others. 
 

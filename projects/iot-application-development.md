@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/iot-gdb.png
+image: images/gdb-modelling.png
 title: IoT Application Developement
 permalink: projects/iot-application-framework
 # All dates must be YYYY-MM-DD format!
@@ -13,7 +13,7 @@ labels:
 summary: A framework for prototyping IoT Applications.
 ---
 
-<img class="ui image" src="../images/iot-gdb.png">
+<img class="ui centered large image" src="../images/node-red-flow-2.png">
 
 During and after my graduate studies in the mechanical engineering program, I worked on distributed sensor and control systems in the context of smart grid applications, energy efficiency projects, and simple monitoring, dashboarding, and notification applications. Inspired by a IBM's [course on Node-RED](https://www.ibm.com/blogs/internet-of-things/coursera-iot/) at that time and personal interests in graph databases, our research group put together a little reference architecture for using these tools to develop IoT applications. 
 
