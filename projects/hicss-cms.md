@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/hicss-square.png
 title: HICSS Conference Management System
-permalink: projects/iot-application-framework
+permalink: projects/hicss-cms
 # All dates must be YYYY-MM-DD format!
 date: 2022-01-20
 labels:
