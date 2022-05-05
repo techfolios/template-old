@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "John Ho",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "email": "hojohn3@hawaii.edu",
+    "picture": "https://hojohn3.github.io/images/48A3FBC8-4A66-45FB-97CF-79CB76078326-414B5922-12F6-4707-A29D-6D344AC80828.jpg",
+    "phone": "",
+    "website": "https://hojohn3.github.io",
+    "summary": "I am studying for a B.B.A. in Finance and Management  Information Systems at the University of Hawaii at Manoa. I expect to graduate in Spring, 2022.",
     "location": {
       "address": "",
-      "postalCode": "96822",
+      "postalCode": "",
       "city": "Honolulu",
       "countryCode": "USA",
       "region": "Hawaii"
@@ -17,41 +17,24 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
-      },
-      {
-        "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "hojohn3",
+        "url": "http://github.com/hojohn3"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "Basketball",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Tennis",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Stock Market",
       "keywords": [
       ]
     }
