@@ -1,57 +1,73 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "name": "Duwage Charitha Perera",
+    "label": "(Ph.D. in Chemistry, Explore new materials using computational tools)",
+    "picture": "https://dcperera.github.io/images/6_com.JPG",
+    "email": "charitha.perera@maine.edu",
+    "phone": "",
+    "website": "https://dcperera.github.io",
+    "summary": "I am a PhD candidate in Physical Chemistry in the Chemistry department at the University of Maine. My primary research area is quantum mechanical studies of catalysis using density functional theory. I am currently working on photocatalytic water spitting reaction and metal interactions of glyphosate molecule and its effects on CKDu using density functional theory",
     "location": {
-      "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "address": "Rm 256, Aubert Hall, University of Maine",
+      "postalCode": "04473",
+      "city": "Orono",
       "countryCode": "USA",
-      "region": "Hawaii"
+      "region": "Maine"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "dcperera",
+        "url": "http://github.com/dcperera"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "charitha perera",
+        "url": "http://linkedin.com/in/dcharithaperera"
       },
       {
         "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "username": "d_charitha",
+        "url": "http://twitter.com/d_charitha"
       },
       {
         "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "charitha.p",
+        "url": "https://instagram.com/charitha.p/"
+      },
+      {
+        "network": "researchgate",
+        "username": "Duwage_Perera",
+        "url": "https://researchgate.net/profile/Duwage_Perera"
+      },     
+      {
+        "network": "google scholar",
+        "username": "Duwage C.Perera",
+        "url": "https://scholar.google.com/citations?user=P1japUQAAAAJ&hl=en&authuser=1"
+      },
+      {
+        "network": "youtube",
+        "username": "From ab initio",
+        "url": "https://www.youtube.com/channel/UCqEIdgdJUpfYTsqpLeYj77A"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "Density Functional Theory (DFT)",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Catalysis",
+      "keywords": [
+        "Magnesium Hydroxide",
+        "Zinc Oxide",
+        "Graphene Oxide",
+      ]
+    },
+    {
+      "name": "Ab initio Molecular Dynamics (AIMD)",
       "keywords": [
       ]
     }
@@ -63,10 +79,8 @@
       "keywords": [
         "C",
         "C++",
-        "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Python",
+        "Fortran"
       ]
     },
     {
@@ -77,93 +91,317 @@
         "Ubuntu",
         "Git/GitHub",
         "g++",
-        "TI LaunchPad"
+        "Windows"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "institution": "University of Maine, ME, USA",
+      "area": "Computational Chemistry (expected Spring, 2022: GPA 3.9)",
+      "studyType": "PhD",
+      "startDate": "2016-01-21",
       "endDate": "Present",
-      "gpa": "",
+      "gpa": "3.9",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "University of Ruhuna, Sri Lanka",
+      "area": "Chemistry and Mathematics (GPA 3.3)",
+      "studyType": "BSc Special (Chemistry) ",
+      "startDate": "2010",
+      "endDate": "2014_08",
+      "gpa": "3.3",
       "courses": [
       ]
     }
   ],
-  "work": [
+  
+ 
+  
+  "publications": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
-      "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
+      "name": "Acetic acid and propionic acid decarboxylation on Mg(OH)2 nanoclusters: a density functional theory study",
+      "type": "journal",
+      "author": "Perera, D.C., Hewage, J.W. & Rasaiah, J.C.",
+      "publisher": "J Mater Sci, 55, 16914–16927",
+      "releaseDate": "2020",
+      "website": "https://doi.org/10.1007/s10853-020-05196-z",
+      "summary": ""
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
+      "name": "Theoretical study of catalytic decomposition of acetic acid on MgO nanosurface",
+      "type": "journal",
+      "author": "Duwage C. Perera, Jinasena W. Hewage, Nalin de Silva",
+      "publisher": "Comput. Theor. Chem, 1064, 1-6",
+      "releaseDate": "2015",
+      "website": "http://www.sciencedirect.com/science/article/pii/S2210271X15001619",
+      "summary": ""
     },
     {
-      "organization": "",
+      "name": "Theoretical Study of Stability, Structure, and Optical Spectra of Ultra-Small Silver Clusters Using Density Functional Theory",
+      "type": "journal",
+      "author": "Farshad, Mohsen; Perera, Duwage; Rasaiah, Jayendran",
+      "publisher": "chemrxiv",
+      "releaseDate": "2020",
+      "website": "https://doi.org/10.26434/chemrxiv.13272443.v1",
+      "summary": ""
+    },
+    {
+      "name": "Functional and Basis Set Comparison for Small ZnO Clusters: A Theoretical Level Study",
+      "type": "journal",
+      "author": "Duwage C. Perera and Jayendran C. Rasaiah",
+      "publisher": "Chemrxive",
+      "releaseDate": "2021",
+      "website": "https://doi.org/10.26434/chemrxiv.14593740.v1",
+      "summary": ""
+    },
+    {
+      "name": "Theoretical study of the effect of H2O activation on ZnO clusters on graphene oxide",
+      "type": "journal",
+      "author": "Duwage C. Perera and Jayendran C. Rasaiah",
+      "publisher": "Manuscript on preparation",
+      "releaseDate": "2021",
       "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
+      "summary": ""
+    },
+    {
+      "name": "DFT study on the hydrolysis reaction of (ZnO)3 nanocluster on graphene oxide at the ground and first excited triplet state",
+      "type": "journal",
+      "author": "Duwage C. Perera and Jayendran C. Rasaiah",
+      "publisher": "Manuscript on preparation",
+      "releaseDate": "2021",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Effect of graphene oxide towards the H2 production from the hydrolyzed (ZnO)3 nanocluster: A DFT Study",
+      "type": "journal",
+      "author": "Duwage C. Perera and Jayendran C. Rasaiah",
+      "publisher": "Manuscript on preparation",
+      "releaseDate": "2021",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Exchange Functionals and Basis Sets for Density Functional Theory Study of ZnO Nano clusters in Photocatalytic Reactions",
+      "type": "conference",
+      "author": "Duwage C. Perera (Oral),  and Jayendran C. Rasaiah",
+      "publisher": "University of Maine Student Symposium",
+      "releaseDate": "April 16, 2021",
+      "website": "https://video.maine.edu/media/Kaltura+Capture+recording+-+March+25th+2021",
+      "summary": ""
+    },
+    {
+      "name": "A Density Functional Study of Water Splitting Reaction Pathway on ZnO Nanoclusters",
+      "type": "conference",
+      "author": "Duwage C. Perera (Oral, Invited),  and Jayendran C. Rasaiah",
+      "publisher": "Saint Anselm College, Manchester, NH",
+      "releaseDate": "April 09, 2021",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Density Functional Theory Study of the Effect of Graphene Oxide (GO) on the Hydrolysis Reaction of ZnO Nanoclusters with Water",
+      "type": "conference",
+      "author": "Duwage C. Perera (Poster) and Jayendran C. Rasaiah",
+      "publisher": "Webinar on nanotechnology, iNano 2020, Phronesis LLC, Virtual",
+      "releaseDate": "October 19-20, 2020",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "The Effect of Graphene Oxide in Adsorption of Water on ZnO Clusters: A DFT Study",
+      "author": "Duwage C. Perera (Poster) and Jayendran C. Rasaiah",
+      "type": "conference",
+      "publisher": "LatinXChem Twitter Conference, LatinXChem, Virtual",
+      "releaseDate": "September 7, 2020",
+      "website": "https://twitter.com/d_charitha/status/1302946538956763137",
+      "summary": ""
+    },
+    {
+      "name": "Theoretical study and design of a catalytic reaction using density functional theory: Acetic acid decarboxylation in the gas phase and on Mg(OH)2 nanosurfaces",
+      "author": "Duwage C. Perera (Oral), Jinasena W. Hewage and Jayendran C. Rasaiah",
+      "type": "conference",
+      "publisher": "University of Maine Student Symposium",
+      "releaseDate": "April 10, 2019",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Density Functional Theory Study of Water Splitting on ZnO Catalyst Adsorbed on Graphene Oxide",
+      "author": "Duwage C. Perera (Oral) and Jayendran C. Rasaiah",
+      "type": "conference",
+      "publisher": "APS March meeting, American Physical Society, Boston, MA",
+      "releaseDate": "March 06, 2019",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Theoretical study of the thermal decomposition of acetic acid on Mg(OH)2 nano surface using DFT",
+      "author": "Duwage C. Perera (Poster), Jinasena W. Hewage and Jayendran C. Rasaiah",
+      "type": "conference",
+      "publisher": "256th ACS National Meeting, American Chemical Society, Boston, MA",
+      "releaseDate": "August 19-23, 2018",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Ab initio calculations of catalytic water splitting with ZnO catalyst",
+      "author": "Duwage C. Perera (Poster) and Jayendran C. Rasaiah",
+      "type": "conference",
+      "publisher": "GRS & GRC Meeting, Gordon Research Seminar and Conference, Holderness, NH",
+      "releaseDate": "July 21-27, 2018",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Quantum Mechanical Studies of Catalytic effects on water splitting on ZnO clusters",
+      "author": "Duwage C. Perera (Poster) and Jayendran C. Rasaiah",
+      "type": "conference",
+      "publisher": "ACTC, American Conference on Theoretical Chemistry, Boston, MA",
+      "releaseDate": "July, 2017",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Quantum Mechanical Studies of Catalytic effects on water splitting on ZnO clusters",
+      "author": "Duwage C. Perera (Poster) and Jayendran C. Rasaiah",
+      "type": "conference",
+      "publisher": "CRYSTAL Workshop, Minnesota workshop on ab initio modelling in solid state chemistry with CRYSTAL, Minneapolis, MN",
+      "releaseDate": "July, 2017",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Ab initio studies of Magnesium Hydroxide Nanoparticles as potential catalysts for thermal decomposition of Acetic Acid",
+      "author": "Duwage C. Perera (Poster), Jinasena W. Hewage and Jayendran C. Rasaiah",
+      "type": "conference",
+      "publisher": "ACS - NERM, American Chemical Society North Eastern Regional Meeting, Binghamton, NY",
+      "releaseDate": "October 06, 2016",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Telluride School of Theoretical Chemistry",
+      "author": "",
+      "type": "workshop",
+      "publisher": "Telluride, CO",
+      "releaseDate": "July 29 – August 03, 2019",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "GERA Energy workshop, March meeting APS",
+      "author": "",
+      "type": "workshop",
+      "publisher": "Boston, MA",
+      "releaseDate": "March 03, 2019",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "CITL teaching pilot 5 months program",
+      "author": "",
+      "type": "workshop",
+      "publisher": "University of Maine, Orono, ME",
+      "releaseDate": "January - May, 2019",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "MolSSI software Summer School, Virginia Tech",
+      "author": "",
+      "type": "workshop",
+      "publisher": "Blacksburg, VA",
+      "releaseDate": "July-August 2017",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "The Minnesota Workshop on ab initio modeling in Solid State Chemistry",
+      "author": "",
+      "type": "workshop",
+      "publisher": "Minnesota, MN",
+      "releaseDate": "July 2017",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "ES-2017, Electronic Structure Workshop",
+      "author": "",
+      "type": "workshop",
+      "publisher": "Princeton, NJ",
+      "releaseDate": "June 2017",
+      "website": "",
+      "summary": ""
     }
   ],
+  
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "type": "award",
+      "title": "The Outstanding Teaching Assistant in General Chemistry Award",
+      "date": "2018-2019 Academic year",
+      "awarder": "University of Maine, Orono, ME",
+      "summary": ""
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "type": "award",
+      "title": "3MT (3 Minute Thesis) competition-Third Place",
+      "date": "March 25, 2018",
+      "awarder": "University of Maine, Orono, ME",
+      "summary": ""
+    },
+    {
+      "type": "award",
+      "title": "Wiley Outstanding Poster Award",
+      "date": "July 2017",
+      "awarder": "Minnesota Workshop on ab initio modeling in Solid State Chemistry with CRYSTAL, Minnesota, MN",
+      "summary": ""
+    },
+    {
+      "type": "award",
+      "title": "National Research Council (NRC) merit award For scientific publication for Computational and theoretical chemistry 2015, Vol 1064, pp 1-6",
+      "date": "December 2017",
+      "awarder": "NRC Sri Lanka",
+      "summary": ""
+    },
+    {
+      "type": "grant",
+      "title": "GERA workshop travel grant",
+      "date": "2019",
+      "awarder": "March meeting APS, Boston, MA",
+      "summary": ""
+    },
+    {
+      "type": "grant",
+      "title": "Graduate Student Government (GSG) travel grant in spring cycle",
+      "date": "2019",
+      "awarder": "GSG University of Maine, Orono, ME",
+      "summary": ""
     }
   ],
-  "references": [
+   
+    "work": [
     {
-      "name": "Available upon request",
-      "reference": ""
+      "company": "University of Maine, Orono",
+      "position": "Teaching Assistant",
+      "website": "",
+      "startDate": "2016 January",
+      "endDate": "Present",
+      "summary": "General Chemistry Undergraduate courses (CHY 123 and CHY 124)",
+      
+    },
+    {
+      "company": "University of Ruhuna, Sri Lanka",
+      "position": "Teaching Assistant",
+      "website": "",
+      "startDate": "2014",
+      "endDate": "2015",
+      "summary": "Undergraduate lab courses in Physical Chemistry, Inorganic Chemistry and Organic Chemistry",
+      
     }
   ]
 }
